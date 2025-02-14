@@ -1,0 +1,10 @@
+  name: "Azimut",
+  displayName: "[[]#d2fffe]Azimut[[]]"
+  subtitle: "[[]#c9c1eb]H gone for bread[]"
+  "description": "Developed by one person since July 2024, Azimut is a new HJSON campaign, with new (but in very small quantities) mechanics.
+
+At the moment, all content outside the first sector is experimental and subject to change. (Okay, even the first sector copes with this perfectly).",
+  "author": "DeerCarbonate",
+  "version": "1.0",
+  "minGameVersion": "136",
+  "mods": []
