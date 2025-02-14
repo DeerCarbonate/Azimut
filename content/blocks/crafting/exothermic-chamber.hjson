@@ -1,0 +1,80 @@
+type: GenericCrafter
+name: Exothermic chamber
+description: Burns explosive swartzite, requiring swartzite to stabilize, releases power.
+size: 2
+category: crafting
+squareSprite: true
+requirements: [
+  cobalt/55
+  venerium/25
+  platinum/45
+  geliarin/10
+]
+consumes: {
+  liquids: [
+  swartzite/0.00666666
+  ammonia/0.03333333
+	]
+}
+outputLiquid: power/0.045
+hasLiquids: true
+liquidCapacity: 30
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: swartzite
+      alpha: 0.7
+      padding: 2.05
+    }
+	{
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 12
+      spinSprite: true
+    }
+	{
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 12
+      spinSprite: true
+	  rotation: 45
+    }
+    {    
+      type: DrawDefault
+    }
+	{
+     type: DrawGlowRegion
+	 color: ffb380
+    }
+  ]
+}
+researchCostMultiplier: 0.5
+craftEffect: [{
+      type: RadialEffect
+      rotationSpacing : 90
+      rotationOffset: 0
+      lengthOffset: 4
+      amount: 4
+      effect: {
+          type: ParticleEffect
+          particles: 7
+          length: 90
+          lifetime: 1200
+          sizeFrom: 3
+          sizeTo: 9
+          cone: 2
+          baseRotation: 73
+          useRotation:false
+          interp: pow5Out
+          colorFrom: f8e9a909
+          colorTo: f8e9a900
+          layer: 100.3
+          }
+}
+]

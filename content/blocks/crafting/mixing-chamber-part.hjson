@@ -1,0 +1,82 @@
+type: HeatCrafter
+name: Mixing chamber part
+description: Synthesizes gas geliarin.
+size: 3
+category: crafting
+rotate: false
+squareSprite: false
+liquidCapacity: 100
+liquidOutputDirections: [1]
+requirements: [
+  cobalt/195
+  venerium/55
+  platinum/25
+]
+consumes: {
+  liquids: [
+  ammonia/0.09
+	]
+}
+heatRequirement: 6
+overheatScale: 0.75
+maxEfficiency: 2.5
+hasLiquids: true
+craftEffect: {
+  type: RadialEffect
+  rotationSpacing: 25
+  amount: 4
+  layer: 118
+  effect: {
+    type: ParticleEffect
+    particles: 7
+    length: 14
+    lifetime: 60
+    sizeFrom: 0.3
+    sizeTo: 4.2
+    colorFrom: 9daebf75
+    colorTo: ffffff00
+    layer: 80
+  }
+}
+outputLiquid: gas-geliarin/1
+drawer: {
+  type: DrawMulti
+  drawers: [
+  	    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+	{
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 4
+      spinSprite: true
+    }
+    {
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 4
+      rotation: 30
+      spinSprite: true
+    }
+    {
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 4
+      rotation: 60
+      spinSprite: true
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: gas-geliarin
+      padLeft: 0.3
+      padBottom: 3.11
+      padTop: 0
+      padRight: 0.3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+researchCostMultiplier: 0.5

@@ -1,0 +1,29 @@
+name: Mechanical quarry
+description: Extracts resources from their deposits.
+squareSprite: false
+type: Drill
+health: 500
+category: production
+size: 3
+drillTime: 500
+tier: 1
+liquidBoostIntensity: 1.35
+consumes: {
+  liquid: {
+  liquid: power
+  amount: 0.01666666666666666666666666666667
+  booster: true
+  optional: true
+ }
+}
+requirements: [
+  cobalt/25
+  venerium/5
+]
+research: {
+    planet: gelion
+	parent: core-forum
+	requirements: [
+	  cobalt/10
+	]
+}

@@ -1,0 +1,59 @@
+type: Pump
+name: Cobalt pump
+description: Slowly pumps liquid from liquid tiles.
+size: 2
+category: liquid
+squareSprite: false
+research: mechanical-quarry
+requirements: [
+  cobalt/18
+  venerium/10
+]
+pumpAmount: 0.12
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+  	    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: ammonia
+      padLeft: 1.5
+      padBottom: 1.5
+      padTop: 1.5
+      padRight: 1.5
+    }
+	{
+      type: DrawLiquidTile
+      drawLiquid: isobutane
+      padLeft: 1.5
+      padBottom: 1.5
+      padTop: 1.5
+      padRight: 1.5
+    }
+	{
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 6.5
+      spinSprite: true
+    }
+	{
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 6.5
+      spinSprite: true
+    }
+	{
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 6.5
+      spinSprite: true
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

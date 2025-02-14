@@ -1,0 +1,369 @@
+type: flying
+health: 18000
+name: Perfection
+hitSize: 31.5
+flying: true
+speed: 1.35
+accel: 0.025
+drag: 0.009
+armor: 19
+rotateSpeed: 2
+outlineColor: 251b21
+targetair: true
+faceTarget: true
+        engineOffset: 12.4
+        engineColor: f6afdd
+        engineColorInner: FFFFFF
+		engineSize: 8
+lowAltitude: true
+	parts: [
+		{
+			type: HoverPart
+			sides: 4
+			mirror: false
+			radius: 32
+			phase: 90 
+			stroke: 2
+			layerOffset: -0.001
+			color: fbace310
+			y: -1
+		}
+	]
+abilities: [
+        {
+        effect:{
+        type: ParticleEffect 
+        colorFrom: f6afdd
+        colorTo: 6a3fa490
+        lifetime: 65
+        particles: 1
+        cone: 0
+        length: 0
+        baseLength: 0
+        lightScl: 2
+        lightOpacity: 2
+        spin: 0
+        sizeFrom: 2
+        sizeTo: 0 
+        }
+        type : MoveEffectAbility
+        minVelocity: 0.2
+        interval: 0.000000000000000000000000000001
+        rotateEffect: true
+        y : -6.8
+        x : 13
+    }
+	{
+        effect:{
+        type: ParticleEffect 
+        colorFrom: f6afdd
+        colorTo: 6a3fa490
+        lifetime: 65
+        particles: 1
+        cone: 0
+        length: 0
+        baseLength: 0
+        lightScl: 2
+        lightOpacity: 2
+        spin: 0
+        sizeFrom: 2
+        sizeTo: 0 
+        }
+        type : MoveEffectAbility
+        minVelocity: 0.2
+        interval: 0.000000000000000000000000000001
+        rotateEffect: true
+        y : -6.8
+        x : -13
+    }
+]
+weapons: [{
+                mirror: false
+                top: false
+                alternate: false
+                rotate: false
+                x: 0
+                y: 9.5
+                reload: 320
+				layerOffset: -0.001
+			    velocityRnd: 0.4
+				ignoreRotation: false
+				name: Perfection-weapon
+parts: [
+		{
+			suffix: -ret
+			mirror: true
+			outlineColor: 22251b,
+			outlineRadius: 3,
+			progress: charge
+			moveRot: -25
+			moveY: 6.5
+			moveX: 0
+			x: 2.3
+			y: -11
+		}
+		{
+			suffix: -ret
+			mirror: true
+			outlineColor: 22251b,
+			outlineRadius: 3,
+			progress: charge
+			moveRot: -25
+			moveY: 5.5
+			moveX: 0
+			x: 8
+			y: -19
+		}
+	]
+shoot: {
+    type: ShootSpread
+    firstShotDelay: 120
+    }
+            inaccuracy: 0
+            recoil: 1.5
+            shootSound: arta
+            shootEffect: none
+        bullet: {
+			type: BasicBulletType
+			collidesTiles: true
+			collidesGround: true
+			backColor: f6afdd
+			frontColor: ffffff
+			height: 32
+			recoil: 1.2
+			width: 28
+			lifetime: 34
+			sprite: large-bomb
+			damage: 650
+			speed: 6.5
+			trailColor: f6afdd
+			trailLength: 27
+			trailWidth: 4.5
+			spin: 1.2
+			shrinkX: 0.1
+			shrinkY: 0.1
+			despawnSound: strawberrydeath
+			hitSound: strawberrydeath
+	fragOnHit: true
+	fragBullets: 38
+    fragLifeMin: 0.3
+	fragLifeMax: 6
+fragBullet: { 
+    type: ArtilleryBulletType
+    collidesTiles: false
+    collidesAir: true
+    despawnShake: 0
+    absorbable: false
+    hittable: false
+    height: 0
+    width: 0
+	trailEffect: none
+	backColor: ffffff00
+	frontColor: ffffff00
+
+    buildingDamageMultiplier: 1.5
+
+    splashDamageRadius: 65
+    lightOpacity: 0.5
+    splashDamage: 100
+    lightRadius: 30
+    lifetime: 90
+    damage: 50
+    speed: 0
+	pierceCap:300
+	pierceArmor: false
+	
+	suppressionEffectChance: 0
+	
+    smokeEffect: none
+	despawnEffect: none
+	despawnSound: none
+	hitSound: none
+	fragOnHit: true
+	fragBullets: 1
+    fragLifeMin: 0.01
+	fragLifeMax: 0.31
+			fragBullet: {
+type: ArtilleryBulletType
+absorbable: false
+hittable: false
+speed: 8
+collidesGround: true 
+damage: 1
+backColor: ffffff
+frontColor: f6afdd
+trailEffect: none
+backColor: ffffff00
+frontColor: ffffff00
+smokeEffect: none
+	despawnEffect: {
+	    type: MultiEffect,
+    effects: [
+	{
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 42
+    sizeFrom: 0
+    sizeTo: 24
+	strokeFrom: 4
+	strokeTo: 0
+    colorFrom: f6afdd95
+    colorTo: f6afdd00
+    }
+	{
+    type: ExplosionEffect
+
+    lifetime: 48
+
+    waveColor: f6afdd
+    waveStroke: 2.5
+    waveRad: 26
+
+    smokeColor: f6afdd
+    smokeSizeBase: 0
+    smokeSize: 6.5
+    smokes: 5
+
+    sparkColor: f6afdd
+    sparkStroke: 1.8
+    sparkRad: 18
+    sparkLen: 3
+    sparks: 9
+		}
+	]
+}
+}
+}
+  hitEffect: {
+    type: MultiEffect,
+    effects: [
+		{
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 54,
+        sizeFrom: 25,
+        sizeTo: 65,
+        strokeFrom: 7,
+        strokeTo: 2,
+        colorFrom: f6afdd40,
+        colorTo: 6a3fa400,
+        followParent: true,
+        rotWithParent: true,
+		interp: exp5Out
+        sizeInterp: exp5In
+		}
+		{
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 55,
+        sizeFrom: 0,
+        sizeTo: 120,
+        strokeFrom: 12,
+        strokeTo: 0,
+        colorFrom: f6afdd40,
+        colorTo: 6a3fa400,
+        followParent: true,
+        rotWithParent: true,
+		interp: exp5Out
+        sizeInterp: exp5In
+		}
+		{
+					type: ParticleEffect 
+					colorFrom: f6afdd50
+					colorTo: f6afdd10
+					particles: 78
+					length: 170
+					baseLength: 12
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 0
+					sizeFrom: 14.5
+					sizeTo: 0
+					offset: 1
+					lifetime: 555
+		}
+		{
+        type: WaveEffect,
+        startDelay: 30,
+        lifetime: 522,
+        sizeFrom: 39,
+        sizeTo: 39,
+        strokeFrom: 70,
+        strokeTo: 70,
+        colorFrom: f6afdd25,
+        colorTo: f6afdd10,
+        followParent: true,
+        rotWithParent: true,
+		}
+		{
+        type: WaveEffect,
+        startDelay: 555,
+        lifetime: 25,
+        sizeFrom: 39,
+        sizeTo: 0,
+        strokeFrom: 70,
+        strokeTo: 0,
+        colorFrom: f6afdd10,
+        colorTo: f6afdd0,
+        followParent: true,
+        rotWithParent: true,
+		}
+		{
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 30,
+        sizeFrom: 0,
+        sizeTo: 39,
+        strokeFrom: 0,
+        strokeTo: 70,
+        colorFrom: f6afdd0,
+        colorTo: f6afdd10,
+        followParent: true,
+        rotWithParent: true,
+		}
+		{
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 25,
+        sizeFrom: 0,
+        sizeTo: 75,
+        strokeFrom: 0,
+        strokeTo: 6,
+        colorFrom: f6afdd0,
+        colorTo: f6afdd,
+        followParent: true,
+        rotWithParent: true,
+		}
+		{
+        type: WaveEffect,
+        startDelay: 25,
+        lifetime: 522,
+        sizeFrom: 75,
+        sizeTo: 75,
+        strokeFrom: 6,
+        strokeTo: 6,
+        colorFrom: f6afdd0,
+        colorTo: f6afdd,
+        followParent: true,
+        rotWithParent: true,
+		}
+		{
+        type: WaveEffect,
+        startDelay: 555,
+        lifetime: 25,
+        sizeFrom: 75,
+        sizeTo: 0,
+        strokeFrom: 6,
+        strokeTo: 0,
+        colorFrom: f6afdd,
+        colorTo: f6afdd0,
+        followParent: true,
+        rotWithParent: true,
+		}
+	]
+}
+}		
+}
+	]

@@ -1,0 +1,464 @@
+type: ItemTurret
+name: Jannabi
+description: Fires piercing projectiles.
+researchCostMultiplier: 0.5
+size: 4
+health: 2380
+alwaysUnlocked: false
+cooldown: 1200
+shootCone: 9
+recoil: 5
+shootY: 5
+reload: 200.25
+range: 390
+targetAir: true
+moveWhileCharging: true
+targetGround: true
+recoilAmount: 1.8
+restitution: 0.04
+rotateSpeed: 1.25
+shootSound: laser4
+outlineColor: 24241a
+ammoPerShot: 5
+heatRequirement: 14
+shoot: {
+  shots: 1,
+  shotDelay: 10
+}
+  ammoTypes: {
+    geliarin: {
+  type: BasicBulletType,
+  frontColor: ffffff,
+  backColor: 8cd3d5,
+  pierce: true,
+  pierceBuilding: true,
+  pierceCap: 7,
+  hitColor: 8cd3d5,
+  damage: 190,
+  splashDamage: 110,
+  despawnSound: break,
+  hitSound: break,
+  splashDamageRadius: 60,
+  width: 12,
+  height: 25,
+  lifetime: 75,
+  speed: 5.3,
+  hitSize: 12,
+  ammoMultiplier: 2,
+  trailLength: 21,
+  trailWidth: 4.34,
+  trailColor: 8cd3d5,
+  inaccuracy: 0,
+  fragSpread: 5,
+  fragAngle: 5,
+  fragBullets: 3,
+  fragBullets: 5,
+  fragOffsetMin": 0.1,
+  fragOffsetMax": 0.1,
+  fragVelocityMin: 0.1,
+  fragVelocityMax: 0.1,
+  fragOnHit: true
+					fragBullet: {
+					"type": BasicBulletType,
+					"damage": 5,
+					"speed": 9.6,
+					"lifetime": 65,
+					"trailColor": 8cd3d5,
+					"trailWidth": 2,
+					"trailLength": 10,
+					"trailEffect": regenParticle
+					"despawnSound": jumpln,
+					"frontColor": ffffff,
+					"backColor": 8cd3d5,
+					"hitSize": 5,
+					"splashDamage": 10,
+					"splashDamageRadius": 15,
+					"weaveMag": 2,
+					"weaveScale": 3.5,
+					  despawnEffect: {
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 12,
+        sizeFrom: 0,
+        sizeTo: 4,
+        strokeFrom: 0,
+        strokeTo: 2,
+        colorFrom: 8cd3d5,
+        colorTo: ffffff00,
+        followParent: true,
+        rotWithParent: true
+		interp: exp5Out
+		sizeInterp: exp5In
+
+	}
+      }
+  shootEffect: {
+					type: ParticleEffect 
+					colorFrom: ffffff
+					colorTo: 8cd3d5
+					particles: 30
+					cone: 12
+					length: 40
+					baseLength: 5
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 5
+					sizeFrom: 2.1
+					sizeTo: 0.1
+					offset: 1
+  }
+  intervalBullets: 2,
+  intervalRandomSpread: 0,
+  intervalAngle: 0.1,
+  intervalSpread: 50,
+  intervalBullet: {
+			type: BasicBulletType
+			lifetime: 67
+			speed: 3.2
+			frontColor: b2e1e3
+			backColor: 8cd3d5
+			trailColor: b2e1e3
+			trailWidth: 2.6
+			trailLength: 8
+			trailEffect: regenParticle
+			pierce: true
+			pierceBuilding: true
+			pierceCap: 2
+			pierceDamageFactor: 0.1
+			damage: 50
+			weaveMag: 7
+			weaveScale: 9
+      hitEffect: {
+					type: ParticleEffect 
+					colorFrom: ffffff
+					colorTo: b2e1e300
+					particles: 12
+					length: 12
+					baseLength: 2
+					lightScl: 3
+					interp: circleIn
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 1.7
+					sizeTo: 0
+					offset: 1
+  }
+  despawnEffect: {
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 12,
+        sizeFrom: 0,
+        sizeTo: 4,
+        strokeFrom: 0,
+        strokeTo: 4,
+        colorFrom: 8cd3d5,
+        colorTo: ffffff00,
+        followParent: true,
+        rotWithParent: true
+		interp: exp5Out
+		sizeInterp: exp5In
+      }
+  }
+        hitEffect: {
+					type: ParticleEffect 
+					colorFrom: b2e1e390
+					colorTo: b2e1e300
+					particles: 13
+					length: 32
+					baseLength: 2
+					lightScl: 3
+					interp: circleIn
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 1
+					sizeTo: 0
+					offset: 1
+					interp: exp5Out
+					sizeInterp: exp5In
+  }
+  despawnEffect: {
+    type: MultiEffect,
+    effects: [
+      {
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 35,
+        sizeFrom: 0,
+        sizeTo: 30,
+        strokeFrom: 0,
+        strokeTo: 4,
+        colorFrom: 8cd3d5,
+        colorTo: ffffff,
+        followParent: true,
+        rotWithParent: true
+		interp: exp5Out
+		sizeInterp: exp5In
+      },
+      {
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 35,
+        sizeFrom: 0,
+        sizeTo: 25,
+        strokeFrom: 0,
+        strokeTo: 4,
+        colorFrom: 8cd3d5,
+        colorTo: ffffff,
+        followParent: true,
+        rotWithParent: true
+		interp: exp5In
+		sizeInterp: exp5Out
+      }
+	  {
+    type: ParticleEffect
+    baseLength: 15
+	sprite: regenParticle
+    length: 50
+    cone: 180
+    particles: 13
+    lifetime: 38
+    sizeFrom: 2.5
+    sizeTo: 0.225
+    colorFrom: 8cd3d5
+    colorTo: ffffff
+    strokeFrom: 0.6
+    strokeTo: 0.8
+    followParent: true
+    rotWithParent: true
+     }
+	 {
+        type: WaveEffect,
+        startDelay: 35,
+        lifetime: 35,
+        sizeFrom: 25,
+        sizeTo: 0,
+        strokeFrom: 4,
+        strokeTo: 0,
+        colorFrom: 8cd3d5,
+        colorTo: ffffff,
+        followParent: true,
+        rotWithParent: true
+		interp: exp5Out
+		sizeInterp: exp5In
+			}
+		  ]
+		}
+	  }
+	      filt: {
+  type: ArtilleryBulletType,
+  frontColor: ffffff,
+  backColor: ffc55e,
+  pierce: false,
+  hitColor: ffc55e,
+  damage: 70,
+  splashDamage: 80,
+  despawnSound: break,
+  hitSound: break,
+  splashDamageRadius: 20,
+  width: 12,
+  height: 25,
+  lifetime: 75,
+  speed: 5.3,
+  hitSize: 12,
+  ammoMultiplier: 3,
+  trailLength: 21,
+  trailWidth: 4.34,
+  trailColor: ffc55e,
+  inaccuracy: 0,
+  weaveMag: 3,
+  weaveScale: 4.5,
+  intervalBullets: 2
+  bulletInterval: 0.1
+  intervalSpread: 180
+		intervalBullet: {
+type: BasicBulletType
+width: 6
+sprite: "large-orb"
+height: 6
+speed: 1
+collidesGround: true 
+lifetime: 1
+damage: 1
+backColor: ffffff
+frontColor: ffc55e
+hitEffect: {
+type: ParticleEffect 
+lifetime: 70
+colorFrom: ffc55e
+colorTo: ffc55e00
+drag: 0.4
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 1
+sizeFrom: 0
+sizeTo: 2
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+	}
+}
+  fragBullets: 3,
+  fragOnHit: true
+					fragBullet: {
+					"type": BasicBulletType,
+					"damage": 125,
+					"speed": 5,
+					"lifetime": 240,
+					"trailColor": ffc55e,
+					"trailWidth": 2,
+					"trailLength": 45,
+					"despawnSound": jumpln,
+					"frontColor": ffffff,
+					"backColor": ffc55e,
+					"hitSize": 5,
+					"splashDamage": 10,
+					"splashDamageRadius": 15,
+					"weaveMag": 20,
+					"weaveScale": 20,
+					"pierce": true",
+					"pierceBuilding": true,
+					"pierceCap": 7,
+  intervalBullets: 2
+  bulletInterval: 0.1
+  intervalSpread: 180
+		intervalBullet: {
+type: BasicBulletType
+width: 6
+sprite: "large-orb"
+height: 6
+speed: 1
+collidesGround: true 
+lifetime: 1
+damage: 1
+backColor: ffffff
+frontColor: ffc55e
+hitEffect: {
+type: ParticleEffect 
+lifetime: 70
+colorFrom: ffc55e
+colorTo: ffc55e00
+drag: 0.4
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 1
+sizeFrom: 0
+sizeTo: 2
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+}
+		despawnEffect: {
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 32,
+        sizeFrom: 0,
+        sizeTo: 32,
+        strokeFrom: 7,
+        strokeTo: 0,
+        colorFrom: ffc55e95,
+        colorTo: ffc55e00,
+        followParent: true,
+        rotWithParent: true
+		interp: exp5Out
+		sizeInterp: exp5In
+      }
+      }
+    shootEffect: {
+					type: ParticleEffect 
+					colorFrom: ffffff90
+					colorTo: ffc55e30
+					particles: 30
+					cone: 12
+					length: 40
+					baseLength: 5
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 5
+					sizeFrom: 2.1
+					sizeTo: 0.1
+					offset: 1
+  }
+    despawnEffect: {
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 35,
+        sizeFrom: 0,
+        sizeTo: 92,
+        strokeFrom: 13,
+        strokeTo: 0,
+        colorFrom: ffc55e95,
+        colorTo: ffc55e00,
+        followParent: true,
+        rotWithParent: true
+		interp: exp5Out
+		sizeInterp: exp5In
+      }
+	}
+   }
+   }
+requirements: [
+  cobalt/450,
+  venerium/250
+  geliarin/100
+  platinum/210
+]
+category: turret
+drawer: {
+  type: DrawTurret
+  basePrefix: ast-
+  heatProgress: heat
+  cooldown: 0.1
+  parts: [
+	{
+      type: RegionPart,
+      suffix: -blade,
+      under: false,
+      mirror: true,
+      heatProgress: heat
+      progress: reload
+	  x: 0,
+	  y: 0,
+	  moveRot: -2.5,
+	  moveY: -0.06,
+	  moveX: 1.6,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	{
+      type: RegionPart,
+      suffix: -caro,
+      under: true,
+      mirror: true,
+      heatProgress: heat
+      progress: reload
+	  x: -1,
+	  y: -1,
+	  moveRot: -3.5,
+	  moveY: -1,
+	  moveX: -1.1,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	{
+      type: RegionPart,
+      suffix: -middle,
+      under: false,
+      mirror: false,
+      heatProgress: heat
+      progress: reload
+	  moveY: 0.75,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+  ]
+}

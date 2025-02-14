@@ -1,0 +1,15 @@
+{
+	"name": "Geliarin",
+	"description": "Extremely light and heat-resistant, needed for above-water and underwater buildings.",
+	"color": "61b98f",
+	"research": "Coreforce",
+	"hardness": 2,
+	"charge": 0.1,
+	"explosiveness": 0,
+	"flammability": 0,
+	"radioactivity": 0,
+	"cost": 2.6,
+	"hiddenOnPlanets": [
+		serpulo,
+	]
+}

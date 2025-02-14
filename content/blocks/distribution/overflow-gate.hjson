@@ -1,0 +1,22 @@
+type: OverflowDuct
+name: Overflow Gate
+description: Let item through. If blocked, output to the side.
+size: 1
+squareSprite: false
+requirements: [
+  cobalt/4
+]
+research: {
+  parent: "bridge-ducts"
+    "requirements": [
+	  "venerium/80"
+	  "cobalt/30"
+	  "platinum/5"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}

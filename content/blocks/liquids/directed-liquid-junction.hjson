@@ -1,0 +1,17 @@
+type: LiquidJunction
+name: Directed junction
+description: Used for crossing two conduits.
+solid: false
+category: liquid
+squareSprite: false
+research: {
+  parent: "directed-conduit"
+  planet: gelion
+    "requirements": [
+	  "venerium/7"
+]
+}
+requirements: [
+  venerium/3
+]
+researchCostMultiplier: 0.5

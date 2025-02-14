@@ -1,0 +1,56 @@
+type: HeatCrafter
+name: Atmospheric extractor cooler
+description: Synthesizes swartzite.
+size: 3
+category: crafting
+rotate: false
+squareSprite: true
+liquidCapacity: 100
+heatRequirement: 6
+requirements: [
+  cobalt/150
+  venerium/75
+  platinum/80
+  geliarin/60
+]
+consumes: {
+  liquids: [
+  gas-isobutane/0.099999999
+	]
+  items: [
+  venerium/2
+  raw-platinum/1
+  ]
+}
+hasLiquids: true
+craftTime: 190
+craftEffect: none
+outputLiquid: swartzite/0.07
+drawer: {
+  type: DrawMulti
+  drawers: [
+  	 {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: gas-isobutane
+    }
+	{
+      type: DrawDefault
+    }
+	{
+	type: drawHeatInput
+	suffix: -heat
+	color: ffb380
+	}
+	{
+      type: DrawGlowRegion
+      layer: 30
+      color: ffb380
+      alpha: 0.5
+    }
+  ]
+}
+researchCostMultiplier: 0.5

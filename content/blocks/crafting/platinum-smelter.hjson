@@ -1,0 +1,75 @@
+type: GenericCrafter
+name: Platinum smelter
+size: 3
+itemCapacity: 30
+category: crafting
+squareSprite: false
+description: Melts platinum, uses raw platinum and isobutane for work.
+ignoreLiquidFullness: true
+research: {
+  parent: "core-forum"
+  planet: gelion
+    "requirements": [
+	  "venerium/40"
+	  "cobalt/30"
+]
+}
+requirements: [
+ cobalt/65
+ venerium/25
+]
+consumes: {
+  items: [
+  raw-platinum/2
+  ]
+  liquids: [
+  isobutane/0.09
+	]
+}
+craftTime: 120
+outputItem: platinum/2
+craftEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      lengthOffset: 6.8
+      effect: surgeCruciSmoke
+    }
+	{
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      lengthOffset: 6.8
+      effect: surgeCruciSmoke
+    }
+	{
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      lengthOffset: 6.8
+      effect: surgeCruciSmoke
+    }
+  ]
+}
+ambientSound: smelter
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: isobutane
+      alpha: 0.6
+      padding: 2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

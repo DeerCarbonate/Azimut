@@ -1,0 +1,6 @@
+type: Floor
+name: "Kitanite floor"
+attributes: {
+	water: -0.65
+}
+variants: 6

@@ -1,0 +1,27 @@
+{
+    "type": "UnitCargoLoader",
+    "name": "Enhanced cargo loader",
+	"squareSprite": false,
+    "description": "Creates a cargo drone. The drone automatically moves resources from the loader to the unloader.",
+    "size": 3,
+    "health": 400,
+    "unitType": "enchanced-cargo-drone",
+    "itemCapacity": 150,
+    "separateItemCapacity": true,
+    "requirements": 
+    [
+		"cobalt/200",
+		"geliarin/200",
+		"venerium/160",
+	],
+    "category": "distribution",
+    "buildTime": 400,
+    "hasItems": true,
+    "hasPower": false,
+    "hasLiquids": true,
+	consumes: {
+  liquids: [
+  ammonia/0.5
+	]
+}
+}

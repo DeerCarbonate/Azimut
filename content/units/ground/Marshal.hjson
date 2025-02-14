@@ -1,0 +1,91 @@
+{
+	"name": "Marshal",
+	"type": mech,
+	"flying": false,
+	"rotateSpeed": 1.55,
+	"omniMove": true,
+	"outlineColor": 22251b,
+	"outlineRadius": 3,
+	"alwaysUnlocked": true,
+	"range": 100,
+	"armor": 3.5,
+	"stepshake": 1.5,
+	"health": 2150,
+	"speed": 0.41,
+	"size": 100,
+	"hitSize": 21.2,
+	"mechLegColor": 0f1405,
+	"mechFrontSway": 0.4,
+	"mechStepParticles": true,
+	"hitboxSize": [9.0, 9.0],
+	"mass": 3.42,
+	"faceTarget": true,
+	"squareShape": true,
+    "canBoost": false,
+	"description": "Quickly fires homing projectiles with a wide spread.",
+	parts: [
+		{
+        type: RegionPart
+        suffix: -heat
+        progress: warmup
+        blending: additive
+        color: 30fdf3
+        layerOffset: -0.1
+        outline: false
+		}
+		]
+	weapons: [
+		{
+		"name": Marshal-weapon,
+		"x": 6.5,
+		"y": -4.3,
+		"cooldowntime": 120,
+		"rotationLimit": 70,
+		"mirror": true,
+		"alternate": true,
+		"rotate": true,
+		"rotateSpeed": 5,
+		"reload": 16,
+		"shootSound": cannon_shoot_1,
+		"controllable": true,
+		"aiControllable": true,
+		shoot: {
+			type: ShootSpread
+			shots: 2
+			spread: 3
+		}
+		bullet: {
+		shootEffect: {
+		type: ParticleEffect 
+			colorFrom: cc918b
+			colorTo: ffbfad
+			particles: 3
+			cone: 12
+			length: 12
+			baseLength: 5
+			lightScl: 3
+			lightOpacity: 2
+			spin: 3
+			sizeFrom: 2.1
+			sizeTo: 0.1
+			offset: 1
+		}
+		type: BasicBulletType
+		damage: 28
+		lifetime: 25
+		width: 6.2
+		height: 15
+		speed: 6
+		backColor: ffbfad
+		frontColor: cc918b
+		trailColor: cc918b
+		trailWidth: 1.6
+		trailLength: 6
+		weaveMag: 4
+		weaveScale: 4
+		homingPower: 0.08
+        homingDelay: 0.1
+		}
+	}
+	]
+}		

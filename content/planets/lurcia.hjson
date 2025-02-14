@@ -1,0 +1,76 @@
+//localizedName: Lurcia
+generator: "PlanetGenerator"
+
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "sand"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]
+
+itemWhitelist: [
+cobalt
+geliarin
+venerium
+platinum
+]
+
+clearSectorOnLose: true
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+
+allowWaveSimulation: true
+prebuildBase: true
+parent: gelion
+solarSystem: sun
+radius: 0.1
+minZoom: 0.8
+sectorSize: 0.8
+startSector: 10
+atmosphereRadIn: 0
+atmosphereRadOut: 0
+atmosphereColor: 000000 
+iconColor: bad5cd     
+icon: planet
+orbitRadius: 1.9 
+orbitTime: 34
+bloom: false
+alwaysUnlocked: false
+accessible: false
+visible: true
+allowLaunchToNumbered: false   
+mesh: [
+ {
+    type: NoiseMesh
+	bloom: true
+    seed: 538
+    color1: 6e7080
+    color2: b9c4d8
+    divisions: 2.8
+    radius: 0.1
+    octaves: 5
+    persistence: 0.43
+	coct: 1.5
+    cper: 2.1
+    scl: 0.54
+    mag: 1.2
+ }
+]

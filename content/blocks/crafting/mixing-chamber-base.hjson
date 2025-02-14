@@ -1,0 +1,65 @@
+type: GenericCrafter
+name: Mixing chamber base
+description: Synthesizes geliarin.
+size: 3
+category: crafting
+rotate: false
+squareSprite: false
+liquidCapacity: 100
+requirements: [
+  cobalt/95
+  venerium/150
+  platinum/55
+]
+consumes: {
+  liquids: [
+  gas-geliarin/0.955
+	]
+  items: [
+  cobalt/3
+  ]
+}
+hasLiquids: true
+craftTime: 190
+craftEffect: none
+outputItem: geliarin/2
+drawer: {
+  type: DrawMulti
+  drawers: [
+  	    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: gas-geliarin
+      padLeft: 0.3
+      padBottom: 0
+      padTop: 3.11
+      padRight: 0.3
+    }
+    {
+      type: DrawCircles
+      color: 9daebf10
+      strokeMax: 2.1
+      radius: 10
+      amount: 1.8
+    }
+	{
+      type: DrawCircles
+      color: 9daebf40
+      strokeMax: 1.4
+      radius: 9
+      amount: 1.5
+    }
+	{
+      type: DrawDefault
+    }
+	 {
+      type: DrawRegion
+      suffix: -overlay
+      layer: 1
+    }
+  ]
+}
+researchCostMultiplier: 0.5

@@ -1,0 +1,39 @@
+type: HeatProducer
+size: 2
+name: Power heater
+heatOutput: 6
+research: {
+  parent: "isobutane-burner"
+  planet: gelion
+    "requirements": [
+	  "venerium/50"
+	  "cobalt/10"
+	  "platinum/30"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}
+requirements: [
+  venerium/20
+  platinum/35
+]
+consumes: {
+  liquids: [
+  power/0.03
+	]
+}
+category: crafting
+drawer: [
+  {
+  type: drawDefault
+  }
+  {
+  type: drawHeatOutput
+  suffix: -heat
+  color: ffb380
+  }
+]

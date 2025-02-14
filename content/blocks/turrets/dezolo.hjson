@@ -1,0 +1,189 @@
+type: ItemTurret
+outlineColor: 24241a
+name: Dezolo
+description: Fires a penetrating projectile at enemies.
+researchCostMultiplier: 0.5
+outlineColor: 2d2f39
+size: 3
+health: 1050
+ammoPerShot: 5
+alwaysUnlocked: false
+research: {
+  parent: "yongsin"
+  planet: "gelion"
+    "requirements": [
+	  "venerium/80"
+	  "cobalt/20"
+	  "platinum/30"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}
+cooldown: 1200
+shootCone: 9
+recoil: 2
+shootY: 1.4
+reload: 160
+range: 300
+targetAir: true
+moveWhileCharging: true
+targetGround: true
+moveWhileCharging: true
+recoilAmount: 1.8
+restitution: 0.04
+rotateSpeed: 2.205
+shootSound: energy-blade-launch
+  shoot: {
+    type: ShootSpread
+    firstShotDelay: 60
+    }
+ammoTypes: {
+  venerium: {
+  type: BasicBulletType,
+  frontColor: ffffff,
+  backColor: fff5b0,
+  hitColor: fff5b0,
+  damage: 150,
+  despawnSound: energy-blade-hit,
+  lifetime: 6.54,
+  speed: 45.5,
+  drag: -0.020,
+  hitSize: 8,
+  ammoMultiplier: 2,
+  trailLength: 54,
+  trailWidth: 3,
+  trailColor: fff5b0,
+  pierce: true,
+  pierceBuilding: true,
+  pierceCap: 2,
+      fragBullets: 12
+      fragRandomSpread: 13.5
+      fragVelocityMin: 0.3
+      fragVelocityMax: 0.8
+      fragBullet: {
+        speed: 1
+        lifetime: 23
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 2
+        pierceDamageFactor: 0.01
+        drag: 0.06
+        damage: 0.5
+        sprite: mine-bullet
+        width: 4
+        height: 24
+        shrinkY: 0.25
+        shrinkX: 1
+        frontColor: fff5b0
+        backColor: 00000000
+        hitColor: fff5b0
+        despawnEffect: none
+        hitEffect: hitBulletColor
+		}
+      hitEffect: {
+					type: ParticleEffect 
+					colorFrom: ffffff
+					colorTo: fff5b000
+					particles: 12
+					length: 21
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 1.7
+					sizeTo: 0
+					offset: 1
+  }
+  despawnEffect: {
+					type: ParticleEffect 
+					colorFrom: ffffff
+					colorTo: fff5b010
+					particles: 17
+					cone: 7
+					length: 26
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 7.5
+					sizeTo: 0
+					offset: 1
+    }
+	  shootEffect: {
+					type: ParticleEffect 
+					colorFrom: ffffff
+					colorTo: fff5b040
+					particles: 24
+					cone: 7
+					length: 42
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 1.7
+					sizeTo: 0
+					offset: 1
+					}
+  }
+}
+hasPower: false
+hasLiquids: false
+shoot: {
+  shots: 1
+  shotDelay: 30
+}
+requirements: [
+  cobalt/65,
+  venerium/120
+  platinum/85
+]
+category: turret
+drawer: {
+  type: DrawTurret
+  basePrefix: ast-
+  heatProgress: charge
+  cooldown: 0.1
+  parts: [
+	{
+      type: RegionPart,
+      suffix: -lade,
+      under: true,
+      mirror: true,
+      heatProgress: heat,
+      progress: reload,
+	  x: 0,
+	  y: 0,
+	  moveRot: -42,
+	  moveX: 4.5,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+		{
+      type: RegionPart,
+      suffix: -blade,
+      under: true,
+      mirror: true,
+      heatProgress: heat,
+      progress: reload,
+	  x: 0,
+	  y: 0,
+	  moveRot: -62,
+	  moveX: 8.5,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	{
+      type: RegionPart,
+      suffix: -blade,
+      under: false,
+      mirror: true,
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Raw platinum",
+	"description": "Needs heat treatment",
+	"color": "6e707f",
+	"research": "cobalt",
+	"hardness": 1,
+	"charge": 0.0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"radioactivity": 0,
+	"cost": 2.4,
+	"hiddenOnPlanets": [
+		serpulo,
+	]
+}

@@ -1,0 +1,23 @@
+type: Sorter
+name: Filter
+description: Skips selected items.
+health: 30
+category: distribution
+requirements: [
+  cobalt/4
+  venerium/2
+]
+research: {
+  parent: "bridge-ducts"
+    "requirements": [
+	  "cobalt/30"
+	  "platinum/10"
+	  "venerium/20"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}

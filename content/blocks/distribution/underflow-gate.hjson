@@ -1,0 +1,24 @@
+type: OverflowDuct
+name: Underflow Gate
+description: Inverted version of item gate.
+size: 1
+squareSprite: false
+invert: true
+requirements: [
+  cobalt/4
+  venerium/2
+]
+research: bridge-ducts
+research: {
+  parent: "bridge-ducts"
+    "requirements": [
+	  "cobalt/50"
+	  "platinum/10"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+type: DirectionLiquidBridge
+name: Directed liquid bridge
+description: Transports liquids over terrain or buildings.
+size: 1
+category: liquid
+squareSprite: false
+research: {
+  parent: "directed-liquid-junction"
+  planet: gelion
+    "requirements": [
+	  "venerium/12"
+	  "cobalt/6"
+]
+}
+requirements: [
+  cobalt/4
+  venerium/4
+]
+range: 6

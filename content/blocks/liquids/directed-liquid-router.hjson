@@ -1,0 +1,22 @@
+type: LiquidRouter
+name: Directed router
+squareSprite: false
+description: Distributes inputted liquids to three outputs equally.
+size: 1
+solid: false
+underBullets: true
+health: 45
+liquidCapacity: 20
+category: liquid
+research: {
+  parent: "directed-liquid-junction"
+  planet: gelion
+    "requirements": [
+	  "venerium/10"
+]
+}
+requirements: [
+  venerium/6
+  cobalt/2
+]
+researchCostMultiplier: 0.5

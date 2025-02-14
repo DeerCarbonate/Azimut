@@ -1,0 +1,14 @@
+localizedName: Arrival
+description: Your first sector on a new planet.
+captureWave: 6
+alwaysUnlocked: true
+addStartingItems: false
+startWaveTimeMultiplier: 6
+useAI: false
+showSectorLandInfo: true
+planet: gelion
+name: first
+sector: 1
+research: {
+	parent: "core-forum"
+}

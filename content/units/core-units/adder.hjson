@@ -1,0 +1,29 @@
+	"type": "flying",
+	"outlineColor": "21202a",
+	"name": "Adder",
+	"description": "Guard of the core forum.",
+	"flying": true,
+	"health": 390,
+	"hitSize": 9.655,
+	"buildSpeed": 1.5,
+	"drag": 0.045,
+	"mineTier": 1,
+    "mineSpeed": 7.3,
+    "buildRange": 125.55,
+	"speed": 2,
+	"range": 210.55,
+	"accel": 0.6,
+	"targetGround": true,
+	"targetAir": true,
+	"rotateSpeed": 6.125,
+	"engineColor": bf92f9,
+	abilities: [
+	{
+		type: MoveEffectAbility
+		y: -5.25
+		effect: missileTrailShort
+		interval: 0.00000001
+		color: bf92f9
+		teamColor: false
+	}
+]

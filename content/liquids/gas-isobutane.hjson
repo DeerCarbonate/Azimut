@@ -1,0 +1,13 @@
+name: Gas isobutane
+description: Used to create swartzite.
+heatCapacity: 0
+explosiveness: 0
+temperature: 0.25
+coolant: false
+gas: true
+color: d6bb9d00
+flammability: 0
+gasColor: cf9f6c00
+barColor: cf9f6c33
+incinerable: false
+lightColor: ffffff00

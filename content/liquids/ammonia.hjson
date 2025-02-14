@@ -1,0 +1,32 @@
+{
+  "name": "Ammonia",
+  "description": "It is in a liquid state and is used as a solvent.",
+  "color": "ceddd4",
+  "barColor": "ceddd4",
+  "gasColor": "b6cebf92",
+  "lightColor": "b6cebf92",
+research: {
+  parent: "venerium"
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}
+  "temperature": 0.1,
+  "flammability": 0.01,
+  "explosiveness": 0.03,
+  "liquid": true,
+  "explosive": false,
+  "liquid": {
+    "cap": 3,
+    "explosive": true,
+    "flammable": true,
+    "viscosity": 0.07,
+	"heatCapacity": 0.05,
+  }
+  "hiddenOnPlanets": [
+		"serpulo",
+	]
+}

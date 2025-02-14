@@ -1,0 +1,16 @@
+{
+	"name": "Venerium",
+	"description": "An exclusive material for the planet, it has unusually high strength and gives off a pink tint.",
+	"color": "c5b787",
+	"research": "cobalt",
+	"hardness": 1,
+	"charge": 0.0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"radioactivity": 0.2,
+	"cost": 1.9,
+	"hiddenOnPlanets": [
+		serpulo,
+		erekir
+	]
+}

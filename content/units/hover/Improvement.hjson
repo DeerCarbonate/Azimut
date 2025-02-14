@@ -1,0 +1,159 @@
+{
+	"name": "Improvement",
+	"type": hover,
+	"useEngineElevation": false,
+	"shadowElevation": 0.3,
+	"engineOffset": -1.75,
+	"engineSize": 0,
+	"flying": false,
+	"outlineColor": 251b21,
+	"outlineRadius": 3,
+	"alwaysUnlocked": true,
+	"range": 100
+	"armor": 3,
+	"health": 760,
+	"hovering": true,
+	"speed": 1.45,
+	"size": 130,
+	"hitSize": 13.0,
+	"hitboxSize": [9.0, 9.0],
+	"drag": 0.03,
+	"description": "Destabilizing its core, it fires a shot of homing bullets.",
+	abilities: [
+        {
+        effect: {
+        type: ParticleEffect 
+		y: -1
+        colorFrom: f6afdd
+        colorTo: 6a3fa490
+		lifetime: 25
+        particles: 1
+        cone: 360
+        length: 0
+        baseLength: 0
+        lightScl: 2.5
+        lightOpacity: 2
+        spin: 0
+        sizeFrom: 1.6
+        sizeTo: 0 
+        offset: 0
+        }
+        type : MoveEffectAbility
+        minVelocity: 0
+        interval: 0.00000001
+        y : -1
+        x : 0
+    }
+]
+	parts: [
+		{
+			type: HoverPart
+			x: 3.4
+			y: 3.7
+			sides: 4
+			mirror: true
+			radius: 6
+			phase: 90
+			stroke: 2
+			layerOffset: -0.001
+			color: fbace3
+		}
+		{
+			type: HoverPart
+			x: 4.25
+			y: -3
+			sides: 4
+			mirror: true
+			radius: 6
+			phase: 90
+			stroke: 2
+			layerOffset: -0.001
+			color: fbace3
+		}
+		{
+			type: HoverPart
+			sides: 4
+			mirror: false
+			radius: 12.75
+			phase: 90
+			stroke: 2
+			layerOffset: -0.001
+			color: fbace320
+		}
+	]
+	weapons: [
+		{
+		    name: improvement-weapon
+    layerOffset: -0.01
+    mirror: false
+    reload: 180
+    baseRotation: 180
+    rotate: false
+    rotationLimit: 0.1
+    shootCone: 180
+    inaccuracy: 0
+    velocityRnd: 0.4
+	shootSound: blaster
+    ignoreRotation: true
+	x: 0
+	y: 1.95
+		shoot: {
+        	type: shootSpread
+			shots: 5
+			spread: 5
+		}
+		bullet: {
+        keepVelocity: false
+        lifetime: 110
+        drag: -0.015
+        damage: 29
+        height: 4
+        speed: 1.1
+        width: 4
+        type: BasicBulletType
+        homingPower: 0.08
+        homingDelay: 17
+        frontColor: ffffff
+        backColor: f6afdd
+        trailColor: f6afdd
+        trailWidth: 1
+        trailLength: 12
+		shootEffect: {
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 25,
+        sizeFrom: 0,
+        sizeTo: 3,
+        strokeFrom: 0,
+        strokeTo: 3,
+        colorFrom: f6afdd,
+        colorTo: f6afdd00,
+        followParent: true,
+        rotWithParent: true,
+		interp: exp5Out,
+		sizeInterp: exp5In,
+	despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 22
+    sizeFrom: 0
+    sizeTo: 5
+    colorFrom: f6afdd
+    colorTo: f6afdd00
+    }
+	hitEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 22
+    sizeFrom: 0
+    sizeTo: 5
+    colorFrom: f6afdd
+    colorTo: f6afdd00
+    }
+}
+		}
+	}
+	]
+}

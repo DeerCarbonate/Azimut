@@ -1,0 +1,50 @@
+type: UnitFactory
+health: 1240
+size: 4
+name: Mech Editor
+research: {
+  parent: "core-forum"
+  planet: gelion
+    "requirements": [
+	  "venerium/120"
+	  "cobalt/20"
+	  "platinum/230"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}
+plans: [
+	{
+	unit: Legate
+	requirements: [
+		venerium/80
+		platinum/40
+    	]
+    	time: 1700
+  	}
+	{
+	unit: Marshal
+	requirements: [
+		venerium/125
+		platinum/110
+		cobalt/45
+    	]
+    	time: 2650
+  	}
+]
+
+consumes: {
+	liquid: power/0.15
+}
+configurable: true
+requirements: [
+ 	cobalt/250
+	platinum/120
+	venerium/60
+]
+category: units
+

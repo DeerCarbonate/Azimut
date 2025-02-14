@@ -1,0 +1,22 @@
+{
+    "type": "UnitCargoUnloadPoint",
+    "name": "Enchanced cargo unloader",
+	"squareSprite": false,
+    "description": "Accepts cargo drone items based on the selected resource filter.",
+    "size": 2,
+    "health": 250,
+    "itemCapacity": 80,
+    "liquidCapacity": 0,
+    "separateItemCapacity": true,
+    "requirements": 
+    [
+		"cobalt/100",
+		"geliarin/50"
+	],
+    "category": "distribution",
+    "hasItems": true,
+    "hasLiquids": flase,
+    "outputsLiquid": flase,
+    "outputItems": true,
+    "buildTime": 250,
+}

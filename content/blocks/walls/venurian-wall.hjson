@@ -1,0 +1,16 @@
+type: Wall
+name: Venurian wall
+health: 730
+size: 1
+requirements: [
+  venerium/6
+ ]
+category: defense
+researchCostMultiplier: 0.20
+research: {
+  parent: "yongsin"
+  planet: gelion
+    "requirements": [
+	  "venerium/20"
+]
+}

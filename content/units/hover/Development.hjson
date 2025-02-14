@@ -1,0 +1,166 @@
+type: flying
+health: 6950
+name: Development
+hitSize: 27.5
+flying: true
+speed: 1.95
+accel: 0.04
+drag: 0.013
+armor: 12
+rotateSpeed: 2.95
+outlineColor: 251b21
+targetair: true
+faceTarget: true
+engineOffset: 10.2
+engineColor: f6afdd
+engineColorInner: FFFFFF
+engineSize: 5
+lowAltitude: true
+	parts: [
+		{
+			type: HoverPart
+			sides: 4
+			mirror: false
+			radius: 27
+			phase: 90 
+			stroke: 2
+			layerOffset: -0.001
+			color: fbace310
+			y: -1.2
+		}
+	]
+abilities: [
+        {
+        effect:{
+        type: ParticleEffect 
+        colorFrom: f6afdd
+        colorTo: 6a3fa490
+        lifetime: 65
+        particles: 1
+        cone: 0
+        length: 0
+        baseLength: 0
+        lightScl: 2
+        lightOpacity: 2
+        spin: 0
+        sizeFrom: 2
+        sizeTo: 0 
+		layerOffset: -0.001
+        }
+        type : MoveEffectAbility
+        minVelocity: 0.2
+        interval: 0.000000000000000000000000000001
+        rotateEffect: true
+        y : -4.8 
+        x : 14.8
+    }
+	{
+        effect:{
+        type: ParticleEffect 
+        colorFrom: f6afdd
+        colorTo: 6a3fa490
+        lifetime: 65
+        particles: 1
+        cone: 0
+        length: 0
+        baseLength: 0
+        lightScl: 2
+        lightOpacity: 2
+        spin: 0
+        sizeFrom: 2
+        sizeTo: 0 
+		layerOffset: -0.001
+        }
+        type : MoveEffectAbility
+        minVelocity: 0.2
+        interval: 0.000000000000000000000000000001
+        rotateEffect: true
+        y : -4.8
+        x : -14.8
+    }
+]
+weapons: [{
+                name: Development-weapon
+                mirror: true
+                top: false
+                alternate: true
+                rotate: false
+                x: 7.5
+                y: -5.5
+                reload: 85
+				layerOffset: -0.001
+				baseRotation: -140
+			    velocityRnd: 0.4
+				ignoreRotation: true
+				shootCone: 360
+                shoot: {
+                    shots: 4
+                    shotDelay: 2.5
+            }
+            inaccuracy: 6.5
+            recoil: 1.5
+            shootSound: malignShoot
+            shootEffect: none
+            bullet: {
+                type: BasicBulletType
+                damage: 65
+				drag: 0.011
+                homing: true
+                speed: 8.05
+                sprite: large-bomb
+				rotateSpeed: 7.5
+                lifetime: 62
+                backColor: f6afdd
+                frontColor: ffffff
+                width: 14
+                height: 38
+				recoil: 0.02
+				weaveMag: 3
+				weaveScale: 4
+				homingPower: 0.12
+				homingDelay: 0.05
+		splashDamageRadius: 25
+		splashDamage: 45
+		hitEffect: blastExplosion
+		shootEffect: {
+		type: ParticleEffect 
+			colorFrom: f6afdd
+			colorTo: f6afdd00
+			particles: 12
+			cone: 12
+			length: 24
+			baseLength: 5
+			lightScl: 3
+			lightOpacity: 2
+			spin: 1
+			sizeFrom: 3.5
+			sizeTo: 0 
+			offset: 1
+		}
+despawnEffect: {
+type: ParticleEffect 
+lifetime: 120
+colorFrom: f6afdd
+colorTo: f6afdd00
+drag: 0.7
+particles: 12
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 2
+sizeTo: 0 
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+}
+
+		smokeEffect: shootSmokeDisperse
+		hitColor: f6afdd
+        trailLength: 19
+        trailColor: f6afdd
+               }
+}
+]

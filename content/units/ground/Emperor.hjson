@@ -1,0 +1,590 @@
+{
+	"name": "Emperor",
+	"type": legs,
+	"flying": false,
+	"rotateSpeed": 0.8,
+	"omniMove": true,
+	"outlineColor": 22251b,
+	"outlineRadius": 3,
+	"alwaysUnlocked": true,
+	"lockLegBase": true,
+	"legSplashDamage": 72,
+	"legSplashRange": 56,
+	"fogRadius": 128,
+	"hovering": true,
+	"legStraightLength": 2,
+	"legStraightness": 2,
+	"outlineRadius": 3,
+	"targetAir": true,
+	"legCount": 5,
+	"legExtension": 2,
+	"legMaxLength": 3.1,
+	"legMinLength": 0,
+	"legMoveSpace": 1.5,
+	"legLength": 36,
+	"legLengthScl": 1,
+	"legForwardScl": 0.66,
+	"rippleScale": 0.5,
+	"legspeed": 0.485,
+	"legTrns": 1,
+	"rotateSpeed": 0.875,
+	"range": 45,
+	"legGroupSize": 1,
+	"legContinuousMove": true
+	"accel": 0.5,
+	"armor": 23,
+	"health": 24500
+	"speed": 0.345,
+	"size": 100,
+	"hitSize": 40,
+	"hitboxSize": [9.0, 9.0],
+	"mass": 3.92,
+	"faceTarget": true,
+	"squareShape": true,
+	"canBoost": false,
+	"description": "Shoots shotgun laser beams and energy bolts with penetrating ability.",
+	weapons: [
+		{
+	name: Emperor-weapon
+	inaccuracy: 0
+    mirror: false
+    shootY: 5
+    shake: 0
+	rotateSpeed: 1
+	rotationLimit: 50
+	rotate: true
+    x: 0
+    y: -8
+    cooldownTime: 150
+    reload: 160
+    recoil: 10
+	parts: [
+		{
+			suffix: -r
+			mirror: true
+			outlineColor: 22251b,
+			outlineRadius: 3,
+			progress: recoil
+			moveRot: 15
+			moveY: -3.2
+			moveX: -0.5
+			x: 0
+			y: 0
+		}
+	]
+shoot: {
+	type: shootSpread
+	shots: 5
+	spread: 0.7
+    firstShotDelay: 53
+    lifetime: 65
+}
+    parentizeEffects: true
+effects: [
+    {
+    type: ParticleEffect
+    region: monk-weapon-heat
+    sizeFrom: 50
+    length: 0
+    lifetime: 45
+    particles: 1
+    colorFrom: ffb380
+    colorTo: ffb380
+}
+    ]
+
+    chargeSound: emp-boom
+    shootSound: core_assets_sounds_laser
+    soundPitchMin: 1
+
+bullet: {
+    type: LaserBulletType
+    collidesTeam: false
+    despawnShake: 0
+    largeHit: true
+    sideLength: 0
+    sideAngle: 15
+    sideWidth: 0
+    hitShake: 21
+    length: 270
+    width: 27
+    statusDuration: 1920
+    status: melting
+    lifetime: 30
+    damage: 160
+    colors: [ ffbfad, ffffff ]
+    parentizeEffects: true
+chargeEffect: {
+    type: MultiEffect
+
+effects: [
+    {
+    type: WaveEffect
+    lifetime: 15
+    sizeFrom: 30
+    sizeTo: 3
+    strokeFrom: 0
+    strokeTo: 3
+    colorFrom: ffbfad
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: WaveEffect
+    startDelay: 20
+    lifetime: 17
+    sizeFrom: 0
+    sizeTo: 12
+    strokeFrom: 0
+    strokeTo: 3
+    colorFrom: ffbfad
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: WaveEffect
+    startDelay: 20
+    lifetime: 15
+    sizeFrom: 17
+    sizeTo: 15
+    strokeFrom: 0
+    strokeTo: 5
+    colorFrom: ffbfad
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: WaveEffect
+    startDelay: 20
+    lifetime: 30
+    sizeFrom: 25
+    sizeTo: 0
+    strokeFrom: 0
+    strokeTo: 4
+    colorFrom: ffbfad
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+}
+		{
+	type: WaveEffect
+	startDelay: 20
+	lifetime: 30
+	y: 1.5
+	x: 0
+	sizeFrom: 3.5
+	sizeTo: 1
+	strokeFrom: 2
+	strokeTo: 2
+	colorFrom: ffbfad
+	colorTo: ffffff
+	followParent: true
+    rotWithParent: true
+		}
+		]
+		}
+	}
+    }
+	{
+	name: Emperor-weapontwo
+	inaccuracy: 0
+    mirror: true
+	alternate: false
+	shootSound: lasers
+	baseRotation: -90
+	rotationLimit: 35
+    shootY: 0.01
+    shake: 0
+	rotateSpeed: 3
+	spread: 20
+	rotateLimit: 90
+	rotate: true
+    x: 22
+    y: -2
+    cooldownTime: 150
+    reload: 160
+    recoil: 0.01
+	layerOffset: -0.001
+	parts: [
+		{
+			suffix: -r
+			mirror: true
+			outlineColor: 22251b,
+			outlineRadius: 3,
+			progress: recoil
+			moveRot: 15
+			moveY: -5
+			moveX: -0.5
+			x: 0
+			y: 0
+		}
+	]
+shoot: {
+	type: ShootMulti
+	source: {
+		type: ShootAlternate
+		shots: 1
+		spread: 0
+	}
+	dest: [
+		{
+			type: ShootBarrel
+			shotDelay: 0
+			shots: 1
+			barrels: [
+				13, 11, -2,
+				-13, 11, 2
+			]
+		}
+	]
+}
+    parentizeEffects: true
+effects: [
+    {
+    type: ParticleEffect
+    region: monk-weapon-heat
+    sizeFrom: 50
+    length: 0
+    lifetime: 45
+    particles: 1
+    colorFrom: ffb380
+    colorTo: ffb380
+}
+    ]
+
+    chargeSound: emp-boom
+    shootSound: core_assets_sounds_laser
+    soundPitchMin: 1
+
+bullet: {
+  		type: BasicBulletType
+        collidesGround: true
+        collidesAir: true
+		lifetime: 75
+		speed: 4
+		width: 1
+		height: 1
+		shrinkX: 0
+		shrinkY: 0
+		hitsize: 0
+		sprite: as-none
+		backSprite: as-none
+		hittable: false
+		reflectable: false
+		absorbable: false
+		despawnEffect: none
+		pierce: true
+	    pierceBuilding: true
+		pierceCap: 3
+		pierceDamageFactor: 0.1
+		bulletInterval: 1
+		intervalBullets: 2
+		intervalRandomSpread: 0
+		intervalAngle: 0
+		intervalSpread: 180
+		intervalBullet: {
+			type: LaserBulletType
+			colors: ["cc918b", "ffbfad", "FFFFFF"]
+			lifetime: 5
+	        backColor: cc918b 
+			frontColor: ffbfad
+			trailColor: ffbfad
+			trailWidth: 2.6
+			trailLength: 8
+			pierce: true
+			pierceBuilding: true
+			pierceCap: 3
+			pierceDamageFactor: 0.1
+			damage: 50
+			length: 10
+		}
+chargeEffect: {
+    type: MultiEffect
+
+effects: [
+    {
+    type: WaveEffect
+    lifetime: 15
+    sizeFrom: 30
+    sizeTo: 3
+    strokeFrom: 0
+    strokeTo: 3
+    colorFrom: ffbfad
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+	}
+		]
+		}
+	}
+	}
+		{
+	name: Emperor-weapontwo
+	inaccuracy: 0
+    mirror: true
+	alternate: false
+	shootSound: lasers
+	baseRotation: -60
+	rotationLimit: 35
+    shootY: 0.01
+    shake: 0
+	rotateSpeed: 3
+	spread: 20
+	rotate: true
+    x: 18.2
+    y: 10.3
+    cooldownTime: 150
+    reload: 160
+    recoil: 0.01
+	layerOffset: -0.001
+	parts: [
+		{
+			suffix: -r
+			mirror: true
+			outlineColor: 22251b,
+			outlineRadius: 3,
+			progress: recoil
+			moveRot: 15
+			moveY: -5
+			moveX: -0.5
+			x: 0
+			y: 0
+		}
+	]
+shoot: {
+	type: ShootMulti
+	source: {
+		type: ShootAlternate
+		shots: 1
+		spread: 0
+	}
+	dest: [
+		{
+			type: ShootBarrel
+			shotDelay: 0
+			shots: 1
+			barrels: [
+				13, 11, -2,
+				-13, 11, 2
+			]
+		}
+	]
+}
+    parentizeEffects: true
+effects: [
+    {
+    type: ParticleEffect
+    region: monk-weapon-heat
+    sizeFrom: 50
+    length: 0
+    lifetime: 45
+    particles: 1
+    colorFrom: ffb380
+    colorTo: ffb380
+}
+    ]
+
+    chargeSound: emp-boom
+    shootSound: core_assets_sounds_laser
+    soundPitchMin: 1
+
+bullet: {
+  		type: BasicBulletType
+        collidesGround: true
+        collidesAir: true
+		lifetime: 75
+		speed: 4
+		width: 1
+		height: 1
+		shrinkX: 0
+		shrinkY: 0
+		hitsize: 0
+		sprite: as-none
+		backSprite: as-none
+		hittable: false
+		reflectable: false
+		absorbable: false
+		despawnEffect: none
+		pierce: true
+	    pierceBuilding: true
+		pierceCap: 3
+		pierceDamageFactor: 0.1
+		bulletInterval: 1
+		intervalBullets: 2
+		intervalRandomSpread: 0
+		intervalAngle: 0
+		intervalSpread: 180
+		intervalBullet: {
+			type: LaserBulletType
+			colors: ["cc918b", "ffbfad", "FFFFFF"]
+			lifetime: 5
+	        backColor: cc918b 
+			frontColor: ffbfad
+			trailColor: ffbfad
+			trailWidth: 2.6
+			trailLength: 8
+			pierce: true
+			pierceBuilding: true
+			pierceCap: 3
+			pierceDamageFactor: 0.1
+			damage: 50
+			length: 10
+		}
+chargeEffect: {
+    type: MultiEffect
+
+effects: [
+    {
+    type: WaveEffect
+    lifetime: 15
+    sizeFrom: 30
+    sizeTo: 3
+    strokeFrom: 0
+    strokeTo: 3
+    colorFrom: ffbfad
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+	}
+		]
+		}
+	}
+	}
+			{
+	name: Emperor-weapontwo
+	inaccuracy: 0
+    mirror: true
+	alternate: false
+	shootSound: lasers
+	baseRotation: -30
+	rotationLimit: 35
+    shootY: 0.01
+    shake: 0
+	rotateSpeed: 3
+	spread: 20
+	rotateLimit: 35
+	rotate: true
+    x: 9.8
+    y: 18.8
+    cooldownTime: 150
+    reload: 160
+    recoil: 0.01
+	layerOffset: -0.001
+	parts: [
+		{
+			suffix: -r
+			mirror: true
+			outlineColor: 22251b,
+			outlineRadius: 3,
+			progress: recoil
+			moveRot: 15
+			moveY: -5
+			moveX: -0.5
+			x: 0
+			y: 0
+		}
+	]
+shoot: {
+	type: ShootMulti
+	source: {
+		type: ShootAlternate
+		shots: 1
+		spread: 0
+	}
+	dest: [
+		{
+			type: ShootBarrel
+			shotDelay: 0
+			shots: 1
+			barrels: [
+				13, 11, -2,
+				-13, 11, 2
+			]
+		}
+	]
+}
+    parentizeEffects: true
+effects: [
+    {
+    type: ParticleEffect
+    region: monk-weapon-heat
+    sizeFrom: 50
+    length: 0
+    lifetime: 45
+    particles: 1
+    colorFrom: ffb380
+    colorTo: ffb380
+}
+    ]
+
+    chargeSound: emp-boom
+    shootSound: core_assets_sounds_laser
+    soundPitchMin: 1
+
+bullet: {
+  		type: BasicBulletType
+        collidesGround: true
+        collidesAir: true
+		lifetime: 75
+		speed: 4
+		width: 1
+		height: 1
+		shrinkX: 0
+		shrinkY: 0
+		hitsize: 0
+		sprite: as-none
+		backSprite: as-none
+		hittable: false
+		reflectable: false
+		absorbable: false
+		despawnEffect: none
+		pierce: true
+	    pierceBuilding: true
+		pierceCap: 3
+		pierceDamageFactor: 0.1
+		bulletInterval: 1
+		intervalBullets: 2
+		intervalRandomSpread: 0
+		intervalAngle: 0
+		intervalSpread: 180
+		intervalBullet: {
+			type: LaserBulletType
+			colors: ["cc918b", "ffbfad", "FFFFFF"]
+			lifetime: 5
+	        backColor: cc918b 
+			frontColor: ffbfad
+			trailColor: ffbfad
+			trailWidth: 2.6
+			trailLength: 8
+			pierce: true
+			pierceBuilding: true
+			pierceCap: 3
+			pierceDamageFactor: 0.1
+			damage: 50
+			length: 10
+		}
+chargeEffect: {
+    type: MultiEffect
+
+effects: [
+    {
+    type: WaveEffect
+    lifetime: 15
+    sizeFrom: 30
+    sizeTo: 3
+    strokeFrom: 0
+    strokeTo: 3
+    colorFrom: ffbfad
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+	}
+		]
+		}
+	}
+	}
+	]
+}

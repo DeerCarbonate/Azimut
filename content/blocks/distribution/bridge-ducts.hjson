@@ -1,0 +1,21 @@
+type: DuctBridge
+name: Bridge transport channel
+description: Transports items over building.
+size: 1
+health: 80
+squareSprite: false
+hasPower: false
+solid: false
+speed: 10
+range: 4
+requirements: [
+cobalt/8
+]
+research: {
+  parent: "ducts-router"
+  planet: gelion
+  "requirements": [
+	  "cobalt/20"
+	  "venerium/5"
+]
+}

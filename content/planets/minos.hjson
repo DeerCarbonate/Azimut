@@ -1,0 +1,24 @@
+//localizedName: Minos
+description:
+'''
+White main sequence star.
+'''
+mesh: [
+ {
+    type: SunMesh
+    planet: minos
+    color1: FFFFFF
+    color2: FFFFFF
+  }
+]
+lightColor: e8f3ff
+bloom: true
+parent: sun
+radius: 0.2
+accessible: false
+drawOrbit: false
+orbitRadius: 3000
+orbitSpacing: 23
+solarSystem: sun
+alwaysUnlocked: false
+visible: false

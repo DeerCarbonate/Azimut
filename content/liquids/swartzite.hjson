@@ -1,0 +1,33 @@
+{
+  "name": "Swartzite",
+  "description": "Fuel liquid, flammable.",
+  "color": "e1d2e7",
+  "barColor": "e1d2e7",
+  "gasColor": "e1d2e792",
+  "lightColor": "e1d2e792",
+research: {
+  parent: "power"
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}
+  "temperature": 0.55,
+  "flammability": 0.04,
+  "explosiveness": 0.04,
+  "liquid": true,
+  "explosive": false,
+  "liquid": {
+    "cap": 2.5,
+    "explosive": true,
+    "flammable": true,
+    "viscosity": 0.007,
+	"heatCapacity": 0.06,
+  }
+  "hiddenOnPlanets": [
+		"serpulo",
+		"erekir",
+	]
+}

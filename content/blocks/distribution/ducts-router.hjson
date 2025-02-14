@@ -1,0 +1,13 @@
+type: Router
+name: Router
+description: Distribute items evenly.
+size: 1
+speed: 14
+squareSprite: false
+requirements: [
+  cobalt/2
+]
+research: ducts
+researchCost: [
+  cobalt/12
+]

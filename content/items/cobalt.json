@@ -1,0 +1,16 @@
+{
+	"name": "Cobalt",
+	"description": "An extremely common ore on Gelion. Used to create basic structures and buildings.",
+	"color": "#746971",
+	"research": "core-forum",
+	"hardness": 1,
+	"charge": 0.0,
+	"explosiveness": 0.0,
+	"flammability": 0.0,
+	"radioactivity": 0,
+	"cost": 1.55,
+	"hiddenOnPlanets": [
+		"serpulo",
+		"erekir"
+	]
+}

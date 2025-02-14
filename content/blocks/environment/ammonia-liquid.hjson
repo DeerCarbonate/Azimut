@@ -1,0 +1,17 @@
+type: Floor
+name: "Ammonia"
+
+speedMultiplier: 0.68
+variants: 0
+cacheLayer: "mud" //tar, mud, water, arkycite
+drownTime: 170
+isLiquid: true
+liquidDrop: ammonia
+liquidMultiplier: 0.6
+albedo: 4
+shallow: true
+supportsOverlay: true
+placeableOn: true
+emitLight: true
+lightRadius: 91
+lightColor: "ceddd4c2" //b6cebf7a

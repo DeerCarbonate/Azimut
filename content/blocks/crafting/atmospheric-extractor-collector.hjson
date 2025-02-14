@@ -1,0 +1,45 @@
+type: GenericCrafter
+name: Atmospheric extractor collector
+description: Synthesizes ammonia.
+size: 3
+category: crafting
+rotate: false
+squareSprite: true
+liquidCapacity: 300
+requirements: [
+  cobalt/120
+  venerium/90
+  platinum/90
+  geliarin/15
+]
+consumes: {
+  liquids: [
+  gas-isobutane/0.0999999
+	]
+}
+hasLiquids: true
+craftTime: 200
+craftEffect: none
+outputLiquid: ammonia/0.15
+drawer: {
+  type: DrawMulti
+  drawers: [
+  	    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: gas-isobutane
+    }
+	{
+      type: DrawPistons
+      suffix: -piston
+      sides: 1
+    }
+	{
+      type: DrawDefault
+    }
+  ]
+}
+researchCostMultiplier: 0.5

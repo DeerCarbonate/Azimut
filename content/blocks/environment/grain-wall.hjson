@@ -1,0 +1,3 @@
+name: "Grain wall"
+type: StaticWall
+variants: 4

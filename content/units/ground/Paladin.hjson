@@ -1,0 +1,209 @@
+{
+	"name": "Paladin",
+	"type": legs,
+	"flying": false,
+	"rotateSpeed": 1.55,
+	"omniMove": true,
+	"outlineColor": 22251b,
+	"outlineRadius": 3,
+	"alwaysUnlocked": true,
+	"lockLegBase": true,
+	"hovering": true,
+	"outlineRadius": 3,
+	"targetAir": true,
+	"legCount": 4,
+	"legExtension": 4,
+	"legMaxLength": 2.7,
+	"legMinLength": 0,
+	"legMoveSpace": 0.950,
+	"legLength": 16.5,
+	"legLengthScl": 0.9,
+	"legForwardScl": 0.66,
+	"rippleScale": 0.7,
+	"legspeed": 0.45,
+	"legTrns": 1,
+	"rotateSpeed": 1.8,
+	"range": 200,
+	"legGroupSize": 1,
+	"legContinuousMove": true
+	"accel": 0.5,
+	"armor": 7,
+	"stepshake": 0.1,
+	"health": 5250,
+	"speed": 0.475,
+	"size": 100,
+	"hitSize": 29,
+	"hitboxSize": [9.0, 9.0],
+	"mass": 3.62,
+	"faceTarget": true,
+	"squareShape": true,
+	"canBoost": false,
+	"description": "Fires a burst of 18 lasers and homing projectiles.",
+	weapons: [
+		{
+		"name": Paladin-weapon,
+		"x": 9.78,
+		"y": -3.5,
+		"shootY": 10.85,
+		"shootX": 1.26,
+		"recoil": 1.5,
+		"cooldowntime": 120,
+		"rotationLimit": 120,
+		"mirror": false,
+		"alternate": false,
+		"rotate": true,
+		"rotateSpeed": 2,
+		"reload": 230,
+		inacurrasy": 10,
+		"shootSound": energy-blade-launch,
+		"controllable": true,
+		"aiControllable": true,
+		"shake": 1.7,
+			parts: [
+		{
+			suffix: -blade
+			mirror: false
+			under: true
+			outlineColor: 22251b
+			outlineRadius: 3
+			progress: recoil
+			moveRot: -25
+			moveY: -3.2
+			moveX: -0.3
+			x: 0
+			y: -4.025
+		}
+	]
+		shoot: {
+		shotDelay: 2.5
+		shots: 18
+
+					shootEffect: {
+			type: ParticleEffect 
+			colorFrom: cc918b
+			colorTo: ffbfad00
+			particles: 4
+			cone: 4
+			length: 5
+			baseLength: 3
+			lightScl: 3
+			lightOpacity: 2
+			spin: 1
+			sizeFrom: 1
+			sizeTo: 0
+			offset: 1
+			}
+		}
+		bullet: {
+      type: LaserBulletType
+      colors: [d5917b, d5917b, d5917b]
+      length: 185
+      width: 0.2
+      sideAngle: 90
+      sideWidth: 0.4
+      damage: 27
+      pierceBuilding: false
+      pierce: true
+      pierceCap: 1
+    }
+}
+ {
+    x: -11
+	rotate: true
+	rotateSpeed: 3.5
+	rotationLimit: 120
+    y: -4.6
+	layerOffSet: -0.001
+    name: Paladin-weapontwo
+    reload: 54
+    rotate: true
+    mirror: false
+	alternate: false
+    shootSound: shoot
+	bullet: {
+			  type: BasicBulletType
+			  sprite: missile-large
+			  shootEffect: {
+					type: ParticleEffect 
+					colorFrom: cc918b
+					colorTo: ffbfad00
+					particles: 8
+					cone: 12
+					length: 6
+					baseLength: 5
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 5
+					sizeFrom: 3.2
+					sizeTo: 0
+					offset: 1
+			  }
+			  damage: 65
+		      homingPower: 0.08
+              homingDelay: 0.1
+			  speed: 4
+			  lifetime: 45
+			  width: 8.5
+			  height: 10.5
+			  backColor: cc918b 
+			  frontColor: ffbfad
+			  trailColor: ffbfad
+			  trailWidth: 2.6
+			  trailLength: 8
+			  smokeEffect: none
+			  weaveMag: 3
+			  weaveScale: 4
+			}
+		}
+		{
+    x: -6.5
+	rotate: true
+	rotateSpeed: 3.6
+	rotationLimit: 120
+    y: 4.6
+	layerOffSet: -0.001
+    name: Paladin-weapontwo
+    reload: 54
+    rotate: true
+    mirror: false
+	alternate: false
+    shootSound: shoot
+	bullet: {
+			  type: BasicBulletType
+			  sprite: missile-large
+			  shootEffect: {
+					type: ParticleEffect 
+					colorFrom: cc918b
+					colorTo: ffbfad00
+					particles: 8
+					cone: 12
+					length: 6
+					baseLength: 5
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 5
+					sizeFrom: 3.2
+					sizeTo: 0
+					offset: 1
+			  }
+			  damage: 65
+			  homingPower: 0.08
+			  homingDelay: 0.1
+			  speed: 4
+			  lifetime: 45
+			  width: 8.5
+			  height: 10.5
+			  backColor: cc918b 
+			  frontColor: ffbfad
+			  trailColor: ffbfad
+			  trailWidth: 2.6
+			  trailLength: 8
+			  smokeEffect: none
+			  weaveMag: 3
+			  weaveScale: 4
+			}
+		}
+	]
+}		

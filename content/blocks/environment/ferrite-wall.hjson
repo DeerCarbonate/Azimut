@@ -1,0 +1,3 @@
+name: "Ferrite wall"
+type: StaticWall
+variants: 4

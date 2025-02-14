@@ -1,0 +1,13 @@
+name: Gas geliarin
+description: Used to create solid geliarin.
+heatCapacity: 0
+explosiveness: 0
+temperature: 0.1
+coolant: false
+gas: true
+color: c5dbf100
+flammability: 0
+gasColor: a3f2d000
+barColor: a3f2d0133
+incinerable: false
+lightColor: ffffff00

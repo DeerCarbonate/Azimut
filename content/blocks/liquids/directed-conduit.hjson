@@ -1,0 +1,21 @@
+type: Conduit
+name: Directed conduit
+description: Transports liquids forward.
+category: liquid
+research: {
+  parent: "pump"
+  planet: gelion
+  "requirements": [
+	  "venerium/5"
+]
+}
+requirements: [
+  venerium/1
+]
+health: 25
+leaks: true
+underBullets: true
+researchCostMultiplier: 0.5
+junctionReplacement: directed-liquid-junction
+rotBridgeReplacement: directed-liquid-bridge
+botColor: 3e3e3b

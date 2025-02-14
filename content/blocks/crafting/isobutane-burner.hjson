@@ -1,0 +1,86 @@
+type: GenericCrafter
+name: Isobutabe burner
+description: Burns butane liquid, releasing energy.
+size: 3
+category: crafting
+squareSprite: false
+research: {
+  parent: "platinum-smelter"
+  planet: gelion
+    "requirements": [
+	  "venerium/30"
+	  "cobalt/40"
+	  "platinum/20"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}
+requirements: [
+  cobalt/75
+  venerium/55
+  platinum/15
+]
+consumes: {
+  liquids: [
+  isobutane/0.1
+	]
+}
+outputLiquid: power/0.07
+hasLiquids: true
+liquidCapacity: 60
+craftEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 0
+      rotationOffset: 0
+      lengthOffset: 0
+      effect: surgeCruciSmoke
+    }
+	{
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 0
+      rotationOffset: 0
+      lengthOffset: 0
+      effect: surgeCruciSmoke
+    }
+	{
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 0
+      rotationOffset: 0
+      lengthOffset: 0
+      effect: surgeCruciSmoke
+    }
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: isobutane
+      alpha: 0.7
+      padding: 2.05
+    }
+    {    
+      type: DrawDefault
+    }
+	{
+     type: DrawGlowRegion
+	 color: ff3e01
+    }
+  ]
+}
+researchCostMultiplier: 0.5

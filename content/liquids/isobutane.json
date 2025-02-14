@@ -1,0 +1,25 @@
+{
+  "name": "Isobutane",
+  "description": "Fuel liquid, flammable.",
+  "color": "9a6a58",
+  "barColor": "663f3f",
+  "gasColor": "9a6a5892",
+  "lightColor": "cf9f6c92",
+  "research": "venerium",
+  "temperature": 0.6,
+  "flammability": 0.1,
+  "explosiveness": 0.01,
+  "liquid": true,
+  "explosive": false,
+  "liquid": {
+    "cap": 3,
+    "explosive": true,
+    "flammable": true,
+    "viscosity": 0.001,
+	"heatCapacity": 0.06,
+  }
+  "hiddenOnPlanets": [
+		"serpulo",
+		"erekir",
+	]
+}

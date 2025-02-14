@@ -1,0 +1,15 @@
+{
+	"name": "Platinum",
+	"description": "A metal used in electrochemical interactions.",
+	"color": "9da5b1",
+	"research": "raw-platinum",
+	"hardness": 1,
+	"charge": 0.0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"radioactivity": 0,
+	"cost": 2.4,
+	"hiddenOnPlanets": [
+		serpulo,
+	]
+}

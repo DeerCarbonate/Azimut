@@ -1,0 +1,20 @@
+type: Duct
+name: Transport channel
+description: Transports objects forward.
+underBullets: true
+itemCapacity: 2
+category: distribution
+alwaysUnlocked: false
+speed: 6
+health: 75
+requirements: [
+	cobalt/1
+	]
+		research: {
+    "planet": "gelion",
+	"parent": "mechanical-quarry",
+	"requirements": [
+	  "cobalt/5"
+	]
+}
+bridgeReplacement: bridge-ducts

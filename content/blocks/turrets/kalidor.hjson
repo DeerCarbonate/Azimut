@@ -1,0 +1,128 @@
+type: LaserTurret
+outlineColor: 24241a
+name: Kalidor
+description: Fires a sequential burst of five long-lasting lasers.
+researchCostMultiplier: 0.5
+size: 4
+health: 1025
+alwaysUnlocked: false
+cooldown: 1200
+shootCone: 9
+recoil: 2
+shootY: 1.4
+reload: 190
+range: 219
+shootDuration: 230
+targetAir: true
+moveWhileCharging: true
+targetGround: true
+recoilAmount: 1.8
+restitution: 0.04
+rotateSpeed: 1.25
+shootSound: blasser
+update: true
+heatRequirement: 16
+chargeEffect: {
+    type: MultiEffect
+
+effects: [
+    {
+    type: WaveEffect
+    lifetime: 15
+    sizeFrom: 6
+	particles: 2
+    sizeTo: 1
+    strokeFrom: 0
+    strokeTo: 3
+    colorFrom: ffbfad
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+	}
+	]
+}
+shootType: {
+  type: ContinuousLaserBulletType 
+  shake: 0.2
+  fadeTime: 90
+  alwaysContinuous: false
+  lifetime: 95
+  damageInterval: 20
+  damage: 43
+  length: 235
+  incendChance: 40
+  incendSpread: 18
+  incendAmount: 20
+  width: 2.9
+  splashDamagePierce: true
+  makeFire: false
+  status: melting
+  statusDuration: 480
+  hitEffect: hitBulletColor
+  colors: [ ddb8af, ffffff ]
+  lightColor: ddb8af
+  lightOpacity: 0.7
+  intervalBullets: 2
+  intervalRandomSpread: 1.25
+  intervalAngle: 1.95
+  intervalSpread: 15
+  intervalBullet: {
+	          damage: 35
+              speed: 2.4
+              lifetime: 75
+              width: 8.5
+              height: 10.5
+              backColor: cc918b 
+              frontColor: ffbfad
+              trailColor: ffbfad
+              trailWidth: 1
+              trailLength: 16
+              homingPower: 0.3
+              homingDelay: 30
+              smokeEffect: none
+              weaveMag: 4
+              weaveScale: 5.25
+              pierce: true
+              pierceBuilding: true
+              pierceCap: 2
+	}
+}
+shoot: {
+  shots: 1,
+  shotDelay: 30
+  firstShotDelay: 55
+  type: ShootSpread
+  shots: 5
+  spread: 1.20
+}
+requirements: [
+  cobalt/500,
+  venerium/250
+  platinum/250
+  geliarin/80
+  
+]
+category: turret
+drawer: {
+  type: DrawTurret
+  basePrefix: ast-
+  heatProgress: heat
+  cooldown: 0.1
+  parts: [
+	{
+      type: RegionPart,
+      suffix: -blade,
+      under: false,
+      mirror: true,
+      heatProgress: heat
+      progress: charge
+	  x: 0,
+	  y: 0,
+	  moveRot: -8.5,
+	  moveY: -0.1,
+	  moveX: 0.3
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+  ]
+}

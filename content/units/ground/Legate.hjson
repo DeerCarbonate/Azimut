@@ -1,0 +1,104 @@
+{
+	"name": "Legate",
+	"type": mech,
+	"flying": false,
+	"rotateSpeed": 2.1,
+	"omniMove": true,
+	"outlineColor": 22251b,
+	"outlineRadius": 3,
+	"alwaysUnlocked": false,
+	"armor": 1.5,
+	"stepshake": 1,
+	"health": 930,
+	"speed": 0.48,
+	"size": 100,
+	"hitSize": 14,
+	"mechLegColor": 0f1405,
+	"mechFrontSway": 0.8,
+	"mechStepParticles": true,
+	"hitboxSize": [9.0, 9.0],
+	"mass": 3.2,
+	"faceTarget": true,
+	"squareShape": true,
+    "mass": 1.5,
+	"description": "Fires homing projectiles with a wide spread."
+	research: {
+  parent: "mech-editor"
+  planet: gelion
+    "requirements": [
+	  "venerium/120"
+	  "cobalt/90"
+	  "platinum/200"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}
+	weapons: [
+		{
+		"name": Legate-weapon,
+		"x": 2.5,
+		"y": -4,
+		"shootY": 1.1,
+		"recoil": 1.5,
+		"cooldowntime": 120,
+		"rotationLimit": 190,
+		"mirror": false,
+		"alternate": false,
+		"rotate": true,
+		"rotateSpeed": 2,
+		"reload": 15,
+		inacurrasy": 45,
+		"shootSound": cannon_shoot_1,
+		"controllable": true,
+		"aiControllable": true,
+		"layer": 110,
+		"shake": 1.5,
+		parts: [
+		{
+        type: RegionPart
+        suffix: -heat
+        progress: warmup
+        blending: additive
+        color: 30fdf3
+        layerOffset: -0.1
+        outline: false
+		}
+		]
+		bullet: {
+		shootEffect: {
+		type: ParticleEffect 
+			colorFrom: cc918b
+			colorTo: ffbfad
+			particles: 4
+			cone: 12
+			length: 12
+			baseLength: 5
+			lightScl: 3
+			lightOpacity: 2
+			spin: 1
+			sizeFrom: 1
+			sizeTo: 0 
+			offset: 1
+		}
+		type: BasicBulletType
+		damage: 32
+		lifetime: 10.8
+		width: 6.2
+		height: 15
+		speed: 12.5
+		backColor: ffbfad
+		frontColor: cc918b
+		trailColor: cc918b
+		trailWidth: 2.1
+		trailLength: 3
+		homingPower: 0.3
+		weaveMag: 3
+		weaveScale: 4
+		}
+	}
+	]
+}		

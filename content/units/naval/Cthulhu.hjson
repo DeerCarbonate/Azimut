@@ -1,0 +1,247 @@
+{
+	"name": "Cthulhu",
+	"type": naval,
+	"rotateSpeed": 2,
+	"flying": false,
+	"alwaysUnlocked": true,
+	"range": 175,
+	"outlineColor": 1b1c25,
+	"outlineRadius": 3,
+	"armor": 11,
+	"health": 9500,
+	"speed": 0.7,
+	"size": 146,
+	"hitSize": 40.0,
+	"hitboxSize": [9.0, 9.0],
+	"mass": 3.6,
+	"immunities": [ burning, melting, wet ]
+	"trailLength": 60,
+	"trailWidth": 120,
+	"description": "Fires powerful high-explosive shells that split into mines and shoots shrapnel.",
+		weapons: [
+		{
+			"name": Cthulhu-weapon,
+			"recoil": 2.0,
+			"x": 0,
+			"y": 3.2,
+            "shootY": 2.2,
+			"cooldowntime": 500,
+			"mirror": false,
+			"alternate": false,
+			"rotate": true,
+			"rotateSpeed": 2.5,
+			"reload": 110,
+			"inacurrasy": 2,
+			"shootSound": malignShoot,
+			"shootY": 9.75,
+			
+shoot: {
+  type: ShootBarrel
+  barrels: 3
+  shots: 12
+  shotDelay: 7
+  barrelOffset: 1
+  barrels: [
+    0, 0.5, 0
+    -6, 0, 0,
+    6, 0, 0
+  ]
+}
+    bullet: {
+        type: BasicBulletType
+        damage: 75
+        lifetime: 50
+        width: 6
+        height: 15
+        speed: 7
+        backColor: e5f9f1
+        frontColor: b3eed8
+        trailColor: b3eed8
+        trailWidth: 2
+        trailLength: 6
+	despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 12
+    sizeFrom: 0
+    sizeTo: 12
+    colorFrom: e5f9f1
+    colorTo: b3eed840
+    }
+		hitEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 12
+    sizeFrom: 0
+    sizeTo: 9
+    colorFrom: e5f9f1
+    colorTo: b3eed820
+    }
+    }
+	shootEffect: {
+type: ParticleEffect 
+colorFrom: e5f9f1
+colorTo: b3eed820
+particles: 8
+cone: 4
+drag: 0.3
+length: 8
+baseLength: 5
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 3.5
+sizeTo: 0 
+offset: 1
+}
+  parts: [
+    {  
+      type: RegionPart
+      suffix: -left
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1
+      recoilIndex: 0
+	  outline: false
+    }
+    {
+      type: RegionPart
+      suffix: -middle
+      under: true
+      moveY: -1
+      progress: recoil
+	  outline: false
+    }
+    {  
+      type: RegionPart
+      suffix: -right
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1
+      recoilIndex: 1
+	  outline: false
+    }
+  ]
+}
+		{
+			"name": Cthulhu-weapontwo
+			"recoil": 2.0,
+			"x": 14.325,
+			"y": -11.25,
+            "shootY": 2.2,
+			"cooldowntime": 150,
+			"mirror": true,
+			"alternate": false,
+			"rotate": true,
+			"rotateSpeed": 5.5,
+			"reload": 40,
+			"inacurrasy": 0,
+			"shootSound": auto-cannon-hit,
+			"controllable": true,
+			"aiControllable": true,
+			"layerOffSet": -0.001,
+			"baseRotation": -90,
+	        "rotationLimit": 95,
+			"layerOffset": -0.001,
+			bullet: {
+			type: ArtilleryBulletType
+			backColor: e5f9f1
+			frontColor: b3eed8
+			height: 12
+			width: 12
+			splashDamageRadius: 30
+			splashDamage: 90
+			lifetime: 30
+			speed: 4.1
+			drag: -0.02
+			trailColor: 8edfc1
+			trailLength: 7
+			trailWidth: 2.5
+	despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 24
+    sizeFrom: 0
+    sizeTo: 16
+    colorFrom: e5f9f140
+    colorTo: b3eed8
+    }
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 21
+    offsetX: 2.1
+    sizeFrom: 5
+    sizeTo: 0
+
+    colorFrom: b3eed8
+    colorTo: e5f9f170
+}
+			}
+		}
+				{
+			"name": Cthulhu-weapontwo
+			"recoil": 2.0,
+			"x": 9.85,
+			"y": -18.25,
+            "shootY": 2.2,
+			"cooldowntime": 150,
+			"mirror": true,
+			"alternate": false,
+			"rotate": true,
+			"rotateSpeed": 5.5,
+			"reload": 40,
+			"inacurrasy": 0,
+			"shootSound": auto-cannon-hit,
+			"controllable": true,
+			"aiControllable": true,
+			"layerOffSet": -0.001,
+			"baseRotation": -90,
+	        "rotationLimit": 95,
+			"layerOffset": -0.001,
+			bullet: {
+			type: ArtilleryBulletType
+			backColor: e5f9f1
+			frontColor: b3eed8
+			height: 12
+			width: 12
+			splashDamageRadius: 30
+			splashDamage: 90
+			lifetime: 30
+			speed: 4.1
+			drag: -0.02
+			trailColor: 8edfc1
+			trailLength: 7
+			trailWidth: 2.5
+	despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 24
+    sizeFrom: 0
+    sizeTo: 16
+    colorFrom: e5f9f140
+    colorTo: b3eed8
+    }
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 21
+    offsetX: 2.1
+    sizeFrom: 5
+    sizeTo: 0
+
+    colorFrom: b3eed8
+    colorTo: e5f9f170
+}
+			}
+		}
+	]
+}

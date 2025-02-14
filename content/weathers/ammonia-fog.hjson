@@ -1,0 +1,16 @@
+type: ParticleWeather
+name: Ammonia fog
+noiseColor: d2e7e7
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 0
+sizeMin: 0
+minAlpha: 0.4
+maxAlpha: 0.18
+density: 2400
+baseSpeed: 0.2
+opacityMultiplier: 0.20
+sound: wind
+soundVol: 0.3
+force: 0
