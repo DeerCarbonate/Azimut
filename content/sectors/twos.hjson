@@ -1,12 +1,16 @@
 localizedName: Advance
 description: The sector is an abandoned enemy base, and due to the uselessness and strangeness of the terrain, it has not been restored. Study energy, build new types of turrets for self-defense.
 captureWave: 15
-alwaysUnlocked: false
-addStartingItems: true
-startWaveTimeMultiplier: 6
-useAI: false
-showSectorLandInfo: true
 planet: gelion
 name: twos
-sector: 2
-accesible: false
+sector: 10
+research: {
+parent: first
+requiresUnlock: false
+objectives: [
+{
+type: SectorComplete
+preset: first
+  }
+ ]
+}
