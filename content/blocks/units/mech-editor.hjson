@@ -2,6 +2,7 @@ type: UnitFactory
 health: 1240
 size: 4
 name: Mech Editor
+squareSprite: false
 research: {
   parent: "core-forum"
   planet: gelion
@@ -24,7 +25,7 @@ plans: [
 		venerium/80
 		platinum/40
     	]
-    	time: 1700
+    	time: 1200
   	}
 	{
 	unit: Marshal
@@ -33,18 +34,18 @@ plans: [
 		platinum/110
 		cobalt/45
     	]
-    	time: 2650
+    	time: 2120
   	}
 ]
 
 consumes: {
-	liquid: power/0.15
+	liquid: power/0.14
 }
 configurable: true
 requirements: [
  	cobalt/250
 	platinum/120
-	venerium/60
+	venerium/120
 ]
 category: units
 
