@@ -1,2 +1,5 @@
 type: TreeBlock
 name: Crybalt tree
+clipSize: 192
+shadowAlpha: 0.8
+shadowOffset: -3.2
