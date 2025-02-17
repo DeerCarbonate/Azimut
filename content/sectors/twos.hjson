@@ -1,12 +1,12 @@
 localizedName: Advance
-description: The sector is an abandoned enemy base, and due to the uselessness and strangeness of the terrain, it has not been restored. Study energy, build new types of turrets for self-defense.
-captureWave: 15
+description: "There is a small enemy base in the sector to control territories. Unlock the Legate unit and produce Geliarin, an important resource for new technologies."
+captureWave: 8
 planet: gelion
 name: twos
-sector: 10
+sector: 9
 research: {
 parent: first
-requiresUnlock: false
+requiresUnlock: true
 objectives: [
 {
 type: SectorComplete
