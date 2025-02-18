@@ -53,6 +53,8 @@ ammoTypes: {
   speed: 45.5,
   drag: -0.020,
   hitSize: 8,
+  width: 12
+  height: 24
   ammoMultiplier: 4,
   trailLength: 35,
   trailWidth: 2.2,
@@ -123,10 +125,10 @@ ammoTypes: {
 	{
 			type: ParticleEffect
 			line: true
-			particles: 12
+			particles: 16
 			lifetime: 35
 			interp: circleOut
-			length: 43
+			length: 74
 			cone: -30
 			strokeTo: 0
 			lightColor: fff5b0
