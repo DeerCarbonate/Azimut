@@ -53,9 +53,9 @@ ammoTypes: {
   speed: 45.5,
   drag: -0.020,
   hitSize: 8,
-  ammoMultiplier: 2,
-  trailLength: 54,
-  trailWidth: 3,
+  ammoMultiplier: 4,
+  trailLength: 35,
+  trailWidth: 2.2,
   trailColor: fff5b0,
   pierce: true,
   pierceBuilding: true,
@@ -65,8 +65,8 @@ ammoTypes: {
       fragVelocityMin: 0.3
       fragVelocityMax: 0.8
       fragBullet: {
-        speed: 3
-        lifetime: 23
+        speed: 12
+        lifetime: 12
         pierce: true
         pierceBuilding: true
         pierceCap: 2
@@ -123,10 +123,10 @@ ammoTypes: {
 	{
 			type: ParticleEffect
 			line: true
-			particles: 5
+			particles: 12
 			lifetime: 35
 			interp: circleOut
-			length: 30
+			length: 43
 			cone: -30
 			strokeTo: 0
 			lightColor: fff5b0
