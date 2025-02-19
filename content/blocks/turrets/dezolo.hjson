@@ -250,7 +250,7 @@ drawer: {
 	{
       type: RegionPart,
       suffix: -nade,
-      under: true,
+      under: false,
       mirror: true,
       heatProgress: heat,
       progress: warmup,
@@ -260,12 +260,6 @@ drawer: {
 	  moveY: -1,
       heatColor: ff4500,
       heatLayer: 1,
-    }
-	{
-      type: RegionPart,
-      suffix: -blade,
-      under: false,
-      mirror: true,
     }
   ]
 }
