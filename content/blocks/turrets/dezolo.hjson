@@ -37,17 +37,13 @@ recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 2.205
 shootSound: energy-blade-launch
-  shoot: {
-    type: ShootSpread
-    firstShotDelay: 60
-    }
 ammoTypes: {
   venerium: {
   type: BasicBulletType,
   frontColor: ffffff,
   backColor: fff5b0,
   hitColor: fff5b0,
-  damage: 150,
+  damage: 260,
   despawnSound: energy-blade-hit,
   lifetime: 7.4,
   speed: 41.2,
@@ -100,7 +96,7 @@ ammoTypes: {
 					offset: 1
 					lifetime: 5
   }
-  despawnEffect: {
+  hitEffect: {
     type: MultiEffect,
     effects: [
       {
@@ -160,7 +156,6 @@ hasPower: false
 hasLiquids: false
 shoot: {
   shots: 1
-  shotDelay: 30
 }
 requirements: [
   cobalt/65,
