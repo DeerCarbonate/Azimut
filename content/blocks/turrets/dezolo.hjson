@@ -56,7 +56,7 @@ ammoTypes: {
   trailColor: fff5b0,
   collidesTiles: true
   collidesGround: true
-              bulletInterval: 0.1
+              bulletInterval: 0.07
             intervalRandomSpread: 5
             intervalBullet: {
                 type: BasicBulletType
