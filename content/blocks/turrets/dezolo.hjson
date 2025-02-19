@@ -56,6 +56,56 @@ ammoTypes: {
   trailColor: fff5b0,
   collidesTiles: true
   collidesGround: true
+              bulletInterval: 0.1
+            intervalRandomSpread: 5
+            intervalBullet: {
+                type: BasicBulletType
+                damage: 1
+                length: 15
+                width: 0
+                lightColor: ffffff00
+                instantDisappear: true
+                hittable: false
+                absorbable: false
+                collides: false
+                
+                despawnEffect: {
+                    type: MultiEffect
+                    effects: [
+                        {
+                            type: ParticleEffect
+                            lifetime: 12
+                            particles: 2
+                            baseLength: 3
+                            length: 10
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: fff5b000
+							colorFrom: ffffff
+                            cone: 45
+                            baseRotation: 200
+                        }
+                        {
+                            type: ParticleEffect
+                            lifetime: 16
+                            particles: 2
+                            baseLength: 3
+                            length: 15
+                            line: true
+                            strokeTo: 0.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: fff5b000
+							colorFrom: ffffff
+                            cone: 25
+                            baseRotation: 200
+                        }
+                    ]
+                }
+                keepVelocity: false
+            }
       fragBullets: 12
       fragRandomSpread: 13.5
       fragVelocityMin: 0.3
