@@ -230,6 +230,7 @@ drawer: {
 	  y: 0,
 	  moveRot: -42,
 	  moveX: 4.5,
+	  moveY: -1,
       heatColor: ff4500,
       heatLayer: 1,
     }
@@ -244,6 +245,7 @@ drawer: {
 	  y: 0,
 	  moveRot: -62,
 	  moveX: 8.5,
+	  moveY: -1,
       heatColor: ff4500,
       heatLayer: 1,
     }
