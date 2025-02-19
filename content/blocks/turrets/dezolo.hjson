@@ -58,9 +58,8 @@ ammoTypes: {
   trailLength: 35,
   trailWidth: 2.2,
   trailColor: fff5b0,
-  pierce: true,
-  pierceBuilding: true,
-  pierceCap: 2,
+  collidesTiles: true
+  collidesGround: true
       fragBullets: 12
       fragRandomSpread: 13.5
       fragVelocityMin: 0.3
