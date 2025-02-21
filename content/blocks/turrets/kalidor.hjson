@@ -22,6 +22,12 @@ rotateSpeed: 1.25
 shootSound: blasser
 update: true
 heatRequirement: 16
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
 chargeEffect: {
     type: MultiEffect
 
