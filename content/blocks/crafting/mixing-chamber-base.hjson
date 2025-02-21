@@ -33,7 +33,10 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: gas-geliarin
-      padding: 1
+      padLeft: 0.3
+      padBottom: 0
+      padTop: 3.11
+      padRight: 0.3
     }
     {
       type: DrawCircles
