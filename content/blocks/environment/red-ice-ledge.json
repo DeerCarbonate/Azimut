@@ -7,7 +7,7 @@
 	"light": 0
   },
   "variants": 2
-  "clipSize": 64,
+  "clipSize": 96,
   "shadowAlpha": 1.7,
   "shadowOffset": -1.5
 }

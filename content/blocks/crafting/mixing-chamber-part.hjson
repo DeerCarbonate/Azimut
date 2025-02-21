@@ -69,10 +69,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: gas-geliarin
-      padLeft: 0.3
-      padBottom: 3.11
-      padTop: 0
-      padRight: 0.3
+      padding: 1
     }
     {
       type: DrawDefault
