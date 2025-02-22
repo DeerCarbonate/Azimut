@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Isobutabe burner
+name: Isobutane burner
 description: Burns butane liquid, releasing energy.
 size: 3
 category: crafting
@@ -32,35 +32,29 @@ consumes: {
 outputLiquid: power/0.07
 hasLiquids: true
 liquidCapacity: 60
-craftEffect: {
-  type: MultiEffect
-  effects: [
-    {
+craftEffect: [{
       type: RadialEffect
-      amount: 2
-      rotationSpacing: 180
-      rotationOffset: 90
-      lengthOffset: 4.2
-      effect: surgeCruciSmoke
-    }
-	{
-      type: RadialEffect
-      amount: 2
-      rotationSpacing: 180
-      rotationOffset: 90
-      lengthOffset: 2.7
-      effect: surgeCruciSmoke
-    }
-	{
-      type: RadialEffect
-      amount: 2
-      rotationSpacing: 180
-      rotationOffset: 90
-      lengthOffset: 1
-      effect: surgeCruciSmoke
-    }
-  ]
+      rotationSpacing : 90
+      rotationOffset: 0
+      lengthOffset: 12
+      amount: 5
+      effect: {
+          type: ParticleEffect
+          particles: 7
+          length: 90
+          lifetime: 1200
+          sizeFrom: 3
+          sizeTo: 9
+          cone: 2
+          baseRotation: 73
+          useRotation:false
+          interp: pow5Out
+          colorFrom: 8d655711
+          colorTo: 271b1700
+          layer: 100.3
+          }
 }
+]
 drawer: {
   type: DrawMulti
   drawers: [
