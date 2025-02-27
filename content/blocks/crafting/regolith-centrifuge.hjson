@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: multicraft.MultiCrafter
 name: Regolith centrifuge
 size: 5
 itemCapacity: 200
