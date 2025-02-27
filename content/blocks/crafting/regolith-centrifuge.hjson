@@ -6,6 +6,8 @@ category: crafting
 squareSprite: false
 description: Converts regolith into resources
 ignoreLiquidFullness: true
+menu: transform
+envDisabled: 16
 alwaysUnlocked: true
 requirements: [
  cobalt/850
@@ -82,9 +84,15 @@ drawer: {
 	{
       type: DrawRegion
       suffix: -fan
-      rotateSpeed: 82
+      rotateSpeed: 35
       spinSprite: true
 	  rotation: 45
+    }
+	{
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 35
+      spinSprite: true
     }
     {
       type: DrawDefault
