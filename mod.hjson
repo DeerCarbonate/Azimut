@@ -8,3 +8,4 @@ At the moment, all content outside the first sector is experimental and subject 
   "version": "1.0",
   "minGameVersion": "136",
   "mods": []
+  dependencies: ["multi-crafter"]

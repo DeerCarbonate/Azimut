@@ -1,0 +1,14 @@
+{
+	"name": "Caterium",
+	"description": "A gold-like material used in advanced electrical applications.",
+	"color": "dacaaa",
+	"hardness": 1,
+	"charge": 0.5,
+	"explosiveness": 0,
+	"flammability": 0.02,
+	"radioactivity": 0.1,
+	"cost": 2.4,
+	"hiddenOnPlanets": [
+		serpulo,
+	]
+}
