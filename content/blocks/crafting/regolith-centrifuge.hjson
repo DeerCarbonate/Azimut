@@ -18,7 +18,7 @@ requirements: [
 recipes: [
 {
 input: {
-fluids: [azimut-power/0.35]
+fluids: [azimut-power/0.6]
 items: [
 azimut-regolith/8
 ]
@@ -28,11 +28,11 @@ items: [
 azimut-cobalt/4
 ]
 }
-craftTime: 80
+craftTime: 100
 }
 {
 input: {
-fluids: [azimut-power/0.35]
+fluids: [azimut-power/0.6]
 items: [
 azimut-regolith/8
 ]
@@ -42,11 +42,11 @@ items: [
 azimut-venerium/4
 ]
 }
-craftTime: 80
+craftTime: 100
 }
 {
 input: {
-fluids: [azimut-power/0.4]
+fluids: [azimut-power/0.65]
 items: [
 azimut-regolith/8
 ]
@@ -56,11 +56,11 @@ items: [
 azimut-raw-platinum/3
 ]
 }
-craftTime: 80
+craftTime: 100
 }
 {
 input: {
-fluids: [azimut-power/0.45]
+fluids: [azimut-power/0.7]
 items: [
 azimut-regolith/8
 ]
@@ -70,7 +70,7 @@ items: [
 azimut-caterium/2
 ]
 }
-craftTime: 80
+craftTime: 100
 }
 ]
 ambientSound: smelter
@@ -84,14 +84,14 @@ drawer: {
 	{
       type: DrawRegion
       suffix: -fan
-      rotateSpeed: 15
+      rotateSpeed: 5
       spinSprite: true
 	  rotation: 45
     }
 	{
       type: DrawRegion
       suffix: -fan
-      rotateSpeed: 15
+      rotateSpeed: 5
       spinSprite: true
     }
     {
