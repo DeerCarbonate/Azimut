@@ -5,69 +5,69 @@ itemCapacity: 200
 category: crafting
 squareSprite: false
 description: Converts regolith into resources
-ignoreLiquidFullness: true
+liquidCapacity: 200
 menu: transform
 envDisabled: 16
 alwaysUnlocked: true
 requirements: [
- cobalt/850
- venerium/650
- platinum/550
- geliarin/200
+ azimut-cobalt/850
+ azimut-venerium/650
+ azimut-platinum/550
+ azimut-geliarin/200
 ]
 recipes: [
 {
 input: {
-fluids: [power/0.6]
+fluids: [azimut-power/0.6]
 items: [
-regolith/8
+azimut-regolith/8
 ]
 }
 output: {
 items: [
-cobalt/4
+azimut-cobalt/4
 ]
 }
 craftTime: 100
 }
 {
 input: {
-fluids: [power/0.6]
+fluids: [azimut-power/0.6]
 items: [
-regolith/8
+azimut-regolith/8
 ]
 }
 output: {
 items: [
-venerium/4
+azimut-venerium/4
 ]
 }
 craftTime: 100
 }
 {
 input: {
-fluids: [power/0.65]
+fluids: [azimut-power/0.65]
 items: [
-regolith/8
+azimut-regolith/8
 ]
 }
 output: {
 items: [
-raw-platinum/3
+azimut-raw-platinum/3
 ]
 }
 craftTime: 100
 }
 {
 input: {
-fluids: [power/0.7]
+fluids: [azimut-power/0.7]
 items: [
-regolith/8
+azimut-regolith/8
 ]
 }
 output: {
 items: [
-caterium/2
+azimut-caterium/2
 ]
 }
 craftTime: 100
