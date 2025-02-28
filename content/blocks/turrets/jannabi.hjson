@@ -474,7 +474,7 @@ drawer: {
   progress: {
       type: charge
       op: curve
-      interp: curve
+      interp: slope
         }
 	}
 	{
@@ -491,7 +491,7 @@ drawer: {
   progress: {
       type: charge
       op: curve
-      interp: curve
+      interp: slope
         }
 	}
 	]
