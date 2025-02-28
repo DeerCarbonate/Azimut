@@ -11,7 +11,7 @@ cooldown: 1200
 shootCone: 9
 recoil: 8
 shootY: -7
-reload: 200.25
+reload: 270.25
 range: 390
 targetAir: true
 moveWhileCharging: true
@@ -470,7 +470,8 @@ drawer: {
   radius: 0
   radiusTo: 30
   rotation: 0
-  rotMove: 300
+  rotMove: 150
+  moveY: 20
   progress: {
       type: charge
       op: curve
@@ -487,7 +488,8 @@ drawer: {
   radius: 0
   radiusTo: 30
   rotation: 45
-  rotMove: 150
+  rotMove: 75
+  moveY: 21
   progress: {
       type: charge
       op: curve
