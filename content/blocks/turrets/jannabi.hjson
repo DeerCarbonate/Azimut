@@ -429,9 +429,9 @@ drawer: {
       progress: warmup
 	  x: 0,
 	  y: 0,
-	  moveRot: 1,
+	  moveRot: 4,
 	  moveY: -0.06,
-	  moveX: 2.5,
+	  moveX: 1.9,
       heatColor: ff4500,
       heatLayer: 1,
     }
@@ -455,7 +455,7 @@ drawer: {
       mirror: false,
       heatProgress: heat
       progress: warmup,
-	  moveY: 8
+	  moveY: 12
       heatColor: ff4500,
       heatLayer: 1,
     }
