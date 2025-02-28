@@ -430,7 +430,7 @@ drawer: {
 	  y: 0,
 	  moveRot: -2.5,
 	  moveY: -0.06,
-	  moveX: 1.6,
+	  moveX: 0.4,
       heatColor: ff4500,
       heatLayer: 1,
     }
@@ -441,10 +441,10 @@ drawer: {
       mirror: true,
       heatProgress: heat
       progress: reload
-	  moveY: -0.75,
+	  moveX: 2
       heatColor: ff4500,
       heatLayer: 1,
-	  moveRot: -2.5,
+	  moveRot: 0.2,
 	  moveY: -0.06,
     }
   ]
