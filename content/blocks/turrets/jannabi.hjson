@@ -462,7 +462,7 @@ drawer: {
     }
 	{
   type: FlarePart
-  color1: ffc55e40
+  color1: 8cd3d540
   color2: ffffff70
   y: -1
   followRotation: true
@@ -470,7 +470,7 @@ drawer: {
   radius: 0
   radiusTo: 30
   rotation: 0
-  rotMove: 100
+  rotMove: 300
   progress: {
       type: charge
       op: curve
@@ -479,7 +479,7 @@ drawer: {
 	}
 	{
   type: FlarePart
-  color1: ffc55e40
+  color1: 8cd3d540
   color2: ffffff70
   y: -1
   followRotation: true
@@ -487,7 +487,7 @@ drawer: {
   radius: 0
   radiusTo: 30
   rotation: 45
-  rotMove: 50
+  rotMove: 150
   progress: {
       type: charge
       op: curve
