@@ -25,7 +25,7 @@ heatRequirement: 14
 shoot: {
   shots: 1,
   shotDelay: 10
-  firstShotDelay: 70
+  firstShotDelay: 90
 }
   ammoTypes: {
     geliarin: {
@@ -462,19 +462,36 @@ drawer: {
     }
 	{
   type: FlarePart
-  color1: ffc55e10
-  color2: ffffff30
+  color1: ffc55e40
+  color2: ffffff70
   y: -1
   followRotation: true
-  stroke: 3
+  stroke: 6
   radius: 0
-  radiusTo: 100
+  radiusTo: 30
   rotation: 0
-  rotMove: 20
+  rotMove: 100
   progress: {
       type: charge
       op: curve
-      interp: slope
+      interp: curve
+        }
+	}
+	{
+  type: FlarePart
+  color1: ffc55e40
+  color2: ffffff70
+  y: -1
+  followRotation: true
+  stroke: 6
+  radius: 0
+  radiusTo: 30
+  rotation: 45
+  rotMove: 50
+  progress: {
+      type: charge
+      op: curve
+      interp: curve
         }
 	}
 	]
