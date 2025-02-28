@@ -9,8 +9,8 @@ health: 2380
 alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
-recoil: 5
-shootY: 5
+recoil: 8
+shootY: -2
 reload: 200.25
 range: 390
 targetAir: true
@@ -19,6 +19,7 @@ targetGround: true
 recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 1.25
+shootSound: laser4
 ammoPerShot: 5
 heatRequirement: 14
 shoot: {
