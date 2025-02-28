@@ -3,6 +3,8 @@ name: Jannabi
 description: Fires piercing projectiles.
 researchCostMultiplier: 0.5
 size: 4
+outlineColor: 0c0c12
+outlineColor: 0c0c12
 health: 2380
 alwaysUnlocked: false
 cooldown: 1200
@@ -17,8 +19,6 @@ targetGround: true
 recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 1.25
-shootSound: laser4
-outlineColor: 24241a
 ammoPerShot: 5
 heatRequirement: 14
 shoot: {
@@ -428,9 +428,9 @@ drawer: {
       progress: reload
 	  x: 0,
 	  y: 0,
-	  moveRot: -2.5,
+	  moveRot: -0.1,
 	  moveY: -0.06,
-	  moveX: 0.4,
+	  moveX: 2.5,
       heatColor: ff4500,
       heatLayer: 1,
     }
