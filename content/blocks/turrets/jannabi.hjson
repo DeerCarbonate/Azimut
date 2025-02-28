@@ -10,7 +10,7 @@ alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
 recoil: 8
-shootY: -2
+shootY: -7
 reload: 200.25
 range: 390
 targetAir: true
@@ -25,6 +25,7 @@ heatRequirement: 14
 shoot: {
   shots: 1,
   shotDelay: 10
+  firstShotDelay: 70
 }
   ammoTypes: {
     geliarin: {
@@ -459,5 +460,22 @@ drawer: {
       heatColor: ff4500,
       heatLayer: 1,
     }
-  ]
+	{
+  type: FlarePart
+  color1: ffc55e10
+  color2: ffffff30
+  y: -1
+  followRotation: true
+  stroke: 3
+  radius: 0
+  radiusTo: 100
+  rotation: 0
+  rotMove: 20
+  progress: {
+      type: charge
+      op: curve
+      interp: slope
+        }
+	}
+	]
 }
