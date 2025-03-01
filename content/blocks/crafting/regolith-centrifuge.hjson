@@ -81,20 +81,18 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-	{
+    {
       type: DrawBlurSpin
       suffix: -fan
-      rotateSpeed: 8
-      blurThresh: 10
-      spinSprite: true
-	  rotation: 45
+      blurThresh: 0.10
+      rotateSpeed: 10
+      rotation: 45
     }
-	{
+    {
       type: DrawBlurSpin
       suffix: -fan
-      rotateSpeed: 8
-      blurThresh: 10
-      spinSprite: true
+      blurThresh: 0.10
+      rotateSpeed: 10
     }
     {
       type: DrawDefault
