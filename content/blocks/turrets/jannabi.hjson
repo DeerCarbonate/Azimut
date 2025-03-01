@@ -30,26 +30,25 @@ shoot: {
   ammoTypes: {
     geliarin: {
   type: BasicBulletType,
-  frontColor: ffffff,
-  backColor: 8cd3d5,
+  frontColor: c3feff,
+  backColor: 6585a5,
   pierce: true,
   pierceBuilding: true,
-  pierceCap: 7,
-  hitColor: 8cd3d5,
-  damage: 190,
-  splashDamage: 110,
+  pierceCap: 6,
+  hitColor: 6585a5,
+  splashDamage: 210,
   despawnSound: break,
   hitSound: break,
-  splashDamageRadius: 60,
+  splashDamageRadius: 75,
   width: 12,
-  height: 25,
-  lifetime: 75,
-  speed: 5.3,
+  height: 20,
+  lifetime: 73,
+  speed: 5.5,
   hitSize: 12,
-  ammoMultiplier: 2,
-  trailLength: 21,
-  trailWidth: 4.34,
-  trailColor: 8cd3d5,
+  ammoMultiplier: 5,
+  trailLength: 27,
+  trailWidth: 4
+  trailColor: 6585a5,
   inaccuracy: 0,
   fragSpread: 5,
   fragAngle: 5,
@@ -65,14 +64,15 @@ shoot: {
 					"damage": 5,
 					"speed": 9.6,
 					"lifetime": 65,
-					"trailColor": 8cd3d5,
+					"trailColor": 6585a5,
 					"trailWidth": 2,
 					"trailLength": 10,
-					"trailEffect": regenParticle
 					"despawnSound": jumpln,
-					"frontColor": ffffff,
-					"backColor": 8cd3d5,
-					"hitSize": 5,
+					"frontColor": c3feff,
+					"backColor": 6585a5,
+					"hitSize": 6,
+					  width: 8
+					  height: 8
 					"splashDamage": 10,
 					"splashDamageRadius": 15,
 					"weaveMag": 2,
@@ -80,13 +80,13 @@ shoot: {
 					  despawnEffect: {
         type: WaveEffect,
         startDelay: 0,
-        lifetime: 12,
+        lifetime: 24,
         sizeFrom: 0,
         sizeTo: 4,
         strokeFrom: 0,
         strokeTo: 2,
-        colorFrom: 8cd3d5,
-        colorTo: ffffff00,
+        colorFrom: c3feff,
+        colorTo: 6585a500,
         followParent: true,
         rotWithParent: true
 		interp: exp5Out
@@ -96,18 +96,18 @@ shoot: {
       }
   shootEffect: {
 					type: ParticleEffect 
-					colorFrom: ffffff
-					colorTo: 8cd3d5
-					particles: 30
+					colorFrom: c3feff
+					colorTo: 6585a500
+					particles: 65
 					cone: 12
-					length: 40
+					length: 85
 					baseLength: 5
 					lightScl: 3
 					interp: circleOut
 					lightOpacity: 2
 					spin: 5
-					sizeFrom: 2.1
-					sizeTo: 0.1
+					sizeFrom: 6.5
+					sizeTo: 0
 					offset: 1
   }
   intervalBullets: 2,
@@ -117,13 +117,14 @@ shoot: {
   intervalBullet: {
 			type: BasicBulletType
 			lifetime: 67
-			speed: 3.2
-			frontColor: b2e1e3
-			backColor: 8cd3d5
-			trailColor: b2e1e3
-			trailWidth: 2.6
+			speed: 3
+			frontColor: c3feff
+			backColor: 6585a5
+			trailColor: 6585a5
+			trailWidth: 2
 			trailLength: 8
-			trailEffect: regenParticle
+			width: 8
+			height: 8
 			pierce: true
 			pierceBuilding: true
 			pierceCap: 2
@@ -133,8 +134,8 @@ shoot: {
 			weaveScale: 9
       hitEffect: {
 					type: ParticleEffect 
-					colorFrom: ffffff
-					colorTo: b2e1e300
+					colorFrom: c3feff
+					colorTo: 6585a500
 					particles: 12
 					length: 12
 					baseLength: 2
@@ -145,17 +146,18 @@ shoot: {
 					sizeFrom: 1.7
 					sizeTo: 0
 					offset: 1
+					lifetime: 24
   }
   despawnEffect: {
         type: WaveEffect,
         startDelay: 0,
-        lifetime: 12,
+        lifetime: 24,
         sizeFrom: 0,
-        sizeTo: 4,
+        sizeTo: 8,
         strokeFrom: 0,
-        strokeTo: 4,
-        colorFrom: 8cd3d5,
-        colorTo: ffffff00,
+        strokeTo: 6,
+        colorFrom: c3feff,
+        colorTo: 6585a500,
         followParent: true,
         rotWithParent: true
 		interp: exp5Out
@@ -164,8 +166,8 @@ shoot: {
   }
         hitEffect: {
 					type: ParticleEffect 
-					colorFrom: b2e1e390
-					colorTo: b2e1e300
+					colorFrom: c3feff90
+					colorTo: 6585a500
 					particles: 13
 					length: 32
 					baseLength: 2
@@ -178,6 +180,7 @@ shoot: {
 					offset: 1
 					interp: exp5Out
 					sizeInterp: exp5In
+					lifetime: 24
   }
   despawnEffect: {
     type: MultiEffect,
@@ -190,8 +193,8 @@ shoot: {
         sizeTo: 30,
         strokeFrom: 0,
         strokeTo: 4,
-        colorFrom: 8cd3d5,
-        colorTo: ffffff,
+        colorFrom: 6585a5,
+        colorTo: c3feff,
         followParent: true,
         rotWithParent: true
 		interp: exp5Out
@@ -205,8 +208,8 @@ shoot: {
         sizeTo: 25,
         strokeFrom: 0,
         strokeTo: 4,
-        colorFrom: 8cd3d5,
-        colorTo: ffffff,
+        colorFrom: 6585a5,
+        colorTo: c3feff,
         followParent: true,
         rotWithParent: true
 		interp: exp5In
@@ -222,8 +225,8 @@ shoot: {
     lifetime: 38
     sizeFrom: 2.5
     sizeTo: 0.225
-    colorFrom: 8cd3d5
-    colorTo: ffffff
+    colorFrom: 6585a5,
+	colorTo: c3feff,
     strokeFrom: 0.6
     strokeTo: 0.8
     followParent: true
@@ -237,8 +240,8 @@ shoot: {
         sizeTo: 0,
         strokeFrom: 4,
         strokeTo: 0,
-        colorFrom: 8cd3d5,
-        colorTo: ffffff,
+        colorTo: c3feff,
+		colorFrom: 6585a5,
         followParent: true,
         rotWithParent: true
 		interp: exp5Out
@@ -462,8 +465,8 @@ drawer: {
     }
 	{
   type: FlarePart
-  color1: 8cd3d540
-  color2: ffffff70
+  color1: 6585a540
+  color2: c3feff70
   y: -1
   followRotation: true
   stroke: 6
@@ -480,8 +483,8 @@ drawer: {
 	}
 	{
   type: FlarePart
-  color1: 8cd3d540
-  color2: ffffff70
+  color1: 6585a540
+  color2: c3feff70
   y: -1
   followRotation: true
   stroke: 6
