@@ -47,7 +47,7 @@ shoot: {
   hitSize: 12,
   ammoMultiplier: 5,
   trailLength: 27,
-  trailWidth: 4
+  trailWidth: 3.1
   trailColor: 6585a5,
   inaccuracy: 0,
   fragSpread: 5,
@@ -218,7 +218,6 @@ shoot: {
 	  {
     type: ParticleEffect
     baseLength: 15
-	sprite: regenParticle
     length: 50
     cone: 180
     particles: 13
