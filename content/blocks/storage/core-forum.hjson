@@ -1,5 +1,5 @@
 type: CoreBlock
-name: "Forum"
+name: "Core: Forum"
 description: The main base, when destroyed a sector is lost.
 size: 4
 squareSprite: false
