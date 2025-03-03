@@ -87,8 +87,8 @@ category: turret
     }
 		{
   type: FlarePart
-  color1: ec74585570
-  color2: fccabd90
+  color1: c3686850
+  color2: fccabd70
   y: 12
   followRotation: true
   stroke: 6
