@@ -11,15 +11,15 @@ alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
 recoil: 3
-reload: 160
-range: 200
+reload: 130
+range: 220
 targetAir: true
 moveWhileCharging: true
 targetGround: true
 recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 2.205
-shootSound: orb
+shootSound: mechsshoot
 heatRequirement: 12
   shootEffect: {
 					type: ParticleEffect 
@@ -27,7 +27,7 @@ heatRequirement: 12
 					colorTo: ec74584000
 					particles: 42
 					cone: 3
-					length: 210
+					length: 230
 					baseLength: 5
 					lightScl: 3
 					interp: circleOut
@@ -40,9 +40,9 @@ heatRequirement: 12
   }
 shootType: {
     type: ContinuousFlameBulletType
-    drawSize: 220
+    drawSize: 230
     hitShake: 5
-    length: 220
+    length: 230
     width: 4
 	hitColor:ec7458
 	colors:[ec745840,ec74585570,ec74585590,fccabd,ffffff]
