@@ -21,11 +21,28 @@ restitution: 0.04
 rotateSpeed: 2.205
 shootSound: orb
 heatRequirement: 12
+  shootEffect: {
+					type: ParticleEffect 
+					colorFrom: fccabd
+					colorTo: cc918b00
+					particles: 65
+					cone: 12
+					length: 85
+					baseLength: 5
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 5
+					sizeFrom: 5.2
+					sizeTo: 0
+					offset: 1
+					lifetime: 21
+  }
 shootType: {
     type: ContinuousFlameBulletType
-    drawSize: 210
+    drawSize: 220
     hitShake: 5
-    length: 210
+    length: 220
     width: 4
 	hitColor:ec7458
 	colors:[ec745840,ec74585570,ec74585590,fccabd,ffffff]
@@ -34,33 +51,30 @@ shootType: {
 	
 	pierceArmor: false
 	
-    statusDuration: 120
-    status: melting
-	
     lifetime: 12
-    damage: 53
+    damage: 180
 	
 	laserAbsorb:true
   intervalBullets: 6
   intervalRandomSpread: 1.25
   intervalAngle: 1.95
-  intervalSpread: 1.2
+  intervalSpread: 15
   intervalBullet: {
-	          damage: 25
+	          damage: 10
               speed: 8.5
-              lifetime: 20
+              lifetime: 28
               width: 8.5
               height: 10.5
-              backColor: cc918b30
-              frontColor: ffbfad30
-              trailColor: ffbfad30
+              backColor: cc918b10
+              frontColor: ffbfad10
+              trailColor: ffbfad10
               trailWidth: 1
               trailLength: 16
               homingPower: 0.3
               homingDelay: 30
               smokeEffect: none
-              weaveMag: 3
-              weaveScale: 3
+              weaveMag: 4
+              weaveScale: 4
               pierce: true
               pierceBuilding: true
               pierceCap: 4
