@@ -1,5 +1,5 @@
 type: PowerTurret
-outlineColor: 24241a
+outlineColor: 0c0c12
 name: Priority
 description: Shoots a long lasting laser.
 researchCostMultiplier: 0.5
@@ -10,7 +10,7 @@ alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
 recoil: 3
-reload: 90
+reload: 160
 range: 200
 targetAir: true
 moveWhileCharging: true
@@ -22,23 +22,47 @@ shootSound: orb
 heatRequirement: 12
 shootType: {
     type: ContinuousFlameBulletType
-    drawSize: 120
+    drawSize: 210
     hitShake: 5
-    length: 120
-    width: 9
+    length: 210
+    width: 6
 	hitColor:ec7458
 	colors:[ec745840,ec74585570,ec74585590,fccabd,ffffff]
     ammoMultiplier: 1
 	
 	pierceArmor: false
 	
-    statusDuration: 1440
+    statusDuration: 120
     status: melting
 	
-    lifetime: 11
-    damage: 45
+    lifetime: 17
+    damage: 53
 	
 	laserAbsorb:true
+  intervalBullets: 8
+  intervalRandomSpread: 1.25
+  intervalAngle: 1.95
+  intervalSpread: 35
+  intervalBullet: {
+	          damage: 65
+              speed: 5.5
+              lifetime: 45
+              width: 8.5
+              height: 10.5
+              backColor: cc918b 
+              frontColor: ffbfad
+              trailColor: ffbfad
+              trailWidth: 1
+              trailLength: 16
+              homingPower: 0.3
+              homingDelay: 30
+              smokeEffect: none
+              weaveMag: 8
+              weaveScale: 2
+              pierce: true
+              pierceBuilding: true
+              pierceCap: 2
+	}
 }
 shoot: {
   firstShotDelay: 30
@@ -62,7 +86,7 @@ category: turret
       under: false,
       mirror: false,
       heatProgress: heat,
-      progress: reload,
+      progress: recoil,
 	  x: 0,
 	  y: 0,
 	  moveY: -3.2,
