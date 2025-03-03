@@ -26,9 +26,10 @@ shootType: {
     drawSize: 210
     hitShake: 5
     length: 210
-    width: 6
+    width: 4
 	hitColor:ec7458
 	colors:[ec745840,ec74585570,ec74585590,fccabd,ffffff]
+	flareColor: fccabd
     ammoMultiplier: 1
 	
 	pierceArmor: false
@@ -40,29 +41,29 @@ shootType: {
     damage: 53
 	
 	laserAbsorb:true
-  intervalBullets: 4
+  intervalBullets: 6
   intervalRandomSpread: 1.25
   intervalAngle: 1.95
-  intervalSpread: 1
+  intervalSpread: 3
   intervalBullet: {
-	          damage: 65
-              speed: 11.5
-              lifetime: 8
+	          damage: 25
+              speed: 8.5
+              lifetime: 18
               width: 8.5
               height: 10.5
-              backColor: cc918b 
-              frontColor: ffbfad
-              trailColor: ffbfad
+              backColor: cc918b30
+              frontColor: ffbfad30
+              trailColor: ffbfad30
               trailWidth: 1
               trailLength: 16
               homingPower: 0.3
               homingDelay: 30
               smokeEffect: none
-              weaveMag: 1
-              weaveScale: 1
+              weaveMag: 3
+              weaveScale: 3
               pierce: true
               pierceBuilding: true
-              pierceCap: 2
+              pierceCap: 4
 	}
 }
 shoot: {
