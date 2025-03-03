@@ -1,7 +1,7 @@
 type: PowerTurret
-outlineColor: 0c0c12
-outlineColor: 0c0c12
 name: Priority
+outlineColor: 0c0c12
+outlineColor: 0c0c12
 description: Shoots a long lasting laser.
 researchCostMultiplier: 0.5
 outlineColor: 2d2f39
@@ -20,6 +20,7 @@ recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 2.205
 shootSound: mechsshoot
+shootSoundVolume: 0.5
 heatRequirement: 12
   shootEffect: {
 					type: ParticleEffect 
