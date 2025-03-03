@@ -37,18 +37,18 @@ shootType: {
     statusDuration: 120
     status: melting
 	
-    lifetime: 17
+    lifetime: 12
     damage: 53
 	
 	laserAbsorb:true
   intervalBullets: 6
   intervalRandomSpread: 1.25
   intervalAngle: 1.95
-  intervalSpread: 3
+  intervalSpread: 1.2
   intervalBullet: {
 	          damage: 25
               speed: 8.5
-              lifetime: 18
+              lifetime: 20
               width: 8.5
               height: 10.5
               backColor: cc918b30
@@ -64,6 +64,8 @@ shootType: {
               pierce: true
               pierceBuilding: true
               pierceCap: 4
+			  hitEffect: none
+			  despawnEffect: none
 	}
 }
 shoot: {
