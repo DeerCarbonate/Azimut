@@ -88,49 +88,13 @@ category: turret
 		{
   type: FlarePart
   color1: c3686870
-  color2: fccabd90
+  color2: ffffff90
   y: 12
   followRotation: true
   stroke: 6
   radius: 0
   radiusTo: 55
   rotation: 0
-  rotMove: 10
-  moveY: 20
-  progress: {
-      type: charge
-      op: curve
-      interp: slope
-        }
-	}
-			{
-  type: FlarePart
-  color1: c3686850
-  color2: fccabd70
-  y: 12
-  followRotation: true
-  stroke: 6
-  radius: 0
-  radiusTo: 45
-  rotation: 20
-  rotMove: 10
-  moveY: 20
-  progress: {
-      type: charge
-      op: curve
-      interp: slope
-        }
-	}
-				{
-  type: FlarePart
-  color1: c3686830
-  color2: fccabd50
-  y: 12
-  followRotation: true
-  stroke: 6
-  radius: 0
-  radiusTo: 35
-  rotation: 40
   rotMove: 10
   moveY: 20
   progress: {
