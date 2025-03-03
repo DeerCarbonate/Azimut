@@ -9,9 +9,8 @@ health: 1025
 alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
-recoil: 2
-shootY: 1.4
-reload: 55
+recoil: 3
+reload: 90
 range: 200
 targetAir: true
 moveWhileCharging: true
@@ -22,28 +21,33 @@ rotateSpeed: 2.205
 shootSound: orb
 heatRequirement: 12
 shootType: {
-  type: ContinuousLaserBulletType 
-  shake: 0.2
-  damageInterval: 8
-  damage: 31
-  length: 210
-  incendChance: 0
-  incendSpread: 0
-  incendAmount: 0
-  width: 1.3
-  splashDamagePierce: true
-  makeFire: true
-  status: melting
-  statusDuration: 110
-  hitEffect: hitBulletColor
+    type: ContinuousFlameBulletType
+    drawSize: 120
+    hitShake: 5
+    length: 120
+    width: 9
+	hitColor:ec7458
+	colors:[ec745840,ec74585570,ec74585590,fccabd,ffffff]
+    ammoMultiplier: 1
+	
+	pierceArmor: false
+	
+    statusDuration: 1440
+    status: melting
+	
+    lifetime: 11
+    damage: 45
+	
+	laserAbsorb:true
 }
 shoot: {
-  shots: 2,
-  shotDelay: 10
+  firstShotDelay: 30
 }
 requirements: [
   cobalt/100,
-  venerium/25
+  venerium/75
+  platinum/95
+  geliarin/25
 ]
 category: turret
   drawer: {
@@ -54,16 +58,14 @@ category: turret
   parts: [
 	{
       type: RegionPart,
-      suffix: -blade,
+      suffix: -middle,
       under: false,
-      mirror: true,
+      mirror: false,
       heatProgress: heat,
       progress: reload,
 	  x: 0,
 	  y: 0,
-	  moveRot: -6,
-	  moveY: -0.09,
-	  under: false,
+	  moveY: -3.2,
       heatColor: ff4500,
       heatLayer: 1,
     }
