@@ -26,14 +26,14 @@ heatRequirement: 12
 					colorFrom: fccabd
 					colorTo: cc918b00
 					particles: 65
-					cone: 12
-					length: 85
+					cone: 21
+					length: 95
 					baseLength: 5
 					lightScl: 3
 					interp: circleOut
 					lightOpacity: 2
 					spin: 5
-					sizeFrom: 5.2
+					sizeFrom: 6.2
 					sizeTo: 0
 					offset: 1
 					lifetime: 21
