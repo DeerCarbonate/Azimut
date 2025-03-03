@@ -25,8 +25,8 @@ heatRequirement: 12
 					type: ParticleEffect 
 					colorFrom: fccabd
 					colorTo: ec74584000
-					particles: 75
-					cone: 8
+					particles: 42
+					cone: 3
 					length: 210
 					baseLength: 5
 					lightScl: 3
@@ -91,10 +91,46 @@ category: turret
   color2: fccabd90
   y: 12
   followRotation: true
-  stroke: 4
+  stroke: 6
   radius: 0
   radiusTo: 55
   rotation: 0
+  rotMove: 10
+  moveY: 20
+  progress: {
+      type: charge
+      op: curve
+      interp: slope
+        }
+	}
+			{
+  type: FlarePart
+  color1: c3686850
+  color2: fccabd70
+  y: 12
+  followRotation: true
+  stroke: 6
+  radius: 0
+  radiusTo: 45
+  rotation: 20
+  rotMove: 10
+  moveY: 20
+  progress: {
+      type: charge
+      op: curve
+      interp: slope
+        }
+	}
+				{
+  type: FlarePart
+  color1: c3686830
+  color2: fccabd50
+  y: 12
+  followRotation: true
+  stroke: 6
+  radius: 0
+  radiusTo: 35
+  rotation: 40
   rotMove: 10
   moveY: 20
   progress: {
