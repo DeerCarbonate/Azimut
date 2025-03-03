@@ -40,14 +40,14 @@ shootType: {
     damage: 53
 	
 	laserAbsorb:true
-  intervalBullets: 8
+  intervalBullets: 4
   intervalRandomSpread: 1.25
   intervalAngle: 1.95
   intervalSpread: 1
   intervalBullet: {
 	          damage: 65
-              speed: 5.5
-              lifetime: 45
+              speed: 11.5
+              lifetime: 8
               width: 8.5
               height: 10.5
               backColor: cc918b 
@@ -58,8 +58,8 @@ shootType: {
               homingPower: 0.3
               homingDelay: 30
               smokeEffect: none
-              weaveMag: 8
-              weaveScale: 2
+              weaveMag: 1
+              weaveScale: 1
               pierce: true
               pierceBuilding: true
               pierceCap: 2
@@ -98,13 +98,13 @@ category: turret
   type: FlarePart
   color1: c3686870
   color2: fccabd90
-  y: 10
+  y: 12
   followRotation: true
-  stroke: 3
-  radius: 10
-  radiusTo: 70
+  stroke: 4
+  radius: 0
+  radiusTo: 55
   rotation: 0
-  rotMove: 300
+  rotMove: 10
   moveY: 20
   progress: {
       type: charge
