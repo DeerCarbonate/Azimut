@@ -1,5 +1,6 @@
 type: PowerTurret
 outlineColor: 0c0c12
+outlineColor: 0c0c12
 name: Priority
 description: Shoots a long lasting laser.
 researchCostMultiplier: 0.5
@@ -42,7 +43,7 @@ shootType: {
   intervalBullets: 8
   intervalRandomSpread: 1.25
   intervalAngle: 1.95
-  intervalSpread: 35
+  intervalSpread: 1
   intervalBullet: {
 	          damage: 65
               speed: 5.5
@@ -93,5 +94,23 @@ category: turret
       heatColor: ff4500,
       heatLayer: 1,
     }
+		{
+  type: FlarePart
+  color1: c3686870
+  color2: fccabd90
+  y: 10
+  followRotation: true
+  stroke: 3
+  radius: 10
+  radiusTo: 70
+  rotation: 0
+  rotMove: 300
+  moveY: 20
+  progress: {
+      type: charge
+      op: curve
+      interp: slope
+        }
+	}
   ]
 }
