@@ -1,6 +1,6 @@
 type: Wall
 name: Venurian wall
-health: 730
+health: 590
 size: 1
 requirements: [
   venerium/6
