@@ -40,9 +40,9 @@ shootSound: energy-blade-launch
 ammoTypes: {
   venerium: {
   type: BasicBulletType,
-  frontColor: ffffff,
-  backColor: fff5b0,
-  hitColor: fff5b0,
+  frontColor: fcf0bd,
+  backColor: c38968,
+  hitColor: c38968,
   damage: 260,
   despawnSound: energy-blade-hit,
   lifetime: 7.4,
@@ -53,11 +53,11 @@ ammoTypes: {
   ammoMultiplier: 4,
   trailLength: 35,
   trailWidth: 2.2,
-  trailColor: fff5b0,
+  trailColor: c38968,
   collidesTiles: true
   collidesGround: true
-              bulletInterval: 0.07
-            intervalRandomSpread: 5
+              bulletInterval: 0.04
+            intervalRandomSpread: 2
             intervalBullet: {
                 type: BasicBulletType
                 damage: 1
@@ -82,9 +82,9 @@ ammoTypes: {
                             strokeTo: 1.5
                             lenFrom: 2
                             lenTo: 5
-                            colorTo: fff5b000
-							colorFrom: ffffff
-                            cone: 45
+                            colorTo: c3896800
+							colorFrom: c38968
+                            cone: 10
                             baseRotation: 200
                         }
                         {
@@ -97,9 +97,9 @@ ammoTypes: {
                             strokeTo: 0.5
                             lenFrom: 2
                             lenTo: 5
-                            colorTo: fff5b000
-							colorFrom: ffffff
-                            cone: 25
+                            colorTo: c3896800
+							colorFrom: c38968
+                            cone: 15
                             baseRotation: 200
                         }
                     ]
@@ -124,16 +124,16 @@ ammoTypes: {
         height: 24
         shrinkY: 0.25
         shrinkX: 1
-        frontColor: fff5b0
+        frontColor: fcf0bd
         backColor: 00000000
-        hitColor: fff5b0
+        hitColor: fcf0bd
         despawnEffect: none
         hitEffect: hitBulletColor
 		}
       hitEffect: {
 					type: ParticleEffect 
-					colorFrom: ffffff
-					colorTo: fff5b000
+					colorFrom: fcf0bd
+					colorTo: c3896800
 					particles: 4
 					length: 32
 					baseLength: 2
@@ -151,8 +151,8 @@ ammoTypes: {
     effects: [
       {
 					type: ParticleEffect 
-					colorFrom: ffffff
-					colorTo: fff5b010
+					colorFrom: fcf0bd
+					colorTo: c3896800
 					particles: 8
 					cone: 7
 					length: 42
@@ -179,15 +179,15 @@ ammoTypes: {
 			lenFrom: 7
 			lenTo: 0
 			strokeFrom: 5.2
-			colorFrom: ffffff
-			colorTo: fff5b000
+			colorFrom: fcf0bd
+			colorTo: c3896800
 	}
 ]
 }
 	  shootEffect: {
 					type: ParticleEffect 
-					colorFrom: ffffff
-					colorTo: fff5b040
+					colorFrom: fcf0bd
+					colorTo: c3896800
 					particles: 24
 					cone: 7
 					length: 42
