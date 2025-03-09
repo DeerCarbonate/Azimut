@@ -32,101 +32,9 @@ hasLiquids: false
 shoot: {
   shots: 4,
   shotDelay: 10
+  firstShootdelay: 30
 }
 ammoTypes: {
-  geliarin: {
-  type: BasicBulletType,
-  frontColor: ffffff,
-  backColor: 8cd3d5,
-  hitColor: 8cd3d5,
-  sprite: large-bomb,
-  spin: 1.98,
-  damage: 75,
-  splashDamage: 60,
-  despawnSound: energy-blade-hit,
-  hitSound: energy-blade-hit,
-  splashDamageRadius: 55,
-  width: 12,
-  height: 25,
-  lifetime: 75,
-  speed: 4.9,
-  drag: 0.020,
-  hitSize: 8,
-  ammoMultiplier: 1,
-  trailLength: 12,
-  trailWidth: 3,
-  trailColor: 8cd3d5,
-  inaccuracy: 10,
-  fragBullets: 3,
-  fragOnHit: true
-					fragBullet: {
-					"type": BasicBulletType,
-					"damage": 40,
-					"speed": 3.2,
-					"lifetime": 40,
-					"trailColor": 8cd3d5,
-					"trailWidth": 2,
-					"trailLength": 15,
-					"despawnSound": jumpln,
-					"frontColor": ffffff,
-					"backColor": 8cd3d5,
-					"hitSize": 5,
-					"splashDamage": 10,
-					"splashDamageRadius": 15,
-					"weaveMag": 7,
-					"weaveScale": 3.5,
-					  despawnEffect: {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 24,
-        sizeFrom: 0,
-        sizeTo: 5,
-        strokeFrom: 4,
-        strokeTo: 0,
-        colorFrom: 8cd3d5,
-        colorTo: ffffff20,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5Out
-        sizeInterp: exp5In
-	}
-  }
-  despawnEffect: {
-    type: MultiEffect,
-    effects: [
-      {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 15,
-        sizeFrom: 25,
-        sizeTo: 0,
-        strokeFrom: 0,
-        strokeTo: 4,
-        colorFrom: 8cd3d5,
-        colorTo: ffffff,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5Out
-        sizeInterp: exp5Out
-      },
-      {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 15,
-        sizeFrom: 0,
-        sizeTo: 25,
-        strokeFrom: 0,
-        strokeTo: 4,
-        colorFrom: 8cd3d5,
-        colorTo: ffffff30,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5In
-        sizeInterp: exp5In
-      }
-    ]
-  }
-}
   raw-platinum: {
   type: BasicBulletType,
   frontColor: ecf4fb,
@@ -188,8 +96,8 @@ ammoTypes: {
 }
 }
 requirements: [
-  cobalt/150,
-  venerium/50
+  cobalt/90,
+  venerium/120
   platinum/70
 ]
 category: turret
@@ -198,17 +106,4 @@ drawer: {
   basePrefix: ast-
   heatProgress: recoil
   cooldown: 0.1
-  parts: [
-    {
-      type: RegionPart,
-      suffix: -r,
-      under: false,
-      mirror: false,
-      heatProgress: recoil,
-      progress: heat,
-      moveY: -2.345,
-      heatColor: ff4500, # Цвет нагрева
-      heatLayer: 1, # Слой нагрева
-    },
-  ]
 }
