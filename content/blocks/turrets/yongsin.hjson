@@ -1,6 +1,6 @@
 type: ItemTurret
-outlineColor: 24241a
 name: Yongsin
+outlineColor: 0c0c12
 description: Fires four explosive projectiles.
 researchCostMultiplier: 0.5
 size: 3
@@ -16,9 +16,8 @@ research: {
 ]
 }
 shootCone: 9
-outlineColor: 2d2f39
 shootY: 10
-reload: 125
+reload: 135
 range: 210
 targetAir: true
 moveWhileCharging: true
