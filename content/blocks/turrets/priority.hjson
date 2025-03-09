@@ -18,7 +18,7 @@ recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 2.205
 shootSound: mechsshoot
-shootSoundVolume: 2
+shootSoundVolume: 0.5
 heatRequirement: 12
   shootEffect: {
 					type: ParticleEffect 
