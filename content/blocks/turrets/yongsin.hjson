@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Yongsin
-description: Fires piercing projectiles.
+description: Fires three powerful projectiles.
 researchCostMultiplier: 0.5
 size: 3
 outlineColor: 0c0c12
@@ -9,9 +9,9 @@ health: 1120
 alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
-recoil: 6
+recoil: 3
 reload: 180
-range: 290
+range: 200
 targetAir: true
 moveWhileCharging: true
 targetGround: true
@@ -20,17 +20,19 @@ shootSound: mechshoot
 ammoPerShot: 4
 shoot: {
   firstShotDelay: 20
+  shots: 3
+  shotDelay: 10
 }
   ammoTypes: {
     raw-platinum: {
 type: BasicBulletType
-width: 20
-height: 20
+width: 15
+height: 15
 speed: 2.8
 collidesTiles: true
 collidesGround: true
-lifetime: 105
-damage: 240
+lifetime: 75
+damage: 180
 backColor: b9c4d8
 frontColor: ecf4fb
 intervalBullets: 1
@@ -39,12 +41,11 @@ intervalSpread: 180
 
 hitEffect: {
 type: ParticleEffect  
-colorFrom: e5f9f195
+colorFrom: e5f9f160
 colorTo: b9c4d800
 drag: 0.7
 particles: 10
-cone: 5
-length: 20
+length: 50
 baseLength: 1
 lightScl: 3
 lightOpacity: 2
@@ -52,7 +53,23 @@ spin: 0
 sizeFrom: 8
 sizeTo: 0 
 offset: 1
-lifetime: 200
+lifetime: 50
+}
+despawnEffect: {
+type: ParticleEffect  
+colorFrom: e5f9f160
+colorTo: b9c4d800
+drag: 0.7
+particles: 10
+length: 50
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 8
+sizeTo: 0 
+offset: 1
+lifetime: 50
 }
 
 		intervalBullet: {
