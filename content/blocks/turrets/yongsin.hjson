@@ -43,7 +43,7 @@ hitEffect: {
 type: ParticleEffect  
 colorFrom: e5f9f160
 colorTo: b9c4d800
-drag: 0.7
+drag: -0.7
 particles: 10
 length: 50
 baseLength: 1
@@ -59,7 +59,7 @@ despawnEffect: {
 type: ParticleEffect  
 colorFrom: e5f9f160
 colorTo: b9c4d800
-drag: 0.7
+drag: -0.7
 particles: 10
 length: 50
 baseLength: 1
