@@ -12,7 +12,7 @@ shootCone: 9
 recoil: 6
 shootY: -7
 reload: 420
-range: 390
+range: 290
 targetAir: true
 moveWhileCharging: true
 targetGround: true
@@ -62,10 +62,9 @@ type: BasicBulletType
 width: 1
 height: 1
 speed: 1
-collidesTiles: true
-collidesGround: true
 lifetime: 1
 damage: 1
+collidesGround: true 
 backColor: b9c4d8
 frontColor: e5f9f1
 
