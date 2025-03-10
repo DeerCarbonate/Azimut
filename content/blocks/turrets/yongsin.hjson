@@ -10,7 +10,6 @@ alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
 recoil: 6
-shootY: -7
 reload: 420
 range: 290
 targetAir: true
@@ -20,7 +19,7 @@ rotateSpeed: 1.25
 shootSound: mechshoot
 ammoPerShot: 4
 shoot: {
-  firstShotDelay: 90
+  firstShotDelay: 20
 }
   ammoTypes: {
     raw-platinum: {
@@ -39,20 +38,21 @@ bulletInterval: 0.8
 intervalSpread: 180
 
 hitEffect: {
-type: ParticleEffect 
+type: ParticleEffect  
 colorFrom: e5f9f195
 colorTo: b9c4d800
 drag: 0.7
-particles: 7
+particles: 10
 cone: 5
-length: 8
+length: 20
 baseLength: 1
 lightScl: 3
 lightOpacity: 2
 spin: 0
-sizeFrom: 4
+sizeFrom: 8
 sizeTo: 0 
 offset: 1
+lifetime: 200
 }
 
 		intervalBullet: {
