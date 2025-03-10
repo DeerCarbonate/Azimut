@@ -88,9 +88,9 @@ lifetime: 150
 }
 }
 requirements: [
-  cobalt/90,
+  cobalt/90
   venerium/120
-  platinum/
+  platinum/45
 ]
 category: turret
 drawer: {
