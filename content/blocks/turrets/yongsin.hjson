@@ -17,6 +17,7 @@ moveWhileCharging: true
 targetGround: true
 rotateSpeed: 1.25
 shootSound: mechshoot
+shootSoundVolume: 0.7
 ammoPerShot: 4
 shoot: {
   firstShotDelay: 20
