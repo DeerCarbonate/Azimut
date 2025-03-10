@@ -1,10 +1,9 @@
 type: ItemTurret
-outlineColor: 24241a
 name: Dezolo
 description: Fires a penetrating projectile at enemies.
 researchCostMultiplier: 0.5
-outlineColor: 2d2f39
 size: 3
+outlineColor: 0c0c12
 health: 1050
 ammoPerShot: 5
 alwaysUnlocked: false
