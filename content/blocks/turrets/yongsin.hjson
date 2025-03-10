@@ -17,10 +17,10 @@ moveWhileCharging: true
 targetGround: true
 rotateSpeed: 1.25
 shootSound: mechshoot
-shootSoundVolume: 0.7
+shootSoundVolume: 0.65
 ammoPerShot: 4
 shoot: {
-  firstShotDelay: 20
+  firstShotDelay: 15
   shots: 3
   shotDelay: 10
 }
@@ -33,7 +33,7 @@ speed: 2.8
 collidesTiles: true
 collidesGround: true
 lifetime: 75
-damage: 180
+damage: 190
 backColor: b9c4d8
 frontColor: ecf4fb
 intervalBullets: 1
@@ -44,7 +44,6 @@ hitEffect: {
 type: ParticleEffect  
 colorFrom: e5f9f160
 colorTo: b9c4d800
-drag: -0.7
 particles: 10
 length: 50
 baseLength: 1
@@ -55,12 +54,13 @@ sizeFrom: 8
 sizeTo: 0 
 offset: 1
 lifetime: 50
+interp: exp5Out
+sizeInterp: exp5In
 }
 despawnEffect: {
 type: ParticleEffect  
 colorFrom: e5f9f160
 colorTo: b9c4d800
-drag: -0.7
 particles: 10
 length: 50
 baseLength: 1
@@ -71,6 +71,8 @@ sizeFrom: 8
 sizeTo: 0 
 offset: 1
 lifetime: 50
+interp: exp5Out
+sizeInterp: exp5In
 }
 
 		intervalBullet: {
