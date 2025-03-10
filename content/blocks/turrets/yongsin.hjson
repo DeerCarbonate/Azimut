@@ -37,8 +37,6 @@ frontColor: ecf4fb
 intervalBullets: 1
 bulletInterval: 0.8
 intervalSpread: 180
-			collidesTiles: true
-			collidesGround: true
 
 hitEffect: {
 type: ParticleEffect 
@@ -57,33 +55,56 @@ sizeTo: 0
 offset: 1
 }
 
-intervalBullet: {
+		intervalBullet: {
 type: BasicBulletType
-width: 1
-height: 1
+width: 6
+sprite: "large-orb"
+height: 6
 speed: 1
+collidesGround: true 
 lifetime: 1
 damage: 1
-backColor: b9c4d8
-frontColor: e5f9f1
-despawnEffect: none
-
+backColor: ffffff
+frontColor: f6afdd
 hitEffect: {
 type: ParticleEffect 
+lifetime: 70
 colorFrom: e5f9f195
 colorTo: b9c4d800
-drag: 0.6
+drag: 0.4
 particles: 2
 cone: 360
-length: 7
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 1
+sizeFrom: 0
+sizeTo: 2
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+despawnEffect: {
+type: ParticleEffect 
+lifetime: 120
+colorFrom: e5f9f195
+colorTo: b9c4d800
+drag: 0.7
+particles: 2
+cone: 360
+length: 6
 baseLength: 1
 lightScl: 3
 lightOpacity: 2
 spin: 0
-sizeFrom: 1
-sizeTo: 2
+sizeFrom: 2
+sizeTo: 0 
 offset: 1
-lifetime: 150
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
 }
 }
 }
