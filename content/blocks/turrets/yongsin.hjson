@@ -28,7 +28,8 @@ type: BasicBulletType
 width: 20
 height: 20
 speed: 2.8
-collidesGround: true 
+collidesTiles: true
+collidesGround: true
 lifetime: 105
 damage: 150
 backColor: b9c4d8
@@ -61,7 +62,8 @@ type: BasicBulletType
 width: 1
 height: 1
 speed: 1
-collidesGround: true 
+collidesTiles: true
+collidesGround: true
 lifetime: 1
 damage: 1
 backColor: b9c4d8
@@ -102,13 +104,13 @@ drawer: {
 	{
       type: RegionPart,
       suffix: -lade,
-      under: false,
+      under: true,
       mirror: true,
       heatProgress: heat
       progress: warmup
 	  x: 0,
 	  y: 0,
-	  moveRot: -30,
+	  moveRot: -20,
 	  moveY: -0.1,
 	  moveX: -2,
       heatColor: ff4500,
