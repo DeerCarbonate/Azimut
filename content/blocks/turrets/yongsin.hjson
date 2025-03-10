@@ -64,7 +64,6 @@ height: 1
 speed: 1
 lifetime: 1
 damage: 1
-collidesGround: true 
 backColor: b9c4d8
 frontColor: e5f9f1
 despawnEffect: none
