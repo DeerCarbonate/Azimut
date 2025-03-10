@@ -1,103 +1,96 @@
 type: ItemTurret
 name: Yongsin
-outlineColor: 0c0c12
-description: Fires four explosive projectiles.
+description: Fires piercing projectiles.
 researchCostMultiplier: 0.5
 size: 3
-health: 1210
-ammoPerShot: 4
-research: {
-  parent: "core-forum"
-  planet: gelion
-    "requirements": [
-	  "venerium/30"
-	  "cobalt/70"
-	  "platinum/15"
-]
-}
+outlineColor: 0c0c12
+outlineColor: 0c0c12
+health: 1120
+alwaysUnlocked: false
+cooldown: 1200
 shootCone: 9
-shootY: 10
-reload: 135
-range: 210
+recoil: 6
+shootY: -7
+reload: 420
+range: 390
 targetAir: true
 moveWhileCharging: true
 targetGround: true
-recoilAmount: 1.8
-restitution: 0.04
-rotateSpeed: 1.8
+rotateSpeed: 1.25
 shootSound: mechshoot
-hasPower: false
-hasLiquids: false
+ammoPerShot: 4
 shoot: {
-  shots: 4,
-  shotDelay: 10
-  firstShootdelay: 30
+  firstShotDelay: 90
 }
-ammoTypes: {
-  raw-platinum: {
-  type: BasicBulletType,
-  frontColor: ecf4fb,
-  backColor: b9c4d8,
-  hitColor: ecf4fb,
-  sprite: large-bomb,
-  spin: 1.6,
-  damage: 25,
-  splashDamage: 40,
-  despawnSound: energy-blade-hit,
-  hitSound: energy-blade-hit,
-  splashDamageRadius: 55,
-  width: 12,
-  height: 25,
-  lifetime: 81,
-  speed: 4.1,
-  drag: 0.020,
-  hitSize: 8,
-  ammoMultiplier: 2,
-  trailLength: 12,
-  trailWidth: 3,
-  trailColor: ecf4fb,
-  inaccuracy: 20,
-  despawnEffect: {
-    type: MultiEffect,
-    effects: [
-      {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 15,
-        sizeFrom: 25,
-        sizeTo: 0,
-        strokeFrom: 0,
-        strokeTo: 4,
-        colorFrom: ecf4fb,
-        colorTo: 7e8387,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5Out
-        sizeInterp: exp5Out
-      },
-      {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 15,
-        sizeFrom: 0,
-        sizeTo: 25,
-        strokeFrom: 0,
-        strokeTo: 4,
-        colorFrom: ecf4fb,
-        colorTo: 7e838730,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5In
-        sizeInterp: exp5In
-      }
-    ]
-  }
+  ammoTypes: {
+    raw-platinum: {
+type: BasicBulletType
+width: 20
+height: 20
+speed: 2.8
+collidesGround: true 
+lifetime: 105
+damage: 150
+backColor: b9c4d8
+frontColor: ecf4fb
+intervalBullets: 1
+bulletInterval: 0.8
+intervalSpread: 180
+			collidesTiles: true
+			collidesGround: true
+
+hitEffect: {
+type: ParticleEffect 
+colorFrom: e5f9f195
+colorTo: b9c4d800
+drag: 0.7
+particles: 7
+cone: 5
+length: 8
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 4
+sizeTo: 0 
+offset: 1
+}
+
+intervalBullet: {
+type: BasicBulletType
+width: 1
+height: 1
+speed: 1
+collidesGround: true 
+lifetime: 1
+damage: 1
+backColor: b9c4d8
+frontColor: e5f9f1
+
+hitEffect: {
+type: ParticleEffect 
+colorFrom: e5f9f195
+colorTo: b9c4d800
+drag: 0.6
+particles: 2
+cone: 360
+length: 7
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 1
+sizeTo: 2
+offset: 1
+lifetime: 150
+}
+}
 }
 }
 requirements: [
   cobalt/90,
   venerium/120
-  platinum/70
+  platinum/
 ]
 category: turret
 drawer: {
@@ -105,4 +98,21 @@ drawer: {
   basePrefix: ast-
   heatProgress: recoil
   cooldown: 0.1
+  parts: [
+	{
+      type: RegionPart,
+      suffix: -lade,
+      under: false,
+      mirror: true,
+      heatProgress: heat
+      progress: warmup
+	  x: 0,
+	  y: 0,
+	  moveRot: -30,
+	  moveY: -0.1,
+	  moveX: -2,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	]
 }
