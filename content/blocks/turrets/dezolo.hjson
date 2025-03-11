@@ -110,11 +110,11 @@ ammoTypes: {
       fragVelocityMin: 0.3
       fragVelocityMax: 0.8
       fragBullet: {
-        speed: 12
-        lifetime: 34
+        speed: 19
+        lifetime: 18
         pierce: true
         pierceBuilding: true
-        pierceCap: 2
+        pierceCap: 3
         pierceDamageFactor: 0.01
         drag: 0.06
         damage: 50
