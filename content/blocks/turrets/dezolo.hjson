@@ -55,7 +55,7 @@ ammoTypes: {
   ammoMultiplier: 4,
   collidesTiles: true
   collidesGround: true
-            bulletInterval: 0.04
+            bulletInterval: 0.0001
             intervalRandomSpread: 5
             intervalBullet: {
                 type: BasicBulletType
@@ -73,7 +73,7 @@ ammoTypes: {
                     effects: [
                         {
                             type: ParticleEffect
-                            lifetime: 12
+                            lifetime: 8
                             particles: 2
                             baseLength: 3
                             length: 10
@@ -88,8 +88,8 @@ ammoTypes: {
                         }
                         {
                             type: ParticleEffect
-                            lifetime: 16
-                            particles: 2
+                            lifetime: 9
+                            particles: 4
                             baseLength: 3
                             length: 15
                             line: true
@@ -111,7 +111,7 @@ ammoTypes: {
       fragVelocityMax: 0.8
       fragBullet: {
         speed: 12
-        lifetime: 12
+        lifetime: 34
         pierce: true
         pierceBuilding: true
         pierceCap: 2
@@ -131,8 +131,8 @@ ammoTypes: {
 		}
       hitEffect: {
 					type: ParticleEffect 
-					colorFrom: fcf0bd
-					colorTo: c3896800
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
 					particles: 4
 					length: 32
 					baseLength: 2
@@ -150,8 +150,8 @@ ammoTypes: {
     effects: [
       {
 					type: ParticleEffect 
-					colorFrom: fcf0bd
-					colorTo: c3896800
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
 					particles: 8
 					cone: 7
 					length: 42
@@ -178,15 +178,15 @@ ammoTypes: {
 			lenFrom: 7
 			lenTo: 0
 			strokeFrom: 5.2
-			colorFrom: fcf0bd
-			colorTo: c3896800
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
 	}
 ]
 }
 	  shootEffect: {
 					type: ParticleEffect 
-					colorFrom: fcf0bd
-					colorTo: c3896810
+                     colorTo: fcf0bd00
+				     colorFrom: ffffff95
 					particles: 27
 					cone: 7
 					length: 85
