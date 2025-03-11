@@ -29,7 +29,7 @@ cooldown: 1200
 shootCone: 9
 recoil: 2
 shootY: 1.4
-reload: 160
+reload: 140
 range: 300
 targetAir: true
 moveWhileCharging: true
@@ -45,7 +45,7 @@ ammoTypes: {
   frontColor: ffffff,
   backColor: fcf0bd,
   hitColor: fcf0bd,
-  damage: 130,
+  damage: 80,
   despawnSound: energy-blade-hit,
   lifetime: 7.4,
   speed: 41.2,
@@ -55,7 +55,7 @@ ammoTypes: {
   ammoMultiplier: 4,
   collidesTiles: true
   collidesGround: true
-            bulletInterval: 0.000007
+            bulletInterval: 0.00000001
             intervalRandomSpread: 5
             intervalBullet: {
                 type: BasicBulletType
