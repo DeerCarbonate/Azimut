@@ -6,6 +6,21 @@ category: crafting
 rotate: false
 squareSprite: false
 liquidCapacity: 100
+research: {
+  parent: "platinum-smelter"
+  planet: gelion
+    "requirements": [
+	  "venerium/90"
+	  "cobalt/50"
+	  "platinum/40"
+]
+objectives: [
+{
+type: SectorComplete
+preset: first
+  }
+ ]
+}
 requirements: [
   cobalt/95
   venerium/150

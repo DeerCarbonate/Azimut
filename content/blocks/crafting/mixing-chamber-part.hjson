@@ -12,6 +12,14 @@ requirements: [
   venerium/55
   platinum/25
 ]
+research: {
+  parent: "mixing-chamber-base"
+  planet: gelion
+    "requirements": [
+	  "venerium/40"
+	  "cobalt/80"
+	  "platinum/35"
+]
 consumes: {
   liquids: [
   ammonia/0.09
