@@ -6,7 +6,7 @@ name: twos
 sector: 9
 research: {
 parent: first
-requiresUnlock: true
+requiresUnlock: false
 objectives: [
 {
 type: SectorComplete
