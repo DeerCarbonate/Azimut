@@ -45,7 +45,7 @@ ammoTypes: {
   frontColor: ffffff,
   backColor: fcf0bd,
   hitColor: fcf0bd,
-  damage: 300,
+  damage: 130,
   despawnSound: energy-blade-hit,
   lifetime: 7.4,
   speed: 41.2,
@@ -55,7 +55,7 @@ ammoTypes: {
   ammoMultiplier: 4,
   collidesTiles: true
   collidesGround: true
-            bulletInterval: 0.0001
+            bulletInterval: 0.000007
             intervalRandomSpread: 5
             intervalBullet: {
                 type: BasicBulletType
@@ -117,7 +117,7 @@ ammoTypes: {
         pierceCap: 3
         pierceDamageFactor: 0.01
         drag: 0.06
-        damage: 50
+        damage: 20
         sprite: mine-bullet
         width: 8
         height: 22
