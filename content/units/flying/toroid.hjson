@@ -1,0 +1,43 @@
+	type: flying
+	outlineColor: 21202a
+	name: "Toroid"
+	description: "Guard of the core forum."
+	flying: true
+	health: 90
+	hitSize": 6.5
+	buildSpeed": 1.5
+	drag: 0.045
+	mineTier": 1
+    mineSpeed": 0.5
+    buildRange": 75.55
+	speed: 0.8
+	accel: 0.3
+	range: 210.55
+	targetGround": true
+	targetAir: true
+	rotateSpeed: 6.125
+	engineColor: bf92f9
+	abilities: [
+	{
+		type: MoveEffectAbility
+		y: -5.25
+		effect: missileTrailShort
+		interval: 0.00000001
+		color: bf92f9
+		teamColor: false
+	}
+    {
+    type: ForceFieldAbility 
+    cooldown: 120
+    radius: 8
+    max: 150
+    regen: 5
+    sides: 60
+	color: bf92f9
+}
+    {
+    type: RegenAbility
+    amount: 0.7
+	}
+    ]
+]
