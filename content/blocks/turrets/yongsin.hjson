@@ -26,7 +26,8 @@ research: {
 	  "venerium/150"
 	  "cobalt/100"
 	  "platinum/100"
-
+	]
+}
 shoot: {
   firstShotDelay: 15
   shots: 3
