@@ -8,7 +8,7 @@ description: Converts regolith into resources
 liquidCapacity: 200
 menu: transform
 envDisabled: 16
-alwaysUnlocked: true
+alwaysUnlocked: false
 requirements: [
  azimut-cobalt/850
  azimut-venerium/650
