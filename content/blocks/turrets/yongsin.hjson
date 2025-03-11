@@ -19,6 +19,14 @@ rotateSpeed: 1.25
 shootSound: mechshoot
 shootSoundVolume: 0.65
 ammoPerShot: 4
+research: {
+  parent: "core-forum"
+  planet: "gelion"
+    "requirements": [
+	  "venerium/150"
+	  "cobalt/100"
+	  "platinum/100"
+
 shoot: {
   firstShotDelay: 15
   shots: 3
