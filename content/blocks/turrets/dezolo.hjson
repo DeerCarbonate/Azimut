@@ -55,7 +55,7 @@ ammoTypes: {
   ammoMultiplier: 4,
   collidesTiles: true
   collidesGround: true
-            bulletInterval: 0.00000001
+            bulletInterval: 0.0000000001
             intervalRandomSpread: 5
             intervalBullet: {
                 type: BasicBulletType
@@ -111,13 +111,13 @@ ammoTypes: {
       fragVelocityMax: 0.8
       fragBullet: {
         speed: 19
-        lifetime: 18
+        lifetime: 15
         pierce: true
         pierceBuilding: true
-        pierceCap: 3
+        pierceCap: 2
         pierceDamageFactor: 0.01
         drag: 0.06
-        damage: 20
+        damage: 25
         sprite: mine-bullet
         width: 8
         height: 22
