@@ -1,16 +1,16 @@
 	type: flying
 	outlineColor: 21202a
 	name: "Toroid"
-	description: "Auxiliary unit for construction and resource extraction."
+	description: "Auxiliary unit for construction."
 	flying: true
 	health: 130
 	hitSize: 8
 	drag: 0.045
 	mineTier: 1
     mineSpeed: 0.5
-    buildRange: 75.55
+    buildRange: 100
     buildSpeed: 0.25
-	speed: 0.8
+	speed: 1.2
 	accel: 0.3
 	range: 90
 	targetGround: true
