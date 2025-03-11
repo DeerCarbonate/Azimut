@@ -1,12 +1,15 @@
 type: ItemTurret
 name: Dezolo
-description: Fires a penetrating projectile at enemies.
+description: Fires high-speed projectile at enemies.
 researchCostMultiplier: 0.5
 size: 3
 outlineColor: 0c0c12
 health: 1050
 ammoPerShot: 5
 alwaysUnlocked: false
+shoot: {
+  firstShotDelay: 10
+}
 research: {
   parent: "yongsin"
   planet: "gelion"
@@ -39,10 +42,10 @@ shootSound: energy-blade-launch
 ammoTypes: {
   venerium: {
   type: BasicBulletType,
-  frontColor: fcf0bd,
-  backColor: c38968,
-  hitColor: c38968,
-  damage: 260,
+  frontColor: ffffff,
+  backColor: fcf0bd,
+  hitColor: fcf0bd,
+  damage: 300,
   despawnSound: energy-blade-hit,
   lifetime: 7.4,
   speed: 41.2,
@@ -50,13 +53,10 @@ ammoTypes: {
   width: 12,
   height: 24,
   ammoMultiplier: 4,
-  trailLength: 35,
-  trailWidth: 2.2,
-  trailColor: c38968,
   collidesTiles: true
   collidesGround: true
-              bulletInterval: 0.04
-            intervalRandomSpread: 2
+            bulletInterval: 0.1
+            intervalRandomSpread: 5
             intervalBullet: {
                 type: BasicBulletType
                 damage: 1
@@ -81,9 +81,9 @@ ammoTypes: {
                             strokeTo: 1.5
                             lenFrom: 2
                             lenTo: 5
-                            colorTo: c3896800
-							colorFrom: c38968
-                            cone: 10
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+                            cone: 45
                             baseRotation: 200
                         }
                         {
@@ -96,9 +96,9 @@ ammoTypes: {
                             strokeTo: 0.5
                             lenFrom: 2
                             lenTo: 5
-                            colorTo: c3896800
-							colorFrom: c38968
-                            cone: 15
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+                            cone: 25
                             baseRotation: 200
                         }
                     ]
@@ -186,16 +186,16 @@ ammoTypes: {
 	  shootEffect: {
 					type: ParticleEffect 
 					colorFrom: fcf0bd
-					colorTo: c3896800
-					particles: 24
+					colorTo: c3896810
+					particles: 27
 					cone: 7
-					length: 42
+					length: 85
 					baseLength: 2
 					lightScl: 3
 					interp: circleOut
 					lightOpacity: 2
 					spin: 2
-					sizeFrom: 1.7
+					sizeFrom: 3.5
 					sizeTo: 0
 					offset: 1
 					}
@@ -203,11 +203,8 @@ ammoTypes: {
 }
 hasPower: false
 hasLiquids: false
-shoot: {
-  shots: 1
-}
 requirements: [
-  cobalt/65,
+  cobalt/90,
   venerium/120
   platinum/85
 ]
