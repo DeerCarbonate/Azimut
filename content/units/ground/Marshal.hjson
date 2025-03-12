@@ -6,7 +6,7 @@
 	"omniMove": true,
 	"outlineColor": 22251b,
 	"outlineRadius": 3,
-	"alwaysUnlocked": true,
+	"alwaysUnlocked": false,
 	"range": 100,
 	"armor": 3.5,
 	"stepshake": 1.5,
