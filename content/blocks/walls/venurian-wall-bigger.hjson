@@ -13,4 +13,10 @@ research: {
     "requirements": [
 	  "venerium/90"
 ]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
 }
