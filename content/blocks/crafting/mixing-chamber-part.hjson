@@ -20,6 +20,7 @@ research: {
 	  "cobalt/80"
 	  "platinum/35"
 ]
+}
 consumes: {
   liquids: [
   ammonia/0.09
