@@ -10,6 +10,7 @@ research: {
 	  "venerium/120"
 	  "cobalt/20"
 	  "platinum/230"
+	  "geliarin/25"
 ]
 objectives: [
     {
@@ -46,6 +47,7 @@ requirements: [
  	cobalt/250
 	platinum/120
 	venerium/120
+	geliarin/35
 ]
 category: units
 

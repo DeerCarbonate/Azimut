@@ -13,10 +13,4 @@ incinerable: false
 lightColor: ffffff00
 research: {
   parent: "isobutane"
-objectives: [
-    {
-      type: OnSector
-      preset: "twos"
-    }
-  ]
 }

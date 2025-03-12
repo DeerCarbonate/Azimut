@@ -10,7 +10,7 @@ cooldown: 1200
 shootCone: 9
 recoil: 3
 reload: 130
-range: 220
+range: 210
 targetAir: true
 moveWhileCharging: true
 targetGround: true
@@ -20,6 +20,22 @@ rotateSpeed: 2.205
 shootSound: mechsshoot
 shootSoundVolume: 0.5
 heatRequirement: 12
+research: {
+  parent: "dezolo"
+  planet: "gelion"
+    "requirements": [
+	  "venerium/25"
+	  "cobalt/170"
+	  "platinum/200"
+	  "geliarin/50"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "twos"
+    }
+  ]
+}
   shootEffect: {
 					type: ParticleEffect 
 					colorFrom: fccabd

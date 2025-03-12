@@ -17,6 +17,7 @@ research: {
 	  "venerium/80"
 	  "cobalt/20"
 	  "platinum/30"
+	  "geliarin/30"
 ]
 objectives: [
     {
@@ -207,6 +208,7 @@ requirements: [
   cobalt/90,
   venerium/120
   platinum/85
+  geliarin/10
 ]
 category: turret
 drawer: {

@@ -7,12 +7,6 @@
   "lightColor": "e1d2e792",
 research: {
   parent: "power"
-objectives: [
-    {
-      type: OnSector
-      preset: "twos"
-    }
-  ]
 }
   "temperature": 0.55,
   "flammability": 0.04,
