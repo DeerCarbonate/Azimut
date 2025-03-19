@@ -9,4 +9,4 @@ liquidMultiplier: 0.4
 shallow: true
 supportsOverlay: true
 emitLight: false
-
+variants: 0
