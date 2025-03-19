@@ -1,17 +1,13 @@
 type: Floor
 name: "Isobutane"
-
-speedMultiplier: 0.26
-variants: 0
-cacheLayer: "mud" //tar, mud, water, arkycite
-drownTime: 100
+speedMultiplier: 0.30
+cacheLayer: "tar"
+drownTime: 150
 isLiquid: true
 liquidDrop: isobutane
 liquidMultiplier: 0.4
 albedo: 1
 shallow: true
 supportsOverlay: true
-placeableOn: true
-emitLight: true
-lightRadius: 91
-lightColor: "663f3f" //cf9f6c7a
+emitLight: false
+
