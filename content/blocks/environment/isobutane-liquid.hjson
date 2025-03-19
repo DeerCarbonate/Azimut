@@ -1,7 +1,7 @@
 type: Floor
 name: "Isobutane"
 speedMultiplier: 0.30
-cacheLayer: "tar"
+cacheLayer: "arkycite"
 drownTime: 150
 isLiquid: true
 liquidDrop: isobutane
