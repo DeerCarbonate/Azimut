@@ -1,0 +1,14 @@
+  name: Isobutane
+  description: "Fuel liquid, flammable."
+  color: 9a6a58
+  barColor: 663f3f
+  gasColor: 9a6a5892
+  research: venerium
+  temperature: 0.6
+  flammability: 0.1
+  explosive: false
+  colorFrom: 8c604f
+  colorTo: 593d32
+  heatCapacity: 0.25
+  capPuddles: false
+  blockReactive: false
