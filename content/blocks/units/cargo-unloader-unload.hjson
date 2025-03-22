@@ -1,6 +1,6 @@
 {
     "type": "UnitCargoUnloadPoint",
-    "name": "Enchanced cargo unloader",
+    "name": "Unloading depot",
 	"squareSprite": false,
     "description": "Accepts cargo drone items based on the selected resource filter.",
     "size": 2,
