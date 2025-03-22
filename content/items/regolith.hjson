@@ -1,7 +1,7 @@
 {
 	"name": "Regolith",
 	"description": "Cheap material, needed for processing and obtaining other resources.",
-	"color": "8d6557",
+	"color": "c9c5b2",
 	"hardness": 1,
 	"charge": 0.0,
 	"explosiveness": 0,
@@ -10,5 +10,6 @@
 	"cost": 2.4,
 	"hiddenOnPlanets": [
 		serpulo,
+		erekir,
 	]
 }

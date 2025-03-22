@@ -2,7 +2,7 @@
 	"name": "Magnanese",
 	"description": "An active non-magnetic metal, unique in the solar system, used in explosive materials.",
 	"color": "9876b6",
-	"research": "Coreforce",
+	"research": "geliarin",
 	"hardness": 2,
 	"charge": 0.1,
 	"explosiveness": 0.01,
@@ -10,6 +10,7 @@
 	"radioactivity": 0,
 	"cost": 2.6,
 	"hiddenOnPlanets": [
-		serpulo,
+		serpulo
+		erekir
 	]
 }

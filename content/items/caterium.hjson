@@ -9,6 +9,7 @@
 	"radioactivity": 0.1,
 	"cost": 2.4,
 	"hiddenOnPlanets": [
-		serpulo,
+		serpulo
+		erekir
 	]
 }
