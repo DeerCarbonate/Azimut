@@ -1,27 +1,28 @@
 {
     "type": "UnitCargoLoader",
-    "name": "Enhanced cargo loader",
+    "name": "Loading depot",
 	"squareSprite": false,
-    "description": "Creates a cargo drone. The drone automatically moves resources from the loader to the unloader.",
-    "size": 3,
-    "health": 400,
+    "description": "Creates a reinforced cargo drone. The drone distributes resources to unloading depots.",
+    "size": 4,
+    "health": 950,
     "unitType": "enchanced-cargo-drone",
-    "itemCapacity": 150,
+    "itemCapacity": 100,
     "separateItemCapacity": true,
     "requirements": 
     [
-		"cobalt/200",
-		"geliarin/200",
-		"venerium/160",
+		"cobalt/200"
+		"geliarin/50"
+		"venerium/160"
+		"platinum/180"
 	],
     "category": "distribution",
-    "buildTime": 400,
     "hasItems": true,
     "hasPower": false,
     "hasLiquids": true,
 	consumes: {
   liquids: [
-  ammonia/0.5
+  ammonia/0.7
+  power/0.3
 	]
 }
 }

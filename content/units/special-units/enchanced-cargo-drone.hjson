@@ -19,7 +19,7 @@
 	engineY: -2
 	engineColor: bf92f9
 	trailColor: bf92f9
-	trailLength: 16
+	trailLength: 11
 		abilities: [
     {
     type: RegenAbility
