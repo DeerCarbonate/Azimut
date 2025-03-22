@@ -1,77 +1,28 @@
-{
-    "name": "Enhanced cargo drone",
-    "description": "An enhanced version of the cargo drone.",
-    "flying": true,
-	"outlineColor": "21202a",
-	"type": "tether",
-	"hitSize": 9,
-	"health": 490,
-	"range": 0,
-	"itemCapacity": 25,
-	"speed": 6.2,
-	"rotateSpeed": 8,
-	"rotateShooting": false,
-	"accel": 0.1,
-	"drag": 0.05,
-	"defaultController": "CargoAI",
-    "isEnemy": false,
-    "allowedInPayloads": false,
-    "logicControllable": false,
-    "playerControllable": false,
-	"engineColor": bf92f9
-		engines: [
-	{
-    engineColor: bf92f9
-    engineLayer: 91
-	rotation: 90
-    radius: 3
-    x: 0
-    y: -6.95
-    }
-	{
-    engineColor: bf92f9
-    engineLayer: 91
-    rotation: 360
-    radius: 2.5
-    x: 7.8
-    y: -2.65
-    }
-	{
-    engineColor: bf92f9
-    engineLayer: 91
-    rotation: 180
-    radius: 2.5
-    x: -7.8
-    y: -2.65
-    }
-	]
-	abilities: [
-		{
-		type: MoveEffectAbility
-		y: -6.95
-		effect: missileTrailShort
-		interval: 0.00000001
-		color: bf92f9
-		teamColor: false
-		}
-		{
-		type: MoveEffectAbility
-		x: 7.8
-		y: -2.65
-		effect: missileTrailShort
-		interval: 0.00000001
-		color: bf92f9
-		teamColor: false
-		}
-		{
-		type: MoveEffectAbility
-		x: -7.8
-		y: -2.65
-		effect: missileTrailShort
-		interval: 0.00000001
-		color: bf92f9
-		teamColor: false
-		}
-
-	]
-}
+    name: Reinforced cargo drone
+    description: "Evenly distributes resources across unloading points."
+    flying: true
+	outlineColor: 21202a
+	type: tether
+	hitSize: 16
+	health: 750
+	range: 0
+	itemCapacity: 55
+	speed: 4.5
+	rotateShooting: false
+	accel: 0.04
+	drag: 0.02
+	defaultController: CargoAI
+    isEnemy: false
+    allowedInPayloads: false
+    logicControllable: false
+    playerControllable: false
+	engineY: -2
+	engineColor: bf92f9
+	trailColor: bf92f9
+	trailLength: 16
+		abilities: [
+    {
+    type: RegenAbility
+    amount: 0.4
+	}
+    ]
