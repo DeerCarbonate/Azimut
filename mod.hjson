@@ -1,9 +1,8 @@
   name: "Azimut",
   displayName: "[[]#d2fffe]Azimut[[]]"
   subtitle: "[[]#c9c1eb]H gone for bread[]"
-  "description": "Developed by one person since July 2024, Azimut is a new HJSON campaign, with new (but in very small quantities) mechanics. (just play and see!)
-
-At the moment, all content outside the second sector is experimental and subject to change.",
+  "description": "Develop complex logistics on the new, cold planet Gelion, covered with isobutane seas.
+At the moment, the mod has 2 sectors, the third one is being actively developed. With the release of the third sector, the mod will move to version 1.1. (1 person is working on the mod.)"
   "author": "DeerCarbonate",
   "version": "1.05",
   "minGameVersion": "136",
