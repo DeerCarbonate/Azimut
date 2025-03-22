@@ -1,0 +1,6 @@
+type: Floor
+name: "Bargo-ice floor"
+attributes: {
+	water: -0.65
+}
+variants: 3
