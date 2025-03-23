@@ -8,21 +8,21 @@ health: 1050
 ammoPerShot: 5
 alwaysUnlocked: false
 shoot: {
-  firstShotDelay: 10
+  firstShotDelay: 15
 }
 research: {
-  parent: "yongsin"
+  parent: "priority"
   planet: "gelion"
     "requirements": [
-	  "venerium/80"
-	  "cobalt/20"
-	  "platinum/30"
-	  "geliarin/30"
+	  "venerium/240"
+	  "cobalt/120"
+	  "platinum/200"
+	  "geliarin/70"
 ]
 objectives: [
     {
-      type: OnSector
-      preset: "twos"
+type: SectorComplete
+preset: twos
     }
   ]
 }

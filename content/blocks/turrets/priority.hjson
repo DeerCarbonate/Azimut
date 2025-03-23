@@ -21,13 +21,13 @@ shootSound: mechsshoot
 shootSoundVolume: 0.5
 heatRequirement: 12
 research: {
-  parent: "dezolo"
+  parent: "yongsin"
   planet: "gelion"
     "requirements": [
-	  "venerium/25"
+	  "venerium/50"
 	  "cobalt/170"
-	  "platinum/200"
-	  "geliarin/50"
+	  "platinum/160"
+	  "geliarin/10"
 ]
 objectives: [
     {
@@ -67,7 +67,7 @@ shootType: {
 	pierceArmor: false
 	
     lifetime: 12
-    damage: 180
+    damage: 230
 	
 	laserAbsorb:true
 }
