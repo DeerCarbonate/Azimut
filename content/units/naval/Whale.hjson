@@ -13,9 +13,9 @@
 	hitSize: 28
 	faceTarget: false
 	immunities: [ wet ]
-	trailLength: 24
-	trailScl: 2
-	waveTrailX: 7
+	trailLength: 25
+	trailScl: 2.5
+	waveTrailX: 5.5
 	waveTrailY: -9
 	description: "Shoots slow DNA strands."
 	weapons: [
@@ -39,15 +39,15 @@ shoot: {
 	type: ShootMulti
 	source: {
     type: ShootSpread
-    firstShotDelay: 10
+    firstShotDelay: 2
     spread: 0.2
     shots: 2
     }
 	dest: [
 	{
 	type: ShootPattern
-		shots: 6
-		shotDelay: 10
+		shots: 24
+		shotDelay: 2
 	}
 	]
 	}
