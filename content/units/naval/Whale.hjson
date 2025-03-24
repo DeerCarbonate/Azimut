@@ -1,23 +1,23 @@
 {
-	"name": "Whale",
-	"type": naval,
-	"flying": false,
-	"rotateSpeed": 2.4,
-	"alwaysUnlocked": true,
-	"outlineColor": 1b1c25,
-	"outlineRadius": 3,
-	"range": 165,
-	"armor": 3,
-	"health": 3400,
-	"speed": 0.9,
-	"size": 780,
-	"hitSize": 25.5
-	"hitboxSize": [9.0, 9.0],
-	"mass": 3.4,
-	"immunities": [ wet ]
-	"trailLength": 32,
-	"trailWidth": 47,
-	"description": "Fires homing missiles and five-round salvoes.",
+	name: "Whale",
+	type: naval
+	flying: false
+	rotateSpeed: 2
+	drag: 0.19
+	alwaysUnlocked: true
+	outlineColor: 1b1c25
+	outlineRadius: 3
+	armor: 7
+	health: 3500
+	speed: 0.9
+	hitSize: 28
+	faceTarget: false
+	immunities: [ wet ]
+	trailLength: 24
+	trailScl: 2
+	waveTrailX: 7
+	waveTrailY: -9
+	description: "Shoots slow DNA strands."
 	weapons: [
 		{
 			"name": WhaleTwo-weapon,
@@ -52,7 +52,7 @@ shoot: {
 	]
 	}
 			bullet: {
-			type: ArtilleryBulletType
+			type: BasicBulletType
 			backColor: e5f9f1
 			frontColor: b3eed8
 			sprite: missile
@@ -60,7 +60,7 @@ shoot: {
 			height: 8
 			width: 8
 			lifetime: 120
-			damage: 45
+			damage: 38
 			speed: 2.5
 			trailColor: 8edfc1
 			trailLength: 4
