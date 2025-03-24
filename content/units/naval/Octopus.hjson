@@ -12,11 +12,11 @@
 	size: 250
 	hitSize: 18.2
 	immunities: [ wet ]
-	trailLength: 19,
+	trailLength: 19
 	trailScl: 2.1
 	waveTrailX: 5
 	waveTrailY: -7
-	description: "Fires homing missiles.",
+	description: "Fires homing missiles."
 	weapons: [
 		{
 			"name": Octopus-weapon

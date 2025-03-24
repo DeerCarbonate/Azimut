@@ -1,22 +1,22 @@
 {
-	"name": "Plankton",
-	"type": naval,
-	"flying": false,
-	"outlineColor": 1b1c25,
-	"outlineRadius": 3,
-	"rotateSpeed": 3.6,
-	"alwaysUnlocked": true,
-	"range": 100,
-	"armor": 0,
-	"health": 950,
-	"speed": 1.5,
-	"size": 100,
-	"hitSize": 13.0,
-	"hitboxSize": [9.0, 9.0],
-	"mass": 3.0,
-	"immunities": [ wet ]
-	"trailLength": 6,
-	"description": "Fires a salvo of four bullets.",
+	name: "Plankton"
+	type: naval
+	flying: false
+	outlineColor: 1b1c25
+	outlineRadius: 3
+	rotateSpeed: 3.6
+	alwaysUnlocked: true
+	range: 100
+	armor: 1.2
+	health: 950
+	speed: 1.55
+	hitSize: 13.0
+	immunities: [ wet ]
+	trailLength: 12
+	trailScl: 1.7
+	waveTrailX: 4
+	waveTrailY: -7
+	description: "Fires a salvo of four bullets.",
 	weapons: [
 		{
 		    "name": Plankton-weapon,
