@@ -40,13 +40,12 @@ shoot: {
 	source: {
     type: ShootHelix
     firstShotDelay: 20
-    shots: 2
     }
 	dest: [
 	{
 	type: ShootPattern
-		shots: 8
-		shotDelay: 20
+		shots: 12
+		shotDelay: 5
 	}
 	]
 	}
@@ -62,11 +61,11 @@ shoot: {
 			damage: 25
 			speed: 2.5
 			trailColor: 8edfc1
-			trailLength: 4
+			trailLength: 12
 			trailWidth: 1.7
-			weaveMag: 3.2
-			weaveScale: 4.5
-            bulletInterval: 5
+			weaveMag: 0.6
+			weaveScale: 0.7
+            bulletInterval: 2
             intervalRandomSpread: 5
             intervalBullet: {
                 type: BasicBulletType
