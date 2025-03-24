@@ -1,6 +1,6 @@
 localizedName: Advance
 description: "There is a small enemy base in the sector to control territories. Unlock the Legate unit and produce Geliarin, an important resource for new technologies."
-captureWave: 8
+captureWave: 0
 planet: gelion
 name: twos
 sector: 9
