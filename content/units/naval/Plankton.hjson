@@ -13,9 +13,9 @@
 	hitSize: 13.0
 	immunities: [ wet ]
 	trailLength: 12
-	trailScl: 1.7
+	trailScl: 1.4
 	waveTrailX: 4
-	waveTrailY: -7
+	waveTrailY: -3
 	description: "Fires a salvo of four bullets.",
 	weapons: [
 		{
