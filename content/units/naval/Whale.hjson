@@ -21,38 +21,38 @@
 	weapons: [
 		{
 			"name": WhaleTwo-weapon,
-			"recoil": 4,
+			"recoil": 2.5,
             "shootY": 1.1,
 			"mirror": true,
 			"alternate": true,
 			"rotate": true,
-			"rotateSpeed": 5.5,
-			"reload": 100,
+			"rotateSpeed": 5,
+			"reload": 130,
 			"inacurrasy": 10,
 			"shootSound": restart,
 			"controllable": true,
 			"aiControllable": true,
 			"inacurrasy": 15,
 			"x": 6.7
-			"y": -6.455
+			"y": -7.455
 shoot: {
 	type: ShootMulti
 	source: {
     type: ShootSpread
-    firstShotDelay: 2
+    firstShotDelay: 10
     spread: 0.2
     shots: 2
     }
 	dest: [
 	{
 	type: ShootPattern
-		shots: 24
-		shotDelay: 2
+		shots: 6
+		shotDelay: 10
 	}
 	]
 	}
 			bullet: {
-			type: BasicBulletType
+			type: ArtilleryBulletType
 			backColor: e5f9f1
 			frontColor: b3eed8
 			sprite: missile
@@ -60,7 +60,7 @@ shoot: {
 			height: 8
 			width: 8
 			lifetime: 120
-			damage: 25
+			damage: 45
 			speed: 2.5
 			trailColor: 8edfc1
 			trailLength: 4
