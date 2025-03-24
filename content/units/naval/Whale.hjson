@@ -7,10 +7,10 @@
 	alwaysUnlocked: true
 	outlineColor: 1b1c25
 	outlineRadius: 3
-	armor: 7
+	armor: 8
 	health: 3500
 	speed: 0.9
-	hitSize: 28
+	hitSize: 24
 	faceTarget: false
 	immunities: [ wet ]
 	trailLength: 25
@@ -86,7 +86,7 @@ shoot: {
                         {
                             type: ParticleEffect
                             lifetime: 12
-                            particles: 2
+                            particles: 1
                             baseLength: 3
                             length: 10
                             line: true
@@ -101,7 +101,7 @@ shoot: {
                         {
                             type: ParticleEffect
                             lifetime: 16
-                            particles: 2
+                            particles: 1
                             baseLength: 3
                             length: 15
                             line: true
