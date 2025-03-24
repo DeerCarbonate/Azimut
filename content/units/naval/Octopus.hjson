@@ -1,22 +1,22 @@
 {
-	"name": "Octopus",
-	"type": naval,
-	"flying": false,
-	"rotateSpeed": 2.8,
-	"outlineColor": 1b1c25,
-	"outlineRadius": 3,
-	"alwaysUnlocked": true,
-	"range": 165,
-	"armor": 0.8,
-	"health": 1700,
-	"speed": 1.1,
-	"size": 250,
-	"hitSize": 18.2,
-	"hitboxSize": [9.0, 9.0],
-	"mass": 3.2,
-	"immunities": [ wet ]
-	"trailLength": 9,
-	"description": "Fires homing missiles.",
+	name: "Octopus"
+	type: naval
+	flying": false
+	rotateSpeed: 3.1
+	outlineColor: 1b1c25
+	outlineRadius: 3
+	alwaysUnlocked: false
+	armor: 4
+	health: 1720
+	speed: 1.15
+	size: 250
+	hitSize: 18.2
+	immunities: [ wet ]
+	trailLength: 19,
+	trailScl: 2.1
+	waveTrailX: 5
+	waveTrailY: -7
+	description: "Fires homing missiles.",
 	weapons: [
 		{
 			"name": Octopus-weapon
@@ -29,7 +29,6 @@
 			"rotate": true,
 			"rotateSpeed": 9,
 			"reload": 100,
-			"inacurrasy": 1,
 			"shootSound": shoot-small-flame,
 			"controllable": true,
 			"aiControllable": true,
