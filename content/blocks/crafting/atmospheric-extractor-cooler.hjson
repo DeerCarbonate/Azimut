@@ -40,17 +40,6 @@ drawer: {
 	{
       type: DrawDefault
     }
-	{
-	type: drawHeatInput
-	suffix: -heat
-	color: ffb380
-	}
-	{
-      type: DrawGlowRegion
-      layer: 30
-      color: ffb380
-      alpha: 0.5
-    }
   ]
 }
 researchCostMultiplier: 0.5
