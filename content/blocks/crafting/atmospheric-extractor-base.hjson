@@ -4,7 +4,7 @@ description: Collects gases from the planet's atmosphere.
 size: 3
 category: crafting
 rotate: false
-squareSprite: true
+squareSprite: false
 liquidCapacity: 100
 requirements: [
   cobalt/120
@@ -77,7 +77,7 @@ drawer: {
       drawLiquid: gas-isobutane
       padLeft: 0.3
       padBottom: 0
-      padTop: 3.11
+      padTop: 0.3
       padRight: 0.3
     }
 	{

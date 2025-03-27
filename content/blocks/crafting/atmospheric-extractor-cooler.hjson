@@ -4,9 +4,9 @@ description: Synthesizes swartzite.
 size: 3
 category: crafting
 rotate: false
-squareSprite: true
+squareSprite: false
 liquidCapacity: 100
-heatRequirement: 6
+heatRequirement: 12
 requirements: [
   cobalt/150
   venerium/75
@@ -36,6 +36,10 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: gas-isobutane
+      padLeft: 0.3
+      padBottom: 0.3
+      padTop: 0.3
+      padRight: 0.3
     }
 	{
       type: DrawDefault
