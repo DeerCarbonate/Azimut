@@ -37,6 +37,18 @@ drawer: {
       padRight: 0.7
     }
 	{
+      type: DrawBubbles
+      fill: false
+      color: bea78f40
+      spread: 1
+    }
+	{
+      type: DrawBubbles
+      fill: false
+      color: bea78f10
+      spread: 1
+    }
+	{
       type: DrawDefault
     }
   ]
