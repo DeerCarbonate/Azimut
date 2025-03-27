@@ -5,7 +5,7 @@
 	outlineColor: 1b1c25
 	outlineRadius: 3
 	rotateSpeed: 3.6
-	alwaysUnlocked: true
+	alwaysUnlocked: false
 	range: 100
 	armor: 1.2
 	health: 950
@@ -17,6 +17,22 @@
 	waveTrailX: 4
 	waveTrailY: -3
 	description: "Fires a salvo of four bullets.",
+		research: {
+  parent: "naval-editor"
+  planet: gelion
+    "requirements": [
+	  "venerium/90"
+	  "cobalt/800"
+	  "platinum/260"
+	  "geliarin/70"
+]
+objectives: [
+    {
+	type: SectorComplete
+	preset: twos
+    }
+  ]
+}
 	weapons: [
 		{
 		    "name": Plankton-weapon,

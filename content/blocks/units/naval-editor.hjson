@@ -1,0 +1,55 @@
+type: UnitFactory
+health: 1240
+size: 4
+name: Naval Editor
+squareSprite: false
+research: {
+  parent: "mech-editor"
+  planet: gelion
+    "requirements": [
+	  "venerium/140"
+	  "cobalt/450"
+	  "platinum/500"
+	  "geliarin/175"
+]
+objectives: [
+    {
+type: SectorComplete
+preset: twos
+    }
+  ]
+}
+plans: [
+	{
+	unit: Plankton
+	requirements: [
+		geliarin/25
+		platinum/55
+		cobalt/45
+    	]
+    	time: 1150
+  	}
+	{
+	unit: Octopus
+	requirements: [
+		geliarin/75
+		platinum/110
+		cobalt/90
+		venerium/50
+    	]
+    	time: 2070
+  	}
+]
+
+consumes: {
+	liquid: power/0.18
+}
+configurable: true
+requirements: [
+ 	cobalt/280
+	platinum/200
+	venerium/190
+	geliarin/95
+]
+category: units
+
