@@ -42,6 +42,15 @@ drawer: {
       padRight: 0.7
     }
 	{
+      type: DrawParticles
+      color: bea78f20
+      alpha: 0.75
+      particleSize: 1.5
+      particles: 12
+      particleRad: 12
+      particleLife: 520
+    }
+	{
       type: DrawDefault
     }
   ]
