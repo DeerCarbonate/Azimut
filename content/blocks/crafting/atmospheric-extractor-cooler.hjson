@@ -42,6 +42,34 @@ drawer: {
       padRight: 0.7
     }
 	{
+      type: DrawCircles
+      color: bea78f10
+      strokeMax: 2.1
+      radius: 10
+      amount: 1.8
+    }
+	{
+      type: DrawCircles
+      color: bea78f10
+      strokeMax: 1.4
+      radius: 9
+      amount: 1.5
+    }
+	{
+      type: DrawCircles
+      color: bea78f10
+      strokeMax: 2.6
+      radius: 6
+      amount: 0.8
+    }
+	{
+      type: DrawCircles
+      color: bea78f10
+      strokeMax: 1.9
+      radius: 5
+      amount: 1.2
+    }
+	{
       type: DrawParticles
       color: bea78f20
       alpha: 0.75
