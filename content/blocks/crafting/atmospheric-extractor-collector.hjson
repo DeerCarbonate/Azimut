@@ -37,11 +37,6 @@ drawer: {
       padRight: 0.5
     }
 	{
-      type: DrawPistons
-      suffix: -piston
-      sides: 1
-    }
-	{
       type: DrawDefault
     }
   ]
