@@ -36,10 +36,10 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: gas-isobutane
-      padLeft: 0.5
-      padBottom: 0.5
-      padTop: 0.5
-      padRight: 0.5
+      padLeft: 0.7
+      padBottom: 0.7
+      padTop: 0.7
+      padRight: 0.7
     }
 	{
       type: DrawDefault
