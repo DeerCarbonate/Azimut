@@ -32,6 +32,7 @@ shoot: {
 	type: ShootPattern
 		shots: 1
 	}
+]
 }
   ammoTypes: {
     caterium: {
