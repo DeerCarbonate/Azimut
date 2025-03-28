@@ -27,6 +27,11 @@ shoot: {
     spread: 0.3
     shots: 6
     }
+	dest: [
+	{
+	type: ShootPattern
+		shots: 1
+	}
 }
   ammoTypes: {
     caterium: {
