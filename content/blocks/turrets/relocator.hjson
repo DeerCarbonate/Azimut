@@ -1,0 +1,210 @@
+type: ItemTurret
+name: Relocator
+description: Fires three powerful projectiles.
+researchCostMultiplier: 0.5
+size: 3
+outlineColor: 0c0c12
+outlineColor: 0c0c12
+health: 1300
+cooldown: 1200
+shootCone: 9
+recoil: 2.5
+reload: 540
+range: 290
+targetAir: true
+moveWhileCharging: true
+targetGround: true
+rotateSpeed: 1.15
+shootSound: mechshoot
+shootSoundVolume: 0.65
+ammoPerShot: 5
+shoot: {
+  firstShotDelay: 30
+}
+  ammoTypes: {
+    caterium: {
+type: BasicBulletType
+sprite: "large-orb"
+width: 12
+height: 12
+speed: 4.2
+collidesTiles: true
+collidesGround: true
+lifetime: 90
+damage: 190
+backColor: b9c4d8
+frontColor: ecf4fb
+intervalBullets: 1
+bulletInterval: 0.8
+intervalSpread: 180
+
+hitEffect: {
+type: ParticleEffect  
+colorFrom: e5f9f160
+colorTo: b9c4d830
+particles: 10
+length: 50
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 5
+sizeTo: 0 
+offset: 1
+lifetime: 100
+interp: exp5Out
+sizeInterp: exp5In
+}
+despawnEffect: {
+type: ParticleEffect  
+colorFrom: e5f9f160
+colorTo: b9c4d830
+particles: 10
+length: 50
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 5
+sizeTo: 0 
+offset: 1
+lifetime: 100
+interp: exp5Out
+sizeInterp: exp5In
+}
+
+		intervalBullet: {
+type: BasicBulletType
+width: 6
+sprite: "large-orb"
+height: 6
+speed: 1
+collidesGround: true 
+lifetime: 1
+damage: 1
+backColor: ffffff
+frontColor: f6afdd
+hitEffect: {
+type: ParticleEffect 
+lifetime: 70
+colorFrom: e5f9f195
+colorTo: b9c4d800
+drag: 0.4
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 1
+sizeFrom: 0
+sizeTo: 2
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+despawnEffect: {
+type: ParticleEffect 
+lifetime: 120
+colorFrom: e5f9f195
+colorTo: b9c4d800
+drag: 0.7
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 2
+sizeTo: 0 
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+}
+}
+}
+requirements: [
+  cobalt/90
+  venerium/120
+  platinum/45
+]
+category: turret
+drawer: {
+  type: DrawTurret
+  basePrefix: ast-
+  heatProgress: recoil
+  cooldown: 0.1
+  parts: [
+	{
+      type: RegionPart,
+      suffix: -blade,
+      under: false,
+      mirror: true,
+      heatProgress: heat
+      progress: warmup
+	  x: 0,
+	  y: 0,
+	  moveRot: -15
+	  moveY: 0
+	  moveX: 1.5
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+    {
+      type: RegionPart,
+      suffix: -middle,
+      under: false,
+      mirror: false,
+      heatProgress: heat
+      progress: recoil
+	  x: 0,
+	  y: 0,
+	  moveY: -3.5
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	{
+      type: RegionPart,
+      suffix: -middle1,
+      under: false,
+      mirror: false,
+      heatProgress: heat
+      progress: recoil
+	  x: 0,
+	  y: 0,
+	  moveY: -3.5
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	{
+      type: RegionPart,
+      suffix: -middle2,
+      under: false,
+      mirror: false,
+      heatProgress: heat
+      progress: recoil
+	  x: 0,
+	  y: 0,
+	  moveY: -5.5
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	{
+      type: RegionPart,
+      suffix: -middle3,
+      under: false,
+      mirror: false,
+      heatProgress: heat
+      progress: recoil
+	  x: 0,
+	  y: 0,
+	  moveY: -7.5
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	]
+}
