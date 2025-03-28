@@ -20,7 +20,13 @@ shootSoundVolume: 0.65
 ammoPerShot: 5
 shootY: -8.2
 shoot: {
-  firstShotDelay: 30
+	type: ShootMulti
+	source: {
+    type: ShootSpread
+    firstShotDelay: 30
+    spread: 0.3
+    shots: 6
+    }
 }
   ammoTypes: {
     caterium: {
