@@ -24,8 +24,8 @@ shoot: {
 	source: {
     type: ShootSpread
     firstShotDelay: 30
-    spread: 0.3
-    shots: 6
+    spread: 12
+    shots: 3
     }
 	dest: [
 	{
@@ -45,7 +45,7 @@ speed: 6.2
 collidesTiles: true
 collidesGround: true
 lifetime: 90
-damage: 190
+damage: 90
 backColor: 4e6e63
 frontColor: bff6b1
 intervalBullets: 1
@@ -59,7 +59,7 @@ hitEffect: {
 type: ParticleEffect  
 colorFrom: bff6b160
 colorTo: 4e6e6330
-particles: 10
+particles: 4
 length: 50
 baseLength: 1
 lightScl: 3
@@ -76,7 +76,7 @@ despawnEffect: {
 type: ParticleEffect  
 colorFrom: bff6b160
 colorTo: 4e6e6330
-particles: 10
+particles: 4
 length: 50
 baseLength: 1
 lightScl: 3
