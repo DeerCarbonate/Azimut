@@ -18,7 +18,7 @@ rotateSpeed: 1.15
 shootSound: mechshoot
 shootSoundVolume: 0.65
 ammoPerShot: 5
-shootY: -7
+shootY: -8.2
 shoot: {
   firstShotDelay: 30
 }
@@ -26,16 +26,16 @@ shoot: {
     caterium: {
 type: BasicBulletType
 sprite: "large-bomb"
-width: 7
-height: 7
-spin: 1.2
+width: 12
+height: 12
+spin: 1
 speed: 6.2
 collidesTiles: true
 collidesGround: true
 lifetime: 90
 damage: 190
-backColor: bff6b1
-frontColor: 4e6e63
+backColor: 4e6e63
+frontColor: bff6b1
 intervalBullets: 1
 bulletInterval: 0.8
 intervalSpread: 180
