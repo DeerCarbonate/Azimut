@@ -19,13 +19,13 @@ shootSound: mechshoot
 shootSoundVolume: 0.65
 ammoPerShot: 8
 shootY: -8.2
-inacurrasy: 4
+inaccuracy: 4
 shoot: {
 	type: ShootMulti
 	source: {
     type: ShootSpread
     firstShotDelay: 30
-    spread: 2
+    spread: 0.6
     shots: 3
     }
 	dest: [
