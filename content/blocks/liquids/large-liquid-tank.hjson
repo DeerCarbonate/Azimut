@@ -1,5 +1,5 @@
 type: LiquidRouter
-name : Large Aqua Container
+name : Large liquid tank
 description: Stores big amount of liquid.
 health: 850
 size: 3
