@@ -1,6 +1,7 @@
 type: LiquidRouter
 name: Small liquid cylinder
 description: Stores liquid.
+squareSprite: false
 health: 350
 size: 2
 hasLiquids: true
