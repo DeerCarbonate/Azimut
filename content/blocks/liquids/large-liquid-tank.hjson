@@ -11,6 +11,14 @@ requirements: [
     "cobalt/50"
 	"platinum/40"
 ]
-research: small-liquid-tank
+research: {
+  parent: small-liquid-cylinder
+  objectives: [
+    {
+      type: OnSector
+      preset: twos
+    }
+  ]
+}
 liquidPadding: 1.8
 researchCostMultiplier: 0.5
