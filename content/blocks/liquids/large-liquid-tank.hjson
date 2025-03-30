@@ -1,0 +1,16 @@
+type: LiquidRouter
+name : Large Aqua Container
+description: Stores big amount of liquid.
+health: 850
+size: 3
+hasLiquids: true
+liquidCapacity: 2700
+category: liquid
+requirements: [
+    "venerium/170",
+    "cobalt/50"
+	"platinum/40"
+]
+research: small-liquid-tank
+liquidPadding: 1.8
+researchCostMultiplier: 0.5

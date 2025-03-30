@@ -1,0 +1,23 @@
+type: LiquidRouter
+name: Small liquid cylinder
+description: Stores liquid.
+health: 350
+size: 2
+hasLiquids: true
+liquidCapacity: 750
+category: liquid
+requirements: [
+    "venerium/60"
+    "cobalt/15"
+]
+research: {
+  parent: directed-liquid-bridge
+  objectives: [
+    {
+      type: OnSector
+      preset: twos
+    }
+  ]
+}
+liquidPadding: 1.8
+researchCostMultiplier: 0.5
