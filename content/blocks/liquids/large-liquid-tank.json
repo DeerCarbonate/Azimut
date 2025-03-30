@@ -1,0 +1,20 @@
+{
+  "type": "LiquidRouter",
+  "name": "Large liquid tank",
+  "description": "Stores big amount of liquid.",
+  "category": "liquid",
+  "research": {
+    "parent": "small-liquid-cylinder",
+    "planet": "gelion",
+  }
+  "size": 3,
+  "solid": true,
+  "health": 750,
+  "liquidCapacity": 1750,
+  "requirements": [
+    "venerium/170",
+    "cobalt/50"
+	"platinum/40"
+  ]
+}
+
