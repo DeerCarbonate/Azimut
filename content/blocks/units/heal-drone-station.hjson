@@ -14,7 +14,7 @@
 		"venerium/120"
 		"platinum/90"
 	],
-    "category": "units",
+    "category": "effect",
     "hasItems": true,
     "hasPower": false,
     "hasLiquids": true,
