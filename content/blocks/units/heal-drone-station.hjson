@@ -1,0 +1,30 @@
+    "type": "UnitCargoLoader",
+    "name": "Loading depot",
+	"squareSprite": false,
+    "description": "Creates a regenerator drone. The drone restores health to nearby buildings using a regenerating beam. The drone can only regenerate one building, but at a high speed.",
+    "size": 3,
+    "health": 650,
+    "unitType": "heal-drone",
+    "itemCapacity": 0,
+    "separateItemCapacity": true,
+    "requirements": 
+    [
+		"cobalt/150"
+		"geliarin/100"
+		"venerium/120"
+		"platinum/90"
+	],
+    "category": "distribution",
+    "hasItems": true,
+    "hasPower": false,
+    "hasLiquids": true,
+	consumes: {
+  liquids: [
+  power/0.5
+	]
+}
+polyStroke: 1.8
+polyRadius: 6
+polySides: 3
+polyRotateSpeed: 2
+polyColor: bf92f9

@@ -1,0 +1,51 @@
+    name: Regenerator drone
+    description: "Regenerates nearby buildings."
+    flying: true
+	outlineColor: 21202a
+	type: tether
+	hitSize: 14
+	health: 350
+	range: 0
+	itemCapacity: 0
+	speed: 1
+	rotateShooting: false
+	accel: 0.04
+	drag: 0.02
+	defaultController: CargoAI
+    isEnemy: false
+    allowedInPayloads: false
+    logicControllable: false
+    playerControllable: false
+	engineY: -1
+	engineColor: bf92f9
+	trailColor: bf92f9
+	trailLength: 2
+	    weapons: [
+{
+mirror: false
+x: 0
+y: 0
+noAttack: true
+shootSound: none
+shootCone: 45
+beamWidth: 5.5
+autoTarget: true
+targetUnits: true
+targetBuildings: true
+shootY: 0
+repairSpeed: 0.9
+fractionRepairSpeed: .02
+continuous: true
+rotate: false
+type: RepairBeamWeapon
+name: cull-b
+noAttack: true
+widthSinMag: .11
+reload: 10
+healColor: bf92f9
+laserColor: bf92f9
+bullet: {
+maxRange: 150
+}
+}
+]
