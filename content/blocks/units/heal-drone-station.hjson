@@ -1,5 +1,5 @@
     "type": "UnitCargoLoader",
-    "name": "Loading depot",
+    "name": "Drone healing station",
 	"squareSprite": false,
     "description": "Creates a regenerator drone. The drone restores health to nearby buildings using a regenerating beam. The drone can only regenerate one building, but at a high speed.",
     "size": 3,
