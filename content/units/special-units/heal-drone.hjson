@@ -33,7 +33,7 @@ autoTarget: true
 targetUnits: true
 targetBuildings: true
 shootY: 0
-repairSpeed: 5
+repairSpeed: 12
 fractionRepairSpeed: .007
 continuous: true
 rotate: false
@@ -60,7 +60,7 @@ autoTarget: true
 targetUnits: true
 targetBuildings: true
 shootY: 0
-repairSpeed: 12
+repairSpeed: 24
 fractionRepairSpeed: .007
 continuous: true
 rotate: false
