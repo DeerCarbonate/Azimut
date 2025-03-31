@@ -28,7 +28,7 @@ y: 0
 noAttack: true
 shootSound: none
 shootCone: 45
-beamWidth: 5.5
+beamWidth: 0.5
 autoTarget: true
 targetUnits: true
 targetBuildings: true
