@@ -33,7 +33,7 @@ autoTarget: true
 targetUnits: true
 targetBuildings: true
 shootY: 0
-repairSpeed: 1
+repairSpeed: 5
 fractionRepairSpeed: .007
 continuous: true
 rotate: false
@@ -60,7 +60,7 @@ autoTarget: true
 targetUnits: true
 targetBuildings: true
 shootY: 0
-repairSpeed: 7
+repairSpeed: 12
 fractionRepairSpeed: .007
 continuous: true
 rotate: false
@@ -72,7 +72,7 @@ reload: 0.2
 healColor: bf92f9
 laserColor: bf92f9
 bullet: {
-maxRange: 30
+maxRange: 40
 }
 }
 ]
