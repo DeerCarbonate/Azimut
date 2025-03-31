@@ -26,32 +26,3 @@
     amount: 0.4
 	}
     ]
-	weapons: [
-{
-mirror: false
-x: 0
-y: 0
-noAttack: true
-shootSound: none
-shootCone: 45
-beamWidth: .6
-autoTarget: true
-targetUnits: true
-targetBuildings: true
-shootY: 1
-repairSpeed: .5
-fractionRepairSpeed: .01
-continuous: true
-rotate: false
-type: RepairBeamWeapon
-name: cull-b
-noAttack: true
-widthSinMag: .11
-reload: 20
-healColor: ffd37f
-laserColor: ffd37f
-bullet: {
-maxRange: 50
-}
-}
-]
