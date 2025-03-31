@@ -1,7 +1,7 @@
     "type": "UnitCargoLoader",
     "name": "Drone healing station",
 	"squareSprite": false,
-    "description": "Creates a regenerator drone. The drone restores health to nearby buildings using a regenerating beam. The drone can only regenerate one building, but at a high speed.",
+    "description": "Creates a regenerator drone. The drone restores health to nearby buildings and units using a regenerating beam. The drone can only regenerate 2 objects, Has 2 regenerating beams. The first has a short range but a fast regeneration rate, the second has a long range but a slow regeneration rate.",
     "size": 3,
     "health": 650,
     "unitType": "heal-drone",
