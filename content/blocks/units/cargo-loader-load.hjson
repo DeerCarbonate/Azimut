@@ -1,4 +1,3 @@
-{
     "type": "UnitCargoLoader",
     "name": "Loading depot",
 	"squareSprite": false,
@@ -24,7 +23,6 @@
   ammonia/0.7
   power/0.3
 	]
-}
 }
 polyStroke: 1.8
 polyRadius: 10
