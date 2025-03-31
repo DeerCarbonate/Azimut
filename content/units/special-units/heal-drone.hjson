@@ -28,13 +28,13 @@ y: 0
 noAttack: true
 shootSound: none
 shootCone: 45
-beamWidth: 1
+beamWidth: 0.75
 autoTarget: true
 targetUnits: true
 targetBuildings: true
 shootY: 0
-repairSpeed: 0.5
-fractionRepairSpeed: .1
+repairSpeed: 0.45
+fractionRepairSpeed: .007
 continuous: true
 rotate: false
 type: RepairBeamWeapon
