@@ -24,7 +24,7 @@
 	]
 }
 polyStroke: 1.8
-polyRadius: 6
-polySides: 3
+polyRadius: 8
+polySides: 7
 polyRotateSpeed: 2
 polyColor: bf92f9
