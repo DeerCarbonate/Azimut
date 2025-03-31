@@ -26,3 +26,8 @@
 	]
 }
 }
+polyStroke: 1.8
+polyRadius: 10
+polySides: 9
+polyRotateSpeed: 3
+polyColor: bf92f9
