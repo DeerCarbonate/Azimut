@@ -33,7 +33,7 @@ autoTarget: true
 targetUnits: true
 targetBuildings: true
 shootY: 0
-repairSpeed: 0.45
+repairSpeed: 1
 fractionRepairSpeed: .007
 continuous: true
 rotate: false
@@ -45,7 +45,34 @@ reload: 0.2
 healColor: bf92f9
 laserColor: bf92f9
 bullet: {
-maxRange: 150
+maxRange: 170
+}
+}
+{
+mirror: false
+x: 0
+y: 0
+noAttack: true
+shootSound: none
+shootCone: 45
+beamWidth: 0.75
+autoTarget: true
+targetUnits: true
+targetBuildings: true
+shootY: 0
+repairSpeed: 1
+fractionRepairSpeed: .007
+continuous: true
+rotate: false
+type: RepairBeamWeapon
+name: cull-b
+noAttack: true
+widthSinMag: .11
+reload: 0.2
+healColor: bf92f9
+laserColor: bf92f9
+bullet: {
+maxRange: 170
 }
 }
 ]
