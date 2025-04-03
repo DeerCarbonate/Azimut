@@ -6,8 +6,8 @@ category: liquid
 squareSprite: false
 research: mechanical-quarry
 requirements: [
-  cobalt/18
-  venerium/10
+  cobalt/25
+  venerium/20
 ]
 pumpAmount: 0.12
 researchCostMultiplier: 0.5
@@ -17,6 +17,12 @@ drawer: {
   	    {
       type: DrawRegion
       suffix: -bottom
+    }
+	{
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 8.5
+      spinSprite: true
     }
     {
       type: DrawLiquidTile
@@ -33,24 +39,6 @@ drawer: {
       padBottom: 1.5
       padTop: 1.5
       padRight: 1.5
-    }
-	{
-      type: DrawRegion
-      suffix: -fan
-      rotateSpeed: 6.5
-      spinSprite: true
-    }
-	{
-      type: DrawRegion
-      suffix: -fan
-      rotateSpeed: 6.5
-      spinSprite: true
-    }
-	{
-      type: DrawRegion
-      suffix: -fan
-      rotateSpeed: 6.5
-      spinSprite: true
     }
     {
       type: DrawDefault
