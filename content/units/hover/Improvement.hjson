@@ -10,11 +10,10 @@
 	"outlineRadius": 3,
 	"alwaysUnlocked": true,
 	"range": 100
-	"armor": 3,
-	"health": 760,
+	"armor": 0,
+	"health": 780,
 	"hovering": true,
-	"speed": 1.45,
-	"size": 130,
+	"speed": 1.41,
 	"hitSize": 13.0,
 	"hitboxSize": [9.0, 9.0],
 	"drag": 0.03,
@@ -86,7 +85,7 @@
 		    name: improvement-weapon
     layerOffset: -0.01
     mirror: false
-    reload: 180
+    reload: 160
     baseRotation: 180
     rotate: false
     rotationLimit: 0.1
@@ -106,7 +105,7 @@
         keepVelocity: false
         lifetime: 110
         drag: -0.015
-        damage: 29
+        damage: 21
         height: 4
         speed: 1.1
         width: 4
@@ -132,27 +131,28 @@
         rotWithParent: true,
 		interp: exp5Out,
 		sizeInterp: exp5In,
-	despawnEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 22
-    sizeFrom: 0
-    sizeTo: 5
-    colorFrom: f6afdd
-    colorTo: f6afdd00
-    }
-	hitEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 22
-    sizeFrom: 0
-    sizeTo: 5
-    colorFrom: f6afdd
-    colorTo: f6afdd00
-    }
-}
+		despawnEffect: none
+		collidesTiles: true
+		keepVelocity: false
+		collidesAir: false
+		splashDamageRadius: 2
+		}
+			hitEffect: {
+    type: ExplosionEffect
+    lifetime: 15
+    waveColor: f6afdd
+    waveStroke: 1.2
+    waveRad: 2.5
+    smokeColor: f6afdd
+    smokeSizeBase: 0
+    smokeSize: 5.5
+    smokes: 0
+    sparkColor: f6afdd
+    sparkStroke: 1.6
+    sparkRad: 17.5
+    sparkLen: 2
+    sparks: 3
+		}
 		}
 	}
 	]
