@@ -1,4 +1,3 @@
-{
 	"name": "Marshal",
 	"type": mech,
 	"flying": false,
@@ -85,7 +84,8 @@
 		collidesTiles: true
 		keepVelocity: false
 		collidesAir: false
-				hitEffect: {
+		splashDamageRadius: 7
+	hitEffect: {
     type: ExplosionEffect
     lifetime: 31
     waveColor: cc918b
@@ -103,5 +103,4 @@
 		}
 		}
 	}
-	]
-}		
+]	
