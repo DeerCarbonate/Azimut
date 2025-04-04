@@ -139,14 +139,14 @@
 			hitEffect: {
     type: ExplosionEffect
     lifetime: 15
-    waveColor: f6afdd
+    waveColor: fbace3
     waveStroke: 1.2
     waveRad: 2.5
-    smokeColor: f6afdd
+    smokeColor: fbace3
     smokeSizeBase: 0
     smokeSize: 5.5
     smokes: 0
-    sparkColor: f6afdd
+    sparkColor: fbace3
     sparkStroke: 1.6
     sparkRad: 17.5
     sparkLen: 2
