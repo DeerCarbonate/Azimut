@@ -42,7 +42,7 @@ speed: 2.8
 collidesTiles: true
 collidesGround: true
 lifetime: 75
-damage: 190
+damage: 140
 backColor: b9c4d8
 frontColor: ecf4fb
 intervalBullets: 1
