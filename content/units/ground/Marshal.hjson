@@ -7,20 +7,15 @@
 	"outlineColor": 22251b,
 	"outlineRadius": 3,
 	"alwaysUnlocked": false,
-	"range": 100,
-	"armor": 3.5,
-	"stepshake": 1.5,
+	"armor": 3.2,
+	"stepshake": 1.3,
 	"health": 2150,
-	"speed": 0.41,
-	"size": 100,
+	"speed": 0.42,
 	"hitSize": 21.2,
 	"mechLegColor": 0f1405,
 	"mechFrontSway": 0.4,
 	"mechStepParticles": true,
-	"hitboxSize": [9.0, 9.0],
-	"mass": 3.42,
 	"faceTarget": true,
-	"squareShape": true,
     "canBoost": false,
 	"description": "Quickly fires homing projectiles with a wide spread.",
 	parts: [
@@ -45,7 +40,7 @@
 		"alternate": true,
 		"rotate": true,
 		"rotateSpeed": 5,
-		"reload": 16,
+		"reload": 18,
 		"shootSound": cannon_shoot_1,
 		"controllable": true,
 		"aiControllable": true,
@@ -58,7 +53,7 @@
 		shootEffect: {
 		type: ParticleEffect 
 			colorFrom: cc918b
-			colorTo: ffbfad
+			colorTo: ffbfad20
 			particles: 3
 			cone: 12
 			length: 12
@@ -69,22 +64,43 @@
 			sizeFrom: 2.1
 			sizeTo: 0.1
 			offset: 1
+			lifetime: 25
 		}
 		type: BasicBulletType
-		damage: 28
-		lifetime: 25
-		width: 6.2
-		height: 15
+		damage: 18
+		lifetime: 23
+		width: 8
+		height: 8
 		speed: 6
 		backColor: ffbfad
 		frontColor: cc918b
 		trailColor: cc918b
-		trailWidth: 1.6
+		trailWidth: 1.65
 		trailLength: 6
 		weaveMag: 4
 		weaveScale: 4
 		homingPower: 0.08
         homingDelay: 0.1
+		despawnEffect: none
+		collidesTiles: true
+		keepVelocity: false
+		collidesAir: false
+				hitEffect: {
+    type: ExplosionEffect
+    lifetime: 31
+    waveColor: cc918b
+    waveStroke: 1.2
+    waveRad: 8.5
+    smokeColor: cc918b60
+    smokeSizeBase: 0
+    smokeSize: 5.5
+    smokes: 2
+    sparkColor: cc918b
+    sparkStroke: 1.6
+    sparkRad: 14.5
+    sparkLen: 2
+    sparks: 2
+		}
 		}
 	}
 	]
