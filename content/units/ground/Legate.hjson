@@ -7,20 +7,16 @@
 	"outlineColor": 22251b,
 	"outlineRadius": 3,
 	"alwaysUnlocked": false,
-	"armor": 1.5,
+	"armor": 1.3,
 	"stepshake": 1,
-	"health": 930,
-	"speed": 0.48,
-	"size": 100,
+	"health": 935,
+	"speed": 0.49,
 	"hitSize": 14,
 	"mechLegColor": 0f1405,
 	"mechFrontSway": 0.8,
 	"mechStepParticles": true,
-	"hitboxSize": [9.0, 9.0],
-	"mass": 3.2,
 	"faceTarget": true,
 	"squareShape": true,
-    "mass": 1.5,
 	"description": "Fires homing projectiles with a wide spread."
 	research: {
   parent: "mech-editor"
@@ -85,8 +81,11 @@ objectives: [
 			offset: 1
 		}
 		type: BasicBulletType
-		damage: 32
-		lifetime: 10.8
+		damage: 24
+		lifetime: 10
+		collidesTiles: true
+		keepVelocity: false
+		collidesAir: false
 		width: 6.2
 		height: 15
 		speed: 12.5
@@ -95,9 +94,26 @@ objectives: [
 		trailColor: cc918b
 		trailWidth: 2.1
 		trailLength: 3
-		homingPower: 0.3
+		homingPower: 0.2
 		weaveMag: 3
 		weaveScale: 4
+		splashDamageRadius: 5
+		hitEffect: {
+    type: ExplosionEffect
+    lifetime: 12
+    waveColor: cc918b
+    waveStroke: 1.2
+    waveRad: 11
+    smokeColor: cc918b
+    smokeSizeBase: 0
+    smokeSize: 3.5
+    smokes: 2
+    sparkColor: cc918b
+    sparkStroke: 0.7
+    sparkRad: 14.5
+    sparkLen: 2
+    sparks: 3
+		}
 		}
 	}
 	]
