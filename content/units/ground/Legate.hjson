@@ -86,9 +86,9 @@ objectives: [
 		collidesTiles: true
 		keepVelocity: false
 		collidesAir: false
-		width: 6.2
-		height: 15
-		speed: 12.5
+		width: 7.2
+		height: 7.2
+		speed: 11
 		backColor: ffbfad
 		frontColor: cc918b
 		trailColor: cc918b
@@ -98,16 +98,17 @@ objectives: [
 		weaveMag: 3
 		weaveScale: 4
 		splashDamageRadius: 5
+		despawnEffect: none
 		hitEffect: {
     type: ExplosionEffect
     lifetime: 12
     waveColor: cc918b
     waveStroke: 1.2
-    waveRad: 11
-    smokeColor: cc918b
+    waveRad: 7
+    smokeColor: cc918b40
     smokeSizeBase: 0
-    smokeSize: 3.5
-    smokes: 2
+    smokeSize: 4.5
+    smokes: 4
     sparkColor: cc918b
     sparkStroke: 0.7
     sparkRad: 14.5
