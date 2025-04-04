@@ -15,7 +15,6 @@
 	"hovering": true,
 	"speed": 1.41,
 	"hitSize": 13.0,
-	"hitboxSize": [9.0, 9.0],
 	"drag": 0.03,
 	"description": "Destabilizing its core, it fires a shot of homing bullets.",
 	abilities: [
@@ -111,7 +110,7 @@
         width: 4
         type: BasicBulletType
         homingPower: 0.08
-        homingDelay: 17
+        homingDelay: 15.5
         frontColor: ffffff
         backColor: f6afdd
         trailColor: f6afdd
