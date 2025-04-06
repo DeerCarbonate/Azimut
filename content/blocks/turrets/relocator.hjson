@@ -29,9 +29,9 @@ shoot: {
 type: BasicBulletType
 sprite: circle-bullet
 backSprite: circle-bullet-back
-width: 18
-height: 18
-spin: 1
+width: 6
+height: 6
+spin: 2
 speed: 2
 collidesTiles: true
 collidesGround: true
@@ -59,7 +59,7 @@ intervalSpread: 0,
 					intervalBullet: {
 					"type": BasicBulletType,
 					"damage": 40,
-					drag: -0.01
+					drag: -0.025
 					"speed": 0.6,
 					"lifetime": 60,
 					"trailColor": bff6b1,
