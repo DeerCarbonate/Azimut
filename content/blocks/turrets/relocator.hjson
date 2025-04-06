@@ -54,9 +54,9 @@ keepVelocity: false
 collidesAir: false
 splashDamageRadius: 40
 inaccuracy: 0,
-intervalBullets: 3,
+intervalBullets: 2,
 intervalRandomSpread: 0.001,
-intervalAngle: 0.4,
+intervalAngle: 0.2,
 intervalSpread: 7,
 					intervalBullet: {
 					"type": BasicBulletType,
