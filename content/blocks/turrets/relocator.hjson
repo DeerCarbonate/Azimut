@@ -38,7 +38,7 @@ lifetime: 200
 damage: 240
 pierce: true
 pierceBuilding: true
-pierceCap: 20
+pierceCap: 2
 pierceDamageFactor: 0.1
 backColor: 4e6e63
 frontColor: bff6b1
@@ -54,10 +54,10 @@ keepVelocity: false
 collidesAir: false
 splashDamageRadius: 40
 inaccuracy: 0,
-intervalBullets: 2,
-intervalRandomSpread: 0.001,
-intervalAngle: 0.2,
-intervalSpread: 7,
+intervalBullets: 4,
+intervalRandomSpread: 0,
+intervalAngle: 0.1,
+intervalSpread: 30,
 					intervalBullet: {
 					"type": BasicBulletType,
 					"damage": 20,
@@ -67,7 +67,6 @@ intervalSpread: 7,
 					"trailColor": bff6b1,
 					"trailWidth": 2,
 					"trailLength": 10,
-					"despawnSound": jumpln,
 					"frontColor": bff6b1,
 					"backColor": 4e6e63,
 					"hitSize": 6,
