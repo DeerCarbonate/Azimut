@@ -15,8 +15,8 @@ targetAir: true
 moveWhileCharging: true
 targetGround: true
 rotateSpeed: 1.15
-shootSound: mechshoot
-shootSoundVolume: 0.65
+shootSound: scatter
+shootSoundVolume: 0.55
 ammoPerShot: 8
 shootY: -8.2
 inaccuracy: 0
