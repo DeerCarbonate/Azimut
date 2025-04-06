@@ -54,16 +54,16 @@ splashDamageRadius: 40
 inaccuracy: 0,
 bulletInterval: 9
 intervalBullets: 3,
-intervalAngle: 180,
+intervalAngle: -90,
 intervalSpread: 0,
 					intervalBullet: {
 					"type": BasicBulletType,
 					"damage": 40,
 					drag: -0.01
 					"speed": 0.6,
-					"lifetime": 45,
+					"lifetime": 60,
 					"trailColor": bff6b1,
-					"trailWidth": 2,
+					"trailWidth": 1.2,
 					"trailLength": 10,
 					"frontColor": bff6b1,
 					"backColor": 4e6e63,
