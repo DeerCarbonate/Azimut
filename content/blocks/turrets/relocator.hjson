@@ -42,9 +42,6 @@ pierceCap: 2
 pierceDamageFactor: 0.1
 backColor: 4e6e63
 frontColor: bff6b1
-intervalBullets: 1
-bulletInterval: 0.8
-intervalSpread: 180
 trailColor: bff6b1
 trailLength: 15
 trailWidth: 2.4
@@ -54,6 +51,7 @@ keepVelocity: false
 collidesAir: false
 splashDamageRadius: 40
 inaccuracy: 0,
+bulletInterval: 3
 intervalBullets: 4,
 intervalRandomSpread: 0,
 intervalAngle: 0.1,
