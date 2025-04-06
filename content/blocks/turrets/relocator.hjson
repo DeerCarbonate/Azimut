@@ -31,11 +31,15 @@ sprite: "large-bomb"
 width: 18
 height: 18
 spin: 1
-speed: 6
+speed: 2
 collidesTiles: true
 collidesGround: true
-lifetime: 90
+lifetime: 200
 damage: 240
+pierce: true
+pierceBuilding: true
+pierceCap: 20
+pierceDamageFactor: 0.1
 backColor: 4e6e63
 frontColor: bff6b1
 intervalBullets: 1
@@ -49,15 +53,15 @@ collidesTiles: true
 keepVelocity: false
 collidesAir: false
 splashDamageRadius: 40
-  inaccuracy: 0,
-  intervalBullets: 7,
+inaccuracy: 0,
+intervalBullets: 3,
 					intervalBullet: {
 					"type": BasicBulletType,
 					"damage": 20,
 					drag: -0.04
 					"speed": 0.8,
-					"lifetime": 55,
-					"trailColor": 4e6e63,
+					"lifetime": 85,
+					"trailColor": c3feff,
 					"trailWidth": 2,
 					"trailLength": 10,
 					"despawnSound": jumpln,
@@ -69,7 +73,29 @@ splashDamageRadius: 40
 					"splashDamage": 10,
 					"splashDamageRadius": 15,
 					"weaveMag": 1,
-					"weaveScale": 1,
+					"weaveScale": 3,
+					homingPower: 0.08
+					homingDelay: 11.5
+					despawnEffect: none
+					collidesTiles: true
+					keepVelocity: false
+					collidesAir: false
+						hitEffect: {
+    type: ExplosionEffect
+    lifetime: 24
+    waveColor: 4e6e63
+    waveStroke: 1.7
+    waveRad: 12
+    smokeColor: 4e6e6360
+    smokeSizeBase: 0
+    smokeSize: 2.5
+    smokes: 2
+    sparkColor: 4e6e63
+    sparkStroke: 1
+    sparkRad: 12.5
+    sparkLen: 2
+    sparks: 4
+		}
       }
 	hitEffect: {
     type: ExplosionEffect
