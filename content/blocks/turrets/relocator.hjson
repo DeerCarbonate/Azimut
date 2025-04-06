@@ -8,7 +8,7 @@ outlineColor: 0c0c12
 health: 1300
 cooldown: 1200
 shootCone: 9
-recoil: 5
+recoil: 3.2
 reload: 280
 range: 290
 targetAir: true
@@ -19,21 +19,10 @@ shootSound: mechshoot
 shootSoundVolume: 0.65
 ammoPerShot: 8
 shootY: -8.2
-inaccuracy: 4
+inaccuracy: 0
 shoot: {
-	type: ShootMulti
-	source: {
-    type: ShootSpread
+	type: shootSpread
     firstShotDelay: 30
-    spread: 0.6
-    shots: 3
-    }
-	dest: [
-	{
-	type: ShootPattern
-		shots: 1
-	}
-]
 }
   ammoTypes: {
     caterium: {
@@ -42,11 +31,11 @@ sprite: "large-bomb"
 width: 18
 height: 18
 spin: 1
-speed: 6.2
+speed: 6
 collidesTiles: true
 collidesGround: true
 lifetime: 90
-damage: 90
+damage: 240
 backColor: 4e6e63
 frontColor: bff6b1
 intervalBullets: 1
@@ -55,47 +44,59 @@ intervalSpread: 180
 trailColor: bff6b1
 trailLength: 15
 trailWidth: 2.4
-
-hitEffect: {
-type: ParticleEffect  
-colorFrom: bff6b160
-colorTo: 4e6e6330
-particles: 4
-length: 50
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 5
-sizeTo: 0 
-offset: 1
-lifetime: 100
-interp: exp5Out
-sizeInterp: exp5In
-}
-despawnEffect: {
-type: ParticleEffect  
-colorFrom: bff6b160
-colorTo: 4e6e6330
-particles: 4
-length: 50
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 5
-sizeTo: 0 
-offset: 1
-lifetime: 100
-interp: exp5Out
-sizeInterp: exp5In
-}
+despawnEffect: none
+collidesTiles: true
+keepVelocity: false
+collidesAir: false
+splashDamageRadius: 40
+  inaccuracy: 0,
+  fragSpread: 3,
+  fragAngle: 5,
+  fragBullets: 12,
+  fragOnHit: true
+					fragBullet: {
+					"type": BasicBulletType,
+					"damage": 20,
+					drag: -0.04
+					"speed": 0.8,
+					"lifetime": 15,
+					"trailColor": 4e6e63,
+					"trailWidth": 2,
+					"trailLength": 10,
+					"despawnSound": jumpln,
+					"frontColor": c3feff,
+					"backColor": 4e6e63,
+					"hitSize": 6,
+					  width: 8
+					  height: 8
+					"splashDamage": 10,
+					"splashDamageRadius": 15,
+					"weaveMag": 1,
+					"weaveScale": 1,
+      }
+	hitEffect: {
+    type: ExplosionEffect
+    lifetime: 83
+    waveColor: 4e6e63
+    waveStroke: 3.5
+    waveRad: 30
+    smokeColor: 4e6e6360
+    smokeSizeBase: 0
+    smokeSize: 4.5
+    smokes: 12
+    sparkColor: 4e6e63
+    sparkStroke: 2
+    sparkRad: 26.5
+    sparkLen: 4
+    sparks: 12
+		}
 }
 }
 requirements: [
-  cobalt/90
-  venerium/120
-  platinum/45
+  cobalt/120
+  venerium/80
+  platinum/140
+  geliarin/50
 ]
 category: turret
 drawer: {
@@ -129,7 +130,7 @@ drawer: {
 	  x: 0,
 	  y: 0,
 	  moveY: -3.5
-      heatColor: ff4500,
+      heatColor: 4e6e63,
       heatLayer: 1,
     }
 	{
