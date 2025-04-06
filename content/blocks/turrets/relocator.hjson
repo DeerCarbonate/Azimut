@@ -54,7 +54,7 @@ splashDamageRadius: 40
 inaccuracy: 0,
 bulletInterval: 9
 intervalBullets: 3,
-intervalAngle: -90,
+intervalAngle: -15,
 intervalSpread: 0,
 					intervalBullet: {
 					"type": BasicBulletType,
