@@ -50,16 +50,13 @@ keepVelocity: false
 collidesAir: false
 splashDamageRadius: 40
   inaccuracy: 0,
-  fragSpread: 3,
-  fragAngle: 5,
-  fragBullets: 12,
-  fragOnHit: true
-					fragBullet: {
+  intervalBullets: 7,
+					intervalBullet: {
 					"type": BasicBulletType,
 					"damage": 20,
 					drag: -0.04
 					"speed": 0.8,
-					"lifetime": 15,
+					"lifetime": 55,
 					"trailColor": 4e6e63,
 					"trailWidth": 2,
 					"trailLength": 10,
