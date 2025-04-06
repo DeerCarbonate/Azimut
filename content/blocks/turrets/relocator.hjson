@@ -51,14 +51,14 @@ keepVelocity: false
 collidesAir: false
 splashDamageRadius: 40
 inaccuracy: 0,
-bulletInterval: 3
-intervalBullets: 4,
+bulletInterval: 9
+intervalBullets: 3,
 intervalRandomSpread: 0,
-intervalAngle: 0.1,
+intervalAngle: 0,
 intervalSpread: 30,
 					intervalBullet: {
 					"type": BasicBulletType,
-					"damage": 20,
+					"damage": 10,
 					drag: -0.04
 					"speed": 0.4,
 					"lifetime": 85,
@@ -74,7 +74,7 @@ intervalSpread: 30,
 					"splashDamageRadius": 15,
 					"weaveMag": 1,
 					"weaveScale": 3,
-					homingPower: 0.09
+					homingPower: 0.7
 					homingDelay: 3.4
 					despawnEffect: none
 					collidesTiles: true
