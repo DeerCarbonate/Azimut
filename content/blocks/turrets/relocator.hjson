@@ -61,7 +61,7 @@ intervalSpread: 0,
 					"damage": 40,
 					drag: -0.025
 					"speed": 0.6,
-					"lifetime": 60,
+					"lifetime": 63,
 					"trailColor": bff6b1,
 					"trailWidth": 1.2,
 					"trailLength": 10,
@@ -83,14 +83,14 @@ intervalSpread: 0,
 						hitEffect: {
     type: ExplosionEffect
     lifetime: 24
-    waveColor: 4e6e63
+    waveColor: bff6b1
     waveStroke: 1.7
     waveRad: 12
-    smokeColor: 4e6e6360
+    smokeColor: bff6b160
     smokeSizeBase: 0
     smokeSize: 2.5
     smokes: 2
-    sparkColor: 4e6e63
+    sparkColor: bff6b1
     sparkStroke: 1
     sparkRad: 12.5
     sparkLen: 2
@@ -100,14 +100,14 @@ intervalSpread: 0,
 	hitEffect: {
     type: ExplosionEffect
     lifetime: 83
-    waveColor: 4e6e63
+    waveColor: bff6b1
     waveStroke: 3.5
     waveRad: 30
-    smokeColor: 4e6e6360
+    smokeColor: bff6b160
     smokeSizeBase: 0
     smokeSize: 4.5
     smokes: 12
-    sparkColor: 4e6e63
+    sparkColor: bff6b1
     sparkStroke: 2
     sparkRad: 26.5
     sparkLen: 4
