@@ -5,6 +5,7 @@ researchCostMultiplier: 0.5
 size: 3
 outlineColor: 0c0c12
 outlineColor: 0c0c12
+squareSprite: false
 health: 1300
 cooldown: 1200
 shootCone: 9

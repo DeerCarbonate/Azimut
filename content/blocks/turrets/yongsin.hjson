@@ -7,12 +7,13 @@ outlineColor: 0c0c12
 outlineColor: 0c0c12
 health: 1120
 alwaysUnlocked: false
+squareSprite: false
 cooldown: 1200
 shootCone: 9
 recoil: 3
 reload: 180
 range: 200
-targetAir: true
+targetAir: false
 moveWhileCharging: true
 targetGround: true
 rotateSpeed: 1.25

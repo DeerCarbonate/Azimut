@@ -8,6 +8,7 @@ health: 1025
 alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
+squareSprite: false
 recoil: 3
 reload: 130
 range: 210

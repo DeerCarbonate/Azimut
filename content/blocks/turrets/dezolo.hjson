@@ -7,6 +7,7 @@ outlineColor: 0c0c12
 health: 1050
 ammoPerShot: 5
 alwaysUnlocked: false
+squareSprite: false
 shoot: {
   firstShotDelay: 15
 }
