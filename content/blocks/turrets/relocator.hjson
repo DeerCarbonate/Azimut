@@ -9,7 +9,7 @@ health: 1300
 cooldown: 1200
 shootCone: 9
 recoil: 3.2
-reload: 280
+reload: 150
 range: 240
 targetAir: true
 moveWhileCharging: true
@@ -35,7 +35,7 @@ speed: 3.6
 collidesTiles: true
 collidesGround: true
 lifetime: 80
-damage: 220
+damage: 90
 pierce: true
 pierceBuilding: true
 pierceCap: 2
@@ -59,7 +59,7 @@ hitSound: drillImpact
 despawnSound: drillImpact
 					intervalBullet: {
 					"type": BasicBulletType,
-					"damage": 45,
+					"damage": 55,
 					drag: -0.025
 					"speed": 0.8,
 					"lifetime": 63,
