@@ -10,7 +10,7 @@ cooldown: 1200
 shootCone: 9
 recoil: 3.2
 reload: 280
-range: 290
+range: 200
 targetAir: true
 moveWhileCharging: true
 targetGround: true
@@ -32,11 +32,11 @@ backSprite: circle-bullet-back
 width: 6
 height: 6
 spin: 2
-speed: 2
+speed: 3.6
 collidesTiles: true
 collidesGround: true
-lifetime: 200
-damage: 240
+lifetime: 90
+damage: 220
 pierce: true
 pierceBuilding: true
 pierceCap: 2
@@ -53,16 +53,16 @@ collidesAir: false
 splashDamageRadius: 40
 inaccuracy: 0,
 bulletInterval: 9
-intervalBullets: 1,
+intervalBullets: 2,
 intervalAngle: -15,
 intervalSpread: 0,
 hitSound: drillImpact
 despawnSound: drillImpact
 					intervalBullet: {
 					"type": BasicBulletType,
-					"damage": 70,
+					"damage": 45,
 					drag: -0.025
-					"speed": 0.6,
+					"speed": 0.8,
 					"lifetime": 63,
 					"trailColor": bff6b1,
 					"trailWidth": 1.2,
