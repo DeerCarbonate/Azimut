@@ -24,7 +24,7 @@ shootSound: laser4
 ammoPerShot: 5
 heatRequirement: 14
 shoot: {
-  shots: 1,
+  shots: 3,
   shotDelay: 10
   firstShotDelay: 90
 }
@@ -33,12 +33,9 @@ shoot: {
   type: BasicBulletType,
   frontColor: c3feff,
   backColor: 6585a5,
-  pierce: true,
-  pierceBuilding: true,
-  pierceCap: 6,
   hitColor: 6585a5,
-  damage: 200
-  splashDamageRadius: 55,
+  damage: 170
+  splashDamageRadius: 70,
   width: 12,
   height: 20,
   lifetime: 73,
@@ -139,10 +136,10 @@ shoot: {
 			damage: 50
 			weaveMag: 7
 			weaveScale: 9
-			despawnEffect: none
-			collidesTiles: true
-			keepVelocity: false
-			collidesAir: false
+					despawnEffect: none
+					collidesTiles: true
+					keepVelocity: false
+					collidesAir: false
       hitEffect: {
 					type: ParticleEffect 
 					colorFrom: c3feff
