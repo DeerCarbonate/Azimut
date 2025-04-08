@@ -75,7 +75,7 @@ ammoTypes: {
                     effects: [
                         {
                             type: ParticleEffect
-                            lifetime: 8
+                            lifetime: 18
                             particles: 2
                             baseLength: 3
                             length: 10
@@ -90,7 +90,7 @@ ammoTypes: {
                         }
                         {
                             type: ParticleEffect
-                            lifetime: 9
+                            lifetime: 18
                             particles: 4
                             baseLength: 3
                             length: 15
@@ -112,8 +112,8 @@ ammoTypes: {
       fragVelocityMin: 0.3
       fragVelocityMax: 0.8
       fragBullet: {
-        speed: 19
-        lifetime: 15
+        speed: 20
+        lifetime: 21
         pierce: true
         pierceBuilding: true
         pierceCap: 2
@@ -145,7 +145,7 @@ ammoTypes: {
 					sizeFrom: 1.7
 					sizeTo: 0
 					offset: 1
-					lifetime: 5
+					lifetime: 20
   }
   hitEffect: {
     type: MultiEffect,
@@ -165,7 +165,7 @@ ammoTypes: {
 					sizeFrom: 7.5
 					sizeTo: 0
 					offset: 1
-					lifetime: 5
+					lifetime: 20
     }
 	{
 			type: ParticleEffect
@@ -190,8 +190,8 @@ ammoTypes: {
                      colorTo: fcf0bd00
 				     colorFrom: ffffff95
 					particles: 27
-					cone: 7
-					length: 85
+					cone: 3
+					length: 110
 					baseLength: 2
 					lightScl: 3
 					interp: circleOut
@@ -200,6 +200,7 @@ ammoTypes: {
 					sizeFrom: 3.5
 					sizeTo: 0
 					offset: 1
+					lifetime: 40
 					}
   }
 }
