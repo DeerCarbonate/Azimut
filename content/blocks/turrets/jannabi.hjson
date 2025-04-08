@@ -34,8 +34,8 @@ shoot: {
   frontColor: c3feff,
   backColor: 6585a5,
   hitColor: 6585a5,
-  damage: 190
-  splashDamageRadius: 160,
+  damage: 290
+  splashDamageRadius: 320,
   width: 12,
   height: 20,
   lifetime: 73,
