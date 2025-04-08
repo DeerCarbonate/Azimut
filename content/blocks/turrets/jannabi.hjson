@@ -34,7 +34,7 @@ shoot: {
   frontColor: c3feff,
   backColor: 6585a5,
   hitColor: 6585a5,
-  damage: 400
+  damage: 460
   pierce: true
   pierceBuilding: true
   pierceCap: 2
