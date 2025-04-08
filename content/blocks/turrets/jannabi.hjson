@@ -25,7 +25,7 @@ ammoPerShot: 5
 heatRequirement: 14
 shoot: {
   shots: 3,
-  shotDelay: 10
+  shotDelay: 15
   firstShotDelay: 90
 }
   ammoTypes: {
@@ -34,8 +34,8 @@ shoot: {
   frontColor: c3feff,
   backColor: 6585a5,
   hitColor: 6585a5,
-  damage: 170
-  splashDamageRadius: 70,
+  damage: 190
+  splashDamageRadius: 160,
   width: 12,
   height: 20,
   lifetime: 73,
