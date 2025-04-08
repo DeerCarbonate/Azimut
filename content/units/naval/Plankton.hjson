@@ -7,7 +7,7 @@
 	rotateSpeed: 3.6
 	alwaysUnlocked: false
 	range: 100
-	armor: 1.2
+	armor: 1.45
 	health: 950
 	speed: 1.55
 	hitSize: 13.0
@@ -62,17 +62,21 @@ shoot: {
 			frontColor: b3eed8
 			height: 6
 			width: 6
-			lifetime: 58
+			lifetime: 53
 			damage: 31
 			speed: 4.8
 			trailColor: 8edfc1
 			trailLength: 7
 			trailWidth: 1.5
-	despawnEffect: {
+			despawnEffect: none
+			collidesTiles: true
+			keepVelocity: false
+			collidesAir: false
+	hitEffect: {
     type: WaveEffect
     rotWithParent: true
     followParent: true
-    lifetime: 6
+    lifetime: 12
 
     sizeFrom: 0
     sizeTo: 8

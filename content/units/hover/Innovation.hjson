@@ -10,13 +10,11 @@
 	"outlineRadius": 3,
 	"alwaysUnlocked": true,
 	"range": 100,
-	"armor": 4,
-	"health": 1200,
+	"armor": 1,
+	"health": 1230,
 	"hovering": true,
 	"speed": 1.25,
-	"size": 325,
 	"hitSize": 18.0,
-	"hitboxSize": [9.0, 9.0],
 	"drag": 0.04,
 	"description": "Fires a burst of five homing bullets.",
 		abilities: [
@@ -106,7 +104,7 @@ shoot: {
         keepVelocity: false
         lifetime: 95
         drag: -0.012
-		damage: 31
+		damage: 14
         height: 7
         speed: 1.1
         width: 7
