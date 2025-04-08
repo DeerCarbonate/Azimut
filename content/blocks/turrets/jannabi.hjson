@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Jannabi
-description: Fires piercing projectiles.
+description: Fires three powerful projectiles.
 researchCostMultiplier: 0.5
 size: 4
 outlineColor: 0c0c12
