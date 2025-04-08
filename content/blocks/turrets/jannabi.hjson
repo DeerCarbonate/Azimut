@@ -35,6 +35,10 @@ shoot: {
   backColor: 6585a5,
   hitColor: 6585a5,
   damage: 400
+  pierce: true
+  pierceBuilding: true
+  pierceCap: 2
+  pierceDamageFactor: 0.001
   splashDamageRadius: 100,
   width: 12,
   height: 20,
