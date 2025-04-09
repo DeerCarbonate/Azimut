@@ -11,6 +11,7 @@
 	"alwaysUnlocked": true,
 	"range": 100,
 	"armor": 4,
+	 accel: 0.1
 	"health": 2440
 	"hovering": true,
 	"speed": 1.08,
