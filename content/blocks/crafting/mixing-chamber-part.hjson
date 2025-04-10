@@ -28,7 +28,7 @@ consumes: {
 }
 heatRequirement: 6
 overheatScale: 0.75
-maxEfficiency: 2.5
+maxEfficiency: 1
 hasLiquids: true
 craftEffect: {
   type: RadialEffect

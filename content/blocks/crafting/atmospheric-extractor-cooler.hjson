@@ -1,5 +1,5 @@
 type: HeatCrafter
-name: Atmospheric extractor cooler
+name: Atmospheric extractor synthesizer
 description: Synthesizes swartzite.
 size: 3
 category: crafting
@@ -7,6 +7,7 @@ rotate: false
 squareSprite: false
 liquidCapacity: 100
 heatRequirement: 12
+maxEfficiency: 1
 requirements: [
   cobalt/150
   venerium/75
