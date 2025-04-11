@@ -27,9 +27,9 @@
 	"legGroupSize": 1,
 	"legContinuousMove": true
 	"accel": 0.5,
-	"armor": 4.4,
+	"armor": 9.2,
 	"stepshake": 0.1,
-	"health": 5250,
+	"health": 5230,
 	"speed": 0.475,
 	"hitSize": 29,
 	"faceTarget": true,
@@ -97,7 +97,7 @@
       width: 3.5
       sideAngle: 120
       sideWidth: 2.4
-      damage: 10
+      damage: 7
       pierceBuilding: false
       pierce: true
       pierceCap: 1
