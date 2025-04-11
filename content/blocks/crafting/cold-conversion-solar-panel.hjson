@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Cold conversion solar panel
 size: 2
 category: crafting
-squareSprite: false
+squareSprite: true
 description: Uses ultraviolet light to create a highly flammable substance called iterin
 ignoreLiquidFullness: true
 research: {
