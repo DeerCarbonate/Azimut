@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: Cold conversion solar panel
+size: 2
+category: crafting
+squareSprite: false
+description: Uses ultraviolet light to create a highly flammable substance called iterin
+ignoreLiquidFullness: true
+research: {
+  parent: "isobutane-burner"
+  planet: gelion
+    "requirements": [
+	  "venerium/300"
+	  "cobalt/300"
+	  "platinum/300"
+	  "geliarin/100"
+]
+objectives: [
+{
+type: SectorComplete
+preset: twos
+  }
+ ]
+}
+requirements: [
+ cobalt/90
+ venerium/40
+ platinum/40
+]
+craftTime: 120
+hasLiquids: true
+liquidCapacity: 20
+outputLiquid: iterin/0.5
+generateEffect: none
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+  ]
+}
