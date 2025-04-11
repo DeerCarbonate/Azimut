@@ -29,7 +29,7 @@ requirements: [
 craftTime: 120
 hasLiquids: true
 liquidCapacity: 20
-outputLiquid: iterin/0.5
+outputLiquid: iterin/0.05
 generateEffect: none
 drawer: {
   type: DrawMulti
