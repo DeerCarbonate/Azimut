@@ -27,17 +27,13 @@
 	"legGroupSize": 1,
 	"legContinuousMove": true
 	"accel": 0.5,
-	"armor": 7,
+	"armor": 4.4,
 	"stepshake": 0.1,
 	"health": 5250,
 	"speed": 0.475,
-	"size": 100,
 	"hitSize": 29,
-	"hitboxSize": [9.0, 9.0],
-	"mass": 3.62,
 	"faceTarget": true,
 	"squareShape": true,
-	"canBoost": false,
 	"description": "Fires a burst of 18 lasers and homing projectiles.",
 	weapons: [
 		{
@@ -96,9 +92,9 @@
 		}
 		bullet: {
       type: LaserBulletType
-      colors: [d5917b, d5917b, d5917b]
+      colors: [af7765, f0aba4, ffc5ae]
       length: 185
-      width: 0.2
+      width: 3.5
       sideAngle: 90
       sideWidth: 0.4
       damage: 27
@@ -139,7 +135,7 @@
 					sizeTo: 0
 					offset: 1
 			  }
-			  damage: 65
+			  damage: 35
 		      homingPower: 0.08
               homingDelay: 0.1
 			  speed: 4
