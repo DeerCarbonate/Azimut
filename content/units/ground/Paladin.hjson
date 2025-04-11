@@ -71,7 +71,7 @@
 		}
 	]
 		shoot: {
-		shotDelay: 0.5
+		shotDelay: 1.2
 		shots: 32
 
 					shootEffect: {
