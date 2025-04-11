@@ -95,6 +95,8 @@
       colors: [af7765, f0aba4, ffc5ae]
       length: 185
       width: 3.5
+      sideAngle: 150
+      sideWidth: 12
       damage: 10
       pierceBuilding: false
       pierce: true
