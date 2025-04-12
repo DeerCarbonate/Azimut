@@ -22,6 +22,7 @@
   liquids: [
   ammonia/0.7
   power/0.3
+  iterin/0.2
 	]
 }
 polyStroke: 1.8

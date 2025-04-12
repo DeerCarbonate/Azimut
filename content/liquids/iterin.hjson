@@ -5,14 +5,14 @@
   "gasColor": "a9e9db70",
   "research": "power",
   "temperature": 0.7,
-  "flammability": 1,
-  "explosiveness": 0.3,
+  "flammability": 1.1,
+  "explosiveness": 1,
   "liquid": true,
   "liquid": {
     "cap": 3,
     "explosive": true,
     "flammable": true,
-    "viscosity": 0.1,
+    "viscosity": 0.25,
 	"heatCapacity": 0.6,
   }
   "hiddenOnPlanets": [

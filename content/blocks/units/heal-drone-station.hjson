@@ -20,7 +20,7 @@
     "hasLiquids": true,
 	consumes: {
   liquids: [
-  power/0.1
+  power/0.25
   iterin/0.2
 	]
 }
