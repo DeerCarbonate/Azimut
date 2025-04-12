@@ -20,7 +20,8 @@
     "hasLiquids": true,
 	consumes: {
   liquids: [
-  power/0.5
+  power/0.1
+  iterin/0.2
 	]
 }
 polyStroke: 1.8

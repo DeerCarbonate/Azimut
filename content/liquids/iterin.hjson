@@ -4,15 +4,15 @@
   "barColor": "57abc0",
   "gasColor": "a9e9db70",
   "research": "power",
-  "temperature": 0.8,
-  "flammability": 1.6,
-  "explosiveness": 0.4,
+  "temperature": 0.7,
+  "flammability": 1,
+  "explosiveness": 0.3,
   "liquid": true,
   "liquid": {
     "cap": 3,
     "explosive": true,
     "flammable": true,
-    "viscosity": 0.3,
+    "viscosity": 0.1,
 	"heatCapacity": 0.6,
   }
   "hiddenOnPlanets": [
