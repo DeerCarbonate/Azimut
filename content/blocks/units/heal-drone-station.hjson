@@ -29,3 +29,19 @@ polyRadius: 8
 polySides: 7
 polyRotateSpeed: 2
 polyColor: bf92f9
+research: {
+  parent: "mech-editor"
+  planet: gelion
+    "requirements": [
+	  "venerium/200"
+	  "cobalt/550"
+	  "platinum/350"
+	  "geliarin/100"
+]
+objectives: [
+{
+type: SectorComplete
+preset: twos
+  }
+ ]
+}
