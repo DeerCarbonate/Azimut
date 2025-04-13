@@ -1,0 +1,53 @@
+type: UnitFactory
+health: 1240
+size: 4
+name: Hover Editor
+squareSprite: false
+research: {
+  parent: "mech-editor"
+  planet: gelion
+    "requirements": [
+	  "venerium/300"
+	  "cobalt/500"
+	  "platinum/450"
+	  "geliarin/200"
+]
+objectives: [
+    {
+type: SectorComplete
+preset: threes
+    }
+  ]
+}
+plans: [
+	{
+	unit: Improvement
+	requirements: [
+		platinum/35
+		cobalt/45
+    	]
+    	time: 1050
+  	}
+	{
+	unit: Innovation
+	requirements: [
+		platinum/65
+		cobalt/75
+		geliarin/5
+    	]
+    	time: 2050
+  	}
+]
+
+consumes: {
+	liquid: power/0.10
+}
+configurable: true
+requirements: [
+ 	cobalt/200
+	platinum/100
+	venerium/75
+	geliarin/25
+]
+category: units
+

@@ -8,13 +8,12 @@
 	"flying": false,
 	"outlineColor": 251b21,
 	"outlineRadius": 3,
-	"alwaysUnlocked": true,
-	"range": 100
+	"alwaysUnlocked": false,
 	"armor": 0,
 	 accel: 0.05
-	"health": 590,
+	"health": 670,
 	"hovering": true,
-	"speed": 1.41,
+	"speed": 1.45,
 	"hitSize": 13.0,
 	"drag": 0.03,
 	"description": "Destabilizing its core, it fires a shot of homing bullets.",
@@ -156,4 +155,20 @@
 		}
 	}
 	]
+}
+	research: {
+  parent: "hover-editor"
+  planet: gelion
+    "requirements": [
+	  "venerium/100"
+	  "cobalt/300"
+	  "platinum/250"
+	  "geliarin/50"
+]
+objectives: [
+    {
+	type: SectorComplete
+	preset: twos
+    }
+  ]
 }
