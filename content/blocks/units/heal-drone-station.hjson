@@ -30,7 +30,7 @@ polySides: 7
 polyRotateSpeed: 2
 polyColor: bf92f9
 research: {
-  parent: "mech-editor"
+  parent: "yongsin"
   planet: gelion
     "requirements": [
 	  "venerium/200"
