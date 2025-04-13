@@ -21,7 +21,7 @@ preset: threes
 }
 plans: [
 	{
-	unit: improvement
+	unit: Improvement
 	requirements: [
 		platinum/35
 		cobalt/45
