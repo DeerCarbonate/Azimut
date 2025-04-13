@@ -4,7 +4,7 @@ size: 4
 name: Hover Editor
 squareSprite: false
 research: {
-  parent: "mech-editor"
+  parent: "naval-editor"
   planet: gelion
     "requirements": [
 	  "venerium/300"
