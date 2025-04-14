@@ -2,7 +2,7 @@ type: Duct
 name: Transport channel
 description: Transports objects forward.
 underBullets: true
-itemCapacity: 2
+itemCapacity: 3
 category: distribution
 alwaysUnlocked: false
 speed: 6

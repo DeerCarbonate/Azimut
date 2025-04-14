@@ -2,10 +2,11 @@ type: Router
 name: Router
 description: Distribute items evenly.
 size: 1
-speed: 14
+speed: 20
 squareSprite: false
 requirements: [
   cobalt/2
+  veneirum/4
 ]
 research: ducts
 researchCost: [

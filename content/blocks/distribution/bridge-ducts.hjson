@@ -6,7 +6,7 @@ health: 80
 squareSprite: false
 hasPower: false
 solid: false
-speed: 10
+speed: 22
 range: 4
 requirements: [
 cobalt/8
