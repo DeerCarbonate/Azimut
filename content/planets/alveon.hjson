@@ -6,16 +6,16 @@ White main sequence star.
 mesh: {
     type: SunMesh
     planet: alveon
-	divisions: 4.6
+	divisions: 2.6
 	octaves: 3
 	persistence: 0.8
 	scl: 1
 	pow: 1
-	mag: 0.5
+	mag: 0.4
 	colorScale: 1.5
 	    colors: [
-		ff8c3d
-		ff7a38
+		ff8038
+		f14305
 		ffca79
         ff966f
         fdd680
