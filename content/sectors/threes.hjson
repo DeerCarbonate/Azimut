@@ -3,7 +3,7 @@ description: "Use the new resource to create Plankton - a floating combat unit, 
 captureWave: 0
 planet: gelion
 name: threes
-sector: 5
+sector: 1
 research: {
 parent: twos
 requiresUnlock: false
