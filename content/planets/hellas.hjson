@@ -20,6 +20,6 @@ parent: sun
 radius: 2
 
 drawOrbit: false
-orbitRadius: 3000
+orbitRadius: 60
 orbitSpacing: 23
 solarSystem: hellas
