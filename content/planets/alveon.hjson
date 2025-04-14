@@ -7,13 +7,11 @@ mesh: [
  {
     type: SunMesh
     planet: alveon
-    color1: ffcd43
-    color2: 8c3232
-	color3: 422e2e
-    color4: ffd663
+    color1: fdd680
+    color2: bc6f52
   }
 ]
-lightColor: ffcd43
+lightColor: fdd680
 bloom: true
 accessible: false
 parent: sun

@@ -40,7 +40,7 @@ allowLaunchLoadout: false
 allowWaveSimulation: true
 prebuildBase: true
 parent: gelion
-solarSystem: sun
+solarSystem: alveon
 radius: 0.1
 minZoom: 0.8
 sectorSize: 0.8
