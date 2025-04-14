@@ -6,7 +6,7 @@ White main sequence star.
 mesh: {
     type: SunMesh
     planet: alveon
-	divisions: 9.5
+	divisions: 7
 	octaves: 3
 	persistence: 0.8
 	scl: 1
