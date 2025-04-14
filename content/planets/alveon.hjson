@@ -1,7 +1,7 @@
 name: Alveon
 description:
 '''
-White main sequence star.
+A red giant.
 '''
 mesh: {
     type: SunMesh

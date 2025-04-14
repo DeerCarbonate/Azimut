@@ -45,7 +45,7 @@ prebuildBase: true
 parent: alveon
 hasAtmosphere: true
 solarSystem: alveon
-orbitRadius: 15
+orbitRadius: 85
 orbitTime: 320
 orbitSpacing: 24
 alwaysUnlocked: true
