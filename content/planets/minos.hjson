@@ -7,18 +7,19 @@ mesh: [
  {
     type: SunMesh
     planet: minos
-    color1: FFFFFF
-    color2: FFFFFF
+    color1: ffcd43
+    color2: 8c3232
+	color3: 422e2e
+    color4: ffd663
   }
 ]
-lightColor: e8f3ff
+lightColor: ffcd43
 bloom: true
-parent: sun
-radius: 0.2
 accessible: false
+parent: sun
+radius: 2
+
 drawOrbit: false
-orbitRadius: 1000
+orbitRadius: 3000
 orbitSpacing: 23
-solarSystem: sun
-alwaysUnlocked: true
-visible: true
+solarSystem: lumi

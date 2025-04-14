@@ -44,7 +44,7 @@ allowWaveSimulation: true
 prebuildBase: true
 parent: minos
 hasAtmosphere: true
-solarSystem: sun
+solarSystem: minos
 orbitRadius: 100
 orbitTime: 520
 orbitSpacing: 24
