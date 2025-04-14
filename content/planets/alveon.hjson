@@ -7,21 +7,21 @@ mesh: {
     type: SunMesh
     planet: alveon
 	divisions: 3
-	octaves: 4
-	persistence: 0.6
+	octaves: 3
+	persistence: 0.8
 	scl: 1
 	pow: 1
 	mag: 0.5
-	colorScale: 1
+	colorScale: 3
 	    colors: [
-		fdd680
-		fdd680
+		ff8c3d
+		9a481b
 		fdd680
         ff966f
         bc6f52
     ]
 }
-lightColor: fdd680
+lightColor: eed4b9
 bloom: true
 accessible: false
 parent: sun
