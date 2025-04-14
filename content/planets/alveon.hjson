@@ -12,7 +12,7 @@ mesh: {
 	scl: 1
 	pow: 1
 	mag: 0.5
-	colorScale: 1.25
+	colorScale: 1.15
 	    colors: [
 FFD700
 FFC70A
