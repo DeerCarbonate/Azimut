@@ -7,7 +7,7 @@ A red giant.
 mesh: {
     type: SunMesh
     planet: alveon
-	divisions: 6
+	divisions: 5.5
 	octaves: 3
 	persistence: 0.8
 	scl: 1
