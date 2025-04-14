@@ -3,14 +3,24 @@ description:
 '''
 White main sequence star.
 '''
-mesh: [
- {
+mesh: {
     type: SunMesh
     planet: alveon
-    color1: fdd68010
-    color2: bc6f5210
-  }
-]
+	divisions: 3
+	octaves: 4
+	persistence: 0.6
+	scl: 1
+	pow: 1
+	mag: 0.5
+	colorScale: 1
+	    colors: [
+        ffe06f
+        ffe790
+        ffedae
+        fff8c8
+        ffe53b
+    ]
+}
 lightColor: fdd680
 bloom: true
 accessible: false
@@ -18,6 +28,8 @@ parent: sun
 radius: 3.5
 
 drawOrbit: false
-orbitRadius: 3000
+orbitRadius: 12000
+tidalLock: true
 orbitSpacing: 23
 solarSystem: alveon
+icon: commandRally
