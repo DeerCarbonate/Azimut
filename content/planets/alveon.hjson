@@ -12,7 +12,7 @@ mesh: {
 	scl: 1
 	pow: 1
 	mag: 0.5
-	colorScale: 12
+	colorScale: 0.9
 	    colors: [
 		ff8c3d
 		ff7a38
