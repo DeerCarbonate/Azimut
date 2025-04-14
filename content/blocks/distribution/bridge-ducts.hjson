@@ -9,7 +9,8 @@ solid: false
 speed: 22
 range: 4
 requirements: [
-cobalt/8
+cobalt/6
+venerium/2
 ]
 research: {
   parent: "ducts-router"

@@ -6,7 +6,7 @@ speed: 20
 squareSprite: false
 requirements: [
   cobalt/2
-  veneirum/4
+  venerium/1
 ]
 research: ducts
 researchCost: [
