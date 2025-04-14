@@ -22,4 +22,4 @@ radius: 2
 drawOrbit: false
 orbitRadius: 3000
 orbitSpacing: 23
-solarSystem: lumi
+solarSystem: minos
