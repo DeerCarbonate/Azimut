@@ -12,12 +12,12 @@ mesh: {
 	scl: 1
 	pow: 1
 	mag: 0.4
-	colorScale: 1
+	colorScale: 0.7
 	    colors: [
-		ef8329
-		f17042
-		ffca79
-		9a481b
+		ff923d
+		ffa63d
+		ffef53
+		ffff7c
     ]
 }
 lightColor: c9a965
