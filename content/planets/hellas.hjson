@@ -1,4 +1,4 @@
-//localizedName: Minos
+//localizedName: Hellas
 description:
 '''
 White main sequence star.
@@ -6,7 +6,7 @@ White main sequence star.
 mesh: [
  {
     type: SunMesh
-    planet: minos
+    planet: hellas
     color1: ffcd43
     color2: 8c3232
 	color3: 422e2e
@@ -22,4 +22,4 @@ radius: 2
 drawOrbit: false
 orbitRadius: 3000
 orbitSpacing: 23
-solarSystem: minos
+solarSystem: hellas
