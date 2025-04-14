@@ -14,8 +14,10 @@ mesh: {
 	mag: 0.4
 	colorScale: 1.8
 	    colors: [
-		ff8038
-		f14305
+		ef8329
+		f17042
+		ffca79
+		9a481b
     ]
 }
 lightColor: c9a965
