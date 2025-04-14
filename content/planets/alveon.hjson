@@ -14,18 +14,18 @@ mesh: {
 	mag: 0.5
 	colorScale: 1
 	    colors: [
-        ffe06f
-        ffe790
-        ffedae
-        fff8c8
-        ffe53b
+		fdd680
+		fdd680
+		fdd680
+        ff966f
+        bc6f52
     ]
 }
 lightColor: fdd680
 bloom: true
 accessible: false
 parent: sun
-radius: 3.5
+radius: 8.5
 
 drawOrbit: false
 orbitRadius: 12000
