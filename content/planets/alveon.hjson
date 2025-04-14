@@ -12,16 +12,16 @@ mesh: {
 	scl: 1
 	pow: 1
 	mag: 0.5
-	colorScale: 0.9
+	colorScale: 0.95
 	    colors: [
 		ff8c3d
 		ff7a38
 		fdd680
         ff966f
-        bc6f52
+        fdd680
     ]
 }
-lightColor: eed4b9
+lightColor: c9a965
 bloom: true
 accessible: false
 parent: sun
