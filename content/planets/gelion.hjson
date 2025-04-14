@@ -42,9 +42,9 @@ allowLaunchLoadout: false
 
 allowWaveSimulation: true
 prebuildBase: true
-parent: hellas
+parent: alveon
 hasAtmosphere: true
-solarSystem: hellas
+solarSystem: alveon
 orbitRadius: 100
 orbitTime: 520
 orbitSpacing: 24

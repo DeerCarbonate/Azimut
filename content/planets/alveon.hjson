@@ -1,4 +1,4 @@
-//localizedName: Hellas
+name: Alveon
 description:
 '''
 White main sequence star.
@@ -6,7 +6,7 @@ White main sequence star.
 mesh: [
  {
     type: SunMesh
-    planet: hellas
+    planet: alveon
     color1: ffcd43
     color2: 8c3232
 	color3: 422e2e
@@ -19,6 +19,6 @@ accessible: false
 parent: sun
 
 drawOrbit: false
-orbitRadius: 60
+orbitRadius: 3000
 orbitSpacing: 23
-solarSystem: hellas
+solarSystem: alveon
