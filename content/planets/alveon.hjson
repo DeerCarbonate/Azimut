@@ -14,11 +14,12 @@ mesh: {
 	mag: 0.5
 	colorScale: 1.25
 	    colors: [
-		ffab3b
-		ff960e
-		ffab3b
-		ff4b08
-		ff0003
+		fecf90
+		fea921
+		ff4803
+		fd0f03
+		a6120b
+		721713
     ]
 }
 lightColor: c9a965
