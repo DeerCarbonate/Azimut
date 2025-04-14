@@ -17,8 +17,8 @@ parent: sun
 radius: 0.2
 accessible: false
 drawOrbit: false
-orbitRadius: 3000
+orbitRadius: 1000
 orbitSpacing: 23
 solarSystem: sun
-alwaysUnlocked: false
-visible: false
+alwaysUnlocked: true
+visible: true

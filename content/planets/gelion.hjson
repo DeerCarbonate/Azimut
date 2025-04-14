@@ -42,7 +42,7 @@ allowLaunchLoadout: false
 
 allowWaveSimulation: true
 prebuildBase: true
-parent: sun
+parent: minos
 hasAtmosphere: true
 solarSystem: sun
 orbitRadius: 100
