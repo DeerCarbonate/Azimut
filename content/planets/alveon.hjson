@@ -12,20 +12,17 @@ mesh: {
 	scl: 1
 	pow: 1
 	mag: 0.4
-	colorScale: 1.5
+	colorScale: 1.8
 	    colors: [
 		ff8038
 		f14305
-		ffca79
-        ff966f
-        fdd680
     ]
 }
 lightColor: c9a965
 bloom: true
 accessible: false
 parent: sun
-radius: 10.5
+radius: 6
 
 drawOrbit: false
 orbitRadius: 12000
