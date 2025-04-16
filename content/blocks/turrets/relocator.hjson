@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Relocator
-description: Fires three powerful projectiles.
+description: Fires a powerful penetrating projectile.
 researchCostMultiplier: 0.5
 size: 3
 outlineColor: 0c0c12
@@ -21,12 +21,28 @@ shootSoundVolume: 0.75
 ammoPerShot: 8
 shootY: -8.2
 inaccuracy: 0
+research: {
+  parent: "dezolo"
+  planet: "gelion"
+    "requirements": [
+	  "venerium/500"
+	  "cobalt/560"
+	  "platinum/450"
+	  "geliarin/180"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "four"
+    }
+  ]
+}
 shoot: {
 	type: shootSpread
-    firstShotDelay: 30
+    firstShotDelay: 37
 }
   ammoTypes: {
-    caterium: {
+    platinum: {
 type: BasicBulletType
 sprite: circle-bullet
 backSprite: circle-bullet-back
@@ -39,7 +55,7 @@ lifetime: 80
 damage: 90
 pierce: true
 pierceBuilding: true
-pierceCap: 2
+pierceCap: 5
 pierceDamageFactor: 0.001
 backColor: 4e6e63
 frontColor: bff6b1
@@ -60,7 +76,7 @@ hitSound: drillImpact
 despawnSound: drillImpact
 					intervalBullet: {
 					"type": BasicBulletType,
-					"damage": 55,
+					"damage": 65,
 					drag: -0.025
 					"speed": 0.8,
 					"lifetime": 63,
@@ -121,7 +137,7 @@ requirements: [
   cobalt/120
   venerium/80
   platinum/140
-  geliarin/50
+  geliarin/25
 ]
 category: turret
 drawer: {

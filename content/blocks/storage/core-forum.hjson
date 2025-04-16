@@ -3,14 +3,14 @@ name: "Core: Forum"
 description: The main base, when destroyed a sector is lost.
 size: 4
 squareSprite: false
-health: 3500
-itemCapacity: 4150
+health: 3700
+itemCapacity: 4200
 unitCapModifier: 10
 unitType: adder
 requirements: [
 cobalt/950
-venerium/340
-platinum/450
+venerium/750
+platinum/650
 ]
 category: effect
 hasItems: true

@@ -1,0 +1,17 @@
+localizedName: Wilderness
+description: "Challenge yourself by repelling the enemy's strong combat power in exchange for new technologies.
+(Build as strong a defense as possible!)"
+captureWave: 30
+planet: gelion
+name: four
+sector: 5
+research: {
+parent: threes
+requiresUnlock: true
+objectives: [
+{
+type: SectorComplete
+preset: threes
+  }
+ ]
+}

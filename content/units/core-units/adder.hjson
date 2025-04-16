@@ -6,7 +6,7 @@
 	health: 390
 	hitSize: 9.655
 	buildSpeed: 1.5
-	drag: 0.025
+	drag: 0.065
 	mineTier: 1
     mineSpeed: 8.5
     buildRange: 125.55

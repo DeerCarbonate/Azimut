@@ -1,0 +1,27 @@
+	type: flying
+	outlineColor: 21202a
+	name: Argument
+	description: "Guard of the core network."
+	flying: true
+	health: 740
+	hitSize: 13.5
+	buildSpeed: 2.3
+	drag: 0.085
+	mineTier: 1
+    mineSpeed: 10.3
+    buildRange: 165.55
+	speed: 3.3
+	range: 270.55
+	accel: 0.65
+	targetGround: true
+	targetAir: true
+	rotateSpeed: 6.125
+	engineColor: bf92f9
+	trailColor: bf92f9
+	trailLength: 12
+		abilities: [
+    {
+    type: RegenAbility
+    amount: 0.3
+	}
+    ]
