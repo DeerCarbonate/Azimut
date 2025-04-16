@@ -1,8 +1,9 @@
   name: "Azimut",
   displayName: "[[]#d2fffe]Azimut[[]]"
   subtitle: "[[]#c9c1eb]H gone for bread[]"
-  "description": "Develop complex logistics on the new, cold planet Gelion, covered with isobutane seas.
-At the moment, the mod has 3 sectors."
+  "description": "Develop complex logistics, repel waves, and destroy enemy bases on the new planet Gelion.
+THE MOD IS CURRENTLY UNDER DEVELOPMENT, there are already 4 sectors at the moment, and work is underway on quality of life.
+Specials thanks to: ace1020spawn, Kivet/БОБ"
   "author": "DeerCarbonate",
   "version": "1.1",
   "minGameVersion": "136",
