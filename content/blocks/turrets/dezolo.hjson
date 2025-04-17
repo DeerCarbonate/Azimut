@@ -57,8 +57,8 @@ ammoTypes: {
   ammoMultiplier: 4,
   collidesTiles: true
   collidesGround: true
-            bulletInterval: 0.000000000008
-            intervalRandomSpread: 5
+            bulletInterval: 0.00000000000008
+            intervalRandomSpread: 3
             intervalBullet: {
                 type: BasicBulletType
                 damage: 1
@@ -75,22 +75,22 @@ ammoTypes: {
                     effects: [
                         {
                             type: ParticleEffect
-                            lifetime: 18
+                            lifetime: 250
                             particles: 2
                             baseLength: 3
                             length: 10
                             line: true
                             strokeTo: 1.5
-                            lenFrom: 2
-                            lenTo: 5
+                            lenFrom: 4
+                            lenTo: 7
                             colorTo: fcf0bd00
 							colorFrom: ffffff95
-                            cone: 45
+                            cone: 25
                             baseRotation: 200
                         }
                         {
                             type: ParticleEffect
-                            lifetime: 18
+                            lifetime: 250
                             particles: 4
                             baseLength: 3
                             length: 15
@@ -107,19 +107,19 @@ ammoTypes: {
                 }
                 keepVelocity: false
             }
-      fragBullets: 14
-      fragRandomSpread: 13.5
-      fragVelocityMin: 0.3
+      fragBullets: 13
+      fragRandomSpread: 11.5
+      fragVelocityMin: 0.25
       fragVelocityMax: 0.8
       fragBullet: {
-        speed: 20
-        lifetime: 21
+        speed: 10
+        lifetime: 45
         pierce: true
         pierceBuilding: true
-        pierceCap: 2
+        pierceCap: 3
         pierceDamageFactor: 0.01
         drag: 0.06
-        damage: 10
+        damage: 20
         sprite: mine-bullet
         width: 8
         height: 22
