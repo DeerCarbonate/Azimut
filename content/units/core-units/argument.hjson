@@ -10,7 +10,7 @@
 	mineTier: 1
     mineSpeed: 10.3
     buildRange: 165.55
-	speed: 3.3
+	speed: 2.7
 	range: 270.55
 	accel: 0.65
 	targetGround: true
