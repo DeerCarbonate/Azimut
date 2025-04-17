@@ -110,12 +110,12 @@ ammoTypes: {
       fragBullets: 14
       fragRandomSpread: 13.5
       fragVelocityMin: 0.3
-      fragVelocityMax: 0.8
-	  fragLifeMin: 8
-	  fragLifeMax: 35
+      fragVelocityMax: 3.4
+	  fragLifeMin: 0.2
+	  fragLifeMax: 2
       fragBullet: {
-        speed: 12
-        lifetime: 47
+        speed: 6
+        lifetime: 29
         pierce: true
         pierceBuilding: true
         pierceCap: 4
