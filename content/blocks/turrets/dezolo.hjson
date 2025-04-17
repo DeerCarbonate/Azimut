@@ -5,7 +5,7 @@ researchCostMultiplier: 0.5
 size: 3
 outlineColor: 0c0c12
 health: 1050
-ammoPerShot: 5
+ammoPerShot: 6
 alwaysUnlocked: false
 squareSprite: false
 shoot: {
@@ -173,15 +173,15 @@ ammoTypes: {
 			type: ParticleEffect
 			line: true
 			particles: 16
-			lifetime: 48
+			lifetime: 54
 			interp: circleOut
-			length: 74
+			length: 120
 			cone: -30
 			strokeTo: 0
 			lightColor: fff5b0
-			lenFrom: 7
+			lenFrom: 9
 			lenTo: 0
-			strokeFrom: 5.2
+			strokeFrom: 6
                             colorTo: fcf0bd00
 							colorFrom: ffffff95
 	}
@@ -191,7 +191,7 @@ ammoTypes: {
 					type: ParticleEffect 
                      colorTo: fcf0bd00
 				     colorFrom: ffffff95
-					particles: 27
+					particles: 32
 					cone: 3
 					length: 110
 					baseLength: 2
@@ -202,7 +202,7 @@ ammoTypes: {
 					sizeFrom: 3.5
 					sizeTo: 0
 					offset: 1
-					lifetime: 40
+					lifetime: 70
 					}
   }
 }
