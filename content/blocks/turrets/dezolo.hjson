@@ -111,18 +111,20 @@ ammoTypes: {
       fragRandomSpread: 13.5
       fragVelocityMin: 0.3
       fragVelocityMax: 0.8
+	  fragLifeMin: 8
+	  fragLifeMax: 35
       fragBullet: {
-        speed: 20
-        lifetime: 21
+        speed: 12
+        lifetime: 47
         pierce: true
         pierceBuilding: true
-        pierceCap: 2
+        pierceCap: 4
         pierceDamageFactor: 0.01
-        drag: 0.06
-        damage: 10
+        drag: 0.04
+        damage: 17
         sprite: mine-bullet
-        width: 8
-        height: 22
+        width: 10
+        height: 23
         shrinkY: 0.25
         shrinkX: 1
         frontColor: fcf0bd
@@ -171,7 +173,7 @@ ammoTypes: {
 			type: ParticleEffect
 			line: true
 			particles: 16
-			lifetime: 35
+			lifetime: 48
 			interp: circleOut
 			length: 74
 			cone: -30
