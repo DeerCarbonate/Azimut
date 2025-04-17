@@ -75,7 +75,7 @@ ammoTypes: {
                     effects: [
                         {
                             type: ParticleEffect
-                            lifetime: 250
+                            lifetime: 90
                             particles: 2
                             baseLength: 3
                             length: 10
@@ -86,11 +86,11 @@ ammoTypes: {
                             colorTo: fcf0bd00
 							colorFrom: ffffff95
                             cone: 25
-                            baseRotation: 200
+                            baseRotation: 185
                         }
                         {
                             type: ParticleEffect
-                            lifetime: 250
+                            lifetime: 90
                             particles: 4
                             baseLength: 3
                             length: 15
@@ -101,13 +101,13 @@ ammoTypes: {
                             colorTo: fcf0bd00
 							colorFrom: ffffff95
                             cone: 25
-                            baseRotation: 200
+                            baseRotation: 175
                         }
                     ]
                 }
                 keepVelocity: false
             }
-      fragBullets: 13
+      fragBullets: 65
       fragRandomSpread: 11.5
       fragVelocityMin: 0.25
       fragVelocityMax: 0.8
@@ -170,8 +170,8 @@ ammoTypes: {
 	{
 			type: ParticleEffect
 			line: true
-			particles: 16
-			lifetime: 35
+			particles: 21
+			lifetime: 65
 			interp: circleOut
 			length: 74
 			cone: -30
