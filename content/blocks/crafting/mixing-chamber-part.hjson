@@ -30,23 +30,6 @@ heatRequirement: 6
 overheatScale: 0.75
 maxEfficiency: 1
 hasLiquids: true
-craftEffect: {
-  type: RadialEffect
-  rotationSpacing: 25
-  amount: 4
-  layer: 118
-  effect: {
-    type: ParticleEffect
-    particles: 7
-    length: 14
-    lifetime: 60
-    sizeFrom: 0.3
-    sizeTo: 4.2
-    colorFrom: 9daebf75
-    colorTo: ffffff00
-    layer: 80
-  }
-}
 outputLiquid: gas-geliarin/1
 drawer: {
   type: DrawMulti
@@ -56,23 +39,23 @@ drawer: {
       suffix: -bottom
     }
 	{
-      type: DrawRegion
-      suffix: -fan
-      rotateSpeed: 4
-      spinSprite: true
+      type: DrawCircles
+      color: 9daebf10
+      strokeMax: 2.1
+      radius: 10
+      amount: 4.2
     }
-    {
-      type: DrawRegion
-      suffix: -fan
-      rotateSpeed: 4
-      rotation: 30
-      spinSprite: true
+	{
+      type: DrawCircles
+      color: 9daebf40
+      strokeMax: 1.4
+      radius: 9
+      amount: 5.1
     }
-    {
+	{
       type: DrawRegion
       suffix: -fan
-      rotateSpeed: 4
-      rotation: 60
+      rotateSpeed: 0.8
       spinSprite: true
     }
     {
