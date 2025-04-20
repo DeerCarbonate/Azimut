@@ -40,14 +40,14 @@ drawer: {
     }
 	{
       type: DrawCircles
-      color: 9daebf10
+      color: 9daebf05
       strokeMax: 4.1
       radius: 10
       amount: 3
     }
 	{
       type: DrawCircles
-      color: 9daebf40
+      color: 9daebf20
       strokeMax: 3.5
       radius: 9
       amount: 2.1
@@ -55,7 +55,7 @@ drawer: {
 	{
       type: DrawRegion
       suffix: -fan
-      rotateSpeed: 0.8
+      rotateSpeed: 0.65
       spinSprite: true
     }
     {
