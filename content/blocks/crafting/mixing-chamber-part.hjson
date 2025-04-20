@@ -41,16 +41,16 @@ drawer: {
 	{
       type: DrawCircles
       color: 9daebf10
-      strokeMax: 2.1
+      strokeMax: 4.1
       radius: 10
-      amount: 4.2
+      amount: 3
     }
 	{
       type: DrawCircles
       color: 9daebf40
-      strokeMax: 1.4
+      strokeMax: 3.5
       radius: 9
-      amount: 5.1
+      amount: 2.1
     }
 	{
       type: DrawRegion
