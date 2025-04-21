@@ -60,7 +60,7 @@ reload: 0.002
 healColor: bf92f9
 laserColor: bf92f9
 bullet: {
-maxRange: 100
+maxRange: 55
 }
 }
 ]
