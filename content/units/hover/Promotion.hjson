@@ -14,10 +14,9 @@
 	 accel: 0.1
 	"health": 2440
 	"hovering": true,
+	canDrown: false
 	"speed": 1.08,
-	"size": 100,
 	"hitSize": 24.0,
-	"hitboxSize": [9.0, 9.0],
 	"drag": 0.05,
 	"description": "Destabilizing its core, it fires a powerful piercing projectile.",
 	parts: [

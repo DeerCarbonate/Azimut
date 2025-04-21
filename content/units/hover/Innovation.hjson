@@ -14,6 +14,7 @@
 	"health": 1230,
 	"hovering": true,
 	"speed": 1.25,
+	canDrown: false
 	"hitSize": 18.0,
 	"drag": 0.04,
 	"description": "Fires a burst of five homing bullets.",
