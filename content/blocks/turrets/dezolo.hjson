@@ -49,7 +49,7 @@ ammoTypes: {
   hitColor: fcf0bd,
   damage: 200,
   despawnSound: energy-blade-hit,
-  lifetime: 8,
+  lifetime: 8.25,
   speed: 32,
   drag: -0.020,
   width: 12,
