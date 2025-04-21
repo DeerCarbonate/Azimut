@@ -190,17 +190,17 @@ ammoTypes: {
 shootEffect: [
         {
           line: true
-          cone: 15
+          cone: 14
 		  interp: pow3Out
           particles: 14
-          lifetime: 48
-          length: 60
+          lifetime: 21
+          length: 67
           sizeInterp: linear
           lenFrom: 11
-          lenTo: 6
-          strokeFrom: 2.8
+          lenTo: 5
+          strokeFrom: 2.3
           strokeTo: 0
-          colorTo: fcf0bd
+          colorTo: fcf0bd30
         }
 		{
 					type: ParticleEffect 
