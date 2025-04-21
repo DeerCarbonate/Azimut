@@ -20,6 +20,16 @@
 	engineColor: bf92f9
 	trailColor: bf92f9
 	trailLength: 2
+	parts: [
+	 {
+    type: ShapePart
+    circle: true
+    hollow: true
+    layer: 110
+    color bf92f970
+    radius: 100
+  }
+]
 	    weapons: [
 {
 mirror: false
