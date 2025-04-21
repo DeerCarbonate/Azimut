@@ -51,7 +51,7 @@ type: RepairBeamWeapon
 name: cull-b
 noAttack: true
 widthSinMag: .10
-reload: 0.02
+reload: 0.002
 healColor: bf92f9
 laserColor: bf92f9
 bullet: {
