@@ -14,6 +14,8 @@
 	"hovering": true,
 	"speed": 1.45,
 	"hitSize": 13.0,
+	hovering: true
+	hoverable: true
 	"drag": 0.03,
 	"description": "Destabilizing its core, it fires a shot of homing bullets.",
 	abilities: [
