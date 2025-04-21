@@ -219,7 +219,9 @@ shootEffect: [
 					offset: 1
 					lifetime: 70
 		}
-]
+	]
+}
+}
 hasPower: false
 hasLiquids: false
 requirements: [
