@@ -187,7 +187,22 @@ ammoTypes: {
 	}
 ]
 }
-	  shootEffect: {
+shootEffect: [
+        {
+          line: true
+          cone: 15
+		  interp: pow3Out
+          particles: 14
+          lifetime: 48
+          length: 60
+          sizeInterp: linear
+          lenFrom: 11
+          lenTo: 6
+          strokeFrom: 2.8
+          strokeTo: 0
+          colorTo: fcf0bd
+        }
+		{
 					type: ParticleEffect 
                      colorTo: fcf0bd00
 				     colorFrom: ffffff95
@@ -203,9 +218,8 @@ ammoTypes: {
 					sizeTo: 0
 					offset: 1
 					lifetime: 70
-					}
-  }
-}
+		}
+]
 hasPower: false
 hasLiquids: false
 requirements: [
