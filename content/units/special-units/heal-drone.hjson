@@ -26,9 +26,9 @@ type: ShapePart
 circle: true
 hollow: true
 layer: 110
-color bf92f9
+color: bf92f970
 radius: 100
-   }
+  }
 ]
 	    weapons: [
 {
