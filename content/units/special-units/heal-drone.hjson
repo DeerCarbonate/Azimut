@@ -22,12 +22,12 @@
 	trailLength: 2
 	parts: [
 	 {
-    type: ShapePart
-    circle: true
-    hollow: true
-    layer: 110
-    color bf92f970
-    radius: 100
+type: ShapePart
+circle: true
+hollow: true
+layer: 110
+color bf92f970
+radius: 100
   }
 ]
 	    weapons: [
