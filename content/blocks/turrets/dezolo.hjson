@@ -192,12 +192,12 @@ shootEffect: [
           line: true
           cone: 14
 		  interp: pow3Out
-          particles: 14
+          particles: 7
           lifetime: 21
           length: 67
           sizeInterp: linear
-          lenFrom: 11
-          lenTo: 5
+          lenFrom: 8
+          lenTo: 4
           strokeFrom: 2.3
           strokeTo: 0
           colorTo: fcf0bd30
