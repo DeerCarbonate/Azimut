@@ -32,15 +32,11 @@
 	"legGroupSize": 1,
 	"legContinuousMove": true
 	"accel": 0.5,
-	"armor": 13,
+	"armor": 10,
 	"health": 12050,
 	"speed": 0.435,
-	"size": 100,
 	"hitSize": 36,
-	"hitboxSize": [9.0, 9.0],
-	"mass": 3.82,
 	"faceTarget": true,
-	"squareShape": true,
 	"canBoost": false,
 	"description": "Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit.",
 	weapons: [

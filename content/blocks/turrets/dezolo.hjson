@@ -194,13 +194,13 @@ shootEffect: [
 		  interp: pow3Out
           particles: 13
           lifetime: 34
-          length: 65
+          length: 75
           sizeInterp: linear
           lenFrom: 9
           lenTo: 4
           strokeFrom: 2.8
           strokeTo: 0
-          colorTo: fcf0bd20
+          colorTo: fcf0bd
         }
 		{
 					type: ParticleEffect 
