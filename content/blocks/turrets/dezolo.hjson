@@ -190,34 +190,34 @@ ammoTypes: {
 shootEffect: [
         {
           line: true
-          cone: 11
+          cone: 8
 		  interp: pow3Out
-          particles: 7
-          lifetime: 28
-          length: 38
+          particles: 16
+          lifetime: 34
+          length: 46
           sizeInterp: linear
-          lenFrom: 8
+          lenFrom: 9
           lenTo: 4
-          strokeFrom: 2.3
+          strokeFrom: 2.8
           strokeTo: 0
-          colorTo: fcf0bd30
+          colorTo: fcf0bd20
         }
 		{
 					type: ParticleEffect 
                      colorTo: fcf0bd00
 				     colorFrom: ffffff95
-					particles: 32
-					cone: 3
-					length: 110
+					particles: 4
+					cone: 30
+					length: 70
 					baseLength: 2
 					lightScl: 3
 					interp: circleOut
 					lightOpacity: 2
 					spin: 2
-					sizeFrom: 3.5
+					sizeFrom: 4.5
 					sizeTo: 0
 					offset: 1
-					lifetime: 70
+					lifetime: 50
 		}
 	]
 }
