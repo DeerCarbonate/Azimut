@@ -10,7 +10,7 @@ health: 1300
 cooldown: 1200
 shootCone: 9
 recoil: 3.2
-reload: 150
+reload: 90
 range: 240
 targetAir: true
 moveWhileCharging: true
@@ -40,80 +40,48 @@ objectives: [
 shoot: {
 	type: shootSpread
     firstShotDelay: 37
+	shots: 4
+	shotDelay: 7
 }
   ammoTypes: {
     platinum: {
 type: BasicBulletType
-sprite: circle-bullet
-backSprite: circle-bullet-back
+sprite: large-orb
 width: 8
 height: 8
-speed: 3.6
+speed: 6.5
 collidesTiles: true
 collidesGround: true
-lifetime: 80
-damage: 90
+lifetime: 50
+damage: 50
 pierce: true
 pierceBuilding: true
-pierceCap: 5
+pierceCap: 2
 pierceDamageFactor: 0.001
 backColor: 4e6e63
 frontColor: bff6b1
 trailColor: bff6b1
-trailLength: 15
-trailWidth: 2.6
+trailLength: 9
+trailWidth: 2.3
 despawnEffect: none
 collidesTiles: true
 keepVelocity: false
 collidesAir: false
-splashDamageRadius: 40
+splashDamageRadius: 50
 inaccuracy: 0,
-bulletInterval: 9
+bulletInterval: 27
 intervalBullets: 2,
 intervalAngle: -15,
 intervalSpread: 0,
 hitSound: drillImpact
 despawnSound: drillImpact
 					intervalBullet: {
-					"type": BasicBulletType,
-					"damage": 65,
-					drag: -0.025
-					"speed": 0.8,
-					"lifetime": 63,
-					"trailColor": bff6b1,
-					"trailWidth": 1.2,
-					"trailLength": 10,
-					"frontColor": bff6b1,
-					"backColor": 4e6e63,
-					"hitSize": 6,
-					  width: 8
-					  height: 8
-					"splashDamage": 10,
-					"splashDamageRadius": 15,
-					"weaveMag": 4,
-					"weaveScale": 3,
-					homingPower: 0.3
-					homingDelay: 0.8
-					despawnEffect: none
-					collidesTiles: true
-					keepVelocity: false
-					collidesAir: false
-						hitEffect: {
-    type: ExplosionEffect
-    lifetime: 24
-    waveColor: bff6b1
-    waveStroke: 1.7
-    waveRad: 12
-    smokeColor: bff6b160
-    smokeSizeBase: 0
-    smokeSize: 2.5
-    smokes: 2
-    sparkColor: bff6b1
-    sparkStroke: 1
-    sparkRad: 12.5
-    sparkLen: 2
-    sparks: 4
-		}
+   type: LightningBulletType
+    collidesAir: false
+    lightningLength: 4
+	lightningLengthRand: 8
+	lightningColor: bff6b1
+    damage: 16
       }
 	hitEffect: {
     type: ExplosionEffect
