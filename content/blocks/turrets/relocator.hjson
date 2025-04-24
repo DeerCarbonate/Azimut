@@ -169,6 +169,7 @@ fragVelocityMin: 1
 fragVelocityMax: 3
 fragRandomSpread: 15
 fragSpread: 3 
+pierceArmor:true
 fragBullet: {
     type: ShrapnelBulletType
     pierce: false
@@ -178,6 +179,7 @@ fragBullet: {
 	serrations: 1
 	serrationWidth: 3
     lifetime: 27
+	pierceArmor:true
     damage: 70
     toColor: bf92f9
 	despawnEffect: none
