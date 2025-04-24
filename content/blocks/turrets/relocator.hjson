@@ -114,6 +114,7 @@ drag: 0.03
 homingRange: 120
 homingPower: 0.10
 homingDelay: 16
+reloadMultiplier: 0.4
 sprite: large-orb
 width: 10
 rangeChange: 40
