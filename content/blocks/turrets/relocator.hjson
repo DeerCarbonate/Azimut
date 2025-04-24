@@ -154,7 +154,7 @@ drag: 0.04
 speed: 2.6
 collidesGround: true
 lifetime: 65
-damage: 20
+damage: 25
 backColor: bf92f9
 frontColor: bf92f9
 trailColor: bf92f9
@@ -178,7 +178,7 @@ fragBullet: {
 	serrations: 1
 	serrationWidth: 3
     lifetime: 27
-    damage: 50
+    damage: 70
     toColor: bf92f9
 	despawnEffect: none
 	collidesTiles: true
