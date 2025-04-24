@@ -20,7 +20,7 @@ shootSound: machine-gun-shot
 shootSoundVolume: 0.75
 ammoPerShot: 8
 shootY: -6.2
-inaccuracy: 17
+inaccuracy: 9
 research: {
   parent: "dezolo"
   planet: "gelion"
