@@ -55,7 +55,8 @@ height: 16
 speed: 6.5
 collidesTiles: true
 collidesGround: true
-lifetime: 40
+LifeMin: 30
+LifeMax: 45
 damage: 40
 pierce: true
 pierceBuilding: true
