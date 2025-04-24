@@ -37,6 +37,11 @@ objectives: [
     }
   ]
 }
+coolant: {
+  type: ConsumeLiquid
+  liquid: power
+  amount: 0.14
+}
 shoot: {
 	type: shootSpread
     firstShotDelay: 37
@@ -76,11 +81,6 @@ bulletInterval: 4
 intervalBullets: 2,
 intervalAngle: -15,
 intervalSpread: 0,
-coolant: {
-  type: ConsumeLiquid
-  liquid: power
-  amount: 0.14
-}
 					intervalBullet: {
    type: LightningBulletType
     collidesAir: false
@@ -101,6 +101,65 @@ coolant: {
     smokeSize: 5
     smokes: 4
     sparkColor: bff6b1
+    sparkStroke: 2
+    sparkRad: 12.5
+    sparkLen: 4
+    sparks: 5
+	}
+	]
+	}
+	    manganese: {
+type: BasicBulletType
+homingRange: 120
+homingPower: 0.10
+homingDelay: 16
+sprite: large-orb
+width: 10
+rangeChange: 40
+height: 16
+speed: 3.8
+collidesTiles: true
+collidesGround: true
+lifetime: 40
+damage: 70
+pierce: true
+pierceBuilding: true
+pierceCap: 4
+pierceDamageFactor: 0.001
+backColor: bf92f9
+frontColor: bf92f9
+trailColor: bf92f9
+trailLength: 12
+trailWidth: 2.3
+despawnEffect: none
+collidesTiles: true
+keepVelocity: false
+collidesAir: true
+splashDamageRadius: 50
+bulletInterval: 8
+intervalBullets: 2,
+intervalAngle: -15,
+intervalSpread: 0,
+					intervalBullet: {
+   type: LightningBulletType
+    collidesAir: false
+    lightningLength: 2
+	lightningLengthRand: 3
+	lightningColor: bf92f9
+    damage: 5
+      }
+	hitEffect: [
+	{
+    type: ExplosionEffect
+    lifetime: 60
+    waveColor: bf92f9
+    waveStroke: 5.5
+    waveRad: 15
+    smokeColor: bf92f960
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 4
+    sparkColor: bf92f9
     sparkStroke: 2
     sparkRad: 12.5
     sparkLen: 4
