@@ -92,7 +92,7 @@ despawnSound: drillImpact
     lifetime: 60
     waveColor: bff6b1
     waveStroke: 5.5
-    waveRad: 120
+    waveRad: 50
     smokeColor: bff6b160
     smokeSizeBase: 0
     smokeSize: 5
