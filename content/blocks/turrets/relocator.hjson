@@ -46,6 +46,9 @@ shoot: {
   ammoTypes: {
     platinum: {
 type: BasicBulletType
+homingRange: 90
+homingPower: 0.2
+homingDelay: 7
 sprite: large-orb
 width: 8
 height: 8
@@ -62,6 +65,7 @@ backColor: 4e6e63
 frontColor: bff6b1
 trailColor: bff6b1
 trailLength: 9
+homing
 trailWidth: 2.3
 despawnEffect: none
 collidesTiles: true
@@ -69,7 +73,7 @@ keepVelocity: false
 collidesAir: false
 splashDamageRadius: 50
 inaccuracy: 0,
-bulletInterval: 10
+bulletInterval: 4
 intervalBullets: 2,
 intervalAngle: -15,
 intervalSpread: 0,
