@@ -136,7 +136,7 @@ collidesTiles: true
 keepVelocity: false
 collidesAir: true
 splashDamageRadius: 50
-bulletInterval: 8
+bulletInterval: 16
 intervalBullets: 2,
 intervalAngle: -15,
 intervalSpread: 0,
@@ -146,11 +146,12 @@ homingRange: 50
 homingPower: 0.05
 homingDelay: 5
 sprite: large-orb
-width: 4
-height: 6
+width: 8
+height: 12
+drag: 0.06
 speed: 2.6
 collidesGround: true
-lifetime: 75
+lifetime: 45
 damage: 20
 backColor: bf92f9
 frontColor: bf92f9
@@ -169,8 +170,8 @@ fragSpread: 3
 fragBullet: {
     type: ShrapnelBulletType
     pierce: false
-    length: 90
-	width: 10
+    length: 20
+	width: 5
     pierceCap: 10
     lifetime: 20
     damage: 50
