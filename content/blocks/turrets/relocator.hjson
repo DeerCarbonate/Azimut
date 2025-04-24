@@ -11,7 +11,7 @@ cooldown: 1200
 shootCone: 9
 recoil: 3.2
 reload: 90
-range: 240
+range: 200
 targetAir: true
 moveWhileCharging: true
 targetGround: true
@@ -60,8 +60,8 @@ height: 16
 speed: 6.5
 collidesTiles: true
 collidesGround: true
-lifetime: 40
-damage: 48
+lifetime: 35
+damage: 35
 pierce: true
 pierceBuilding: true
 pierceCap: 3
@@ -114,10 +114,10 @@ drag: 0.03
 homingRange: 120
 homingPower: 0.10
 homingDelay: 16
-reloadMultiplier: 0.4
+reloadMultiplier: 0.3
 sprite: large-orb
 width: 10
-rangeChange: 40
+rangeChange: 60
 height: 16
 speed: 3.8
 collidesTiles: true
@@ -126,7 +126,7 @@ lifetime: 65
 damage: 70
 pierce: true
 pierceBuilding: true
-pierceCap: 4
+pierceCap: 2
 pierceDamageFactor: 0.001
 backColor: bf92f9
 frontColor: bf92f9
@@ -155,7 +155,7 @@ drag: 0.04
 speed: 2.6
 collidesGround: true
 lifetime: 65
-damage: 35
+damage: 95
 backColor: bf92f9
 frontColor: bf92f9
 trailColor: bf92f9
