@@ -19,8 +19,8 @@ rotateSpeed: 1.15
 shootSound: machine-gun-shot
 shootSoundVolume: 0.75
 ammoPerShot: 8
-shootY: -8.2
-inaccuracy: 0
+shootY: -6.2
+inaccuracy: 17
 research: {
   parent: "dezolo"
   planet: "gelion"
@@ -69,7 +69,7 @@ keepVelocity: false
 collidesAir: false
 splashDamageRadius: 50
 inaccuracy: 0,
-bulletInterval: 27
+bulletInterval: 10
 intervalBullets: 2,
 intervalAngle: -15,
 intervalSpread: 0,
@@ -78,8 +78,8 @@ despawnSound: drillImpact
 					intervalBullet: {
    type: LightningBulletType
     collidesAir: false
-    lightningLength: 4
-	lightningLengthRand: 8
+    lightningLength: 2
+	lightningLengthRand: 3
 	lightningColor: bff6b1
     damage: 16
       }
