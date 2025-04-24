@@ -8,6 +8,11 @@ health: 1050
 ammoPerShot: 6
 alwaysUnlocked: false
 squareSprite: false
+coolant: {
+  type: ConsumeLiquid
+  liquid: power
+  amount: 0.20
+}
 shoot: {
   firstShotDelay: 15
 }
@@ -188,27 +193,13 @@ ammoTypes: {
 ]
 }
 shootEffect: [
-        {
-          line: true
-          cone: 8
-		  interp: pow3Out
-          particles: 13
-          lifetime: 34
-          length: 75
-          sizeInterp: linear
-          lenFrom: 9
-          lenTo: 4
-          strokeFrom: 2.8
-          strokeTo: 0
-          colorTo: fcf0bd
-        }
 		{
 					type: ParticleEffect 
                      colorTo: fcf0bd00
 				     colorFrom: ffffff95
-					particles: 6
-					cone: 30
-					length: 70
+					particles: 16
+					cone: 5
+					length: 120
 					baseLength: 2
 					lightScl: 3
 					interp: circleOut

@@ -20,6 +20,11 @@ rotateSpeed: 1.25
 shootSound: mechshoot
 shootSoundVolume: 0.65
 ammoPerShot: 4
+coolant: {
+  type: ConsumeLiquid
+  liquid: power
+  amount: 0.10
+}
 research: {
   parent: "core-forum"
   planet: "gelion"

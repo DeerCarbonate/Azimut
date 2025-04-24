@@ -78,6 +78,11 @@ intervalAngle: -15,
 intervalSpread: 0,
 hitSound: drillImpact
 despawnSound: drillImpact
+coolant: {
+  type: ConsumeLiquid
+  liquid: power
+  amount: 0.14
+}
 					intervalBullet: {
    type: LightningBulletType
     collidesAir: false
