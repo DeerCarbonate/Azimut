@@ -137,7 +137,7 @@ collidesTiles: true
 keepVelocity: false
 collidesAir: true
 splashDamageRadius: 50
-fragBullets: 3
+fragBullets: 2
 fragVelocityMin: 0.5
 fragVelocityMax: 7
 fragRandomSpread: 5
@@ -164,7 +164,7 @@ despawnEffect: none
 collidesTiles: true
 keepVelocity: false
 collidesAir: true   
-fragBullets: 2
+fragBullets: 1
 fragVelocityMin: 1
 fragVelocityMax: 3
 fragRandomSpread: 15
@@ -172,9 +172,11 @@ fragSpread: 3
 fragBullet: {
     type: ShrapnelBulletType
     pierce: false
-    length: 12
-	width: 3
+    length: 10
+	width: 4
     pierceCap: 10
+	serrations: 1
+	serrationWidth: 2
     lifetime: 20
     damage: 50
     toColor: bf92f9
@@ -182,39 +184,6 @@ fragBullet: {
 	collidesTiles: true
 	keepVelocity: false
 	collidesAir: true   
-	            hitEffect:[
-            {
-                    type: ParticleEffect
-                    particles: 5
-                    length: 30
-                    lifetime: 40
-                    sizeFrom: 1
-                    sizeTo: 2
-                    cone: 16
-                    interp: circleOut
-                    sizeInterp:circleOut
-                    colorFrom: bf92f9
-                    colorTo: bf92f900
-                    layer:100.3
-                }
-            {
-                    type: ParticleEffect
-                    particles: 7
-                    length: 67
-                    line:true
-                    lifetime: 24
-                    lenFrom: 1
-                    lenTo: 2
-                    strokeFrom:1.2
-                    strokeTo:0.5
-                    cone: 3
-                    interp: circleOut
-                    sizeInterp:circleOut
-                    colorFrom: bf92f9
-                    colorTo: bf92f900
-                    layer:100.3
-                }
-            ]
 }
 }
 	hitEffect: [
