@@ -61,7 +61,7 @@ speed: 6.5
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 35
+damage: 45
 pierce: true
 pierceBuilding: true
 pierceCap: 4
@@ -76,7 +76,6 @@ collidesTiles: true
 keepVelocity: false
 collidesAir: true
 splashDamageRadius: 30
-inaccuracy: 0,
 bulletInterval: 4
 intervalBullets: 2,
 intervalAngle: -15,
@@ -87,7 +86,7 @@ intervalSpread: 0,
     lightningLength: 2
 	lightningLengthRand: 3
 	lightningColor: bff6b1
-    damage: 5
+    damage: 10
       }
 	hitEffect: [
 	{
