@@ -176,8 +176,8 @@ fragBullet: {
 	width: 4
     pierceCap: 10
 	serrations: 1
-	serrationWidth: 2
-    lifetime: 20
+	serrationWidth: 3
+    lifetime: 27
     damage: 50
     toColor: bf92f9
 	despawnEffect: none
