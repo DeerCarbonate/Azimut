@@ -17,8 +17,8 @@ moveWhileCharging: true
 targetGround: true
 rotateSpeed: 1.15
 shootSound: machine-gun-shot
-shootSoundVolume: 0.75
-ammoPerShot: 8
+shootSoundVolume: 0.55
+ammoPerShot: 2
 shootY: -6.2
 inaccuracy: 9
 research: {
@@ -50,16 +50,16 @@ homingRange: 90
 homingPower: 0.25
 homingDelay: 16
 sprite: large-orb
-width: 14
-height: 14
+width: 10
+height: 16
 speed: 6.5
 collidesTiles: true
 collidesGround: true
 lifetime: 40
-damage: 50
+damage: 20
 pierce: true
 pierceBuilding: true
-pierceCap: 2
+pierceCap: 3
 pierceDamageFactor: 0.001
 backColor: bff6b1
 frontColor: bff6b1
@@ -70,7 +70,7 @@ despawnEffect: none
 collidesTiles: true
 keepVelocity: false
 collidesAir: false
-splashDamageRadius: 50
+splashDamageRadius: 45
 inaccuracy: 0,
 bulletInterval: 4
 intervalBullets: 2,
@@ -84,26 +84,25 @@ despawnSound: drillImpact
     lightningLength: 2
 	lightningLengthRand: 3
 	lightningColor: bff6b1
-    damage: 16
+    damage: 5
       }
-	hitEffect: {
+	hitEffect: [
+	{
     type: ExplosionEffect
-    lifetime: 83
+    lifetime: 60
     waveColor: bff6b1
-    waveStroke: 3.5
-    waveRad: 30
+    waveStroke: 5.5
+    waveRad: 120
     smokeColor: bff6b160
     smokeSizeBase: 0
-    smokeSize: 4.5
-    smokes: 12
+    smokeSize: 5
+    smokes: 4
     sparkColor: bff6b1
     sparkStroke: 2
     sparkRad: 26.5
     sparkLen: 4
-    sparks: 12
-		}
-}
-}
+    sparks: 5
+	}
 requirements: [
   cobalt/120
   venerium/80
