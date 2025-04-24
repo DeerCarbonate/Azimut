@@ -10,12 +10,12 @@ health: 1300
 cooldown: 1200
 shootCone: 9
 recoil: 3.2
-reload: 90
+reload: 70
 range: 200
 targetAir: true
 moveWhileCharging: true
 targetGround: true
-rotateSpeed: 1.15
+rotateSpeed: 2
 shootSound: machine-gun-shot
 shootSoundVolume: 0.55
 ammoPerShot: 2
@@ -64,8 +64,8 @@ lifetime: 35
 damage: 35
 pierce: true
 pierceBuilding: true
-pierceCap: 3
-pierceDamageFactor: 0.001
+pierceCap: 4
+pierceDamageFactor: 0.002
 backColor: bff6b1
 frontColor: bff6b1
 trailColor: bff6b1
