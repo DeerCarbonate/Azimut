@@ -103,7 +103,9 @@ despawnSound: drillImpact
     sparkLen: 4
     sparks: 5
 	}
-]
+	]
+	}
+}
 requirements: [
   cobalt/120
   venerium/80
