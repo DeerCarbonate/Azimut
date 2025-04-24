@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Relocator
-description: Fires a powerful penetrating projectile.
+description: Fires four energy projectiles.
 researchCostMultiplier: 0.5
 size: 3
 outlineColor: 0c0c12
@@ -103,6 +103,7 @@ despawnSound: drillImpact
     sparkLen: 4
     sparks: 5
 	}
+]
 requirements: [
   cobalt/120
   venerium/80
