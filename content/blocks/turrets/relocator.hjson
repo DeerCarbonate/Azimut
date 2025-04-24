@@ -65,7 +65,6 @@ backColor: 4e6e63
 frontColor: bff6b1
 trailColor: bff6b1
 trailLength: 9
-homing
 trailWidth: 2.3
 despawnEffect: none
 collidesTiles: true
