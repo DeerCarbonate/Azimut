@@ -141,13 +141,79 @@ intervalBullets: 2,
 intervalAngle: -15,
 intervalSpread: 0,
 					intervalBullet: {
-   type: LightningBulletType
-    collidesAir: false
-    lightningLength: 2
-	lightningLengthRand: 3
-	lightningColor: bf92f9
-    damage: 5
-      }
+type: BasicBulletType
+homingRange: 50
+homingPower: 0.05
+homingDelay: 5
+sprite: large-orb
+width: 4
+height: 6
+speed: 2.6
+collidesGround: true
+lifetime: 75
+damage: 20
+backColor: bf92f9
+frontColor: bf92f9
+trailColor: bf92f9
+trailLength: 4
+trailWidth: 0.75
+despawnEffect: none
+collidesTiles: true
+keepVelocity: false
+collidesAir: true   
+fragBullets: 2
+fragVelocityMin: 1
+fragVelocityMax: 3
+fragRandomSpread: 15
+fragSpread: 3 
+fragBullet: {
+    type: ShrapnelBulletType
+    pierce: false
+    length: 90
+	width: 10
+    pierceCap: 10
+    lifetime: 20
+    damage: 50
+    toColor: bf92f9
+	despawnEffect: none
+	collidesTiles: true
+	keepVelocity: false
+	collidesAir: true   
+	            hitEffect:[
+            {
+                    type: ParticleEffect
+                    particles: 5
+                    length: 30
+                    lifetime: 40
+                    sizeFrom: 1
+                    sizeTo: 2
+                    cone: 16
+                    interp: circleOut
+                    sizeInterp:circleOut
+                    colorFrom: bf92f9
+                    colorTo: bf92f900
+                    layer:100.3
+                }
+            {
+                    type: ParticleEffect
+                    particles: 7
+                    length: 67
+                    line:true
+                    lifetime: 24
+                    lenFrom: 1
+                    lenTo: 2
+                    strokeFrom:1.2
+                    strokeTo:0.5
+                    cone: 3
+                    interp: circleOut
+                    sizeInterp:circleOut
+                    colorFrom: bf92f9
+                    colorTo: bf92f900
+                    layer:100.3
+                }
+            ]
+}
+}
 	hitEffect: [
 	{
     type: ExplosionEffect
