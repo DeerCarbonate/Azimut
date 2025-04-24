@@ -56,7 +56,7 @@ speed: 6.5
 collidesTiles: true
 collidesGround: true
 lifetime: 40
-damage: 20
+damage: 40
 pierce: true
 pierceBuilding: true
 pierceCap: 3
@@ -70,7 +70,7 @@ despawnEffect: none
 collidesTiles: true
 keepVelocity: false
 collidesAir: false
-splashDamageRadius: 45
+splashDamageRadius: 30
 inaccuracy: 0,
 bulletInterval: 4
 intervalBullets: 2,
@@ -92,14 +92,14 @@ despawnSound: drillImpact
     lifetime: 60
     waveColor: bff6b1
     waveStroke: 5.5
-    waveRad: 50
+    waveRad: 15
     smokeColor: bff6b160
     smokeSizeBase: 0
     smokeSize: 5
     smokes: 4
     sparkColor: bff6b1
     sparkStroke: 2
-    sparkRad: 26.5
+    sparkRad: 12.5
     sparkLen: 4
     sparks: 5
 	}
