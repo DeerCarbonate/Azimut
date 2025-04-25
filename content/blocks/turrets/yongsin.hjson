@@ -143,6 +143,38 @@ lifetime: 120
 }
 }
 }
+    caterium: {
+type: ArtilleryBulletType
+width: 15
+height: 15
+speed: 2.8
+collidesTiles: true
+collidesGround: true
+lifetime: 65
+damage: 100
+backColor: 957655
+frontColor: dacaaa
+fragBullets: 14
+fragRandomSpread: 13.5
+fragLifeMin: 1.2
+fragLifeMax: 2
+      fragBullet: {
+        speed: 6
+        pierceDamageFactor: 0.01
+        drag: 0.04
+        damage: 17
+        sprite: mine-bullet
+        width: 10
+        height: 23
+        shrinkY: 0.25
+        shrinkX: 1
+        frontColor: fcf0bd
+        backColor: 00000000
+        hitColor: fcf0bd
+        despawnEffect: none
+        hitEffect: hitBulletColor
+		}
+}
 }
 requirements: [
   cobalt/90
