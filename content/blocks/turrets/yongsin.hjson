@@ -182,13 +182,14 @@ lifetime: 120
             type: WaveEffect
             rotWithParent: false
             followParent: false
-            sizeFrom: 42
-            sizeTo: 38
-            strokeFrom: 2
-            strokeTo: 0.5
+            sizeFrom: 32
+            sizeTo: 28
+            strokeFrom: 6
+            strokeTo: 2
             lifetime: 70
 			colorFrom: dacaaa50
             colorTo: dacaaa30
+			sides: 7
 }
 {
             type: WaveEffect
@@ -196,12 +197,13 @@ lifetime: 120
             followParent: false
             sizeFrom: 22
             sizeTo: 18
-            strokeFrom: 2
-            strokeTo: 0.5
+            strokeFrom: 6
+            strokeTo: 2
             lifetime: 70
 			colorFrom: dacaaa50
             colorTo: dacaaa30
 			startDelay: 20
+			sides: 7
 }
 ]
       fragBullet: {
