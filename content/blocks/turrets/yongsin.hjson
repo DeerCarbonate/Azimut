@@ -188,7 +188,7 @@ lifetime: 120
             strokeTo: 2
             lifetime: 70
 			colorFrom: dacaaa50
-            colorTo: dacaaa30
+            colorTo: dacaaa00
 			sides: 7
 }
 {
@@ -201,9 +201,10 @@ lifetime: 120
             strokeTo: 2
             lifetime: 70
 			colorFrom: dacaaa50
-            colorTo: dacaaa30
+            colorTo: dacaaa00
 			startDelay: 20
 			sides: 7
+			rotation: 45
 }
 ]
       fragBullet: {
