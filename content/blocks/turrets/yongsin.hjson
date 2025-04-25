@@ -162,8 +162,8 @@ type: BasicBulletType
 trailLength: 6
 trailWidth: 2.3
 trailColor: 957655
-weaveMag: 10
-weaveScale: 70
+weaveMag: 27
+weaveScale: 90
 width: 9
 height: 12
 speed: 3.2
