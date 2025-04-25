@@ -145,7 +145,7 @@ lifetime: 120
 }
     caterium: {
 type: ArtilleryBulletType
-width: 13
+width: 11
 height: 17
 speed: 2.8
 collidesTiles: true
@@ -182,8 +182,8 @@ type: BasicBulletType
 trailLength: 6
 trailWidth: 2.3
 trailColor: dacaaa
-weaveMag: 30
-weaveScale: 90
+weaveMag: 2
+weaveScale: 8
 width: 9
 height: 12
 speed: 8
