@@ -162,10 +162,10 @@ type: ParticleEffect
 lifetime: 160
 colorFrom: dacaaa95
 colorTo: 95765330
-drag: 0.9
+drag: 0.5
 particles: 4
 cone: 360
-length: 18
+length: 30
 baseLength: 1
 lightScl: 3
 lightOpacity: 2
@@ -186,7 +186,7 @@ weaveMag: 30
 weaveScale: 90
 width: 9
 height: 12
-speed: 1.1
+speed: 8
 collidesTiles: true
 collidesGround: true
 lifetime: 65
