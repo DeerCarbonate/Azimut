@@ -157,13 +157,14 @@ frontColor: dacaaa
 fragBullets: 6
 fragLifeMin: 1.2
 fragLifeMax: 2
-hitEffect: {
+hitEffect: [
+{
 type: ParticleEffect 
 lifetime: 160
 colorFrom: dacaaa95
 colorTo: 95765330
 drag: 0.5
-particles: 4
+particles: 8
 cone: 360
 length: 30
 baseLength: 1
@@ -177,16 +178,42 @@ interp: exp5Out
 sizeInterp: exp5In
 lifetime: 120
 }
+{
+            type: WaveEffect
+            rotWithParent: false
+            followParent: false
+            sizeFrom: 42
+            sizeTo: 38
+            strokeFrom: 2
+            strokeTo: 0.5
+            lifetime: 70
+			colorFrom: dacaaa50
+            colorTo: dacaaa30
+}
+{
+            type: WaveEffect
+            rotWithParent: false
+            followParent: false
+            sizeFrom: 22
+            sizeTo: 18
+            strokeFrom: 2
+            strokeTo: 0.5
+            lifetime: 70
+			colorFrom: dacaaa50
+            colorTo: dacaaa30
+			startDelay: 20
+}
+]
       fragBullet: {
 type: BasicBulletType
 trailLength: 6
 trailWidth: 2.3
 trailColor: dacaaa
-weaveMag: 2
+weaveMag: 4
 weaveScale: 8
 width: 9
 height: 12
-speed: 8
+speed: 3.2
 collidesTiles: true
 collidesGround: true
 lifetime: 65
