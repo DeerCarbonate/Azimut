@@ -202,7 +202,6 @@ lifetime: 120
             lifetime: 70
 			colorFrom: dacaaa50
             colorTo: dacaaa00
-			startDelay: 20
 			sides: 7
 			rotation: 45
 }
