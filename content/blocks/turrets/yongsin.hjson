@@ -154,11 +154,16 @@ lifetime: 65
 damage: 100
 backColor: 957655
 frontColor: dacaaa
-fragBullets: 14
+fragBullets: 6
 fragLifeMin: 1.2
 fragLifeMax: 2
       fragBullet: {
 type: BasicBulletType
+trailLength: 6
+trailWidth: 2.3
+trailColor: 957655
+weaveMag: 120
+weaveScale: 20
 width: 9
 height: 12
 speed: 3.2
