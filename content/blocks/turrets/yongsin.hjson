@@ -165,12 +165,12 @@ colorTo: 95765330
 drag: 0.6
 particles: 4
 cone: 360
-length: 10
+length: 18
 baseLength: 1
 lightScl: 3
 lightOpacity: 2
 spin: 0
-sizeFrom: 2.3
+sizeFrom: 6
 sizeTo: 0 
 offset: 1
 interp: exp5Out
@@ -182,15 +182,15 @@ type: BasicBulletType
 trailLength: 6
 trailWidth: 2.3
 trailColor: dacaaa
-weaveMag: 23
+weaveMag: 30
 weaveScale: 90
 width: 9
 height: 12
-speed: 3.2
+speed: 4.2
 collidesTiles: true
 collidesGround: true
 lifetime: 65
-damage: 100
+damage: 30
 backColor: 957655
 frontColor: dacaaa
 		}
