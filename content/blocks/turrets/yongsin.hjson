@@ -18,7 +18,7 @@ moveWhileCharging: true
 targetGround: true
 rotateSpeed: 1.25
 shootSound: mechshoot
-shootSoundVolume: 0.65
+shootSoundVolume: 0.35
 ammoPerShot: 4
 coolant: {
   type: ConsumeLiquid
@@ -264,13 +264,12 @@ fragBullet: {
       colors: [dacaaa, d9cdaf, a59c85, 957655, 6a5843]
       length: 50
       width: 2.5
-      sideAngle: 120
+      sideAngle: 0
       sideWidth: 2.4
       damage: 15
       pierceBuilding: false
       pierce: true
       pierceCap: 2
-	  lifetime: 40
 		}
 	}
 }
