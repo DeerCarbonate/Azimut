@@ -18,7 +18,7 @@ moveWhileCharging: true
 targetGround: true
 rotateSpeed: 1.25
 shootSound: mechshoot
-shootSoundVolume: 0.35
+shootSoundVolume: 0.15
 ammoPerShot: 4
 coolant: {
   type: ConsumeLiquid
@@ -233,7 +233,7 @@ speed: 3.2
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 30
+damage: 5
 backColor: 957655
 frontColor: dacaaa
 despawnEffect: none
@@ -244,6 +244,9 @@ fragVelocityMin: 1
 fragVelocityMax: 1
 fragRandomSpread: 0
 fragSpread: 1
+pierceBuilding: false
+pierce: true
+pierceCap: 7
   hitEffect: {
         type: WaveEffect,
         startDelay: 0,
@@ -263,10 +266,10 @@ fragBullet: {
       type: LaserBulletType
       colors: [dacaaa, d9cdaf, a59c85, 957655, 6a5843]
       length: 50
-      width: 2.5
-      sideAngle: 0
+      width: 2.7
+      sideAngle: 5
       sideWidth: 2.4
-      damage: 15
+      damage: 45
       pierceBuilding: false
       pierce: true
       pierceCap: 2
