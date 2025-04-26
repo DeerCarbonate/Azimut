@@ -222,7 +222,7 @@ lifetime: 120
 ]
       fragBullet: {
 type: BasicBulletType
-trailLength: 6
+trailLength: 16
 trailWidth: 2
 trailColor: dacaaa
 weaveMag: 4
@@ -237,16 +237,32 @@ damage: 30
 backColor: 957655
 frontColor: dacaaa
 despawnEffect: none
-hitEffect: none
+collidesTiles: true
+collidesGround: true
 fragBullets: 1
 fragVelocityMin: 1
 fragVelocityMax: 1
 fragRandomSpread: 0
 fragSpread: 1
+  hitEffect: {
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 20,
+        sizeFrom: 0,
+        sizeTo: 2.3,
+        strokeFrom: 0,
+        strokeTo: 7,
+	    colorFrom: dacaaa50
+        colorTo: dacaaa00
+        followParent: true,
+        rotWithParent: true
+		interp: exp5Out
+		sizeInterp: exp5In
+      }
 fragBullet: {
       type: LaserBulletType
       colors: [dacaaa, d9cdaf, a59c85, 957655, 6a5843]
-      length: 60
+      length: 50
       width: 2.5
       sideAngle: 120
       sideWidth: 2.4
@@ -254,6 +270,7 @@ fragBullet: {
       pierceBuilding: false
       pierce: true
       pierceCap: 2
+	  lifetime: 40
 		}
 	}
 }
