@@ -209,7 +209,7 @@ lifetime: 120
             type: WaveEffect
             rotWithParent: false
             followParent: false
-            sizeFrom: 22
+            sizeFrom: 28
             startDelay: 50
             sizeTo: 18
             strokeFrom: 6
@@ -224,16 +224,16 @@ lifetime: 120
       fragBullet: {
 type: BasicBulletType
 trailLength: 6
-trailWidth: 2.3
+trailWidth: 2
 trailColor: dacaaa
 weaveMag: 4
-weaveScale: 45
+weaveScale: 55
 width: 9
 height: 12
 speed: 3.2
 collidesTiles: true
 collidesGround: true
-lifetime: 65
+lifetime: 35
 damage: 30
 backColor: 957655
 frontColor: dacaaa
