@@ -218,7 +218,6 @@ lifetime: 120
 			colorFrom: dacaaa50
             colorTo: dacaaa00
 			sides: 7
-			rotation: 60
 }
 ]
       fragBullet: {
@@ -237,6 +236,24 @@ lifetime: 35
 damage: 30
 backColor: 957655
 frontColor: dacaaa
+despawnEffect: none
+hitEffect: none
+fragBullets: 1
+fragVelocityMin: 1
+fragVelocityMax: 1
+fragRandomSpread: 0
+fragSpread: 1
+fragBullet: {
+      type: LaserBulletType
+      colors: [dacaaa, d9cdaf, a59c85, 957655, 6a5843]
+      length: 60
+      width: 2.5
+      sideAngle: 120
+      sideWidth: 2.4
+      damage: 15
+      pierceBuilding: false
+      pierce: true
+      pierceCap: 2
 		}
 }
 }
