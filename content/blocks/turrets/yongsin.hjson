@@ -267,8 +267,8 @@ fragBullet: {
       colors: [dacaaa, d9cdaf, a59c85, 957655, 6a5843]
       length: 50
       width: 2.7
-      sideAngle: 5
-      sideWidth: 2.4
+      sideAngle: 4
+      sideWidth: 3.2
       damage: 45
       pierceBuilding: false
       pierce: true
