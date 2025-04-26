@@ -255,6 +255,7 @@ fragBullet: {
       pierce: true
       pierceCap: 2
 		}
+	}
 }
 }
 requirements: [
