@@ -182,7 +182,21 @@ lifetime: 120
             type: WaveEffect
             rotWithParent: false
             followParent: false
+            sizeFrom: 0
+            sizeTo: 32
+            strokeFrom: 0
+            strokeTo: 6
+            lifetime: 40
+			colorFrom: dacaaa80
+            colorTo: dacaaa60
+			sides: 7
+}
+{
+            type: WaveEffect
+            rotWithParent: false
+            followParent: false
             sizeFrom: 32
+			startDelay: 40
             sizeTo: 28
             strokeFrom: 6
             strokeTo: 2
@@ -196,6 +210,7 @@ lifetime: 120
             rotWithParent: false
             followParent: false
             sizeFrom: 22
+            startDelay: 50
             sizeTo: 18
             strokeFrom: 6
             strokeTo: 2
@@ -203,7 +218,7 @@ lifetime: 120
 			colorFrom: dacaaa50
             colorTo: dacaaa00
 			sides: 7
-			rotation: 45
+			rotation: 60
 }
 ]
       fragBullet: {
@@ -212,7 +227,7 @@ trailLength: 6
 trailWidth: 2.3
 trailColor: dacaaa
 weaveMag: 4
-weaveScale: 8
+weaveScale: 45
 width: 9
 height: 12
 speed: 3.2
