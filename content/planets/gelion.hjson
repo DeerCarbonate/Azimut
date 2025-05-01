@@ -72,7 +72,7 @@ mesh: [
     seed: 538
     color1: ffffff80
     color2: f6d4c980
-    divisions: 5.6
+    divisions: 5.7
     radius: 0.907
     octaves: 3
     persistence: 1.25
@@ -86,12 +86,12 @@ mesh: [
     seed: 124
     color1: a49567
     color2: 5b6765
-    divisions: 5.6
+    divisions: 5.7
     radius: 0.907
     octaves: 3
     persistence: 1.35
-    scl: 1
-    mag: 0.3
+    scl: 1.1
+    mag: 0.2
  }
  {
  //brown
@@ -100,7 +100,7 @@ mesh: [
     seed: 125
     color1: 6a4b41
     color2: f6d4c9
-    divisions: 5.6
+    divisions: 5.7
     radius: 0.907
     octaves: 3
     persistence: 0.4
