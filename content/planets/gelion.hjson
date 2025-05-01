@@ -77,7 +77,7 @@ mesh: [
     octaves: 3
     persistence: 1.25
     scl: 1
-    mag: 0.012
+    mag: 0.6
  }
  {
  //yellow
@@ -91,7 +91,7 @@ mesh: [
     octaves: 3
     persistence: 1.35
     scl: 1
-    mag: 0.016
+    mag: 0.8
  }
  {
  //brown
@@ -105,7 +105,7 @@ mesh: [
     octaves: 3
     persistence: 0.4
     scl: 1
-    mag: 0.019
+    mag: 1.1
  }
 ]
 alwaysUnlocked: true
