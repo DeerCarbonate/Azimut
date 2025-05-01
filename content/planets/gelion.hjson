@@ -72,10 +72,10 @@ mesh: [
     seed: 538
     color1: ffffff80
     color2: f6d4c980
-    divisions: 5.8
+    divisions: 6
     radius: 0.907
     octaves: 3
-    persistence: 0.115
+    persistence: 0.58
     scl: 1
     mag: 0.012
  }
@@ -86,12 +86,12 @@ mesh: [
     seed: 124
     color1: a49567
     color2: 5b6765
-    divisions: 5.8
+    divisions: 6
     radius: 0.907
     octaves: 3
-    persistence: 0.105
+    persistence: 0.5
     scl: 1
-    mag: 0.75
+    mag: 0.016
  }
  {
  //brown
@@ -100,12 +100,12 @@ mesh: [
     seed: 125
     color1: 6a4b41
     color2: f6d4c9
-    divisions: 5.8
+    divisions: 6
     radius: 0.907
     octaves: 3
-    persistence: 0.1
+    persistence: 0.4
     scl: 1
-    mag: 0.75
+    mag: 0.019
  }
 ]
 alwaysUnlocked: true
