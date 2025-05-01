@@ -72,7 +72,7 @@ mesh: [
     seed: 538
     color1: ffffff80
     color2: f6d4c980
-    divisions: 5.6
+    divisions: 6.5
     radius: 0.907
     octaves: 3
     persistence: 1.25
@@ -86,7 +86,7 @@ mesh: [
     seed: 124
     color1: a49567
     color2: 5b6765
-    divisions: 5.6
+    divisions: 6.5
     radius: 0.907
     octaves: 3
     persistence: 1.35
@@ -100,7 +100,7 @@ mesh: [
     seed: 125
     color1: 6a4b41
     color2: f6d4c9
-    divisions: 5.6
+    divisions: 6.5
     radius: 0.907
     octaves: 3
     persistence: 1.35
@@ -114,7 +114,7 @@ cloudMesh: [
     type: HexSkyMesh
     bloom: false
     speed: 0.2
-    divisions: 5.6
+    divisions: 6
     radius: 0.24
     color: e0e6e259
     octaves: 3
@@ -126,7 +126,7 @@ cloudMesh: [
     type: HexSkyMesh
     bloom: false
     speed: 1.7
-    divisions: 5.6
+    divisions: 6
     radius: 0.19
     color: b0ccbb45
     octaves: 3.2
@@ -138,7 +138,7 @@ cloudMesh: [
     type: HexSkyMesh
     bloom: false
     speed: 0.7
-    divisions: 5.6
+    divisions: 6
     radius: 0.205
     color: c9cdb756
     octaves: 3.3
