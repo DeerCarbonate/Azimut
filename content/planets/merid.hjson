@@ -42,9 +42,9 @@ accessible: true
 visible: true
 radius: 0.9
 minZoom: 0.40
-sectorSize: 1.42
-atmosphereRadIn: 0.01
-atmosphereRadOut: 0.23
+sectorSize: 8
+atmosphereRadIn: 0.007
+atmosphereRadOut: 0.15
 atmosphereColor: 7e7e86
 iconColor: b1a741       
 landCloudColor: ed6542
@@ -64,35 +64,7 @@ mesh: [
     octaves: 3
     persistence: 1.25
     scl: 1
-    mag: 0.8
- }
- {
- //yellow
-    type: NoiseMesh
-	bloom: false
-    seed: 326
-    color1: cba573
-    color2: fecf90
-    divisions: 5.7
-    radius: 0.907
-    octaves: 3
-    persistence: 1.35
-    scl: 1.1
-    mag: 0.6
- }
- {
- //blue
-    type: NoiseMesh
-	bloom: false
-    seed: 125
-    color1: 3d3d67
-    color2: 3d3d67
-    divisions: 5.7
-    radius: 0.907
-    octaves: 3
-    persistence: 0.4
-    scl: 1
-    mag: 0.75
+    mag: 0.3
  }
 ]
 alwaysUnlocked: true
