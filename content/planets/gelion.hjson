@@ -105,7 +105,7 @@ mesh: [
     octaves: 3
     persistence: 0.4
     scl: 1
-    mag: 0.4
+    mag: 0.5
  }
 ]
 alwaysUnlocked: true
