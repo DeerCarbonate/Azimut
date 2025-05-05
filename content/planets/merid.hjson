@@ -1,4 +1,4 @@
-localizedName: Gelion
+localizedName: Merid
 generator: "PlanetGenerator"
 
 hiddenItems: [
@@ -25,17 +25,6 @@ hiddenItems: [
     "fissile-matter"
     "dormant-cyst"
 ]
-
-itemWhitelist: [
-cobalt
-geliarin
-venerium
-platinum
-raw-platinum
-filt
-manganese
-]
-
 clearSectorOnLose: true
 allowLaunchSchematics: false
 allowLaunchLoadout: false
@@ -45,67 +34,65 @@ prebuildBase: true
 parent: alveon
 hasAtmosphere: true
 solarSystem: alveon
-orbitRadius: 85
-orbitTime: 120
-orbitSpacing: 29
+orbitRadius: 65
+orbitTime: 65
+orbitSpacing: 23
 alwaysUnlocked: true
 accessible: true
 visible: true
 radius: 0.9
 minZoom: 0.40
 sectorSize: 1.42
-startSector: 1
-atmosphereRadIn: 0.03
-atmosphereRadOut: 0.36
+atmosphereRadIn: 0.01
+atmosphereRadOut: 0.23
 atmosphereColor: 7e7e86
-iconColor: bad5cd     
-landCloudColor: 7e7e86
+iconColor: b1a741       
+landCloudColor: ed6542
 icon: planet
 bloom: false
 allowLaunchToNumbered: false    
-defaultCore: "core-forum"
 mesh: [
  {
- //pinky ice
+ //gray
     type: NoiseMesh
 	bloom: false
-    seed: 538
-    color1: ffffff80
-    color2: f6d4c980
+    seed: 127
+    color1: 87899b
+    color2: 606169
     divisions: 5.7
     radius: 0.907
     octaves: 3
     persistence: 1.25
     scl: 1
-    mag: 0.7
+    mag: 0.8
  }
  {
  //yellow
     type: NoiseMesh
 	bloom: false
-    seed: 124
-    color1: a49567
-    color2: 5b6765
+    seed: 326
+    color1: cba573
+    color2: fecf90
     divisions: 5.7
     radius: 0.907
     octaves: 3
     persistence: 1.35
     scl: 1.1
-    mag: 0.8
+    mag: 0.6
  }
  {
- //brown
+ //blue
     type: NoiseMesh
 	bloom: false
     seed: 125
-    color1: 6a4b41
-    color2: f6d4c9
+    color1: 3d3d67
+    color2: 3d3d67
     divisions: 5.7
     radius: 0.907
     octaves: 3
     persistence: 0.4
     scl: 1
-    mag: 0.55
+    mag: 0.75
  }
 ]
 alwaysUnlocked: true
@@ -113,37 +100,13 @@ cloudMesh: [
   {
     type: HexSkyMesh
     bloom: false
-    speed: 0.2
+    speed: 0.1
     divisions: 6
     radius: 0.24
-    color: e0e6e259
+    color: 60616905
     octaves: 3
     persistence: 0.3
     scl: 3
     thresh: 0.45
-  }
-  {
-    type: HexSkyMesh
-    bloom: false
-    speed: 1.7
-    divisions: 6
-    radius: 0.19
-    color: b0ccbb45
-    octaves: 3.2
-    persistence: 0.2
-    scl: 3
-    thresh: 0.56
-  }
-  {
-    type: HexSkyMesh
-    bloom: false
-    speed: 0.7
-    divisions: 6
-    radius: 0.205
-    color: c9cdb756
-    octaves: 3.3
-    persistence: 0.4
-    scl: 3
-    thresh: 0.38
   }
 ]
