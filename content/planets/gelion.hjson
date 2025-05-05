@@ -77,7 +77,7 @@ mesh: [
     octaves: 3
     persistence: 1.25
     scl: 1
-    mag: 0.2
+    mag: 0.7
  }
  {
  //yellow
@@ -91,7 +91,7 @@ mesh: [
     octaves: 3
     persistence: 1.35
     scl: 1.1
-    mag: 0.5
+    mag: 0.8
  }
  {
  //brown
