@@ -73,11 +73,11 @@ mesh: [
     color1: ffffff80
     color2: f6d4c980
     divisions: 5.7
-    radius: 0.907
+    radius: 0.904
     octaves: 3
     persistence: 1.25
     scl: 1
-    mag: 0.7
+    mag: 0.4
  }
  {
  //yellow
@@ -91,21 +91,7 @@ mesh: [
     octaves: 3
     persistence: 1.35
     scl: 1.1
-    mag: 0.8
- }
- {
- //brown
-    type: NoiseMesh
-	bloom: false
-    seed: 125
-    color1: 6a4b41
-    color2: f6d4c9
-    divisions: 5.7
-    radius: 0.907
-    octaves: 3
-    persistence: 0.4
-    scl: 1
-    mag: 0.55
+    mag: 0.2
  }
 ]
 alwaysUnlocked: true
