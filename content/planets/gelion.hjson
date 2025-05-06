@@ -94,7 +94,7 @@ mesh: [
     coct: 4
     cper: 1
     cscl: 4
-    cthresh: 1
+    cthresh: 8
   }
   {
  //brown
