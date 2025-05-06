@@ -95,9 +95,9 @@ mesh: [
     persistence: 0.6
     scale: 0.95
     mag: 1.7
-    coct: 2.7
-    cper: 1.2
-    cscl: 5.8
+    coct: 10.7
+    cper: 3.2
+    cscl: 7.8
     cthresh: 8
   }
   {
