@@ -73,11 +73,11 @@ mesh: [
     color1: ffffff80
     color2: f6d4c980
     divisions: 5.7
-    radius: 0.695
+    radius: 0.699
     octaves: 3
     persistence: 0.9
-    scale: 0.52
-    mag: 3.2
+    scale: 0.65
+    mag: 2.6
     coct: 5.2
     cper: 4.01
     cscl: 3.6
