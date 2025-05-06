@@ -90,7 +90,7 @@ mesh: [
     divisions: 5.7
     radius: 0.8019
     color1: a49567
-    color2: a49567
+    color2: 5b6765
     octaves: 4.25b6765
     persistence: 0.9
     scale: 0.7
@@ -106,7 +106,7 @@ mesh: [
     seed: 100
     divisions: 5.7
     radius: 0.80088
-    color1: 5b6765
+    color1: a49567
     color2: 5b6765
     octaves: 4.2
     persistence: 0.9
