@@ -88,7 +88,7 @@ mesh: [
     type: NoiseMesh
     seed: 100
     divisions: 5.7
-    radius: 0.83
+    radius: 0.81
     color1: a49567
     color2: 5b6765
     octaves: 4.2
@@ -108,7 +108,7 @@ mesh: [
     color1: 6a4b41
     color2: f6d4c9
     divisions: 5.7
-    radius: 0.901
+    radius: 0.880
     octaves: 1
     persistence: 0.0001
     scale: 0.0001
