@@ -89,12 +89,12 @@ mesh: [
     color2: 5b6765
     octaves: 6.2
     persistence: 0.1
-    scale: 0.3
-    mag: 1.46
-    coct: 1
-    cper: 1
-    cscl: 1
-    cthresh: 10
+    scale: 0.2
+    mag: 1.43
+    coct: 0
+    cper: 0
+    cscl: 0
+    cthresh: 8
   }
   {
  //brown
