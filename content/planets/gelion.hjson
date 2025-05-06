@@ -92,8 +92,8 @@ mesh: [
     color1: a49567
     color2: 5b6765
     octaves: 4.25b6765
-    persistence: 0.9
-    scale: 0.7
+    persistence: 0.0001
+    scale: 0.72
     mag: 0.2
     coct: 4
     cper: 1
@@ -109,7 +109,7 @@ mesh: [
     color1: a49567
     color2: 5b6765
     octaves: 4.2
-    persistence: 0.9
+    persistence: 0.0001
     scale: 0.7
     mag: 0.3
     coct: 4
