@@ -87,9 +87,9 @@ mesh: [
     radius: 0.820
     color1: a49567
     color2: 5b6765
-    octaves: 4.2
+    octaves: 4.6
     persistence: 0.9
-    scale: 0.8
+    scale: 1.2
     mag: 1.5
     coct: 5.6
     cper: 2.1
