@@ -86,19 +86,19 @@ mesh: [
  {
   //yellow
     type: NoiseMesh
-    seed: 100
+    seed: 125
     divisions: 5.7
-    radius: 0.840
+    radius: 0.825
     color1: a49567
     color2: 5b6765
     octaves: 4.6
     persistence: 0.9
     scale: 1.2
-    mag: 1.7
+    mag: 1.8
     coct: 4
-    cper: 1
+    cper: 0.4
     cscl: 1.8
-    cthresh: 1
+    cthresh: 2.1
   }
   {
  //brown
