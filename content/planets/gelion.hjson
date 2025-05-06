@@ -93,10 +93,10 @@ mesh: [
     color2: 5b6765
     octaves: 4.4
     persistence: 0.9
-    scale: 0.2
+    scale: 0.4
     mag: 3
-    coct: 4.1
-    cper: 1.2
+    coct: 6
+    cper: 4
     cscl: 3.6
     cthresh: 125
   }
