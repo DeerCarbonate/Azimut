@@ -69,19 +69,19 @@ mesh: [
  //pinky ice
     type: NoiseMesh
 	bloom: false
-    seed: 125
+    seed: -2
     color1: ffffff80
     color2: f6d4c980
     divisions: 5.7
-    radius: 0.4
+    radius: 0.710
     octaves: 3
-    persistence: 0.0001
-    scale: 0.85
-    mag: 1
-    coct: 2.7
-    cper: 1.2
-    cscl: 5.8
-	cthresh: 8
+    persistence: 0.9
+    scale: 0.52
+    mag: 3.2
+    coct: 5.2
+    cper: 4.01
+    cscl: 3.6
+    cthresh: 125
  }
  {
   //yellow
