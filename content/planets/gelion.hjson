@@ -87,13 +87,13 @@ mesh: [
     radius: 0.958
     color1: a49567
     color2: 5b6765
-    octaves: 6.2
+    octaves: 4.2
     persistence: 0.9
     scale: 0.7
-    mag: 0.2
+    mag: 1.5
     coct: 4
     cper: 1
-    cscl: 1.8
+    cscl: 4
     cthresh: 1
   }
   {
@@ -121,7 +121,7 @@ cloudMesh: [
     type: HexSkyMesh
     bloom: false
     speed: 0.6
-    divisions: 6
+    divisions: 5
     radius: 0.24
     color: e0e6e259
     octaves: 3
@@ -133,7 +133,7 @@ cloudMesh: [
     type: HexSkyMesh
     bloom: false
     speed: 1.6
-    divisions: 6
+    divisions: 5
     radius: 0.19
     color: b0ccbb45
     octaves: 3.2
@@ -145,7 +145,7 @@ cloudMesh: [
     type: HexSkyMesh
     bloom: false
     speed: 0.9
-    divisions: 6
+    divisions: 5
     radius: 0.205
     color: c9cdb756
     octaves: 3.3
