@@ -94,7 +94,7 @@ mesh: [
     coct: 1
     cper: 1
     cscl: 1
-    cthresh: 4
+    cthresh: 8
   }
 ]
 alwaysUnlocked: true
