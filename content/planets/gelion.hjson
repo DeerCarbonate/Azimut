@@ -73,11 +73,11 @@ mesh: [
     color1: ffffff80
     color2: f6d4c980
     divisions: 5.7
-    radius: 0.904
+    radius: 0.900
     octaves: 3
     persistence: 1.25
     scl: 1
-    mag: 0.4
+    mag: 0.3
  }
  {
  //yellow
