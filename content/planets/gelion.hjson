@@ -87,13 +87,13 @@ mesh: [
     radius: 0.845
     color1: a49567
     color2: 5b6765
-    octaves: 1
+    octaves: 1.2
     persistence: 0.1
-    scale: 0.2
-    mag: 1.68
-    coct: 1
-    cper: 1
-    cscl: 1
+    scale: 0.6
+    mag: 1.8
+    coct: 1.2
+    cper: 0.9
+    cscl: 0.6
     cthresh: 10
   }
   {
