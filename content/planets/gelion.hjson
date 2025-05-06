@@ -89,11 +89,11 @@ mesh: [
     color2: 5b6765
     octaves: 1.2
     persistence: 0.1
-    scale: 0.6
-    mag: 1.8
+    scale: 0.3
+    mag: 1.5
     coct: 1.2
     cper: 0.9
-    cscl: 0.6
+    cscl: 0.8
     cthresh: 10
   }
   {
