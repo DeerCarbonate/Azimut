@@ -77,22 +77,25 @@ mesh: [
     octaves: 3
     persistence: 1.25
     scl: 1
-    mag: 0.2
+    mag: 0.1
  }
  {
- //yellow
+  //yellow
     type: NoiseMesh
-	bloom: false
-    seed: 124
+    seed: -5
+    divisions: 5
+    radius: 0.943
     color1: a49567
     color2: 5b6765
-    divisions: 5.7
-    radius: 0.907
-    octaves: 3
-    persistence: 1.35
-    scl: 1.1
-    mag: 0.2
- }
+    octaves: 1
+    persistence: 0.0001
+    scale: 0.0001
+    mag: 1
+    coct: 1
+    cper: 1
+    cscl: 1
+    cthresh: 4
+  }
 ]
 alwaysUnlocked: true
 cloudMesh: [
