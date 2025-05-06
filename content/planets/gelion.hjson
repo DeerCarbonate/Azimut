@@ -73,29 +73,46 @@ mesh: [
     color1: ffffff80
     color2: f6d4c980
     divisions: 5.7
-    radius: 0.900
+    radius: 0.899
     octaves: 3
-    persistence: 1.25
-    scl: 1
-    mag: 0.1
+    persistence: 0.0001
+    scale: 0.0001
+    mag: 1
  }
  {
   //yellow
     type: NoiseMesh
     seed: -5
     divisions: 5
-    radius: 0.904
+    radius: 0.906
     color1: a49567
     color2: 5b6765
     octaves: 1
     persistence: 0.0001
     scale: 0.0001
-    mag: 1
+    mag: 1.5
     coct: 1
     cper: 1
     cscl: 1
-    cthresh: 8
+    cthresh: 10
   }
+  {
+ //brown
+    type: NoiseMesh
+	bloom: false
+    seed: 125
+    color1: 6a4b41
+    color2: f6d4c9
+    divisions: 5.7
+    radius: 0.907
+    octaves: 3
+    persistence: 0.0001
+    scale: 0.0001
+    mag: 1
+	coct: 1
+    cper: 1
+    cscl: 1
+ }
 ]
 alwaysUnlocked: true
 cloudMesh: [
