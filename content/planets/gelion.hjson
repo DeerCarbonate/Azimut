@@ -84,12 +84,29 @@ mesh: [
     type: NoiseMesh
     seed: 125
     divisions: 5.7
-    radius: 0.820
+    radius: 0.870
     color1: a49567
     color2: 5b6765
-    octaves: 4.6
-    persistence: 0.9
-    scale: 1.2
+    octaves: 4.2
+    persistence: 0.6
+    scale: 0.95
+    mag: 1.5
+    coct: 5.6
+    cper: 2.1
+    cscl: 5.2
+    cthresh: 2.5
+  }
+  {
+  //yellow
+    type: NoiseMesh
+    seed: 140
+    divisions: 5.7
+    radius: 0.870
+    color1: a49567
+    color2: 5b6765
+    octaves: 4.2
+    persistence: 0.6
+    scale: 0.95
     mag: 1.5
     coct: 5.6
     cper: 2.1
