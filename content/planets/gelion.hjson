@@ -94,7 +94,7 @@ mesh: [
     octaves: 4.6
     persistence: 0.9
     scale: 1.2
-    mag: 1.8
+    mag: 7
     coct: 4
     cper: 0.4
     cscl: 1.8
