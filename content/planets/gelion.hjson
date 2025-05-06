@@ -84,7 +84,7 @@ mesh: [
     type: NoiseMesh
     seed: 125
     divisions: 5.7
-    radius: 0.870
+    radius: 0.845
     color1: a49567
     color2: 5b6765
     octaves: 4.2
@@ -101,7 +101,7 @@ mesh: [
     type: NoiseMesh
     seed: 140
     divisions: 5.7
-    radius: 0.870
+    radius: 0.855
     color1: a49567
     color2: 5b6765
     octaves: 4.2
