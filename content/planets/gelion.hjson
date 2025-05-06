@@ -109,9 +109,9 @@ mesh: [
     persistence: 2.1
     scale: 0.0001
     mag: 1
-	coct: 1
-    cper: 1
-    cscl: 1
+	coct: 0
+    cper: 0
+    cscl: 0
  }
 ]
 alwaysUnlocked: true
@@ -126,7 +126,7 @@ cloudMesh: [
     octaves: 3
     persistence: 0.3
     scl: 3
-    thresh: 0.32
+    thresh: 0.42
   }
   {
     type: HexSkyMesh
@@ -138,7 +138,7 @@ cloudMesh: [
     octaves: 3.2
     persistence: 0.2
     scl: 3
-    thresh: 0.38
+    thresh: 0.45
   }
   {
     type: HexSkyMesh
