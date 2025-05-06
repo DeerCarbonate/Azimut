@@ -84,13 +84,13 @@ mesh: [
     type: NoiseMesh
     seed: -5
     divisions: 5
-    radius: 0.899
+    radius: 0.845
     color1: a49567
     color2: 5b6765
     octaves: 1
     persistence: 0.0001
     scale: 0.0001
-    mag: 1.5
+    mag: 1
     coct: 1
     cper: 1.9
     cscl: 1.2
@@ -138,7 +138,7 @@ cloudMesh: [
     octaves: 3.2
     persistence: 0.2
     scl: 3
-    thresh: 0.48
+    thresh: 0.38
   }
   {
     type: HexSkyMesh
@@ -150,6 +150,6 @@ cloudMesh: [
     octaves: 3.3
     persistence: 0.4
     scl: 3
-    thresh: 0.6
+    thresh: 0.46
   }
 ]
