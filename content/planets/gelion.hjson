@@ -106,19 +106,19 @@ cloudMesh: [
     octaves: 3
     persistence: 0.3
     scl: 3
-    thresh: 0.45
+    thresh: 0.16
   }
   {
     type: HexSkyMesh
     bloom: false
-    speed: 1.7
+    speed: 1.9
     divisions: 6
     radius: 0.19
     color: b0ccbb45
     octaves: 3.2
     persistence: 0.2
     scl: 3
-    thresh: 0.56
+    thresh: 0.35
   }
   {
     type: HexSkyMesh
