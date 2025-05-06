@@ -101,6 +101,23 @@ mesh: [
     cthresh: 125
   }
   {
+  //yellow
+    type: NoiseMesh
+    seed: -5
+    divisions: 5.7
+    radius: 0.715
+    color1: a49567
+    color2: 5b6765
+    octaves: 4.4
+    persistence: 0.9
+    scale: 0.52
+    mag: 3.2
+    coct: 5.2
+    cper: 4.01
+    cscl: 3.6
+    cthresh: 125
+  }
+  {
  //brown
     type: NoiseMesh
 	bloom: false
