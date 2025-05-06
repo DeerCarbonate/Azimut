@@ -84,17 +84,17 @@ mesh: [
     type: NoiseMesh
     seed: 125
     divisions: 5.7
-    radius: 0.845
+    radius: 0.958
     color1: a49567
     color2: 5b6765
     octaves: 6.2
-    persistence: 0.1
-    scale: 0.2
-    mag: 1.43
-    coct: 0
-    cper: 0
-    cscl: 0
-    cthresh: 8
+    persistence: 0.9
+    scale: 0.7
+    mag: 0.2
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
   }
   {
  //brown
@@ -105,13 +105,14 @@ mesh: [
     color2: f6d4c9
     divisions: 5.7
     radius: 0.901
-    octaves: 3
-    persistence: 2.1
+    octaves: 1
+    persistence: 0.0001
     scale: 0.0001
     mag: 1
-	coct: 0
-    cper: 0
-    cscl: 0
+	coct: 1
+    cper: 1
+    cscl: 1
+	cthresh: 8
  }
 ]
 alwaysUnlocked: true
