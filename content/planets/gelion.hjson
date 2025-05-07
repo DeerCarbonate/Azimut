@@ -51,7 +51,7 @@ orbitSpacing: 29
 alwaysUnlocked: true
 accessible: true
 visible: true
-radius: 1
+radius: 0.945
 minZoom: 0.40
 sectorSize: 1.42
 startSector: 1
@@ -78,9 +78,9 @@ mesh: [
     persistence: 0.9
     scale: 0.24
     mag: 2.9
-    coct: 5.2
-    cper: 4.01
-    cscl: 3.6
+    coct: 1.2
+    cper: 2
+    cscl: 1
     cthresh: 8
  }
  {
@@ -95,9 +95,9 @@ mesh: [
     persistence: 0.9
     scale: 0.31
     mag: 3.1
-    coct: 6
+    coct: 4.5
     cper: 4
-    cscl: 3.6
+    cscl: 6.6
     cthresh: 125
   }
   {
@@ -126,35 +126,35 @@ cloudMesh: [
     bloom: false
     speed: 0.6
     divisions: 5
-    radius: 0.25
+    radius: 0.135
     color: e0e6e259
     octaves: 3
     persistence: 0.3
     scl: 3
-    thresh: 0.42
+    thresh: 0.47
   }
   {
     type: HexSkyMesh
     bloom: false
     speed: 1.6
     divisions: 5
-    radius: 0.185
+    radius: 0.165
     color: b0ccbb45
     octaves: 3.2
     persistence: 0.2
     scl: 3
-    thresh: 0.45
+    thresh: 0.49
   }
   {
     type: HexSkyMesh
     bloom: false
     speed: 0.9
     divisions: 5
-    radius: 0.210
+    radius: 0.205
     color: c9cdb756
     octaves: 3.3
     persistence: 0.4
     scl: 3
-    thresh: 0.56
+    thresh: 0.55
   }
 ]
