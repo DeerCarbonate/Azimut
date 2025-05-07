@@ -88,13 +88,13 @@ mesh: [
     type: NoiseMesh
     seed: 125
     divisions: 5.7
-    radius: 0.706
+    radius: 0.71
     color1: a49567
     color2: 5b6765
     octaves: 4.4
     persistence: 0.9
-    scale: 0.4
-    mag: 3
+    scale: 0.35
+    mag: 3.2
     coct: 6
     cper: 4
     cscl: 3.6
