@@ -55,8 +55,8 @@ radius: 0.945
 minZoom: 0.40
 sectorSize: 1.42
 startSector: 1
-atmosphereRadIn: 0.01
-atmosphereRadOut: 0.39
+atmosphereRadIn: 0.001
+atmosphereRadOut: 0.30
 atmosphereColor: 7e7e86
 iconColor: bad5cd     
 landCloudColor: 7e7e86
