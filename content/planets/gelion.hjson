@@ -69,7 +69,7 @@ mesh: [
  //pinky ice
     type: NoiseMesh
 	bloom: false
-    seed: -1
+    seed: 1
     color1: ffffff80
     color2: f6d4c980
     divisions: 5.7
