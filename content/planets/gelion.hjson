@@ -55,7 +55,7 @@ radius: 1
 minZoom: 0.40
 sectorSize: 1.42
 startSector: 1
-atmosphereRadIn: 0.04
+atmosphereRadIn: 0.01
 atmosphereRadOut: 0.39
 atmosphereColor: 7e7e86
 iconColor: bad5cd     
@@ -126,7 +126,7 @@ cloudMesh: [
     bloom: false
     speed: 0.6
     divisions: 5
-    radius: 0.28
+    radius: 0.25
     color: e0e6e259
     octaves: 3
     persistence: 0.3
@@ -138,7 +138,7 @@ cloudMesh: [
     bloom: false
     speed: 1.6
     divisions: 5
-    radius: 0.23
+    radius: 0.185
     color: b0ccbb45
     octaves: 3.2
     persistence: 0.2
@@ -150,7 +150,7 @@ cloudMesh: [
     bloom: false
     speed: 0.9
     divisions: 5
-    radius: 0.245
+    radius: 0.210
     color: c9cdb756
     octaves: 3.3
     persistence: 0.4
