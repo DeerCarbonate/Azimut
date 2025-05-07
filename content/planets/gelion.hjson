@@ -66,24 +66,6 @@ allowLaunchToNumbered: false
 defaultCore: "core-forum"
 mesh: [
  {
- //pinky ice
-    type: NoiseMesh
-	bloom: false
-    seed: -1
-    color1: ffffff80
-    color2: f6d4c980
-    divisions: 5.7
-    radius: 0.711
-    octaves: 3
-    persistence: 0.9
-    scale: 0.37
-    mag: 2.7
-    coct: 1.2
-    cper: 2
-    cscl: 1
-    cthresh: 8
- }
- {
   //yellow
     type: NoiseMesh
     seed: 6
@@ -109,8 +91,8 @@ mesh: [
     color2: f6d4c9
     divisions: 5.7
     radius: 0.892
-    octaves: 1
-    persistence: 0.0001
+    octaves: 3
+    persistence: 0.9
     scale: 0.0001
     mag: 1
 	coct: 1
