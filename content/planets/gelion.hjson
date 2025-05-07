@@ -88,7 +88,7 @@ mesh: [
 	bloom: false
     seed: 125
     color1: 6a4b41
-    color2: f6d4c980
+    color2: f6d4c940
     divisions: 5.7
     radius: 0.892
     octaves: 3
