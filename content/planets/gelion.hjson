@@ -51,7 +51,7 @@ orbitSpacing: 29
 alwaysUnlocked: true
 accessible: true
 visible: true
-radius: 0.945
+radius: 0.955
 minZoom: 0.40
 sectorSize: 1.42
 startSector: 1
@@ -69,11 +69,11 @@ mesh: [
  //pinky ice
     type: NoiseMesh
 	bloom: false
-    seed: -2
+    seed: -1
     color1: ffffff80
     color2: f6d4c980
     divisions: 5.7
-    radius: 0.72
+    radius: 0.712
     octaves: 3
     persistence: 0.9
     scale: 0.37
