@@ -1,0 +1,252 @@
+type: ItemTurret
+name: Retray
+description: Fires a volley of homing bullets.
+researchCostMultiplier: 0.5
+size: 4
+outlineColor: 0c0c12
+health: 1050
+ammoPerShot: 4
+alwaysUnlocked: false
+squareSprite: false
+coolant: {
+  type: ConsumeLiquid
+  liquid: power
+  amount: 0.20
+}
+shoot: {
+  firstShootDelay: 20
+  type: ShootBarrel
+  barrels: 2
+  shots: 2
+  shotDelay: 10
+  barrelOffset: 2
+  alternate: true
+}
+cooldown: 1200
+shootCone: 9
+recoil: 2.45
+shootY: 1.4
+reload: 140
+range: 300
+targetAir: true
+moveWhileCharging: true
+targetGround: true
+moveWhileCharging: true
+recoilAmount: 1.8
+restitution: 0.04
+rotateSpeed: 2.205
+shootSound: energy-blade-launch
+ammoTypes: {
+  venerium: {
+  type: BasicBulletType,
+  frontColor: ffffff,
+  backColor: fcf0bd,
+  hitColor: fcf0bd,
+  damage: 200,
+  despawnSound: energy-blade-hit,
+  lifetime: 8.25,
+  speed: 32,
+  drag: -0.020,
+  width: 12,
+  height: 24,
+  ammoMultiplier: 4,
+  collidesTiles: true
+  collidesGround: true
+            bulletInterval: 0.000000000008
+            intervalRandomSpread: 5
+            intervalBullet: {
+                type: BasicBulletType
+                damage: 1
+                length: 15
+                width: 0
+                lightColor: ffffff00
+                instantDisappear: true
+                hittable: false
+                absorbable: false
+                collides: false
+                
+                despawnEffect: {
+                    type: MultiEffect
+                    effects: [
+                        {
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            baseLength: 3
+                            length: 10
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+                            cone: 45
+                            baseRotation: 200
+                        }
+                        {
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 4
+                            baseLength: 3
+                            length: 15
+                            line: true
+                            strokeTo: 0.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+                            cone: 25
+                            baseRotation: 200
+                        }
+                    ]
+                }
+                keepVelocity: false
+            }
+      fragBullets: 14
+      fragRandomSpread: 13.5
+      fragVelocityMin: 0.3
+      fragVelocityMax: 3.4
+	  fragLifeMin: 0.2
+	  fragLifeMax: 2
+      fragBullet: {
+        speed: 6
+        lifetime: 29
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 4
+        pierceDamageFactor: 0.01
+        drag: 0.04
+        damage: 17
+        sprite: mine-bullet
+        width: 10
+        height: 23
+        shrinkY: 0.25
+        shrinkX: 1
+        frontColor: fcf0bd
+        backColor: 00000000
+        hitColor: fcf0bd
+        despawnEffect: none
+        hitEffect: hitBulletColor
+		}
+      hitEffect: {
+					type: ParticleEffect 
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+					particles: 4
+					length: 32
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 1.7
+					sizeTo: 0
+					offset: 1
+					lifetime: 20
+  }
+  hitEffect: {
+    type: MultiEffect,
+    effects: [
+      {
+					type: ParticleEffect 
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+					particles: 8
+					cone: 7
+					length: 42
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 7.5
+					sizeTo: 0
+					offset: 1
+					lifetime: 20
+    }
+	{
+			type: ParticleEffect
+			line: true
+			particles: 16
+			lifetime: 54
+			interp: circleOut
+			length: 120
+			cone: -30
+			strokeTo: 0
+			lightColor: fff5b0
+			lenFrom: 9
+			lenTo: 0
+			strokeFrom: 6
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+	}
+]
+}
+shootEffect: [
+		{
+					type: ParticleEffect 
+                     colorTo: fcf0bd00
+				     colorFrom: ffffff95
+					particles: 16
+					cone: 5
+					length: 120
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 4.5
+					sizeTo: 0
+					offset: 1
+					lifetime: 50
+		}
+	]
+}
+}
+hasPower: false
+hasLiquids: false
+requirements: [
+  cobalt/200,
+  venerium/120
+  platinum/85
+  geliarin/10
+]
+category: turret
+drawer: {
+  type: DrawTurret
+  basePrefix: ast-
+  heatProgress: charge
+  cooldown: 0.1
+  parts: [
+	{
+      type: RegionPart,
+      suffix: -nade,
+      under: true,
+      mirror: true,
+      heatProgress: heat,
+      progress: recoil,
+	  x: 0,
+	  y: 0,
+	  moveRot: -12,
+	  moveX: 0.5,
+	  moveY: -1.5,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	{
+      type: RegionPart,
+      suffix: -middle,
+      under: true,
+      mirror: false,
+      heatProgress: heat,
+      progress: recoil,
+	  x: 0,
+	  y: 0,
+	  moveRot: 0,
+	  moveX: 0
+	  moveY: -0.5,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+  ]
+}
