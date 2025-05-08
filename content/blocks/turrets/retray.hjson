@@ -14,17 +14,8 @@ coolant: {
   amount: 0.20
 }
 shoot: {
-  firstShootDelay: 20
-  type: ShootBarrel
-  barrels: 2
-  shots: 2
-  shotDelay: 10
-  barrelOffset: 1
-  alternate: true
-  barrels: [
-    6, 0, 0
-    -6, 0, 0,
-  ]
+type: ShootAlternate
+spread: 3.5
 }
 cooldown: 1200
 shootCone: 9
@@ -236,6 +227,7 @@ drawer: {
 	  moveY: -1.1,
       heatColor: ff4500,
       heatLayer: 1,
+	  recoilIndex: 0
     }
 	{
       type: RegionPart,
@@ -251,6 +243,7 @@ drawer: {
 	  moveY: -0.5,
       heatColor: ff4500,
       heatLayer: 1,
+	  recoilIndex: 1
     }
   ]
 }
