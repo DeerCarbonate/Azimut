@@ -231,9 +231,9 @@ drawer: {
       progress: recoil,
 	  x: 0,
 	  y: 0,
-	  moveRot: -12,
-	  moveX: 0.5,
-	  moveY: -1.5,
+	  moveRot: -7,
+	  moveX: 0.3,
+	  moveY: -1.1,
       heatColor: ff4500,
       heatLayer: 1,
     }
