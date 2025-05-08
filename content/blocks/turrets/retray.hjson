@@ -4,7 +4,7 @@ description: Fires a volley of homing bullets.
 researchCostMultiplier: 0.5
 size: 4
 outlineColor: 0c0c12
-health: 1050
+health: 1250
 ammoPerShot: 4
 alwaysUnlocked: false
 squareSprite: false
