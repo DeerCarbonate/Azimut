@@ -14,16 +14,8 @@ coolant: {
   amount: 0.20
 }
 shoot: {
-  type: ShootBarrel
-  barrels: 2
-  shots: 2
-  shotDelay: 10
-  barrelOffset: 1
-  alternate: true
-  barrels: [
-    6, 0, 0
-    -6, 0, 0,
-  ]
+type: shootAlternate
+spread: 4.5
 }
 cooldown: 1200
 shootCone: 9
@@ -223,7 +215,7 @@ drawer: {
   parts: [
 	{
       type: RegionPart,
-      suffix: -nade-r,
+      suffix: -nade-l,
       under: true,
       mirror: false,
       heatProgress: heat,
@@ -239,7 +231,7 @@ drawer: {
     }
 	{
       type: RegionPart,
-      suffix: -nade-l,
+      suffix: -nade-r,
       under: true,
       mirror: false,
       heatProgress: heat,
