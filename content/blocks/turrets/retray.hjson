@@ -14,8 +14,16 @@ coolant: {
   amount: 0.20
 }
 shoot: {
-type: shootAlternate
-spread: 4.5
+  type: ShootBarrel
+  barrels: 2
+  shots: 2
+  shotDelay: 10
+  barrelOffset: 1
+  alternate: true
+  barrels: [
+    6, 0, 0
+    -6, 0, 0,
+  ]
 }
 cooldown: 1200
 shootCone: 9
@@ -215,9 +223,9 @@ drawer: {
   parts: [
 	{
       type: RegionPart,
-      suffix: -nade-l,
+      suffix: -nade,
       under: true,
-      mirror: false,
+      mirror: true,
       heatProgress: heat,
       progress: recoil,
 	  x: 0,
@@ -227,23 +235,6 @@ drawer: {
 	  moveY: -1.1,
       heatColor: ff4500,
       heatLayer: 1,
-	  recoilIndex: 0
-    }
-	{
-      type: RegionPart,
-      suffix: -nade-r,
-      under: true,
-      mirror: false,
-      heatProgress: heat,
-      progress: recoil,
-	  x: 0,
-	  y: 0,
-	  moveRot: -7,
-	  moveX: 0.3,
-	  moveY: -1.1,
-      heatColor: ff4500,
-      heatLayer: 1,
-	  recoilIndex: 1
     }
 	{
       type: RegionPart,
