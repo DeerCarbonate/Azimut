@@ -19,8 +19,12 @@ shoot: {
   barrels: 2
   shots: 2
   shotDelay: 10
-  barrelOffset: 2
+  barrelOffset: 1
   alternate: true
+  barrels: [
+    6, 0, 0
+    -6, 0, 0,
+  ]
 }
 cooldown: 1200
 shootCone: 9
