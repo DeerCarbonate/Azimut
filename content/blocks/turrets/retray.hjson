@@ -21,8 +21,8 @@ shoot: {
   barrelOffset: 1
   alternate: true
   barrels: [
-    6, 4, 0
-    -6, 4, 0,
+    6, 7, 0
+    -6, 7, 0,
   ]
 }
 cooldown: 1200
@@ -44,15 +44,15 @@ ammoTypes: {
 type: BasicBulletType
 width: 15
 height: 15
-speed: 1.4
+speed: 1.7
 collidesTiles: true
 collidesGround: true
-lifetime: 75
+lifetime: 85
 damage: 70
 frontColor: ffffff,
 backColor: fcf0bd,
 intervalBullets: 1
-bulletInterval: 0.8
+bulletInterval: 1.6
 intervalSpread: 180
 drag: 0.06
 sprite: large-bomb
@@ -107,8 +107,8 @@ frontColor: f6afdd
 hitEffect: {
 type: ParticleEffect 
 lifetime: 70
-colorFrom: e5f9f195
-colorTo: b9c4d800
+colorFrom: ffffff95
+colorTo: fcf0bd00
 drag: 0.4
 particles: 2
 cone: 360
@@ -127,8 +127,8 @@ lifetime: 120
 despawnEffect: {
 type: ParticleEffect 
 lifetime: 120
-colorFrom: e5f9f195
-colorTo: b9c4d800
+colorFrom: ffffff70
+colorTo: fcf0bd00
 drag: 0.7
 particles: 2
 cone: 360
