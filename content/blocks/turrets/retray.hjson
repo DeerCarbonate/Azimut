@@ -116,15 +116,15 @@ lifetime: 120
 }
 					fragBullet: {
 type: BasicBulletType
-homingRange: 80
-homingPower: 0.08
-homingDelay: 5
-width: 9
-height: 9
-drag: 0.07
-speed: 0.9
+homingRange: 90
+homingPower: 0.09
+homingDelay: 2.2
+width: 10
+height: 10
+drag: 0.02
+speed: 0.4
 collidesGround: true
-lifetime: 85
+lifetime: 170
 damage: 55
 frontColor: ffffff
 backColor: fcf0bd
@@ -143,6 +143,10 @@ pierceArmor: false
 intervalBullets: 1
 bulletInterval: 1.2
 intervalSpread: 180
+pierce: true
+pierceBuilding: true
+pierceCap: 4
+pierceDamageFactor: 0.002
 		intervalBullet: {
 type: BasicBulletType
 width: 6
