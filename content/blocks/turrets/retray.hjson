@@ -21,8 +21,8 @@ shoot: {
   barrelOffset: 1
   alternate: true
   barrels: [
-    6, 7, 0
-    -6, 7, 0,
+    6, 7.7, 0
+    -6, 7.7, 0,
   ]
 }
 cooldown: 1200
@@ -42,8 +42,8 @@ shootSound: energy-blade-launch
 ammoTypes: {
   venerium: {
 type: BasicBulletType
-width: 15
-height: 15
+width: 17
+height: 17
 speed: 1.7
 collidesTiles: true
 collidesGround: true
@@ -56,7 +56,7 @@ bulletInterval: 1.6
 intervalSpread: 180
 drag: 0.06
 sprite: large-bomb
-spin: 1.8
+spin: 2
 
 hitEffect: {
 type: ParticleEffect  
@@ -76,21 +76,21 @@ interp: exp5Out
 sizeInterp: exp5In
 }
 despawnEffect: {
-type: ParticleEffect  
-colorFrom: e5f9f160
-colorTo: b9c4d830
-particles: 10
-length: 50
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 5
-sizeTo: 0 
-offset: 1
-lifetime: 100
-interp: exp5Out
-sizeInterp: exp5In
+					type: ParticleEffect 
+                     colorTo: fcf0bd00
+				     colorFrom: ffffff95
+					particles: 18
+					cone: 14
+					length: 80
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 4.5
+					sizeTo: 0
+					offset: 1
+					lifetime: 50
 }
 
 		intervalBullet: {
@@ -171,9 +171,9 @@ drawer: {
       progress: recoil,
 	  x: 0,
 	  y: 0,
-	  moveRot: -7,
+	  moveRot: -6.2,
 	  moveX: 0.3,
-	  moveY: -1.1,
+	  moveY: -0.9,
       heatColor: ff4500,
       heatLayer: 1,
     }
