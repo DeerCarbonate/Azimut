@@ -87,6 +87,8 @@ fragVelocityMin: 3
 fragVelocityMax: 12
 fragRandomSpread: 15
 fragSpread: 3 
+weaveMag: 4
+weaveScale: 6
 pierceArmor: false
 		intervalBullet: {
 type: BasicBulletType
