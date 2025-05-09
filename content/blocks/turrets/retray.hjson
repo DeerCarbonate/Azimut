@@ -125,14 +125,14 @@ drag: 0.006
 speed: 0.3
 collidesGround: true
 lifetime: 170
-damage: 20
+damage: 35
 frontColor: ffffff
 backColor: fcf0bd
 despawnEffect: none
 collidesTiles: true
 keepVelocity: false
 collidesAir: true   
-fragBullets: 5
+fragBullets: 3
 fragVelocityMin: 3
 fragVelocityMax: 12
 fragRandomSpread: 15
@@ -141,7 +141,7 @@ weaveMag: 4
 weaveScale: 6
 pierceArmor: false
 intervalBullets: 1
-bulletInterval: 1.2
+bulletInterval: 1.6
 intervalSpread: 180
 pierce: true
 pierceBuilding: true
@@ -210,7 +210,7 @@ drag: 0.05
 speed: 0.9
 collidesGround: true
 lifetime: 80
-damage: 15
+damage: 30
 frontColor: ffffff
 backColor: fcf0bd
 despawnEffect: none
