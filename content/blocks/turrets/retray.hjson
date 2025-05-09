@@ -29,7 +29,7 @@ cooldown: 1200
 shootCone: 9
 recoil: 2.45
 shootY: 1.4
-reload: 140
+reload: 110
 range: 300
 targetAir: true
 moveWhileCharging: true
@@ -57,7 +57,91 @@ intervalSpread: 180
 drag: 0.06
 sprite: large-bomb
 spin: 2
-
+fragBullets: 5
+fragVelocityMin: 7
+fragVelocityMax: 21
+fragRandomSpread: 7
+fragSpread: 3
+					fragBullet: {
+type: BasicBulletType
+homingRange: 50
+homingPower: 0.05
+homingDelay: 5
+width: 6
+height: 8
+drag: 0.04
+speed: 2.6
+collidesGround: true
+lifetime: 65
+damage: 55
+frontColor: ffffff
+backColor: fcf0bd
+trailLength: 8
+trailWidth: 1.2
+despawnEffect: none
+collidesTiles: true
+keepVelocity: false
+collidesAir: true   
+fragBullets: 5
+fragVelocityMin: 3
+fragVelocityMax: 12
+fragRandomSpread: 15
+fragSpread: 3 
+pierceArmor: false
+		intervalBullet: {
+type: BasicBulletType
+width: 6
+height: 6
+speed: 1
+collidesGround: true 
+lifetime: 1
+damage: 1
+frontColor: ffffff
+backColor: fcf0bd
+hitEffect: {
+type: ParticleEffect 
+lifetime: 70
+colorFrom: ffffff95
+colorTo: fcf0bd00
+drag: 0.4
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 1
+sizeFrom: 0
+sizeTo: 2
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+despawnEffect: {
+type: ParticleEffect 
+lifetime: 120
+colorFrom: ffffff70
+colorTo: fcf0bd00
+drag: 0.7
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 2
+sizeTo: 0 
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+}
+}
+fragBullet: {
+}
 hitEffect: {
 type: ParticleEffect  
 colorFrom: e5f9f160
@@ -188,7 +272,7 @@ drawer: {
 	  y: 0,
 	  moveRot: 0,
 	  moveX: 0
-	  moveY: -0.5,
+	  moveY: -1.2,
       heatColor: ff4500,
       heatLayer: 1,
     }
