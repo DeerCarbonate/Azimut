@@ -48,7 +48,7 @@ speed: 1.7
 collidesTiles: true
 collidesGround: true
 lifetime: 85
-damage: 70
+damage: 40
 frontColor: ffffff,
 backColor: fcf0bd,
 intervalBullets: 1
@@ -60,8 +60,8 @@ spin: 2
 fragBullets: 5
 fragVelocityMin: 7
 fragVelocityMax: 21
-fragRandomSpread: 7
-fragSpread: 3
+fragRandomSpread: 5
+fragSpread: 2
 		intervalBullet: {
 type: BasicBulletType
 width: 6
@@ -125,7 +125,7 @@ drag: 0.006
 speed: 0.3
 collidesGround: true
 lifetime: 170
-damage: 40
+damage: 20
 frontColor: ffffff
 backColor: fcf0bd
 despawnEffect: none
@@ -210,7 +210,7 @@ drag: 0.05
 speed: 0.9
 collidesGround: true
 lifetime: 80
-damage: 30
+damage: 15
 frontColor: ffffff
 backColor: fcf0bd
 despawnEffect: none
