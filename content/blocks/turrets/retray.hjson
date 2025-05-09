@@ -30,7 +30,7 @@ shootCone: 9
 recoil: 2.45
 shootY: 1.4
 reload: 110
-range: 300
+range: 550
 targetAir: true
 moveWhileCharging: true
 targetGround: true
@@ -38,7 +38,7 @@ moveWhileCharging: true
 recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 1.6
-shootSound: energy-blade-launch
+shootSound: Alt
 ammoTypes: {
   venerium: {
 type: BasicBulletType
