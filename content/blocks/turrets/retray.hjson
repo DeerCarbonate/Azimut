@@ -125,7 +125,7 @@ drag: 0.006
 speed: 0.3
 collidesGround: true
 lifetime: 170
-damage: 35
+damage: 25
 frontColor: ffffff
 backColor: fcf0bd
 despawnEffect: none
@@ -210,7 +210,7 @@ drag: 0.05
 speed: 0.9
 collidesGround: true
 lifetime: 80
-damage: 30
+damage: 20
 frontColor: ffffff
 backColor: fcf0bd
 despawnEffect: none
