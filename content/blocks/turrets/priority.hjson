@@ -64,7 +64,7 @@ shootType: {
 	colors:[ec745840,ec74585570,ec74585590,fccabd,ffffff]
 	flareColor: fccabd
     ammoMultiplier: 1
-	
+	buildingDamageMultiplier: 0.3
 	pierceArmor: false
 	
     lifetime: 12

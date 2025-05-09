@@ -63,6 +63,7 @@ shoot: {
   fragVelocityMin: 0.1,
   fragVelocityMax: 0.1,
   fragOnHit: true
+  buildingDamageMultiplier: 0.1
 					fragBullet: {
 					"type": BasicBulletType,
 					"damage": 5,
@@ -84,6 +85,7 @@ shoot: {
 					collidesTiles: true
 					keepVelocity: false
 					collidesAir: false
+					buildingDamageMultiplier: 0.1
 					  hitEffect: {
         type: WaveEffect,
         startDelay: 0,
@@ -144,6 +146,7 @@ shoot: {
 					collidesTiles: true
 					keepVelocity: false
 					collidesAir: false
+					buildingDamageMultiplier: 0.1
       hitEffect: {
 					type: ParticleEffect 
 					colorFrom: c3feff

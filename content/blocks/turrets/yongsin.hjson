@@ -54,7 +54,7 @@ frontColor: ecf4fb
 intervalBullets: 1
 bulletInterval: 0.8
 intervalSpread: 180
-
+buildingDamageMultiplier: 0.1
 hitEffect: {
 type: ParticleEffect  
 colorFrom: e5f9f160
@@ -157,6 +157,7 @@ frontColor: dacaaa
 fragBullets: 6
 fragLifeMin: 1.2
 fragLifeMax: 2
+buildingDamageMultiplier: 0.1
 hitEffect: [
 {
 type: ParticleEffect 
@@ -247,6 +248,7 @@ fragSpread: 1
 pierceBuilding: false
 pierce: true
 pierceCap: 7
+buildingDamageMultiplier: 0.1
   hitEffect: {
         type: WaveEffect,
         startDelay: 0,
@@ -273,6 +275,7 @@ fragBullet: {
       pierceBuilding: false
       pierce: true
       pierceCap: 2
+	  buildingDamageMultiplier: 0.1
 		}
 	}
 }

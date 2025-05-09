@@ -80,12 +80,14 @@ bulletInterval: 4
 intervalBullets: 2,
 intervalAngle: -15,
 intervalSpread: 0,
+buildingDamageMultiplier: 0.1
 					intervalBullet: {
    type: LightningBulletType
     collidesAir: false
     lightningLength: 2
 	lightningLengthRand: 3
 	lightningColor: bff6b1
+	buildingDamageMultiplier: 0.1
     damage: 10
       }
 	hitEffect: [
@@ -142,6 +144,7 @@ fragVelocityMin: 0.5
 fragVelocityMax: 7
 fragRandomSpread: 5
 fragSpread: 2
+buildingDamageMultiplier: 0.1
 					fragBullet: {
 type: BasicBulletType
 homingRange: 50
@@ -170,6 +173,7 @@ fragVelocityMax: 3
 fragRandomSpread: 15
 fragSpread: 3 
 pierceArmor:true
+buildingDamageMultiplier: 0.1
 fragBullet: {
     type: ShrapnelBulletType
     pierce: false
@@ -186,6 +190,7 @@ fragBullet: {
 	collidesTiles: true
 	keepVelocity: false
 	collidesAir: true   
+	buildingDamageMultiplier: 0.1
 }
 }
 	hitEffect: [

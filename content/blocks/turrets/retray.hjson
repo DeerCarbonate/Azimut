@@ -62,6 +62,7 @@ fragVelocityMin: 7
 fragVelocityMax: 21
 fragRandomSpread: 5
 fragSpread: 2
+buildingDamageMultiplier: 0.1
 		intervalBullet: {
 type: BasicBulletType
 width: 6
@@ -147,6 +148,7 @@ pierce: true
 pierceBuilding: true
 pierceCap: 4
 pierceDamageFactor: 0.002
+buildingDamageMultiplier: 0.1
 		intervalBullet: {
 type: BasicBulletType
 width: 6
@@ -232,6 +234,7 @@ pierce: true
 pierceBuilding: true
 pierceCap: 4
 pierceDamageFactor: 0.002
+buildingDamageMultiplier: 0.1
 		intervalBullet: {
 type: BasicBulletType
 width: 6

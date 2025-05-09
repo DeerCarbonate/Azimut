@@ -62,6 +62,7 @@ ammoTypes: {
   ammoMultiplier: 4,
   collidesTiles: true
   collidesGround: true
+  buildingDamageMultiplier: 0.1
             bulletInterval: 0.000000000008
             intervalRandomSpread: 5
             intervalBullet: {
@@ -137,6 +138,7 @@ ammoTypes: {
         hitColor: fcf0bd
         despawnEffect: none
         hitEffect: hitBulletColor
+		buildingDamageMultiplier: 0.1
 		}
       hitEffect: {
 					type: ParticleEffect 
