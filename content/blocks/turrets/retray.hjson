@@ -37,7 +37,7 @@ targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
 restitution: 0.04
-rotateSpeed: 2.205
+rotateSpeed: 1.6
 shootSound: energy-blade-launch
 ammoTypes: {
   venerium: {
@@ -62,6 +62,58 @@ fragVelocityMin: 7
 fragVelocityMax: 21
 fragRandomSpread: 7
 fragSpread: 3
+		intervalBullet: {
+type: BasicBulletType
+width: 6
+sprite: "large-orb"
+height: 6
+speed: 1
+collidesGround: true 
+lifetime: 1
+damage: 1
+frontColor: ffffff
+backColor: fcf0bd
+hitEffect: {
+type: ParticleEffect 
+lifetime: 70
+colorFrom: e5f9f195
+colorTo: b9c4d800
+drag: 0.4
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 1
+sizeFrom: 0
+sizeTo: 2
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+despawnEffect: {
+type: ParticleEffect 
+lifetime: 120
+colorFrom: e5f9f195
+colorTo: b9c4d800
+drag: 0.7
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 2
+sizeTo: 0 
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+}
 					fragBullet: {
 type: BasicBulletType
 homingRange: 50
@@ -90,146 +142,6 @@ fragSpread: 3
 weaveMag: 4
 weaveScale: 6
 pierceArmor: false
-		intervalBullet: {
-type: BasicBulletType
-width: 6
-height: 6
-speed: 1
-collidesGround: true 
-lifetime: 1
-damage: 1
-frontColor: ffffff
-backColor: fcf0bd
-hitEffect: {
-type: ParticleEffect 
-lifetime: 70
-colorFrom: ffffff95
-colorTo: fcf0bd00
-drag: 0.4
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 1
-sizeFrom: 0
-sizeTo: 2
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-lifetime: 120
-}
-despawnEffect: {
-type: ParticleEffect 
-lifetime: 120
-colorFrom: ffffff70
-colorTo: fcf0bd00
-drag: 0.7
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-lifetime: 120
-}
-}
-}
-fragBullet: {
-}
-hitEffect: {
-type: ParticleEffect  
-colorFrom: e5f9f160
-colorTo: b9c4d830
-particles: 10
-length: 50
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 5
-sizeTo: 0 
-offset: 1
-lifetime: 100
-interp: exp5Out
-sizeInterp: exp5In
-}
-despawnEffect: {
-					type: ParticleEffect 
-                     colorTo: fcf0bd00
-				     colorFrom: ffffff95
-					particles: 18
-					cone: 14
-					length: 80
-					baseLength: 2
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 2
-					sizeFrom: 4.5
-					sizeTo: 0
-					offset: 1
-					lifetime: 50
-}
-		intervalBullet: {
-type: BasicBulletType
-width: 6
-sprite: "large-orb"
-height: 6
-speed: 1
-collidesGround: true 
-lifetime: 1
-damage: 1
-backColor: ffffff
-frontColor: f6afdd
-hitEffect: {
-type: ParticleEffect 
-lifetime: 70
-colorFrom: ffffff95
-colorTo: fcf0bd00
-drag: 0.4
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 1
-sizeFrom: 0
-sizeTo: 2
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-lifetime: 120
-}
-despawnEffect: {
-type: ParticleEffect 
-lifetime: 120
-colorFrom: ffffff70
-colorTo: fcf0bd00
-drag: 0.7
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-lifetime: 120
-}
-}
 }
 }
 hasPower: false
