@@ -144,6 +144,7 @@ weaveScale: 6
 pierceArmor: false
 }
 }
+}
 hasPower: false
 hasLiquids: false
 requirements: [
