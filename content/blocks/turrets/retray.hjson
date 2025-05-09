@@ -96,8 +96,8 @@ lifetime: 120
 despawnEffect: {
 type: ParticleEffect 
 lifetime: 120
-colorFrom: e5f9f195
-colorTo: b9c4d800
+colorFrom: ffffff95
+colorTo: fcf0bd00
 drag: 0.7
 particles: 2
 cone: 360
@@ -116,20 +116,18 @@ lifetime: 120
 }
 					fragBullet: {
 type: BasicBulletType
-homingRange: 50
-homingPower: 0.05
+homingRange: 80
+homingPower: 0.08
 homingDelay: 5
-width: 8
-height: 8
-drag: 0.04
-speed: 0.8
+width: 9
+height: 9
+drag: 0.07
+speed: 0.9
 collidesGround: true
-lifetime: 65
+lifetime: 85
 damage: 55
 frontColor: ffffff
 backColor: fcf0bd
-trailLength: 8
-trailWidth: 1.2
 despawnEffect: none
 collidesTiles: true
 keepVelocity: false
@@ -142,6 +140,61 @@ fragSpread: 3
 weaveMag: 4
 weaveScale: 6
 pierceArmor: false
+intervalBullets: 1
+bulletInterval: 1.2
+intervalSpread: 180
+		intervalBullet: {
+type: BasicBulletType
+width: 6
+sprite: "large-orb"
+height: 6
+speed: 1
+collidesGround: true 
+lifetime: 1
+damage: 1
+frontColor: ffffff
+backColor: fcf0bd
+hitEffect: {
+type: ParticleEffect 
+lifetime: 60
+colorFrom: e5f9f195
+colorTo: b9c4d800
+drag: 0.4
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 1
+sizeFrom: 0
+sizeTo: 2
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+despawnEffect: {
+type: ParticleEffect 
+lifetime: 120
+colorFrom: ffffff95
+colorTo: fcf0bd00
+drag: 0.7
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 1.2
+sizeTo: 0 
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+}
 }
 }
 }
