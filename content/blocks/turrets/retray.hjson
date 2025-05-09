@@ -67,7 +67,7 @@ type: BasicBulletType
 homingRange: 50
 homingPower: 0.05
 homingDelay: 5
-width: 6
+width: 8
 height: 8
 drag: 0.04
 speed: 2.6
