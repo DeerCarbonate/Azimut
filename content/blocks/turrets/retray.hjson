@@ -70,7 +70,7 @@ homingDelay: 5
 width: 8
 height: 8
 drag: 0.04
-speed: 2.6
+speed: 0.8
 collidesGround: true
 lifetime: 65
 damage: 55
@@ -178,7 +178,6 @@ despawnEffect: {
 					offset: 1
 					lifetime: 50
 }
-
 		intervalBullet: {
 type: BasicBulletType
 width: 6
