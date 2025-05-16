@@ -3,7 +3,7 @@ color: d2e7e725
 xspeed: 2.5
 yspeed: 3.6
 stroke: 1.2
-density: 120
+density: 1700
 sizeMin: 6
 sizeMax: 30
 splashTimeScale: 15
