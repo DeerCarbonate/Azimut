@@ -1,0 +1,11 @@
+type: RainWeather
+color: d2e7e790
+xspeed: 3.2
+yspeed: 4
+stroke: 1.2
+density: 550
+sizeMin: 6
+sizeMax: 30
+splashTimeScale: 3
+liquid: ammonia
+force: 0
