@@ -1,13 +1,12 @@
 type: Floor
 name: "Isobutane"
-speedMultiplier: 0.26
+speedMultiplier: 0.35
 variants: 0
-cacheLayer: "mud"
-drownTime: 100
+cacheLayer: "cryofluid"
+drownTime: 135
 isLiquid: true
 liquidDrop: isobutane
 liquidMultiplier: 0.4
-albedo: 1
 shallow: true
 supportsOverlay: true
 emitLight: false
