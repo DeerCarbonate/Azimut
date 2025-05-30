@@ -1,0 +1,6 @@
+type: Floor
+name: "Ferritetwo floor"
+attributes: {
+	water: -0.65
+}
+variants: 3
