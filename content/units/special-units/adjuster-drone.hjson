@@ -31,18 +31,18 @@ abilities: [
 	  orbMidScl: 0.2
 	  orbSinScl: 0.6
 	  orbSinMag: 0.08
-	  color: bf92f9
+	  color: ffd37f
 	  layer: 110
 	  x: 0
 	  y: -2
-	  particleColor: bf92f9
+	  particleColor: ffd37f
 	  particles: 6
 	  particleSize: 1.1
 	  particleLen: 9.4
 	  particleLife: 340
 	  rotateScl: 1.3
 	  active: true
-	  effectColor: bf92f9
+	  effectColor: ffd37f
 	  applyParticleChance: 14
 	}
 ]
