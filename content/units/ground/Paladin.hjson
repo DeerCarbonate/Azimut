@@ -33,7 +33,7 @@
 	"hitSize": 21,
 	"faceTarget": true,
 	"squareShape": true,
-	"description": "Fires a burst of 18 lasers and homing projectiles. Able to cross most terrain.",
+	"description": "Fires a burst of lasers and homing projectiles. Able to cross most terrain.",
 	drownTimeMultiplier: 3
 	weapons: [
 		{
@@ -71,8 +71,8 @@
 		}
 	]
 		shoot: {
-		shotDelay: 0.2
-		shots: 56
+		shotDelay: 1.2
+		shots: 18
 
 					shootEffect: {
 			type: ParticleEffect 
@@ -97,7 +97,7 @@
       width: 3.5
       sideAngle: 120
       sideWidth: 2.4
-      damage: 4
+      damage: 8
       pierceBuilding: false
       pierce: true
       pierceCap: 1
