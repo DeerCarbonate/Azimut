@@ -14,13 +14,12 @@ targetable: false
 bounded: false
 accel: 0.5
 drag: 0.5
-trailLength: 6
-engineColor: bf92f9
-trailColor: bf92f9
+engineSize: 0
 flying: true
 health: 150
 hitSize: 5.5
 armor: 3
+drawCell: false
 itemCapacity: 0
 engineOffset: 3
 abilities: [
@@ -28,10 +27,10 @@ abilities: [
 	  type: "SuppressionFieldAbility"
 	  reload: 100
 	  range: 0
-	  orbRadius: 4
-	  orbMidScl: 0.4
-	  orbSinScl: 0.8
-	  orbSinMag: 0.5
+	  orbRadius: 2
+	  orbMidScl: 0.3
+	  orbSinScl: 0.4
+	  orbSinMag: 0.2
 	  color: bf92f9
 	  layer: 110
 	  x: 0
