@@ -20,21 +20,21 @@
 	"legLengthScl": 0.9,
 	"legForwardScl": 0.66,
 	"rippleScale": 0.7,
-	"legspeed": 0.45,
-	"legTrns": 1,
+	"legspeed": 0.35,
+	"legTrns": 0.9,
 	"rotateSpeed": 1.8,
-	"range": 200,
 	"legGroupSize": 1,
 	"legContinuousMove": true
 	"accel": 0.5,
 	"armor": 9.2,
 	"stepshake": 0.1,
 	"health": 5230,
-	"speed": 0.475,
-	"hitSize": 29,
+	"speed": 0.455,
+	"hitSize": 21,
 	"faceTarget": true,
 	"squareShape": true,
 	"description": "Fires a burst of 18 lasers and homing projectiles.",
+	drownTimeMultiplier: 8
 	weapons: [
 		{
 		"name": Paladin-weapon,
