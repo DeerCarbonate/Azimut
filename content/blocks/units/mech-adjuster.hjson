@@ -4,7 +4,7 @@ type: UnitAssembler
 size: 4
 itemCapacity: 120
 liquidCapacity: 170
-areaSize: 5
+areaSize: 6
 dronesCreated: 4
 droneType: "adjuster-drone"
 droneConstructTime: 550
