@@ -17,7 +17,7 @@ consumes: {
 }
 plans: [
 	{
-	unit: "paladin" //Tier 1 assembler
+	unit: "Paladin" //Tier 1 assembler
 	requirements: [
 	    legate/1
 		venurian-wall-large/2
