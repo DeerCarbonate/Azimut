@@ -33,8 +33,8 @@
 	"hitSize": 21,
 	"faceTarget": true,
 	"squareShape": true,
-	"description": "Fires a burst of 18 lasers and homing projectiles.",
-	drownTimeMultiplier: 4
+	"description": "Fires a burst of 18 lasers and homing projectiles. Able to cross most terrain.",
+	drownTimeMultiplier: 3
 	weapons: [
 		{
 		"name": Paladin-weapon,
@@ -71,8 +71,8 @@
 		}
 	]
 		shoot: {
-		shotDelay: 1.2
-		shots: 32
+		shotDelay: 0.2
+		shots: 56
 
 					shootEffect: {
 			type: ParticleEffect 
@@ -97,7 +97,7 @@
       width: 3.5
       sideAngle: 120
       sideWidth: 2.4
-      damage: 7
+      damage: 4
       pierceBuilding: false
       pierce: true
       pierceCap: 1
