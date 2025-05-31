@@ -28,9 +28,9 @@ abilities: [
 	  reload: 100
 	  range: 0
 	  orbRadius: 2
-	  orbMidScl: 0.3
-	  orbSinScl: 0.4
-	  orbSinMag: 0.2
+	  orbMidScl: 1
+	  orbSinScl: 0.2
+	  orbSinMag: 1
 	  color: bf92f9
 	  layer: 110
 	  x: 0
