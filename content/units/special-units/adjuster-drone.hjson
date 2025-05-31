@@ -27,10 +27,10 @@ abilities: [
 	  type: "SuppressionFieldAbility"
 	  reload: 100
 	  range: 0
-	  orbRadius: 2
-	  orbMidScl: 1
+	  orbRadius: 0.2
+	  orbMidScl: 0.2
 	  orbSinScl: 0.2
-	  orbSinMag: 1
+	  orbSinMag: 0.02
 	  color: bf92f9
 	  layer: 110
 	  x: 0
