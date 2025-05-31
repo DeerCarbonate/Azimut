@@ -29,8 +29,8 @@ abilities: [
 	  range: 0
 	  orbRadius: 0.2
 	  orbMidScl: 0.2
-	  orbSinScl: 0.2
-	  orbSinMag: 0.02
+	  orbSinScl: 0.6
+	  orbSinMag: 0.08
 	  color: bf92f9
 	  layer: 110
 	  x: 0
