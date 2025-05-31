@@ -34,7 +34,7 @@
 	"faceTarget": true,
 	"squareShape": true,
 	"description": "Fires a burst of 18 lasers and homing projectiles.",
-	drownTimeMultiplier: 8
+	drownTimeMultiplier: 4
 	weapons: [
 		{
 		"name": Paladin-weapon,
