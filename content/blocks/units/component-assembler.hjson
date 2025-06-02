@@ -1,0 +1,23 @@
+type: Constructor
+name: Component Assembler
+description: Creates unit components
+size: 3
+category: units
+requirements: [
+  venerium/140
+  cobalt/110
+  platinum/30
+] 
+hasPower: false
+consumes: {
+	liquids: [
+      power/0.10
+	  ammonia/0.8
+	]
+}
+buildSpeed: 1.75
+filter: [
+ azimut-venurian-wall-large
+]
+squareSprite: true
+maxBlockSize: 2
