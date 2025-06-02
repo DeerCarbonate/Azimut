@@ -16,7 +16,7 @@
 	"hovering": true,
 	canDrown: false
 	"speed": 1.08,
-	"hitSize": 24.0,
+	"hitSize": 20,
 	"drag": 0.05,
 	"description": "Destabilizing its core, it fires a powerful piercing projectile.",
 	parts: [
