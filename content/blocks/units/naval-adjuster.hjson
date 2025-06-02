@@ -1,4 +1,4 @@
-name: Mech adjuster
+name: Naval adjuster
 description: "Builds Tier 3-4 naval ships."
 type: UnitAssembler
 size: 4
