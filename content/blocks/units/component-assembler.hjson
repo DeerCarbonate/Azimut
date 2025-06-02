@@ -15,7 +15,7 @@ consumes: {
 	  ammonia/0.7
 	]
 }
-buildSpeed: 1.75
+buildSpeed: 1.35
 filter: [
  azimut-venurian-wall-large
 ]
