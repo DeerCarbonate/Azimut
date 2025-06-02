@@ -6,7 +6,7 @@ itemCapacity: 120
 liquidCapacity: 170
 areaSize: 6
 dronesCreated: 4
-droneType: "adjuster-drone2"
+droneType: "adjuster-drone3"
 droneConstructTime: 550
 category: units
 consumes: {
