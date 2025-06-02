@@ -1,0 +1,34 @@
+name: Hover adjuster
+description: "Builds Tier 3-4 hover ships."
+type: UnitAssembler
+size: 4
+itemCapacity: 120
+liquidCapacity: 170
+areaSize: 6
+dronesCreated: 4
+droneType: "adjuster-drone2"
+droneConstructTime: 550
+category: units
+consumes: {
+	liquids: [
+      power/0.25
+	  swartzite/0.065
+	]
+}
+plans: [
+	{
+	unit: "Promotion" //Tier 1 assembler
+	requirements: [
+	    azimut-Improvement/1
+		azimut-venurian-wall-large/2
+	]
+	time: 1970
+	}
+]
+requirements: [
+	caterium/250
+	geliarin/290
+	venerium/260
+	platinum/450
+	cobalt/650
+]
