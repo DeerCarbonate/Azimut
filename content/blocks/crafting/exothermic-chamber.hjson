@@ -12,7 +12,6 @@ requirements: [
   caterium/20
 ]
 consumes: {
-consumes: {
   items: [
   solid-fuel/1
   ]
