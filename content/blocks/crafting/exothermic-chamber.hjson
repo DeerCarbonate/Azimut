@@ -72,8 +72,8 @@ craftEffect: [{
           baseRotation: 73
           useRotation:false
           interp: pow5Out
-          colorFrom: f8e9a909
-          colorTo: f8e9a900
+          colorFrom: 907d7409
+          colorTo: 433a3600
           layer: 100.3
           }
 }
