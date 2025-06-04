@@ -26,7 +26,7 @@ requirements: [
 ]
 consumes: {
   liquids: [
-  isobutane/0.1
+  isobutane/0.092
 	]
 }
 outputLiquid: power/0.07
@@ -36,20 +36,20 @@ craftEffect: [{
       type: RadialEffect
       rotationSpacing : 90
       rotationOffset: 0
-      lengthOffset: 3
-      amount: 5
+      lengthOffset: 4
+      amount: 4
       effect: {
           type: ParticleEffect
           particles: 7
           length: 90
           lifetime: 1200
-          sizeFrom: 3
-          sizeTo: 9
+          sizeFrom: 2
+          sizeTo: 5
           cone: 2
           baseRotation: 73
           useRotation:false
           interp: pow5Out
-          colorFrom: 8d655711
+          colorFrom: 8d655744
           colorTo: 271b1700
           layer: 100.3
           }
