@@ -85,7 +85,7 @@
 		 {
   type: PointDefenseWeapon
   x: 0
-  y: -2.5
+  y: -1
   shake: 2
   rotate: true
   rotateSpeed: 999
@@ -94,8 +94,8 @@
   reload: 10
   shootSound: laserShoot
   bullet: {
-    maxRange: 200
-    damage: 50
+    maxRange: 95
+    damage: 40
     shootEffect: sparkShoot
     hitEffect: pointHit
   }
