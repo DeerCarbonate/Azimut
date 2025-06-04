@@ -10,7 +10,7 @@
 	armor: 1.45
 	health: 950
 	speed: 1.55
-	hitSize: 13.0
+	hitSize: 11.2
 	immunities: [ wet ]
 	trailLength: 12
 	trailScl: 1.4
