@@ -36,8 +36,8 @@ craftEffect: [{
       type: RadialEffect
       rotationSpacing : 90
       rotationOffset: 0
-      lengthOffset: 4
-      amount: 2
+      lengthOffset: 2
+      amount: 4
       effect: {
           type: ParticleEffect
           particles: 7
@@ -49,7 +49,7 @@ craftEffect: [{
           baseRotation: 73
           useRotation:false
           interp: pow5Out
-          colorFrom: 8d655739
+          colorFrom: 8d655728
           colorTo: 271b1700
           layer: 100.3
           }
