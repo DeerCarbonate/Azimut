@@ -12,12 +12,12 @@ requirements: [
 ]
 consumes: {
   liquids: [
-  isobutane/0.4
+  isobutane/0.36
   iterin/0.375
 	]
 }
 outputItem: solid-fuel/1
-craftTime: 80
+craftTime: 40
 hasLiquids: true
 liquidCapacity: 100
 drawer: {
