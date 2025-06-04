@@ -1,0 +1,55 @@
+type: GenericCrafter
+name: Solid fuel mixer
+description: Mixes and presses butane and etherine.
+size: 4
+category: crafting
+squareSprite: false
+requirements: [
+  cobalt/130
+  venerium/70
+  platinum/60
+  caterium/60
+]
+consumes: {
+  liquids: [
+  isobutane/0.2
+  iterin/0.4
+	]
+}
+outputItem: solid-fuel/1
+craftTime: 200
+hasLiquids: true
+liquidCapacity: 100
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: isobutane
+      alpha: 0.7
+      padding: 2.05
+    }
+	{
+   type: DrawParticles
+   color: ce9e6c
+   alpha: 0.25
+   particleRad: 8
+   rotateScl: 25
+   }
+   	{
+   type: DrawParticles
+   color: 9b7651
+   alpha: 0.25
+   particleRad: 8
+   rotateScl: 35
+   }
+    {    
+      type: DrawDefault
+    }
+  ]
+}
+researchCostMultiplier: 0.5
