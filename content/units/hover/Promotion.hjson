@@ -98,6 +98,18 @@
     damage: 25
     shootEffect: sparkShoot
     hitEffect: pointHit
+	despawnEffect: {
+                line: true
+                particles: 1
+                length: -0.001
+                cone: 0
+                lifetime: 30
+                colorTo: f6afdd
+                lenFrom: 60
+                lenTo: 60
+                strokeFrom: 1.5
+                strokeTo: 0
+              }
   }
  }
  		 {
