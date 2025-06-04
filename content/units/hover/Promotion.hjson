@@ -10,7 +10,7 @@
 	"outlineRadius": 3,
 	"alwaysUnlocked": true,
 	"range": 100,
-	"armor": 6,
+	"armor": 4,
 	 accel: 0.1
 	"health": 2440
 	"hovering": true,
@@ -95,7 +95,25 @@
   shootSound: laserShoot
   bullet: {
     maxRange: 95
-    damage: 40
+    damage: 25
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+  }
+ }
+ 		 {
+  type: PointDefenseWeapon
+  x: 0
+  y: -1
+  shake: 2
+  rotate: true
+  rotateSpeed: 999
+  targetSwitchInterval: 1.5
+  targetInterval: 1.2
+  reload: 10
+  shootSound: laserShoot
+  bullet: {
+    maxRange: 95
+    damage: 25
     shootEffect: sparkShoot
     hitEffect: pointHit
   }
