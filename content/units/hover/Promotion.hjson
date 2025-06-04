@@ -10,7 +10,7 @@
 	"outlineRadius": 3,
 	"alwaysUnlocked": true,
 	"range": 100,
-	"armor": 4,
+	"armor": 6,
 	 accel: 0.1
 	"health": 2440
 	"hovering": true,
@@ -82,6 +82,24 @@
         }
 	]
 		weapons: [
+		 {
+  type: PointDefenseWeapon
+  x: 0
+  y: -2.5
+  shake: 2
+  rotate: true
+  rotateSpeed: 999
+  targetSwitchInterval: 1.5
+  targetInterval: 1.2
+  reload: 10
+  shootSound: laserShoot
+  bullet: {
+    maxRange: 200
+    damage: 50
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+  }
+ }
 		{
     baseRotation: 0
     mirror: false
