@@ -17,7 +17,7 @@ consumes: {
 	]
 }
 outputItem: solid-fuel/1
-craftTime: 200
+craftTime: 80
 hasLiquids: true
 liquidCapacity: 100
 drawer: {
