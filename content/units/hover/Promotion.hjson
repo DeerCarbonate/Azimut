@@ -178,6 +178,8 @@
         trailWidth: 3.25
         trailLength: 10
 		keepVelocity: false
+		collidesTiles: true
+		collidesGround: true
 		intervalBullet: {
 type: BasicBulletType
 width: 6
@@ -313,18 +315,6 @@ sizeInterp: exp5In
 	}
 	]
 }
-	despawnEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 54
-    sizeFrom: 0
-    sizeTo: 28
-	strokeFrom: 8
-	strokeTo: 2
-    colorFrom: f6afdd95
-    colorTo: f6afdd00
-    }
 	hitEffect: {
     type: WaveEffect
     rotWithParent: true
