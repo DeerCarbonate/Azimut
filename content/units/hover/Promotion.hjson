@@ -281,11 +281,11 @@ sizeInterp: exp5In
     type: WaveEffect
     rotWithParent: true
     followParent: true
-    lifetime: 42
+    lifetime: 54
     sizeFrom: 0
-    sizeTo: 24
-	strokeFrom: 4
-	strokeTo: 0
+    sizeTo: 28
+	strokeFrom: 8
+	strokeTo: 2
     colorFrom: f6afdd95
     colorTo: f6afdd00
     }
@@ -293,11 +293,11 @@ sizeInterp: exp5In
     type: WaveEffect
     rotWithParent: true
     followParent: true
-    lifetime: 32
+    lifetime: 45
     sizeFrom: 0
-    sizeTo: 21
-	strokeFrom: 4
-	strokeTo: 0
+    sizeTo: 26
+	strokeFrom: 6
+	strokeTo: 2
     colorFrom: f6afdd
     colorTo: f6afdd00
     }
