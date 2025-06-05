@@ -222,7 +222,7 @@ requirements: [
 category: turret
 drawer: {
   type: DrawTurret
-  basePrefix: ast-
+  basePrefix: azimut-
   heatProgress: recoil
   cooldown: 0.1
   parts: [
