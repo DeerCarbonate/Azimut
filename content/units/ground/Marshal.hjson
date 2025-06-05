@@ -10,7 +10,7 @@
 	"stepshake": 1.3,
 	"health": 2150,
 	"speed": 0.42,
-	"hitSize": 20.6,
+	"hitSize": 18,
 	"mechLegColor": 0f1405,
 	"mechFrontSway": 0.4,
 	"mechStepParticles": true,
