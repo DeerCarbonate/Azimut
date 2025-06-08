@@ -83,7 +83,7 @@
 			  trailColor: ffbfad
 			  trailWidth: 2.6
 			  trailLength: 0
-			  shrinkInterp: sineIn
+			  shrinkInterp: slope
               shrinkY: -3
 			  shrinkX: -3
 			  collidesTiles: true
