@@ -175,7 +175,6 @@ sizeInterp: exp5In
 			         trailColor: ffbfad
 					 width: 8
 			         height: 8
-					 shrinkInterp: none
 			}
 		}
 	}
