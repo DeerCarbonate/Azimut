@@ -1,4 +1,3 @@
-{
 	"name": "Archon",
 	"type": legs,
 	"flying": false,
@@ -75,7 +74,6 @@
 					sizeTo: 0
 					offset: 1
 			  }
-	}
 			  damage: 120
 			  speed: 5.5
 			  drag: 0.04
@@ -110,5 +108,4 @@
 					"weaveScale": 6.5,
 				}
 			}
-		}
 ]
