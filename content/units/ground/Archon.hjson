@@ -93,7 +93,7 @@
             particles: 1
             length: 0
             lifetime: 120
-            region: shockwave
+            region: azimut-shockwave
             sizeFrom: 0
             sizeTo: 120
             colorTo: f0aba400
@@ -102,7 +102,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 26
+            sizeFrom: 16
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
