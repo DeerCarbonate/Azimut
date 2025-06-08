@@ -164,7 +164,7 @@ sizeInterp: exp5In
 					"speed": 1.63,
 					"lifetime": 131,
 					"trailWidth": 1.8,
-					"trailLength": 27,
+					"trailLength": 34,
 					"splashDamage": 10,
 					"splashDamageRadius": 15,
 		             weaveMag: 3
