@@ -74,8 +74,8 @@
 			  }
 			  damage: 120
 			  speed: 6.5
-			  drag: 0.06
-			  lifetime: 85
+			  drag: 0.05
+			  lifetime: 120
 			  width: 17.5
 			  height: 17.5
 			  backColor: ffbfad
@@ -84,8 +84,8 @@
 			  trailWidth: 2.6
 			  trailLength: 4
 			  shrinkInterp: slope
-              shrinkY: 1
-			  shrinkX: 1
+              shrinkY: 2
+			  shrinkX: 2
 			  collidesTiles: true
 		      collidesGround: true
   fragSpread: 5,
