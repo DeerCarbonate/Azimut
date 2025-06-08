@@ -102,7 +102,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 16
+            sizeFrom: 14
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
@@ -115,6 +115,61 @@
             sizeTo: 0
           }
         ]
+		intervalBullets: 1
+bulletInterval: 2.1
+intervalSpread: 180
+buildingDamageMultiplier: 0.1
+		intervalBullet: {
+type: BasicBulletType
+width: 6
+sprite: "large-orb"
+height: 6
+speed: 1
+collidesGround: true 
+lifetime: 1
+damage: 1
+backColor: ffffff
+frontColor: f6afdd
+hitEffect: {
+type: ParticleEffect 
+lifetime: 120
+colorFrom: ffbfad
+colorTo: a3746f00
+drag: 0.2
+particles: 1
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 12
+sizeTo: 0
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+}
+despawnEffect: {
+type: ParticleEffect 
+lifetime: 120
+colorFrom: e5f9f195
+colorTo: b9c4d800
+drag: 0.7
+particles: 2
+cone: 360
+length: 6
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 2
+sizeTo: 0 
+offset: 1
+interp: exp5Out
+sizeInterp: exp5In
+lifetime: 120
+}
+}
   fragSpread: 5,
   fragAngle: 40,
   fragBullets: 7,
