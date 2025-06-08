@@ -41,9 +41,9 @@
 	"description": "Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit.",
 	weapons: [
 			{
-			"name": Archon-weapon
+			"name": Archon-weaponthree
 	        "layerOffset": -0.001,
-			"recoil": 1.0,
+			"recoil": 1.8,
 			"x": 13.5,
 			"y": -1,
 			"rotationLimit": 65,
@@ -52,18 +52,18 @@
 			"alternate": true,
 			"rotate": true,
 			"rotateSpeed": 2.5,
-			"reload": 70,
+			"reload": 190
 			"shootSound": shoot-small-flame,
 			"controllable": true,
 			"aiControllable": true,
 	bullet: {
 			  type: BasicBulletType
-			  sprite: missile-large
+			  sprite: circle-bullet
 			  shootEffect: {
 					type: ParticleEffect 
 					colorFrom: cc918b
-					colorTo: ffbfad90
-					particles: 13
+					colorTo: ffbfad40
+					particles: 17
 					cone: 27
 					length: 42
 					baseLength: 5
@@ -75,88 +75,18 @@
 					sizeTo: 0
 					offset: 1
 			  }
-	despawnEffect: {
-    type: MultiEffect,
-    effects: [
-	  {
-					type: ParticleEffect 
-					colorFrom: cc918b
-					colorTo: ffbfad90
-					particles: 13
-					length: 12
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 4.6
-					sizeTo: 0
-					offset: 1
-     }
-	 	  {
-					type: ParticleEffect 
-					colorFrom: cc918b90
-					colorTo: ffbfad50
-					particles: 25
-					length: 34
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 7.5
-					sizeTo: 0
-					offset: 1
-     }
-  ]
-}
-	hitEffect: {
-    type: MultiEffect,
-    effects: [
-	  {
-					type: ParticleEffect 
-					colorFrom: cc918b
-					colorTo: ffbfad90
-					particles: 13
-					length: 12
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 4.6
-					sizeTo: 0
-					offset: 1
-     }
-	 	  {
-					type: ParticleEffect 
-					colorFrom: cc918b90
-					colorTo: ffbfad50
-					particles: 25
-					length: 34
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 7.5
-					sizeTo: 0
-					offset: 1
-     }
-  ]
-}
+	}
 			  damage: 120
 			  speed: 5.5
-			  lifetime: 45
-			  width: 8.5
+			  drag: 0.04
+			  lifetime: 65
+			  width: 10.5
 			  height: 10.5
-			  backColor: cc918b 
+			  backColor: ffbfad
 			  frontColor: ffbfad
 			  trailColor: ffbfad
 			  trailWidth: 2.6
 			  trailLength: 8
-			  trailEffect: missileTrailShort
-			  smokeEffect: none
   fragSpread: 5,
   fragAngle: 40,
   fragBullets: 7,
@@ -181,145 +111,4 @@
 				}
 			}
 		}
-					{
-			"name": Archon-weaponthree,
-			"recoil": 1.0,
-			"x": 0,
-			"y": -3,
-			"rotationLimit": 95,
-            "shootY": 11,
-			"mirror": false,
-			"alternate": false,
-			"rotate": true,
-			"rotateSpeed": 1,
-			"reload": 240,
-			"shootSound": shootBig,
-			"controllable": true,
-			"aiControllable": true,
-	bullet: {
-			  type: BasicBulletType
-			  sprite: missile-large
-			  damage: 210
-			  speed: 7.5
-			  lifetime: 40
-			  width: 8.5
-			  height: 10.5
-			  backColor: cc918b 
-			  frontColor: ffbfad
-			  trailColor: ffbfad
-			  trailWidth: 3.7
-			  trailLength: 15
-			  trailEffect: artilleryTrail
-			  smokeEffect: none
-			  shootEffect: {
-					type: ParticleEffect 
-					colorFrom: cc918b
-					colorTo: ffbfad90
-					particles: 32
-					cone: 30
-					length: 90
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 4.6
-					sizeTo: 0
-					offset: 1
-				}
-				hitEffect: {
-    type: MultiEffect,
-    effects: [
-      {
-                    type: ParticleEffect 
-                    colorFrom: cc918b
-                    colorTo: ffbfad90
-                    particles: 13
-                    length: 42
-                    baseLength: 5
-                    lightScl: 3
-                    interp: circleOut
-                    lightOpacity: 2
-                    spin: 5
-                    sizeFrom: 4.6
-                    sizeTo: 0
-                    offset: 1
-     }
-           {
-                    type: ParticleEffect 
-                    colorFrom: cc918b90
-                    colorTo: ffbfad50
-                    particles: 25
-                    length: 74
-                    baseLength: 5
-                    lightScl: 3
-                    interp: circleOut
-                    lightOpacity: 2
-                    spin: 5
-                    sizeFrom: 7.5
-                    sizeTo: 0
-                    offset: 1
-     }
-  ]
-}
-				despawnEffect: {
-    type: MultiEffect,
-    effects: [
-      {
-                    type: ParticleEffect 
-                    colorFrom: cc918b
-                    colorTo: ffbfad90
-                    particles: 13
-                    length: 42
-                    baseLength: 5
-                    lightScl: 3
-                    interp: circleOut
-                    lightOpacity: 2
-                    spin: 5
-                    sizeFrom: 4.6
-                    sizeTo: 0
-                    offset: 1
-     }
-           {
-                    type: ParticleEffect 
-                    colorFrom: cc918b90
-                    colorTo: ffbfad50
-                    particles: 25
-                    length: 74
-                    baseLength: 5
-                    lightScl: 3
-                    interp: circleOut
-                    lightOpacity: 2
-                    spin: 5
-                    sizeFrom: 7.5
-                    sizeTo: 0
-                    offset: 1
-     }
-  ]
-}
-fragSpread: 7
-  fragAngle: 65
-  fragBullets: 19
-  fragOnHit: true
-					fragBullet: {
-					"type": BasicBulletType,
-					"damage": 90,
-					"speed": 3,
-					"lifetime": 120,
-					"trailColor": cc918b,
-					"trailWidth": 2,
-					"trailLength": 10,
-					"trailEffect": missileTrailShort
-					"despawnSound": jumpln,
-					"frontColor": ffffff,
-					"backColor": cc918b,
-					"hitSize": 5,
-					"splashDamage": 10,
-					"splashDamageRadius": 15,
-					"weaveMag": 15,
-					"weaveScale": 30,
-				}
-			  }
-		}
-	]
-}
+]
