@@ -82,10 +82,10 @@
 			  frontColor: ffbfad
 			  trailColor: ffbfad
 			  trailWidth: 2.6
-			  trailLength: 4
+			  trailLength: 0
 			  shrinkInterp: slope
-              shrinkY: 2
-			  shrinkX: 2
+              shrinkY: 0.7
+			  shrinkX: 0.7
 			  collidesTiles: true
 		      collidesGround: true
   fragSpread: 5,
