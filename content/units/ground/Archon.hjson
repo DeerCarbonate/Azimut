@@ -161,20 +161,21 @@ sizeInterp: exp5In
 					fragBullet: {
 					"type": BasicBulletType,
 					"damage": 90,
-					"speed": 1.6,
+					"speed": 1.58,
 					"lifetime": 145,
 					"trailWidth": 1.8,
 					"trailLength": 17,
 					"splashDamage": 10,
 					"splashDamageRadius": 15,
 		             weaveMag: 3
-		             weaveScale: 4
+		             weaveScale: 7
 					 sprite: circle-bullet
 					 backColor: ffbfad
 			         frontColor: ffbfad
 			         trailColor: ffbfad
 					 width: 8
 			         height: 8
+					 shrinkInterp: fade
 			}
 		}
 	}
