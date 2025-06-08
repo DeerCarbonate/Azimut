@@ -74,7 +74,7 @@
 			  }
 			  damage: 120
 			  speed: 2.8
-			  drag: 0.003
+			  drag: 0.007
 			  lifetime: 190
 			  width: 10
 			  height: 10
@@ -83,7 +83,7 @@
 			  trailColor: ffbfad
 			  trailWidth: 2.6
 			  trailLength: 0
-			  shrinkInterp: pow3Out
+			  shrinkInterp: sineIn
               shrinkY: -3
 			  shrinkX: -3
 			  collidesTiles: true
