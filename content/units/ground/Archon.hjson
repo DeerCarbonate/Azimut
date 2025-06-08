@@ -133,25 +133,6 @@ frontColor: f6afdd
 hitEffect: {
 type: ParticleEffect 
 lifetime: 120
-colorFrom: ffbfad
-colorTo: a3746f00
-drag: 0.2
-particles: 1
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 12
-sizeTo: 0
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-}
-despawnEffect: {
-type: ParticleEffect 
-lifetime: 120
 colorFrom: e5f9f195
 colorTo: b9c4d800
 drag: 0.7
