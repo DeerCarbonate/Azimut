@@ -84,8 +84,8 @@
 			  trailWidth: 2.6
 			  trailLength: 0
 			  shrinkInterp: pow3Out
-              shrinkY: 3
-			  shrinkX: 3
+              shrinkY: -3
+			  shrinkX: -3
 			  collidesTiles: true
 		      collidesGround: true
   fragSpread: 5,
