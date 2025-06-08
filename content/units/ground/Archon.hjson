@@ -83,7 +83,7 @@
 			  trailColor: ffbfad
 			  trailWidth: 2.6
 			  trailLength: 0
-			  shrinkInterp: swingOut
+			  shrinkInterp: pow3Out
               shrinkY: 3
 			  shrinkX: 3
 			  collidesTiles: true
