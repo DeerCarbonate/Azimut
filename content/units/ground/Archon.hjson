@@ -73,7 +73,7 @@
 					offset: 1
 			  }
 			  damage: 120
-			  speed: 2.8
+			  speed: 2.6
 			  drag: 0.007
 			  lifetime: 190
 			  width: 11
@@ -84,8 +84,8 @@
 			  trailWidth: 2.6
 			  trailLength: 0
 			  shrinkInterp: sineIn
-              shrinkY: -2.6
-			  shrinkX: -2.6
+              shrinkY: -2.2
+			  shrinkX: -2.2
 			  collidesTiles: true
 		      collidesGround: true
 			         hitEffect: [
