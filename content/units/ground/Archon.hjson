@@ -102,7 +102,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 14
+            sizeFrom: 8
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
