@@ -102,7 +102,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 14
+            sizeFrom: 13
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
@@ -111,7 +111,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 22
+            sizeFrom: 21
             sizeTo: 0
 			colorFrom: f0aba4
             colorTo: f0aba488
@@ -154,28 +154,28 @@ interp: exp5Out
 sizeInterp: exp5In
 }
 }
-  fragSpread: 5,
-  fragAngle: 40,
-  fragBullets: 7,
+  fragSpread: 7,
+  fragAngle: 360,
+  fragBullets: 19,
   fragOnHit: true
 					fragBullet: {
 					"type": BasicBulletType,
 					"damage": 90,
-					"speed": 5,
-					"lifetime": 25,
-					"trailColor": cc918b,
-					"trailWidth": 2,
-					"trailLength": 10,
-					"trailEffect": missileTrailShort
-					"despawnSound": jumpln,
-					"frontColor": ffffff,
-					"backColor": cc918b,
-					"hitSize": 5,
+					"speed": 1.6,
+					"lifetime": 145,
+					"trailWidth": 1.8,
+					"trailLength": 17,
 					"splashDamage": 10,
 					"splashDamageRadius": 15,
-					"weaveMag": 4,
-					"weaveScale": 6.5,
-				}
+		             weaveMag: 3
+		             weaveScale: 4
+					 sprite: circle-bullet
+					 backColor: ffbfad
+			         frontColor: ffbfad
+			         trailColor: ffbfad
+					 width: 8
+			         height: 8
+					 shrinkInterp: none
 			}
 		}
 ]
