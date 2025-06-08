@@ -73,8 +73,8 @@
 					offset: 1
 			  }
 			  damage: 120
-			  speed: 4.8
-			  drag: 0.002
+			  speed: 2.8
+			  drag: 0.003
 			  lifetime: 190
 			  width: 22
 			  height: 22
@@ -83,9 +83,9 @@
 			  trailColor: ffbfad
 			  trailWidth: 2.6
 			  trailLength: 0
-			  shrinkInterp: pow2In
-              shrinkY: 1
-			  shrinkX: 1
+			  shrinkInterp: sineIn
+              shrinkY: -1
+			  shrinkX: -1
 			  collidesTiles: true
 		      collidesGround: true
   fragSpread: 5,
