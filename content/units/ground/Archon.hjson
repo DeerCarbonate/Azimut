@@ -76,16 +76,16 @@
 			  speed: 2.8
 			  drag: 0.003
 			  lifetime: 190
-			  width: 22
-			  height: 22
+			  width: 10
+			  height: 10
 			  backColor: ffbfad
 			  frontColor: ffbfad
 			  trailColor: ffbfad
 			  trailWidth: 2.6
 			  trailLength: 0
 			  shrinkInterp: sineIn
-              shrinkY: -1
-			  shrinkX: -1
+              shrinkY: -3
+			  shrinkX: -3
 			  collidesTiles: true
 		      collidesGround: true
   fragSpread: 5,
