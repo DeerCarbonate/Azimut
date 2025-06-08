@@ -76,18 +76,45 @@
 			  speed: 2.8
 			  drag: 0.007
 			  lifetime: 190
-			  width: 10
-			  height: 10
+			  width: 11
+			  height: 11
 			  backColor: ffbfad
 			  frontColor: ffbfad
 			  trailColor: ffbfad
 			  trailWidth: 2.6
 			  trailLength: 0
 			  shrinkInterp: sineIn
-              shrinkY: -3
-			  shrinkX: -3
+              shrinkY: -2.6
+			  shrinkX: -2.6
 			  collidesTiles: true
 		      collidesGround: true
+			         hitEffect: [
+          {
+            particles: 1
+            length: 0
+            lifetime: 120
+            region: shockwave
+            sizeFrom: 0
+            sizeTo: 120
+            colorTo: f0aba400
+          }
+          {
+            particles: 1
+            length: 0
+            lifetime: 60
+            sizeFrom: 26
+            sizeTo: 0
+            colorFrom: f0aba4
+            colorTo: f0aba488
+          }
+          {
+            particles: 1
+            length: 0
+            lifetime: 60
+            sizeFrom: 40
+            sizeTo: 0
+          }
+        ]
   fragSpread: 5,
   fragAngle: 40,
   fragBullets: 7,
