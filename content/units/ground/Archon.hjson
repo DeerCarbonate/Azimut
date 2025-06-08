@@ -176,8 +176,8 @@ sizeInterp: exp5In
 					 width: 8
 			         height: 8
 					 shrinkInterp: linear
-					 shrinkX: 1
-					 shrinkY: 1
+					 shrinkX: 0.2
+					 shrinkY: 0.2
 					 hitEffect: none
 					 collidesTiles: true
 		             collidesGround: true
