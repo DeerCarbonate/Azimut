@@ -145,7 +145,7 @@ baseLength: 1
 lightScl: 3
 lightOpacity: 2
 spin: 0
-sizeFrom: 12
+sizeFrom: 8.5
 sizeTo: 0
 offset: 1
 interp: exp5Out
