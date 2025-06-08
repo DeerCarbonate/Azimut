@@ -162,9 +162,9 @@ sizeInterp: exp5In
 					"type": BasicBulletType,
 					"damage": 90,
 					"speed": 1.63,
-					"lifetime": 145,
+					"lifetime": 135,
 					"trailWidth": 1.8,
-					"trailLength": 17,
+					"trailLength": 27,
 					"splashDamage": 10,
 					"splashDamageRadius": 15,
 		             weaveMag: 3
@@ -176,6 +176,11 @@ sizeInterp: exp5In
 					 width: 8
 			         height: 8
 					 shrinkInterp: fade
+					 shrinkX: 1
+					 shrinkY: 1
+					 hitEffect: none
+					 collidesTiles: true
+		             collidesGround: true
 			}
 		}
 	}
