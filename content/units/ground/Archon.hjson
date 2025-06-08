@@ -14,7 +14,7 @@
 	"legStraightLength": 2,
 	"legStraightness": 2,
 	"outlineRadius": 3,
-	"targetAir": true,
+	"targetAir": false,
 	"legCount": 4,
 	"legExtension": 2,
 	"legMaxLength": 3.6,
@@ -41,16 +41,14 @@
 	weapons: [
 			{
 			"name": Archon-weaponthree
-	        "layerOffset": -0.001,
 			"recoil": 1.8,
-			"x": 13.5,
+			"x": 0,
 			"y": -1,
 			"rotationLimit": 65,
             "shootY": 10,
-			"mirror": true,
-			"alternate": true,
+			"mirror": false,
 			"rotate": true,
-			"rotateSpeed": 2.5,
+			"rotateSpeed": 1.2,
 			"reload": 190
 			"shootSound": shoot-small-flame,
 			"controllable": true,
@@ -75,16 +73,21 @@
 					offset: 1
 			  }
 			  damage: 120
-			  speed: 5.5
-			  drag: 0.04
-			  lifetime: 65
-			  width: 10.5
-			  height: 10.5
+			  speed: 6.5
+			  drag: 0.06
+			  lifetime: 85
+			  width: 17.5
+			  height: 17.5
 			  backColor: ffbfad
 			  frontColor: ffbfad
 			  trailColor: ffbfad
 			  trailWidth: 2.6
-			  trailLength: 8
+			  trailLength: 4
+			  shrinkInterp: slope
+              shrinkY: 1
+			  shrinkX: 1
+			  collidesTiles: true
+		      collidesGround: true
   fragSpread: 5,
   fragAngle: 40,
   fragBullets: 7,
