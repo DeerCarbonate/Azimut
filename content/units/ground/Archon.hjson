@@ -96,8 +96,8 @@
             particles: 1
             length: 0
             lifetime: 83
-            sizeFrom: 17
-            sizeTo: 17
+            sizeFrom: 16.7
+            sizeTo: 16.7
             colorFrom: f0aba4
             colorTo: f0aba4
 			startDelay: 0
@@ -126,7 +126,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 17
+            sizeFrom: 16.7
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
@@ -136,7 +136,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 17
+            sizeFrom: 16.7
             sizeTo: 0
 			colorFrom: f0aba4
             colorTo: f0aba488
@@ -184,7 +184,8 @@ sizeInterp: exp5In
   fragSpread: 7,
   fragAngle: 360,
   fragBullets: 19,
-  fragOnHit: true
+  fragOnHit: false
+  fragDelay: 79
 					fragBullet: {
 					"type": BasicBulletType,
 					"damage": 90,
