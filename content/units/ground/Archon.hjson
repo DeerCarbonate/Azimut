@@ -118,7 +118,7 @@
           }
         ]
 		intervalBullets: 1
-bulletInterval: 3.2
+bulletInterval: 6.2
 intervalSpread: 180
 buildingDamageMultiplier: 0.1
 		intervalBullet: {
@@ -138,7 +138,7 @@ despawnEffect: {
 type: ParticleEffect 
 lifetime: 170
 colorFrom: ffbfad
-colorTo: af776520
+colorTo: af776500
 drag: 0.2
 particles: 2
 cone: 360
@@ -147,8 +147,8 @@ baseLength: 1
 lightScl: 3
 lightOpacity: 2
 spin: 0
-sizeFrom: 8.5
-sizeTo: 0
+sizeFrom: 5.2
+sizeTo: 2
 offset: 1
 interp: exp5Out
 sizeInterp: exp5In
