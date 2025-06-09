@@ -78,7 +78,7 @@
 			  pierceCap: 150
 			  speed: 3.45
 			  drag: 0.019 
-			  lifetime: 320
+			  lifetime: 309
 			  width: 11
 			  height: 11
 			  backColor: ffbfad
@@ -161,7 +161,7 @@ backColor: ffffff
 frontColor: f6afdd
 hitEffect: none
 visible: false
-despawnEffect: {
+hitEffect: {
 type: ParticleEffect 
 lifetime: 170
 colorFrom: ffbfad
