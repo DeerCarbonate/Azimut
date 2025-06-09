@@ -89,6 +89,26 @@
 			  collidesTiles: true
 		      collidesGround: true
 			         hitEffect: [
+		 {
+            particles: 1
+            length: 0
+            lifetime: 80
+            sizeFrom: 20
+            sizeTo: 20
+            colorFrom: f0aba4
+            colorTo: f0aba488
+			startDelay: 0
+          }
+		  {
+            particles: 1
+            length: 0
+            lifetime: 80
+            region: azimut-shockwave
+            sizeFrom: 80
+            sizeTo: 0
+            colorFrom: f0aba400
+			startDelay: 5
+          }
           {
             particles: 1
             length: 0
@@ -97,6 +117,7 @@
             sizeFrom: 0
             sizeTo: 120
             colorTo: f0aba400
+			startDelay: 79
           }
           {
             particles: 1
@@ -106,15 +127,17 @@
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
+			startDelay: 79
           }
           {
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 21
+            sizeFrom: 20
             sizeTo: 0
 			colorFrom: f0aba4
             colorTo: f0aba488
+			startDelay: 79
           }
         ]
 		intervalBullets: 1
