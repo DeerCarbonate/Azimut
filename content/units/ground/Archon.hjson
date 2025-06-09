@@ -73,8 +73,8 @@
 					offset: 1
 			  }
 			  damage: 120
-			  speed: 2.6
-			  drag: 0.016
+			  speed: 3
+			  drag: 0.019
 			  lifetime: 190
 			  width: 11
 			  height: 11
@@ -93,8 +93,8 @@
             particles: 1
             length: 0
             lifetime: 83
-            sizeFrom: 19.3
-            sizeTo: 19.3
+            sizeFrom: 18.9
+            sizeTo: 18.9
             colorFrom: f0aba4
             colorTo: f0aba488
 			startDelay: 0
@@ -123,7 +123,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 19.3
+            sizeFrom: 18.9
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
@@ -133,7 +133,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 19.3
+            sizeFrom: 18.9
             sizeTo: 0
 			colorFrom: f0aba4
             colorTo: f0aba488
