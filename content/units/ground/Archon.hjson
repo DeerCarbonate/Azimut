@@ -76,9 +76,9 @@
 			  pierce: true
 			  pierceBuilding: true
 			  pierceCap: 150
-			  speed: 3
+			  speed: 3.45
 			  drag: 0.019 
-			  lifetime: 360
+			  lifetime: 320
 			  width: 11
 			  height: 11
 			  backColor: ffbfad
@@ -211,6 +211,8 @@ sizeInterp: exp5In
 					 despawnEffect: none
 					 collidesTiles: true
 		             collidesGround: true
+					 homingPower: 0.08
+                     homingDelay: 0.1
 			}
 		}
 	}
