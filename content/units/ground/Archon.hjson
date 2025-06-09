@@ -119,7 +119,7 @@
         ]
 		intervalBullets: 1
 bulletInterval: 2.7
-intervalSpread: 360
+intervalSpread: 180
 buildingDamageMultiplier: 0.1
 		intervalBullet: {
 type: BasicBulletType
