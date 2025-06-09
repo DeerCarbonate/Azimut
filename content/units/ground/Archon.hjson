@@ -159,7 +159,7 @@ collidesTiles: true
 collidesGround: true
 backColor: ffffff
 frontColor: f6afdd
-hitEffect: none
+despawnEffect: none
 visible: false
 hitEffect: {
 type: ParticleEffect 
