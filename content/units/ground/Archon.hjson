@@ -74,7 +74,7 @@
 			  }
 			  damage: 120
 			  speed: 2.6
-			  drag: 0.01
+			  drag: 0.016
 			  lifetime: 190
 			  width: 11
 			  height: 11
