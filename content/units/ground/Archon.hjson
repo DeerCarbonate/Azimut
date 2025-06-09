@@ -178,6 +178,35 @@ interp: exp5Out
 sizeInterp: exp5In
 }
 }
+  fragSpread: 7,
+  fragAngle: 360,
+  fragBullets: 19,
+  fragOnHit: true
+					fragBullet: {
+					"type": BasicBulletType,
+					"damage": 90,
+					"speed": 1.63,
+					"lifetime": 131,
+					"trailWidth": 1.8,
+					"trailLength": 34,
+					"splashDamage": 10,
+					"splashDamageRadius": 15,
+		             weaveMag: 3
+		             weaveScale: 7
+					 sprite: circle-bullet
+					 backColor: ffbfad
+			         frontColor: ffbfad
+			         trailColor: ffbfad
+					 width: 8
+			         height: 8
+					 shrinkInterp: linear
+					 shrinkX: 0.35
+					 shrinkY: 0.35
+					 hitEffect: none
+					 despawnEffect: none
+					 collidesTiles: true
+		             collidesGround: true
+			}
 		}
 	}
 ]
