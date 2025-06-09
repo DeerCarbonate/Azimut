@@ -72,10 +72,13 @@
 					sizeTo: 0
 					offset: 1
 			  }
-			  damage: 120
+			  damage: 80
+			  pierce: true
+			  pierceBuilding: true
+			  pierceCap: 150
 			  speed: 3
 			  drag: 0.019 
-			  lifetime: 290
+			  lifetime: 360
 			  width: 11
 			  height: 11
 			  backColor: ffbfad
@@ -88,13 +91,13 @@
 			  shrinkX: -2.2
 			  collidesTiles: true
 		      collidesGround: true
-			         hitEffect: [
+			         despawnEffect: [
 		 {
             particles: 1
             length: 0
             lifetime: 83
-            sizeFrom: 17.2
-            sizeTo: 17.2
+            sizeFrom: 17
+            sizeTo: 17
             colorFrom: f0aba4
             colorTo: f0aba4
 			startDelay: 0
@@ -123,7 +126,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 17.2
+            sizeFrom: 17
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
@@ -133,7 +136,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 17.2
+            sizeFrom: 17
             sizeTo: 0
 			colorFrom: f0aba4
             colorTo: f0aba488
