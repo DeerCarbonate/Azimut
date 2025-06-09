@@ -212,7 +212,8 @@ sizeInterp: exp5In
 					 collidesTiles: true
 		             collidesGround: true
 					 homingPower: 0.08
-                     homingDelay: 0.1
+                     homingDelay: 0.08
+					 homingRange: 70
 			}
 		}
 	}
