@@ -127,7 +127,7 @@ width: 6
 sprite: "large-orb"
 height: 6
 speed: 1
-lifetime: 2.2
+lifetime: 3.7
 damage: 1
 collidesTiles: true
 collidesGround: true
