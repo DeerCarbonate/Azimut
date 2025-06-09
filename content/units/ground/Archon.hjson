@@ -118,7 +118,7 @@
           }
         ]
 		intervalBullets: 1
-bulletInterval: 6.2
+bulletInterval: 4
 intervalSpread: 180
 buildingDamageMultiplier: 0.1
 		intervalBullet: {
@@ -140,15 +140,15 @@ lifetime: 170
 colorFrom: ffbfad
 colorTo: af776500
 drag: 0.2
-particles: 2
+particles: 1
 cone: 360
 length: 8
 baseLength: 1
 lightScl: 3
 lightOpacity: 2
 spin: 0
-sizeFrom: 5.2
-sizeTo: 2
+sizeFrom: 6.5
+sizeTo: 1.2
 offset: 1
 interp: exp5Out
 sizeInterp: exp5In
