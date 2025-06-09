@@ -74,7 +74,7 @@
 			  }
 			  damage: 120
 			  speed: 2.6
-			  drag: 0.007
+			  drag: 0.0086
 			  lifetime: 190
 			  width: 11
 			  height: 11
@@ -118,8 +118,8 @@
           }
         ]
 		intervalBullets: 1
-bulletInterval: 4
-intervalSpread: 180
+bulletInterval: 3.93
+intervalSpread: 360
 buildingDamageMultiplier: 0.1
 		intervalBullet: {
 type: BasicBulletType
@@ -127,7 +127,7 @@ width: 6
 sprite: "large-orb"
 height: 6
 speed: 1
-lifetime: 1
+lifetime: 2.2
 damage: 1
 collidesTiles: true
 collidesGround: true
@@ -148,7 +148,7 @@ lightScl: 3
 lightOpacity: 2
 spin: 0
 sizeFrom: 6.5
-sizeTo: 1.2
+sizeTo: 0.9
 offset: 1
 interp: exp5Out
 sizeInterp: exp5In
