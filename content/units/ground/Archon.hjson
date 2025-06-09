@@ -160,7 +160,7 @@ backColor: ffffff
 frontColor: f6afdd
 despawnEffect: none
 visible: false
-hitEffect: {
+despawnEffect: {
 type: ParticleEffect 
 lifetime: 170
 colorFrom: ffbfad
