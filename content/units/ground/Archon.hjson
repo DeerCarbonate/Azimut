@@ -74,8 +74,8 @@
 			  }
 			  damage: 120
 			  speed: 2.6
-			  drag: 0.0086
-			  lifetime: 210
+			  drag: 0.01
+			  lifetime: 190
 			  width: 11
 			  height: 11
 			  backColor: ffbfad
