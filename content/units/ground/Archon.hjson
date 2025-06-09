@@ -74,8 +74,8 @@
 			  }
 			  damage: 120
 			  speed: 3
-			  drag: 0.019
-			  lifetime: 190
+			  drag: 0.019 
+			  lifetime: 260
 			  width: 11
 			  height: 11
 			  backColor: ffbfad
@@ -93,10 +93,10 @@
             particles: 1
             length: 0
             lifetime: 83
-            sizeFrom: 18.9
-            sizeTo: 18.9
+            sizeFrom: 18
+            sizeTo: 18
             colorFrom: f0aba4
-            colorTo: f0aba488
+            colorTo: f0aba4
 			startDelay: 0
           }
 		  {
@@ -123,7 +123,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 18.9
+            sizeFrom: 18
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
@@ -133,7 +133,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 18.9
+            sizeFrom: 18
             sizeTo: 0
 			colorFrom: f0aba4
             colorTo: f0aba488
