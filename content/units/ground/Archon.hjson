@@ -118,7 +118,7 @@
           }
         ]
 		intervalBullets: 1
-bulletInterval: 3.93
+bulletInterval: 3.38
 intervalSpread: 360
 buildingDamageMultiplier: 0.1
 		intervalBullet: {
