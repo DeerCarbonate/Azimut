@@ -118,7 +118,7 @@
           }
         ]
 		intervalBullets: 1
-bulletInterval: 3.38
+bulletInterval: 2.7
 intervalSpread: 360
 buildingDamageMultiplier: 0.1
 		intervalBullet: {
@@ -127,13 +127,14 @@ width: 6
 sprite: "large-orb"
 height: 6
 speed: 1
-lifetime: 3.7
+lifetime: 4.3
 damage: 1
 collidesTiles: true
 collidesGround: true
 backColor: ffffff
 frontColor: f6afdd
 hitEffect: none
+visible: false
 despawnEffect: {
 type: ParticleEffect 
 lifetime: 170
