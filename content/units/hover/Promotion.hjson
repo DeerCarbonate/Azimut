@@ -273,12 +273,12 @@ sizeInterp: exp5In
     rotWithParent: true
     followParent: true
     lifetime: 120
-    sizeFrom: 15
+    sizeFrom: 21
     sizeTo: 0
 	y: -2.5
-	strokeFrom: 0
-    strokeTo: 7
-    colorFrom: 823c6930
+	strokeFrom: 2
+    strokeTo: 8
+    colorFrom: 823c6900
     colorTo: f6afdd90
 	interp: exp5In
     sizeInterp: exp5Out
@@ -287,13 +287,13 @@ sizeInterp: exp5In
     type: WaveEffect
     rotWithParent: true
     followParent: true
-    lifetime: 113
-    sizeFrom: 15
+    lifetime: 120
+    sizeFrom: 21
     sizeTo: 0
 	y: -2.5
-	strokeFrom: 0
-    strokeTo: 3
-    colorFrom: 823c6930
+	strokeFrom: 2
+    strokeTo: 5
+    colorFrom: 823c6900
     colorTo: f6afdd90
 	interp: exp5In
     sizeInterp: exp5Out
