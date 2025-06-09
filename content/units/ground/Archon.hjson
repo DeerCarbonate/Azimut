@@ -92,9 +92,9 @@
 		 {
             particles: 1
             length: 0
-            lifetime: 80
-            sizeFrom: 20
-            sizeTo: 20
+            lifetime: 83
+            sizeFrom: 19.3
+            sizeTo: 19.3
             colorFrom: f0aba4
             colorTo: f0aba488
 			startDelay: 0
@@ -102,7 +102,7 @@
 		  {
             particles: 1
             length: 0
-            lifetime: 80
+            lifetime: 83
             region: azimut-shockwave
             sizeFrom: 80
             sizeTo: 0
@@ -123,7 +123,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 13
+            sizeFrom: 19.3
             sizeTo: 0
             colorFrom: f0aba4
             colorTo: f0aba488
@@ -133,7 +133,7 @@
             particles: 1
             length: 0
             lifetime: 60
-            sizeFrom: 20
+            sizeFrom: 19.3
             sizeTo: 0
 			colorFrom: f0aba4
             colorTo: f0aba488
@@ -178,35 +178,6 @@ interp: exp5Out
 sizeInterp: exp5In
 }
 }
-  fragSpread: 7,
-  fragAngle: 360,
-  fragBullets: 19,
-  fragOnHit: true
-					fragBullet: {
-					"type": BasicBulletType,
-					"damage": 90,
-					"speed": 1.63,
-					"lifetime": 131,
-					"trailWidth": 1.8,
-					"trailLength": 34,
-					"splashDamage": 10,
-					"splashDamageRadius": 15,
-		             weaveMag: 3
-		             weaveScale: 7
-					 sprite: circle-bullet
-					 backColor: ffbfad
-			         frontColor: ffbfad
-			         trailColor: ffbfad
-					 width: 8
-			         height: 8
-					 shrinkInterp: linear
-					 shrinkX: 0.35
-					 shrinkY: 0.35
-					 hitEffect: none
-					 despawnEffect: none
-					 collidesTiles: true
-		             collidesGround: true
-			}
 		}
 	}
 ]
