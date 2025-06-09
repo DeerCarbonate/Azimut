@@ -186,8 +186,8 @@ sizeInterp: exp5In
   fragBullets: 19,
   fragOnHit: false
   fragDelay: 79
-  fragLifeMin: 48
-  fragLifeMax: 131
+  fragLifeMin: 2
+  fragLifeMax: 4
 					fragBullet: {
 					"type": BasicBulletType,
 					"damage": 90,
