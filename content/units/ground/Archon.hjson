@@ -42,7 +42,7 @@
 			{
 			"name": Archon-weapon
 			"recoil": 1.8
-			"x": 10
+			"x": 13
 			"y": -1
 			"rotationLimit": 65
             "shootY": 10
