@@ -65,9 +65,8 @@
 			outlineColor: 22251b,
 			outlineRadius: 0,
 			progress: charge
-			moveRot: -1
-			moveY: -1
-			moveX: -1
+			moveY: 1
+			moveX: 1
 			x: 0
 			y: 0
 		}
@@ -77,9 +76,8 @@
 			outlineColor: 22251b,
 			outlineRadius: 0,
 			progress: charge
-			moveRot: -1
-			moveY: -1
-			moveX: -1
+			moveY: 1
+			moveX: 1
 			x: 0
 			y: 0
 		}
