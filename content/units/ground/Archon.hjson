@@ -53,12 +53,17 @@
 			"shootSound": shoot-small-flame,
 			"controllable": true,
 			"aiControllable": true,
+			shootY: -1.7
+			shoot: {
+    type: ShootSpread
+    firstShotDelay: 40
+    }
 				parts: [
 		{
 			suffix: -s
 			mirror: true
 			outlineColor: 22251b,
-			outlineRadius: 3,
+			outlineRadius: 0,
 			progress: charge
 			moveRot: -1
 			moveY: -1
@@ -70,7 +75,7 @@
 			suffix: -r
 			mirror: true
 			outlineColor: 22251b,
-			outlineRadius: 3,
+			outlineRadius: 0,
 			progress: charge
 			moveRot: -1
 			moveY: -1
