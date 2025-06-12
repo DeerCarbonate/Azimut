@@ -41,18 +41,22 @@
 	weapons: [
 			{
 			"name": Archon-weapon
-			"recoil": 1.8,
-			"x": 0,
-			"y": -1,
-			"rotationLimit": 65,
-            "shootY": 10,
-			"mirror": false,
+			"recoil": 1.8
+			"x": 10
+			"y": -1
+			"rotationLimit": 65
+            "shootY": 10
+			"mirror": true
+			alternate: false
 			"rotate": true,
 			"rotateSpeed": 1.2,
 			"reload": 190
 			"shootSound": shoot-small-flame,
 			"controllable": true,
 			"aiControllable": true,
+			layerOffset: -0.001
+			baseRotation: -180
+			ignoreRotation: true
 			shootY: -1.7
 			shoot: {
     type: ShootSpread
@@ -65,8 +69,8 @@
 			outlineColor: 22251b,
 			outlineRadius: 0,
 			progress: charge
-			moveY: 1
-			moveX: 1
+			moveY: -1
+			moveX: 1.2
 			x: 0
 			y: 0
 		}
@@ -76,8 +80,9 @@
 			outlineColor: 22251b,
 			outlineRadius: 0,
 			progress: charge
-			moveY: 1
-			moveX: 1
+			moveRot: 8
+			moveY: -0.9
+			moveX: 0.8
 			x: 0
 			y: 0
 		}
