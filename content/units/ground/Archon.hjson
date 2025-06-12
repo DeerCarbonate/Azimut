@@ -55,7 +55,7 @@
 			"controllable": true,
 			"aiControllable": true,
 			layerOffset: -0.001
-			baseRotation: -180
+			baseRotation: -90
 			ignoreRotation: true
 			shootY: -1.7
 			shoot: {
