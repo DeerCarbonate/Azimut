@@ -40,7 +40,7 @@
 	"description": "Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit.",
 	weapons: [
 			{
-			"name": Archon-weaponthree
+			"name": Archon-weapon
 			"recoil": 1.8,
 			"x": 0,
 			"y": -1,
@@ -53,6 +53,32 @@
 			"shootSound": shoot-small-flame,
 			"controllable": true,
 			"aiControllable": true,
+				parts: [
+		{
+			suffix: -s
+			mirror: true
+			outlineColor: 22251b,
+			outlineRadius: 3,
+			progress: charge
+			moveRot: -1
+			moveY: -1
+			moveX: -1
+			x: 0
+			y: 0
+		}
+		{
+			suffix: -r
+			mirror: true
+			outlineColor: 22251b,
+			outlineRadius: 3,
+			progress: charge
+			moveRot: -1
+			moveY: -1
+			moveX: -1
+			x: 0
+			y: 0
+		}
+	]
 	bullet: {
 			  type: BasicBulletType
 			  sprite: circle-bullet
