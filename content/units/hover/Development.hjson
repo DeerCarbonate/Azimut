@@ -69,7 +69,7 @@ shoot: {
                 type: BasicBulletType
                 damage: 85
 				drag: 0.028
-                homing: false
+                homing: true
                 speed: 7.05
                 sprite: large-bomb
                 lifetime: 120
@@ -77,11 +77,11 @@ shoot: {
                 frontColor: ffffff
                 width: 14
                 height: 38
-				recoil: 0.25
+				recoil: 0.34
 				weaveMag: 1
 				weaveScale: 1
-				homingPower: 0.12
-				homingDelay: 0.05
+				homingPower: 0.01
+				homingDelay: 0.02
 		splashDamageRadius: 25
 		splashDamage: 45
 		hitEffect: blastExplosion
