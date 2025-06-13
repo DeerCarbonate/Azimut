@@ -15,6 +15,8 @@ engineOffset: 10.2
 engineColor: f6afdd
 engineColorInner: FFFFFF
 engineSize: 5
+trailColor: f6afdd
+trailLength: 9
 lowAltitude: true
 	parts: [
 		{
@@ -29,61 +31,11 @@ lowAltitude: true
 			y: -1.2
 		}
 	]
-abilities: [
-        {
-        effect:{
-        type: ParticleEffect 
-        colorFrom: f6afdd
-        colorTo: 6a3fa490
-        lifetime: 65
-        particles: 1
-        cone: 0
-        length: 0
-        baseLength: 0
-        lightScl: 2
-        lightOpacity: 2
-        spin: 0
-        sizeFrom: 2
-        sizeTo: 0 
-		layerOffset: -0.001
-        }
-        type : MoveEffectAbility
-        minVelocity: 0.2
-        interval: 0.000000000000000000000000000001
-        rotateEffect: true
-        y : -4.8 
-        x : 14.8
-    }
-	{
-        effect:{
-        type: ParticleEffect 
-        colorFrom: f6afdd
-        colorTo: 6a3fa490
-        lifetime: 65
-        particles: 1
-        cone: 0
-        length: 0
-        baseLength: 0
-        lightScl: 2
-        lightOpacity: 2
-        spin: 0
-        sizeFrom: 2
-        sizeTo: 0 
-		layerOffset: -0.001
-        }
-        type : MoveEffectAbility
-        minVelocity: 0.2
-        interval: 0.000000000000000000000000000001
-        rotateEffect: true
-        y : -4.8
-        x : -14.8
-    }
-]
 weapons: [{
                 name: Development-weapon
                 mirror: true
                 top: false
-                alternate: true
+                alternate: false
                 rotate: false
                 x: 7.5
                 y: -5.5
@@ -93,30 +45,41 @@ weapons: [{
 			    velocityRnd: 0.4
 				ignoreRotation: true
 				shootCone: 360
-                shoot: {
-                    shots: 4
-                    shotDelay: 2.5
-            }
-            inaccuracy: 6.5
+shoot: {
+	type: ShootMulti
+	source: {
+    type: ShootSpread
+    firstShotDelay: 12
+    spread: 0.2
+    shots: 1
+    }
+	dest: [
+	{
+	type: ShootPattern
+		shots: 6
+		shotDelay: 2.4
+	}
+	]
+	}
+            inaccuracy: 12
             recoil: 1.5
             shootSound: malignShoot
             shootEffect: none
             bullet: {
                 type: BasicBulletType
                 damage: 65
-				drag: 0.011
+				drag: 0.028
                 homing: true
                 speed: 8.05
                 sprite: large-bomb
-				rotateSpeed: 7.5
                 lifetime: 62
                 backColor: f6afdd
                 frontColor: ffffff
                 width: 14
                 height: 38
-				recoil: 0.02
-				weaveMag: 3
-				weaveScale: 4
+				recoil: 0.08
+				weaveMag: 1
+				weaveScale: 1
 				homingPower: 0.12
 				homingDelay: 0.05
 		splashDamageRadius: 25
