@@ -67,17 +67,17 @@ shoot: {
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 65
+                damage: 85
 				drag: 0.028
-                homing: true
-                speed: 8.05
+                homing: false
+                speed: 7.05
                 sprite: large-bomb
-                lifetime: 62
+                lifetime: 120
                 backColor: f6afdd
                 frontColor: ffffff
                 width: 14
                 height: 38
-				recoil: 0.08
+				recoil: 0.25
 				weaveMag: 1
 				weaveScale: 1
 				homingPower: 0.12
