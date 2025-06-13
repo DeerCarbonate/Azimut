@@ -67,7 +67,7 @@ shoot: {
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 45
+                damage: 35
 				drag: 0.028
                 homing: true
                 speed: 7.05
@@ -80,7 +80,7 @@ shoot: {
 				recoil: 0.34
 				weaveMag: 1
 				weaveScale: 1
-				homingPower: 0.28
+				homingPower: 0.21
 				homingDelay: 0.01
 		splashDamageRadius: 25
 		splashDamage: 45
