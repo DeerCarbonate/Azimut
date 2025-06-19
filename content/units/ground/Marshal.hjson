@@ -46,7 +46,7 @@
 		shootY: 4
 		shoot: {
 			type: ShootSpread
-			firstShootDelay: 12
+			firstShotDelay: 12
 			shots: 1
 		}
 				parts: [
