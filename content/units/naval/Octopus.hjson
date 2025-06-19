@@ -27,125 +27,126 @@
 			"rotate": true,
 			"rotateSpeed": 9,
 			"reload": 100,
+			inaccuracy:12
 			"shootSound": shoot-small-flame,
 			"controllable": true,
 			"aiControllable": true,
-			shoot: {
-			type: ShootSpread
-			spread: 5.6
-			shots: 4
-			}
-bullet: {
-type: BasicBulletType
-width: 13
-height: 13
-speed: 2.4
-collidesGround: true 
-lifetime: 105
-damage: 27
-backColor: e5f9f1
-frontColor: b3eed8
-intervalBullets: 2
-bulletInterval: 2
-intervalSpread: 180
-homingPower: 0.08
-homingDelay: 15
-weaveMag: 4
-weaveScale: 5
+            shoot: {
+            type: ShootMulti
+            source: {
+               type: ShootSpread
+               spread: 14
+               shots: 2
+               }
+            dest: [
+            {
+                    type: ShootMulti
+                    source: {
+                      type: ShootPattern
+                       shots: 2
+                      shotDelay: 2
+                      }
+                   dest: [
+                   {
+                   type: ShootPattern
+                       firstShotDelay: 25
+                       shots: 2
+                       shotDelay: 20
+                   }
+                   ]
+            }
+            ]
+            }
+            bullet: {
+                type: BasicBulletType
+                width: 7
+                height: 15
+                speed: 2.4
+                drag:-0.002
+                collidesGround: true
+                lifetime: 105
+                damage: 27
+                backColor: e5f9f1
+                frontColor: b3eed8
+                homingPower: 0.1
+                homingRange:100
+                homingDelay: 30
+                weaveMag: 1
+                weaveScale: 6
 
-shootEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed880
-particles: 6
-cone: 4
-drag: 0.3
-length: 16
-baseLength: 5
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 3
-sizeTo: 0 
-offset: 1
-}
-hitEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed880
-drag: 0.7
-particles: 7
-cone: 5
-length: 8
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 4
-sizeTo: 0 
-offset: 1
-}
-despawnEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed880
-drag: 0.7
-particles: 7
-cone: 5
-length: 9
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 4
-sizeTo: 0 
-offset: 1
-}
-
-intervalBullet: {
-type: BasicBulletType
-width: 1
-height: 1
-speed: 1
-collidesGround: true 
-lifetime: 1
-damage: 1
-backColor: b3eed8
-frontColor: e5f9f1
-
-hitEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.4
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}
-despawnEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.7
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}
-}
+                shootEffect: {
+                    type: ParticleEffect
+                    colorFrom: e5f9f1
+                    colorTo: b3eed880
+                    particles: 6
+                    cone: 4
+                    lifetime:15
+                    drag: 0.3
+                    length: 16
+                    baseLength: 5
+                    lightScl: 3
+                    lightOpacity: 2
+                    spin: 0
+                    sizeFrom: 3
+                    sizeTo: 0
+                    offset: 1
+                }
+                hitEffect: {
+                    type: ParticleEffect
+                    colorFrom: e5f9f1
+                    colorTo: b3eed880
+                    particles: 7
+                    cone: 15
+                    length: 25
+                    spin: 0
+                    lifetime:15
+                    sizeFrom: 2
+                    sizeTo: 0
+                }
+                despawnEffect: {
+                    type: ParticleEffect
+                    colorFrom: e5f9f1
+                    colorTo: b3eed880
+                    drag: 0.7
+                    particles: 7
+                    cone: 16
+                    length: 60
+                    spin: 0
+                    sizeFrom: 3
+                    sizeTo: 0
+                    lifetime:15
+                }
+                trailEffect:[
+                {
+                    type: ParticleEffect
+                    colorFrom: e5f9f180
+                    colorTo: b3eed800
+                    particles: 1
+                    cone: 360
+                    lifetime:30
+                    length: 2
+                    spin: 0
+                    sizeFrom: 1
+                    sizeTo: 1
+                    layer:100.2
+                }
+                {
+                    type: ParticleEffect
+                    region:large-bomb
+                    colorFrom: ffffff
+                    colorTo: b3eed800
+                    particles: 1
+                    lifetime:20
+                    cone: 360
+                    length: 15
+                    spin: 2
+                    sizeFrom: 3
+                    sizeTo: 0
+                    layer:100.2
+                }
+                ]
+                trailChance:1
+                trailIntrerval:6
 			}
 		}
 	]

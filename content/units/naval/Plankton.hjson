@@ -56,22 +56,22 @@ shoot: {
     spread: 1
     shots: 4
     }
-			bullet: {
-			type: BasicBulletType
-			backColor: e5f9f1
-			frontColor: b3eed8
-			height: 6
-			width: 6
-			lifetime: 53
-			damage: 31
-			speed: 4.8
-			trailColor: 8edfc1
-			trailLength: 7
-			trailWidth: 1.5
-			despawnEffect: none
-			collidesTiles: true
-			keepVelocity: false
-			collidesAir: false
+    bullet: {
+    type: BasicBulletType
+    backColor: e5f9f1
+    frontColor: b3eed8
+    height: 6
+    width: 6
+    lifetime: 53
+    damage: 31
+    speed: 4.8
+    trailColor: 8edfc1
+    trailLength: 7
+    trailWidth: 1.5
+    despawnEffect: none
+    collidesTiles: true
+    keepVelocity: false
+    collidesAir: false
 	hitEffect: {
     type: WaveEffect
     rotWithParent: true

@@ -49,8 +49,8 @@
 		"alternate": false,
 		"rotate": true,
 		"rotateSpeed": 2,
-		"reload": 230,
-		inacurrasy": 10,
+		"reload": 75,
+		inaccuracy": 2,
 		"shootSound": energy-blade-launch,
 		"controllable": true,
 		"aiControllable": true,
@@ -71,25 +71,12 @@
 		}
 	]
 		shoot: {
-		shotDelay: 1.2
-		shots: 18
+            type: ShootBarrel
+            firstShotDelay: 12
+            shotDelay: 4
+            shots: 5
+        }
 
-					shootEffect: {
-			type: ParticleEffect 
-			colorFrom: cc918b
-			colorTo: ffbfad00
-			particles: 4
-			cone: 4
-			length: 5
-			baseLength: 3
-			lightScl: 3
-			lightOpacity: 2
-			spin: 1
-			sizeFrom: 1
-			sizeTo: 0
-			offset: 1
-			}
-		}
 		bullet: {
       type: LaserBulletType
       colors: [af7765, f0aba4, ffc5ae]
@@ -98,6 +85,21 @@
       sideAngle: 120
       sideWidth: 2.4
       damage: 8
+    shootEffect: {
+        type: ParticleEffect
+        colorFrom: cc918b
+        colorTo: ffbfad00
+        particles: 4
+        cone: 4
+        length: 5
+        baseLength: 3
+        lightScl: 3
+        lightOpacity: 2
+        spin: 1
+        sizeFrom: 1
+        sizeTo: 0
+        offset: 1
+        }
       pierceBuilding: false
       pierce: true
       pierceCap: 1
@@ -111,11 +113,37 @@
     y: -4.6
 	layerOffSet: -0.001
     name: Paladin-weapontwo
-    reload: 54
+    reload: 120
     rotate: true
     mirror: false
 	alternate: false
     shootSound: shoot
+       shoot: {
+       	type: ShootMulti
+       	source: {
+           type: ShootSpread
+           spread: 3
+           shots: 2
+           }
+       	dest: [
+       	{
+               	type: ShootMulti
+               	source: {
+                   type: ShootPattern
+                   shots: 2
+                   shotDelay: 5
+                   }
+               	dest: [
+               	{
+               	type: ShootPattern
+               	    firstShotDelay: 25
+               		shots: 2
+               		shotDelay: 40
+               	}
+               	]
+        }
+       	]
+       	}
 	bullet: {
 			  type: BasicBulletType
 			  sprite: missile-large
@@ -136,8 +164,9 @@
 					offset: 1
 			  }
 			  damage: 35
-		      homingPower: 0.08
-              homingDelay: 0.1
+		      homingPower: 0.1
+		      homingRange: 60
+              homingDelay: 10
 			  speed: 4
 			  lifetime: 45
 			  width: 8.5
@@ -160,11 +189,15 @@
     y: 4.6
 	layerOffSet: -0.001
     name: Paladin-weapontwo
-    reload: 54
+    reload: 32
     rotate: true
     mirror: false
 	alternate: false
     shootSound: shoot
+    shoot: {
+        shotDelay: 3
+        shots: 2
+        }
 	bullet: {
 			  type: BasicBulletType
 			  sprite: missile-large

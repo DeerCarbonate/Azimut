@@ -3,7 +3,7 @@
 	name: Adder
 	description: "Guard of the core forum."
 	flying: true
-	health: 390
+	health: 260
 	hitSize: 9.655
 	buildSpeed: 1.5
 	drag: 0.065
@@ -19,9 +19,80 @@
 	engineColor: bf92f9
 	trailColor: bf92f9
 	trailLength: 8
-		abilities: [
+    weapons: [
     {
-    type: RegenAbility
-    amount: 0.1
-	}
+        controllable: true
+        layerOffset: -0.001
+        shootCone: 360
+        rotate: true
+        mirror: false
+        shake: 0.5
+        x: 0
+        y: 0
+        targetBuildings:true
+        inaccuracy:80
+        reload: 50
+        shoot: {
+            firstShotDelay: 12
+            shotDelay: 2
+            shots: 5
+            }
+        ejectEffect: none
+        shootSound: none
+        bullet: {
+            type: BasicBulletType
+            collidesAir: true
+
+            pierceArmor:true
+            width:9
+            length:9
+            trailWidth:2.5
+            trailLength:6
+            trailColor:bf92f9
+            lifetime: 32
+            damage: 6
+            speed: 4
+            drag:0.02
+            healAmount:30
+            lifesteal:0.2
+            homingRange:50
+            homingPower:0.1
+            homingDelay:4
+            collidesTeam:true
+            despawnEffect: none
+            shootEffect: {
+                sizeInterp: pow3Out
+                interp: pow3Out
+                particles: 4
+                lifetime: 20
+                cone: 7
+
+                sizeTo: 0.25
+                sizeFrom: 1
+                length: 24
+
+                colorFrom: bf92f9
+                colorTo: bf92f900
+
+                }
+
+            hitEffect: {
+                type: ExplosionEffect
+                lifetime: 15
+
+                waveColor: bf92f9
+                waveStroke: 1.5
+                waveRad: 3
+
+                smokeColor: bf92f9
+                smokes: 0
+
+                sparkColor: bf92f9
+                sparkStroke: 1.25
+                sparkRad: 4.5
+                sparkLen: 1.5
+                sparks: 2
+                }
+            }
+        }
     ]
