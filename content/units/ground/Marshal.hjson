@@ -43,7 +43,7 @@
 		"shootSound": cannon_shoot_1,
 		"controllable": true,
 		"aiControllable": true,
-				shootEffect: [
+				ejectEffect: [
 		{
           offset: 90
           length: 0
