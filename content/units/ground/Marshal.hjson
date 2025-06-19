@@ -48,6 +48,7 @@
 			shots: 2
 			spread: 3
 		}
+		smokeEffect: none
 		shootEffect: [
 		{
           offset: 90
@@ -56,7 +57,7 @@
           lifetime: 28
           region: azimut-shooty
           colorTo: edb1aa
-          sizeFrom: 20
+          sizeFrom: 30
           sizeTo: 0
         }
 		]
