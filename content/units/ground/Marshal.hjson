@@ -47,14 +47,14 @@
 				ejectEffect: [
 		{
           offset: 90
-          length: 5
+          length: 0
           cone: 0
-          lifetime: 28
+          lifetime: 18
           region: azimut-shooty
           colorTo: edb1aa
-          sizeFrom: 10
+          sizeFrom: 14
           sizeTo: 0
-		  layerOffset: 90
+		  layerOffset: 80
         }
 		]
 		shoot: {
