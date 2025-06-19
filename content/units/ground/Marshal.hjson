@@ -44,24 +44,28 @@
 		"controllable": true,
 		"aiControllable": true,
 		shootY: 4
-				ejectEffect: [
-		{
-          offset: 90
-          length: 0
-          cone: 0
-          lifetime: 18
-          region: azimut-shooty
-          colorTo: edb1aa
-          sizeFrom: 14
-          sizeTo: 0
-		  layerOffset: 80
-        }
-		]
 		shoot: {
 			type: ShootSpread
-			shots: 2
-			spread: 3
+			firstShootDelay: 12
+			shots: 1
 		}
+				parts: [
+		            {
+                type: FlarePart
+                radius: 0
+                radiusTo: 13.5
+                stroke: 3
+                color1: af7765
+                color2: f0aba4
+                rotation: 45
+                rotMove: 85
+                followRotation: false
+                progress: {
+                    type: charge
+                    interp: pow4In
+                }
+            }
+		]
 		smokeEffect: none
 		bullet: {
 		type: BasicBulletType
@@ -69,14 +73,14 @@
 		lifetime: 23
 		width: 8
 		height: 8
-		speed: 6
+		speed: 3
 		backColor: ffbfad
 		frontColor: cc918b
 		trailColor: cc918b
 		trailWidth: 1.65
 		trailLength: 6
 		weaveMag: 4
-		weaveScale: 4
+		weaveScale: 2
 		homingPower: 0.08
         homingDelay: 0.1
 		despawnEffect: none
