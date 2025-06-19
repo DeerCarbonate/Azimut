@@ -43,10 +43,11 @@
 		"shootSound": cannon_shoot_1,
 		"controllable": true,
 		"aiControllable": true,
+		shootY: 4
 				ejectEffect: [
 		{
-          offset: 40
-          length: 0
+          offset: 90
+          length: 5
           cone: 0
           lifetime: 28
           region: azimut-shooty
