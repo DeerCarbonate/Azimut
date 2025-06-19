@@ -43,13 +43,7 @@
 		"shootSound": cannon_shoot_1,
 		"controllable": true,
 		"aiControllable": true,
-		shoot: {
-			type: ShootSpread
-			shots: 2
-			spread: 3
-		}
-		smokeEffect: none
-		shootEffect: [
+				shootEffect: [
 		{
           offset: 90
           length: 0
@@ -59,8 +53,15 @@
           colorTo: edb1aa
           sizeFrom: 30
           sizeTo: 0
+		  layerOffset: 110
         }
 		]
+		shoot: {
+			type: ShootSpread
+			shots: 2
+			spread: 3
+		}
+		smokeEffect: none
 		bullet: {
 		type: BasicBulletType
 		damage: 18
