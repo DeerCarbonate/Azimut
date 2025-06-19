@@ -45,15 +45,15 @@
 		"aiControllable": true,
 				ejectEffect: [
 		{
-          offset: 90
+          offset: 40
           length: 0
-          cone: 5
+          cone: 0
           lifetime: 28
           region: azimut-shooty
           colorTo: edb1aa
           sizeFrom: 10
           sizeTo: 0
-		  y: 2
+		  layerOffset: 90
         }
 		]
 		shoot: {
