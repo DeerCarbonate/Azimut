@@ -61,7 +61,7 @@
                 rotMove: 85
                 followRotation: false
                 progress: {
-                    type: charge
+                    type: shoot
                     interp: pow2In
                 }
             }
@@ -71,15 +71,15 @@
 		type: BasicBulletType
 		damage: 18
 		lifetime: 56
-		width: 8
-		height: 8
-		speed: 3
+		width: 9
+		height: 9
+		speed: 3.2
 		backColor: ffbfad
 		frontColor: cc918b
 		trailColor: cc918b
-		trailWidth: 1.65
-		trailLength: 6
-		weaveMag: 5
+		trailWidth: 1.7
+		trailLength: 8
+		weaveMag: 2
 		weaveScale: 3
 		homingPower: 0.08
         homingDelay: 0.1
