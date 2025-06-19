@@ -39,7 +39,7 @@
 		"alternate": true,
 		"rotate": true,
 		"rotateSpeed": 5,
-		"reload": 18,
+		"reload": 27,
 		"shootSound": cannon_shoot_1,
 		"controllable": true,
 		"aiControllable": true,
@@ -62,7 +62,7 @@
                 followRotation: false
                 progress: {
                     type: charge
-                    interp: pow4In
+                    interp: pow2In
                 }
             }
 		]
@@ -70,7 +70,7 @@
 		bullet: {
 		type: BasicBulletType
 		damage: 18
-		lifetime: 23
+		lifetime: 56
 		width: 8
 		height: 8
 		speed: 3
@@ -79,8 +79,8 @@
 		trailColor: cc918b
 		trailWidth: 1.65
 		trailLength: 6
-		weaveMag: 4
-		weaveScale: 2
+		weaveMag: 5
+		weaveScale: 3
 		homingPower: 0.08
         homingDelay: 0.1
 		despawnEffect: none
