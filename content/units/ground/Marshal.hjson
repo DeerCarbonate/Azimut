@@ -58,11 +58,11 @@
                 color1: af7765
                 color2: f0aba4
                 rotation: 45
-                rotMove: 85
+                rotMove: 75
                 followRotation: false
                 progress: {
                     type: charge
-                    interp: pow2In
+                    interp: slope
                 }
             }
 		]
