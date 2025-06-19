@@ -61,7 +61,7 @@
                 rotMove: 85
                 followRotation: false
                 progress: {
-                    type: shoot
+                    type: charge
                     interp: pow2In
                 }
             }
