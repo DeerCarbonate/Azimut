@@ -48,23 +48,19 @@
 			shots: 2
 			spread: 3
 		}
+		shootEffect: [
+		{
+          offset: 90
+          length: 0
+          cone: 0
+          lifetime: 28
+          region: azimut-shooty
+          colorTo: edb1aa
+          sizeFrom: 20
+          sizeTo: 0
+        }
+		]
 		bullet: {
-		shootEffect: {
-		type: ParticleEffect 
-			colorFrom: cc918b
-			colorTo: ffbfad20
-			particles: 3
-			cone: 12
-			length: 12
-			baseLength: 5
-			lightScl: 3
-			lightOpacity: 2
-			spin: 3
-			sizeFrom: 2.1
-			sizeTo: 0.1
-			offset: 1
-			lifetime: 25
-		}
 		type: BasicBulletType
 		damage: 18
 		lifetime: 23
