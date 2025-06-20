@@ -42,25 +42,26 @@ objectives: [
 			"alternate": false,
 			"rotate": true,
 			"rotateSpeed": 9,
-			"reload": 230,
-			"inacurrasy": 3,
+			"reload": 90,
+			"inaccuracy": 6,
 			"shootSound": mineDeploy,
 			"controllable": true,
 			"aiControllable": true,
 			"y": -5
 			"x": 0
+		    velocityRnd:0.2
 shoot: {
     type: ShootSpread
     firstShotDelay: 10
-    shotDelay: 7
-    spread: 1
-    shots: 4
+    shotDelay: 5
+    spread: 2
+    shots: 2
     }
     bullet: {
     type: BasicBulletType
     backColor: e5f9f1
     frontColor: b3eed8
-    height: 6
+    height: 8
     width: 6
     lifetime: 53
     damage: 31
