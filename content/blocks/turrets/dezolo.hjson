@@ -70,15 +70,30 @@ ammoTypes: {
                             type: ParticleEffect
                             lifetime: 18
                             particles: 2
-                            baseLength: 3
-                            length: 10
+                            offsetX:-10
+                            length:30
                             line: true
                             strokeTo: 1.5
                             lenFrom: 2
                             lenTo: 5
                             colorTo: fcf0bd00
 							colorFrom: ffffff95
-                            cone: 45
+                            cone: 25
+                            baseRotation: 180
+                        }
+{
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            offsetX:-5
+                            length: 40
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+                            cone: 10
                             baseRotation: 180
                         }
                         {
