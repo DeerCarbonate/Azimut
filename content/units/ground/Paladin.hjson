@@ -77,9 +77,9 @@
 		bullet: {
       type: LaserBulletType
       colors: [f0aba4, dcc6c6]
-      length: 155
+      length: 100
       width: 3.5
-      sideAngle: -140
+      sideAngle: 140
       sideWidth: 3.4
       damage: 8
     shootEffect: {
