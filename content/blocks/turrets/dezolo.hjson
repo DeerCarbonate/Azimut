@@ -39,7 +39,6 @@ shootY: 1.4
 reload: 140
 range: 300
 targetAir: true
-moveWhileCharging: true
 targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
@@ -63,22 +62,9 @@ ammoTypes: {
   collidesTiles: true
   collidesGround: true
   buildingDamageMultiplier: 0.1
-            bulletInterval: 0.000000000008
-            intervalRandomSpread: 5
-            intervalBullet: {
-                type: BasicBulletType
-                damage: 1
-                length: 15
-                width: 0
-                lightColor: ffffff00
-                instantDisappear: true
-                hittable: false
-                absorbable: false
-                collides: false
-                
-                despawnEffect: {
-                    type: MultiEffect
-                    effects: [
+  trailChance:1
+  trailInterval:0.5
+  trailEffect:[
                         {
                             type: ParticleEffect
                             lifetime: 18
@@ -92,7 +78,7 @@ ammoTypes: {
                             colorTo: fcf0bd00
 							colorFrom: ffffff95
                             cone: 45
-                            baseRotation: 200
+                            baseRotation: 180
                         }
                         {
                             type: ParticleEffect
@@ -107,7 +93,7 @@ ammoTypes: {
                             colorTo: fcf0bd00
 							colorFrom: ffffff95
                             cone: 25
-                            baseRotation: 200
+                            baseRotation: 180
                         }
                     ]
                 }
@@ -140,7 +126,7 @@ ammoTypes: {
         hitEffect: hitBulletColor
 		buildingDamageMultiplier: 0.1
 		}
-      hitEffect: {
+      despawnEffect: {
 					type: ParticleEffect 
                             colorTo: fcf0bd00
 							colorFrom: ffffff95
