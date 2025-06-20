@@ -48,6 +48,8 @@ speed: 1.7
 collidesTiles: true
 collidesGround: true
 lifetime: 85
+shrinkY:0
+shrinkX:0
 damage: 40
 frontColor: ffffff,
 backColor: fcf0bd,
@@ -58,8 +60,8 @@ drag: 0.06
 sprite: large-bomb
 spin: 2
 fragBullets: 5
-fragVelocityMin: 7
-fragVelocityMax: 21
+fragVelocityMin: 1
+fragVelocityMax: 3
 fragRandomSpread: 5
 fragSpread: 2
 buildingDamageMultiplier: 0.1
@@ -74,12 +76,9 @@ colorTo: b9c4d800
 drag: 0.4
 particles: 2
 cone: 360
-length: 9
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
+length: 12
 spin: 1
-sizeFrom: 0
+sizeFrom: 1
 sizeTo: 2
 interp: exp5Out
 sizeInterp: exp5In
@@ -93,7 +92,7 @@ homingDelay: 2.2
 width: 10
 height: 10
 drag: 0.006
-speed: 0.3
+speed: 2.1
 collidesGround: true
 lifetime: 170
 damage: 25
@@ -111,26 +110,14 @@ fragSpread: 3
 weaveMag: 4
 weaveScale: 6
 pierceArmor: false
-intervalBullets: 1
-bulletInterval: 1.6
-intervalSpread: 180
 pierce: true
 pierceBuilding: true
 pierceCap: 4
 pierceDamageFactor: 0.002
 buildingDamageMultiplier: 0.1
-		intervalBullet: {
-type: BasicBulletType
-width: 6
-sprite: "large-orb"
-height: 6
-speed: 1
-collidesGround: true 
-lifetime: 1
-damage: 1
-frontColor: ffffff
-backColor: fcf0bd
-hitEffect: {
+trailInterval:1.6
+trailChance:1
+trailEffect:[{
 type: ParticleEffect 
 lifetime: 60
 colorFrom: e5f9f195
@@ -150,7 +137,7 @@ interp: exp5Out
 sizeInterp: exp5In
 lifetime: 120
 }
-despawnEffect: {
+{
 type: ParticleEffect 
 lifetime: 120
 colorFrom: ffffff95
@@ -170,8 +157,8 @@ interp: exp5Out
 sizeInterp: exp5In
 lifetime: 120
 }
-}
-					fragBullet: {
+]
+fragBullet: {
 type: BasicBulletType
 homingRange: 20
 homingPower: 0.02
@@ -205,18 +192,10 @@ pierceBuilding: true
 pierceCap: 4
 pierceDamageFactor: 0.002
 buildingDamageMultiplier: 0.1
-		intervalBullet: {
-type: BasicBulletType
-width: 6
-sprite: "large-orb"
-height: 6
-speed: 1
-collidesGround: true 
-lifetime: 1
-damage: 1
-frontColor: ffffff
-backColor: fcf0bd
-hitEffect: {
+trailInterval:1.6
+trailChance:1
+trailEffect:[
+ {
 type: ParticleEffect 
 lifetime: 60
 colorFrom: e5f9f195
@@ -236,7 +215,7 @@ interp: exp5Out
 sizeInterp: exp5In
 lifetime: 120
 }
-despawnEffect: {
+{
 type: ParticleEffect 
 lifetime: 120
 colorFrom: ffffff95
@@ -256,7 +235,7 @@ interp: exp5Out
 sizeInterp: exp5In
 lifetime: 120
 }
-}
+]
 }
 }
 }
