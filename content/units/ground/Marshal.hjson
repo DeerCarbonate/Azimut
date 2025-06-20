@@ -37,6 +37,7 @@
 	rotate: true
 	rotateSpeed: 5
 	reload: 27
+ velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
 		shoot: {
@@ -76,8 +77,9 @@
 		trailLength: 8
 		weaveMag: 2
 		weaveScale: 3
-		homingPower: 0.08
-        homingDelay: 0.1
+		homingPower: 0.03
+  homingRange: 50
+  homingDelay: 25
 		despawnEffect: none
 		collidesTiles: true
 		keepVelocity: false
