@@ -96,9 +96,7 @@ ammoTypes: {
                             baseRotation: 180
                         }
                     ]
-                }
-                keepVelocity: false
-            }
+      keepVelocity: false
       fragBullets: 14
       fragRandomSpread: 13.5
       fragVelocityMin: 0.3
