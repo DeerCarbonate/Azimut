@@ -37,24 +37,21 @@
 	drownTimeMultiplier: 3
 	weapons: [
 		{
-		"name": Paladin-weapon,
-		"x": 9.78,
-		"y": -3.5,
-		"shootY": 10.85,
-		"shootX": 1.26,
-		"recoil": 1.5,
-		"cooldowntime": 120,
-		"rotationLimit": 120,
-		"mirror": false,
-		"alternate": false,
-		"rotate": true,
-		"rotateSpeed": 2,
-		"reload": 75,
-		inaccuracy": 2,
-		"shootSound": energy-blade-launch,
-		"controllable": true,
-		"aiControllable": true,
-		"shake": 1.7,
+		"name": Paladin-weapon
+		"x": 9.78
+		"y": -3.5
+		"shootY": 10.85
+		"shootX": 1.26
+		"recoil": 1.5
+		"cooldowntime": 120
+		"rotationLimit": 120
+		"mirror": false
+		"alternate": false
+		"rotate": true
+		"rotateSpeed": 2
+		"reload": 75
+		inaccuracy": 2
+		"shootSound": energy-blade-launch
 			parts: [
 		{
 			suffix: -blade
@@ -79,11 +76,11 @@
 
 		bullet: {
       type: LaserBulletType
-      colors: [af7765, f0aba4, ffc5ae]
+      colors: [f0aba4, dcc6c6]
       length: 155
       width: 3.5
-      sideAngle: 120
-      sideWidth: 2.4
+      sideAngle: -140
+      sideWidth: 3.4
       damage: 8
     shootEffect: {
         type: ParticleEffect
