@@ -83,21 +83,44 @@
 		{
     name: Innovation-weapon
     recoil: 1.5
-	alternate: false
+	alternate: true
     layerOffset: -0.001
     shootY: 2.5
     shake: 1.2
     x: 1.95
     y: 7.1
-    reload: 65
+    reload: 120
+    velocityRnd:0.3
 	shootStatus: slow
-	shootStatusDuration: 65
-shoot: {
-    type: ShootSpread
-    shotDelay: 10
-    spread: 4
-    shots: 5
-    }
+	shootStatusDuration: 125
+    shoot: {
+        type: ShootMulti
+        source: {
+           type: ShootSpread
+           spread: 0
+           shotDelay: 55
+           shots: 2
+           }
+        dest: [
+        {
+                type: ShootMulti
+                source: {
+                   type: ShootSpread
+                   spread: 7
+                   shotDelay: 10
+                   shots: 4
+                   }
+               dest: [
+               {
+               type: ShootPattern
+                   firstShotDelay: 25
+                   shots: 1
+                   shotDelay: 0
+               }
+               ]
+        }
+        ]
+        }
     ejectEffect: none
     shootSound: spark
 		bullet: {

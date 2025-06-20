@@ -95,7 +95,7 @@ objectives: [
 		trailWidth: 1.9
 		trailLength: 3
 		homingPower: 0.2
-		homingDelay: 12
+		homingDelay: 7
 		homingRange: 30
 		weaveMag: 3
 		weaveScale: 4
