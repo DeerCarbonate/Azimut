@@ -69,11 +69,11 @@ shoot: {
     trailColor: 8edfc1
     trailLength: 7
     trailWidth: 1.5
-    despawnEffect: none
+    hitEffect: none
     collidesTiles: true
     keepVelocity: false
     collidesAir: false
-	hitEffect: {
+	despawnEffect: {
     type: WaveEffect
     rotWithParent: true
     followParent: true

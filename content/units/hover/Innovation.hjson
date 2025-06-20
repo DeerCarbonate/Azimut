@@ -80,37 +80,44 @@
 		}
 	]
 	weapons: [
-		{
+	{
     name: Innovation-weapon
     recoil: 1.5
-	alternate: false
+	alternate: true
     layerOffset: -0.001
     shootY: 2.5
     shake: 1.2
     x: 1.95
     y: 7.1
-    reload: 65
+    reload: 45
+    velocityRnd:0.3
 	shootStatus: slow
-	shootStatusDuration: 65
-shoot: {
-    type: ShootSpread
-    shotDelay: 10
-    spread: 4
-    shots: 5
-    }
+	shootStatusDuration: 25
+    shoot: {
+        type: ShootBarrel
+        firstShotDelay: 30
+        shotDelay: 3.2
+        shots: 3
+
+    barrels: [
+        1, 1, 0
+        -1, 1, 0
+    ]
+        }
     ejectEffect: none
     shootSound: spark
 		bullet: {
-		recoil: 0.2
+		recoil: 0.1
         keepVelocity: false
-        lifetime: 95
+        lifetime: 60
         drag: -0.012
 		damage: 14
         height: 7
-        speed: 1.1
-        width: 7
+        speed: 1.7
+        width: 6
         type: BasicBulletType
-        homingPower: 0.08
+        homingPower: 0.02
+        homingRange:50
         homingDelay: 17
         frontColor: ffffff
         backColor: f6afdd
