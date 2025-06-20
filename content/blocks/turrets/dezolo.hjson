@@ -64,6 +64,7 @@ ammoTypes: {
   buildingDamageMultiplier: 0.1
   trailChance:1
   trailInterval:0.5
+  trailRotation:true
   trailEffect:[
                         {
                             type: ParticleEffect
