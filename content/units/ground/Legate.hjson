@@ -40,13 +40,13 @@ objectives: [
 		"shootY": 1.1,
 		"recoil": 1.5,
 		"cooldowntime": 120,
-		"rotationLimit": 190,
+		"rotationLimit": 120,
 		"mirror": false,
 		"alternate": false,
 		"rotate": true,
-		"rotateSpeed": 2,
+		"rotateSpeed": 0.9,
 		"reload": 15,
-		inacurrasy": 45,
+		inaccuracy: 3
 		"shootSound": cannon_shoot_1,
 		"controllable": true,
 		"aiControllable": true,
@@ -81,38 +81,42 @@ objectives: [
 		}
 		type: BasicBulletType
 		damage: 12
-		lifetime: 10
+		lifetime: 16
 		collidesTiles: true
 		keepVelocity: false
 		collidesAir: false
-		width: 7.2
+		width: 6
 		height: 7.2
-		speed: 11
+		speed: 12
+		drag:0.02
 		backColor: ffbfad
 		frontColor: cc918b
 		trailColor: cc918b
 		trailWidth: 1.9
 		trailLength: 3
 		homingPower: 0.2
+		homingDelay: 12
+		homingRange: 30
 		weaveMag: 3
 		weaveScale: 4
-		splashDamageRadius: 5
+		splashDamageRadius: 4
+		splashDamage: 7
 		despawnEffect: none
 		hitEffect: {
     type: ExplosionEffect
-    lifetime: 14
+    lifetime: 12
     waveColor: cc918b
-    waveStroke: 1.2
-    waveRad: 7
+    waveStroke: 1.5
+    waveRad: 6
     smokeColor: cc918b60
-    smokeSizeBase: 0
-    smokeSize: 4.5
-    smokes: 4
+    smokeSizeBase: 1
+    smokeSize: 3.5
+    smokes: 3
     sparkColor: cc918b
-    sparkStroke: 1.3
-    sparkRad: 14.5
-    sparkLen: 2
-    sparks: 4
+    sparkStroke: 1.4
+    sparkRad: 6.5
+    sparkLen: 4
+    sparks: 5
 		}
 		}
 	}
