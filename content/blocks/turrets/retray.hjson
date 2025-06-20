@@ -71,8 +71,8 @@ trailChance:1
 trailInterval:5
 trailEffect: {
 type: ParticleEffect 
-colorFrom: e5f9f195
-colorTo: b9c4d800
+colorFrom: ffffff95
+colorTo: fcf0bd00
 drag: 0.4
 particles: 2
 cone: 360
