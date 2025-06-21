@@ -37,13 +37,14 @@
 	rotate: true
 	rotateSpeed: 5
 	reload: 27
+	ejectEffect: casing1
  velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
 		shoot: {
 			type: ShootSpread
 			firstShotDelay: 12
-			shots: 2
+			shots: 3
 		}
 				parts: [
 		            {
