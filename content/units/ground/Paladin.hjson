@@ -81,7 +81,7 @@
       width: 3.5
       sideAngle: 140
       sideWidth: 3.4
-      damage: 17
+      damage: 32
     shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
