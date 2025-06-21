@@ -132,7 +132,6 @@
     shootStatus: unmoving
 	shootStatusDuration: 115
 		shoot: {
-        shots: 1
 		firstShotDelay: 120
 		}
 		parts: [
@@ -155,21 +154,17 @@
 		]
 		bullet: {
 		sprite: "large-orb"
-		intervalBullets: 2
-		bulletInterval: 0.1
-		intervalSpread: 180
 		despawnSound: "energy-blade-hit"
         lifetime: 62.1
-        drag: -0.10
+        drag: -0.08
+        shrinkY:0
+        skrinkX:0
 		recoil: 1.2
-        splashDamage: 340
+        splashDamage: 240
         splashDamageRadius: 24
-        damage: 200
-		pierce: true
-		pierceBuilding: true
-		pierceCap: 2
+        damage: 400
         height: 32
-        speed: 0.04
+        speed: 0.12
         width: 12
         type: BasicBulletType
         frontColor: ffffff
@@ -180,59 +175,109 @@
 		keepVelocity: false
 		collidesTiles: true
 		collidesGround: true
-		intervalBullet: {
-type: BasicBulletType
-width: 6
-sprite: "large-orb"
-height: 6
-speed: 1
-collidesGround: true 
-lifetime: 1
-damage: 1
-backColor: ffffff
-frontColor: f6afdd
-hitEffect: {
-type: ParticleEffect 
-lifetime: 70
-colorFrom: f6afdd
-colorTo: f6afdd00
-drag: 0.4
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 1
-sizeFrom: 0
-sizeTo: 2
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-}
-despawnEffect: {
-type: ParticleEffect 
-lifetime: 120
-colorFrom: f6afdd
-colorTo: f6afdd00
-drag: 0.7
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-}
-}
-  shootEffect: {
-    type: MultiEffect,
-    effects: [
+		trailChance:1
+		trailInterval:4
+		trailRotation:true
+        trailEffect:[{
+        type: ParticleEffect
+        lifetime: 40
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+        drag: 0.4
+        particles: 2
+        cone: 360
+        length: 6
+        spin: 1
+        sizeFrom: 0
+        sizeTo: 2
+        interp: exp5Out
+        sizeInterp: exp5In
+        }
+        {
+        type: ParticleEffect
+        lifetime: 60
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+        drag: 0.7
+        particles: 2
+        cone: 360
+        length: 6
+        sizeFrom: 2
+        sizeTo: 0
+        interp: exp5Out
+        sizeInterp: exp5In
+        }
+        {
+        type: ParticleEffect
+        lifetime: 40
+        colorFrom: f6afdd
+        offsetX:-7
+        colorTo: f6afdd00
+        drag: 0.4
+        particles: 2
+        cone: 360
+        length: 6
+        spin: 1
+        sizeFrom: 0
+        sizeTo: 2
+        interp: exp5Out
+        sizeInterp: exp5In
+        }
+        {
+        type: ParticleEffect
+        lifetime: 60
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+        drag: 0.7
+        offsetX:-7
+        particles: 2
+        cone: 360
+        length: 6
+        sizeFrom: 2
+        sizeTo: 0
+        interp: exp5Out
+        sizeInterp: exp5In
+        }
+        {
+        type: ParticleEffect
+        lifetime: 60
+        region:large-bomb
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+        particles: 1
+        cone: 360
+        length: 14
+        spin:1
+        sizeFrom: 1
+        sizeTo: 1
+        interp: exp5Out
+        sizeInterp: exp5In
+        }
+        {
+        type:RadialEffect
+        lengthOffset:6
+        amount:2
+        rotationSpacing:90
+        rotationOffset:120
+        effect:{
+            type: ParticleEffect
+            startDelay:5
+            lifetime: 60
+            region:large-bomb
+            colorFrom: f6afdd00
+            colorTo: f6afdd30
+            particles: 2
+            cone: 6
+            length: 12
+            spin:2
+            sizeFrom: 5
+            sizeTo: 0
+            interp: exp5Out
+            sizeInterp: exp5In
+            }
+        }
+        ]
+  shootEffect: [
 	{
         type: WaveEffect,
         startDelay: 0,
@@ -248,7 +293,7 @@ sizeInterp: exp5In
 		interp: exp5Out
         sizeInterp: exp5In
 		}
-			{
+		{
         type: WaveEffect,
         startDelay: 0,
         lifetime: 64,
@@ -264,58 +309,8 @@ sizeInterp: exp5In
         sizeInterp: exp5In
 		}
 	]
-}
-  chargeEffect: {
-    type: MultiEffect,
-    effects: [
+	hitEffect: [
 	{
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 120
-    sizeFrom: 21
-    sizeTo: 0
-	y: -2.5
-	strokeFrom: 2
-    strokeTo: 8
-    colorFrom: 823c6900
-    colorTo: f6afdd90
-	interp: exp5In
-    sizeInterp: exp5Out
-	}
-	{
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 120
-    sizeFrom: 21
-    sizeTo: 0
-	y: -2.5
-	strokeFrom: 2
-    strokeTo: 5
-    colorFrom: 823c6900
-    colorTo: f6afdd90
-	interp: exp5In
-    sizeInterp: exp5Out
-	}
-    {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 120
-    sizeFrom: 0
-    sizeTo: 3.5
-	y: -2.5
-	strokeFrom: 3
-    strokeTo: 3
-    colorFrom: 823c6930
-    colorTo: f6afdd90
-	interp: exp5In
-    sizeInterp: exp5Out
-	}
-	]
-}
-	hitEffect: {
     type: WaveEffect
     rotWithParent: true
     followParent: true
@@ -327,6 +322,38 @@ sizeInterp: exp5In
     colorFrom: f6afdd
     colorTo: f6afdd00
     }
+    {
+    type: ParticleEffect
+    startDelay:5
+    lifetime: 40
+    region:large-bomb
+    colorFrom: f6afdd
+    colorTo: f6afdd00
+    particles: 14
+    cone: 15
+    length: 59
+    spin:0
+    sizeFrom: 6
+    sizeTo: 7
+    interp: exp5Out
+    sizeInterp: exp5In
+    }
+    {
+    type: ParticleEffect
+    lifetime: 40
+    region:large-bomb
+    colorFrom: f6afdd
+    colorTo: f6afdd00
+    particles: 6
+    cone: 7
+    length: 62
+    spin:-1
+    sizeFrom: 5
+    sizeTo: 8
+    interp: exp5Out
+    sizeInterp: exp5In
+    }
+    ]
 			}
 		}
 	]

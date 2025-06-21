@@ -19,138 +19,137 @@
 	waveTrailY: -9
 	description: "Shoots slow DNA strands."
 	weapons: [
-		{
-			"name": WhaleTwo-weapon,
-			"recoil": 2.5,
-            "shootY": 1.1,
-			"mirror": true,
-			"alternate": true,
-			"rotate": true,
-			"rotateSpeed": 5,
-			"reload": 130,
-			"inacurrasy": 10,
-			"shootSound": restart,
-			"controllable": true,
-			"aiControllable": true,
-			"inacurrasy": 15,
-			"x": 6.7
-			"y": -7.455
-shoot: {
-	type: ShootMulti
-	source: {
-    type: ShootSpread
-    firstShotDelay: 2
-    spread: 0.2
-    shots: 2
-    }
-	dest: [
-	{
-	type: ShootPattern
-		shots: 24
-		shotDelay: 2
-	}
-	]
-	}
-			bullet: {
-			type: BasicBulletType
-			backColor: e5f9f1
-			frontColor: b3eed8
-			sprite: missile
-			hitSize: 4
-			height: 8
-			width: 8
-			lifetime: 120
-			damage: 16
-			speed: 2.5
-			trailColor: 8edfc1
-			trailLength: 4
-			trailWidth: 1.7
-			weaveMag: 3.2
-			weaveScale: 4.5
-            bulletInterval: 5
-            intervalRandomSpread: 5
-            intervalBullet: {
-                type: BasicBulletType
-                damage: 1
-                length: 15
-                width: 0
-                lightColor: ffffff00
-                instantDisappear: true
-                hittable: false
-                absorbable: false
-                collides: false
-                
-                despawnEffect: {
-                    type: MultiEffect
-                    effects: [
-                        {
-                            type: ParticleEffect
-                            lifetime: 12
-                            particles: 1
-                            baseLength: 3
-                            length: 10
-                            line: true
-                            strokeTo: 1.5
-                            lenFrom: 2
-                            lenTo: 5
-                            colorTo: e5f9f100
-							colorFrom: b3eed8
-                            cone: 45
-                            baseRotation: 200
-                        }
-                        {
-                            type: ParticleEffect
-                            lifetime: 16
-                            particles: 1
-                            baseLength: 3
-                            length: 15
-                            line: true
-                            strokeTo: 0.5
-                            lenFrom: 2
-                            lenTo: 5
-                            colorTo: e5f9f100
-							colorFrom: b3eed8
-                            cone: 25
-                            baseRotation: 200
-                        }
-                    ]
+    {
+        "name": WhaleTwo-weapon,
+        "recoil": 2.5,
+        "shootY": 1.1,
+        "mirror": true,
+        "alternate": true,
+        "rotate": true,
+        "rotateSpeed": 5,
+        "reload": 130,
+        "inacurrasy": 10,
+        "shootSound": restart,
+        "controllable": true,
+        "aiControllable": true,
+        "inacurrasy": 15,
+        "x": 6.7
+        "y": -7.455
+        shoot: {
+            type: ShootMulti
+            source: {
+                type: ShootMulti
+                source: {
+                    type: ShootHelix
+                    shots: 2
+                    scl:120
+                    mag:5
                 }
-                keepVelocity: false
+                dest: [
+                    {
+                    type: ShootSpread
+                    shots: 2
+                    spread:3
+                    }
+            ]
             }
-			despawnEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed800
-drag: 0.6
-particles: 12
-cone: 360
-length: 17
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 1.6
-sizeTo: 0 
-offset: 1
-lifetime: 18
-}
-			hitEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.8
-particles: 8
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}
-			}
-		}
-	]
+            dest: [
+                {
+                type: ShootSpread
+                shots: 3
+                spread:1
+                shotDelay: 15
+                }
+            ]
+            }
+            bullet: {
+            type: BasicBulletType
+            backColor: e5f9f1
+            frontColor: b3eed8
+            sprite: missile
+            hitSize: 4
+            height: 8
+            width: 8
+            lifetime: 120
+            damage: 16
+            speed: 2.5
+            trailColor: b3eed8
+            trailLength: 14
+            trailWidth: 1.7
+            weaveMag: 1
+            weaveScale: 2
+            homingPower:0.2
+            homingDelay:20
+            homingRange:100
+            trailInterval:5
+            trailChance:1
+            trailRotation:true
+            trailEffect:[
+                {
+                    type: ParticleEffect
+                    lifetime: 12
+                    particles: 1
+                    baseLength: 3
+                    length: 10
+                    line: true
+                    strokeTo: 1.5
+                    lenFrom: 2
+                    lenTo: 5
+                    colorTo: b3eed800
+                    colorFrom: b3eed8
+                    cone: 25
+                    baseRotation: 180
+                }
+                {
+                    type: ParticleEffect
+                    lifetime: 16
+                    particles: 1
+                    baseLength: 3
+                    length: 15
+                    line: true
+                    strokeTo: 0.5
+                    lenFrom: 2
+                    lenTo: 5
+                    colorTo: b3eed800
+                    colorFrom: b3eed8
+                    cone: 10
+                    baseRotation: 180
+                }
+            ]
+            despawnEffect: {
+                type: ParticleEffect
+                colorFrom: e5f9f1
+                colorTo: b3eed800
+                drag: 0.6
+                particles: 12
+                cone: 360
+                length: 17
+                baseLength: 1
+                lightScl: 3
+                lightOpacity: 2
+                spin: 0
+                sizeFrom: 1.6
+                sizeTo: 0
+                offset: 1
+                lifetime: 18
+                }
+            hitEffect: {
+                type: ParticleEffect
+                colorFrom: e5f9f1
+                colorTo: b3eed8
+                drag: 0.8
+                particles: 8
+                cone: 360
+                length: 6
+                baseLength: 1
+                lightScl: 3
+                lightOpacity: 2
+                spin: 0
+                sizeFrom: 2
+                sizeTo: 0
+                offset: 1
+                }
+            }
+        }
+    ]
 }
