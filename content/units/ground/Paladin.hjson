@@ -81,7 +81,7 @@
       width: 3.5
       sideAngle: 140
       sideWidth: 3.4
-      damage: 8
+      damage: 32
     shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -160,7 +160,7 @@
 					sizeTo: 0
 					offset: 1
 			  }
-			  damage: 35
+			  damage: 9
 		      homingPower: 0.1
 		      homingRange: 60
               homingDelay: 10
@@ -214,7 +214,7 @@
 					sizeTo: 0
 					offset: 1
 			  }
-			  damage: 65
+			  damage: 9
 			  homingPower: 0.08
 			  homingDelay: 0.1
 			  speed: 4

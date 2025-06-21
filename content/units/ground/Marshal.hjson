@@ -37,12 +37,12 @@
 	rotate: true
 	rotateSpeed: 5
 	reload: 27
- velocityRnd:0.2
+    velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
 		shoot: {
 			type: ShootSpread
-			firstShotDelay: 12
+			firstShotDelay: 17
 			shots: 2
 		}
 				parts: [
@@ -65,7 +65,7 @@
 		smokeEffect: none
 		bullet: {
 		type: BasicBulletType
-		damage: 18
+		damage: 20
 		lifetime: 56
 		width: 9
 		height: 9
