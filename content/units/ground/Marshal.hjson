@@ -38,13 +38,13 @@
 	rotateSpeed: 5
 	reload: 27
 	ejectEffect: casing1
- velocityRnd:0.2
+    velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
 		shoot: {
 			type: ShootSpread
-			firstShotDelay: 12
-			shots: 3
+			firstShotDelay: 17
+			shots: 2
 		}
 				parts: [
 		            {
@@ -64,6 +64,23 @@
             }
 		]
 		smokeEffect: none
+		    shootEffect:[
+    shootSmall
+    {
+        type: ParticleEffect
+        region:mov-spikes
+        length: 0
+        cone: 0
+        particles: 1
+        lifetime: 10
+        sizeFrom: 12
+        sizeTo: 0.0
+        colorFrom: ff9c5a
+        colorTo: ffffff40
+        followParent: true
+        rotWithParent: true
+    }
+    ]
 		bullet: {
 		type: BasicBulletType
 		damage: 18
