@@ -97,7 +97,7 @@ shoot: {
                     ]
       keepVelocity: false
 	  despawnEffect: 
-	    hitEffect:[
+	  hitEffect: [
 		  {
             particles: 1
             length: 0
