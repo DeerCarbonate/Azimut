@@ -24,8 +24,7 @@ shootSound: laser4
 ammoPerShot: 5
 heatRequirement: 14
 shoot: {
-  shots: 3,
-  shotDelay: 15
+  shots: 1
   firstShotDelay: 90
 }
   ammoTypes: {
@@ -36,7 +35,7 @@ shoot: {
  frontColor: c3feff
  backColor: 6898c3
  hitColor: 6898c3
- damage: 200
+ damage: 800
  despawnSound: energy-blade-hit
  hitSound: energy-blade-hit
  lifetime: 68
