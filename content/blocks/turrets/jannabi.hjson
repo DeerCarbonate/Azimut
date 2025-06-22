@@ -31,24 +31,24 @@ shoot: {
   ammoTypes: {
     geliarin: {
  type: BasicBulletType
-  frontColor: c3feff
-  backColor: 6898c3
-  hitColor: 6898c3
-  damage: 200
-  despawnSound: energy-blade-hit
-  lifetime: 60
-  speed: 1.8,
-  drag: -0.034,
-  width: 17,
-  height: 17,
-  ammoMultiplier: 5,
-  collidesTiles: true
-  collidesAir: false
-  buildingDamageMultiplier: 0.1
-  trailChance:1
-  trailInterval:0.65
-  trailRotation:true
-  trailEffect:[
+ collidesTiles: true
+ collidesGround: true
+ frontColor: c3feff
+ backColor: 6898c3
+ hitColor: 6898c3
+ damage: 200
+ despawnSound: energy-blade-hit
+ lifetime: 60
+ speed: 1.8,
+ drag: -0.034,
+ width: 17,
+ height: 17,
+ ammoMultiplier: 5,
+ buildingDamageMultiplier: 0.1
+ trailChance:1
+ trailInterval:0.65
+ trailRotation:true
+ trailEffect:[
 						{
                             type: ParticleEffect
                             lifetime: 18
@@ -95,7 +95,6 @@ shoot: {
                             baseRotation: 180
                         }
                     ]
-      keepVelocity: false
 	  despawnEffect: none
 	  hitEffect: [
 		  {
@@ -103,7 +102,7 @@ shoot: {
             length: 0
             lifetime: 120
             region: azimut-despawn
-            sizeFrom: 0
+            sizeFrom: 80
             sizeTo: 90
             colorTo: c3feff00
           }
@@ -112,8 +111,8 @@ shoot: {
             length: 0
             lifetime: 83
             region: azimut-shockwave
-            sizeFrom: 80
-            sizeTo: 0
+            sizeFrom: 0
+            sizeTo: 845
             colorFrom: c3feff00
 			baseRotation: 90
           }
