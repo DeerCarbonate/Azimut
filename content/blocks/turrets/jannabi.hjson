@@ -90,8 +90,23 @@ shoot: {
                             lenFrom: 2
                             lenTo: 5
                             colorTo: 6898c300
-							colorFrom: c3feff95
+							colorFrom: c3feffff
                             cone: 25
+                            baseRotation: 180
+                        }
+{
+                            type: ParticleEffect
+                            lifetime: 72
+region: large-bomb
+                            particles: 3
+                           sizeChangeStart:45
+                            length: 34
+                            sizeFrom: 3
+                            sizeTo: 5
+                            spin:2
+                            colorTo: 6898c300
+							colorFrom: c3feffFF
+                            cone: 35
                             baseRotation: 180
                         }
                     ]
@@ -99,16 +114,89 @@ shoot: {
 		  {
             particles: 1
             length: 0
-            lifetime: 67
+            lifetime: 70
+            region: azimut-despawn
+            sizeFrom: 75
+            sizeChangeStart: 45
+            sizeTo: 60
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:5
+            spin:3
+            length: 0
+            lifetime: 50
+            region: azimut-despawn
+            sizeFrom: 55
+            sizeChangeStart: 35
+            sizeTo: 30
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:5
+            spin:-3
+            length: 0
+            lifetime: 50
+            region: azimut-despawn
+            sizeFrom: 55
+            sizeChangeStart: 35
+            sizeTo: 30
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:10
+            spin:2
+            length: 0
+            lifetime: 55
             region: azimut-despawn
             sizeFrom: 60
-            sizeTo: 0
+            sizeChangeStart: 45
+            sizeTo: 45
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:10
+            spin:-2
+            length: 0
+            lifetime: 55
+            region: azimut-despawn
+            sizeFrom: 60
+            sizeChangeStart: 45
+            sizeTo: 45
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:15
+            spin:1
+            length: 0
+            lifetime: 50
+            region: azimut-despawn
+            sizeFrom: 65
+            sizeChangeStart: 32
+            sizeTo: 45
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:15
+            spin:-1
+            length: 0
+            lifetime: 50
+            region: azimut-despawn
+            sizeFrom: 65
+            sizeChangeStart: 32
+            sizeTo: 45
             colorTo: c3feff00
           }
 		  {
             particles: 1
             length: 0
-            lifetime: 67
+            lifetime: 74
             region: azimut-shockwave
             sizeFrom: 32
             sizeTo: 81
