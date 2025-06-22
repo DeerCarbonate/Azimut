@@ -96,14 +96,14 @@ shoot: {
                             baseRotation: 180
                         }
                     ]
-	  	  despawnEffect: [
+	  	  	  despawnEffect: [
 		  {
             particles: 1
             length: 0
-            lifetime: 120
+            lifetime: 83
             region: azimut-despawn
             sizeFrom: 60
-            sizeTo: 40
+            sizeTo: 0
             colorTo: c3feff00
           }
 		  {
@@ -111,27 +111,27 @@ shoot: {
             length: 0
             lifetime: 83
             region: azimut-shockwave
-            sizeFrom: 0
+            sizeFrom: 60
             sizeTo: 81
-            colorFrom: c3feff00
+            colorTo: c3feff00
 			baseRotation: 90
           }
-		  {
+		  	{
 			type: ParticleEffect
 			line: true
-			particles: 16
+			particles: 24
 			lifetime: 83
 			interp: circleOut
 			length: 90
-			strokeTo: 4
+			strokeTo: 3
 			lightColor: fff5b0
 			lenFrom: 9
 			lenTo: 4
-			strokeFrom: 8
+			strokeFrom: 5
             colorTo: 6898c300
 			colorFrom: c3feff95
             offset: 135
-		  }
+			}
 	  ]
 	  	  	  hitEffect: [
 		  {
