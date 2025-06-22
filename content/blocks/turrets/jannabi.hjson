@@ -27,10 +27,6 @@ shoot: {
   shots: 3,
   shotDelay: 15
   firstShotDelay: 90
-      barrels: [
-        0.5, 0.5, 0
-        -0.5, 0.5, 0
-    ]
 }
   ammoTypes: {
     geliarin: {
