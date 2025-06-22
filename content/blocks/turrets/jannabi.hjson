@@ -37,16 +37,17 @@ shoot: {
   damage: 200
   despawnSound: energy-blade-hit
   lifetime: 60
-  speed: 2.7,
+  speed: 1.8,
   drag: -0.034,
   width: 17,
   height: 17,
   ammoMultiplier: 5,
   collidesTiles: true
   collidesGround: true
+  collidesAir: false
   buildingDamageMultiplier: 0.1
   trailChance:1
-  trailInterval:0.5
+  trailInterval:0.65
   trailRotation:true
   trailEffect:[{
                             type: ParticleEffect
@@ -95,6 +96,17 @@ shoot: {
                         }
                     ]
       keepVelocity: false
+	    hitEffect:[{
+            particles: 1
+            length: 0
+            lifetime: 120
+            region: azimut-shooty
+            sizeFrom: 0
+            sizeTo: 120
+            colorTo: c3feff00
+			baseRotation: 180
+          }
+	  ]
 	  }
 }
 requirements: [
