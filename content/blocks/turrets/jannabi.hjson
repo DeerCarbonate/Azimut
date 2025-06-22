@@ -48,7 +48,8 @@ shoot: {
   trailChance:1
   trailInterval:0.65
   trailRotation:true
-  trailEffect:[{
+  trailEffect:[
+						{
                             type: ParticleEffect
                             lifetime: 18
                             particles: 2
