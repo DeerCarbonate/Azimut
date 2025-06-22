@@ -43,7 +43,6 @@ shoot: {
   height: 17,
   ammoMultiplier: 5,
   collidesTiles: true
-  collidesGround: true
   collidesAir: false
   buildingDamageMultiplier: 0.1
   trailChance:1
@@ -96,6 +95,7 @@ shoot: {
                         }
                     ]
       keepVelocity: false
+	  despawnEffect: 
 	    hitEffect:[{
             particles: 1
             length: 0
@@ -113,6 +113,7 @@ shoot: {
             sizeFrom: 80
             sizeTo: 0
             colorFrom: c3feff00
+			baseRotation: 90
           }
 	  ]
 	  }
