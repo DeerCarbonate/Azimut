@@ -38,7 +38,8 @@ shoot: {
  hitColor: 6898c3
  damage: 200
  despawnSound: energy-blade-hit
- lifetime: 60
+ hitSound: energy-blade-hit
+ lifetime: 68
  speed: 1.8,
  drag: -0.034,
  width: 17,
@@ -95,15 +96,14 @@ shoot: {
                             baseRotation: 180
                         }
                     ]
-	  despawnEffect: none
 	  hitEffect: [
 		  {
             particles: 1
             length: 0
             lifetime: 120
             region: azimut-despawn
-            sizeFrom: 80
-            sizeTo: 90
+            sizeFrom: 60
+            sizeTo: 40
             colorTo: c3feff00
           }
 		  {
@@ -112,7 +112,28 @@ shoot: {
             lifetime: 83
             region: azimut-shockwave
             sizeFrom: 0
-            sizeTo: 845
+            sizeTo: 81
+            colorFrom: c3feff00
+			baseRotation: 90
+          }
+	  ]
+	  	  despawnEffect: [
+		  {
+            particles: 1
+            length: 0
+            lifetime: 120
+            region: azimut-despawn
+            sizeFrom: 60
+            sizeTo: 40
+            colorTo: c3feff00
+          }
+		  {
+            particles: 1
+            length: 0
+            lifetime: 83
+            region: azimut-shockwave
+            sizeFrom: 0
+            sizeTo: 81
             colorFrom: c3feff00
 			baseRotation: 90
           }
