@@ -100,11 +100,13 @@ shoot: {
 		  {
             particles: 1
             length: 0
-            lifetime: 120
+            lifetime: 30
             region: azimut-despawn
             sizeFrom: 60
-            sizeTo: 40
+            sizeTo: 0
             colorTo: 6898c300
+			interp: pow2In
+			clip: 8192
           }
 		  {
             particles: 1
@@ -113,8 +115,9 @@ shoot: {
             region: azimut-shockwave
             sizeFrom: 0
             sizeTo: 81
-            colorFrom: 6898c300
+            colorTo: 6898c300
 			baseRotation: 90
+			interp: pow3Out
           }
 	  ]
 	  	  despawnEffect: [
