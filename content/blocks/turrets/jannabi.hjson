@@ -172,8 +172,6 @@ shoot: {
 	  ]
 	  }
 }
-	  }
-}
 requirements: [
   cobalt/450,
   venerium/250
