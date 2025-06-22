@@ -96,6 +96,7 @@ shoot: {
                         }
                     ]
       keepVelocity: false
+	  }
 }
 requirements: [
   cobalt/450,
