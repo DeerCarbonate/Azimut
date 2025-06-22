@@ -99,14 +99,15 @@ shoot: {
                             lifetime: 72
 region: large-bomb
                             particles: 3
-                           sizeChangeStart:45
-                            length: 34
+                            startDelay: 9
+sizeChangeStart:45
+                            length: 56
                             sizeFrom: 3
                             sizeTo: 5
                             spin:2
                             colorTo: 6898c300
 							colorFrom: c3feffFF
-                            cone: 35
+                            cone: 120
                             baseRotation: 180
                         }
                     ]
@@ -191,6 +192,28 @@ region: large-bomb
             sizeFrom: 65
             sizeChangeStart: 32
             sizeTo: 45
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            spin:-6
+            length: 0
+            lifetime: 50
+            region: large-bomb 
+            sizeFrom: 32
+            sizeChangeStart: 26
+            sizeTo: 37
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            spin:6
+            length: 0
+            lifetime: 50
+            region: large-bomb 
+            sizeFrom: 32
+            sizeChangeStart: 26
+            sizeTo: 37
             colorTo: c3feff00
           }
 		  {
