@@ -104,7 +104,7 @@ shoot: {
             region: azimut-despawn
             sizeFrom: 60
             sizeTo: 40
-            colorTo: c3feff00
+            colorTo: 6898c300
           }
 		  {
             particles: 1
@@ -113,7 +113,7 @@ shoot: {
             region: azimut-shockwave
             sizeFrom: 0
             sizeTo: 81
-            colorFrom: c3feff00
+            colorFrom: 6898c300
 			baseRotation: 90
           }
 	  ]
