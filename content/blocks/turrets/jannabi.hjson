@@ -48,8 +48,7 @@ shoot: {
   trailChance:1
   trailInterval:0.5
   trailRotation:true
-  trailEffect:[
-                        {
+  trailEffect:[{
                             type: ParticleEffect
                             lifetime: 18
                             particles: 2
@@ -64,7 +63,7 @@ shoot: {
                             cone: 25
                             baseRotation: 180
                         }
-{
+						{
                             type: ParticleEffect
                             lifetime: 18
                             particles: 2
@@ -110,7 +109,7 @@ drawer: {
   basePrefix: azimut-
   heatProgress: recoil
   cooldown: 0.1
-  parts: {[
+  parts: [{
       type: RegionPart,
       suffix: -blade,
       under: false,
