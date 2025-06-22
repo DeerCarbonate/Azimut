@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Jannabi
-description: Fires three powerful projectiles.
+description: Fires powerful projectiles.
 researchCostMultiplier: 0.5
 size: 4
 outlineColor: 0c0c12
@@ -30,241 +30,73 @@ shoot: {
 }
   ammoTypes: {
     geliarin: {
-  type: BasicBulletType,
-  frontColor: c3feff,
-  backColor: 6585a5,
-  hitColor: 6585a5,
-  damage: 460
-  pierce: true
-  pierceBuilding: true
-  pierceCap: 2
-  pierceDamageFactor: 0.001
-  splashDamageRadius: 100,
-  width: 12,
-  height: 20,
-  lifetime: 73,
-  speed: 5.5,
-  hitSize: 12,
-  ammoMultiplier: 8,
-  trailLength: 27,
-  trailWidth: 3.1
-  trailColor: 6585a5,
-  inaccuracy: 0,
-  despawnEffect: none
+ type: BasicBulletType
+  frontColor: c3feff
+  backColor: 6898c3
+  hitColor: 6898c3
+  damage: 200
+  despawnSound: energy-blade-hit
+  lifetime: 100
+  speed: 6,
+  drag: -0.020,
+  width: 17,
+  height: 17,
+  ammoMultiplier: 4,
   collidesTiles: true
-  keepVelocity: false
-  collidesAir: false
-  fragSpread: 5,
-  fragAngle: 5,
-  fragBullets: 3,
-  fragBullets: 5,
-  fragOffsetMin": 0.1,
-  fragOffsetMax": 0.1,
-  fragVelocityMin: 0.1,
-  fragVelocityMax: 0.1,
-  fragOnHit: true
+  collidesGround: true
   buildingDamageMultiplier: 0.1
-					fragBullet: {
-					"type": BasicBulletType,
-					"damage": 5,
-					"speed": 9.6,
-					"lifetime": 65,
-					"trailColor": 6585a5,
-					"trailWidth": 2,
-					"trailLength": 10,
-					"frontColor": c3feff,
-					"backColor": 6585a5,
-					"hitSize": 6,
-					  width: 8
-					  height: 8
-					"splashDamage": 10,
-					"splashDamageRadius": 15,
-					"weaveMag": 2,
-					"weaveScale": 3.5,
-					despawnEffect: none
-					collidesTiles: true
-					keepVelocity: false
-					collidesAir: false
-					buildingDamageMultiplier: 0.1
-					  hitEffect: {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 24,
-        sizeFrom: 0,
-        sizeTo: 4,
-        strokeFrom: 0,
-        strokeTo: 2,
-        colorFrom: c3feff,
-        colorTo: 6585a500,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5Out
-		sizeInterp: exp5In
-
-	}
-      }
-  shootEffect: {
-					type: ParticleEffect 
-					colorFrom: c3feff
-					colorTo: 6585a500
-					particles: 65
-					cone: 3
-					length: 120
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 6.5
-					sizeTo: 0
-					offset: 1
-					lifetime: 120
-  }
-  intervalBullets: 2,
-  intervalRandomSpread: 0,
-  intervalAngle: 0.1,
-  intervalSpread: 50,
-  intervalBullet: {
-			type: BasicBulletType
-			lifetime: 67
-			speed: 3
-			frontColor: c3feff
-			backColor: 6585a5
-			trailColor: 6585a5
-			trailWidth: 2
-			trailLength: 8
-			width: 8
-			height: 8
-			pierce: true
-			pierceBuilding: true
-			pierceCap: 2
-			pierceDamageFactor: 0.1
-			damage: 50
-			weaveMag: 7
-			weaveScale: 9
-					despawnEffect: none
-					collidesTiles: true
-					keepVelocity: false
-					collidesAir: false
-					buildingDamageMultiplier: 0.1
-      hitEffect: {
-					type: ParticleEffect 
-					colorFrom: c3feff
-					colorTo: 6585a500
-					particles: 12
-					length: 12
-					baseLength: 2
-					lightScl: 3
-					interp: circleIn
-					lightOpacity: 2
-					spin: 2
-					sizeFrom: 1.7
-					sizeTo: 0
-					offset: 1
-					lifetime: 24
-  }
-  hitEffect: {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 24,
-        sizeFrom: 0,
-        sizeTo: 8,
-        strokeFrom: 0,
-        strokeTo: 6,
-        colorFrom: c3feff,
-        colorTo: 6585a500,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5Out
-		sizeInterp: exp5In
-      }
-  }
-        hitEffect: {
-					type: ParticleEffect 
-					colorFrom: c3feff90
-					colorTo: 6585a500
-					particles: 13
-					length: 32
-					baseLength: 2
-					lightScl: 3
-					interp: circleIn
-					lightOpacity: 2
-					spin: 2
-					sizeFrom: 1
-					sizeTo: 0
-					offset: 1
-					interp: exp5Out
-					sizeInterp: exp5In
-					lifetime: 24
-  }
-  hitEffect: {
-    type: MultiEffect,
-    effects: [
-      {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 35,
-        sizeFrom: 0,
-        sizeTo: 30,
-        strokeFrom: 0,
-        strokeTo: 4,
-        colorFrom: 6585a5,
-        colorTo: c3feff,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5Out
-		sizeInterp: exp5In
-      },
-      {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 35,
-        sizeFrom: 0,
-        sizeTo: 25,
-        strokeFrom: 0,
-        strokeTo: 4,
-        colorFrom: 6585a5,
-        colorTo: c3feff,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5In
-		sizeInterp: exp5Out
-      }
-	  {
-    type: ParticleEffect
-    baseLength: 15
-    length: 50
-    cone: 180
-    particles: 13
-    lifetime: 38
-    sizeFrom: 2.5
-    sizeTo: 0.225
-    colorFrom: 6585a5,
-	colorTo: c3feff,
-    strokeFrom: 0.6
-    strokeTo: 0.8
-    followParent: true
-    rotWithParent: true
-     }
-	 {
-        type: WaveEffect,
-        startDelay: 35,
-        lifetime: 35,
-        sizeFrom: 25,
-        sizeTo: 0,
-        strokeFrom: 4,
-        strokeTo: 0,
-        colorTo: c3feff,
-		colorFrom: 6585a5,
-        followParent: true,
-        rotWithParent: true
-		interp: exp5Out
-		sizeInterp: exp5In
-			}
-		  ]
-		}
-	  }
-   }
+  trailChance:1
+  trailInterval:0.5
+  trailRotation:true
+  trailEffect:[
+                        {
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            offsetX:-10
+                            length:30
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: 6898c300
+							colorFrom: c3feff95
+                            cone: 25
+                            baseRotation: 180
+                        }
+{
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            offsetX:-5
+                            length: 40
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: 6898c300
+							colorFrom: c3feff95
+                            cone: 10
+                            baseRotation: 180
+                        }
+                        {
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 4
+                            baseLength: 3
+                            length: 15
+                            line: true
+                            strokeTo: 0.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: 6898c300
+							colorFrom: c3feff95
+                            cone: 25
+                            baseRotation: 180
+                        }
+                    ]
+      keepVelocity: false
+}
 requirements: [
   cobalt/450,
   venerium/250
@@ -277,8 +109,7 @@ drawer: {
   basePrefix: azimut-
   heatProgress: recoil
   cooldown: 0.1
-  parts: [
-	{
+  parts: {[
       type: RegionPart,
       suffix: -blade,
       under: false,
@@ -318,40 +149,39 @@ drawer: {
       heatLayer: 1,
     }
 	{
-  type: FlarePart
-  color1: 6585a540
-  color2: c3feff70
-  y: -1
-  followRotation: true
-  stroke: 6
-  radius: 0
-  radiusTo: 30
-  rotation: 0
-  rotMove: 150
-  moveY: 20
-  progress: {
+	type: FlarePart
+	color1: 6585a540
+	color2: c3feff70
+	y: -1
+	followRotation: true
+	stroke: 6
+	radius: 0
+	radiusTo: 30
+	rotation: 0
+	rotMove: 150
+	moveY: 20
+	progress: {
       type: charge
       op: curve
       interp: slope
         }
 	}
 	{
-  type: FlarePart
-  color1: 6585a540
-  color2: c3feff70
-  y: -1
-  followRotation: true
-  stroke: 6
-  radius: 0
-  radiusTo: 30
-  rotation: 45
-  rotMove: 75
-  moveY: 21
-  progress: {
+	type: FlarePart
+	color1: 6585a540
+	color2: c3feff70
+	y: -1
+	followRotation: true
+	stroke: 6
+	radius: 0
+	radiusTo: 30
+	rotation: 45
+	rotMove: 75
+	moveY: 21
+	progress: {
       type: charge
       op: curve
       interp: slope
         }
-	}
-	]
+	]}
 }
