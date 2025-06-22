@@ -100,11 +100,19 @@ shoot: {
             particles: 1
             length: 0
             lifetime: 120
-            region: azimut-shooty
+            region: azimut-despawn
             sizeFrom: 0
-            sizeTo: 120
+            sizeTo: 90
             colorTo: c3feff00
-			baseRotation: 180
+          }
+		  {
+            particles: 1
+            length: 0
+            lifetime: 83
+            region: azimut-shockwave
+            sizeFrom: 80
+            sizeTo: 0
+            colorFrom: c3feff00
           }
 	  ]
 	  }
