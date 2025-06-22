@@ -105,10 +105,27 @@ sizeChangeStart:45
                             sizeFrom: 3
                             sizeTo: 5
                             spin:2
-interp:pow5Out
+interp:pow10Out
                             colorTo: 6898c300
 							colorFrom: c3feffFF
                             cone: 60
+                            baseRotation: 180
+                        }
+{
+                            type: ParticleEffect
+                            lifetime: 52
+region: large-bomb
+                            particles: 3
+                            startDelay: 12
+sizeChangeStart:45
+                            length: 32
+                            sizeFrom: 3
+                            sizeTo: 5
+                            spin:2
+interp:pow10Out
+                            colorTo: ffffffff
+							colorFrom: ffffff00
+                            cone: 30
                             baseRotation: 180
                         }
                     ]
