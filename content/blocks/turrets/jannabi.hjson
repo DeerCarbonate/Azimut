@@ -183,5 +183,6 @@ drawer: {
       op: curve
       interp: slope
         }
-	]}
+	}
+	]
 }
