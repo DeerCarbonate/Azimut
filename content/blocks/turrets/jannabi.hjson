@@ -27,6 +27,10 @@ shoot: {
   shots: 3,
   shotDelay: 15
   firstShotDelay: 90
+      barrels: [
+        0.5, 0.5, 0
+        -0.5, 0.5, 0
+    ]
 }
   ammoTypes: {
     geliarin: {
@@ -36,9 +40,9 @@ shoot: {
   hitColor: 6898c3
   damage: 200
   despawnSound: energy-blade-hit
-  lifetime: 100
+  lifetime: 60
   speed: 6,
-  drag: -0.020,
+  drag: -0.040,
   width: 17,
   height: 17,
   ammoMultiplier: 4,
