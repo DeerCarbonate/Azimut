@@ -265,16 +265,111 @@ interp:pow10Out
 		  {
             particles: 1
             length: 0
-            lifetime: 67
+            lifetime: 70
+            region: azimut-despawn
+            sizeFrom: 75
+            sizeChangeStart: 45
+            sizeTo: 60
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:5
+            spin:3
+            length: 0
+            lifetime: 50
+            region: azimut-despawn
+            sizeFrom: 55
+            sizeChangeStart: 35
+            sizeTo: 30
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:5
+            spin:-3
+            length: 0
+            lifetime: 50
+            region: azimut-despawn
+            sizeFrom: 55
+            sizeChangeStart: 35
+            sizeTo: 30
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:10
+            spin:2
+            length: 0
+            lifetime: 55
             region: azimut-despawn
             sizeFrom: 60
-            sizeTo: 0
+            sizeChangeStart: 45
+            sizeTo: 45
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:10
+            spin:-2
+            length: 0
+            lifetime: 55
+            region: azimut-despawn
+            sizeFrom: 60
+            sizeChangeStart: 45
+            sizeTo: 45
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:15
+            spin:1
+            length: 0
+            lifetime: 50
+            region: azimut-despawn
+            sizeFrom: 65
+            sizeChangeStart: 32
+            sizeTo: 45
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            startDelay:15
+            spin:-1
+            length: 0
+            lifetime: 50
+            region: azimut-despawn
+            sizeFrom: 65
+            sizeChangeStart: 32
+            sizeTo: 45
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            spin:-6
+            length: 0
+            lifetime: 70
+            region: large-bomb 
+            sizeFrom: 32
+            sizeChangeStart: 26
+            sizeTo: 37
+            colorTo: c3feff00
+          }
+{
+            particles: 1
+            spin:6
+            length: 0
+            lifetime: 70
+            region: large-bomb 
+            sizeFrom: 32
+            sizeChangeStart: 26
+            sizeTo: 37
             colorTo: c3feff00
           }
 		  {
             particles: 1
             length: 0
-            lifetime: 67
+            lifetime: 74
             region: azimut-shockwave
             sizeFrom: 32
             sizeTo: 81

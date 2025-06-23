@@ -47,18 +47,18 @@ rotateSpeed: 2.205
 shootSound: energy-blade-launch
 ammoTypes: {
   venerium: {
-  type: BasicBulletType,
-  frontColor: ffffff,
-  backColor: fcf0bd,
-  hitColor: fcf0bd,
-  damage: 200,
-  despawnSound: energy-blade-hit,
-  lifetime: 8.25,
-  speed: 32,
-  drag: -0.020,
-  width: 12,
-  height: 24,
-  ammoMultiplier: 4,
+  type: BasicBulletType
+  frontColor: ffffff
+  backColor: fcf0bd
+  hitColor: fcf0bd
+  damage: 160
+  despawnSound: energy-blade-hit
+  lifetime: 8.25
+  speed: 32
+  drag: -0.020
+  width: 12
+  height: 24
+  ammoMultiplier: 4
   collidesTiles: true
   collidesGround: true
   buildingDamageMultiplier: 0.1
