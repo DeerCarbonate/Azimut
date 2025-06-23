@@ -3,7 +3,7 @@
     flying: true
 	outlineColor: 21202a
 	type: tether
-	hitSize: 14
+	hitSize: 11
 	health: 350
 	range: 0
 	itemCapacity: 0
