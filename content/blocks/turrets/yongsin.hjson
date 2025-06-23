@@ -13,6 +13,8 @@ shootCone: 9
 recoil: 3
 reload: 180
 range: 200
+inaccuracy: 9
+velocityRnd: 0.25
 targetAir: false
 moveWhileCharging: true
 targetGround: true
@@ -51,11 +53,7 @@ lifetime: 75
 damage: 140
 backColor: b9c4d8
 frontColor: ecf4fb
-intervalBullets: 1
-bulletInterval: 0.8
-intervalSpread: 180
-buildingDamageMultiplier: 0.1
-hitEffect: {
+hitEffect:{
 type: ParticleEffect  
 colorFrom: e5f9f160
 colorTo: b9c4d830
@@ -72,7 +70,7 @@ lifetime: 100
 interp: exp5Out
 sizeInterp: exp5In
 }
-despawnEffect: {
+despawnEffect:{
 type: ParticleEffect  
 colorFrom: e5f9f160
 colorTo: b9c4d830
@@ -89,19 +87,10 @@ lifetime: 100
 interp: exp5Out
 sizeInterp: exp5In
 }
-
-		intervalBullet: {
-type: BasicBulletType
-width: 6
-sprite: "large-orb"
-height: 6
-speed: 1
-collidesGround: true 
-lifetime: 1
-damage: 1
-backColor: ffffff
-frontColor: f6afdd
-hitEffect: {
+trailChance:1
+trailInterval:1.6
+trailEffect: [
+{
 type: ParticleEffect 
 lifetime: 70
 colorFrom: e5f9f195
@@ -121,7 +110,7 @@ interp: exp5Out
 sizeInterp: exp5In
 lifetime: 120
 }
-despawnEffect: {
+{
 type: ParticleEffect 
 lifetime: 120
 colorFrom: e5f9f195
@@ -141,7 +130,7 @@ interp: exp5Out
 sizeInterp: exp5In
 lifetime: 120
 }
-}
+]
 }
     caterium: {
 type: ArtilleryBulletType
@@ -275,6 +264,8 @@ fragBullet: {
       pierceBuilding: false
       pierce: true
       pierceCap: 2
+      hitEffect:none
+      despawnEffect:none
 	  buildingDamageMultiplier: 0.1
 		}
 	}
