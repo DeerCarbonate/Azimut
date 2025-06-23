@@ -13,7 +13,7 @@ shootCone: 9
 recoil: 8
 shootY: -7
 reload: 290
-range: 420
+range: 450
 targetAir: false
 moveWhileCharging: true
 targetGround: true
