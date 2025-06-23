@@ -12,14 +12,14 @@ cooldown: 1200
 shootCone: 9
 recoil: 8
 shootY: -7
-reload: 270.25
-range: 390
+reload: 290
+range: 420
 targetAir: false
 moveWhileCharging: true
 targetGround: true
 recoilAmount: 1.8
 restitution: 0.04
-rotateSpeed: 1.25
+rotateSpeed: 1
 shootSound: laser4
 ammoPerShot: 5
 heatRequirement: 14
@@ -35,7 +35,7 @@ shoot: {
  frontColor: c3feff
  backColor: 6898c3
  hitColor: 6898c3
- damage: 800
+ damage: 670
  despawnSound: energy-blade-hit
  hitSound: energy-blade-hit
  lifetime: 68

@@ -1,12 +1,12 @@
 name: Power
 description: Used to operate heaters.
 heatCapacity: 0
-explosiveness: 0.2
+explosiveness: 0.05
 temperature: 0.5
 coolant: false
 gas: true
 color: c5dbf100
-flammability: 0
+flammability: 0.05
 gasColor: c5dbf100
 barColor: c5dbf133
 incinerable: false
