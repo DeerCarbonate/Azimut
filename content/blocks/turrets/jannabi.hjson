@@ -123,8 +123,8 @@ sizeChangeStart:45
                             sizeTo: 5
                             spin:2
 interp:pow10Out
-                            colorTo: ffffffff
-							colorFrom: ffffff00
+                            colorTo: ffffff00
+							colorFrom: ffffffff 
                             cone: 30
                             baseRotation: 180
                         }
