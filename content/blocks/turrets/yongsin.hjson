@@ -50,23 +50,20 @@ speed: 2.8
 collidesTiles: true
 collidesGround: true
 lifetime: 75
-damage: 140
+damage: 110
+reloadMultiplier:1.3
 backColor: b9c4d8
 frontColor: ecf4fb
 hitEffect:{
 type: ParticleEffect  
-colorFrom: e5f9f160
-colorTo: b9c4d830
-particles: 10
+colorFrom: e5f9f1
+colorTo: b9c4d800
+particles: 12
 length: 50
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
 spin: 0
-sizeFrom: 5
-sizeTo: 0 
-offset: 1
-lifetime: 100
+sizeFrom: 2
+sizeTo: 5
+lifetime: 80
 interp: exp5Out
 sizeInterp: exp5In
 }
@@ -75,60 +72,45 @@ type: ParticleEffect
 colorFrom: e5f9f160
 colorTo: b9c4d830
 particles: 10
-length: 50
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
+length: 20
+baseLength: 3
 spin: 0
 sizeFrom: 5
 sizeTo: 0 
-offset: 1
-lifetime: 100
-interp: exp5Out
-sizeInterp: exp5In
+lifetime: 69
+interp: exp10Out
 }
 trailChance:1
 trailInterval:1.6
 trailEffect: [
 {
 type: ParticleEffect 
-lifetime: 70
+lifetime: 60
 colorFrom: e5f9f195
 colorTo: b9c4d800
-drag: 0.4
 particles: 2
 cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 1
+length: 9
 sizeFrom: 0
-sizeTo: 2
-offset: 1
+sizeTo: 3
 interp: exp5Out
 sizeInterp: exp5In
-lifetime: 120
+lifetime: 50
 }
 {
 type: ParticleEffect 
 lifetime: 120
 colorFrom: e5f9f195
 colorTo: b9c4d800
-drag: 0.7
-particles: 2
+startDelay:2
+particles: 1
 cone: 360
 length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
 sizeFrom: 2
-sizeTo: 0 
-offset: 1
+sizeTo:3
 interp: exp5Out
 sizeInterp: exp5In
-lifetime: 120
+lifetime: 90
 }
 ]
 }
