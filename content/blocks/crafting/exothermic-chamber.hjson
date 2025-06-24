@@ -63,16 +63,16 @@ craftEffect: [{
       amount: 4
       effect: {
           type: ParticleEffect
-          particles: 7
+          particles: 1
           length: 90
           lifetime: 1200
-          sizeFrom: 3
-          sizeTo: 9
+          sizeFrom: 2.9
+          sizeTo: 7
           cone: 2
           baseRotation: 73
           useRotation:false
           interp: pow5Out
-          colorFrom: 907d7409
+          colorFrom: 907d7440
           colorTo: 433a3600
           layer: 100.3
           }
