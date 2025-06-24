@@ -43,6 +43,8 @@
             type: BasicBulletType
             collidesAir: true
 
+            backColor: 665c9f
+            frontColor: bf92f9
             pierceArmor:true
             width:9
             length:9
