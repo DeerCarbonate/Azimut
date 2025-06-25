@@ -80,20 +80,20 @@ objectives: [
 			offset: 1
 		}
 		type: BasicBulletType
-		damage: 12
+		damage: 11
 		lifetime: 18
 		collidesTiles: true
 		keepVelocity: false
 		collidesAir: false
-		width: 6
-		height: 7.2
+		width: 7.4
+		height: 7.8
 		speed: 8
 		drag:0.02
 		backColor: ffbfad
 		frontColor: cc918b
 		trailColor: cc918b
 		trailWidth: 1.9
-		trailLength: 3
+		trailLength: 5
 		homingPower: 0.2
 		homingDelay: 4
 		homingRange: 30
