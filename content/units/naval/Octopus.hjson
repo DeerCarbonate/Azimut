@@ -1,6 +1,6 @@
-	name: "Octopus"
+	name: Octopus
 	type: naval
-	flying": false
+	flying: false
 	rotateSpeed: 3.1
 	outlineColor: 1b1c25
 	outlineRadius: 3
@@ -14,23 +14,23 @@
 	trailScl: 2.1
 	waveTrailX: 5
 	waveTrailY: -7
-	description: "Fires homing missiles."
+	description: Fires homing missiles.
 	weapons: [
 		{
-			"name": Octopus-weapon
-			"recoil": 1.0,
-			"x": 0,
-			"y": -7,
-            "shootY": 0.8,
-			"mirror": false,
-			"alternate": false,
-			"rotate": true,
-			"rotateSpeed": 9,
-			"reload": 100,
+			name: Octopus-weapon
+			recoil: 1.0
+			x: 0
+			y: -7
+            shootY: 0.8
+			mirror: false
+			alternate: false
+			rotate: true
+			rotateSpeed: 9
+			reload: 100
 			inaccuracy:12
-			"shootSound": shoot-small-flame,
-			"controllable": true,
-			"aiControllable": true,
+			shootSound: shoot-small-flame
+			controllable: true
+			aiControllable: true
             shoot: {
             type: ShootMulti
             source: {
@@ -81,15 +81,12 @@
                     particles: 6
                     cone: 4
                     lifetime:15
-                    drag: 0.3
                     length: 16
                     baseLength: 5
                     lightScl: 3
                     lightOpacity: 2
-                    spin: 0
                     sizeFrom: 3
                     sizeTo: 0
-                    offset: 1
                 }
                 hitEffect: {
                     type: ParticleEffect
@@ -98,7 +95,6 @@
                     particles: 7
                     cone: 15
                     length: 25
-                    spin: 0
                     lifetime:15
                     sizeFrom: 2
                     sizeTo: 0
@@ -107,11 +103,9 @@
                     type: ParticleEffect
                     colorFrom: e5f9f1
                     colorTo: b3eed880
-                    drag: 0.7
                     particles: 7
                     cone: 16
                     length: 60
-                    spin: 0
                     sizeFrom: 3
                     sizeTo: 0
                     lifetime:15
@@ -125,7 +119,6 @@
                     cone: 360
                     lifetime:30
                     length: 2
-                    spin: 0
                     sizeFrom: 1
                     sizeTo: 1
                     layer:100.2
@@ -146,7 +139,7 @@
                 }
                 ]
                 trailChance:1
-                trailIntrerval:6
+                trailInterval:6
 			}
 		}
 	]
