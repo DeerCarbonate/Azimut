@@ -65,8 +65,8 @@
             trailColor: b3eed8
             trailLength: 14
             trailWidth: 1.7
-            weaveMag: 1
-            weaveScale: 2
+            weaveMag: 3.2
+            weaveScale: 4.5
             trailInterval:4
             trailChance:1
             trailRotation:true
