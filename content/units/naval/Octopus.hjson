@@ -8,7 +8,7 @@
 	armor: 3.1
 	health: 2100
 	speed: 1.15
-	hitSize: 18.2
+	hitSize: 15.6
 	immunities: [ wet ]
 	trailLength: 19
 	trailScl: 2.1
@@ -64,7 +64,7 @@
                 speed: 2.4
                 drag:-0.002
                 collidesGround: true
-                lifetime: 105
+                lifetime: 96
                 damage: 11
                 backColor: e5f9f1
                 frontColor: b3eed8
