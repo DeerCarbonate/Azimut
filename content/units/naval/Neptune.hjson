@@ -1,447 +1,387 @@
-{
-	"name": "Neptune",
-	"type": naval,
-	"flying": false,
-	"alwaysUnlocked": true,
-	"rotateSpeed": 1.6,
-	"outlineColor": 1b1c25,
-	"outlineRadius": 3,
-	"range": 165,
-	"armor": 28,
-	"health": 21200,
-	"speed": 0.69,
-	"size": 480,
-	"hitSize": 55.0,
-	"hitboxSize": [20.0, 9.0],
-	"mass": 3.9,
-	"trailLength": 128,
-	"trailWidth": 1200,
-	"immunities": [ burning, melting, shocked, wet ]
-	"description": "Fires an extremely powerful artillery shell that splits over 6 minutes, at the end of their lifespan they create a huge explosion. and fires slowing explosive projectiles.",
-	weapons: [
-		{
-		"name": Neptune-weapontwo,
-		"x": 0,
-		"y": 3,
-		"shootY": 4.5,
-		"recoil": 1.5,
-		"mirror": false,
-		"alternate": false,
-		"rotate": true,
-		"rotateSpeed": 1.7,
-		"reload": 500,
-		"shootSound": spearshot,
-		"shake": 6,
-			parts: [
-		{
-			suffix: -r
-			mirror: true
-			outlineColor: 22251b,
-			outlineRadius: 3,
-			progress: recoil
-			moveRot: 12
-			moveY: -2.5
-			moveX: 0.2
-			x: 0
-			y: 0
-		}
-	]
-		bullet: {
-			type: BasicBulletType
-			backColor: e5f9f1
-			frontColor: b3eed8
-			height: 24
-			width: 18
-			lifetime: 85
-			damage: 80
-			speed: 4.8
-			trailColor: 8edfc1
-			trailLength: 48
-			trailWidth: 4
-			fragOnHit: true
-			fragSpread: 30
-			fragAngle: 15
-			fragBullets: 10
-			fragOffsetMin: 3.5
-			fragOffsetMax: 6.5
-			fragVelocityMin: 2
-			fragVelocityMax: 6
-			despawnSound: strawberrydeath
-			hitSound: strawberrydeath
-			fragBullet: {
-					type: BombBulletType
-					fragOnHit: true
-					damage: 30
-					lifetime: 90
-					despawnSound: explode
-					frontColor: b3eed8
-					backColor: e5f9f1
-					hitSize: 30
-					splashDamage: 200
-					splashDamageRadius: 160
-					fragOnHit: true
-					fragSpread: 30
-					fragAngle: 15
-					fragBullets: 2
-					fragOffsetMin: 4.5
-					fragOffsetMax: 10
-					fragVelocityMin: 10
-					fragVelocityMax: 40
-					status: blasted
-					statusDuration: 2000
-					collidesAir: True
-					intervalBullets: 2
-					bulletInterval: 2
-					intervalSpread: 180
-						despawnEffect: {
-    type: MultiEffect,
-    effects: [
-	  {
-					type: ParticleEffect 
-					colorFrom: e5f9f1
-					colorTo: b3eed840
-					particles: 25
-					length: 380
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 14.5
-					sizeTo: 0
-					offset: 1
-					lifetime: 420
-     }
-	 	  {
-					type: ParticleEffect 
-					colorFrom: e5f9f150
-					colorTo: b3eed830
-					particles: 35
-					length: 420
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 16.5
-					sizeTo: 0
-					offset: 1
-					lifetime: 420
-     }
-  ]
-}
-					intervalBullet: {
-type: BasicBulletType
-width: 1
-height: 1
-speed: 1
-collidesGround: true 
-lifetime: 1
-damage: 1
-backColor: b3eed8
-frontColor: e5f9f1
-
-hitEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.4
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}
-despawnEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.7
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}
-}
-					fragBullet: {
-							type: BombBulletType
-							damage: 10
-							shootEffect: regenParticle
-							lifetime: 150
-							splashDamage: 5.7
-							splashDamageRadius: 30
-							collidesAir: true
-							frontColor: b3eed8
-							backColor: e5f9f1
-							despawnSound: strawberrypredeath
-							intervalBullets: 2
-							bulletInterval: 1
-							intervalSpread: 180
-							hitEffect: none
-							despawnEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.7
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}
-												intervalBullet: {
-type: BasicBulletType
-width: 1
-height: 1
-speed: 1
-collidesGround: true 
-lifetime: 1
-damage: 1
-backColor: b3eed8
-frontColor: e5f9f1
-
-hitEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.4
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}
-despawnEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.7
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}
-}
-							}
-				}
-			}
-		}
-				{
-			"name": Cthulhu-weapontwo
-			"recoil": 2.0,
-			"x": 22.5,
-			"y": -8,
-            "shootY": 2.2,
-			"cooldowntime": 150,
-			"mirror": true,
-			"alternate": false,
-			"rotate": true,
-			"rotateSpeed": 5.5,
-			"reload": 50,
-			inaccuracy: 10,
-			"shootSound": auto-cannon-hit,
-			"controllable": true,
-			"aiControllable": true,
-			"baseRotation": -90,
-	        "rotationLimit": 45,
-			"layerOffset": -0.001,
-			shoot: {
-                    shots: 3
-                    shotDelay: 8
-					firstShotDelay: 21
-            }
-			bullet: {
-			type: ArtilleryBulletType
-			backColor: e5f9f1
-			frontColor: b3eed8
-			height: 12
-			width: 12
-			splashDamageRadius: 45
-			splashDamage: 100
-			lifetime: 35
-			speed: 3.9
-			drag: -0.02
-			trailColor: 8edfc1
-			trailLength: 7
-			trailWidth: 2.5
-	despawnEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 24
-    sizeFrom: 0
-    sizeTo: 16
-    colorFrom: e5f9f140
-    colorTo: b3eed8
+name: Neptune
+type: naval
+flying: false
+alwaysUnlocked: true
+rotateSpeed: 1.6
+outlineColor: 1b1c25
+outlineRadius: 3
+range: 165
+armor: 28
+health: 21200
+speed: 0.69
+size: 480
+hitSize: 55.0
+hitboxSize: 20.0
+trailLength: 128
+trailWidth: 1200
+immunities: [ burning, melting, shocked, wet ]
+description: Fires an extremely powerful artillery shell that splits over 6 minutes at the end of their lifespan they create a huge explosion. and fires slowing explosive projectiles.
+weapons: [
+    {
+    name: Neptune-weapontwo
+    x: 0
+    y: 3
+    shootY: 4.5
+    recoil: 1.5
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 0.9
+    reload: 180
+    shootSound: spearshot
+    shake: 6
+        parts: [
+    {
+        suffix: -r
+        mirror: true
+        outlineColor: 22251b
+        progress: recoil
+        moveRot: 12
+        moveY: -2.5
+        moveX: 0.2
+        x: 0
+        y: 0
     }
-chargeEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 21
-    offsetX: 2.1
-    sizeFrom: 5
-    sizeTo: 0
+]
+    bullet: {
+        type: BasicBulletType
+        backColor: e5f9f1
+        frontColor: b3eed8
+        height: 24
+        width: 18
+        lifetime: 85
+        damage: 80
+        speed: 4.8
+        trailColor: 8edfc1
+        trailLength: 48
+        trailWidth: 4
+        scaleLife:true
+        fragBullets: 4
+        fragLifeMin: 0.5
+        fragLifeMax: 0.5
+        fragVelocityMin: 0.5
+        fragVelocityMax: 1.5
+        hitSound: strawberrydeath
+        fragBullet: {
+            type: BombBulletType
+            fragOnHit: true
+            damage: 30
+            lifetime: 90
+            despawnSound: explode
+            frontColor: b3eed8
+            backColor: e5f9f1
+            speed:3
+            splashDamage: 200
+            splashDamageRadius: 20
+            fragOnHit: true
+            fragRandomSpread: 120
+            fragBullets: 5
+            fragLifeMin: 0.7
+            fragLifeMax: 1.2
+            fragVelocityMin: 0.5
+            fragVelocityMax: 2
+            status: blasted
+            collidesAir: True
+            despawnEffect: [
+            {
+                type: ParticleEffect
+                colorFrom: e5f9f1
+                colorTo: b3eed840
+                particles: 14
+                length: 50
+                interp: circleOut
+                lightOpacity: 2
+                sizeFrom: 14.5
+                sizeTo: 0
+                lifetime: 140
+            }
+            {
+                type: ParticleEffect
+                colorFrom: e5f9f150
+                colorTo: b3eed800
+                particles: 22
+                length: 70
+                lightScl: 3
+                interp: circleOut
+                sizeFrom: 2
+                sizeTo: 16.5
+                lifetime: 150
+            }
+            ]
+            trailChance:1
+            trailRotation:true
+            trailInterval: 5
+            trailEffect: [{
+                type: ParticleEffect
+                colorFrom: e5f9f1
+                colorTo: b3eed8
+                particles: 2
+                cone: 360
+                length: 6
+                baseLength: 1
+                sizeFrom: 2
+                sizeTo: 0
+            }
+            {
+                type: ParticleEffect
+                colorFrom: e5f9f1
+                colorTo: b3eed8
+                particles: 2
+                cone: 360
+                length: 8
+                sizeFrom: 2
+                sizeTo: 0
+            }
+            ]
+            fragBullet: {
+                type: BombBulletType
+                damage: 60
+                shootEffect: regenParticle
+                lifetime: 80
+                splashDamage: 20
+                splashDamageRadius: 8
+                collidesAir: true
+                frontColor: b3eed8
+                speed:3.5
+                trailLength: 10
+                trailWidth:1.2
+                trailColor:e5f9f1
+                width:4
+                length:12
+                drag:0.02
+                frontColor:8edfc1
+                backColor: e5f9f1
+                homingDelay:10
+                homingPower:0.15
+                homingRange:200
+                despawnSound: strawberrypredeath
+                hitEffect: none
+                despawnEffect: {
+                    type: ParticleEffect
+                    colorFrom: e5f9f1
+                    colorTo: b3eed8
+                    particles: 12
+                    cone: 30
+                    length: 45
+                    sizeFrom: 2
+                    sizeTo: 0
+                    lifetime:30
+                }
+                trailEffect:[
+                {
+                    type: ParticleEffect
+                    colorFrom: e5f9f1
+                    colorTo: b3eed8
+                    particles: 2
+                    cone: 360
+                    length: 6
+                    baseLength: 1
+                    sizeFrom: 2
+                    sizeTo: 0
+                }
+                {
+                    type: ParticleEffect
+                    colorFrom: e5f9f1
+                    colorTo: b3eed8
+                    drag: 0.7
+                    particles: 2
+                    cone: 360
+                    length: 6
+                    sizeFrom: 2
+                    sizeTo: 0
+                }]
+                }
+            }
+        }
+    }
+    {
+        name: Cthulhu-weapontwo
+        recoil: 2.0
+        x: 22.5
+        y: -8
+        shootY: 2.2
 
-    colorFrom: b3eed8
-    colorTo: e5f9f170
+        mirror: true
+        alternate: false
+        rotate: true
+        rotateSpeed: 3.5
+        reload: 50
+        inaccuracy: 10
+        shootCone:130
+        shootSound: auto-cannon-hit
+        baseRotation: -90
+        rotationLimit: 45
+        layerOffset: -0.001
+        shoot: {
+            shots: 3
+            shotDelay: 8
+            firstShotDelay: 21
+        }
+        bullet: {
+        type: ArtilleryBulletType
+        backColor: e5f9f1
+        frontColor: b3eed8
+        height: 12
+        width: 12
+        splashDamageRadius: 24
+        splashDamage: 100
+        drag: 0.02
+        homingPower:0.2
+        homingRange:200
+        homingDelay:3
+        speed:6.5
+        lifetime:180
+        trailColor: 8edfc1
+        trailLength: 7
+        trailWidth: 2.5
+        despawnEffect: {
+            type: WaveEffect
+            rotWithParent: true
+            followParent: true
+            lifetime: 24
+            sizeFrom: 0
+            sizeTo: 16
+            colorFrom: e5f9f140
+            colorTo: b3eed8
+        }
+        chargeEffect: {
+            type: WaveEffect
+            rotWithParent: true
+            followParent: true
+            lifetime: 21
+            offsetX: 2.1
+            sizeFrom: 5
+            sizeTo: 0
+            colorFrom: b3eed8
+            colorTo: e5f9f170
+        }
+        }
+    }
+                    {
+        name: Neptune-weapon
+        recoil: 2.0
+        x: 15
+        y: -14.5
+        shootY: 2.2
+        mirror: true
+        alternate: true
+        rotate: true
+        rotateSpeed: 5.5
+        reload: 55
+        inaccuracy: 0.4
+        shootSound: cannon_shoot_1
+        controllable: true
+        aiControllable: true
+        baseRotation: -45
+        inaccuracy:7
+        shoot: {
+            shots: 5
+            shotDelay: 4
+        }
+            parts: [
+    {
+        suffix: -middle
+        mirror: false
+        progress: recoil
+        outline: false
+        moveY: -3.2
+        x: 0
+        y: 0
+    }
+]
+        bullet: {
+        lifeScaleRandMin:0.7
+        lifeScaleRandMax:1.3
+        velocityScaleRandMin:0.9
+        velocityScaleRandMax:1.2
+        type: BasicBulletType
+        backColor: e5f9f1
+        frontColor: b3eed8
+        height: 8
+        width: 8
+        damage: 65
+        lifetime: 35
+        speed: 7.5
+        trailColor: 8edfc1
+        trailLength: 18
+        trailWidth: 1.3
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 2
+        despawnEffect: {
+            type: ParticleEffect
+            colorFrom: e5f9f1
+            colorTo: b3eed800
+            particles: 3
+            cone: 5
+            length: 24
+            sizeFrom: 0
+            sizeTo: 2
+        }
+        }
 }
-			}
-		}
-						{
-			"name": Neptune-weapon
-			"recoil": 2.0,
-			"x": 15,
-			"y": -14.5,
-            "shootY": 2.2,
-			"cooldowntime": 150,
-			"mirror": true,
-			"alternate": false,
-			"rotate": true,
-			"rotateSpeed": 5.5,
-			"reload": 15,
-			inaccuracy: 0.4,
-			"shootSound": cannon_shoot_1,
-			"controllable": true,
-			"aiControllable": true,
-			"baseRotation": -45,
-			shoot: {
-                    shots: 1
-            }
-				parts: [
-		{
-			suffix: -middle
-			mirror: false
-			progress: recoil
-			outlineRadius: 0
-			outline: false
-			moveY: -3.2
-			x: 0
-			y: 0
-		}
-	]
-			bullet: {
-			type: BasicBulletType
-			backColor: e5f9f1
-			frontColor: b3eed8
-			height: 8
-			width: 8
-			damage: 65
-			lifetime: 35
-			speed: 7.5
-			trailColor: 8edfc1
-			trailLength: 18
-			trailWidth: 1.3
-			pierce: true
-			pierceBuilding: true
-			pierceCap: 2
-			despawnEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.8
-particles: 8
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}			}
-		}
-								{
-			"name": Neptune-weapon
-			"recoil": 2.0,
-			"x": 9.8,
-			"y": -28.2,
-            "shootY": 2.2,
-			"cooldowntime": 150,
-			"mirror": true,
-			"alternate": false,
-			"rotate": true,
-			"rotateSpeed": 5.5,
-			"reload": 15,
-			inaccuracy: 0.4,
-			"shootSound": cannon_shoot_1,
-			"controllable": true,
-			"aiControllable": true,
-			"baseRotation": -45,
-			shoot: {
-                    shots: 1
-            }
-				parts: [
-		{
-			suffix: -middle
-			mirror: false
-			progress: recoil
-			outlineRadius: 0
-			outline: false
-			moveY: -3.2
-			x: 0
-			y: 0
-		}
-	]
-			bullet: {
-			type: BasicBulletType
-			backColor: e5f9f1
-			frontColor: b3eed8
-			height: 8
-			width: 8
-			damage: 65
-			lifetime: 35
-			speed: 7.5
-			trailColor: 8edfc1
-			trailLength: 18
-			trailWidth: 1.3
-			pierce: true
-			pierceBuilding: true
-			pierceCap: 2
-			despawnEffect: {
-type: ParticleEffect 
-colorFrom: e5f9f1
-colorTo: b3eed8
-drag: 0.8
-particles: 8
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 2
-sizeTo: 0 
-offset: 1
-}			}
-		}
-	]
-}
+{
+        name: Neptune-weapon
+        recoil: 2.0
+        x: 9.8
+        y: -28.2
+        shootY: 2.2
+        mirror: true
+        alternate: false
+        rotate: true
+        rotateSpeed: 5.5
+        reload: 30
+        inaccuracy: 3
+        shootSound: cannon_shoot_1
+        controllable: true
+        aiControllable: true
+        baseRotation: -45
+        shoot: {
+           type: ShootHelix
+           shots: 2
+           scl:3
+           mag:2
+        }
+        parts: [
+        {
+            suffix: -middle
+            mirror: false
+            progress: recoil
+            outline: false
+            moveY: -3.2
+            x: 0
+            y: 0
+        }
+        ]
+        bullet: {
+        lifeScaleRandMin:0.7
+        lifeScaleRandMax:1.3
+        velocityScaleRandMin:0.9
+        velocityScaleRandMax:1.2
+        type: BasicBulletType
+        backColor: e5f9f1
+        frontColor: b3eed8
+        height: 8
+        width: 8
+        damage: 65
+        lifetime: 45
+        speed: 7.5
+        trailColor: 8edfc1
+        trailLength: 18
+        trailWidth: 1.3
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 2
+        despawnEffect: {
+            type: ParticleEffect
+            colorFrom: e5f9f1
+            colorTo: b3eed800
+            particles: 4
+            cone: 50
+            length: 12
+            sizeFrom: 1
+            sizeTo: 3
+        }
+        }
+    }
+]

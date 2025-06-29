@@ -32,19 +32,19 @@ lowAltitude: true
 		}
 	]
 weapons: [{
-                name: Development-weapon
-                mirror: true
-                top: false
-                alternate: false
-                rotate: false
-                x: 7.5
-                y: -5.5
-                reload: 85
-				layerOffset: -0.001
-				baseRotation: -140
-			    velocityRnd: 0.4
-				ignoreRotation: true
-				shootCone: 360
+name: Development-weapon
+mirror: true
+top: false
+alternate: false
+rotate: false
+x: 7.5
+y: -5.5
+reload: 85
+layerOffset: -0.001
+baseRotation: -140
+velocityRnd: 0.4
+ignoreRotation: true
+shootCone: 360
 shoot: {
 	type: ShootMulti
 	source: {
@@ -61,32 +61,32 @@ shoot: {
 	}
 	]
 	}
-            inaccuracy: 12
-            recoil: 1.5
-            shootSound: malignShoot
-            shootEffect: none
-            bullet: {
-                type: BasicBulletType
-                damage: 35
-				drag: 0.028
-                homing: true
-                speed: 7.05
-                sprite: large-bomb
-                lifetime: 120
-                backColor: f6afdd
-                frontColor: ffffff
-                width: 14
-                height: 38
-				recoil: 0.34
-				weaveMag: 1
-				weaveScale: 1
-				homingPower: 0.21
-				homingDelay: 0.01
+    inaccuracy: 12
+    recoil: 1.5
+    shootSound: malignShoot
+    shootEffect: none
+    bullet: {
+        type: BasicBulletType
+        damage: 35
+        drag: 0.028
+        homing: true
+        speed: 7.05
+        sprite: large-bomb
+        lifetime: 120
+        backColor: f6afdd
+        frontColor: ffffff
+        width: 14
+        height: 38
+        recoil: 0.34
+        weaveMag: 1
+        weaveScale: 1
+        homingPower: 0.21
+        homingDelay: 0.01
 		splashDamageRadius: 25
 		splashDamage: 45
 		hitEffect: blastExplosion
 		shootEffect: {
-		type: ParticleEffect 
+		type: ParticleEffect
 			colorFrom: f6afdd
 			colorTo: f6afdd00
 			particles: 12
@@ -97,8 +97,7 @@ shoot: {
 			lightOpacity: 2
 			spin: 1
 			sizeFrom: 3.5
-			sizeTo: 0 
-			offset: 1
+			sizeTo: 0
 		}
 despawnEffect: {
 type: ParticleEffect 
@@ -119,11 +118,9 @@ offset: 1
 interp: exp5Out
 sizeInterp: exp5In
 }
-
-		smokeEffect: shootSmokeDisperse
-		hitColor: f6afdd
-        trailLength: 19
-        trailColor: f6afdd
-               }
+hitColor: f6afdd
+trailLength: 19
+trailColor: f6afdd
+}
 }
 ]
