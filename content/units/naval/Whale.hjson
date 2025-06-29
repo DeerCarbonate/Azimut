@@ -20,48 +20,37 @@
 	description: "Shoots slow DNA strands."
 	weapons: [
     {
-        "name": WhaleTwo-weapon,
-        "recoil": 2.5,
-        "shootY": 1.1,
-        "mirror": true,
-        "alternate": true,
-        "rotate": true,
-        "rotateSpeed": 5,
-        "reload": 130,
-        "inacurrasy": 10,
-        "shootSound": restart,
-        "controllable": true,
-        "aiControllable": true,
-        "inacurrasy": 15,
-        "x": 6.7
-        "y": -7.455
-        shoot: {
-            type: ShootMulti
-            source: {
-                type: ShootMulti
-                source: {
-                    type: ShootHelix
-                    shots: 2
-                    scl:120
-                    mag:5
-                }
-                dest: [
-                    {
-                    type: ShootSpread
-                    shots: 2
-                    spread:3
-                    }
-            ]
-            }
-            dest: [
-                {
-                type: ShootSpread
-                shots: 3
-                spread:1
-                shotDelay: 15
-                }
-            ]
-            }
+        name: WhaleTwo-weapon
+        recoil: 2.5
+        shootY: 1.1
+        mirror: true
+        alternate: true
+        rotate: true
+        rotateSpeed: 5
+        reload: 130
+        inacurrasy: 10
+        shootSound: restart
+        controllable: true
+        aiControllable: true
+        inacurrasy: 15
+        x: 6.7
+        y: -7.455
+		shoot: {
+			type: ShootMulti
+			source: {
+			type: ShootSpread
+			firstShotDelay: 2
+			spread: 0.2
+			shots: 2
+			}
+			dest: [
+			{
+			type: ShootPattern
+				shots: 24
+				shotDelay: 2
+			}
+			]
+			}
             bullet: {
             type: BasicBulletType
             backColor: e5f9f1
@@ -78,10 +67,7 @@
             trailWidth: 1.7
             weaveMag: 1
             weaveScale: 2
-            homingPower:0.2
-            homingDelay:20
-            homingRange:100
-            trailInterval:5
+            trailInterval:4
             trailChance:1
             trailRotation:true
             trailEffect:[
