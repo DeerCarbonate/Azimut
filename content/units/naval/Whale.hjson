@@ -1,70 +1,64 @@
+name: Whale
+type: naval
+flying: false
+rotateSpeed: 2
+drag: 0.19
+alwaysUnlocked: true
+outlineColor: 1b1c25
+outlineRadius: 3
+armor: 8
+health: 3500
+speed: 0.9
+hitSize: 24
+faceTarget: false
+immunities: [ wet ]
+trailLength: 25
+trailScl: 2.5
+waveTrailX: 5.5
+waveTrailY: -9
+description: "Shoots barrage of slow rockets."
+weapons: [
 {
-	name: "Whale",
-	type: naval
-	flying: false
-	rotateSpeed: 2
-	drag: 0.19
-	alwaysUnlocked: true
-	outlineColor: 1b1c25
-	outlineRadius: 3
-	armor: 8
-	health: 3500
-	speed: 0.9
-	hitSize: 24
-	faceTarget: false
-	immunities: [ wet ]
-	trailLength: 25
-	trailScl: 2.5
-	waveTrailX: 5.5
-	waveTrailY: -9
-	description: "Shoots slow DNA strands."
-	weapons: [
-    {
-        name: WhaleTwo-weapon
-        recoil: 2.5
-        shootY: 1.1
-        mirror: true
-        alternate: true
-        rotate: true
-        rotateSpeed: 5
-        reload: 130
-        inacurrasy: 10
-        shootSound: restart
-        controllable: true
-        aiControllable: true
-        inacurrasy: 15
-        x: 6.7
-        y: -7.455
-		shoot: {
-			type: ShootMulti
-			source: {
-			type: ShootSpread
-			firstShotDelay: 2
-			spread: 0.2
-			shots: 2
-			}
-			dest: [
-			{
-			type: ShootPattern
-				shots: 24
-				shotDelay: 2
-			}
-			]
-			}
-            bullet: {
+    name: WhaleTwo-weapon
+    recoil: 2.5
+    shootY: 1.1
+    mirror: true
+    alternate: true
+    rotate: true
+    rotateSpeed: 1.2
+    reload: 130
+    shootSound: restart
+    controllable: true
+    aiControllable: true
+    inaccuracy: 20
+    velocityRnd:0.2
+    x: 6.7
+    y: -7.455
+    shoot: {
+            type: ShootSummon
+            firstShotDelay: 2
+            shotDelay: 9
+            radius: 1
+            shots: 8
+            spread:3
+        }
+        bullet: {
             type: BasicBulletType
             backColor: e5f9f1
             frontColor: b3eed8
             sprite: missile
-            hitSize: 4
-            height: 8
-            width: 8
-            lifetime: 120
-            damage: 9
-            speed: 2.5
+            height: 11
+            width: 5
+            lifetime: 75
+            damage: 26
+            speed: 4.5
             trailColor: b3eed8
             trailLength: 14
             trailWidth: 1.7
+            drag:0.004
+            homingDelay:16
+            homingPower:0.008
+            homingPower:140
             weaveMag: 3.2
             weaveScale: 4.5
             trailInterval:8
@@ -90,7 +84,6 @@
                     type: ParticleEffect
                     lifetime: 16
                     particles: 1
-                    baseLength: 3
                     length: 15
                     line: true
                     strokeTo: 0.5
@@ -106,36 +99,23 @@
                 type: ParticleEffect
                 colorFrom: e5f9f1
                 colorTo: b3eed800
-                drag: 0.6
                 particles: 12
                 cone: 360
                 length: 17
                 baseLength: 1
-                lightScl: 3
-                lightOpacity: 2
-                spin: 0
                 sizeFrom: 1.6
-                sizeTo: 0
-                offset: 1
                 lifetime: 18
                 }
             hitEffect: {
                 type: ParticleEffect
                 colorFrom: e5f9f1
                 colorTo: b3eed8
-                drag: 0.8
                 particles: 8
                 cone: 360
                 length: 6
-                baseLength: 1
-                lightScl: 3
-                lightOpacity: 2
-                spin: 0
                 sizeFrom: 2
                 sizeTo: 0
-                offset: 1
                 }
-            }
         }
-    ]
-}
+    }
+]
