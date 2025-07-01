@@ -1,13 +1,13 @@
 	name: Cthulhu
 	type: naval
-	rotateSpeed: 1.7
+	rotateSpeed: 1.4
 	flying: false
 	alwaysUnlocked: false
 	outlineColor: 1b1c25
 	outlineRadius: 3
 	armor: 9.5
 	health: 10000
-	speed: 0.7
+	speed: 0.6
 	hitSize: 20
 	immunities: [ burning, melting, wet ]
 	trailLength: 8
@@ -30,7 +30,6 @@
     inacсracy: 7
     shootSound: auto-cannon-hit
     baseRotation: -90
-	layerOffset: 110
     shootCone:120
     rotationLimit: 95
     layerOffset: -0.001
@@ -91,7 +90,6 @@ chargeEffect: {
     shootCone:120
     inacсracy: 7
     shootSound: auto-cannon-hit
-    layerOffSet: -0.001
     baseRotation: -90
     rotationLimit: 95
     layerOffset: -0.001
