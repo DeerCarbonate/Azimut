@@ -1,28 +1,25 @@
-{
 	name: Cthulhu
 	type: naval
-	rotateSpeed: 2
+	rotateSpeed: 1.7
 	flying: false
-	alwaysUnlocked: true
-	range: 175
+	alwaysUnlocked: false
 	outlineColor: 1b1c25
 	outlineRadius: 3
-	armor: 11
-	health: 9500
+	armor: 9.5
+	health: 10000
 	speed: 0.7
-	size: 146
-	hitSize: 40.0
-	hitboxSize: 9.0
+	hitSize: 20
 	immunities: [ burning, melting, wet ]
-	trailLength: 60
-	trailWidth: 120
+	trailLength: 8
+	waveTrailX: 8
+    waveTrailY: -11
 	description: Fires powerful high-explosive shells that split into mines and shoots shrapnel.
 		weapons: [
 {
     name: Cthulhu-weapontwo
     recoil: 2.0
     x: 11
-    y: -9
+    y: -6
     shootY: 2.2
     cooldowntime: 150
     mirror: true
@@ -33,6 +30,7 @@
     inacсracy: 7
     shootSound: auto-cannon-hit
     baseRotation: -90
+	layerOffset: 110
     shootCone:120
     rotationLimit: 95
     layerOffset: -0.001
@@ -80,10 +78,11 @@ chargeEffect: {
 {
     name: Cthulhu-weapontwo
     recoil: 2.0
-    x: 7
+    x: 5.5
     y: -16.25
     shootY: 2.2
     cooldowntime: 150
+    layerOffset: 110
     mirror: true
     alternate: false
     rotate: true
@@ -134,9 +133,8 @@ chargeEffect: {
 
     colorFrom: b3eed8
     colorTo: e5f9f170
-}
+	}
 			}
 		}
 
 	]
-}
