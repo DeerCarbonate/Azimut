@@ -18,127 +18,20 @@
 	trailWidth: 120
 	description: Fires powerful high-explosive shells that split into mines and shoots shrapnel.
 		weapons: [
-		{
-			name: Cthulhu-weapon
-			recoil: 2.0
-			x: 0
-			y: 3.2
-            shootY: 2.2
-			cooldowntime: 500
-			mirror: false
-			alternate: false
-			rotate: true
-			rotateSpeed: 2.5
-			reload: 110
-			inacсuraсy: 3
-			velocityRnd:0.25
-			shootSound: malignShoot
-			shootY: 9.75
-			
-shoot: {
-  type: ShootBarrel
-  barrels: 3
-  shots: 12
-  shotDelay: 7
-  barrelOffset: 1
-  barrels: [
-    0, 0.5, 0
-    -6, 0, 0
-    6, 0, 0
-  ]
-}
-    bullet: {
-    type: BasicBulletType
-    damage: 75
-    lifetime: 50
-    width: 6
-    height: 15
-    speed: 7
-    backColor: e5f9f1
-    frontColor: b3eed8
-    trailColor: b3eed8
-    trailWidth: 2
-    trailLength: 6
-	despawnEffect: {
-        type: WaveEffect
-        rotWithParent: true
-        followParent: true
-        lifetime: 12
-        sizeFrom: 0
-        sizeTo: 12
-        colorFrom: e5f9f1
-        colorTo: b3eed840
-    }
-    hitEffect: {
-        type: WaveEffect
-        rotWithParent: true
-        followParent: true
-        lifetime: 12
-        sizeFrom: 0
-        sizeTo: 9
-        colorFrom: e5f9f1
-        colorTo: b3eed820
-    }
-    }
-    shootEffect: {
-        type: ParticleEffect
-        colorFrom: e5f9f1
-        colorTo: b3eed820
-        particles: 8
-        cone: 4
-        length: 8
-        baseLength: 5
-        lightScl: 3
-        lightOpacity: 2
-        sizeFrom: 3.5
-        sizeTo: 0
-    }
-  parts: [
-    {  
-      type: RegionPart
-      suffix: -left
-      mirror: false
-      under: true
-      progress: recoil
-      moveY: -1
-      recoilIndex: 0
-	  outline: false
-    }
-    {
-      type: RegionPart
-      suffix: -middle
-      under: true
-      moveY: -1
-      progress: recoil
-	  outline: false
-    }
-    {  
-      type: RegionPart
-      suffix: -right
-      mirror: false
-      under: true
-      progress: recoil
-      moveY: -1
-      recoilIndex: 1
-	  outline: false
-    }
-  ]
-}
 {
     name: Cthulhu-weapontwo
     recoil: 2.0
-    x: 14.325
-    y: -11.25
+    x: 11
+    y: -9
     shootY: 2.2
     cooldowntime: 150
     mirror: true
     alternate: false
     rotate: true
-    rotateSpeed: 5.5
-    reload: 40
+    rotateSpeed: 2.6
+    reload: 80
     inacсracy: 7
     shootSound: auto-cannon-hit
-    layerOffSet: -0.001
     baseRotation: -90
     shootCone:120
     rotationLimit: 95
@@ -187,15 +80,15 @@ chargeEffect: {
 {
     name: Cthulhu-weapontwo
     recoil: 2.0
-    x: 9.85
-    y: -18.25
+    x: 7
+    y: -16.25
     shootY: 2.2
     cooldowntime: 150
     mirror: true
     alternate: false
     rotate: true
-    rotateSpeed: 5.5
-    reload: 60
+    rotateSpeed: 2.6
+    reload: 80
     shootCone:120
     inacсracy: 7
     shootSound: auto-cannon-hit
