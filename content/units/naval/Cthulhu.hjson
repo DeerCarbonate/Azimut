@@ -12,7 +12,7 @@
 	immunities: [ burning, melting, wet ]
 	trailLength: 8
 	waveTrailX: 8
-    waveTrailY: -11
+    waveTrailY: -17
 	description: Fires powerful high-explosive shells that split into mines and shoots shrapnel.
 		weapons: [
 {
