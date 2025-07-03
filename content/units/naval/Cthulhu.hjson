@@ -8,7 +8,7 @@
 	armor: 9.5
 	health: 10000
 	speed: 0.6
-	hitSize: 20
+	hitSize: 40
 	immunities: [ burning, melting, wet ]
 	trailLength: 47
 	waveTrailX: 10
