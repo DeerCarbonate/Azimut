@@ -1,6 +1,6 @@
 	name: Cthulhu
 	type: naval
-	rotateSpeed: 1.4
+	rotateSpeed: 1
 	flying: false
 	alwaysUnlocked: false
 	outlineColor: 1b1c25
@@ -12,7 +12,7 @@
 	immunities: [ burning, melting, wet ]
 	trailLength: 47
 	waveTrailX: 10
-    waveTrailY: -17
+    waveTrailY: -19
 	trailScl: 3.2
 	description: Fires powerful high-explosive shells that split into mines and shoots shrapnel.
 		weapons: [
