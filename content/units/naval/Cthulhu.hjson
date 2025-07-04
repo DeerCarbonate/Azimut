@@ -51,6 +51,10 @@
     trailColor: 8edfc1
     trailLength: 7
     trailWidth: 2.5
+            shoot: {
+            type: ShootMulti
+			firstShootDelay: 120
+            }
 	despawnEffect: {
     type: WaveEffect
     rotWithParent: true
@@ -75,64 +79,18 @@ chargeEffect: {
 }
 			}
 		}
-{
-    name: Cthulhu-weapontwo
-    recoil: 2.0
-    x: 5.5
-    y: -16.25
-    shootY: 2.2
-    cooldowntime: 150
-    layerOffset: 0.001
-    mirror: true
-    alternate: false
-    rotate: true
-    rotateSpeed: 2.6
-    reload: 80
-    shootCone:120
-    inacсracy: 7
-    shootSound: auto-cannon-hit
-    baseRotation: -90
-    rotationLimit: 95
-    bullet: {
-    type: ArtilleryBulletType
-    backColor: e5f9f1
-    frontColor: b3eed8
-    height: 12
-    width: 12
-    splashDamageRadius: 12
-    splashDamage: 90
-    lifetime: 130
-    speed: 6
-    drag: 0.02
-    homingPower:0.2
-    homingRange:200
-    homingDelay:4
-    trailColor: 8edfc1
-    trailLength: 7
-    trailWidth: 2.5
-	despawnEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 24
-    sizeFrom: 0
-    sizeTo: 16
-    colorFrom: e5f9f140
-    colorTo: b3eed8
-    }
-chargeEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 21
-    offsetX: 2.1
-    sizeFrom: 5
-    sizeTo: 0
-
-    colorFrom: b3eed8
-    colorTo: e5f9f170
-	}
-			}
-		}
-
+		parts: [
+		{
+        type: HaloPart
+        tri: true
+        y: 3
+        triLength: 6
+        shapes: 1
+        radius: 0
+        radiusTo: 6
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
 	]
