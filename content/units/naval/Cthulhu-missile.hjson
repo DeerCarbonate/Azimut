@@ -42,40 +42,21 @@ parts: [
         layer:100.3
         type: HaloPart
         stroke:3
-        shapes:6
+        shapes:3
         tri:true
-        triLength: 6
-        triLengthTo: 16
+        triLength: 3.5
+        triLengthTo: 3.5
         color: 8edfc1
         rotation: 0
+		shapeMoveRot: 6
         haloRadius:0
         haloRotateSpeed:6.2
-        radius: 2
+        radius: 3
         radiusTo: 3
         progress: life
         stroke: 4
-        strokeTo: 1.5
-        y: -2.25
-    }
-    {
-        layer:100.3
-        type: HaloPart
-        stroke:3
-        shapes:6
-        tri:true
-        triLength: 4
-        triLengthTo: 6
-        color: 8edfc1
-        rotation: 0
-        haloRotation:30
-        haloRadius:0
-        haloRotateSpeed:3.1
-        radius: 6
-        radiusTo: 2
-        progress: life
-        stroke: 4
-        strokeTo: 1.5
-        y: -2.25
+        strokeTo: 4
+        y: 6
     }
     ]
 
