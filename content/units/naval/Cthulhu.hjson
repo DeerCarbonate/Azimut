@@ -10,9 +10,9 @@
 	speed: 0.6
 	hitSize: 30.8
 	immunities: [ burning, melting, wet ]
-	trailLength: 47
-	waveTrailX: 10
-    waveTrailY: -19
+	trailLength: 48
+	waveTrailX: 16
+    waveTrailY: -21
 	trailScl: 3.2
 	description: Fires powerful high-explosive shells that split into mines and shoots shrapnel.
 		weapons: [
@@ -33,7 +33,7 @@
     baseRotation: -90
     shootCone:120
     rotationLimit: 95
-    layerOffset: -0.001
+    layerOffset: 0.001
     bullet: {
     type: ArtilleryBulletType
     backColor: e5f9f1
@@ -82,7 +82,7 @@ chargeEffect: {
     y: -16.25
     shootY: 2.2
     cooldowntime: 150
-    layerOffset: 110
+    layerOffset: 0.001
     mirror: true
     alternate: false
     rotate: true
