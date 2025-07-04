@@ -36,23 +36,37 @@ trailWidth: 1.6
 engineColor: 8edfc1
 engineLayer: 110
 engineSize: 2.1
-engineOffset: 6
+engineOffset: 12
 
 immunities: [ slow, spore-slowed, tarred]
 
 parts: [
       {
      type: ShapePart
-     y: -10.5
      hollow: true
      circle: true
      layer: 110
      color: 8edfc1
      stroke: 2
      strokeTo: 2
-     radius: 3.2
-	 radiusTo: 4.5
+     radius: 6.2
+	 radiusTo: 7.5
       }
+	  {
+      type: HaloPart
+	  progress: life
+      radius: 6
+      radiusTo: 8
+      tri: true
+      color: 8edfc1
+	  layer: 110
+      haloRadius: 6
+      haloRadiusTo: 8
+      shapes: 3
+      triLengthTo: 10
+      triLength: 8
+      haloRotateSpeed: 4.2
+    }
     ]
 
 weapons: [
