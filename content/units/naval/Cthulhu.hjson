@@ -123,7 +123,7 @@ bullet: {
         radiusTo: 2.5
         color: b3eed8
         shapeRotation: 0
-        layer: 70
+        layer: 100
         progress: charge
       }
 	  {
@@ -138,7 +138,7 @@ bullet: {
         radiusTo: 2.5
         color: b3eed8
         shapeRotation: 0
-        layer: 70
+        layer: 100
         progress: charge
       }
 	]
