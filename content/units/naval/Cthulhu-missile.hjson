@@ -36,7 +36,7 @@ trailWidth: 1.6
 engineColor: 8edfc1
 engineLayer: 110
 engineSize: 2.1
-engineOffset: 12
+engineOffset: -5
 
 immunities: [ slow, spore-slowed, tarred]
 
@@ -61,10 +61,10 @@ parts: [
       color: 8edfc1
 	  layer: 110
       haloRadius: 6
-      haloRadiusTo: 8
+      haloRadiusTo: 6
       shapes: 3
-      triLengthTo: 10
-      triLength: 8
+      triLengthTo: 16
+      triLength: 6
       haloRotateSpeed: 4.2
     }
     ]
@@ -96,3 +96,27 @@ bullet: {
     }
 }
     ]
+	            despawnEffect: {
+                type: ParticleEffect
+                colorFrom: e5f9f1
+                colorTo: b3eed800
+                particles: 12
+                cone: 360
+                length: 17
+                baseLength: 1
+                sizeFrom: 4.2
+				sizeTo: 2
+                lifetime: 50
+                }
+			    hitEffect: {
+                type: ParticleEffect
+                colorFrom: e5f9f1
+                colorTo: b3eed800
+                particles: 12
+                cone: 360
+                length: 17
+                baseLength: 1
+                sizeFrom: 4.2
+				sizeTo: 2
+                lifetime: 50
+                }
