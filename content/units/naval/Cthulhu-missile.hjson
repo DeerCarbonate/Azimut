@@ -36,7 +36,7 @@ trailWidth: 0.8
 engineColor: 8edfc1
 engineLayer: 110
 engineSize: 1.6
-engineOffSet: 3
+engineOffSet: 4.8
 
 immunities: [ slow, spore-slowed, tarred]
 
@@ -53,11 +53,11 @@ parts: [
         rotation: 0
         haloRadius:0
         haloRotateSpeed:6.2
-        radius: 1
-        radiusTo: 2
+        radius: 2
+        radiusTo: 3
         progress: life
-        stroke: 1
-        strokeTo: 1.7
+        stroke: 2
+        strokeTo: 2.4
         y: 0
     }
     ]
