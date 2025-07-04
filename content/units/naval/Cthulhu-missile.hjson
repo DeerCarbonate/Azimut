@@ -31,11 +31,11 @@ deathExplosionEffect: none
 loopSoundVolume: 0.5
 
 trailColor: 8edfc1
-trailLength: 9
-trailWidth: 0.8
+trailLength: 14
+trailWidth: 1.6
 engineColor: 8edfc1
 engineLayer: 110
-engineSize: 1.6
+engineSize: 3.6
 engineOffset: 6
 
 immunities: [ slow, spore-slowed, tarred]
@@ -49,6 +49,23 @@ parts: [
         tri:true
         triLength: 5
         triLengthTo: 12
+        color: 8edfc1
+        rotation: 0
+        haloRadius:0
+        haloRotateSpeed:6.2
+        radius: 2
+        radiusTo: 3
+        progress: life
+        stroke: 2
+        strokeTo: 2.4
+        y: 0
+    }
+	{
+        layer:100.3
+        type: HaloPart
+        stroke:4
+        shapes:3
+        tri:false
         color: 8edfc1
         rotation: 0
         haloRadius:0
