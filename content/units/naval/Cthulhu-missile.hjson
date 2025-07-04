@@ -41,25 +41,18 @@ engineOffset: 6
 immunities: [ slow, spore-slowed, tarred]
 
 parts: [
-    {
-        layer:100.3
-        type: HaloPart
-        stroke:4
-        shapes:3
-        tri:true
-        triLength: 14
-        triLengthTo: 17
-        color: 8edfc1
-        rotation: 0
-        haloRadius:0
-        haloRotateSpeed:5.2
-        radius: 4
-        radiusTo: 7
-        progress: life
-        stroke: 3
-        strokeTo: 6
-        y: 0
-    }
+      {
+     type: ShapePart
+     y: -10.5
+     hollow: true
+     circle: true
+     layer: 110
+     color: 8edfc1
+     stroke: 2
+     strokeTo: 2
+     radius: 3.2
+	 radiusTo: 4.5
+      }
     ]
 
 weapons: [
