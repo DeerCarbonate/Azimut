@@ -53,7 +53,7 @@
     trailWidth: 2.5
             shoot: {
             type: ShootMulti
-			firstShootDelay: 120
+			firstShotDelay: 120
             }
 	despawnEffect: {
     type: WaveEffect
