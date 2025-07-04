@@ -10,9 +10,9 @@
 	speed: 0.6
 	hitSize: 30.8
 	immunities: [ burning, melting, wet ]
-	trailLength: 48
-	waveTrailX: 16
-    waveTrailY: -21
+	trailLength: 52
+	waveTrailX: 15.5
+    waveTrailY: -20.2
 	trailScl: 3.2
 	description: Fires powerful high-explosive shells that split into mines and shoots shrapnel.
 		weapons: [
