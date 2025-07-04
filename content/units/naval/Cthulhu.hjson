@@ -49,9 +49,9 @@ bullet: {
 	sprite: missile
     splashDamageRadius: 12
     splashDamage: 90
-    lifetime: 240
-    speed: 4
-    drag: -0.007
+    lifetime: 120
+    speed: 4.5
+    drag: -0.005
     homingPower:0.08
     homingRange:20
     homingDelay:5
