@@ -26,8 +26,8 @@
     mirror: true
     alternate: false
     rotate: true
-    rotateSpeed: 2.6
-    reload: 300
+    rotateSpeed: 2
+    reload: 270
     inacсracy: 7
     shootSound: auto-cannon-hit
     baseRotation: -90
@@ -51,7 +51,7 @@ bullet: {
     splashDamage: 90
     lifetime: 240
     speed: 4
-    drag: 0.01
+    drag: -0.01
     homingPower:0.2
     homingRange:200
     homingDelay:2
