@@ -21,7 +21,7 @@
     recoil: 2.0
     x: 11
     y: -6
-    shootY: 2.2
+    shootY: 6
     cooldowntime: 150
     mirror: true
     alternate: false
@@ -36,9 +36,9 @@
 	shoot: {
     type: ShootSpread
     firstShotDelay: 120
-    shotDelay: 18
+    shotDelay: 10.5
     spread: 0
-    shots: 4
+    shots: 3
     }
    bullet: {
         type: BulletType

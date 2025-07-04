@@ -86,47 +86,6 @@ bullet: {
 
     hitSound: rocket-explosion
     shootEffect: none
-hitEffect:{
-    type: ExplosionEffect
-
-    lifetime: 34
-
-    waveColor: 8ca9e8
-    waveStroke: 5
-    waveRad: 76
-
-    smokeColor: 8ca9e830
-    smokeSizeBase: 0
-    smokeSize: 12.5
-    smokes: 4
-
-    sparkColor: 8ca9e8
-    sparkStroke: 1.5
-    sparkRad: 58
-    sparkLen: 5
-    sparks:12
-}
-
-despawnEffect: {
-    type: ExplosionEffect
-
-    lifetime: 34
-
-    waveColor: 8ca9e8
-    waveStroke: 5
-    waveRad: 76
-
-    smokeColor: 8ca9e830
-    smokeSizeBase: 0
-    smokeSize: 12.5
-    smokes: 4
-
-    sparkColor: 8ca9e8
-    sparkStroke: 1.5
-    sparkRad: 58
-    sparkLen: 5
-    sparks:12
-}
     }
 }
     ]
