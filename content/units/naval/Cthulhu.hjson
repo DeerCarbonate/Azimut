@@ -176,7 +176,7 @@
         shapes: 1
         radius: 0
         radiusTo: 2.5
-        color: b3eed8
+        color: b3e2ee
         shapeRotation: 0
         layer: 100
         progress: charge
@@ -191,7 +191,7 @@
         shapes: 1
         radius: 0
         radiusTo: 2.5
-        color: b3eed8
+        color: b3e2ee
         shapeRotation: 0
         layer: 100
         progress: charge
