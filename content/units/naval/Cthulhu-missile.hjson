@@ -35,8 +35,8 @@ trailLength: 9
 trailWidth: 0.8
 engineColor: 8edfc1
 engineLayer: 110
-engineSize: 1.2
-engineY: 1.7
+engineSize: 1.6
+engineY: 3
 
 immunities: [ slow, spore-slowed, tarred]
 
@@ -47,17 +47,17 @@ parts: [
         stroke:4
         shapes:3
         tri:true
-        triLength: 3.5
-        triLengthTo: 7
+        triLength: 5
+        triLengthTo: 12
         color: 8edfc1
         rotation: 0
         haloRadius:0
         haloRotateSpeed:6.2
         radius: 3
-        radiusTo: 7
+        radiusTo: 9
         progress: life
-        stroke: 4
-        strokeTo: 5
+        stroke: 2
+        strokeTo: 3
         y: 0
     }
     ]
