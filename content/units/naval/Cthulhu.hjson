@@ -29,7 +29,7 @@
     rotateSpeed: 2
     reload: 270
     inacсracy: 7
-    shootSound: flak
+    shootSound: azimut-flak
     baseRotation: -90
     shootCone:120
     layerOffset: 0.001
