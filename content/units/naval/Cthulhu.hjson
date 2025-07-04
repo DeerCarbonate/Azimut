@@ -98,7 +98,7 @@ bullet: {
 	  {
         type: HaloPart
         tri: true
-        y: 12
+        y: 14 
         triLength: 8
         shapes: 1
         radius: 0
@@ -112,8 +112,8 @@ bullet: {
 	  //line
         type: HaloPart
         tri: true
-        y: 0
-		x: 3.2
+        y: -4
+		x: 4.2
         triLength: 60
         shapes: 1
         radius: 2.5
@@ -127,8 +127,8 @@ bullet: {
 	  //line
         type: HaloPart
         tri: true
-        y: 0
-		x: -3.2
+        y: -4
+		x: -4.2
         triLength: 60
         shapes: 1
         radius: 2.5
