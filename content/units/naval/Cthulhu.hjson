@@ -36,26 +36,27 @@
 	shoot: {
     type: ShootSpread
     firstShotDelay: 120
-    shotDelay: 10
-    spread: 2
+    shotDelay: 30
+    spread: 0
     shots: 6
     }
 bullet: {
-    type: ArtilleryBulletType
+    type: BasicBulletType
     backColor: e5f9f1
     frontColor: b3eed8
     height: 12
     width: 12
+	sprite: missile
     splashDamageRadius: 12
     splashDamage: 90
-    lifetime: 120
-    speed: 6
-    drag: 0.02
+    lifetime: 240
+    speed: 4
+    drag: 0.01
     homingPower:0.2
     homingRange:200
     homingDelay:2
     trailColor: 8edfc1
-    trailLength: 7
+    trailLength: 12
     trailWidth: 2.5
 	despawnEffect: {
     type: WaveEffect
