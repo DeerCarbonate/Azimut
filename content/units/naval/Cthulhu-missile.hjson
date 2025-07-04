@@ -90,14 +90,14 @@ bullet: {
     splashDamageRadius: 40
     splashDamage: 120
 
-    hitSound: rocket-explosion
+    hitSound: strawberrydeath
     shootEffect: none
 		            despawnEffect: {
                 type: ParticleEffect
                 colorFrom: e5f9f180
                 colorTo: b3eed800
                 particles: 11
-                cone: 30
+                cone: 20
                 length: 160
                 baseLength: 1
                 sizeFrom: 4.2
@@ -110,7 +110,7 @@ bullet: {
                 colorFrom: e5f9f180
                 colorTo: b3eed800
                 particles: 11
-                cone: 30
+                cone: 20
                 length: 160
                 baseLength: 1
                 sizeFrom: 4.2
