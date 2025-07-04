@@ -93,7 +93,6 @@ chargeEffect: {
     shootSound: auto-cannon-hit
     baseRotation: -90
     rotationLimit: 95
-    layerOffset: -0.001
     bullet: {
     type: ArtilleryBulletType
     backColor: e5f9f1
