@@ -32,7 +32,7 @@
     shootSound: auto-cannon-hit
     baseRotation: -90
     shootCone:120
-    rotationLimit: 95
+    rotationLimit: 0
     layerOffset: 0.001
 	shoot: {
     type: ShootSpread
@@ -69,24 +69,12 @@ bullet: {
     colorTo: b3eed8
     }
 }
-chargeEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 21
-    offsetX: 2.1
-    sizeFrom: 5
-    sizeTo: 0
-
-    colorFrom: b3eed8
-    colorTo: e5f9f170
-}
 		parts: [
 		{
         type: HaloPart
         tri: true
-        y: 3
-        triLength: 6
+        y: 0.2
+        triLength: 5
         shapes: 1
         radius: 0
         radiusTo: 6
