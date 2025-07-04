@@ -34,7 +34,14 @@
     shootCone:120
     rotationLimit: 95
     layerOffset: 0.001
-    bullet: {
+	shoot: {
+    type: ShootSpread
+    firstShotDelay: 120
+    shotDelay: 5
+    spread: 4
+    shots: 12
+    }
+bullet: {
     type: ArtilleryBulletType
     backColor: e5f9f1
     frontColor: b3eed8
@@ -51,13 +58,6 @@
     trailColor: 8edfc1
     trailLength: 7
     trailWidth: 2.5
-shoot: {
-    type: ShootSpread
-    firstShotDelay: 120
-    shotDelay: 5
-    spread: 4
-    shots: 12
-    }
 	despawnEffect: {
     type: WaveEffect
     rotWithParent: true
@@ -68,6 +68,7 @@ shoot: {
     colorFrom: e5f9f140
     colorTo: b3eed8
     }
+}
 chargeEffect: {
     type: WaveEffect
     rotWithParent: true
