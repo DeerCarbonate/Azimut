@@ -78,7 +78,6 @@ chargeEffect: {
     colorTo: e5f9f170
 }
 			}
-		}
 		parts: [
 		{
         type: HaloPart
@@ -94,3 +93,5 @@ chargeEffect: {
         progress: charge
       }
 	]
+	}
+]
