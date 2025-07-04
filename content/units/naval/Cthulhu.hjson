@@ -81,7 +81,6 @@ chargeEffect: {
     colorFrom: b3eed8
     colorTo: e5f9f170
 }
-			}
 		parts: [
 		{
         type: HaloPart
