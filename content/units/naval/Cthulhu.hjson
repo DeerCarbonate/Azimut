@@ -51,10 +51,13 @@
     trailColor: 8edfc1
     trailLength: 7
     trailWidth: 2.5
-            shoot: {
-            type: ShootMulti
-			firstShotDelay: 120
-            }
+shoot: {
+    type: ShootSpread
+    firstShotDelay: 120
+    shotDelay: 5
+    spread: 4
+    shots: 12
+    }
 	despawnEffect: {
     type: WaveEffect
     rotWithParent: true
