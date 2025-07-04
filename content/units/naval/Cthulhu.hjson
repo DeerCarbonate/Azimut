@@ -73,7 +73,7 @@ bullet: {
         type: HaloPart
         tri: true
         y: -4
-        triLength: 5
+        triLength: 4.5
         shapes: 1
 		moveY: 7
         radius: 0
@@ -87,7 +87,7 @@ bullet: {
         type: HaloPart
         tri: true
         y: 8
-        triLength: 5
+        triLength: 4.5
         shapes: 1
 	    moveY: 7
         radius: 0
@@ -101,7 +101,7 @@ bullet: {
         type: HaloPart
         tri: true
         y: 20 
-        triLength: 5
+        triLength: 4.5
         shapes: 1
 		moveY: 7
         radius: 0
@@ -123,7 +123,7 @@ bullet: {
         radiusTo: 2.5
         color: b3eed8
         shapeRotation: 0
-        layer: 60
+        layer: 70
         progress: charge
       }
 	  {
@@ -138,7 +138,7 @@ bullet: {
         radiusTo: 2.5
         color: b3eed8
         shapeRotation: 0
-        layer: 60
+        layer: 70
         progress: charge
       }
 	]
