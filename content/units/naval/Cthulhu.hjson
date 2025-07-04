@@ -32,7 +32,6 @@
     shootSound: auto-cannon-hit
     baseRotation: -90
     shootCone:120
-    rotationLimit: 0
     layerOffset: 0.001
 	shoot: {
     type: ShootSpread
@@ -73,7 +72,7 @@ bullet: {
 		{
         type: HaloPart
         tri: true
-        y: 0.2
+        y: -4
         triLength: 5
         shapes: 1
         radius: 0
