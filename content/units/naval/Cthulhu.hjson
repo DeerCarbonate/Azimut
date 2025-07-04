@@ -27,7 +27,7 @@
     alternate: false
     rotate: true
     rotateSpeed: 2.6
-    reload: 80
+    reload: 300
     inacсracy: 7
     shootSound: auto-cannon-hit
     baseRotation: -90
@@ -36,7 +36,7 @@
 	shoot: {
     type: ShootSpread
     firstShotDelay: 120
-    shotDelay: 30
+    shotDelay: 18
     spread: 0
     shots: 6
     }
@@ -116,9 +116,9 @@ bullet: {
 	  //line
         type: HaloPart
         tri: true
-        y: -9
+        y: -8
 		x: 4.2
-        triLength: 60
+        triLength: 80
         shapes: 1
         radius: 0
         radiusTo: 2.5
@@ -131,9 +131,9 @@ bullet: {
 	  //line
         type: HaloPart
         tri: true
-        y: -9
+        y: -8
 		x: -4.2
-        triLength: 60
+        triLength: 80
         shapes: 1
         radius: 0
         radiusTo: 2.5
