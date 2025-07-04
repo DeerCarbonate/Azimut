@@ -36,9 +36,9 @@
 	shoot: {
     type: ShootSpread
     firstShotDelay: 120
-    shotDelay: 5
-    spread: 4
-    shots: 12
+    shotDelay: 10
+    spread: 2
+    shots: 6
     }
 bullet: {
     type: ArtilleryBulletType
@@ -73,10 +73,66 @@ bullet: {
         type: HaloPart
         tri: true
         y: -4
-        triLength: 5
+        triLength: 8
         shapes: 1
         radius: 0
-        radiusTo: 6
+        radiusTo: 3.7
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+        type: HaloPart
+        tri: true
+        y: 2
+        triLength: 8
+        shapes: 1
+        radius: 0
+        radiusTo: 3.7
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+        type: HaloPart
+        tri: true
+        y: 8
+        triLength: 8
+        shapes: 1
+        radius: 0
+        radiusTo: 3.7
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+	  //line
+        type: HaloPart
+        tri: true
+        y: 8
+		x: 1.2
+        triLength: 20
+        shapes: 1
+        radius: 0
+        radiusTo: 2.5
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+	  //line
+        type: HaloPart
+        tri: true
+        y: 8
+		x: -1.2
+        triLength: 20
+        shapes: 1
+        radius: 0
+        radiusTo: 2.5
         color: b3eed8
         shapeRotation: 0
         layer: 100
