@@ -34,9 +34,8 @@ trailColor: 8edfc1
 trailLength: 14
 trailWidth: 1.6
 engineColor: 8edfc1
-engineLayer: 110
 engineSize: 2.1
-engineOffset: 1.5
+engineOffset: 3
 
 immunities: [ slow, spore-slowed, tarred]
 
@@ -98,24 +97,26 @@ bullet: {
                 colorFrom: e5f9f180
                 colorTo: b3eed800
                 particles: 12
-                cone: 120
+                cone: 50
                 length: 120
                 baseLength: 1
                 sizeFrom: 4.2
 				sizeTo: 2
                 lifetime: 50
+				drag: 0.2
                 }
 			    hitEffect: {
                 type: ParticleEffect
                 colorFrom: e5f9f180
                 colorTo: b3eed800
                 particles: 12
-                cone: 120
+                cone: 50
                 length: 120
                 baseLength: 1
                 sizeFrom: 4.2
 				sizeTo: 2
                 lifetime: 50
+				drag: 0.2
                 }
     }
 }
