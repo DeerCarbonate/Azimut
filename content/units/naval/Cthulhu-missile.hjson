@@ -34,7 +34,7 @@ trailColor: 8edfc1
 trailLength: 14
 trailWidth: 1.6
 engineColor: 8edfc1
-engineSize: 2.1
+engineSize: 1.7
 engineOffset: 3
 engineLayer: 100
 
@@ -56,14 +56,14 @@ parts: [
       type: HaloPart
 	  progress: life
       radius: 6
-      radiusTo: 8
+      radiusTo: 6
       tri: true
       color: 8edfc1
 	  layer: 110
       haloRadius: 6
       haloRadiusTo: 6
       shapes: 3
-      triLengthTo: 16
+      triLengthTo: 14
       triLength: 6
       haloRotateSpeed: 4.2
     }
