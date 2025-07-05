@@ -113,7 +113,7 @@ bullet: {
 				followParent: true
 				lifetime: 90
 				sizeFrom: 8
-				sizeTo: 24
+				sizeTo: 64
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
@@ -141,7 +141,7 @@ bullet: {
 				followParent: true
 				lifetime: 90
 				sizeFrom: 8
-				sizeTo: 24
+				sizeTo: 64
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
