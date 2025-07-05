@@ -36,6 +36,7 @@ trailWidth: 1.6
 engineColor: 8edfc1
 engineSize: 2.1
 engineOffset: 3
+engineLayer: 100
 
 immunities: [ slow, spore-slowed, tarred]
 
