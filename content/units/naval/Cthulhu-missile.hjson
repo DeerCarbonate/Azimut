@@ -84,12 +84,12 @@ bullet: {
     type: ExplosionBulletType
     collidesAir: false
     despawnShake: 2.4
-    maxRange: 12
+    maxRange: 14
 
-    buildingDamageMultiplier: 1.1
+    buildingDamageMultiplier: 1.15
 
-    splashDamageRadius: 40
-    splashDamage: 120
+    splashDamageRadius: 80
+    splashDamage: 100
 
     hitSound: strawberrydeath
     shootEffect: none
