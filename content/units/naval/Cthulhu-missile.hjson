@@ -111,7 +111,7 @@ bullet: {
 				type: WaveEffect
 				rotWithParent: true
 				followParent: true
-				lifetime: 90
+				lifetime: 30
 				sizeFrom: 8
 				sizeTo: 64
 				strokeFrom: 6
@@ -139,7 +139,7 @@ bullet: {
 				type: WaveEffect
 				rotWithParent: true
 				followParent: true
-				lifetime: 90
+				lifetime: 30
 				sizeFrom: 8
 				sizeTo: 64
 				strokeFrom: 6
