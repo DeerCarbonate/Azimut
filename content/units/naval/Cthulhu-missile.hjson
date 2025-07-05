@@ -93,7 +93,8 @@ bullet: {
 
     hitSound: strawberrydeath
     shootEffect: none
-		            despawnEffect: {
+		            despawnEffect: [
+				{
                 type: ParticleEffect
                 colorFrom: e5f9f180
                 colorTo: b3eed800
@@ -106,7 +107,22 @@ bullet: {
                 lifetime: 90
 				interp:pow3Out
                 }
-			    hitEffect: {
+				{
+				type: WaveEffect
+				rotWithParent: true
+				followParent: true
+				lifetime: 90
+				sizeFrom: 8
+				sizeTo: 24
+				strokeFrom: 6
+				strokeTo: 2
+                colorFrom: e5f9f180
+                colorTo: b3eed800
+				interp:pow3Out
+				}
+			]
+		            hitEffect: [
+				{
                 type: ParticleEffect
                 colorFrom: e5f9f180
                 colorTo: b3eed800
@@ -119,6 +135,20 @@ bullet: {
                 lifetime: 90
 				interp:pow3Out
                 }
+				{
+				type: WaveEffect
+				rotWithParent: true
+				followParent: true
+				lifetime: 90
+				sizeFrom: 8
+				sizeTo: 24
+				strokeFrom: 6
+				strokeTo: 2
+                colorFrom: e5f9f180
+                colorTo: b3eed800
+				interp:pow3Out
+				}
+			]
     }
 }
     ]
