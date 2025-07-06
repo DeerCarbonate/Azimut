@@ -43,7 +43,7 @@
         }
 	parts: [
     {
-        suffix: -r
+        suffix: -blade
         mirror: true
         progress: warmup
         moveRot: 3
