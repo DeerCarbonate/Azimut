@@ -7,12 +7,12 @@
 	outlineRadius: 3
 	armor: 9.5
 	health: 10000
-	speed: 0.6
-	hitSize: 30.8
+	speed: 0.7
+	hitSize: 37.8
 	immunities: [ burning, melting, wet ]
-	trailLength: 52
+	trailLength: 56
 	waveTrailX: 15.5
-    waveTrailY: -20.2
+    waveTrailY: -19
 	trailScl: 3.2
 	description: Fires powerful high-explosive shells that split into mines and shoots shrapnel.
 		weapons: [
@@ -32,16 +32,7 @@
     baseRotation: -90
     shootCone:120
     layerOffset: 0.001
-	   bullet: {
-        type: BulletType
-        spawnUnit: Cthulhu-missile
-        keepVelocity: false
-        collidesAir: false
-        speed: 0
-        smokeEffect: none
-        shootEffect: none
-        }
-  parts: [
+	  parts: [
 	{
       type: RegionPart,
       suffix: -blade,
@@ -58,6 +49,15 @@
       heatLayer: 1,
     }
   ]
+	   bullet: {
+        type: BulletType
+        spawnUnit: Cthulhu-missile
+        keepVelocity: false
+        collidesAir: false
+        speed: 0
+        smokeEffect: none
+        shootEffect: none
+        }
 	shoot: {
     type: ShootSpread
     firstShotDelay: 120
