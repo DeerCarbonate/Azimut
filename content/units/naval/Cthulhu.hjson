@@ -32,23 +32,6 @@
     baseRotation: -90
     shootCone:120
     layerOffset: 0.001
-	  parts: [
-	{
-      type: RegionPart,
-      suffix: -blade,
-      under: false,
-      mirror: true,
-      heatProgress: heat,
-      progress: warmup,
-	  x: 0,
-	  y: 0,
-	  moveRot: 3,
-	  moveX: 1.5,
-	  moveY: -0.2,
-      heatColor: ff4500,
-      heatLayer: 1,
-    }
-  ]
 	   bullet: {
         type: BulletType
         spawnUnit: Cthulhu-missile
@@ -75,6 +58,21 @@
         shootEffect: none
         }
 		parts: [
+			{
+      type: RegionPart,
+      suffix: -blade,
+      under: false,
+      mirror: true,
+      heatProgress: heat,
+      progress: warmup,
+	  x: 0,
+	  y: 0,
+	  moveRot: 3,
+	  moveX: 1.5,
+	  moveY: -0.2,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
 		{
         type: HaloPart
         tri: true
