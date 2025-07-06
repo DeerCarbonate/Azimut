@@ -76,7 +76,7 @@
 		{
         type: HaloPart
         tri: true
-        y: -4
+        y: 0
         triLength: 4.5
         shapes: 1
 		moveY: 7
@@ -90,7 +90,7 @@
 	  {
         type: HaloPart
         tri: true
-        y: 8
+        y: 12
         triLength: 4.5
         shapes: 1
 	    moveY: 7
@@ -104,7 +104,7 @@
 	  {
         type: HaloPart
         tri: true
-        y: 20 
+        y: 24
         triLength: 4.5
         shapes: 1
 		moveY: 7
@@ -118,7 +118,7 @@
 	  {
         type: HaloPart
         tri: true
-        y: 32
+        y: 36
         triLength: 4.5
         shapes: 1
 		moveY: 7
@@ -133,7 +133,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: -8
+        y: -4
 		x: 7.2
 		moveX: -2
         triLength: 90
@@ -149,7 +149,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: -8
+        y: -4
 		x: -7.2
 		moveX: 2
         triLength: 90
@@ -165,7 +165,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 0
+        y: 4
 		x: 7.2
 		moveX: -2
         triLength: 90
@@ -181,7 +181,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 0
+        y: 4
 		x: -7.2
 		moveX: 2
         triLength: 90
@@ -197,14 +197,14 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 8
+        y: 12
 		x: 7.2
 		moveX: -2
         triLength: 90
         shapes: 1
         radius: 0
         radiusTo: 2.5
-        color: b3e2ee
+        color: b3eed8
         shapeRotation: 0
         layer: 100
         progress: charge
@@ -213,14 +213,14 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 8
+        y: 12
 		x: -7.2
 		moveX: 2
         triLength: 90
         shapes: 1
         radius: 0
         radiusTo: 2.5
-        color: b3e2ee
+        color: b3eed8
         shapeRotation: 0
         layer: 100
         progress: charge
