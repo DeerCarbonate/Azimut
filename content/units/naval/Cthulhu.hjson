@@ -46,20 +46,11 @@
 				interp:pow3Out
 				}
 		]
-	   bullet: {
-        type: BulletType
-        spawnUnit: Cthulhu-missile
-        keepVelocity: false
-        collidesAir: false
-        speed: 0
-        smokeEffect: none
-        }
 	shoot: {
     type: ShootSpread
-    firstShotDelay: 120
-    shotDelay: 17
+    shotDelay: 6
     spread: 0
-    shots: 4
+    shots: 3
     }
 	   bullet: {
         type: BulletType
@@ -67,8 +58,6 @@
         keepVelocity: false
         collidesAir: false
         speed: 0
-        smokeEffect: none
-        shootEffect: none
         }
 		parts: [
 			{
@@ -271,7 +260,7 @@
     width: 3
     lifetime: 17
     damage: 31
-    speed: 5.4
+    speed: 8.2
     trailColor: 8edfc1
     trailLength: 3
     trailWidth: 0.7
@@ -279,7 +268,7 @@
     collidesTiles: true
     keepVelocity: false
     collidesAir: false
-	drag: 0.1
+	drag: 0.06
 	}
 	}
 ]
