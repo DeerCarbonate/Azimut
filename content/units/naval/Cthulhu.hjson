@@ -41,18 +41,23 @@
         smokeEffect: none
         shootEffect: none
         }
-	parts: [
-    {
-        suffix: -blade
-        mirror: true
-        progress: warmup
-        moveRot: 3
-        moveY: -0.7
-        moveX: 0.5
-        x: 0
-        y: 0
+  parts: [
+	{
+      type: RegionPart,
+      suffix: -blade,
+      under: false,
+      mirror: true,
+      heatProgress: heat,
+      progress: warmup,
+	  x: 0,
+	  y: 0,
+	  moveRot: 3,
+	  moveX: 1.5,
+	  moveY: -0.2,
+      heatColor: ff4500,
+      heatLayer: 1,
     }
-]
+  ]
 	shoot: {
     type: ShootSpread
     firstShotDelay: 120
