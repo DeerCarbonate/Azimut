@@ -20,7 +20,7 @@
     name: Cthulhu-weapon
     recoil: 2.0
     x: 0
-    y: 4
+    y: 7
     shootY: 6
     mirror: false
     alternate: false
@@ -41,7 +41,7 @@
         smokeEffect: none
         shootEffect: none
         }
-	        parts: [
+	parts: [
     {
         suffix: -r
         mirror: true
@@ -53,7 +53,7 @@
         x: 0
         y: 0
     }
-	]
+]
 	shoot: {
     type: ShootSpread
     firstShotDelay: 120
@@ -149,7 +149,7 @@
         tri: true
         y: -8
 		x: -7.2
-		moveX: -2
+		moveX: 2
         triLength: 90
         shapes: 1
         radius: 0
@@ -181,7 +181,7 @@
         tri: true
         y: 0
 		x: -7.2
-		moveX: -2
+		moveX: 2
         triLength: 90
         shapes: 1
         radius: 0
@@ -213,7 +213,7 @@
         tri: true
         y: 8
 		x: -7.2
-		moveX: -2
+		moveX: 2
         triLength: 90
         shapes: 1
         radius: 0
