@@ -21,7 +21,7 @@
     recoil: 2.0
     x: 0
     y: 7
-    shootY: 6
+    shootY: 3.5
     mirror: false
     alternate: false
     rotate: true
@@ -32,6 +32,21 @@
     baseRotation: -90
     shootCone:120
     layerOffset: 0.001
+	shootEffect: [
+				{
+				type: WaveEffect
+				rotWithParent: true
+				followParent: true
+				lifetime: 15
+				sizeFrom: 2
+				sizeTo: 12
+				strokeFrom: 3
+				strokeTo: 0
+                colorFrom: e5f9f180
+                colorTo: b3eed800
+				interp:pow3Out
+				}
+	]
 	   bullet: {
         type: BulletType
         spawnUnit: Cthulhu-missile
@@ -76,7 +91,7 @@
 		{
         type: HaloPart
         tri: true
-        y: 0
+        y: 2
         triLength: 4.5
         shapes: 1
 		moveY: 7
@@ -90,7 +105,7 @@
 	  {
         type: HaloPart
         tri: true
-        y: 12
+        y: 14
         triLength: 4.5
         shapes: 1
 	    moveY: 7
@@ -104,7 +119,7 @@
 	  {
         type: HaloPart
         tri: true
-        y: 24
+        y: 26
         triLength: 4.5
         shapes: 1
 		moveY: 7
@@ -118,7 +133,7 @@
 	  {
         type: HaloPart
         tri: true
-        y: 36
+        y: 38
         triLength: 4.5
         shapes: 1
 		moveY: 7
@@ -133,7 +148,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: -4
+        y: -2
 		x: 7.2
 		moveX: -2
         triLength: 90
@@ -149,7 +164,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: -4
+        y: -2
 		x: -7.2
 		moveX: 2
         triLength: 90
@@ -165,7 +180,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 4
+        y: 6
 		x: 7.2
 		moveX: -2
         triLength: 90
@@ -181,7 +196,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 4
+        y: 6
 		x: -7.2
 		moveX: 2
         triLength: 90
@@ -197,7 +212,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 12
+        y: 14
 		x: 7.2
 		moveX: -2
         triLength: 90
@@ -213,7 +228,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 12
+        y: 14
 		x: -7.2
 		moveX: 2
         triLength: 90
