@@ -254,7 +254,6 @@
     inacurracy: 7
     shootSound: missile
     baseRotation: -90
-    shootCone:120
     layerOffset: 0.001
 	shoot: {
     type: ShootSpread
