@@ -45,8 +45,7 @@
     {
         suffix: -r
         mirror: true
-        outlineColor: 22251b
-        progress: recoil
+        progress: warmup
         moveRot: 3
         moveY: -0.7
         moveX: 0.5
@@ -228,8 +227,8 @@
 {
     name: Cthulhu-weapontwo
     recoil: 2.0
-    x: 11
-    y: -6
+    x: 11.2
+    y: -8
     shootY: 6
     cooldowntime: 150
     mirror: true
