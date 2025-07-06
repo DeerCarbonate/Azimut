@@ -29,7 +29,7 @@
     reload: 320
     shootSound: missileLarge
     baseRotation: 0
-    shootCone:120
+    shootCone:30
     layerOffset: 0.001
 	shootEffect: [
 				{
@@ -254,6 +254,7 @@
     inacurracy: 7
     shootSound: missile
     baseRotation: -90
+	shootCone: 30
     layerOffset: 0.001
 	shoot: {
     type: ShootSpread
