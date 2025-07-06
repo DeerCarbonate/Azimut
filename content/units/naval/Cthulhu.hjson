@@ -68,7 +68,7 @@
 	  x: 0,
 	  y: 0,
 	  moveRot: 3,
-	  moveX: 1.5,
+	  moveX: -1.5,
 	  moveY: -0.2,
       heatColor: ff4500,
       heatLayer: 1,
