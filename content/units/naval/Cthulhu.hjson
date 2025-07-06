@@ -19,8 +19,8 @@
 {
     name: Cthulhu-weapon
     recoil: 2.0
-    x: 11
-    y: -6
+    x: 0
+    y: 4
     shootY: 6
     mirror: false
     alternate: false
