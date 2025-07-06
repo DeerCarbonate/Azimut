@@ -88,7 +88,7 @@
 		{
         type: HaloPart
         tri: true
-        y: 2
+        y: 3
         triLength: 4.5
         shapes: 1
 		moveY: 7
@@ -102,7 +102,7 @@
 	  {
         type: HaloPart
         tri: true
-        y: 14
+        y: 15
         triLength: 4.5
         shapes: 1
 	    moveY: 7
@@ -116,7 +116,7 @@
 	  {
         type: HaloPart
         tri: true
-        y: 26
+        y: 27
         triLength: 4.5
         shapes: 1
 		moveY: 7
@@ -130,7 +130,7 @@
 	  {
         type: HaloPart
         tri: true
-        y: 38
+        y: 39
         triLength: 4.5
         shapes: 1
 		moveY: 7
@@ -145,7 +145,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: -2
+        y: -1
 		x: 7.2
 		moveX: -2
         triLength: 90
@@ -161,7 +161,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: -2
+        y: -1
 		x: -7.2
 		moveX: 2
         triLength: 90
@@ -177,7 +177,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 6
+        y: 7
 		x: 7.2
 		moveX: -2
         triLength: 90
@@ -193,7 +193,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 6
+        y: 7
 		x: -7.2
 		moveX: 2
         triLength: 90
@@ -209,7 +209,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 14
+        y: 15
 		x: 7.2
 		moveX: -2
         triLength: 90
@@ -225,7 +225,7 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 14
+        y: 15
 		x: -7.2
 		moveX: 2
         triLength: 90
@@ -267,17 +267,17 @@
     backColor: e5f9f1
     frontColor: b3eed8
     height: 12
-    width: 4
+    width: 4.3
     lifetime: 127
-    damage: 31
-    speed: 7
+    damage: 40
+    speed: 6.7
     trailColor: 8edfc1
-    trailLength: 3
+    trailLength: 5
     trailWidth: 0.9
     collidesTiles: true
     keepVelocity: false
     collidesAir: false
-	drag: 0.012
+	drag: 0.016
 			despawnEffect: [
 				{
                 type: ParticleEffect
