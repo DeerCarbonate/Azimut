@@ -46,7 +46,7 @@
                 colorTo: b3eed800
 				interp:pow3Out
 				}
-	]
+		]
 	   bullet: {
         type: BulletType
         spawnUnit: Cthulhu-missile
@@ -252,8 +252,8 @@
     mirror: true
     alternate: false
     rotate: true
-    rotateSpeed: 2
-    reload: 270
+    rotateSpeed: 2.6
+    reload: 1200
     inacсracy: 7
     shootSound: missileLarge
     baseRotation: -90
@@ -275,153 +275,5 @@
         smokeEffect: none
         shootEffect: none
         }
-		parts: [
-		{
-        type: HaloPart
-        tri: true
-        y: -4
-        triLength: 4.5
-        shapes: 1
-		moveY: 7
-        radius: 0
-        radiusTo: 3.7
-        color: b3eed8
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	  {
-        type: HaloPart
-        tri: true
-        y: 8
-        triLength: 4.5
-        shapes: 1
-	    moveY: 7
-        radius: 0
-        radiusTo: 3.7
-        color: b3eed8
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	  {
-        type: HaloPart
-        tri: true
-        y: 20 
-        triLength: 4.5
-        shapes: 1
-		moveY: 7
-        radius: 0
-        radiusTo: 3.7
-        color: b3eed8
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	  {
-        type: HaloPart
-        tri: true
-        y: 32
-        triLength: 4.5
-        shapes: 1
-		moveY: 7
-        radius: 0
-        radiusTo: 3.7
-        color: b3eed8
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	  {
-	  //line
-        type: HaloPart
-        tri: true
-        y: -8
-		x: 4.2
-        triLength: 80
-        shapes: 1
-        radius: 0
-        radiusTo: 2.5
-        color: b3eed8
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	  {
-	  //line
-        type: HaloPart
-        tri: true
-        y: -8
-		x: -4.2
-        triLength: 80
-        shapes: 1
-        radius: 0
-        radiusTo: 2.5
-        color: b3eed8
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	  {
-	  //line
-        type: HaloPart
-        tri: true
-        y: 0
-		x: 4.2
-        triLength: 80
-        shapes: 1
-        radius: 0
-        radiusTo: 2.5
-        color: b3eed8
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	  {
-	  //line
-        type: HaloPart
-        tri: true
-        y: 0
-		x: -4.2
-        triLength: 80
-        shapes: 1
-        radius: 0
-        radiusTo: 2.5
-        color: b3eed8
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	  	  {
-	  //line
-        type: HaloPart
-        tri: true
-        y: 8
-		x: 4.2
-        triLength: 80
-        shapes: 1
-        radius: 0
-        radiusTo: 2.5
-        color: b3e2ee
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	  {
-	  //line
-        type: HaloPart
-        tri: true
-        y: 8
-		x: -4.2
-        triLength: 80
-        shapes: 1
-        radius: 0
-        radiusTo: 2.5
-        color: b3e2ee
-        shapeRotation: 0
-        layer: 100
-        progress: charge
-      }
-	]
 	}
 ]
