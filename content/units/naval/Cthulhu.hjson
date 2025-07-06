@@ -27,9 +27,8 @@
     rotate: true
     rotateSpeed: 1.7
     reload: 270
-    inacсracy: 7
     shootSound: missileLarge
-    baseRotation: -90
+    baseRotation: 0
     shootCone:120
     layerOffset: 0.001
 	shootEffect: [
@@ -37,7 +36,7 @@
 				type: WaveEffect
 				rotWithParent: true
 				followParent: true
-				lifetime: 15
+				lifetime: 20
 				sizeFrom: 2
 				sizeTo: 12
 				strokeFrom: 3
@@ -54,7 +53,6 @@
         collidesAir: false
         speed: 0
         smokeEffect: none
-        shootEffect: none
         }
 	shoot: {
     type: ShootSpread
@@ -255,25 +253,33 @@
     rotateSpeed: 2.6
     reload: 1200
     inacсracy: 7
-    shootSound: missileLarge
+    shootSound: missile
     baseRotation: -90
     shootCone:120
     layerOffset: 0.001
 	shoot: {
     type: ShootSpread
-    firstShotDelay: 120
-    shotDelay: 17
+    shotDelay: 6
     spread: 0
-    shots: 4
+    shots: 3
     }
-   bullet: {
-        type: BulletType
-        spawnUnit: Cthulhu-missile
-        keepVelocity: false
-        collidesAir: false
-        speed: 0
-        smokeEffect: none
-        shootEffect: none
-        }
+    bullet: {
+    type: BasicBulletType
+    backColor: e5f9f1
+    frontColor: b3eed8
+    height: 12
+    width: 3
+    lifetime: 17
+    damage: 31
+    speed: 5.4
+    trailColor: 8edfc1
+    trailLength: 3
+    trailWidth: 0.7
+    hitEffect: none
+    collidesTiles: true
+    keepVelocity: false
+    collidesAir: false
+	drag: 0.1
+	}
 	}
 ]
