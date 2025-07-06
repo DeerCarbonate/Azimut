@@ -17,6 +17,215 @@
 	description: Fires powerful high-explosive shells that split into mines and shoots shrapnel.
 		weapons: [
 {
+    name: Cthulhu-weapon
+    recoil: 2.0
+    x: 11
+    y: -6
+    shootY: 6
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 1.7
+    reload: 270
+    inacсracy: 7
+    shootSound: missileLarge
+    baseRotation: -90
+    shootCone:120
+    layerOffset: 0.001
+	   bullet: {
+        type: BulletType
+        spawnUnit: Cthulhu-missile
+        keepVelocity: false
+        collidesAir: false
+        speed: 0
+        smokeEffect: none
+        shootEffect: none
+        }
+	        parts: [
+    {
+        suffix: -r
+        mirror: true
+        outlineColor: 22251b
+        progress: recoil
+        moveRot: 3
+        moveY: -0.7
+        moveX: 0.5
+        x: 0
+        y: 0
+    }
+	]
+	shoot: {
+    type: ShootSpread
+    firstShotDelay: 120
+    shotDelay: 17
+    spread: 0
+    shots: 4
+    }
+	   bullet: {
+        type: BulletType
+        spawnUnit: Cthulhu-missile
+        keepVelocity: false
+        collidesAir: false
+        speed: 0
+        smokeEffect: none
+        shootEffect: none
+        }
+		parts: [
+		{
+        type: HaloPart
+        tri: true
+        y: -4
+        triLength: 4.5
+        shapes: 1
+		moveY: 7
+        radius: 0
+        radiusTo: 3.7
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+        type: HaloPart
+        tri: true
+        y: 8
+        triLength: 4.5
+        shapes: 1
+	    moveY: 7
+        radius: 0
+        radiusTo: 3.7
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+        type: HaloPart
+        tri: true
+        y: 20 
+        triLength: 4.5
+        shapes: 1
+		moveY: 7
+        radius: 0
+        radiusTo: 3.7
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+        type: HaloPart
+        tri: true
+        y: 32
+        triLength: 4.5
+        shapes: 1
+		moveY: 7
+        radius: 0
+        radiusTo: 3.7
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+	  //line
+        type: HaloPart
+        tri: true
+        y: -8
+		x: 7.2
+		moveX: -2
+        triLength: 90
+        shapes: 1
+        radius: 0
+        radiusTo: 2.5
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+	  //line
+        type: HaloPart
+        tri: true
+        y: -8
+		x: -7.2
+		moveX: -2
+        triLength: 90
+        shapes: 1
+        radius: 0
+        radiusTo: 2.5
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+	  //line
+        type: HaloPart
+        tri: true
+        y: 0
+		x: 7.2
+		moveX: -2
+        triLength: 90
+        shapes: 1
+        radius: 0
+        radiusTo: 2.5
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+	  //line
+        type: HaloPart
+        tri: true
+        y: 0
+		x: -7.2
+		moveX: -2
+        triLength: 90
+        shapes: 1
+        radius: 0
+        radiusTo: 2.5
+        color: b3eed8
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  	  {
+	  //line
+        type: HaloPart
+        tri: true
+        y: 8
+		x: 7.2
+		moveX: -2
+        triLength: 90
+        shapes: 1
+        radius: 0
+        radiusTo: 2.5
+        color: b3e2ee
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	  {
+	  //line
+        type: HaloPart
+        tri: true
+        y: 8
+		x: -7.2
+		moveX: -2
+        triLength: 90
+        shapes: 1
+        radius: 0
+        radiusTo: 2.5
+        color: b3e2ee
+        shapeRotation: 0
+        layer: 100
+        progress: charge
+      }
+	]
+	}
+{
     name: Cthulhu-weapontwo
     recoil: 2.0
     x: 11
