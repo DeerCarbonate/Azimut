@@ -26,7 +26,7 @@
     alternate: false
     rotate: true
     rotateSpeed: 1.7
-    reload: 270
+    reload: 320
     shootSound: missileLarge
     baseRotation: 0
     shootCone:120
@@ -250,7 +250,7 @@
     alternate: false
     rotate: true
     rotateSpeed: 2.6
-    reload: 100
+    reload: 70
     inacurracy: 7
     shootSound: missile
     baseRotation: -90
@@ -278,7 +278,7 @@
     collidesTiles: true
     keepVelocity: false
     collidesAir: false
-	drag: 0.06
+	drag: 0.007
 	}
 	}
 ]
