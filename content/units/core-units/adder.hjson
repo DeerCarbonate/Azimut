@@ -3,14 +3,14 @@
 	name: Adder
 	description: "Guard of the core forum."
 	flying: true
-	health: 260
-	hitSize: 9.655
-	buildSpeed: 1.5
+	health: 250
+	hitSize: 9.65
+	buildSpeed: 1.6
 	drag: 0.065
 	mineTier: 1
-    mineSpeed: 8.5
-    buildRange: 125.55
-	speed: 2
+    mineSpeed: 7.8
+    buildRange: 145
+	speed: 2.2
 	range: 210.55
 	accel: 0.6
 	targetGround: true
@@ -42,7 +42,7 @@
         bullet: {
             type: BasicBulletType
             collidesAir: true
-
+            buildingDamageMultiplier: 0.25
             backColor: 665c9f
             frontColor: bf92f9
             pierceArmor:true

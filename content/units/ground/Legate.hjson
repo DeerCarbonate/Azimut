@@ -80,7 +80,7 @@ objectives: [
 			offset: 1
 		}
 		type: BasicBulletType
-		damage: 11
+		damage: 12
 		lifetime: 18
 		collidesTiles: true
 		keepVelocity: false
