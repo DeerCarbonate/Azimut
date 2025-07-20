@@ -16,4 +16,4 @@ requirements: [
 	  "cobalt/5"
 	]
 }
-bridgeReplacement: bridge-ducts
+bridgeReplacement: cobalt-duct-bridge
