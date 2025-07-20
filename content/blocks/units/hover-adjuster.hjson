@@ -20,7 +20,7 @@ plans: [
 	unit: "Promotion" //Tier 1 assembler
 	requirements: [
 	    azimut-Improvement/1
-		azimut-venerium-large-wall
+		venerium-large-wall
 	]
 	time: 2700
 	}
