@@ -20,7 +20,7 @@ plans: [
 	unit: "Paladin" //Tier 1 assembler
 	requirements: [
 	    azimut-Legate/1
-		azimut-venerium-wall/2
+		azimut-venerium-large-wall/2
 	]
 	time: 2860
 	}
