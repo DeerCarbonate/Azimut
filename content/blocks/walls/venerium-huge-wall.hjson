@@ -1,14 +1,13 @@
-type: Wall
-name: Venurian huge wall
+name: Venerium huge wall
 health: 3675
 absorbLasers: false
 size: 3
 requirements: [
-  venerium/35
+  venerium/40
  ]
 category: defense
 research: {
-  parent: "venurian-wall-large"
+  parent: "venerium-large-wall"
   planet: gelion
     "requirements": [
 	  "venerium/90"

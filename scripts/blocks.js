@@ -1,7 +1,6 @@
-// Логистика. Logistic
 // Взят пример из asterion
-//пример: const "кодовое название предмета" = extend("Класс/type", "в кавычках название блока json", {});
-
+// Пример: const "кодовое название предмета" = extend("Класс/type", "в кавычках название блока json", {});
+// Ресурсная логистика
 const cobaltduct = extend(Duct, "cobalt-duct", {});
 
 const cobaltjunction = extend(Junction, "cobalt-junction", {});
@@ -15,3 +14,10 @@ const cobaltsorter = extend(Sorter, "cobalt-sorter", {});
 const cobaltoverflowgate = extend(OverflowDuct, "cobalt-overflow-gate", {});
 
 const invertedcobaltgateway = extend(OverflowDuct, "inverted-cobalt-overflow-gate", {});
+
+// Стены
+const veneriumwall = extend(Wall, "venerium-wall", {});
+
+const veneriumlargewall = extend(Wall, "venerium-large-wall", {});
+
+const veneriumhugewall = extend(Wall, "venerium-huge-wall", {});
