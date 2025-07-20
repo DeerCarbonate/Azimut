@@ -9,7 +9,7 @@
 	drag: 0.065
 	mineTier: 1
     mineSpeed: 7.8
-    buildRange: 145
+    buildRange: 175
 	speed: 2.2
 	range: 210.55
 	accel: 0.6
