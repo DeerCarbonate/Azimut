@@ -2,10 +2,16 @@
 // Взят пример из asterion
 //пример: const "кодовое название предмета" = extend("Класс/type", "в кавычках название блока json", {});
 
-const ducts = extend(Duct, "ducts", {});
+const cobaltduct = extend(Duct, "cobalt-duct", {});
 
-const ductsjunction = extend(Junction, "ducts-junction", {});
+const cobaltjunction = extend(Junction, "cobalt-junction", {});
 
-const bridgeducts = extend(DuctBridge, "bridge-ducts", {});
+const cobaltductbridge = extend(DuctBridge, "cobalt-duct-bridge", {});
 
-const ductsrouter = extend(Router, "ducts-router", {});
+const cobaltrouter = extend(Router, "cobalt-router", {});
+
+const cobaltsorter = extend(Sorter, "cobalt-sorter", {});
+
+const cobaltoverflowgate = extend(OverflowDuct, "cobalt-overflow-gate", {});
+
+const invertedcobaltgateway = extend(OverflowDuct, "inverted-cobalt-overflow-gate", {});

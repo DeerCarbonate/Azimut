@@ -1,4 +1,4 @@
-name: Bridge transport channel
+name: Cobalt duct bridge
 description: Transports items over building.
 size: 1
 health: 80
@@ -12,7 +12,7 @@ cobalt/6
 venerium/2
 ]
 research: {
-  parent: "ducts-router"
+  parent: "cobalt-router"
   planet: gelion
   "requirements": [
 	  "cobalt/20"

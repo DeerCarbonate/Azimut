@@ -1,5 +1,4 @@
-type: Sorter
-name: Filter
+name: Cobalt sorter
 description: Skips selected items.
 health: 30
 category: distribution
@@ -8,7 +7,7 @@ requirements: [
   venerium/2
 ]
 research: {
-  parent: "bridge-ducts"
+  parent: "cobalt-duct-bridge"
     "requirements": [
 	  "cobalt/30"
 	  "platinum/10"

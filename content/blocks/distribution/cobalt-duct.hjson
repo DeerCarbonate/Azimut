@@ -1,4 +1,4 @@
-name: Transport channel
+name: Cobalt duct
 description: Transports objects forward.
 underBullets: true
 itemCapacity: 3

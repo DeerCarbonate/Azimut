@@ -1,4 +1,4 @@
-name: Router
+name: Cobalt router
 description: Distribute items evenly.
 size: 1
 speed: 20
@@ -7,7 +7,7 @@ requirements: [
   cobalt/2
   venerium/1
 ]
-research: ducts
+research: cobalt-duct
 researchCost: [
-  cobalt/12
+  cobalt/15
 ]

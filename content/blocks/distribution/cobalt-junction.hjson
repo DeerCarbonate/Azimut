@@ -1,4 +1,4 @@
-name: Duct Junction
+name: Cobalt-junction
 description: Allows for crossing two ducts. 
 health: 65
 size: 1
@@ -7,7 +7,7 @@ requirements: [
   cobalt/2
 ]
 squareSprite: false
-research: ducts
+research: cobalt-duct
 researchCost: [
-  cobalt/20
+  cobalt/15
 ]

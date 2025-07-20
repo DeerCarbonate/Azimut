@@ -1,13 +1,13 @@
-type: OverflowDuct
-name: Overflow Gate
+name: Cobalt gateway
 description: Let item through. If blocked, output to the side.
 size: 1
 squareSprite: false
 requirements: [
   cobalt/4
+  venerium/2
 ]
 research: {
-  parent: "bridge-ducts"
+  parent: "cobalt-duct-bridge"
     "requirements": [
 	  "venerium/80"
 	  "cobalt/30"

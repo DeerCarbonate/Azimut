@@ -1,5 +1,4 @@
-type: OverflowDuct
-name: Underflow Gate
+name: Inverted cobalt overflow gate
 description: Inverted version of item gate.
 size: 1
 squareSprite: false
@@ -8,9 +7,9 @@ requirements: [
   cobalt/4
   venerium/2
 ]
-research: bridge-ducts
+research: cobalt-duct-bridge
 research: {
-  parent: "bridge-ducts"
+  parent: "cobalt-duct-bridge"
     "requirements": [
 	  "cobalt/50"
 	  "platinum/10"
