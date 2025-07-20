@@ -42,7 +42,7 @@
         bullet: {
             type: BasicBulletType
             collidesAir: true
-            buildingDamageMultiplier: 0.25
+            buildingDamageMultiplier: 0.01
             backColor: 665c9f
             frontColor: bf92f9
             pierceArmor:true
