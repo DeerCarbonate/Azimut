@@ -17,7 +17,7 @@ consumes: {
 }
 buildSpeed: 1.35
 filter: [
- azimut-venurian-wall-large
+ azimut-venerium-large-wall
 ]
 squareSprite: true
 maxBlockSize: 2
