@@ -1,0 +1,16 @@
+localizedName: Melting channels
+description: "An enemy outpost has been spotted in the sector. Discover and create the new Improvement unit - a ground hover unit that can fly through liquids and other terrain."
+captureWave: 0
+planet: gelion
+name: Melting channels
+sector: 7
+research: {
+parent: threes
+requiresUnlock: false
+objectives: [
+{
+type: SectorComplete
+preset: threes
+  }
+ ]
+}
