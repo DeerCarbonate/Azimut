@@ -1,5 +1,5 @@
 localizedName: Cold Harbor
-description: "Use the new resource to create Plankton - a floating combat unit, capture a sector and destroy the enemy base. To prevent resource shortages, open and use an alternative resource movement technology."
+description: "Create Plankton - a floating combat unit, capture a sector and destroy the enemy base. To prevent resource shortages, open and use an alternative resource movement technology."
 captureWave: 0
 planet: gelion
 name: threes
