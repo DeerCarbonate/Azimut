@@ -1,4 +1,3 @@
-type: ItemTurret
 name: Yongsin
 description: Fires three powerful projectiles.
 researchCostMultiplier: 0.5

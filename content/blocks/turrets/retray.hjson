@@ -1,4 +1,3 @@
-type: ItemTurret
 name: Retray
 description: Fires a volley of homing bullets.
 researchCostMultiplier: 0.5

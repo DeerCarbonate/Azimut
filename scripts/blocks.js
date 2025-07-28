@@ -21,3 +21,16 @@ const veneriumwall = extend(Wall, "venerium-wall", {});
 const veneriumlargewall = extend(Wall, "venerium-large-wall", {});
 
 const veneriumhugewall = extend(Wall, "venerium-huge-wall", {});
+
+// Турели
+const yongsin = extend(ItemTurret, "yongsin", {});
+
+const priority = extend(PowerTurret, "priority", {});
+
+const dezolo = extend(ItemTurret, "dezolo", {});
+
+const relocator = extend(ItemTurret, "relocator", {});
+
+const jannabi = extend(ItemTurret, "jannabi", {});
+
+const retray = extend(ItemTurret, "retray", {});
