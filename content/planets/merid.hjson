@@ -35,8 +35,6 @@ parent: alveon
 hasAtmosphere: true
 solarSystem: alveon
 orbitRadius: 65
-orbitTime: 65
-orbitSpacing: 23
 alwaysUnlocked: true
 accessible: true
 visible: true
