@@ -3,7 +3,7 @@ description: "An enemy outpost has been spotted in the sector. Discover and crea
 captureWave: 0
 planet: gelion
 name: Melting channels
-sector: 7
+sector: 4
 research: {
 parent: threes
 requiresUnlock: false

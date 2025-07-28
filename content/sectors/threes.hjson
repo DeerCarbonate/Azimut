@@ -3,7 +3,7 @@ description: "Create Plankton - a floating combat unit, capture a sector and des
 captureWave: 0
 planet: gelion
 name: threes
-sector: 1
+sector: 3
 research: {
 parent: twos
 requiresUnlock: false
