@@ -8,7 +8,7 @@ useAI: false
 showSectorLandInfo: true
 planet: gelion
 name: first
-sector: 1
+sector: 2
 research: {
 	parent: "core-forum"
 }
