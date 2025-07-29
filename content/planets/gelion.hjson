@@ -52,7 +52,7 @@ accessible: true
 visible: true
 radius: 0.97
 minZoom: 0.40
-sectorSize: 1.42
+sectorSize: 2.22
 startSector: 1
 atmosphereRadIn: 0.001
 atmosphereRadOut: 0.30
