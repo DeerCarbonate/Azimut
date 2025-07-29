@@ -3,7 +3,7 @@ description: "There is a small enemy base in the sector to control territories. 
 captureWave: 0
 planet: gelion
 name: twos
-sector: 7
+sector: 8
 research: {
 parent: first
 requiresUnlock: false
