@@ -53,7 +53,7 @@ visible: true
 radius: 0.97
 minZoom: 0.40
 sectorSize: 2.22
-startSector: 1
+startSector: 2
 atmosphereRadIn: 0.001
 atmosphereRadOut: 0.30
 atmosphereColor: 7e7e86
