@@ -1,4 +1,4 @@
-type: Floorthri
+type: Floor
 name: "Ferrite floor"
 attributes: {
 	water: -0.65
