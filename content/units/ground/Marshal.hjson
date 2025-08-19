@@ -8,7 +8,7 @@
 	armor: 3.2
 	health: 2150
 	speed: 0.42
-	hitSize: 18
+	hitSize: 12
 	mechLegColor: 0f1405
 	mechFrontSway: 0.4
 	mechStepParticles: true
