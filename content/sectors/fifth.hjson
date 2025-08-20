@@ -3,7 +3,7 @@ description: "Research and use next level of unit production technologies"
 captureWave: 0
 planet: gelion
 name: fifth
-sector: 54
+sector: 18
 research: {
 parent: sixth
 requiresUnlock: false
