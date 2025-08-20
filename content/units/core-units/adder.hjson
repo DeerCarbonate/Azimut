@@ -4,14 +4,13 @@
 	description: "Guard of the core forum."
 	flying: true
 	health: 250
-	hitSize: 9.65
 	buildSpeed: 1.6
 	drag: 0.065
 	mineTier: 1
     mineSpeed: 7.8
     buildRange: 175
 	speed: 2.2
-	range: 210.55
+	range: 24
 	accel: 0.6
 	targetGround: true
 	targetAir: true

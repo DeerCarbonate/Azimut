@@ -8,7 +8,7 @@
 	armor: 3.2
 	health: 2150
 	speed: 0.42
-	hitSize: 12
+	hitSize: 10
 	mechLegColor: 0f1405
 	mechFrontSway: 0.4
 	mechStepParticles: true
@@ -40,11 +40,11 @@
     velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
-		shoot: {
-			type: ShootSpread
-			firstShotDelay: 17
-			shots: 2
-		}
+	shoot: {
+		type: ShootSpread
+		firstShotDelay: 17
+		shots: 2
+	}
 				parts: [
 		            {
                 type: FlarePart
@@ -78,8 +78,8 @@
 		weaveMag: 2
 		weaveScale: 3
 		homingPower: 0.03
-  homingRange: 50
-  homingDelay: 25
+        homingRange: 50
+		homingDelay: 25
 		despawnEffect: none
 		collidesTiles: true
 		keepVelocity: false
