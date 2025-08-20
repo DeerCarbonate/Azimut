@@ -5,7 +5,7 @@
 	outlineColor: 22251b
 	outlineRadius: 3
 	alwaysUnlocked: false
-	armor: 3.2
+	armor: 4
 	health: 2150
 	speed: 0.42
 	hitSize: 10
@@ -26,6 +26,13 @@
         outline: false
 		}
 	]
+	objectives: [
+    {
+type: SectorComplete
+preset: sixth
+    }
+  ]
+}
 	weapons: [
 	{
 	name: Marshal-weapon
