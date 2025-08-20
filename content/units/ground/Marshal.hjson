@@ -26,6 +26,14 @@
         outline: false
 		}
 	]
+		research: {
+  parent: "Legate"
+  planet: gelion
+    "requirements": [
+	  "venerium/4000"
+	  "cobalt/3500"
+	  "platinum/2500"
+]
 	objectives: [
     {
 type: SectorComplete
