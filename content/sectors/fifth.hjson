@@ -2,7 +2,7 @@ localizedName: Tight Caverns
 description: "Research and use next level of unit production technologies"
 captureWave: 0
 planet: gelion
-name: Tight Caverns
+name: fifth
 sector: 54
 research: {
 parent: sixth
