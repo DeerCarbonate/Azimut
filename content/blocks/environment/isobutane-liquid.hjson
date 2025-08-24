@@ -3,7 +3,7 @@ name: "Isobutane"
 speedMultiplier: 0.26
 variants: 0
 cacheLayer: "mud"
-drownTime: 160
+drownTime: 130
 isLiquid: true
 liquidDrop: isobutane
 liquidMultiplier: 0.4
