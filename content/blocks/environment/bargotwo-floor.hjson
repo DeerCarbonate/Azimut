@@ -4,3 +4,4 @@ attributes: {
 	water: -0.65
 }
 variants: 6
+blendgroup: icy-floor
