@@ -16,7 +16,7 @@ consumes: {
   solid-fuel/1
   ]
 }
-outputLiquid: power/0.1
+outputLiquid: power/0.15
 hasLiquids: false
 drawer: {
   type: DrawMulti
