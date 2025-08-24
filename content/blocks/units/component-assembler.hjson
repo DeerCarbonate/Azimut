@@ -12,7 +12,7 @@ hasPower: false
 consumes: {
 	liquids: [
       power/0.10
-	  ammonia/0.4
+	  ammonia/0.15
 	]
 }
 buildSpeed: 1.35
