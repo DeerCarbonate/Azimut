@@ -34,8 +34,8 @@ shoot: {
  frontColor: c3feff
  backColor: 6898c3
  hitColor: 6898c3
- splashDamage: 480
- splashDamageRadius: 55
+ splashDamage: 460
+ splashDamageRadius: 35
  despawnSound: energy-blade-hit
  hitSound: energy-blade-hit
  lifetime: 68
