@@ -17,7 +17,7 @@ targetAir: false
 moveWhileCharging: true
 targetGround: true
 recoilAmount: 1.8
-restitution: 0.04
+restitution: 0.02
 rotateSpeed: 1
 shootSound: laser4
 ammoPerShot: 5
