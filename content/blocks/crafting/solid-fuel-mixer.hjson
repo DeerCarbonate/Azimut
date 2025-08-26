@@ -7,8 +7,8 @@ squareSprite: false
 requirements: [
   cobalt/130
   venerium/70
-  platinum/60
-  caterium/60
+  platinum/145
+  geliarin/30
 ]
 consumes: {
   liquids: [
@@ -20,6 +20,22 @@ outputItem: solid-fuel/1
 craftTime: 40
 hasLiquids: true
 liquidCapacity: 100
+		research: {
+    parent: "isobutane-burner"
+    planet: gelion
+		"requirements": [
+		"venerium/1000"
+		"cobalt/1800"
+		"platinum/950"
+		"geliarin"/650
+		]
+	objectives: [
+    {
+type: SectorComplete
+preset: fifth
+    }
+  ]
+}
 drawer: {
   type: DrawMulti
   drawers: [
@@ -52,4 +68,3 @@ drawer: {
     }
   ]
 }
-researchCostMultiplier: 0.5

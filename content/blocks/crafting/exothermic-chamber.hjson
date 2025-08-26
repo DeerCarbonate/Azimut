@@ -5,11 +5,9 @@ size: 2
 category: crafting
 squareSprite: true
 requirements: [
-  cobalt/55
-  venerium/25
-  platinum/45
-  geliarin/5
-  caterium/20
+  cobalt/100
+  platinum/35
+  geliarin/45
 ]
 consumes: {
   items: [
@@ -18,6 +16,21 @@ consumes: {
 }
 outputLiquid: power/0.15
 hasLiquids: false
+		research: {
+    parent: "solid-fuel-mixer"
+    planet: gelion
+		"requirements": [
+		"cobalt/1400"
+		"platinum/450"
+		"geliarin"/150
+		]
+	objectives: [
+    {
+type: SectorComplete
+preset: fifth
+    }
+  ]
+}
 drawer: {
   type: DrawMulti
   drawers: [
