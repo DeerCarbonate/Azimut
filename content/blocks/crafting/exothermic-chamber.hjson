@@ -22,7 +22,7 @@ hasLiquids: false
 		"requirements": [
 		"cobalt/1400"
 		"platinum/450"
-		"geliarin"/150
+		"geliarin/150"
 		]
 	objectives: [
     {
