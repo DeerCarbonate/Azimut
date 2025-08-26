@@ -3,7 +3,7 @@ description: "Your first truly serious attack sector. Use two types of units for
 captureWave: 0
 planet: gelion
 name: seven
-sector: 16
+sector: 18
 research: {
 parent: fifth
 requiresUnlock: false
