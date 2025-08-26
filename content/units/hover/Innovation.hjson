@@ -17,7 +17,22 @@
 	canDrown: false
 	"hitSize": 17.2,
 	"drag": 0.04,
-	"description": "Fires a burst of five homing bullets.",
+	"description": "Fires a burst of homing bullets.",
+		research: {
+    parent: "Improvement"
+    planet: gelion
+		"requirements": [
+		"venerium/2500"
+		"cobalt/5500"
+		"platinum/3500"
+		]
+	objectives: [
+    {
+type: SectorComplete
+preset: fifth
+    }
+  ]
+}
 		abilities: [
         {
         effect: {

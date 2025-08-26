@@ -15,6 +15,22 @@
 	waveTrailX: 5
 	waveTrailY: -7
 	description: Fires homing missiles.
+	research: {
+    parent: "Plankton"
+    planet: gelion
+		"requirements": [
+		"venerium/3500"
+		"cobalt/6500"
+		"platinum/4000"
+		"geliarin/1350"
+		]
+	objectives: [
+    {
+type: SectorComplete
+preset: fifth
+    }
+  ]
+}
 	weapons: [
 		{
 			name: Octopus-weapon

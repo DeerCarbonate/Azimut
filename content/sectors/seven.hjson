@@ -1,0 +1,18 @@
+localizedName: Frozen Frontier
+description: "Your first truly serious attack sector. Use two types of units for maximum efficiency, and prepare for enemy resistance."
+captureWave: 0
+planet: gelion
+name: seven
+sector: 18
+research: {
+parent: fifth
+requiresUnlock: false
+objectives: [
+Innovation,
+Octopus,
+{
+type: SectorComplete
+preset: fifth
+  }
+ ]
+}
