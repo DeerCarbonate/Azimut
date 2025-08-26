@@ -31,7 +31,7 @@ polySides: 9
 polyRotateSpeed: 3
 polyColor: bf92f9
 research: {
-  parent: "bridge-ducts"
+  parent: "cobalt-duct-bridge"
   planet: gelion
     "requirements": [
 	  "venerium/200"
