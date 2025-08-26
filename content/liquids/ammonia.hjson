@@ -4,7 +4,6 @@
   "color": "ceddd4",
   "barColor": "ceddd4",
   "gasColor": "b6cebf92",
-  "lightColor": "b6cebf92",
 research: {
   parent: "venerium"
 }
@@ -18,7 +17,6 @@ research: {
     "explosive": true,
     "flammable": true,
     "viscosity": 0.07,
-	"heatCapacity": 0.05,
   }
   "hiddenOnPlanets": [
 		"serpulo",

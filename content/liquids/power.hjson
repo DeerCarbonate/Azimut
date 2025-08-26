@@ -11,6 +11,9 @@ gasColor: c5dbf100
 barColor: c5dbf133
 incinerable: false
 lightColor: ffffff00
+  "liquid": {
+	"heatCapacity": 0.05,
+  }
 research: {
   parent: "isobutane"
 }
