@@ -8,6 +8,7 @@
 	armor: 9.5
 	health: 10000
 	speed: 0.7
+	healColor: a4f0d788
 	hitSize: 37.8
 	immunities: [ burning, melting, wet ]
 	trailLength: 56

@@ -10,6 +10,7 @@ armor: 8
 health: 3500
 speed: 0.9
 hitSize: 24
+healColor: a4f0d788
 faceTarget: false
 immunities: [ wet ]
 trailLength: 25

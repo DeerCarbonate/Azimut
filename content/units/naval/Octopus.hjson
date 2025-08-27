@@ -14,6 +14,7 @@
 	trailScl: 2.1
 	waveTrailX: 5
 	waveTrailY: -7
+    healColor: a4f0d788
 	description: Fires homing missiles.
 	research: {
     parent: "Plankton"

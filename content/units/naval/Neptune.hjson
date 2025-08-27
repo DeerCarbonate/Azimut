@@ -9,6 +9,7 @@ range: 165
 armor: 28
 health: 21200
 speed: 0.69
+healColor: a4f0d788
 size: 480
 hitSize: 55.0
 hitboxSize: 20.0
