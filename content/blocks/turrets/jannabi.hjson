@@ -5,7 +5,7 @@ size: 4
 outlineColor: 0c0c12
 squareSprite: false
 outlineColor: 0c0c12
-health: 2380
+health: 1200
 alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
@@ -20,11 +20,11 @@ recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 1
 shootSound: laser4
-ammoPerShot: 5
+ammoPerShot: 4
 heatRequirement: 14
 shoot: {
   shots: 1
-  firstShotDelay: 90
+  firstShotDelay: 60
 }
   ammoTypes: {
     geliarin: {
@@ -137,7 +137,7 @@ shoot: {
           particles: 1
           cone: 0
           region: azimut-despawn
-          sizeFrom: 75
+          sizeFrom: 60
           sizeTo: 0
           colorTo: 6898c3
 		  baseRotation: 90
@@ -469,14 +469,14 @@ drawer: {
 	followRotation: true
 	stroke: 6
 	radius: 0
-	radiusTo: 30
+	radiusTo: 40
 	rotation: 0
 	rotMove: 150
 	moveY: 20
 	progress: {
       type: charge
       op: curve
-      interp: slope
+      interp: pow3Out
         }
 	}
 	{
@@ -487,14 +487,15 @@ drawer: {
 	followRotation: true
 	stroke: 6
 	radius: 0
-	radiusTo: 30
+	radiusTo: 40
 	rotation: 45
 	rotMove: 75
 	moveY: 21
+	baseRotation: 45
 	progress: {
       type: charge
       op: curve
-      interp: slope
+      interp: pow3Out
         }
 	}
 	]
