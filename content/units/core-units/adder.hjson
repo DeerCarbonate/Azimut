@@ -18,6 +18,7 @@
 	engineColor: bf92f9
 	trailColor: bf92f9
 	trailLength: 8
+	healColor: bf92f988
     weapons: [
     {
         controllable: true
