@@ -1,57 +1,58 @@
-	"name": "Legate",
-	"type": mech,
-	"flying": false,
-	"rotateSpeed": 2.1,
-	"omniMove": true,
-	"outlineColor": 22251b,
-	"outlineRadius": 3,
-	"alwaysUnlocked": false,
-	"armor": 1.6,
-	"stepshake": 1,
-	"health": 935,
-	"speed": 0.49,
-	"hitSize": 13.5,
-	"mechLegColor": 0f1405,
-	"mechFrontSway": 0.8,
-	"mechStepParticles": true,
-	"faceTarget": true,
-	"squareShape": true,
-	"description": "Fires homing projectiles with a wide spread."
+	name: Legate
+	type: mech
+	flying: false
+	rotateSpeed: 2.1
+	omniMove: true
+	outlineColor: 22251b
+	outlineRadius: 3
+	alwaysUnlocked: false
+	armor: 1.6
+	stepshake: 1
+	health: 935
+	speed: 0.49
+	hitSize: 12.5
+    healColor: bf92f988
+	mechLegColor: 0f1405
+	mechFrontSway: 0.8
+	mechStepParticles: true
+	faceTarget: true
+	squareShape: true
+	description: Fires homing projectiles with a wide spread.
 	research: {
-  parent: "mech-editor"
-  planet: gelion
-    "requirements": [
-	  "venerium/120"
-	  "cobalt/90"
-	  "platinum/200"
+	parent: mech-editor
+	planet: gelion
+    requirements: [
+    venerium/120
+    cobalt/90
+    platinum/200
 ]
 objectives: [
     {
       type: OnSector
-      preset: "twos"
+      preset: twos
     }
   ]
 }
 	weapons: [
 		{
-		"name": Legate-weapon,
-		"x": 2.5,
-		"y": -4,
-		"shootY": 1.1,
-		"recoil": 1.5,
-		"cooldowntime": 120,
-		"rotationLimit": 120,
-		"mirror": false,
-		"alternate": false,
-		"rotate": true,
-		"rotateSpeed": 0.9,
-		"reload": 15,
+		name: Legate-weapon
+		x: 2.5
+		y: -4
+		shootY: 1.1
+		recoil: 1.5
+		cooldowntime: 120
+		rotationLimit: 120
+		mirror: false
+		alternate: false
+		rotate: true
+		rotateSpeed: 0.9
+		reload: 15
 		inaccuracy: 3
-		"shootSound": cannon_shoot_1,
-		"controllable": true,
-		"aiControllable": true,
-		"layer": 110,
-		"shake": 1.5,
+		shootSound: cannon_shoot_1
+		controllable: true
+		aiControllable: true
+		layer: 110
+		shake: 1.5
 		parts: [
 		{
         type: RegionPart
