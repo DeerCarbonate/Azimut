@@ -409,7 +409,7 @@ category: turret
           lifetime: 25
           particles: 1
           cone: 0
-          region: despawn
+          region: azimut-despawn
           sizeFrom: 60
           sizeTo: 0
           colorTo: 6898c3
