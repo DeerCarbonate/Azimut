@@ -36,8 +36,8 @@ shoot: {
  hitColor: 6898c3
  splashDamage: 460
  splashDamageRadius: 35
- despawnSound: energy-blade-hit
- hitSound: energy-blade-hit
+ despawnSound: explosionbig
+ hitSound: explosionbig
  lifetime: 68
  speed: 1.8,
  drag: -0.034,
@@ -94,35 +94,35 @@ shoot: {
                             cone: 25
                             baseRotation: 180
                         }
-{
+						{
                             type: ParticleEffect
                             lifetime: 58
-region: large-bomb
+							region: large-bomb
                             particles: 3
                             startDelay: 9
-sizeChangeStart:45
+							sizeChangeStart:45
                             length: 56
                             sizeFrom: 3
                             sizeTo: 0
                             spin:1
-interp:pow10Out
+							interp:pow10Out
                             colorTo: 6898c360
 							colorFrom: c3feffFF
                             cone: 60
                             baseRotation: 180
                         }
-{
+						{
                             type: ParticleEffect
                             lifetime: 52
-region: large-bomb
+							region: large-bomb
                             particles: 3
                             startDelay: 12
-sizeChangeStart:45
+							sizeChangeStart:45
                             length: 45
                             sizeFrom: 2
                             sizeTo: 0
                             spin:2
-interp:pow10Out
+							interp:pow10Out
                             colorTo: ffffff60
 							colorFrom: ffffffff 
                             cone: 30
@@ -402,6 +402,19 @@ requirements: [
   platinum/210
 ]
 category: turret
+      shootEffect: [
+        {
+          followParent: false
+          length: 0
+          lifetime: 25
+          particles: 1
+          cone: 0
+          region: despawn
+          sizeFrom: 60
+          sizeTo: 0
+          colorTo: 6898c3
+        }
+]
 drawer: {
   type: DrawTurret
   basePrefix: azimut-
