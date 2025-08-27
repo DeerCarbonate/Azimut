@@ -129,6 +129,20 @@ shoot: {
                             baseRotation: 180
                         }
                     ]
+					      shootEffect: [
+        {
+          followParent: false
+          length: 120
+          lifetime: 16
+          particles: 1
+          cone: 0
+          region: azimut-despawn
+          sizeFrom: 75
+          sizeTo: 0
+          colorTo: 6898c3
+		  baseRotation: 90
+        }
+]
 	  	  	  despawnEffect: [
 		  {
             particles: 1
@@ -402,19 +416,6 @@ requirements: [
   platinum/210
 ]
 category: turret
-      shootEffect: [
-        {
-          followParent: false
-          length: 25
-          lifetime: 25
-          particles: 1
-          cone: 90
-          region: azimut-despawn
-          sizeFrom: 60
-          sizeTo: 0
-          colorTo: 6898c3
-        }
-]
 drawer: {
   type: DrawTurret
   basePrefix: azimut-
