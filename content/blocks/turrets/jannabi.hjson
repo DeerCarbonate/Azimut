@@ -405,10 +405,10 @@ category: turret
       shootEffect: [
         {
           followParent: false
-          length: 0
+          length: 25
           lifetime: 25
           particles: 1
-          cone: 0
+          cone: 90
           region: azimut-despawn
           sizeFrom: 60
           sizeTo: 0
