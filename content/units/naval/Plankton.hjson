@@ -7,7 +7,7 @@
 	alwaysUnlocked: false
 	range: 100
 	armor: 1.45
-	health: 950
+	health: 900
 	speed: 1.55
 	hitSize: 11.2
 	healColor: a4f0d788

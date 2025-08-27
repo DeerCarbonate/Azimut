@@ -5,8 +5,8 @@
 	outlineColor: 1b1c25
 	outlineRadius: 3
 	alwaysUnlocked: false
-	armor: 3.1
-	health: 2100
+	armor: 3
+	health: 2000
 	speed: 1.15
 	hitSize: 14.2
 	immunities: [ wet ]
