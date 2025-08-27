@@ -132,7 +132,7 @@ shoot: {
 					      shootEffect: [
         {
           followParent: false
-          length: 120
+          length: 0
           lifetime: 16
           particles: 1
           cone: 0
