@@ -10,11 +10,12 @@ armor: 19
 rotateSpeed: 2
 outlineColor: 251b21
 targetair: true
+healColor: f0a4d988
 faceTarget: true
-        engineOffset: 12.4
-        engineColor: f6afdd
-        engineColorInner: FFFFFF
-		engineSize: 8
+engineOffset: 12.4
+engineColor: f6afdd
+engineColorInner: FFFFFF
+engineSize: 8
 lowAltitude: true
 	parts: [
 		{

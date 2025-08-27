@@ -6,6 +6,7 @@ flying: true
 speed: 1.95
 accel: 0.04
 drag: 0.013
+healColor: f0a4d988
 armor: 12
 rotateSpeed: 2.95
 outlineColor: 251b21

@@ -1,178 +1,176 @@
-{
-	"name": "Innovation",
-	"type": hover,
-	"useEngineElevation": false,
-	"shadowElevation": 0.3,
-	"engineOffset": -1.75,
-	"engineSize": 0,
-	"flying": false,
-	"outlineColor": 251b21,
-	"outlineRadius": 3,
-	"alwaysUnlocked": false,
-	"armor": 1,
-     accel: 0.07
-	"health": 1230,
-	"hovering": true,
-	"speed": 1.25,
-	canDrown: false
-	"hitSize": 17.2,
-	"drag": 0.04,
-	"description": "Fires a burst of homing bullets.",
-		research: {
-    parent: "Improvement"
-    planet: gelion
-		"requirements": [
-		"venerium/2500"
-		"cobalt/5500"
-		"platinum/3500"
-		]
-	objectives: [
+name: Innovation
+type: hover
+useEngineElevation: false
+shadowElevation: 0.3
+engineOffset: -1.75
+engineSize: 0
+flying: false
+outlineColor: 251b21
+outlineRadius: 3
+alwaysUnlocked: false
+armor: 1
+accel: 0.07
+health: 1230
+hovering: true
+speed: 1.25
+canDrown: false
+hitSize: 17.2
+drag: 0.04
+healColor: f0a4d988
+description: Fires a burst of homing bullets.
+research: {
+  parent: Improvement
+  planet: gelion
+  requirements: [
+    venerium/2500
+    cobalt/5500
+    platinum/3500
+  ]
+  objectives: [
     {
-type: SectorComplete
-preset: fifth
+      type: SectorComplete
+      preset: fifth
     }
   ]
 }
-		abilities: [
-        {
-        effect: {
-        type: ParticleEffect 
-        colorFrom: f6afdd
-        colorTo: 6a3fa490
-		lifetime: 40
-        particles: 1
-        cone: 360
-        length: 0
-        baseLength: 0
-        lightScl: 2.5
-        lightOpacity: 2
-        spin: 0
-        sizeFrom: 2.2
-        sizeTo: 0 
-        offset: 0
-        }
-        type : MoveEffectAbility
-        minVelocity: 0
-        interval: 0.00000001
-        y : -0
-        x : 0
+abilities: [
+  {
+    effect: {
+      type: ParticleEffect
+      colorFrom: f6afdd
+      colorTo: 6a3fa490
+      lifetime: 40
+      particles: 1
+      cone: 360
+      length: 0
+      baseLength: 0
+      lightScl: 2.5
+      lightOpacity: 2
+      spin: 0
+      sizeFrom: 2.2
+      sizeTo: 0
+      offset: 0
     }
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 0.00000001
+    y: 0
+    x: 0
+  }
 ]
-	parts: [
-		{
-			type: HoverPart
-			x: 3.8
-			y: 4.8
-			sides: 4
-			mirror: true
-			radius: 8
-			phase: 90
-			stroke: 2
-			layerOffset: -0.001
-			color: fbace3
-		}
-		{
-			type: HoverPart
-			x: 5.25
-			y: -3.2
-			sides: 4
-			mirror: true
-			radius: 8
-			phase: 90
-			stroke: 2
-			layerOffset: -0.001
-			color: fbace3
-		}
-		{
-			type: HoverPart
-			sides: 4
-			mirror: false
-			radius: 16.75
-			phase: 90
-			stroke: 2
-			layerOffset: -0.001
-			color: fbace320
-		}
-	]
-	weapons: [
-	{
+parts: [
+  {
+    type: HoverPart
+    x: 3.8
+    y: 4.8
+    sides: 4
+    mirror: true
+    radius: 8
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: fbace3
+  }
+  {
+    type: HoverPart
+    x: 5.25
+    y: -3.2
+    sides: 4
+    mirror: true
+    radius: 8
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: fbace3
+  }
+  {
+    type: HoverPart
+    sides: 4
+    mirror: false
+    radius: 16.75
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: fbace320
+  }
+]
+weapons: [
+  {
     name: Innovation-weapon
     recoil: 1.5
-	alternate: true
+    alternate: true
     layerOffset: -0.001
     shootY: 2.5
     shake: 1.2
     x: 1.95
     y: 7.1
     reload: 45
-    velocityRnd:0.3
-	shootStatus: slow
-	shootStatusDuration: 25
+    velocityRnd: 0.3
+    shootStatus: slow
+    shootStatusDuration: 25
     shoot: {
-        type: ShootBarrel
-        firstShotDelay: 30
-        shotDelay: 3.2
-        shots: 3
-
-    barrels: [
+      type: ShootBarrel
+      firstShotDelay: 30
+      shotDelay: 3.2
+      shots: 3
+      barrels: [
         1, 1, 0
         -1, 1, 0
-    ]
-        }
+      ]
+    }
     ejectEffect: none
     shootSound: spark
-		bullet: {
-		recoil: 0.1
-        keepVelocity: false
-        lifetime: 60
-        drag: -0.012
-		damage: 24
-        height: 7
-        speed: 1.7
-        width: 6
-        type: BasicBulletType
-        homingPower: 0.02
-        homingRange:50
-        homingDelay: 17
-        frontColor: ffffff
-        backColor: f6afdd
-        trailColor: f6afdd
-        trailWidth: 1.5
-        trailLength: 20
-		shootEffect: {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 25,
-        sizeFrom: 0,
-        sizeTo: 5,
-        strokeFrom: 0,
-        strokeTo: 3,
-        colorFrom: f6afdd,
-        colorTo: f6afdd00,
-        followParent: true,
-        rotWithParent: true,
-		}
-	despawnEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 22
-    sizeFrom: 0
-    sizeTo: 12
-    colorFrom: f6afdd
-    colorTo: f6afdd00
+    bullet: {
+      recoil: 0.1
+      keepVelocity: false
+      lifetime: 60
+      drag: -0.012
+      damage: 24
+      height: 7
+      speed: 1.7
+      width: 6
+      type: BasicBulletType
+      homingPower: 0.02
+      homingRange: 50
+      homingDelay: 17
+      frontColor: ffffff
+      backColor: f6afdd
+      trailColor: f6afdd
+      trailWidth: 1.5
+      trailLength: 20
+      shootEffect: {
+        type: WaveEffect
+        startDelay: 0
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 5
+        strokeFrom: 0
+        strokeTo: 3
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+        followParent: true
+        rotWithParent: true
+      }
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 22
+        sizeFrom: 0
+        sizeTo: 12
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
+      hitEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 22
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
     }
-	hitEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 22
-    sizeFrom: 0
-    sizeTo: 8
-    colorFrom: f6afdd
-    colorTo: f6afdd00
-    }
-	}
-}
+  }
 ]
-}

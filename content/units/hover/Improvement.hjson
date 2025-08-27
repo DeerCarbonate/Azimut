@@ -1,87 +1,88 @@
-	"name": "Improvement",
-	"type": hover,
-	"useEngineElevation": false,
-	"shadowElevation": 0.3,
-	"engineOffset": -1.75,
-	"engineSize": 0,
-	"flying": false,
-	"outlineColor": 251b21,
-	"outlineRadius": 3,
-	"alwaysUnlocked": false,
-	"armor": 0,
-	 accel: 0.05
-	"health": 670,
-	"hovering": true,
-	"speed": 1.45,
-	"hitSize": 13.0,
-     canDrown: false
-	"drag": 0.03,
-	"description": "Destabilizing its core, it fires a shot of homing bullets.",
-	abilities: [
-        {
-        effect: {
-        type: ParticleEffect 
-		y: -1
-        colorFrom: f6afdd
-        colorTo: 6a3fa490
-		lifetime: 25
-        particles: 1
-        cone: 360
-        length: 0
-        baseLength: 0
-        lightScl: 2.5
-        lightOpacity: 2
-        spin: 0
-        sizeFrom: 1.6
-        sizeTo: 0 
-        offset: 0
-        }
-        type : MoveEffectAbility
-        minVelocity: 0
-        interval: 0.00000001
-        y : -1
-        x : 0
+name: Improvement
+type: hover
+useEngineElevation: false
+shadowElevation: 0.3
+engineOffset: -1.75
+engineSize: 0
+flying: false
+outlineColor: 251b21
+outlineRadius: 3
+alwaysUnlocked: false
+armor: 0
+accel: 0.05
+health: 670
+hovering: true
+speed: 1.45
+hitSize: 13.0
+healColor: f0a4d988
+canDrown: false
+drag: 0.03
+description: Destabilizing its core, it fires a shot of homing bullets.
+abilities: [
+  {
+    effect: {
+      type: ParticleEffect
+      y: -1
+      colorFrom: f6afdd
+      colorTo: 6a3fa490
+      lifetime: 25
+      particles: 1
+      cone: 360
+      length: 0
+      baseLength: 0
+      lightScl: 2.5
+      lightOpacity: 2
+      spin: 0
+      sizeFrom: 1.6
+      sizeTo: 0
+      offset: 0
     }
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 0.00000001
+    y: -1
+    x: 0
+  }
 ]
-	parts: [
-		{
-			type: HoverPart
-			x: 3.4
-			y: 3.7
-			sides: 4
-			mirror: true
-			radius: 6
-			phase: 90
-			stroke: 2
-			layerOffset: -0.001
-			color: fbace3
-		}
-		{
-			type: HoverPart
-			x: 4.25
-			y: -3
-			sides: 4
-			mirror: true
-			radius: 6
-			phase: 90
-			stroke: 2
-			layerOffset: -0.001
-			color: fbace3
-		}
-		{
-			type: HoverPart
-			sides: 4
-			mirror: false
-			radius: 12.75
-			phase: 90
-			stroke: 2
-			layerOffset: -0.001
-			color: fbace320
-		}
-	]
-	weapons: [
-		{
-		    name: improvement-weapon
+parts: [
+  {
+    type: HoverPart
+    x: 3.4
+    y: 3.7
+    sides: 4
+    mirror: true
+    radius: 6
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: fbace3
+  }
+  {
+    type: HoverPart
+    x: 4.25
+    y: -3
+    sides: 4
+    mirror: true
+    radius: 6
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: fbace3
+  }
+  {
+    type: HoverPart
+    sides: 4
+    mirror: false
+    radius: 12.75
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: fbace320
+  }
+]
+weapons: [
+  {
+    name: improvement-weapon
     layerOffset: -0.01
     mirror: false
     reload: 160
@@ -91,82 +92,82 @@
     shootCone: 180
     inaccuracy: 0
     velocityRnd: 0.4
-	shootSound: blaster
+    shootSound: blaster
     ignoreRotation: true
-	x: 0
-	y: 1.95
-		shoot: {
-        	type: shootSpread
-			shots: 5
-			spread: 5
-		}
-		bullet: {
-        keepVelocity: false
-        lifetime: 110
-        drag: -0.015
-        damage: 19
-        height: 4
-        speed: 1.1
-        width: 4
-        type: BasicBulletType
-        homingPower: 0.08
-        homingDelay: 15.5
-        frontColor: ffffff
-        backColor: f6afdd
-        trailColor: f6afdd
-        trailWidth: 1
-        trailLength: 12
-		shootEffect: {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 25,
-        sizeFrom: 0,
-        sizeTo: 3,
-        strokeFrom: 0,
-        strokeTo: 3,
-        colorFrom: f6afdd,
-        colorTo: f6afdd00,
-        followParent: true,
-        rotWithParent: true,
-		interp: exp5Out,
-		sizeInterp: exp5In,
-		despawnEffect: none
-		collidesTiles: true
-		keepVelocity: false
-		collidesAir: false
-		splashDamageRadius: 2
-			hitEffect: {
-    type: ExplosionEffect
-    lifetime: 15
-    waveColor: fbace3
-    waveStroke: 1.2
-    waveRad: 2.5
-    smokeColor: fbace3
-    smokeSizeBase: 0
-    smokeSize: 5.5
-    smokes: 0
-    sparkColor: fbace3
-    sparkStroke: 1.6
-    sparkRad: 17.5
-    sparkLen: 2
-    sparks: 3
-		}
-		}
-	}
-}
+    x: 0
+    y: 1.95
+    shoot: {
+      type: shootSpread
+      shots: 5
+      spread: 5
+    }
+    bullet: {
+      keepVelocity: false
+      lifetime: 110
+      drag: -0.015
+      damage: 19
+      height: 4
+      speed: 1.1
+      width: 4
+      type: BasicBulletType
+      homingPower: 0.08
+      homingDelay: 15.5
+      frontColor: ffffff
+      backColor: f6afdd
+      trailColor: f6afdd
+      trailWidth: 1
+      trailLength: 12
+      shootEffect: {
+        type: WaveEffect
+        startDelay: 0
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 3
+        strokeFrom: 0
+        strokeTo: 3
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+        followParent: true
+        rotWithParent: true
+        interp: exp5Out
+        sizeInterp: exp5In
+        despawnEffect: none
+      }
+      collidesTiles: true
+      keepVelocity: false
+      collidesAir: false
+      splashDamageRadius: 2
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 15
+        waveColor: fbace3
+        waveStroke: 1.2
+        waveRad: 2.5
+        smokeColor: fbace3
+        smokeSizeBase: 0
+        smokeSize: 5.5
+        smokes: 0
+        sparkColor: fbace3
+        sparkStroke: 1.6
+        sparkRad: 17.5
+        sparkLen: 2
+        sparks: 3
+      }
+    }
+  }
 ]
-	research: {
-  parent: "hover-editor"
-    "requirements": [
-	  "venerium/100"
-	  "cobalt/300"
-	  "platinum/250"
-	  "geliarin/50"
-]
-objectives: [
+research: {
+  parent: hover-editor
+  requirements: [
+    venerium/100
+    cobalt/300
+    platinum/250
+    geliarin/50
+  ]
+  objectives: [
     {
-	type: SectorComplete
-	preset: twos
+      type: SectorComplete
+      preset: twos
     }
   ]
 }
