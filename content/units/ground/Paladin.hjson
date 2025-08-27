@@ -1,80 +1,78 @@
-{
-	"name": "Paladin",
-	"type": legs,
-	"flying": false,
-	"rotateSpeed": 1.55,
-	"omniMove": true,
-	"outlineColor": 22251b,
-	"outlineRadius": 3,
-	"alwaysUnlocked": true,
-	"lockLegBase": true,
-	"hovering": true,
-	"outlineRadius": 3,
-	"targetAir": true,
-	"legCount": 4,
-	"legExtension": 4,
-	"legMaxLength": 2.7,
-	"legMinLength": 0,
-	"legMoveSpace": 0.950,
-	"legLength": 16.5,
-	"legLengthScl": 0.9,
-	"legForwardScl": 0.66,
-	"rippleScale": 0.7,
-	"legspeed": 0.35,
-	"legTrns": 0.9,
-	"rotateSpeed": 1.8,
-	"legGroupSize": 1,
-	"legContinuousMove": true
-	"accel": 0.5,
-	"armor": 9.2,
-	"stepshake": 0.1,
-	"health": 5230,
-	"speed": 0.455,
-	"hitSize": 21,
-	"faceTarget": true,
-	"squareShape": true,
-	"description": "Fires a burst of lasers and homing projectiles. Able to cross most terrain.",
-	drownTimeMultiplier: 3
-	weapons: [
-		{
-		"name": Paladin-weapon
-		"x": 9.78
-		"y": -3.5
-		"shootY": 10.85
-		"shootX": 1.26
-		"recoil": 1.5
-		"cooldowntime": 120
-		"rotationLimit": 120
-		"mirror": false
-		"alternate": false
-		"rotate": true
-		"rotateSpeed": 2
-		"reload": 75
-		inaccuracy": 2
-		"shootSound": energy-blade-launch
-			parts: [
-		{
-			suffix: -blade
-			mirror: false
-			under: true
-			outlineColor: 22251b
-			outlineRadius: 3
-			progress: recoil
-			moveRot: -25
-			moveY: -3.2
-			moveX: -0.3
-			x: 0
-			y: -4.025
-		}
-	]
-		shoot: {
-            type: ShootBarrel
-            firstShotDelay: 12
-            shotDelay: 4
-            shots: 5
-        }
+name: Paladin
+type: legs
+flying: false
+rotateSpeed: 1.8
+omniMove: true
+outlineColor: 22251b
+outlineRadius: 3
+alwaysUnlocked: true
+lockLegBase: true
+hovering: true
+targetAir: true
+legCount: 4
+legExtension: 4
+legMaxLength: 2.7
+legMinLength: 0
+legMoveSpace: 0.95
+legLength: 16.5
+legLengthScl: 0.9
+legForwardScl: 0.66
+rippleScale: 0.7
+legspeed: 0.35
+legTrns: 0.9
+legGroupSize: 1
+legContinuousMove: true
+accel: 0.5
+armor: 9.2
+stepshake: 0.1
+health: 5230
+speed: 0.45
+healColor: f0aba488
+hitSize: 21
+faceTarget: true
+squareShape: true
+description: Fires a burst of lasers and homing projectiles. Able to cross most terrain.
+drownTimeMultiplier: 3
 
-		bullet: {
+weapons: [
+  {
+    name: Paladin-weapon
+    x: 9.78
+    y: -3.5
+    shootY: 10.85
+    shootX: 1.26
+    recoil: 1.5
+    cooldowntime: 120
+    rotationLimit: 120
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 2
+    reload: 75
+    inaccuracy: 2
+    shootSound: energy-blade-launch
+    parts: [
+      {
+        suffix: -blade
+        mirror: false
+        under: true
+        outlineColor: 22251b
+        outlineRadius: 3
+        progress: recoil
+        moveRot: -25
+        moveY: -3.2
+        moveX: -0.3
+        x: 0
+        y: -4.025
+      }
+    ]
+    shoot: {
+      type: ShootBarrel
+      firstShotDelay: 12
+      shotDelay: 4
+      shots: 5
+    }
+    bullet: {
       type: LaserBulletType
       colors: [f0aba4, dcc6c6]
       length: 100
@@ -82,7 +80,7 @@
       sideAngle: 140
       sideWidth: 3.4
       damage: 32
-    shootEffect: {
+      shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
         colorTo: ffbfad00
@@ -96,140 +94,139 @@
         sizeFrom: 1
         sizeTo: 0
         offset: 1
-        }
+      }
       pierceBuilding: false
       pierce: true
       pierceCap: 1
     }
-}
- {
+  }
+  {
     x: -11
-	rotate: true
-	rotateSpeed: 3.5
-	rotationLimit: 120
     y: -4.6
-	layerOffSet: -0.001
+    rotate: true
+    rotateSpeed: 3.5
+    rotationLimit: 120
+    layerOffSet: -0.001
     name: Paladin-weapontwo
     reload: 120
     rotate: true
     mirror: false
-	alternate: false
+    alternate: false
     shootSound: shoot
-       shoot: {
-       	type: ShootMulti
-       	source: {
-           type: ShootSpread
-           spread: 3
-           shots: 2
-           }
-       	dest: [
-       	{
-               	type: ShootMulti
-               	source: {
-                   type: ShootPattern
-                   shots: 2
-                   shotDelay: 5
-                   }
-               	dest: [
-               	{
-               	type: ShootPattern
-               	    firstShotDelay: 25
-               		shots: 2
-               		shotDelay: 40
-               	}
-               	]
+    shoot: {
+      type: ShootMulti
+      source: {
+        type: ShootSpread
+        spread: 3
+        shots: 2
+      }
+      dest: [
+        {
+          type: ShootMulti
+          source: {
+            type: ShootPattern
+            shots: 2
+            shotDelay: 5
+          }
+          dest: [
+            {
+              type: ShootPattern
+              firstShotDelay: 25
+              shots: 2
+              shotDelay: 40
+            }
+          ]
         }
-       	]
-       	}
-	bullet: {
-			  type: BasicBulletType
-			  sprite: missile-large
-			  shootEffect: {
-					type: ParticleEffect 
-					colorFrom: cc918b
-					colorTo: ffbfad00
-					particles: 8
-					cone: 12
-					length: 6
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 3.2
-					sizeTo: 0
-					offset: 1
-			  }
-			  damage: 9
-		      homingPower: 0.1
-		      homingRange: 60
-              homingDelay: 10
-			  speed: 4
-			  lifetime: 45
-			  width: 8.5
-			  height: 10.5
-			  backColor: cc918b 
-			  frontColor: ffbfad
-			  trailColor: ffbfad
-			  trailWidth: 2.6
-			  trailLength: 8
-			  smokeEffect: none
-			  weaveMag: 3
-			  weaveScale: 4
-			}
-		}
-		{
+      ]
+    }
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      shootEffect: {
+        type: ParticleEffect
+        colorFrom: cc918b
+        colorTo: ffbfad00
+        particles: 8
+        cone: 12
+        length: 6
+        baseLength: 5
+        lightScl: 3
+        interp: circleOut
+        lightOpacity: 2
+        spin: 5
+        sizeFrom: 3.2
+        sizeTo: 0
+        offset: 1
+      }
+      damage: 9
+      homingPower: 0.1
+      homingRange: 60
+      homingDelay: 10
+      speed: 4
+      lifetime: 45
+      width: 8.5
+      height: 10.5
+      backColor: cc918b
+      frontColor: ffbfad
+      trailColor: ffbfad
+      trailWidth: 2.6
+      trailLength: 8
+      smokeEffect: none
+      weaveMag: 3
+      weaveScale: 4
+    }
+  }
+  {
     x: -6.5
-	rotate: true
-	rotateSpeed: 3.6
-	rotationLimit: 120
     y: 4.6
-	layerOffSet: -0.001
+    rotate: true
+    rotateSpeed: 3.6
+    rotationLimit: 120
+    layerOffSet: -0.001
     name: Paladin-weapontwo
     reload: 32
     rotate: true
     mirror: false
-	alternate: false
+    alternate: false
     shootSound: shoot
     shoot: {
-        shotDelay: 3
-        shots: 2
-        }
-	bullet: {
-			  type: BasicBulletType
-			  sprite: missile-large
-			  shootEffect: {
-					type: ParticleEffect 
-					colorFrom: cc918b
-					colorTo: ffbfad00
-					particles: 8
-					cone: 12
-					length: 6
-					baseLength: 5
-					lightScl: 3
-					interp: circleOut
-					lightOpacity: 2
-					spin: 5
-					sizeFrom: 3.2
-					sizeTo: 0
-					offset: 1
-			  }
-			  damage: 9
-			  homingPower: 0.08
-			  homingDelay: 0.1
-			  speed: 4
-			  lifetime: 45
-			  width: 8.5
-			  height: 10.5
-			  backColor: cc918b 
-			  frontColor: ffbfad
-			  trailColor: ffbfad
-			  trailWidth: 2.6
-			  trailLength: 8
-			  smokeEffect: none
-			  weaveMag: 3
-			  weaveScale: 4
-			}
-		}
-	]
-}		
+      shotDelay: 3
+      shots: 2
+    }
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      shootEffect: {
+        type: ParticleEffect
+        colorFrom: cc918b
+        colorTo: ffbfad00
+        particles: 8
+        cone: 12
+        length: 6
+        baseLength: 5
+        lightScl: 3
+        interp: circleOut
+        lightOpacity: 2
+        spin: 5
+        sizeFrom: 3.2
+        sizeTo: 0
+        offset: 1
+      }
+      damage: 9
+      homingPower: 0.08
+      homingDelay: 0.1
+      speed: 4
+      lifetime: 45
+      width: 8.5
+      height: 10.5
+      backColor: cc918b
+      frontColor: ffbfad
+      trailColor: ffbfad
+      trailWidth: 2.6
+      trailLength: 8
+      smokeEffect: none
+      weaveMag: 3
+      weaveScale: 4
+    }
+  }
+]

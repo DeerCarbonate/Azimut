@@ -1,95 +1,95 @@
-	"name": "Archon",
-	"type": legs,
-	"flying": false,
-	"rotateSpeed": 1.1,
-	"omniMove": true,
-	"outlineColor": 22251b,
-	"outlineRadius": 3,
-	"alwaysUnlocked": true,
-	"lockLegBase": true,
-	"legSplashDamage": 45,
-	"legSplashRange": 26,
-	"fogRadius": 128,
-	"hovering": true,
-	"legStraightLength": 2,
-	"legStraightness": 2,
-	"outlineRadius": 3,
-	"targetAir": false,
-	"legCount": 4,
-	"legExtension": 2,
-	"legMaxLength": 3.6,
-	"legMinLength": 0,
-	"legMoveSpace": 1,
-	"legLength": 18,
-	"legLengthScl": 0.85,
-	"legForwardScl": 0.66,
-	"rippleScale": 0.5,
-	"legspeed": 0.375,
-	"legTrns": 1,
-	"rotateSpeed": 1,
-	"range": 45,
-	"legGroupSize": 1,
-	"legContinuousMove": true
-	"accel": 0.5,
-	"armor": 10,
-	"health": 12050,
-	"speed": 0.435,
-	"hitSize": 28,
-	"faceTarget": true,
-	"canBoost": false,
-	"description": "Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit.",
-	weapons: [
-			{
-			name: Archon-weapon
-			recoil: 1.8
-			x: 13
-			y: -1
-			rotationLimit: 170
-            shootY: 10
-			mirror: true
-			alternate: true
-			rotate: true
-			rotateSpeed: 1.2
-			reload: 190
-			shootCone:60
-			shootSound: shoot-small-flame
-			layerOffset: -0.001
-			baseRotation: -90
-			ignoreRotation: true
-			shootY: -1.7
-			shoot: {
-    type: ShootSpread
-    firstShotDelay: 40
+name: Archon
+type: legs
+flying: false
+rotateSpeed: 1.1
+omniMove: true
+outlineColor: 22251b
+outlineRadius: 3
+alwaysUnlocked: true
+lockLegBase: true
+legSplashDamage: 45
+legSplashRange: 26
+fogRadius: 128
+hovering: true
+legStraightLength: 2
+legStraightness: 2
+targetAir: false
+legCount: 4
+legExtension: 2
+legMaxLength: 3.6
+legMinLength: 0
+legMoveSpace: 1
+legLength: 18
+legLengthScl: 0.85
+legForwardScl: 0.66
+rippleScale: 0.5
+legspeed: 0.375
+legTrns: 1
+rotateSpeed: 1
+range: 45
+legGroupSize: 1
+legContinuousMove: true
+accel: 0.5
+armor: 10
+health: 12050
+speed: 0.43
+healColor: f0aba488
+hitSize: 28
+faceTarget: true
+canBoost: false
+description: Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit.
+weapons: [
+  {
+    name: Archon-weapon
+    recoil: 1.8
+    x: 13
+    y: -1
+    rotationLimit: 170
+    shootY: 10
+    mirror: true
+    alternate: true
+    rotate: true
+    rotateSpeed: 1.2
+    reload: 190
+    shootCone: 60
+    shootSound: shoot-small-flame
+    layerOffset: -0.001
+    baseRotation: -90
+    ignoreRotation: true
+    shootY: -1.7
+    shoot: {
+      type: ShootSpread
+      firstShotDelay: 40
     }
-				parts: [
-		{
-			suffix: -s
-			mirror: true
-			outlineColor: 22251b,
-			outlineRadius: 0,
-			progress: charge
-			moveY: -1
-			moveX: 1.2
-			x: 0
-			y: 0
-		}
-		{
-			suffix: -r
-			mirror: true
-			outlineColor: 22251b,
-			outlineRadius: 0,
-			progress: charge
-			moveRot: 8
-			moveY: -0.9
-			moveX: 0.8
-			x: 0
-			y: 0
-		}
-	]
-	bullet: {
-    type: BasicBulletType
-    sprite: circle-bullet
-    shootEffect: {
+    parts: [
+      {
+        suffix: -s
+        mirror: true
+        outlineColor: 22251b
+        outlineRadius: 0
+        progress: charge
+        moveY: -1
+        moveX: 1.2
+        x: 0
+        y: 0
+      }
+      {
+        suffix: -r
+        mirror: true
+        outlineColor: 22251b
+        outlineRadius: 0
+        progress: charge
+        moveRot: 8
+        moveY: -0.9
+        moveX: 0.8
+        x: 0
+        y: 0
+      }
+    ]
+    bullet: {
+      type: BasicBulletType
+      sprite: circle-bullet
+      shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
         colorTo: ffbfad40
@@ -104,222 +104,223 @@
         sizeFrom: 4.6
         sizeTo: 0
         offset: 1
-    }
-    damage: 80
-    pierce: true
-    pierceBuilding: true
-    pierceCap: 150
-    absorbable:false
-    hittable:false
-    speed: 3.46
-    drag: 0.02
-    lifetime: 190
-    width: 11
-    height: 11
-    backColor: ffbfad
-    frontColor: ffbfad
-    trailColor: ffbfad
-    trailWidth: 4
-    trailLength: 12
-    shrinkInterp: sineIn
-    shrinkY: -2.2
-    shrinkX: -2.2
-    intervalBullets:1
-    intervalDelay:140
-    bulletInterval:20
-    intervalBullet:{
-    width:0
-    speed:0
-    collides:false
-    hitEffect:none
-    despawnEffect:[
-    {
-    type:RadialEffect
-    lengthOffset:52
-    amount:6
-    rotationSpacing:60
-    effect:{
-        type: ParticleEffect
-        lifetime: 50
-        colorFrom: f6afdd00
-        colorTo: f6afdd
-        particles: 1
-        cone: 3
-        length: -54
-        sizeFrom: 3
-        sizeTo: 1
-        interp: pow3Out
-        }
-    }
-    {
-    type:RadialEffect
-    lengthOffset:52
-    amount:6
-    rotationSpacing:60
-    rotationOffset:15
-    effect:{
-        type: ParticleEffect
-        startDelay: 15
-        lifetime: 50
-        randLength:false
-        colorFrom: f6afdd00
-        colorTo: f6afdd
-        particles: 1
-        cone: 3
-        length: -54
-        sizeFrom: 3
-        sizeTo: 1
-        interp: pow3Out
-        }
-    }
-    {
-    type:RadialEffect
-    lengthOffset:52
-    amount:6
-    rotationSpacing:60
-    rotationOffset:30
-    effect:{
-        type: ParticleEffect
-        startDelay: 30
-        lifetime: 50
-        randLength:false
-        colorFrom: f6afdd00
-        colorTo: f6afdd
-        particles: 1
-        cone: 3
-        length: -54
-        sizeFrom: 3
-        sizeTo: 1
-        interp: pow3Out
-        }
-    }
-    {
-    type:RadialEffect
-    lengthOffset:52
-    amount:6
-    rotationSpacing:60
-    rotationOffset:45
-    effect:{
-        type: ParticleEffect
-        randLength:false
-        startDelay: 15
-        lifetime: 30
-        colorFrom: f6afdd00
-        colorTo: f6afdd
-        particles: 1
-        cone: 3
-        length: -54
-        sizeFrom: 3
-        sizeTo: 1
-        interp: pow3Out
-        }
-    }
-    ]
-    }
-    collidesTiles: true
-    collidesGround: true
-    despawnEffect: [
-		 {
-            particles: 1
-            length: 0
-            lifetime: 83
-            sizeFrom: 16.1
-            sizeTo: 16.1
-            colorFrom: f0aba4
-            colorTo: f0aba4
-			startDelay: 0
-          }
-		  {
-            particles: 1
-            length: 0
-            lifetime: 83
-            region: azimut-shockwave
-            sizeFrom: 80
-            sizeTo: 0
-            colorFrom: f0aba400
-			startDelay: 5
+      }
+      damage: 80
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 150
+      absorbable: false
+      hittable: false
+      speed: 3.46
+      drag: 0.02
+      lifetime: 190
+      width: 11
+      height: 11
+      backColor: ffbfad
+      frontColor: ffbfad
+      trailColor: ffbfad
+      trailWidth: 4
+      trailLength: 12
+      shrinkInterp: sineIn
+      shrinkY: -2.2
+      shrinkX: -2.2
+      intervalBullets: 1
+      intervalDelay: 140
+      bulletInterval: 20
+      intervalBullet: {
+        width: 0
+        speed: 0
+        collides: false
+        hitEffect: none
+        despawnEffect: [
+          {
+            type: RadialEffect
+            lengthOffset: 52
+            amount: 6
+            rotationSpacing: 60
+            effect: {
+              type: ParticleEffect
+              lifetime: 50
+              colorFrom: f6afdd00
+              colorTo: f6afdd
+              particles: 1
+              cone: 3
+              length: -54
+              sizeFrom: 3
+              sizeTo: 1
+              interp: pow3Out
+            }
           }
           {
-            particles: 1
-            length: 0
-            lifetime: 120
-            region: azimut-shockwave
-            sizeFrom: 0
-            sizeTo: 120
-            colorTo: f0aba400
-			startDelay: 79
+            type: RadialEffect
+            lengthOffset: 52
+            amount: 6
+            rotationSpacing: 60
+            rotationOffset: 15
+            effect: {
+              type: ParticleEffect
+              startDelay: 15
+              lifetime: 50
+              randLength: false
+              colorFrom: f6afdd00
+              colorTo: f6afdd
+              particles: 1
+              cone: 3
+              length: -54
+              sizeFrom: 3
+              sizeTo: 1
+              interp: pow3Out
+            }
           }
           {
-            particles: 1
-            length: 0
-            lifetime: 60
-            sizeFrom: 16.1
-            sizeTo: 0
-            colorFrom: f0aba4
-            colorTo: f0aba488
-			startDelay: 79
+            type: RadialEffect
+            lengthOffset: 52
+            amount: 6
+            rotationSpacing: 60
+            rotationOffset: 30
+            effect: {
+              type: ParticleEffect
+              startDelay: 30
+              lifetime: 50
+              randLength: false
+              colorFrom: f6afdd00
+              colorTo: f6afdd
+              particles: 1
+              cone: 3
+              length: -54
+              sizeFrom: 3
+              sizeTo: 1
+              interp: pow3Out
+            }
           }
           {
-            particles: 1
-            length: 0
-            lifetime: 60
-            sizeFrom: 16.1
-            sizeTo: 0
-			colorFrom: f0aba4
-            colorTo: f0aba488
-			startDelay: 79
+            type: RadialEffect
+            lengthOffset: 52
+            amount: 6
+            rotationSpacing: 60
+            rotationOffset: 45
+            effect: {
+              type: ParticleEffect
+              randLength: false
+              startDelay: 15
+              lifetime: 30
+              colorFrom: f6afdd00
+              colorTo: f6afdd
+              particles: 1
+              cone: 3
+              length: -54
+              sizeFrom: 3
+              sizeTo: 1
+              interp: pow3Out
+            }
           }
         ]
-		trailChance:1
-		trailRotation:true
-        trailInterval: 4.2
-        buildingDamageMultiplier: 0.1
-        trailEffect:[{
-        type: ParticleEffect
-        lifetime: 170
-        colorFrom: ffbfad
-        colorTo: af776500
-        drag: 0.2
-        particles: 1
-        cone: 360
-        length: 8
-        baseLength: 1
-        lightScl: 3
-        lightOpacity: 2
-        spin: 0
-        sizeFrom: 6.5
-        sizeTo: 0.9
-        offset: 1
-        interp: exp5Out
-        sizeInterp: exp5In
+      }
+      collidesTiles: true
+      collidesGround: true
+      despawnEffect: [
+        {
+          particles: 1
+          length: 0
+          lifetime: 83
+          sizeFrom: 16.1
+          sizeTo: 16.1
+          colorFrom: f0aba4
+          colorTo: f0aba4
+          startDelay: 0
         }
         {
-        type: ParticleEffect
-        lifetime: 170
-        colorFrom: ffbfad
-        colorTo: af776500
-        drag: 0.2
-        particles: 1
-        cone: 360
-        length: 8
-        baseLength: 1
-        lightScl: 3
-        lightOpacity: 2
-        spin: 0
-        sizeFrom: 6.5
-        sizeTo: 0.9
-        offset: 1
-        interp: exp5Out
-        sizeInterp: exp5In
+          particles: 1
+          length: 0
+          lifetime: 83
+          region: azimut-shockwave
+          sizeFrom: 80
+          sizeTo: 0
+          colorFrom: f0aba400
+          startDelay: 5
         }
-        ]
-    fragBullets: 19
-    fragLifeMin: 1
-    fragLifeMax: 2
-        fragBullet: {
-        type: BasicBulletType,
+        {
+          particles: 1
+          length: 0
+          lifetime: 120
+          region: azimut-shockwave
+          sizeFrom: 0
+          sizeTo: 120
+          colorTo: f0aba400
+          startDelay: 79
+        }
+        {
+          particles: 1
+          length: 0
+          lifetime: 60
+          sizeFrom: 16.1
+          sizeTo: 0
+          colorFrom: f0aba4
+          colorTo: f0aba488
+          startDelay: 79
+        }
+        {
+          particles: 1
+          length: 0
+          lifetime: 60
+          sizeFrom: 16.1
+          sizeTo: 0
+          colorFrom: f0aba4
+          colorTo: f0aba488
+          startDelay: 79
+        }
+      ]
+      trailChance: 1
+      trailRotation: true
+      trailInterval: 4.2
+      buildingDamageMultiplier: 0.1
+      trailEffect: [
+        {
+          type: ParticleEffect
+          lifetime: 170
+          colorFrom: ffbfad
+          colorTo: af776500
+          drag: 0.2
+          particles: 1
+          cone: 360
+          length: 8
+          baseLength: 1
+          lightScl: 3
+          lightOpacity: 2
+          spin: 0
+          sizeFrom: 6.5
+          sizeTo: 0.9
+          offset: 1
+          interp: exp5Out
+          sizeInterp: exp5In
+        }
+        {
+          type: ParticleEffect
+          lifetime: 170
+          colorFrom: ffbfad
+          colorTo: af776500
+          drag: 0.2
+          particles: 1
+          cone: 360
+          length: 8
+          baseLength: 1
+          lightScl: 3
+          lightOpacity: 2
+          spin: 0
+          sizeFrom: 6.5
+          sizeTo: 0.9
+          offset: 1
+          interp: exp5Out
+          sizeInterp: exp5In
+        }
+      ]
+      fragBullets: 19
+      fragLifeMin: 1
+      fragLifeMax: 2
+      fragBullet: {
+        type: BasicBulletType
         damage: 90
-        lifetime:120
+        lifetime: 120
         speed: 1.63
         trailWidth: 1.8
         trailLength: 34
@@ -343,7 +344,7 @@
         homingPower: 0.08
         homingDelay: 0.08
         homingRange: 70
-			}
-		}
-	}
+      }
+    }
+  }
 ]

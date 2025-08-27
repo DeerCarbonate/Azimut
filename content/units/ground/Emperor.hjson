@@ -39,7 +39,8 @@
 	"hitSize": 40,
 	"hitboxSize": [9.0, 9.0],
 	"mass": 3.92,
-	"faceTarget": true,
+	"faceTarget": true
+	healColor: f0aba488
 	"squareShape": true,
 	"canBoost": false,
 	"description": "Shoots shotgun laser beams and energy bolts with penetrating ability.",

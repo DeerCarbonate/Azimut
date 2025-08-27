@@ -11,7 +11,7 @@
 	health: 935
 	speed: 0.49
 	hitSize: 12.5
-    healColor: bf92f988
+    healColor: f0aba488
 	mechLegColor: 0f1405
 	mechFrontSway: 0.8
 	mechStepParticles: true

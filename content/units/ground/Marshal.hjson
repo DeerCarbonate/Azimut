@@ -14,7 +14,8 @@
 	mechStepParticles: true
 	faceTarget: true
     canBoost: false
-	description: "Quickly fires homing projectiles with a wide spread."
+	healColor: f0aba488
+	description: Quickly fires homing projectiles with a wide spread.
 	parts: [
 		{
         type: RegionPart
@@ -27,12 +28,12 @@
 		}
 	]
 		research: {
-  parent: "Legate"
+  parent: Legate
   planet: gelion
-    "requirements": [
-	  "venerium/4000"
-	  "cobalt/3500"
-	  "platinum/2500"
+    requirements: [
+	  venerium/4000
+	  cobalt/3500
+	  platinum/2500
 ]
 	objectives: [
     {
