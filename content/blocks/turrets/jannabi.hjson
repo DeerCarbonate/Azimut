@@ -17,7 +17,6 @@ targetAir: false
 moveWhileCharging: true
 targetGround: true
 recoilAmount: 1.8
-restitution: 0.04
 rotateSpeed: 1
 shootSound: laser4
 ammoPerShot: 4
@@ -29,7 +28,6 @@ shoot: {
   ammoTypes: {
     geliarin: {
  type: BasicBulletType
- collidesTiles: true
  collidesGround: true
  frontColor: c3feff
  backColor: 6898c3
@@ -39,11 +37,12 @@ shoot: {
  despawnSound: explosionbig
  hitSound: explosionbig
  lifetime: 68
- speed: 1.8,
- drag: -0.034,
+ speed: 10.2
+ drag: 0.01
  width: 17,
- height: 17,
- ammoMultiplier: 5,
+ scaleLife: true
+ height: 17
+ ammoMultiplier: 5
  buildingDamageMultiplier: 0.1
  trailChance:1
  trailInterval:0.65

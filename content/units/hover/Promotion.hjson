@@ -90,12 +90,12 @@ weapons: [
     rotate: true
     rotateSpeed: 999
     targetSwitchInterval: 1.5
-    targetInterval: 1.2
+    targetInterval: 1.2 
     reload: 10
     shootSound: laserShoot
     bullet: {
-      maxRange: 95
-      damage: 7
+      maxRange: 75
+      bulletDamage: 4
       shootEffect: sparkShoot
       hitEffect: pointHit
     }
