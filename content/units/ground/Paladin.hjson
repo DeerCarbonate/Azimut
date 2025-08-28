@@ -145,7 +145,7 @@ weapons: [
     type: ShrapnelBulletType
     pierce: false
     length: 65
-	width: 6
+	width: 4
     rangeChange: 20
     pierceCap: 2
     lifetime: 6
@@ -220,7 +220,7 @@ weapons: [
     type: ShrapnelBulletType
     pierce: false
     length: 65
-	width: 6
+	width: 4
     rangeChange: 20
     pierceCap: 2
     lifetime: 6
