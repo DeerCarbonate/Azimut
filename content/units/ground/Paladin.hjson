@@ -75,12 +75,12 @@ weapons: [
     bullet: {
       type: LaserBulletType
       colors: [f0aba4, dcc6c6]
-      length: 100
+      length: 120
       width: 3.5
       sideAngle: -95
       sideWidth: 1.1
 	  sideLength: 0.8
-      damage: 37
+      damage: 32
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -128,7 +128,7 @@ weapons: [
 	width: 4
     pierceCap: 2
     lifetime: 36
-    damage: 8
+    damage: 12
     toColor: cc918b
     lightColor: cc918b
     lightOpacity: 0.7
@@ -182,7 +182,7 @@ weapons: [
 	width: 4
     pierceCap: 2
     lifetime: 36
-    damage: 8
+    damage: 12
     toColor: cc918b
     lightColor: cc918b
     lightOpacity: 0.7
