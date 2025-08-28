@@ -137,22 +137,6 @@ weapons: [
 	serrationWidth: 5
 	despawnEffect: none
 	hitEffect: none
-      shootEffect: {
-        type: ParticleEffect
-        colorFrom: cc918b
-        colorTo: ffbfad00
-        particles: 8
-        cone: 12
-        length: 6
-        baseLength: 5
-        lightScl: 3
-        interp: circleOut
-        lightOpacity: 2
-        spin: 5
-        sizeFrom: 3.2
-        sizeTo: 0
-        offset: 1
-      }
     }
   }
   {
@@ -191,22 +175,6 @@ weapons: [
 	serrationWidth: 3	
 	despawnEffect: none
 	hitEffect: none
-	shootEffect: {
-        type: ParticleEffect
-        colorFrom: cc918b
-        colorTo: ffbfad00
-        particles: 8
-        cone: 12
-        length: 6
-        baseLength: 5
-        lightScl: 3
-        interp: circleOut
-        lightOpacity: 2
-        spin: 5
-        sizeFrom: 3.2
-        sizeTo: 0
-        offset: 1
-      }
     }
   }
 ]
