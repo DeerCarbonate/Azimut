@@ -112,7 +112,9 @@ weapons: [
     rotate: true
     mirror: false
     alternate: false
-    shootSound: shoot
+    shootSound: shotguns
+	soundVolume: 2
+	loopsoundVolume: 2
     shoot: {
       type: ShootMulti
       source: {
@@ -188,7 +190,9 @@ weapons: [
     rotate: true
     mirror: false
     alternate: false
-    shootSound: shoot
+    shootSound: shotguns
+	soundVolume: 2
+	loopsoundVolume: 2
     shoot: {
       shotDelay: 3
       shots: 2
