@@ -144,11 +144,10 @@ weapons: [
     bullet: {
     type: ShrapnelBulletType
     pierce: false
-    length: 65
+    length: 85
 	width: 4
-    rangeChange: 20
     pierceCap: 2
-    lifetime: 12
+    lifetime: 36
     damage: 8
     toColor: cc918b
     lightColor: cc918b
@@ -220,18 +219,17 @@ weapons: [
     bullet: {
     type: ShrapnelBulletType
     pierce: false
-    length: 65
+    length: 85
 	width: 4
-    rangeChange: 20
     pierceCap: 2
-    lifetime: 12
+    lifetime: 36
     damage: 8
     toColor: cc918b
     lightColor: cc918b
     lightOpacity: 0.7
     lightRadius: 32.5     
 	serrations: 1
-	serrationWidth: 5	
+	serrationWidth: 3	
 	despawnEffect: none
 	hitEffect: none
 	shootEffect: {
