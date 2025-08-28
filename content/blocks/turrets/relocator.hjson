@@ -18,17 +18,17 @@ targetGround: true
 rotateSpeed: 2
 shootSound: machine-gun-shot
 shootSoundVolume: 0.55
-ammoPerShot: 6
+ammoPerShot: 3
 shootY: -4.6
 inaccuracy: 6
 research: {
   parent: "dezolo"
   planet: "gelion"
     "requirements": [
-	  "venerium/500"
+	  "venerium/340"
 	  "cobalt/560"
-	  "platinum/450"
-	  "geliarin/180"
+	  "platinum/350"
+	  "geliarin/110"
 ]
 objectives: [
     {
@@ -61,10 +61,10 @@ speed: 6.5
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 45
+damage: 38
 pierce: true
 pierceBuilding: true
-pierceCap: 4
+pierceCap: 3
 pierceDamageFactor: 0.002
 backColor: bff6b1
 frontColor: bff6b1

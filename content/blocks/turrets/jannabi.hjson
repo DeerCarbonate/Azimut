@@ -34,6 +34,7 @@ shoot: {
  hitColor: 6898c3
  splashDamage: 540
  splashDamageRadius: 65
+ damage: 540
  despawnSound: explosionbig
  hitSound: explosionbig
  lifetime: 68
@@ -42,7 +43,7 @@ shoot: {
  width: 17,
  scaleLife: true
  height: 17
- ammoMultiplier: 5
+ ammoMultiplier: 3.5
  buildingDamageMultiplier: 0.1
  trailChance:1
  trailInterval:0.65
