@@ -23,12 +23,12 @@ legTrns: 0.9
 legGroupSize: 1
 legContinuousMove: true
 accel: 0.5
-armor: 9.2
+armor: 9
 stepshake: 0.1
-health: 5230
-speed: 0.45
+health: 5100
+speed: 0.55
 healColor: f0aba488
-hitSize: 21
+hitSize: 19
 faceTarget: true
 squareShape: true
 description: Fires a burst of lasers and homing projectiles. Able to cross most terrain.
@@ -75,7 +75,7 @@ weapons: [
     bullet: {
       type: LaserBulletType
       colors: [f0aba4, dcc6c6]
-      length: 120
+      length: 160
       width: 3.5
       sideAngle: -95
       sideWidth: 1.1
