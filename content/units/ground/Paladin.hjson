@@ -122,24 +122,6 @@ weapons: [
         spread: 0
         shots: 1
       }
-      dest: [
-        {
-          type: ShootMulti
-          source: {
-            type: ShootPattern
-            shots: 1
-            shotDelay: 30
-          }
-          dest: [
-            {
-              type: ShootPattern
-              firstShotDelay: 25
-              shots: 1
-              shotDelay: 80
-            }
-          ]
-        }
-      ]
     }
     bullet: {
     type: ShrapnelBulletType
@@ -192,27 +174,9 @@ weapons: [
       type: ShootMulti
       source: {
         type: ShootSpread
-        spread: 3
-        shots: 2
+        spread: 0
+        shots: 1
       }
-      dest: [
-        {
-          type: ShootMulti
-          source: {
-            type: ShootPattern
-            shots: 1
-            shotDelay: 30
-          }
-          dest: [
-            {
-              type: ShootPattern
-              firstShotDelay: 25
-              shots: 1
-              shotDelay: 80
-            }
-          ]
-        }
-      ]
     }
     bullet: {
     type: ShrapnelBulletType
