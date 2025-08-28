@@ -108,7 +108,7 @@ weapons: [
     rotationLimit: 120
     layerOffSet: -0.001
     name: Paladin-weapontwo
-    reload: 120
+    reload: 80
     rotate: true
     mirror: false
     alternate: false
@@ -142,8 +142,17 @@ weapons: [
       ]
     }
     bullet: {
-      type: BasicBulletType
-      sprite: missile-large
+    type: ShrapnelBulletType
+    pierce: false
+    length: 125
+    rangeChange: 20
+    pierceCap: 21
+    lifetime: 4
+    damage: 35
+    toColor: cc918b
+    lightColor: cc918b
+    lightOpacity: 0.7
+    lightRadius: 32.5
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -160,22 +169,6 @@ weapons: [
         sizeTo: 0
         offset: 1
       }
-      damage: 4
-      homingPower: 0.1
-      homingRange: 60
-      homingDelay: 10
-      speed: 4
-      lifetime: 45
-      width: 8.5
-      height: 10.5
-      backColor: cc918b
-      frontColor: ffbfad
-      trailColor: ffbfad
-      trailWidth: 2.6
-      trailLength: 8
-      smokeEffect: none
-      weaveMag: 3
-      weaveScale: 4
     }
   }
   {
@@ -186,7 +179,7 @@ weapons: [
     rotationLimit: 120
     layerOffSet: -0.001
     name: Paladin-weapontwo
-    reload: 32
+    reload: 80
     rotate: true
     mirror: false
     alternate: false
@@ -198,8 +191,17 @@ weapons: [
       shots: 2
     }
     bullet: {
-      type: BasicBulletType
-      sprite: missile-large
+    type: ShrapnelBulletType
+    pierce: false
+    length: 125
+    rangeChange: 20
+    pierceCap: 21
+    lifetime: 4
+    damage: 35
+    toColor: cc918b
+    lightColor: cc918b
+    lightOpacity: 0.7
+    lightRadius: 32.5
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -216,21 +218,6 @@ weapons: [
         sizeTo: 0
         offset: 1
       }
-      damage: 4
-      homingPower: 0.08
-      homingDelay: 0.1
-      speed: 4
-      lifetime: 45
-      width: 8.5
-      height: 10.5
-      backColor: cc918b
-      frontColor: ffbfad
-      trailColor: ffbfad
-      trailWidth: 2.6
-      trailLength: 8
-      smokeEffect: none
-      weaveMag: 3
-      weaveScale: 4
     }
   }
 ]
