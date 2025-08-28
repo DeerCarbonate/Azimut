@@ -116,12 +116,8 @@ weapons: [
 	soundVolume: 2
 	loopsoundVolume: 2
     shoot: {
-      type: ShootMulti
-      source: {
-        type: ShootSpread
-        spread: 0
-        shots: 1
-      }
+      type: ShootSpread
+	  shots: 1
     }
     bullet: {
     type: ShrapnelBulletType
@@ -137,6 +133,8 @@ weapons: [
     lightRadius: 32.5
 	serrations: 1
 	serrationWidth: 5
+	despawnEffect: none
+	hitEffect: none
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -171,12 +169,8 @@ weapons: [
 	soundVolume: 2
 	loopsoundVolume: 2
     shoot: {
-      type: ShootMulti
-      source: {
-        type: ShootSpread
-        spread: 0
-        shots: 1
-      }
+      type: ShootSpread
+	  shots: 1
     }
     bullet: {
     type: ShrapnelBulletType
@@ -192,6 +186,8 @@ weapons: [
     lightRadius: 32.5     
 	serrations: 1
 	serrationWidth: 3	
+	despawnEffect: none
+	hitEffect: none
 	shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
