@@ -148,7 +148,7 @@ weapons: [
 	width: 4
     rangeChange: 20
     pierceCap: 2
-    lifetime: 6
+    lifetime: 12
     damage: 8
     toColor: cc918b
     lightColor: cc918b
@@ -157,6 +157,7 @@ weapons: [
 	serrations: 1
 	serrationWidth: 5
 	despawnEffect: none
+	hitEffect: none
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -223,7 +224,7 @@ weapons: [
 	width: 4
     rangeChange: 20
     pierceCap: 2
-    lifetime: 6
+    lifetime: 12
     damage: 8
     toColor: cc918b
     lightColor: cc918b
@@ -232,6 +233,7 @@ weapons: [
 	serrations: 1
 	serrationWidth: 5	
 	despawnEffect: none
+	hitEffect: none
 	shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
