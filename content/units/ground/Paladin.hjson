@@ -78,7 +78,7 @@ weapons: [
       length: 100
       width: 3.5
       sideAngle: -95
-      sideWidth: 3.6
+      sideWidth: 2.1
       damage: 48
       shootEffect: {
         type: ParticleEffect
@@ -144,11 +144,12 @@ weapons: [
     bullet: {
     type: ShrapnelBulletType
     pierce: false
-    length: 125
+    length: 75
+	width: 6
     rangeChange: 20
-    pierceCap: 21
-    lifetime: 4
-    damage: 35
+    pierceCap: 3
+    lifetime: 6
+    damage: 8
     toColor: cc918b
     lightColor: cc918b
     lightOpacity: 0.7
@@ -187,22 +188,45 @@ weapons: [
 	soundVolume: 2
 	loopsoundVolume: 2
     shoot: {
-      shotDelay: 3
-      shots: 2
+      type: ShootMulti
+      source: {
+        type: ShootSpread
+        spread: 3
+        shots: 2
+      }
+      dest: [
+        {
+          type: ShootMulti
+          source: {
+            type: ShootPattern
+            shots: 2
+            shotDelay: 5
+          }
+          dest: [
+            {
+              type: ShootPattern
+              firstShotDelay: 25
+              shots: 2
+              shotDelay: 40
+            }
+          ]
+        }
+      ]
     }
     bullet: {
     type: ShrapnelBulletType
     pierce: false
-    length: 125
+    length: 75
+	width: 6
     rangeChange: 20
-    pierceCap: 21
-    lifetime: 4
-    damage: 35
+    pierceCap: 3
+    lifetime: 6
+    damage: 8
     toColor: cc918b
     lightColor: cc918b
     lightOpacity: 0.7
-    lightRadius: 32.5
-      shootEffect: {
+    lightRadius: 32.5      
+	shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
         colorTo: ffbfad00
