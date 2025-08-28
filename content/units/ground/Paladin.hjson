@@ -127,14 +127,14 @@ weapons: [
           type: ShootMulti
           source: {
             type: ShootPattern
-            shots: 2
+            shots: 1
             shotDelay: 30
           }
           dest: [
             {
               type: ShootPattern
               firstShotDelay: 25
-              shots: 4
+              shots: 1
               shotDelay: 80
             }
           ]
