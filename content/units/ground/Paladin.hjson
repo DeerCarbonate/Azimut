@@ -119,22 +119,22 @@ weapons: [
       type: ShootMulti
       source: {
         type: ShootSpread
-        spread: 15
-        shots: 2
+        spread: 0
+        shots: 1
       }
       dest: [
         {
           type: ShootMulti
           source: {
             type: ShootPattern
-            shots: 1
+            shots: 2
             shotDelay: 30
           }
           dest: [
             {
               type: ShootPattern
               firstShotDelay: 25
-              shots: 1
+              shots: 4
               shotDelay: 80
             }
           ]
@@ -155,8 +155,6 @@ weapons: [
     lightRadius: 32.5
 	serrations: 1
 	serrationWidth: 5
-	despawnEffect: none
-	hitEffect: none
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -230,8 +228,6 @@ weapons: [
     lightRadius: 32.5     
 	serrations: 1
 	serrationWidth: 3	
-	despawnEffect: none
-	hitEffect: none
 	shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
