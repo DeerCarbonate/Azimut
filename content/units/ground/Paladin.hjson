@@ -78,8 +78,9 @@ weapons: [
       length: 100
       width: 3.5
       sideAngle: -95
-      sideWidth: 2.1
-      damage: 48
+      sideWidth: 1.1
+	  sideLength: 0.8
+      damage: 37
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -136,8 +137,6 @@ weapons: [
 	serrationWidth: 5
 	despawnEffect: none
 	hitEffect: none
-	soundVolume: 1
-	loopSoundVolume: 1
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
