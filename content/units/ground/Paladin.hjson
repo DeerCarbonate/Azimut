@@ -128,14 +128,14 @@ weapons: [
           source: {
             type: ShootPattern
             shots: 2
-            shotDelay: 5
+            shotDelay: 30
           }
           dest: [
             {
               type: ShootPattern
               firstShotDelay: 25
               shots: 2
-              shotDelay: 40
+              shotDelay: 80
             }
           ]
         }
@@ -144,16 +144,19 @@ weapons: [
     bullet: {
     type: ShrapnelBulletType
     pierce: false
-    length: 75
+    length: 65
 	width: 6
     rangeChange: 20
-    pierceCap: 3
+    pierceCap: 2
     lifetime: 6
     damage: 8
     toColor: cc918b
     lightColor: cc918b
     lightOpacity: 0.7
     lightRadius: 32.5
+	serrations: 1
+	serrationWidth: 5
+	despawnEffect: none
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -200,14 +203,14 @@ weapons: [
           source: {
             type: ShootPattern
             shots: 2
-            shotDelay: 5
+            shotDelay: 30
           }
           dest: [
             {
               type: ShootPattern
               firstShotDelay: 25
               shots: 2
-              shotDelay: 40
+              shotDelay: 80
             }
           ]
         }
@@ -216,16 +219,19 @@ weapons: [
     bullet: {
     type: ShrapnelBulletType
     pierce: false
-    length: 75
+    length: 65
 	width: 6
     rangeChange: 20
-    pierceCap: 3
+    pierceCap: 2
     lifetime: 6
     damage: 8
     toColor: cc918b
     lightColor: cc918b
     lightOpacity: 0.7
-    lightRadius: 32.5      
+    lightRadius: 32.5     
+	serrations: 1
+	serrationWidth: 5	
+	despawnEffect: none
 	shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
