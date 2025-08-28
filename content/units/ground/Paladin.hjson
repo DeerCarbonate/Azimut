@@ -121,6 +121,7 @@ weapons: [
     }
     bullet: {
     type: ShrapnelBulletType
+	sparks: 0
     pierce: false
     length: 85
 	width: 4
@@ -135,6 +136,8 @@ weapons: [
 	serrationWidth: 5
 	despawnEffect: none
 	hitEffect: none
+	soundVolume: 1
+	loopSoundVolume: 1
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -174,6 +177,7 @@ weapons: [
     }
     bullet: {
     type: ShrapnelBulletType
+	sparks: 0
     pierce: false
     length: 85
 	width: 4
