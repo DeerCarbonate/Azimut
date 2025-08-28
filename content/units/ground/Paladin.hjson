@@ -119,7 +119,7 @@ weapons: [
       type: ShootMulti
       source: {
         type: ShootSpread
-        spread: 3
+        spread: 15
         shots: 2
       }
       dest: [
@@ -127,14 +127,14 @@ weapons: [
           type: ShootMulti
           source: {
             type: ShootPattern
-            shots: 2
+            shots: 1
             shotDelay: 30
           }
           dest: [
             {
               type: ShootPattern
               firstShotDelay: 25
-              shots: 2
+              shots: 1
               shotDelay: 80
             }
           ]
@@ -202,14 +202,14 @@ weapons: [
           type: ShootMulti
           source: {
             type: ShootPattern
-            shots: 2
+            shots: 1
             shotDelay: 30
           }
           dest: [
             {
               type: ShootPattern
               firstShotDelay: 25
-              shots: 2
+              shots: 1
               shotDelay: 80
             }
           ]
