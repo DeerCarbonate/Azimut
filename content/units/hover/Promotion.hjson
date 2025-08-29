@@ -121,7 +121,7 @@ weapons: [
   {
     baseRotation: 0
     mirror: false
-    reload: 390
+    reload: 380
     name: Promotion-weapoN
     top: true
     y: -2.5
@@ -131,7 +131,7 @@ weapons: [
     shootStatus: unmoving
     shootStatusDuration: 115
     shoot: {
-      firstShotDelay: 120
+      firstShotDelay: 100
     }
     parts: [
       {
@@ -159,9 +159,9 @@ weapons: [
       shrinkY: 0
       skrinkX: 0
       recoil: 1.2
-      splashDamage: 240
-      splashDamageRadius: 24
-      damage: 400
+      splashDamage: 190
+      splashDamageRadius: 32
+      damage: 340
       height: 32
       speed: 0.12
       width: 12
