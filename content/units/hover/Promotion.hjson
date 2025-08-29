@@ -95,7 +95,7 @@ weapons: [
     shootSound: laserShoot
     bullet: {
       maxRange: 75
-      bulletDamage: 4
+      bulletDamage: 8
       shootEffect: sparkShoot
       hitEffect: pointHit
     }
@@ -113,7 +113,7 @@ weapons: [
     shootSound: laserShoot
     bullet: {
       maxRange: 75
-      bulletDamage: 4
+      bulletDamage: 8
       shootEffect: sparkShoot
       hitEffect: pointHit
     }
