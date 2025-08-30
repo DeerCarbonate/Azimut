@@ -9,5 +9,4 @@ Specials thanks to: ace1020spawn, Kivet/БОБ, Alpotat, KOSTOLOM, Fate of Adras
   "author": "DeerCarbonate",
   "version": "0.2",
   "minGameVersion": "150.1",
-  dependencies: [hjsonpp]
-  mods: [hjsonpp]
+  mods: []
