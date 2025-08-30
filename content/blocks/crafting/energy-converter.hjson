@@ -1,0 +1,45 @@
+type: ConsumeGenerator
+size: 2
+category: power
+name: Energy converter
+description: Convert energy.
+itemDuration: 120
+liquidCapacity: 30
+health: 350
+requirements: [
+    cobalt/65
+	platinum/40
+	geliarin/5
+  ]
+consumes: {
+ liquids: [
+   {
+   liquid: power
+   amount: 0.56
+   }
+   ]
+    }
+outputsPower: true,
+powerProduction: 1.15
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: isobutane
+      alpha: 0.7
+      padding: 2.05
+    }
+    {    
+      type: DrawDefault
+    }
+	{
+     type: DrawGlowRegion
+	 color: ff3e01
+    }
+  ]
+}
