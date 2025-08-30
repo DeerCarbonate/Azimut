@@ -10,3 +10,4 @@ Specials thanks to: ace1020spawn, Kivet/БОБ, Alpotat, KOSTOLOM, Fate of Adras
   "version": "0.2",
   "minGameVersion": "150",
   dependencies: [hjsonpp]
+  mods: [hjsonpp]
