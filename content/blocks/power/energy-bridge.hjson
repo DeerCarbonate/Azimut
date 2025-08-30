@@ -3,13 +3,17 @@ name: Energy bridge
 description: Transfers energy.
 underBullets: true
 size: 1
-health: 35         
+health: 35
 category: power
 beamDirections: [
   [2, 1]
+  [2, -1]
   [1, 2]
+  [-1, 2]
   [-2, 1]
+  [-2, -1]
   [1, -2]
+  [-1, -2]
 ]
 requirements: [
   cobalt/6,
