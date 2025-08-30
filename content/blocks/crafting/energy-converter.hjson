@@ -28,12 +28,6 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-    {
-      type: DrawLiquidTile
-      drawLiquid: isobutane
-      alpha: 0.7
-      padding: 2.05
-    }
     {    
       type: DrawDefault
     }
