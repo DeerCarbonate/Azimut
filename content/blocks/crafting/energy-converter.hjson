@@ -15,7 +15,7 @@ consumes: {
  liquids: [
    {
    liquid: power
-   amount: 0.56
+   amount: 0.14
    }
    ]
     }
