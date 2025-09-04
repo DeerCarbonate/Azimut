@@ -1,16 +1,18 @@
 name: Astraeus
 description: Shoots an energy ball that shoots lasers.
+researchCostMultiplier: 0.5
 size: 4
 outlineColor: 0c0c12
 health: 1200
 alwaysUnlocked: false
 squareSprite: false
 cooldown: 1200
-recoil: 2
+restitution: 0.04
+shootCone: 5
+recoil: 1.5
 reload: 200
 range: 350
 targetAir: true
-moveWhileCharging: true
 targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
