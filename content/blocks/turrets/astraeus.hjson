@@ -38,7 +38,7 @@ shootType: {
 shoot: {
   firstShotDelay: 30
 }
-hasPower: trueA
+hasPower: true
 consumes: {
     power: 8
 }
