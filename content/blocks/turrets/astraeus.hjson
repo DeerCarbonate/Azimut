@@ -95,7 +95,7 @@ drawer: {
       mirror: true,
       heatProgress: heat,
       progress: warmup,
-	  x: 4,
+	  x: 0,
 	  y: 0,
 	  moveRot: -7,
 	  moveX: 0,
