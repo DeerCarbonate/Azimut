@@ -34,3 +34,5 @@ const relocator = extend(ItemTurret, "relocator", {});
 const jannabi = extend(ItemTurret, "jannabi", {});
 
 const retray = extend(ItemTurret, "retray", {});
+
+const astraeus = extend(PowerTurret, "astraeus", {});
