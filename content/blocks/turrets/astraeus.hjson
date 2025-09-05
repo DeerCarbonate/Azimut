@@ -42,7 +42,7 @@ shoot: {
 }
 hasPower: true
 consumes: {
-    power: 8
+    power: 3
 }
 hasLiquids: false
 requirements: [
