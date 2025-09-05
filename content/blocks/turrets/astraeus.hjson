@@ -83,7 +83,7 @@ drawer: {
 	  x: 0,
 	  y: 0,
 	  moveRot: -7,
-	  moveX: 1.4,
+	  moveX: 1.2,
 	  moveY: -1.5,
       heatColor: ff4500,
       heatLayer: 1,
