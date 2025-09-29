@@ -30,27 +30,48 @@ craftTime: 120
 outputItem: platinum/2
 craftEffect: {
   type: MultiEffect
-  effects: [
+  effects: [{
+        type: RadialEffect
+      rotationSpacing : 90
+      rotationOffset: 0
+      lengthOffset: 2
+      amount: 3
+      effect: {
+          type: ParticleEffect
+          particles: 1
+          length: 90
+          lifetime: 700
+          sizeFrom: 1.7
+          sizeTo: 4.2
+          cone: 2
+          baseRotation: 73
+          useRotation:false
+          interp: pow5Out
+          colorFrom: 8d655754
+          colorTo: 271b1700
+          layer: 100.3
+          }
+    }
+  	{
+   type: DrawParticles
+   color: ce9e6c
+   alpha: 0.25
+   particleRad: 8
+   rotateScl: 65
+    }
     {
-      type: RadialEffect
-      amount: 4
-      rotationSpacing: 90
-      lengthOffset: 6.8
-      effect: surgeCruciSmoke
+      type: DrawCircles
+      color: 9b765110
+      strokeMax: 3
+      radius: 6
+      amount: 2.2
     }
 	{
-      type: RadialEffect
-      amount: 4
-      rotationSpacing: 90
-      lengthOffset: 6.8
-      effect: surgeCruciSmoke
-    }
-	{
-      type: RadialEffect
-      amount: 4
-      rotationSpacing: 90
-      lengthOffset: 6.8
-      effect: surgeCruciSmoke
+      type: DrawCircles
+      color: 9b765105
+      strokeMax: 1
+      radius: 5
+      amount: 1.2
     }
   ]
 }
