@@ -36,9 +36,9 @@ craftEffect: [{
       amount: 3
       effect: {
           type: ParticleEffect
-          particles: 1
+          particles: 2
           length: 90
-          lifetime: 700
+          lifetime: 550
           sizeFrom: 1.7
           sizeTo: 4.2
           cone: 2
@@ -88,10 +88,6 @@ drawer: {
     }
     {
       type: DrawDefault
-    }
-	{
-     type: DrawGlowRegion
-	 color: ff3e0120
     }
   ]
 }
