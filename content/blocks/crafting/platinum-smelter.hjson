@@ -28,9 +28,7 @@ consumes: {
 }
 craftTime: 120
 outputItem: platinum/2
-craftEffect: {
-  type: MultiEffect
-  effects: [{
+craftEffect: [{
         type: RadialEffect
       rotationSpacing : 90
       rotationOffset: 0
@@ -52,12 +50,20 @@ craftEffect: {
           layer: 100.3
           }
     }
-  	{
-   type: DrawParticles
-   color: ce9e6c
-   alpha: 0.25
-   particleRad: 8
-   rotateScl: 65
+]
+ambientSound: smelter
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: isobutane
+      alpha: 0.6
+      padding: 2
     }
     {
       type: DrawCircles
@@ -73,21 +79,12 @@ craftEffect: {
       radius: 5
       amount: 1.2
     }
-  ]
-}
-ambientSound: smelter
-drawer: {
-  type: DrawMulti
-  drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: isobutane
-      alpha: 0.6
-      padding: 2
+   type: DrawParticles
+   color: ce9e6c
+   alpha: 0.25
+   particleRad: 8
+   rotateScl: 65
     }
     {
       type: DrawDefault
