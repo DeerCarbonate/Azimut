@@ -7,7 +7,7 @@
 	alwaysUnlocked: false
 	armor: 4
 	health: 2100
-	speed: 0.48
+	speed: 0.5
 	hitSize: 14
 	mechLegColor: 0f1405
 	mechFrontSway: 0.4
@@ -58,19 +58,19 @@ preset: sixth
 	shootY: 4
 	shoot: {
 		type: ShootSpread
-		firstShotDelay: 30
+		firstShotDelay: 50
 		shots: 3
 	}
 				parts: [
 		            {
                 type: FlarePart
                 radius: 0
-                radiusTo: 13.5
+                radiusTo: 14
                 stroke: 3
                 color1: af7765
                 color2: f0aba4
                 rotation: 45
-                rotMove: 75
+                rotMove: 80
                 followRotation: false
                 progress: {
                     type: charge
@@ -81,7 +81,7 @@ preset: sixth
 		smokeEffect: none
 		bullet: {
 		type: BasicBulletType
-		damage: 24
+		damage: 28
 		lifetime: 56
 		width: 9
 		height: 9
