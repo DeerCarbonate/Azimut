@@ -1,21 +1,21 @@
-    name: Marshal
+ name: Marshal
 	type: mech
-	rotateSpeed: 1.55
+	rotateSpeed: 2
 	omniMove": true
 	outlineColor: 22251b
 	outlineRadius: 3
 	alwaysUnlocked: false
 	armor: 4
-	health: 2150
-	speed: 0.42
-	hitSize: 13
+	health: 2100
+	speed: 0.5
+	hitSize: 14
 	mechLegColor: 0f1405
 	mechFrontSway: 0.4
 	mechStepParticles: true
 	faceTarget: true
-    canBoost: false
+ canBoost: false
 	healColor: f0aba488
-	description: Quickly fires homing projectiles with a wide spread.
+	description: Fires homing projectiles with a wide spread.
 	parts: [
 		{
         type: RegionPart
@@ -52,40 +52,40 @@ preset: sixth
 	alternate: true
 	rotate: true
 	rotateSpeed: 5
-	reload: 27
-    velocityRnd:0.2
+	reload: 70
+ velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
 	shoot: {
 		type: ShootSpread
-		firstShotDelay: 17
-		shots: 2
+		firstShotDelay: 50
+		shots: 3
 	}
 				parts: [
 		            {
                 type: FlarePart
                 radius: 0
-                radiusTo: 13.5
+                radiusTo: 14
                 stroke: 3
                 color1: af7765
                 color2: f0aba4
                 rotation: 45
-                rotMove: 75
+                rotMove: 80
                 followRotation: false
                 progress: {
                     type: charge
-                    interp: slope
+                    interp: pow3out
                 }
             }
 		]
 		smokeEffect: none
 		bullet: {
 		type: BasicBulletType
-		damage: 20
-		lifetime: 56
+		damage: 27
+		lifetime: 44
 		width: 9
 		height: 9
-		speed: 3.2
+		speed: 3.6
 		backColor: ffbfad
 		frontColor: cc918b
 		trailColor: cc918b
@@ -94,7 +94,7 @@ preset: sixth
 		weaveMag: 2
 		weaveScale: 3
 		homingPower: 0.03
-        homingRange: 50
+  homingRange: 50
 		homingDelay: 25
 		despawnEffect: none
 		collidesTiles: true
@@ -103,7 +103,7 @@ preset: sixth
 		splashDamageRadius: 7
 	hitEffect: {
     type: ExplosionEffect
-    lifetime: 31
+    lifetime: 45
     waveColor: cc918b
     waveStroke: 1.2
     waveRad: 8.5
@@ -116,6 +116,7 @@ preset: sixth
     sparkRad: 14.5
     sparkLen: 2
     sparks: 2
+    int: pow3out
 		}
 		}
 	}
