@@ -15,7 +15,7 @@
 	faceTarget: true
  canBoost: false
 	healColor: f0aba488
-	description: Quickly fires homing projectiles with a wide spread.
+	description: Fires homing projectiles with a wide spread.
 	parts: [
 		{
         type: RegionPart
@@ -81,11 +81,11 @@ preset: sixth
 		smokeEffect: none
 		bullet: {
 		type: BasicBulletType
-		damage: 28
-		lifetime: 56
+		damage: 27
+		lifetime: 44
 		width: 9
 		height: 9
-		speed: 3.2
+		speed: 3.6
 		backColor: ffbfad
 		frontColor: cc918b
 		trailColor: cc918b
