@@ -1,4 +1,4 @@
-    name: Marshal
+ name: Marshal
 	type: mech
 	rotateSpeed: 1.55
 	omniMove": true
@@ -7,13 +7,13 @@
 	alwaysUnlocked: false
 	armor: 4
 	health: 2150
-	speed: 0.42
-	hitSize: 13
+	speed: 0.46
+	hitSize: 14
 	mechLegColor: 0f1405
 	mechFrontSway: 0.4
 	mechStepParticles: true
 	faceTarget: true
-    canBoost: false
+ canBoost: false
 	healColor: f0aba488
 	description: Quickly fires homing projectiles with a wide spread.
 	parts: [
@@ -52,14 +52,14 @@ preset: sixth
 	alternate: true
 	rotate: true
 	rotateSpeed: 5
-	reload: 27
-    velocityRnd:0.2
+	reload: 50
+ velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
 	shoot: {
 		type: ShootSpread
-		firstShotDelay: 17
-		shots: 2
+		firstShotDelay: 20
+		shots: 5
 	}
 				parts: [
 		            {
