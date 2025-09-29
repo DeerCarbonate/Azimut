@@ -91,7 +91,7 @@ drawer: {
     }
 	{
      type: DrawGlowRegion
-	 color: ff3e01
+	 color: ff3e0120
     }
   ]
 }
