@@ -52,13 +52,13 @@ preset: sixth
 	alternate: true
 	rotate: true
 	rotateSpeed: 5
-	reload: 50
+	reload: 70
  velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
 	shoot: {
 		type: ShootSpread
-		firstShotDelay: 20
+		firstShotDelay: 30
 		shots: 5
 	}
 				parts: [
@@ -74,7 +74,7 @@ preset: sixth
                 followRotation: false
                 progress: {
                     type: charge
-                    interp: slope
+                    interp: pow3in
                 }
             }
 		]
