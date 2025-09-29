@@ -94,7 +94,7 @@ preset: sixth
 		weaveMag: 2
 		weaveScale: 3
 		homingPower: 0.03
-        homingRange: 50
+  homingRange: 50
 		homingDelay: 25
 		despawnEffect: none
 		collidesTiles: true
@@ -103,7 +103,7 @@ preset: sixth
 		splashDamageRadius: 7
 	hitEffect: {
     type: ExplosionEffect
-    lifetime: 31
+    lifetime: 45
     waveColor: cc918b
     waveStroke: 1.2
     waveRad: 8.5
@@ -116,6 +116,7 @@ preset: sixth
     sparkRad: 14.5
     sparkLen: 2
     sparks: 2
+    int: pow3out
 		}
 		}
 	}
