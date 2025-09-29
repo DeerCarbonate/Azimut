@@ -1,13 +1,13 @@
  name: Marshal
 	type: mech
-	rotateSpeed: 1.55
+	rotateSpeed: 2
 	omniMove": true
 	outlineColor: 22251b
 	outlineRadius: 3
 	alwaysUnlocked: false
 	armor: 4
-	health: 2150
-	speed: 0.46
+	health: 2100
+	speed: 0.48
 	hitSize: 14
 	mechLegColor: 0f1405
 	mechFrontSway: 0.4
@@ -59,7 +59,7 @@ preset: sixth
 	shoot: {
 		type: ShootSpread
 		firstShotDelay: 30
-		shots: 5
+		shots: 3
 	}
 				parts: [
 		            {
@@ -74,14 +74,14 @@ preset: sixth
                 followRotation: false
                 progress: {
                     type: charge
-                    interp: pow3in
+                    interp: pow3out
                 }
             }
 		]
 		smokeEffect: none
 		bullet: {
 		type: BasicBulletType
-		damage: 20
+		damage: 24
 		lifetime: 56
 		width: 9
 		height: 9
