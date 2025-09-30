@@ -181,12 +181,12 @@ weapons: [
     layerOffset: -0.001
     shootY: 0
     x: 0
-    y: 0.7
-    reload: 300
+    y: 0.4
+    reload: 600
     inaccuracy: 360
     velocityRnd: 0.3
     shootStatus: overdrive 
-    shootStatusDuration: 85
+    shootStatusDuration: 45
     shoot: {
       type: ShootSpread
       firstShotDelay: 120
@@ -215,11 +215,11 @@ weapons: [
       shootEffect: {
         type: WaveEffect
         startDelay: 0
-        lifetime: 25
+        lifetime: 85
         sizeFrom: 0
-        sizeTo: 5
+        sizeTo: 6
         strokeFrom: 0
-        strokeTo: 3
+        strokeTo: 5
         colorFrom: f6afdd
         colorTo: f6afdd00
         followParent: true
