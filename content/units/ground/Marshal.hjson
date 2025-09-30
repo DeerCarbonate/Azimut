@@ -56,6 +56,19 @@ preset: sixth
  velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
+	shootEffect: {
+        type: WaveEffect
+        startDelay: 0
+        lifetime: 45
+        sizeFrom: 0
+        sizeTo: 4
+        strokeFrom: 0
+        strokeTo: 5
+        colorFrom: f6afdd30
+        colorTo: f6afdd00
+        followParent: true
+        rotWithParent: true
+      }
 	shoot: {
 		type: ShootSpread
 		firstShotDelay: 50
@@ -65,13 +78,14 @@ preset: sixth
 		            {
                 type: FlarePart
                 radius: 0
-                radiusTo: 14
-                stroke: 3
+                radiusTo: 8
+                stroke: 2.8
 				x: 0.6
+				y: -0.4
                 color1: af7765
                 color2: f0aba4
-                rotation: 45
-                rotMove: 80
+                rotation: 40
+                rotMove: 75
                 followRotation: false
                 progress: {
                     type: charge
