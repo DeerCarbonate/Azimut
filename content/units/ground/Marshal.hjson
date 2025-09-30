@@ -67,6 +67,7 @@ preset: sixth
                 radius: 0
                 radiusTo: 14
                 stroke: 3
+				x: 0.6
                 color1: af7765
                 color2: f0aba4
                 rotation: 45
