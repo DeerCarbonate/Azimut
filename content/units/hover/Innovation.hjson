@@ -216,10 +216,10 @@ weapons: [
         startDelay: 0
         lifetime: 85
         sizeFrom: 0
-        sizeTo: 6
+        sizeTo: 5
         strokeFrom: 0
-        strokeTo: 5
-        colorFrom: f6afdd
+        strokeTo: 4
+        colorFrom: f6afdd90
         colorTo: f6afdd00
         followParent: true
         rotWithParent: true
