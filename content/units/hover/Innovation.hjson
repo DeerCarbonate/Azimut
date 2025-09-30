@@ -203,9 +203,9 @@ weapons: [
       speed: 0.9
       width: 4
       type: BasicBulletType
-      homingPower: 0.02
+      homingPower: 0.07
       homingRange: 50
-      homingDelay: 17
+      homingDelay: 6
       frontColor: ffffff
       backColor: f6afdd
       trailColor: f6afdd
@@ -214,12 +214,12 @@ weapons: [
       shootEffect: {
         type: WaveEffect
         startDelay: 0
-        lifetime: 85
+        lifetime: 65
         sizeFrom: 0
-        sizeTo: 5
+        sizeTo: 3
         strokeFrom: 0
-        strokeTo: 4
-        colorFrom: f6afdd90
+        strokeTo: 3
+        colorFrom: f6afdd20
         colorTo: f6afdd00
         followParent: true
         rotWithParent: true
