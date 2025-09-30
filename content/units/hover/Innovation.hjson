@@ -125,7 +125,7 @@ weapons: [
       keepVelocity: false
       lifetime: 60
       drag: -0.012
-      damage: 20
+      damage: 18
       height: 7
       speed: 1.7
       width: 6
@@ -181,7 +181,7 @@ weapons: [
     layerOffset: -0.001
     shootY: 0
     x: 0
-    y: 0.4
+    y: 0.3
     reload: 900
     inaccuracy: 360
     velocityRnd: 0.3
@@ -194,9 +194,9 @@ weapons: [
     shootSound: none 
     bullet: {
       keepVelocity: false
-      lifetime: 60
-      drag: -0.02
-      damage: 10
+      lifetime: 90
+      drag: -0.01
+      damage: 9
       height: 5
       speed: 0.9
       width: 4
@@ -226,9 +226,9 @@ weapons: [
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 22
+        lifetime: 16
         sizeFrom: 0
-        sizeTo: 12
+        sizeTo: 7
         colorFrom: f6afdd
         colorTo: f6afdd00
       }
@@ -236,9 +236,9 @@ weapons: [
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 22
+        lifetime: 16
         sizeFrom: 0
-        sizeTo: 8
+        sizeTo: 7
         colorFrom: f6afdd
         colorTo: f6afdd00
       }
