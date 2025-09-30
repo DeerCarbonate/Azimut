@@ -182,15 +182,14 @@ weapons: [
     shootY: 0
     x: 0
     y: 0.4
-    reload: 600
+    reload: 900
     inaccuracy: 360
     velocityRnd: 0.3
     shootStatus: overdrive 
-    shootStatusDuration: 45
+    shootStatusDuration: 35
     shoot: {
       type: ShootSpread
       firstShotDelay: 120
-      shotDelay: 0.3
       shots: 7
     }
     ejectEffect: none
@@ -198,10 +197,10 @@ weapons: [
     bullet: {
       keepVelocity: false
       lifetime: 60
-      drag: -0.03
+      drag: -0.02
       damage: 10
       height: 5
-      speed: 1.1
+      speed: 0.9
       width: 4
       type: BasicBulletType
       homingPower: 0.02
