@@ -185,8 +185,6 @@ weapons: [
     reload: 900
     inaccuracy: 360
     velocityRnd: 0.3
-    shootStatus: overdrive 
-    shootStatusDuration: 35
     shoot: {
       type: ShootSpread
       firstShotDelay: 120
@@ -216,9 +214,9 @@ weapons: [
         startDelay: 0
         lifetime: 65
         sizeFrom: 0
-        sizeTo: 3
+        sizeTo: 8
         strokeFrom: 0
-        strokeTo: 3
+        strokeTo: 4
         colorFrom: f6afdd20
         colorTo: f6afdd00
         followParent: true
