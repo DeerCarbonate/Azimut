@@ -177,18 +177,20 @@ weapons: [
     name: Innovation-weaponn
     alternate: false
     mirror: false 
+    rotateSpeed: 60
     layerOffset: -0.001
     shootY: 0
     x: 0
     y: 0.7
     reload: 300
+    inaccuracy: 360
     velocityRnd: 0.3
     shootStatus: overdrive 
     shootStatusDuration: 85
     shoot: {
       type: ShootSpread
       firstShotDelay: 120
-      shotDelay: 6.2
+      shotDelay: 0.3
       shots: 7
     }
     ejectEffect: none
