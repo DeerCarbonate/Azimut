@@ -87,10 +87,10 @@ type: ParticleEffect
 lifetime: 12
 particles: 2
 offsetX: 0
-length:8
+length: 10
 line: true
 strokeFrom: 1.7
-strokeTo: 1
+strokeTo: 0.9
 lenFrom: 2
 lenTo: 4 
 colorTo: ffbfad00
@@ -99,17 +99,15 @@ cone: 15
    }
 		type: BasicBulletType
 		damage: 27
-		lifetime: 44
+		lifetime: 26
 		width: 9
 		height: 9
-		speed: 3.6
+		speed: 4.8
 		backColor: ffbfad
 		frontColor: cc918b
 		trailColor: cc918b
-		trailWidth: 1.7
-		trailLength: 8
-		weaveMag: 2
-		weaveScale: 3
+		trailWidth: 1.1
+		trailLength: 2
 		homingPower: 0.03
   homingRange: 50
 		homingDelay: 25
