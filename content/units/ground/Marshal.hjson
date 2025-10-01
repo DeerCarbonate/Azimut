@@ -87,14 +87,14 @@ type: ParticleEffect
 lifetime: 28
 particles: 2
 offsetX: 0
-length:36
+length:8
 line: true
-strokeTo: 0.7
+strokeFrom: 1.7
+strokeTo: 0
 lenFrom: 2
 lenTo: 4
 colorTo: ffbfad75
 colorFrom: cc918b
-int: pow3out 
 cone: 15
    }
 		type: BasicBulletType
