@@ -187,8 +187,78 @@ weapons: [
     velocityRnd: 0.3
     shoot: {
       type: ShootSpread
+      firstShotDelay: 60
+      shots: 5
+    }
+    ejectEffect: none
+    shootSound: none 
+    bullet: {
+      keepVelocity: false
+      lifetime: 90
+      drag: -0.01
+      damage: 9
+      height: 5
+      speed: 0.9
+      width: 4
+      type: BasicBulletType
+      homingPower: 0.07
+      homingRange: 50
+      homingDelay: 6
+      frontColor: ffffff
+      backColor: f6afdd
+      trailColor: f6afdd
+      trailWidth: 1.2
+      trailLength: 14
+      shootEffect: {
+        type: WaveEffect
+        startDelay: 0
+        lifetime: 65
+        sizeFrom: 0
+        sizeTo: 8
+        strokeFrom: 0
+        strokeTo: 4
+        colorFrom: f6afdd20
+        colorTo: f6afdd00
+        followParent: true
+        rotWithParent: true
+      }
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 16
+        sizeFrom: 0
+        sizeTo: 7
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
+      hitEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 16
+        sizeFrom: 0
+        sizeTo: 7
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
+    }
+  {
+    name: Innovation-weaponn
+    alternate: false
+    mirror: false 
+    rotateSpeed: 60
+    layerOffset: -0.001
+    shootY: 0
+    x: 0
+    y: 0.3
+    reload: 900
+    inaccuracy: 360
+    velocityRnd: 0.3
+    shoot: {
+      type: ShootSpread
       firstShotDelay: 120
-      shots: 7
+      shots: 5
     }
     ejectEffect: none
     shootSound: none 
