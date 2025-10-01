@@ -47,7 +47,7 @@ abilities: [
       lightScl: 2.5
       lightOpacity: 2
       spin: 0
-      sizeFrom: 2.2
+      sizeFrom: 2.07
       sizeTo: 0
       offset: 0
     }
@@ -205,7 +205,7 @@ weapons: [
       keepVelocity: false
       lifetime: 90
       drag: -0.01
-      damage: 26
+      damage: 34
       height: 5
       speed: 0.9
       width: 4
