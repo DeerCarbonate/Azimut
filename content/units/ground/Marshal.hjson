@@ -84,16 +84,16 @@ preset: sixth
 		bullet: {
 shootEffect: {
 type: ParticleEffect
-lifetime: 36
-particles: 4
-offsetX: 10
+lifetime: 28
+particles: 2
+offsetX: 0
 length:36
 line: true
 strokeTo: 0.7
 lenFrom: 2
 lenTo: 5
-colorTo: ffbfad10
-colorFrom: cc918b95
+colorTo: ffbfad75
+colorFrom: cc918b
 cone: 15
 baseRotation: 180
    }
