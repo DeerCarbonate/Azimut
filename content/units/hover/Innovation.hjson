@@ -189,7 +189,7 @@ weapons: [
       type: ShootMulti
 	  source: {
       firstShotDelay: 20
-      shots: 5
+      shots: 4
 	      }
 	  dest: [
 	  {
@@ -205,7 +205,7 @@ weapons: [
       keepVelocity: false
       lifetime: 90
       drag: -0.01
-      damage: 9
+      damage: 26
       height: 5
       speed: 0.9
       width: 4
@@ -223,7 +223,7 @@ weapons: [
         startDelay: 0
         lifetime: 65
         sizeFrom: 0
-        sizeTo: 8
+        sizeTo: 12
         strokeFrom: 0
         strokeTo: 4
         colorFrom: f6afdd20
