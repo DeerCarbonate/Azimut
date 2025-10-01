@@ -64,19 +64,6 @@ preset: sixth
  velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
-	shootEffect: {
-        type: WaveEffect
-        startDelay: 0
-        lifetime: 45
-        sizeFrom: 0
-        sizeTo: 4
-        strokeFrom: 0
-        strokeTo: 5
-        colorFrom: f6afdd30
-        colorTo: f6afdd00
-        followParent: true
-        rotWithParent: true
-      }
 	shoot: {
 		type: ShootSpread
 		firstShotDelay: 50
@@ -103,6 +90,21 @@ preset: sixth
 		]
 		smokeEffect: none
 		bullet: {
+shootEffect: {
+type: ParticleEffect
+lifetime: 12
+particles: 2
+offsetX: 0
+length: 10
+line: true
+strokeFrom: 1.7
+strokeTo: 0.9
+lenFrom: 2
+lenTo: 4 
+colorTo: ffbfad00
+colorFrom: cc918b
+cone: 15
+        }
 		type: BasicBulletType
 		damage: 24
 		lifetime: 44
@@ -116,6 +118,16 @@ preset: sixth
 		trailLength: 8
 		weaveMag: 2
 		weaveScale: 3
+		damage: 27
+		lifetime: 26
+		width: 10
+		height: 12
+		speed: 4.8
+		backColor: ffbfad
+		frontColor: cc918b
+		trailColor: cc918b
+		trailWidth: 1.2
+		trailLength: 4.5
 		despawnEffect: none
 		collidesTiles: true
 		keepVelocity: false
