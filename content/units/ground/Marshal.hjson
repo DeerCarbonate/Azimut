@@ -24,6 +24,7 @@
     range: 8
     max: 80
     }
+	]
 	parts: [
 		{
         type: RegionPart
