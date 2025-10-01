@@ -216,7 +216,7 @@ weapons: [
       frontColor: ffffff
       backColor: f6afdd
       trailColor: f6afdd
-      trailWidth: 1.2
+      trailWidth: 1.05
       trailLength: 8
       shootEffect: {
         type: WaveEffect
