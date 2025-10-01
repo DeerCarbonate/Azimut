@@ -83,18 +83,20 @@ preset: sixth
 		smokeEffect: none
 		bullet: {
 shootEffect: {
-        type: WaveEffect
-        startDelay: 0
-        lifetime: 45
-        sizeFrom: 0
-        sizeTo: 6
-        strokeFrom: 0
-        strokeTo: 4
-        colorFrom: f6afdd50
-        colorTo: f6afdd00
-        followParent: true
-        rotWithParent: true
-      }
+type: ParticleEffect
+lifetime: 21
+particles: 3
+offsetX:-10
+length:34
+line: true
+strokeTo: 1.5
+lenFrom: 2
+lenTo: 5
+colorTo: fcf0bd00
+colorFrom: ffffff95
+cone: 25
+baseRotation: 180
+   }
 		type: BasicBulletType
 		damage: 27
 		lifetime: 44
