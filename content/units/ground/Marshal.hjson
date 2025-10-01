@@ -56,19 +56,6 @@ preset: sixth
  velocityRnd:0.2
 	shootSound: cannon_shoot_1
 	shootY: 4
-	shootEffect: {
-        type: WaveEffect
-        startDelay: 0
-        lifetime: 45
-        sizeFrom: 0
-        sizeTo: 4
-        strokeFrom: 0
-        strokeTo: 5
-        colorFrom: f6afdd30
-        colorTo: f6afdd00
-        followParent: true
-        rotWithParent: true
-      }
 	shoot: {
 		type: ShootSpread
 		firstShotDelay: 50
@@ -95,6 +82,19 @@ preset: sixth
 		]
 		smokeEffect: none
 		bullet: {
+shootEffect: {
+        type: WaveEffect
+        startDelay: 0
+        lifetime: 45
+        sizeFrom: 0
+        sizeTo: 6
+        strokeFrom: 0
+        strokeTo: 4
+        colorFrom: f6afdd50
+        colorTo: f6afdd00
+        followParent: true
+        rotWithParent: true
+      }
 		type: BasicBulletType
 		damage: 27
 		lifetime: 44
