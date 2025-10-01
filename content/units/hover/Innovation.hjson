@@ -243,6 +243,7 @@ weapons: [
         colorTo: f6afdd00
       }
     }
+}
   {
     name: Innovation-weaponn
     alternate: false
