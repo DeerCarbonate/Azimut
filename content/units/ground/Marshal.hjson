@@ -6,8 +6,8 @@
 	outlineRadius: 3
 	alwaysUnlocked: false
 	armor: 4
-	health: 2100
-	speed: 0.5
+	health: 2120
+	speed: 0.42
 	hitSize: 14
 	mechLegColor: 0f1405
 	mechFrontSway: 0.4
