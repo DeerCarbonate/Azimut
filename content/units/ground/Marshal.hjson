@@ -85,14 +85,14 @@ preset: sixth
 shootEffect: {
 type: ParticleEffect
 lifetime: 12
-particles: 1
+particles: 2
 offsetX: 0
 length:8
 line: true
 strokeFrom: 1.7
 strokeTo: 1
 lenFrom: 2
-lenTo: 3
+lenTo: 4 
 colorTo: ffbfad00
 colorFrom: cc918b
 cone: 15
