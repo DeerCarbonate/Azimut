@@ -91,11 +91,11 @@ length:36
 line: true
 strokeTo: 0.7
 lenFrom: 2
-lenTo: 5
+lenTo: 4
 colorTo: ffbfad75
 colorFrom: cc918b
+int: pow3out 
 cone: 15
-baseRotation: 180
    }
 		type: BasicBulletType
 		damage: 27
