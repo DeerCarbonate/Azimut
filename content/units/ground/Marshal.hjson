@@ -7,15 +7,23 @@
 	alwaysUnlocked: false
 	armor: 4
 	health: 2100
-	speed: 0.5
+	speed: 0.42
 	hitSize: 14
 	mechLegColor: 0f1405
 	mechFrontSway: 0.4
 	mechStepParticles: true
 	faceTarget: true
- canBoost: false
+    canBoost: false
 	healColor: f0aba488
 	description: Fires homing projectiles with a wide spread.
+	abilities: [
+    {
+    type: ShieldRegenFieldAbility
+    reload: 1200
+    amount: 20
+    range: 8
+    max: 80
+    }
 	parts: [
 		{
         type: RegionPart
@@ -96,7 +104,7 @@ preset: sixth
 		smokeEffect: none
 		bullet: {
 		type: BasicBulletType
-		damage: 27
+		damage: 24
 		lifetime: 44
 		width: 9
 		height: 9
@@ -108,9 +116,6 @@ preset: sixth
 		trailLength: 8
 		weaveMag: 2
 		weaveScale: 3
-		homingPower: 0.03
-  homingRange: 50
-		homingDelay: 25
 		despawnEffect: none
 		collidesTiles: true
 		keepVelocity: false
