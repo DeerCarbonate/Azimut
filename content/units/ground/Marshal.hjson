@@ -20,9 +20,9 @@
     {
     type: ShieldRegenFieldAbility
     reload: 1200
-    amount: 20
-    range: 8
-    max: 80
+    amount: 30
+    range: 12
+    max: 120
     }
 	]
 	parts: [
@@ -107,7 +107,7 @@ colorFrom: cc918b
 cone: 15
         }
 		type: BasicBulletType
-		damage: 24
+		damage: 22
 		lifetime: 44
 		width: 9
 		height: 9
