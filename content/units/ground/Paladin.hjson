@@ -33,7 +33,6 @@ faceTarget: true
 squareShape: true
 description: Fires a burst of lasers and homing projectiles. Able to cross most terrain.
 drownTimeMultiplier: 3
-
 weapons: [
   {
     name: Paladin-weapon
@@ -91,7 +90,7 @@ weapons: [
         lenTo: 0
         lifetime: 35
         line: true
-        size: 250
+        length: 240
       }
       pierceBuilding: false
       pierce: true
