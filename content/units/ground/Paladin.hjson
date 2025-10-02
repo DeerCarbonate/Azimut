@@ -86,12 +86,11 @@ weapons: [
         colorTo: ffbfad00
         particles: 3
         cone: 4
-        lenFrom: 5
-        lenTo: 3
         lifetime: 45
-        line: true
-        length: 270
-        int: pow4in
+        length: 100
+        int: pow4out
+        sizeFrom: 4
+        sizeTo: 0
       }
       pierceBuilding: false
       pierce: true
