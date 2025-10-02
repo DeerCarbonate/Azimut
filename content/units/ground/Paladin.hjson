@@ -91,7 +91,7 @@ weapons: [
         lifetime: 45
         line: true
         length: 270
-        interp: pow3in
+        int: pow3out
       }
       pierceBuilding: false
       pierce: true
