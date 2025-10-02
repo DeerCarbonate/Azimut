@@ -88,9 +88,10 @@ weapons: [
         cone: 4
         lenFrom: 4.5
         lenTo: 0
-        lifetime: 40
+        lifetime: 45
         line: true
-        length: 260
+        length: 270
+        interp: pow3in
       }
       pierceBuilding: false
       pierce: true
