@@ -84,12 +84,12 @@ weapons: [
         type: ParticleEffect
         colorFrom: cc918b
         colorTo: ffbfad00
-        particles: 3
+        particles: 2
         cone: 4
-        lifetime: 45
-        length: 100
-        int: pow4in
-        sizeFrom: 2.2
+        lifetime: 25
+        length: 70
+        int: pow2in
+        sizeFrom: 2
         sizeTo: 0
       }
       pierceBuilding: false
