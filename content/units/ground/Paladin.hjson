@@ -85,18 +85,14 @@ weapons: [
         type: ParticleEffect
         colorFrom: cc918b
         colorTo: ffbfad00
-        particles: 7
+        particles: 4
         cone: 6
         length: 38
-        baseLength: 3
-        lightScl: 3
-        lightOpacity: 2
-        line: true
-        spin: 0.8
-        sizeFrom: 1.5
-        sizeTo: 0
+        lenFrom: 4
+        lenTo: 0
         offset: 1
-        lifetime: 150
+        lifetime: 80
+        size: 70
       }
       pierceBuilding: false
       pierce: true
