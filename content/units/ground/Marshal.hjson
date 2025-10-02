@@ -100,9 +100,9 @@ length: 10
 line: true
 strokeFrom: 1.7
 strokeTo: 0.9
-lenFrom: 2
-lenTo: 4 
-colorTo: ffbfad00
+lenFrom: 4
+lenTo: 0 
+colorTo: ffbfad09
 colorFrom: cc918b
 cone: 15
         }
