@@ -19,7 +19,7 @@
 	abilities: [
     {
     type: ShieldRegenFieldAbility
-    reload: 1200
+    reload: 1100
     amount: 30
     range: 12
     max: 120
@@ -93,7 +93,7 @@ preset: sixth
 		bullet: {
 shootEffect: {
 type: ParticleEffect
-lifetime: 12
+lifetime: 18
 particles: 2
 offsetX: 0
 length: 10
@@ -117,8 +117,6 @@ cone: 15
 		trailColor: cc918b
 		trailWidth: 1.7
 		trailLength: 8
-		weaveMag: 2
-		weaveScale: 3
 		damage: 27
 		lifetime: 26
 		width: 10
