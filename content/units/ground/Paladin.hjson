@@ -88,8 +88,8 @@ weapons: [
         cone: 4
         lifetime: 45
         length: 100
-        int: pow4out
-        sizeFrom: 4
+        int: pow4in
+        sizeFrom: 2.2
         sizeTo: 0
       }
       pierceBuilding: false
