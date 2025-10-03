@@ -100,7 +100,7 @@ weapons: [
   {
     x: -11
     y: -4.6
-	shootY: 3
+	shootY: 6
     rotate: true
     rotateSpeed: 3.5
     rotationLimit: 120
@@ -153,7 +153,7 @@ weapons: [
   {
     x: -6.5
     y: 4.6
-    shootY: 3
+    shootY: 6
     rotate: true
     rotateSpeed: 3.6
     rotationLimit: 120
