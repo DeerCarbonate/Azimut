@@ -13,7 +13,7 @@ accel: 0.05
 health: 665
 hovering: true
 speed: 1.45
-hitSize: 13.0
+hitSize: 11
 healColor: f0a4d988
 canDrown: false
 drag: 0.03
