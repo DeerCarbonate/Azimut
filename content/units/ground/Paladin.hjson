@@ -113,6 +113,7 @@ weapons: [
     shootSound: shotguns
 	soundVolume: 4
 	loopsoundVolume: 4
+	smokeEffect: none
     shoot: {
       type: ShootSpread
 	  shots: 1
@@ -152,6 +153,7 @@ weapons: [
     shootSound: shotguns
 	soundVolume: 4
 	loopsoundVolume: 4
+	smokeEffect: none
     shoot: {
       type: ShootSpread
 	  shots: 1
