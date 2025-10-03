@@ -114,6 +114,7 @@ weapons: [
 	soundVolume: 4
 	loopsoundVolume: 4
 	smokeEffect: none
+	shootEffect: none
     shoot: {
       type: ShootSpread
 	  shots: 1
@@ -135,7 +136,6 @@ weapons: [
 	serrationWidth: 5
 	despawnEffect: none
 	hitEffect: none
-	smokeEffect: none
     }
   }
   {
@@ -155,6 +155,7 @@ weapons: [
 	soundVolume: 4
 	loopsoundVolume: 4
 	smokeEffect: none
+	shootEffect: none
     shoot: {
       type: ShootSpread
 	  shots: 1
@@ -176,7 +177,6 @@ weapons: [
 	serrationWidth: 3	
 	despawnEffect: none
 	hitEffect: none
-	smokeEffect: none
     }
   }
 ]
