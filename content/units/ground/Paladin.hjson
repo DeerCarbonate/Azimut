@@ -165,8 +165,8 @@ weapons: [
     pierceCap: 2
     lifetime: 36
     damage: 12
-    toColor: ffaa5f
-    lightColor: ffaa5f
+    toColor: cc918b
+    lightColor: cc918b
     lightOpacity: 0.7
     lightRadius: 32.5     
 	serrations: 1
