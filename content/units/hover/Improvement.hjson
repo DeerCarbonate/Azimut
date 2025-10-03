@@ -10,7 +10,7 @@ outlineRadius: 3
 alwaysUnlocked: false
 armor: 0.3
 accel: 0.05
-health: 680
+health: 700
 hovering: true
 speed: 1.45
 hitSize: 13.0
