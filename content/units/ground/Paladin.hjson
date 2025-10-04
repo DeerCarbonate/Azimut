@@ -33,6 +33,15 @@ faceTarget: true
 squareShape: true
 description: Fires a burst of lasers and homing projectiles. Able to cross most terrain.
 drownTimeMultiplier: 3
+	abilities: [
+    {
+    type: ShieldRegenFieldAbility
+    reload: 500
+    amount: 50
+    range: 16
+    max: 800
+    }
+	]
 weapons: [
   {
     name: Paladin-weapon
