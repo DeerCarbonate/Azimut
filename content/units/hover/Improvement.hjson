@@ -111,7 +111,7 @@ weapons: [
       width: 4
       type: BasicBulletType
       homingPower: 0.08
-      homingDelay: 14
+      homingDelay: 15
       frontColor: ffffff
       backColor: f6afdd
       trailColor: f6afdd
