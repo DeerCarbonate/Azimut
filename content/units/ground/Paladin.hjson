@@ -26,7 +26,7 @@ accel: 0.5
 armor: 9
 stepshake: 0.1
 health: 5100
-speed: 0.55
+speed: 0.43
 healColor: f0aba488
 hitSize: 18
 faceTarget: true
