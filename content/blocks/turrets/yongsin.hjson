@@ -117,7 +117,7 @@ shootEffect: [
 {
 followParent: false
 length: 0
-lifetime: 17
+lifetime: 11
 particles: 1
 cone: 0
 region: azimut-despawn
@@ -269,7 +269,7 @@ fragBullet: {
 {
 followParent: false
 length: 0
-lifetime: 17
+lifetime: 11
 particles: 1
 cone: 0
 region: azimut-despawn
