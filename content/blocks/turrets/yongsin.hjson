@@ -21,7 +21,7 @@ rotateSpeed: 1.25
 shootSound: mechshoot
 shootSoundVolume: 0.15
 ammoPerShot: 4
-shootY: 6
+shootY: 6.9
 coolant: {
   type: ConsumeLiquid
   liquid: power
