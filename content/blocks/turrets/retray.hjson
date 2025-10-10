@@ -10,7 +10,7 @@ squareSprite: false
 coolant: {
   type: ConsumeLiquid
   liquid: power
-  amount: 0.20
+  amount: 0.08
 }
 shoot: {
   type: ShootBarrel
