@@ -1,15 +1,14 @@
 name: Power
-description: Used to operate heaters.
-heatCapacity: 0
-explosiveness: 0.05
-temperature: 0.5
-coolant: false
+description: It is used to speed up the operation of machines and to make them work.
+heatCapacity: 1.2
+explosiveness: 0
+temperature: 0.017
+coolant: true
+flammability: 0.05
 gas: true
 color: c5dbf100
-flammability: 0.05
 gasColor: c5dbf100
 barColor: c5dbf133
-incinerable: false
 lightColor: ffffff00
   "liquid": {
 	"heatCapacity": 0.05,
