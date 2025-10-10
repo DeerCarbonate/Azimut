@@ -139,12 +139,12 @@ interp:pow3Out
 				rotWithParent: true
 				followParent: true
 				lifetime: 74
-				sizeFrom: 12
+				sizeFrom: 20
 				sizeTo: 54
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
-                colorTo: b3eed840
+                colorTo: b3eed800
 				interp:pow3Out
 				}
 			]
@@ -167,12 +167,12 @@ interp:pow3Out
 				rotWithParent: true
 				followParent: true
 				lifetime: 74
-				sizeFrom: 12
+				sizeFrom: 20
 				sizeTo: 54
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
-                colorTo: b3eed840
+                colorTo: b3eed800
 				interp:pow3Out
 				}
 			]
