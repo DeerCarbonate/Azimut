@@ -7,9 +7,9 @@ alwaysUnlocked: true
 outlineColor: 1b1c25
 outlineRadius: 3
 armor: 8
-health: 3500
+health: 5050
 speed: 0.9
-hitSize: 24
+hitSize: 18
 healColor: a4f0d788
 faceTarget: false
 immunities: [ wet ]
