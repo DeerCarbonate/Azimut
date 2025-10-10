@@ -58,7 +58,7 @@
 	shoot: {
     type: ShootSpread
     firstShotDelay: 120
-    shotDelay: 9
+    shotDelay: 16
     spread: 0
     shots: 4
     }
