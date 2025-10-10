@@ -104,6 +104,7 @@ sizeFrom: 48
 sizeTo: 0
 colorTo: b3eed8
 baseRotation: 90
+interp:pow3Out
 }
 {
 followParent: false
@@ -116,6 +117,7 @@ sizeFrom: 48
 sizeTo: 0
 colorTo: b3eed8
 baseRotation: 180
+interp:pow3Out
 }
 ]
 		            despawnEffect: [
@@ -136,13 +138,13 @@ baseRotation: 180
 				type: WaveEffect
 				rotWithParent: true
 				followParent: true
-				lifetime: 30
-				sizeFrom: 8
-				sizeTo: 64
+				lifetime: 74
+				sizeFrom: 12
+				sizeTo: 54
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
-                colorTo: b3eed800
+                colorTo: b3eed840
 				interp:pow3Out
 				}
 			]
@@ -164,13 +166,13 @@ baseRotation: 180
 				type: WaveEffect
 				rotWithParent: true
 				followParent: true
-				lifetime: 30
-				sizeFrom: 8
-				sizeTo: 64
+				lifetime: 74
+				sizeFrom: 12
+				sizeTo: 54
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
-                colorTo: b3eed800
+                colorTo: b3eed840
 				interp:pow3Out
 				}
 			]
