@@ -9,7 +9,7 @@
 	health: 10000
 	speed: 0.7
 	healColor: a4f0d788
-	hitSize: 37.8
+	hitSize: 29
 	immunities: [ burning, melting, wet ]
 	trailLength: 56
 	waveTrailX: 15.5
@@ -146,8 +146,8 @@
 	  //line
         type: HaloPart
         tri: true
-        y: -1
-		x: 7.2
+        y: 0
+		x: 7
 		moveX: -2
         triLength: 90
         shapes: 1
@@ -162,8 +162,8 @@
 	  //line
         type: HaloPart
         tri: true
-        y: -1
-		x: -7.2
+        y: 0
+		x: -7
 		moveX: 2
         triLength: 90
         shapes: 1
@@ -178,8 +178,8 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 7
-		x: 7.2
+        y: 8
+		x: 7
 		moveX: -2
         triLength: 90
         shapes: 1
@@ -194,8 +194,8 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 7
-		x: -7.2
+        y: 8
+		x: -7
 		moveX: 2
         triLength: 90
         shapes: 1
@@ -210,8 +210,8 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 15
-		x: 7.2
+        y: 16
+		x: 7
 		moveX: -2
         triLength: 90
         shapes: 1
@@ -226,8 +226,8 @@
 	  //line
         type: HaloPart
         tri: true
-        y: 15
-		x: -7.2
+        y: 16
+		x: -7
 		moveX: 2
         triLength: 90
         shapes: 1

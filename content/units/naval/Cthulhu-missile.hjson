@@ -92,7 +92,20 @@ bullet: {
     splashDamage: 100
 
     hitSound: strawberrydeath
-    shootEffect: none
+shootEffect: [
+{
+followParent: false
+length: 0
+lifetime: 45
+particles: 1
+cone: 0
+region: azimut-despawn
+sizeFrom: 23
+sizeTo: 0
+colorTo: b3eed8
+baseRotation: 90
+}
+]
 		            despawnEffect: [
 				{
                 type: ParticleEffect
