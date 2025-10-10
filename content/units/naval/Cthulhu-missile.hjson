@@ -96,14 +96,26 @@ shootEffect: [
 {
 followParent: false
 length: 0
-lifetime: 45
+lifetime: 74
 particles: 1
 cone: 0
 region: azimut-despawn
-sizeFrom: 23
+sizeFrom: 48
 sizeTo: 0
 colorTo: b3eed8
 baseRotation: 90
+}
+{
+followParent: false
+length: 0
+lifetime: 74
+particles: 1
+cone: 0
+region: azimut-despawn
+sizeFrom: 48
+sizeTo: 0
+colorTo: b3eed8
+baseRotation: 180
 }
 ]
 		            despawnEffect: [
@@ -111,13 +123,13 @@ baseRotation: 90
                 type: ParticleEffect
                 colorFrom: e5f9f180
                 colorTo: b3eed800
-                particles: 11
+                particles: 8
                 cone: 20
-                length: 160
+                length: 100
                 baseLength: 1
                 sizeFrom: 4.2
 				sizeTo: 2
-                lifetime: 90
+                lifetime: 70
 				interp:pow3Out
                 }
 				{
@@ -139,13 +151,13 @@ baseRotation: 90
                 type: ParticleEffect
                 colorFrom: e5f9f180
                 colorTo: b3eed800
-                particles: 11
+                particles: 8
                 cone: 20
-                length: 160
+                length: 100
                 baseLength: 1
                 sizeFrom: 4.2
 				sizeTo: 2
-                lifetime: 90
+                lifetime: 70
 				interp:pow3Out
                 }
 				{
