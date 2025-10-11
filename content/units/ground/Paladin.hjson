@@ -78,6 +78,18 @@ weapons: [
 	  hitColor: cc918b
       pointEffectSpace: 3.875
 	  knockback: 0.3
+	  hitEffect: {
+	  followParent: false
+	  length: 0
+      lifetime: 5
+      particles: 1
+      cone: 0
+      region: azimut-despawn
+      sizeFrom: 35
+      sizeTo: 0
+      colorTo: cc918b00
+      baseRotation: 90
+	  }
       shootEffect: [{
         type: ParticleEffect
         colorFrom: cc918b
