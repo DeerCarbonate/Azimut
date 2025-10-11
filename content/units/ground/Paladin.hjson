@@ -123,7 +123,7 @@ weapons: [
                     {
                         type: ParticleEffect
                         region: azimut-beam
-                        lifetime: 20
+                        lifetime: 40
                         particles: 1
                         length: 0
                         cone: 0
