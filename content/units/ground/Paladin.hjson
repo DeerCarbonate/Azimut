@@ -57,7 +57,7 @@ weapons: [
     rotate: true
     rotateSpeed: 2
     reload: 120
-    inaccuracy: 2
+    inaccuracy: 0
     shootSound: energy-blade-launch
     shoot: {
       type: ShootBarrel
@@ -65,9 +65,9 @@ weapons: [
       shotDelay: 4
       shots: 8
 	        barrels: [
-                0, 0.2, 0,
-                0, 0.4, 0,
-                0, 0.6, 0,
+                0, 0.1, 0,
+                0, 0.5, 0,
+                0, 0.9, 0,
             ]
     }
     bullet: {
@@ -76,16 +76,18 @@ weapons: [
       damage: 24
 	  lifetime: 1
 	  hitColor: cc918b
+      pointEffectSpace: 3.875
+	  knockback: 0.3
       shootEffect: [{
         type: ParticleEffect
         colorFrom: cc918b
         colorTo: ffbfad00
-        particles: 4
+        particles: 2
         cone: 20
-        lifetime: 85
+        lifetime: 65
         length: 30
         int: pow2in
-        sizeFrom: 3.6
+        sizeFrom: 3.2
         sizeTo: 0
       }
 	  {
@@ -115,7 +117,7 @@ weapons: [
                         line: true
                         lenFrom: 4
                         lenTo: 0
-                        colorFrom: cbdbfca0
+                        colorFrom: cc918b21
                         colorTo: cc918b00
                     }
                     {
