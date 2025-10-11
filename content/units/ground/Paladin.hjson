@@ -80,12 +80,12 @@ weapons: [
         type: ParticleEffect
         colorFrom: cc918b
         colorTo: ffbfad00
-        particles: 2
-        cone: 4
-        lifetime: 35
-        length: 50
+        particles: 4
+        cone: 20
+        lifetime: 85
+        length: 30
         int: pow2in
-        sizeFrom: 4
+        sizeFrom: 3.6
         sizeTo: 0
       }
 	  {
@@ -103,6 +103,54 @@ weapons: [
       pierceBuilding: false
       pierce: true
       pierceCap: 1
+	              pointEffect: {
+                type: MultiEffect
+                    effects: [
+                    {
+                        type: ParticleEffect
+                        lifetime: 15
+                        baseLength: 12
+                        particles: 1
+                        length: 25
+                        line: true
+                        lenFrom: 4
+                        lenTo: 0
+                        colorFrom: cbdbfca0
+                        colorTo: cc918b00
+                    }
+                    {
+                        type: ParticleEffect
+                        region: azimut-beam
+                        lifetime: 20
+                        particles: 1
+                        length: 0
+                        cone: 0
+                        sizeFrom: 2
+                        sizeTo: 0
+                        interp: pow5Out
+                        sizeInterp: pow10In
+                        colorTo: cc918b00
+                    }
+                    {
+                        type: ParticleEffect
+                        lifetime: 150
+                        layer: 100
+                        offset: 0
+                        cone: 90
+                        lifetime: 15
+                        particles: 2
+                        baseLength: -4
+                        length: 45
+                        sizeFrom: 1.5
+                        sizeTo: 0
+                        length: 9
+                        colorFrom: cc918b00
+                        colorTo:cc918b00
+                        interp: pow3Out
+                        sizeInterp: pow3In
+                    }
+                ]
+            }
     }
   }
   {
