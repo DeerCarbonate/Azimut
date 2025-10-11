@@ -36,10 +36,10 @@ drownTimeMultiplier: 3
 	abilities: [
     {
     type: ShieldRegenFieldAbility
-    reload: 500
-    amount: 50
+    reload: 800
+    amount: 300
     range: 16
-    max: 800
+    max: 600
     }
 	]
 weapons: [
@@ -59,21 +59,6 @@ weapons: [
     reload: 75
     inaccuracy: 2
     shootSound: energy-blade-launch
-    parts: [
-      {
-        suffix: -blade
-        mirror: false
-        under: true
-        outlineColor: 22251b
-        outlineRadius: 3
-        progress: recoil
-        moveRot: -25
-        moveY: -3.2
-        moveX: -0.3
-        x: 0
-        y: -4.025
-      }
-    ]
     shoot: {
       type: ShootBarrel
       firstShotDelay: 12
@@ -82,7 +67,7 @@ weapons: [
     }
     bullet: {
       type: LaserBulletType
-      colors: [f0aba4, dcc6c6]
+      colors: [f0aba400, dcc6c600]
       length: 160
       width: 3.5
       sideAngle: -95
