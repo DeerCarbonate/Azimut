@@ -79,6 +79,7 @@ weapons: [
       pointEffectSpace: 3.875
 	  knockback: 0.3
 	  despawnEffect: none
+      smokeEffect: none
 	  
 	  hitEffect: {
 	  followParent: false
