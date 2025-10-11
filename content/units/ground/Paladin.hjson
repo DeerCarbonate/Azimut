@@ -56,36 +56,50 @@ weapons: [
     alternate: false
     rotate: true
     rotateSpeed: 2
-    reload: 75
+    reload: 120
     inaccuracy: 2
     shootSound: energy-blade-launch
     shoot: {
       type: ShootBarrel
       firstShotDelay: 12
       shotDelay: 4
-      shots: 5
+      shots: 8
+	        barrels: [
+                0, 0.2, 0,
+                0, 0.4, 0,
+                0, 0.6, 0,
+            ]
     }
     bullet: {
-      type: LaserBulletType
-      colors: [f0aba400, dcc6c600]
+      type: RailBulletType
       length: 160
-      width: 3.5
-      sideAngle: -95
-      sideWidth: 1.1
-	  sideLength: 0.8
-      damage: 32
-      shootEffect: {
+      damage: 24
+	  lifetime: 1
+	  hitColor: cc918b
+      shootEffect: [{
         type: ParticleEffect
         colorFrom: cc918b
         colorTo: ffbfad00
         particles: 2
         cone: 4
-        lifetime: 25
-        length: 70
+        lifetime: 35
+        length: 50
         int: pow2in
-        sizeFrom: 2
+        sizeFrom: 4
         sizeTo: 0
       }
+	  {
+       type: ParticleEffect
+       lifetime: 15
+       baseLength: 10
+       length: 45
+       cone: 35
+       line: true
+       lenFrom: 4
+       lenTo: 0
+       colorFrom: cc918b
+      }
+	  ]
       pierceBuilding: false
       pierce: true
       pierceCap: 1
