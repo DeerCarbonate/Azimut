@@ -57,7 +57,7 @@ weapons: [
     rotate: true
     rotateSpeed: 2
     reload: 120
-    inaccuracy: 0
+    inaccuracy: 3
     shootSound: energy-blade-launch
     shoot: {
       type: ShootBarrel
@@ -73,7 +73,7 @@ weapons: [
     bullet: {
       type: RailBulletType
       length: 160
-      damage: 24
+      damage: 18
 	  lifetime: 1
 	  hitColor: cc918b
       pointEffectSpace: 3.875
