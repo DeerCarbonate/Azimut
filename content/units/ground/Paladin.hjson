@@ -25,7 +25,7 @@ legContinuousMove: true
 accel: 0.5
 armor: 9
 stepshake: 0.1
-health: 5100
+health: 5000
 speed: 0.43
 healColor: f0aba488
 hitSize: 18
@@ -57,7 +57,7 @@ weapons: [
     rotate: true
     rotateSpeed: 2
     reload: 120
-    inaccuracy: 3
+    inaccuracy: 0
     shootSound: energy-blade-launch
     shoot: {
       type: ShootBarrel
