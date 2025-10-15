@@ -42,7 +42,7 @@ craftEffect: [{
           type: ParticleEffect
           particles: 1
           length: 90
-          lifetime: 1200
+          lifetime: 600
           sizeFrom: 2.7
           sizeTo: 6.2
           cone: 2
