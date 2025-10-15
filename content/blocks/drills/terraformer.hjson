@@ -1,0 +1,29 @@
+type: beamDrill
+health: 600
+range: 9
+tier: 1
+size: 4
+optionalBoostIntensity: 1.5
+drillTime: 60
+ambientSound: drill
+ambientSoundVolume: 0.08
+hasLiquids: true
+consumes: {
+  liquid: power/0.4
+  power: 1
+  liquids: {
+    liquids: [
+      iterin/0.4
+    ]
+    optional: true
+    booster: true
+  }
+}
+category: production
+researchCostMultiplier: 0.5
+requirements: [
+  cobalt/120
+  venerium/80
+  platinum/120
+  geliarin/15
+]
