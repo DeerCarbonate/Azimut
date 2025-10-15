@@ -117,11 +117,11 @@ shootEffect: [
 {
 followParent: false
 length: 0
-lifetime: 11
+lifetime: 17
 particles: 1
 cone: 0
 region: azimut-despawn
-sizeFrom: 17
+sizeFrom: 27
 sizeTo: 0
 colorTo: b9c4d8
 baseRotation: 90
@@ -269,11 +269,11 @@ fragBullet: {
 {
 followParent: false
 length: 0
-lifetime: 11
+lifetime: 17
 particles: 1
 cone: 0
 region: azimut-despawn
-sizeFrom: 17
+sizeFrom: 27
 sizeTo: 0
 colorTo: dacaaa
 baseRotation: 90
