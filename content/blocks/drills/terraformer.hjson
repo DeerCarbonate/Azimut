@@ -1,4 +1,6 @@
 type: beamDrill
+name: Terraformer
+description: Extracts resources from their deposits.
 health: 600
 range: 9
 tier: 1
