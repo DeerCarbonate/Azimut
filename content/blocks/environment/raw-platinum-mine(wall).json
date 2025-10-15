@@ -1,0 +1,11 @@
+{
+"wallOre":true,
+"type":"OreBlock",
+"playerUnmineable":true,
+"itemDrop":"raw-caterium",
+"mapColor":"dacaaa",
+"useColor":true,
+"oreDefault":true,
+"oreThreshold":2,
+"oreScale":20
+}
