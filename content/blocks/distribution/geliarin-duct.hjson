@@ -1,0 +1,30 @@
+type: StackConveyor
+name: Geliarin duct
+description: Packages stacks of items before sending them off. Outputs items in three directions at the end.
+speed: 0.095
+itemCapacity: 5
+health: 20
+category: distribution
+requirements: [
+  geliarin/1
+  cobalt/2
+]   
+loadEffect: {
+  type: ParticleEffect
+  particles: 3
+  sizeFrom: 2
+  sizeTo: 0.5
+  colorFrom: bef7ae
+  colorTo: bef7ae00
+  lifetime: 12
+}
+unloadEffect: {
+  type: ParticleEffect
+  particles: 3
+  sizeFrom: 2
+  sizeTo: 0.5
+  colorFrom: bef7ae
+  colorTo: bef7ae00
+  lifetime: 12
+}
+researchCostMultiplier: 0.5
