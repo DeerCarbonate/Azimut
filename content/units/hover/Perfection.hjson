@@ -251,8 +251,7 @@ smokeEffect: none
         colorTo: 6a3fa400,
         followParent: true,
         rotWithParent: true,
-		interp: exp5Out
-        sizeInterp: exp5In
+		interp: pow3Out
 		}
 		{
         type: WaveEffect,
@@ -362,6 +361,7 @@ smokeEffect: none
         colorTo: f6afdd0,
         followParent: true,
         rotWithParent: true,
+		interp: pow3Out
 		}
 	]
 }
