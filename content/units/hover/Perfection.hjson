@@ -180,6 +180,7 @@ fragBullet: {
 	despawnEffect: none
 	despawnSound: none
 	hitSound: none
+	hitEffect: none
 	fragOnHit: true
 	fragBullets: 1
     fragLifeMin: 0.01
@@ -286,7 +287,7 @@ smokeEffect: none
 		{
         type: WaveEffect,
         startDelay: 55,
-        lifetime: 480,
+        lifetime: 487,
         sizeFrom: 39,
         sizeTo: 39,
         strokeFrom: 72,
@@ -342,7 +343,7 @@ smokeEffect: none
 		{
         type: WaveEffect,
         startDelay: 55,
-        lifetime: 480,
+        lifetime: 487,
         sizeFrom: 75,
         sizeTo: 75,
         strokeFrom: 6,
