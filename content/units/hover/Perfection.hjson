@@ -342,7 +342,7 @@ smokeEffect: none
 		{
         type: WaveEffect,
         startDelay: 55,
-        lifetime: 518,
+        lifetime: 504,
         sizeFrom: 75,
         sizeTo: 75,
         strokeFrom: 6,
