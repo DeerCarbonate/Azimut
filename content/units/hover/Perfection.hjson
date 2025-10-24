@@ -265,8 +265,7 @@ smokeEffect: none
         colorTo: 6a3fa400,
         followParent: true,
         rotWithParent: true,
-		interp: exp5Out
-        sizeInterp: exp5In
+		interp: pow3Out
 		}
 		{
 					type: ParticleEffect 
@@ -296,6 +295,7 @@ smokeEffect: none
         colorTo: f6afdd10,
         followParent: true,
         rotWithParent: true,
+		interp: pow3Out
 		}
 		{
         type: WaveEffect,
@@ -309,6 +309,7 @@ smokeEffect: none
         colorTo: f6afdd0,
         followParent: true,
         rotWithParent: true,
+		interp: pow3Out
 		}
 		{
         type: WaveEffect,
@@ -322,11 +323,12 @@ smokeEffect: none
         colorTo: f6afdd10,
         followParent: true,
         rotWithParent: true,
+		interp: pow3Out
 		}
 		{
         type: WaveEffect,
         startDelay: 0,
-        lifetime: 25,
+        lifetime: 45,
         sizeFrom: 0,
         sizeTo: 75,
         strokeFrom: 0,
@@ -335,6 +337,7 @@ smokeEffect: none
         colorTo: f6afdd,
         followParent: true,
         rotWithParent: true,
+		interp: pow3Out
 		}
 		{
         type: WaveEffect,
@@ -348,11 +351,12 @@ smokeEffect: none
         colorTo: f6afdd,
         followParent: true,
         rotWithParent: true,
+	    interp: pow3Out
 		}
 		{
         type: WaveEffect,
-        startDelay: 555,
-        lifetime: 25,
+        startDelay: 550,
+        lifetime: 45,
         sizeFrom: 75,
         sizeTo: 0,
         strokeFrom: 6,
