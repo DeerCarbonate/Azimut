@@ -271,17 +271,17 @@ smokeEffect: none
 					type: ParticleEffect 
 					colorFrom: f6afdd50
 					colorTo: f6afdd10
-					particles: 78
-					length: 170
+					particles: 27
+					length: 190
 					baseLength: 12
 					lightScl: 3
-					interp: circleOut
 					lightOpacity: 2
 					spin: 0
 					sizeFrom: 14.5
 					sizeTo: 0
 					offset: 1
 					lifetime: 555
+					interp: pow3Out
 		}
 		{
         type: WaveEffect,
@@ -314,7 +314,7 @@ smokeEffect: none
 		{
         type: WaveEffect,
         startDelay: 0,
-        lifetime: 30,
+        lifetime: 55,
         sizeFrom: 0,
         sizeTo: 39,
         strokeFrom: 0,
@@ -328,7 +328,7 @@ smokeEffect: none
 		{
         type: WaveEffect,
         startDelay: 0,
-        lifetime: 45,
+        lifetime: 65,
         sizeFrom: 0,
         sizeTo: 75,
         strokeFrom: 0,
