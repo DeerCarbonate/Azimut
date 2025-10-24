@@ -286,11 +286,11 @@ smokeEffect: none
 		{
         type: WaveEffect,
         startDelay: 55,
-        lifetime: 522,
+        lifetime: 499,
         sizeFrom: 39,
         sizeTo: 39,
-        strokeFrom: 70,
-        strokeTo: 70,
+        strokeFrom: 71,
+        strokeTo: 71,
         colorFrom: f6afdd25,
         colorTo: f6afdd10,
         followParent: true,
@@ -342,7 +342,7 @@ smokeEffect: none
 		{
         type: WaveEffect,
         startDelay: 55,
-        lifetime: 504,
+        lifetime: 499,
         sizeFrom: 75,
         sizeTo: 75,
         strokeFrom: 6,
