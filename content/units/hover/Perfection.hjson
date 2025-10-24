@@ -148,7 +148,7 @@ shoot: {
 	fragOnHit: true
 	fragBullets: 38
     fragLifeMin: 0.3
-	fragLifeMax: 6
+	fragLifeMax: 5.6
 fragBullet: { 
     type: ArtilleryBulletType
     collidesTiles: false
@@ -164,14 +164,14 @@ fragBullet: {
 
     buildingDamageMultiplier: 1.5
 
-    splashDamageRadius: 65
+    splashDamageRadius: 75
     lightOpacity: 0.5
-    splashDamage: 100
+    splashDamage: 60
     lightRadius: 30
-    lifetime: 90
-    damage: 50
+    lifetime: 80
+    damage: 20
     speed: 0
-	pierceCap:300
+	pierceCap: 300
 	pierceArmor: false
 	
 	suppressionEffectChance: 0
@@ -217,20 +217,20 @@ smokeEffect: none
 
     lifetime: 48
 
-    waveColor: f6afdd
-    waveStroke: 2.5
-    waveRad: 26
+    waveColor: f6afdd80
+    waveStroke: 1.4
+    waveRad: 12
 
-    smokeColor: f6afdd
+    smokeColor: f6afdd80
     smokeSizeBase: 0
-    smokeSize: 6.5
-    smokes: 5
+    smokeSize: 4
+    smokes: 3
 
-    sparkColor: f6afdd
-    sparkStroke: 1.8
-    sparkRad: 18
+    sparkColor: f6afdd80
+    sparkStroke: 1.2
+    sparkRad: 12
     sparkLen: 3
-    sparks: 9
+    sparks: 4
 		}
 	]
 }
