@@ -135,7 +135,7 @@ shoot: {
 			width: 28
 			lifetime: 34
 			sprite: large-bomb
-			damage: 650
+			damage: 250
 			speed: 6.5
 			trailColor: f6afdd
 			trailLength: 27
