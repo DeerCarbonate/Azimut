@@ -285,7 +285,7 @@ smokeEffect: none
 		}
 		{
         type: WaveEffect,
-        startDelay: 30,
+        startDelay: 55,
         lifetime: 522,
         sizeFrom: 39,
         sizeTo: 39,
@@ -341,7 +341,7 @@ smokeEffect: none
 		}
 		{
         type: WaveEffect,
-        startDelay: 25,
+        startDelay: 55,
         lifetime: 522,
         sizeFrom: 75,
         sizeTo: 75,
