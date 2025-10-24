@@ -166,7 +166,7 @@ fragBullet: {
 
     splashDamageRadius: 75
     lightOpacity: 0.5
-    splashDamage: 60
+    splashDamage: 50
     lightRadius: 30
     lifetime: 80
     damage: 20
