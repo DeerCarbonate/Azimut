@@ -1,6 +1,6 @@
 type: Floor
 name: "Cribalt floor"
 attributes: {
-	silicon: 1.0
+	silic: 1.0
 }
 variants: 6

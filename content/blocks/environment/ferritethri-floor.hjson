@@ -1,6 +1,6 @@
 type: Floor
 name: "Ferrite floor"
 attributes: {
-	silicon: 0.2
+	silic: 0.2
 }
 variants: 6

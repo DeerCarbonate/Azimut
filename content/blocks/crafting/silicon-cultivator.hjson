@@ -3,9 +3,10 @@ name: Silicon cultivator
 size: 3
 baseEfficiency: 0
 minEfficiency: 1
-attribute: silicon
+attribute: silic
 itemCapacity: 20
 boostScale: 0.125
+maxBoost: 2.0
 category: crafting
 ambientSound: drill
 ambientSoundVolume: 0.08
