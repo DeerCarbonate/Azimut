@@ -1,6 +1,6 @@
 type: Floor
 name: "Ferritetwo floor"
-attribute: {
-	silic: 0.2
+attributes: {
+        silic: 0.222222222222222222
 }
 variants: 3
