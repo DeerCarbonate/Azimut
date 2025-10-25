@@ -1,0 +1,55 @@
+type: AttributeCrafter
+name: Silicon cultivator
+size: 3
+baseEfficiency: 0
+minEfficiency: 1
+attribute: silicon
+itemCapacity: 20
+boostScale: 0.125
+category: crafting
+ambientSound: drill
+ambientSoundVolume: 0.08
+squareSprite: false
+description: Uses the productive abilities of silicon cells to create a special compound material.
+ignoreLiquidFullness: true
+research: {
+  parent: "platinum-smelter"
+  planet: gelion
+    requirements: [
+	  venerium/400
+	  cobalt/500
+	  platinum/150
+]
+}
+requirements: [
+ cobalt/55
+ venerium/45
+ platinum/15
+]
+consumes: {
+  liquids: [
+  ammonia/0.04
+  power/0.04
+	]
+}
+craftTime: 240
+outputItem: compound/4
+craftEffect: none
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: ammonia
+      alpha: 0.6
+      padding: 2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
