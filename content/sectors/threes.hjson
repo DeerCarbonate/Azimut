@@ -1,4 +1,5 @@
 localizedName: Cold Harbor
+difficulty: 5
 description: "Create Plankton - a floating combat unit, capture a sector and destroy the enemy base."
 captureWave: 0
 planet: gelion
