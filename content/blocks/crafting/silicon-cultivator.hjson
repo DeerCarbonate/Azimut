@@ -34,7 +34,7 @@ consumes: {
 	]
 }
 craftTime: 240
-outputItem: compound/4
+outputItem: compound/2
 craftEffect: none
 drawer: {
   type: DrawMulti
@@ -48,6 +48,13 @@ drawer: {
       drawLiquid: ammonia
       alpha: 0.6
       padding: 2
+    }
+	{
+      type: DrawCircles
+      color: ceddd405
+      strokeMax: 1
+      radius: 5
+      amount: 1.2
     }
     {
       type: DrawDefault
