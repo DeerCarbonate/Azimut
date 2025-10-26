@@ -9,6 +9,7 @@ showSectorLandInfo: true
 planet: gelion
 name: first
 sector: 2
+difficulty: 1
 research: {
 	parent: "core-forum"
 }
