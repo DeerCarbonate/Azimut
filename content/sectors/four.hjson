@@ -2,6 +2,7 @@ localizedName: Wilderness
 description: "Challenge yourself by repelling the enemy's strong combat power in exchange for new technologies.
 (Build as strong a defense as possible!)"
 captureWave: 30
+difficulty: 6
 planet: gelion
 name: four
 sector: 5

@@ -1,6 +1,7 @@
 localizedName: Melting channels
 description: "An enemy outpost has been spotted in the sector. Discover and create the new Improvement unit - a ground hover unit that can fly through liquids and other terrain."
 captureWave: 0
+difficulty: 7
 planet: gelion
 name: sixth
 sector: 42
