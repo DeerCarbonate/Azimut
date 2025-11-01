@@ -9,6 +9,7 @@ requirements: [
   venerium/70
   platinum/145
   geliarin/30
+  compound/30
 ]
 consumes: {
   liquids: [
@@ -28,6 +29,7 @@ liquidCapacity: 100
 		"cobalt/1800"
 		"platinum/950"
 		"geliarin/650"
+		"compound/250"
 		]
 	objectives: [
     {
