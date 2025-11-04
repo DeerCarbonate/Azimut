@@ -48,7 +48,7 @@ weapons: [
     firstShotDelay: 120
     shotDelay: 16
     spread: 0
-    shots: 4
+    shots: 1
     }
 	   bullet: {
         type: BulletType

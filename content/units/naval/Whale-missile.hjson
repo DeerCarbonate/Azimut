@@ -19,12 +19,12 @@ envDisabled: 0
 envEnabled: -1
 
 missileAccelTime: 10
-lifetime: 280
-rotateSpeed: 1.2
+lifetime: 180
+rotateSpeed: 0
 fogRadius: 8
 maxRange: 20
 health: 120
-speed: 1.2
+speed: 2.7
 armor: 1
 homingDelay: 20
 deathExplosionEffect: none
@@ -43,12 +43,12 @@ abilities: [
     sameTypeHealMult: 0.3
     healPercent: 1
     maxTargets: 10
-    damage: 25
-    reload: 7
-    range: 130
+    damage: 10
+    reload: 17
+    range: 30
 	color: 8edfc1
     x: 0
-    y: -5
+    y: 0
 }
 ]
 
@@ -79,7 +79,7 @@ parts: [
       shapes: 5
       triLengthTo: 14
       triLength: 6
-      haloRotateSpeed: 21
+      haloRotateSpeed: 3
     }
     ]
 
