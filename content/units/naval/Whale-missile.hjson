@@ -19,32 +19,32 @@ envDisabled: 0
 envEnabled: -1
 
 missileAccelTime: 10
-lifetime: 180
-rotateSpeed: 0
+lifetime: 150
+rotateSpeed: 0.8
 fogRadius: 8
 maxRange: 20
 health: 120
-speed: 2.7
+speed: 3
 armor: 1
-homingDelay: 1240
+homingDelay: 30
 deathExplosionEffect: none
 loopSoundVolume: 0.5
 
 trailColor: 8edfc1
-trailLength: 14
-trailWidth: 1.6
+trailLength: 18
+trailWidth: 1
 engineColor: 8edfc1
-engineSize: 1.7
+engineSize: 1.2
 engineOffset: 3
 engineLayer: 100
 abilities: [
     {
     type: EnergyFieldAbility
     sameTypeHealMult: 0.3
-    maxTargets: 10
-    damage: 10
-    reload: 10
-    range: 90
+    maxTargets: 5
+    damage: 8
+    reload: 12
+    range: 80
 	color: 8edfc1
     x: 0
     y: 0
