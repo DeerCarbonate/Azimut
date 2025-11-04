@@ -27,7 +27,7 @@ weapons: [
     alternate: true
     rotate: true
     rotateSpeed: 1.2
-    reload: 130
+    reload: 250
     shootSound: restart
     controllable: true
     aiControllable: true
@@ -35,88 +35,28 @@ weapons: [
     velocityRnd:0.2
     x: 6.7
     y: -7.455
-    shoot: {
-            type: ShootSummon
-            firstShotDelay: 2
-            shotDelay: 9
-            radius: 1
-            shots: 8
-            spread:3
+	bullet: {
+        type: BulletType
+        spawnUnit: Whale-missile
+        keepVelocity: false
+        collidesAir: false
+        speed: 0
+        smokeEffect: none
         }
-        bullet: {
-            type: BasicBulletType
-            backColor: e5f9f1
-            frontColor: b3eed8
-            sprite: missile
-            height: 11
-            width: 5
-            lifetime: 75
-            damage: 26
-            speed: 4.5
-            trailColor: b3eed8
-            trailLength: 14
-            trailWidth: 1.7
-            drag:0.004
-            homingDelay:16
-            homingPower:0.008
-            homingPower:140
-            weaveMag: 3.2
-            weaveScale: 4.5
-            trailInterval:8
-            trailChance:1
-            trailRotation:true
-            trailEffect:[
-                {
-                    type: ParticleEffect
-                    lifetime: 12
-                    particles: 1
-                    baseLength: 3
-                    length: 10
-                    line: true
-                    strokeTo: 1.5
-                    lenFrom: 2
-                    lenTo: 5
-                    colorTo: b3eed800
-                    colorFrom: b3eed8
-                    cone: 25
-                    baseRotation: 180
-                }
-                {
-                    type: ParticleEffect
-                    lifetime: 16
-                    particles: 1
-                    length: 15
-                    line: true
-                    strokeTo: 0.5
-                    lenFrom: 2
-                    lenTo: 5
-                    colorTo: b3eed800
-                    colorFrom: b3eed8
-                    cone: 10
-                    baseRotation: 180
-                }
-            ]
-            despawnEffect: {
-                type: ParticleEffect
-                colorFrom: e5f9f1
-                colorTo: b3eed800
-                particles: 12
-                cone: 360
-                length: 17
-                baseLength: 1
-                sizeFrom: 1.6
-                lifetime: 18
-                }
-            hitEffect: {
-                type: ParticleEffect
-                colorFrom: e5f9f1
-                colorTo: b3eed8
-                particles: 8
-                cone: 360
-                length: 6
-                sizeFrom: 2
-                sizeTo: 0
-                }
+	shoot: {
+    type: ShootSpread
+    firstShotDelay: 120
+    shotDelay: 16
+    spread: 0
+    shots: 4
+    }
+	   bullet: {
+        type: BulletType
+        spawnUnit: Cthulhu-missile
+        keepVelocity: false
+        collidesAir: false
+        speed: 0
+        smokeEffect: none
         }
     }
 ]

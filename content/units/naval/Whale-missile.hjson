@@ -1,0 +1,182 @@
+type: missile
+template: MissileUnitType
+controller: MissileAI
+
+playerControllable: false
+allowedInPayloads: false
+outlineColor: 1b1c25
+outlineRadius: 3
+createScorch: true
+createWreck: false
+lowAltitude: true
+useUnitCap: false
+drawCell: false
+physics: false
+hitSize: 1.2
+flying: true
+
+envDisabled: 0
+envEnabled: -1
+
+missileAccelTime: 10
+lifetime: 280
+rotateSpeed: 1.2
+fogRadius: 8
+maxRange: 20
+health: 120
+speed: 1.2
+armor: 1
+homingDelay: 20
+deathExplosionEffect: none
+loopSoundVolume: 0.5
+
+trailColor: 8edfc1
+trailLength: 14
+trailWidth: 1.6
+engineColor: 8edfc1
+engineSize: 1.7
+engineOffset: 3
+engineLayer: 100
+abilities: [
+    {
+    type: EnergyFieldAbility
+    sameTypeHealMult: 0.3
+    healPercent: 1
+    maxTargets: 10
+    damage: 25
+    reload: 7
+    range: 130
+	color: 8edfc1
+    x: 0
+    y: -5
+}
+]
+
+immunities: [ slow, spore-slowed, tarred]
+
+parts: [
+      {
+     type: ShapePart
+     hollow: true
+     circle: true
+     layer: 110
+     color: 8edfc1
+     stroke: 1.4
+     strokeTo: 2
+     radius: 8
+	 radiusTo: 9
+      }
+	  {
+      type: HaloPart
+	  progress: life
+      radius: 2
+      radiusTo: 4
+      tri: true
+      color: 8edfc1
+	  layer: 110
+      haloRadius: 2
+      haloRadiusTo: 2
+      shapes: 5
+      triLengthTo: 14
+      triLength: 6
+      haloRotateSpeed: 21
+    }
+    ]
+
+weapons: [
+{
+    shootOnDeath: true
+    shootCone: 360
+    mirror: false
+    shake: 2.5
+    x: 0
+    y: 0
+
+    reload: 1
+
+bullet: {
+    type: ExplosionBulletType
+    collidesAir: false
+    despawnShake: 2.4
+    maxRange: 14
+
+    buildingDamageMultiplier: 1.15
+
+    splashDamageRadius: 50
+    splashDamage: 100
+
+    hitSound: strawberrydeath
+shootEffect: [
+{
+followParent: false
+length: 0
+lifetime: 47
+particles: 1
+cone: 0
+region: azimut-despawn
+sizeFrom: 24
+sizeTo: 0
+colorTo: b3eed8
+baseRotation: 180
+interp:pow3Out
+}
+]
+		            despawnEffect: [
+				{
+                type: ParticleEffect
+                colorFrom: e5f9f180
+                colorTo: b3eed800
+                particles: 8
+                cone: 20
+                length: 100
+                baseLength: 1
+                sizeFrom: 4.2
+				sizeTo: 2
+                lifetime: 35
+				interp:pow3Out
+                }
+				{
+				type: WaveEffect
+				rotWithParent: true
+				followParent: true
+				lifetime: 35
+				sizeFrom: 20
+				sizeTo: 54
+				strokeFrom: 6
+				strokeTo: 2
+                colorFrom: e5f9f180
+                colorTo: b3eed800
+				interp:pow3Out
+				}
+			]
+		            hitEffect: [
+				{
+                type: ParticleEffect
+                colorFrom: e5f9f180
+                colorTo: b3eed800
+                particles: 8
+                cone: 20
+                length: 100
+                baseLength: 1
+                sizeFrom: 4.2
+				sizeTo: 2
+                lifetime: 35
+				interp:pow3Out
+                }
+				{
+				type: WaveEffect
+				rotWithParent: true
+				followParent: true
+				lifetime: 35
+				sizeFrom: 20
+				sizeTo: 54
+				strokeFrom: 6
+				strokeTo: 2
+                colorFrom: e5f9f180
+                colorTo: b3eed800
+				interp:pow3Out
+				}
+			]
+    }
+}
+    ]
