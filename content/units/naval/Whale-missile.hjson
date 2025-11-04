@@ -26,7 +26,7 @@ maxRange: 20
 health: 120
 speed: 2.7
 armor: 1
-homingDelay: 20
+homingDelay: 1240
 deathExplosionEffect: none
 loopSoundVolume: 0.5
 
@@ -41,11 +41,10 @@ abilities: [
     {
     type: EnergyFieldAbility
     sameTypeHealMult: 0.3
-    healPercent: 1
     maxTargets: 10
     damage: 10
-    reload: 17
-    range: 30
+    reload: 10
+    range: 90
 	color: 8edfc1
     x: 0
     y: 0
