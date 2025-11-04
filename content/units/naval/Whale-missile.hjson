@@ -40,7 +40,6 @@ engineLayer: 100
 abilities: [
     {
     type: EnergyFieldAbility
-    sameTypeHealMult: 0.3
     maxTargets: 5
     damage: 8
     reload: 12
@@ -68,17 +67,17 @@ parts: [
 	  {
       type: HaloPart
 	  progress: life
-      radius: 2
-      radiusTo: 4
+      radius: 4
+      radiusTo: 8
       tri: true
       color: 8edfc1
 	  layer: 110
-      haloRadius: 3
-      haloRadiusTo: 3.7
-      shapes: 5
-      triLengthTo: 14
+      haloRadius: 4
+      haloRadiusTo: 5
+      shapes: 4
+      triLengthTo: 7
       triLength: 6
-      haloRotateSpeed: 3
+      haloRotateSpeed: 1
     }
     ]
 
