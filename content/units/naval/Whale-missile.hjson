@@ -47,9 +47,9 @@ abilities: [
 	color: 8edfc1
     x: 0
     y: 0
-	sameTypeHealMult: 0
+	sameTypeHealMult: 0.01
     statusDuration: 0
-    healPercent: 0
+    healPercent: 0.01
 }
 ]
 
