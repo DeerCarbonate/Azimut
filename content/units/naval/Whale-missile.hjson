@@ -74,8 +74,8 @@ parts: [
       tri: true
       color: 8edfc1
 	  layer: 110
-      haloRadius: 2
-      haloRadiusTo: 2
+      haloRadius: 3
+      haloRadiusTo: 3.7
       shapes: 5
       triLengthTo: 14
       triLength: 6
@@ -97,13 +97,13 @@ weapons: [
 bullet: {
     type: ExplosionBulletType
     collidesAir: false
-    despawnShake: 2.4
-    maxRange: 14
+    despawnShake: 1.2
+    maxRange: 6
 
     buildingDamageMultiplier: 1.15
 
-    splashDamageRadius: 50
-    splashDamage: 100
+    splashDamageRadius: 30
+    splashDamage: 90
 
     hitSound: strawberrydeath
 shootEffect: [
@@ -123,25 +123,12 @@ interp:pow3Out
 ]
 		            despawnEffect: [
 				{
-                type: ParticleEffect
-                colorFrom: e5f9f180
-                colorTo: b3eed800
-                particles: 8
-                cone: 20
-                length: 100
-                baseLength: 1
-                sizeFrom: 4.2
-				sizeTo: 2
-                lifetime: 35
-				interp:pow3Out
-                }
-				{
 				type: WaveEffect
 				rotWithParent: true
 				followParent: true
 				lifetime: 35
 				sizeFrom: 20
-				sizeTo: 54
+				sizeTo: 23
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
@@ -151,25 +138,12 @@ interp:pow3Out
 			]
 		            hitEffect: [
 				{
-                type: ParticleEffect
-                colorFrom: e5f9f180
-                colorTo: b3eed800
-                particles: 8
-                cone: 20
-                length: 100
-                baseLength: 1
-                sizeFrom: 4.2
-				sizeTo: 2
-                lifetime: 35
-				interp:pow3Out
-                }
-				{
 				type: WaveEffect
 				rotWithParent: true
 				followParent: true
 				lifetime: 35
 				sizeFrom: 20
-				sizeTo: 54
+				sizeTo: 23
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
