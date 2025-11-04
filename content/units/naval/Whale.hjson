@@ -27,7 +27,7 @@ weapons: [
     alternate: true
     rotate: true
     rotateSpeed: 1.2
-    reload: 250
+    reload: 300
     shootSound: restart
     controllable: true
     aiControllable: true
@@ -45,9 +45,8 @@ weapons: [
         }
 	shoot: {
     type: ShootSpread
-    shotDelay: 40
     spread: 0
-    shots: 2
+    shots: 1
     }
 	   bullet: {
         type: BulletType
