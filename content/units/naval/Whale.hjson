@@ -52,7 +52,7 @@ weapons: [
     }
 	   bullet: {
         type: BulletType
-        spawnUnit: Cthulhu-missile
+        spawnUnit: Whale-missile
         keepVelocity: false
         collidesAir: false
         speed: 0
