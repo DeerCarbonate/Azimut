@@ -40,8 +40,8 @@ engineLayer: 100
 abilities: [
     {
     type: EnergyFieldAbility
-    maxTargets: 12
-    damage: 7
+    maxTargets: 7
+    damage: 18
     reload: 11
     range: 80
 	color: 8edfc1
@@ -75,8 +75,8 @@ parts: [
       tri: true
       color: 8edfc1
 	  layer: 110
-      haloRadius: 8
-      haloRadiusTo: 12
+      haloRadius: 4
+      haloRadiusTo: 5
       shapes: 4
       triLengthTo: 8
       triLength: 6
@@ -111,15 +111,15 @@ shootEffect: [
 {
 followParent: false
 length: 0
-lifetime: 47
+lifetime: 35
 particles: 1
 cone: 0
-region: azimut-despawn
-sizeFrom: 24
-sizeTo: 0
+region: azimut-shockwave
+sizeFrom: 20
+sizeTo: 23
 colorTo: b3eed8
 baseRotation: 180
-interp:pow3Out
+interp: pow3Out
 }
 ]
 		            despawnEffect: [
