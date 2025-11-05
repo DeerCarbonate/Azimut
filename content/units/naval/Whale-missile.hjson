@@ -40,9 +40,9 @@ engineLayer: 100
 abilities: [
     {
     type: EnergyFieldAbility
-    maxTargets: 5
-    damage: 18
-    reload: 12
+    maxTargets: 12
+    damage: 7
+    reload: 11
     range: 80
 	color: 8edfc1
     x: 0
@@ -64,14 +64,14 @@ parts: [
      color: 8edfc1
      stroke: 1.4
      strokeTo: 2
-     radius: 8
-	 radiusTo: 8
+     radius: 4
+	 radiusTo: 4
       }
 	  {
       type: HaloPart
 	  progress: life
-      radius: 6
-      radiusTo: 8
+      radius: 4
+      radiusTo: 5
       tri: true
       color: 8edfc1
 	  layer: 110
