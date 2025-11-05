@@ -71,7 +71,7 @@ parts: [
       type: HaloPart
 	  progress: life
       radius: 4
-      radiusTo: 5
+      radiusTo: 12
       tri: true
       color: 8edfc1
 	  layer: 110
@@ -117,7 +117,7 @@ cone: 0
 region: azimut-shockwave
 sizeFrom: 20
 sizeTo: 23
-colorTo: b3eed8
+colorTo: b3eed800
 baseRotation: 180
 interp: pow3Out
 }
