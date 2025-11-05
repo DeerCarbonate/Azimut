@@ -67,21 +67,6 @@ parts: [
      radius: 4
 	 radiusTo: 4
       }
-	  {
-      type: HaloPart
-	  progress: life
-      radius: 4
-      radiusTo: 12
-      tri: true
-      color: 8edfc1
-	  layer: 110
-      haloRadius: 4
-      haloRadiusTo: 5
-      shapes: 4
-      triLengthTo: 8
-      triLength: 6
-      haloRotateSpeed: 1.2
-    }
     ]
 
 weapons: [
@@ -106,7 +91,7 @@ bullet: {
     splashDamageRadius: 30
     splashDamage: 90
 
-    hitSound: strawberrydeath
+    hitSound: energy-blade-hit
 shootEffect: [
 {
 followParent: false
