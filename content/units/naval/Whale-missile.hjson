@@ -128,8 +128,8 @@ interp: pow3Out
 				rotWithParent: true
 				followParent: true
 				lifetime: 35
-				sizeFrom: 20
-				sizeTo: 23
+				sizeFrom: 26
+				sizeTo: 28
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
@@ -143,8 +143,8 @@ interp: pow3Out
 				rotWithParent: true
 				followParent: true
 				lifetime: 35
-				sizeFrom: 20
-				sizeTo: 23
+				sizeFrom: 26
+				sizeTo: 28
 				strokeFrom: 6
 				strokeTo: 2
                 colorFrom: e5f9f180
