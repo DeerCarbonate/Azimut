@@ -63,21 +63,22 @@ weapons: [
     layerOffset: -0.001
 	   rotateSpeed: 0.4
     rotationLimit: 50
+    rotate: true
     shootY: 2.5
-    x: 12
+    x: 10.8
     y: 0.8
     reload: 70
     velocityRnd: 0.3
     shoot: {
       type: ShootSpread
-      shotDelay: 1.2
+      shotDelay: 2.3
       shots: 6
 	  spread: 0
     }
     ejectEffect: none
     shootSound: spark
     bullet: {
-      recoil: 0.1
+      recoil: 0.01
       keepVelocity: false
       lifetime: 60
       drag: -0.018
