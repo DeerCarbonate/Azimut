@@ -61,14 +61,15 @@ weapons: [
     name: Whale-weapon
     alternate: false
     layerOffset: -0.001
-	   rotateSpeed: 0.4
-    rotationLimit: 50
+	   rotateSpeed: 0.6
+    rotationLimit: 80
     rotate: true
     shootY: 2.5
-    x: 10.8
+    x: 10.2
     y: 0.8
     reload: 70
     velocityRnd: 0.3
+    ignoreRotation: true
     shoot: {
       type: ShootSpread
       shotDelay: 2.3
@@ -81,8 +82,8 @@ weapons: [
       recoil: 0.01
       keepVelocity: false
       lifetime: 60
-      drag: -0.018
-      damage: 4
+      drag: -0.024
+      damage: 10
       height: 9
       speed: 1.8
       width: 5
