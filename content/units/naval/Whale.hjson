@@ -62,7 +62,7 @@ weapons: [
     alternate: false
     layerOffset: -0.001
 	   rotateSpeed: 0.6
-    rotationLimit: 80
+    rotationLimit: 210
     rotate: true
     shootY: 2.5
     x: 10.2
@@ -70,22 +70,22 @@ weapons: [
     reload: 70
     velocityRnd: 0.3
     ignoreRotation: true
+    inaccuracy: 6
     shoot: {
       type: ShootSpread
       shotDelay: 2.3
       shots: 6
-	  spread: 0
+	     spread: 2
     }
     ejectEffect: none
     shootSound: spark
     bullet: {
-      recoil: 0.01
       keepVelocity: false
       lifetime: 60
       drag: -0.024
-      damage: 10
+      damage: 8
       height: 9
-      speed: 1.8
+      speed: 1.4
       width: 5
       type: BasicBulletType
       homingPower: 0.02
