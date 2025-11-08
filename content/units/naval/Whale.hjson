@@ -61,14 +61,15 @@ weapons: [
     name: Whale-weapon
     alternate: false
     layerOffset: -0.001
+	rotateSpeed: 0.2
     shootY: 2.5
-    x: 6
-    y: 3
+    x: 8.2
+    y: 2.4
     reload: 70
     velocityRnd: 0.3
     shoot: {
       type: ShootSpread
-      shotDelay: 0.7
+      shotDelay: 1.2
       shots: 3
 	  spread: 0
     }
@@ -79,19 +80,19 @@ weapons: [
       keepVelocity: false
       lifetime: 60
       drag: -0.012
-      damage: 11
-      height: 7
+      damage: 4
+      height: 3
       speed: 1.7
-      width: 6
+      width: 4
       type: BasicBulletType
       homingPower: 0.02
       homingRange: 50
       homingDelay: 17
-      frontColor: ffffff
-      backColor: f6afdd
-      trailColor: f6afdd
-      trailWidth: 1.5
-      trailLength: 20
+      frontColor: e5f9f1
+      backColor: b3eed8
+      trailColor: b3eed8
+      trailWidth: 0.7
+      trailLength: 4
       shootEffect: {
         type: WaveEffect
         startDelay: 0
@@ -100,8 +101,8 @@ weapons: [
         sizeTo: 5
         strokeFrom: 0
         strokeTo: 3
-        colorFrom: f6afdd
-        colorTo: f6afdd00
+        colorFrom: b3eed8
+        colorTo: b3eed800
         followParent: true
         rotWithParent: true
       }
@@ -112,8 +113,8 @@ weapons: [
         lifetime: 22
         sizeFrom: 0
         sizeTo: 12
-        colorFrom: f6afdd
-        colorTo: f6afdd00
+        colorFrom: b3eed8
+        colorTo: b3eed800
       }
       hitEffect: {
         type: WaveEffect
@@ -122,8 +123,8 @@ weapons: [
         lifetime: 22
         sizeFrom: 0
         sizeTo: 8
-        colorFrom: f6afdd
-        colorTo: f6afdd00
+        colorFrom: b3eed8
+        colorTo: b3eed800
       }
     }
 }
