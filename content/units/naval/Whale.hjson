@@ -71,6 +71,7 @@ weapons: [
     velocityRnd: 0.3
     ignoreRotation: true
     inaccuracy: 6
+	baseRotation: 30
     shoot: {
       type: ShootSpread
       shotDelay: 2.3
@@ -78,12 +79,12 @@ weapons: [
 	     spread: 2
     }
     ejectEffect: none
-    shootSound: spark
+    shootSound: restart
     bullet: {
       keepVelocity: false
       lifetime: 60
       drag: -0.024
-      damage: 8
+      damage: 10
       height: 9
       speed: 1.4
       width: 5
