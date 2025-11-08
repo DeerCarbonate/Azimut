@@ -71,7 +71,7 @@ weapons: [
     velocityRnd: 0.3
     ignoreRotation: true
     inaccuracy: 6
-	baseRotation: 30
+	baseRotation: -15
     shoot: {
       type: ShootSpread
       shotDelay: 2.3
