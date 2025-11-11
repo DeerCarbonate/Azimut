@@ -23,12 +23,12 @@ drillEffect: [
             particles: 1
             spin: 0
             length: 0
-            lifetime: 26
+            lifetime: 42
             region: azimut-despawn
             sizeFrom: 42
-            sizeChangeStart: 20
+            sizeChangeStart: 30
             sizeTo: 10
-            colorTo: c3feff00
+            colorTo: c3feff80
             sizeinterp: length
   }
   {
