@@ -30,6 +30,16 @@ drillEffect: [
             colorTo: c3feff68
             sizeinterp: length
   }
+      {
+        type: WaveEffect
+        lifetime: 42
+        interp: pow3Out
+        sizeFrom: 0
+        sizeTo: 20
+        strokeFrom: 7
+        strokeTo: 0
+        colorTo: c3feff68
+      }
   {
     type: SoundEffect
     sound: largeCannon
