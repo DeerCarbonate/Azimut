@@ -3,8 +3,8 @@ name: Relic drill
 canOverdrive: false
 size: 3
 squareSprite: false
-drillTime: 610
-invertedTime: 340
+drillTime: 540
+invertedTime: 260
 itemCapacity: 30
 dumpTime: 7
 tier: 3
@@ -62,6 +62,7 @@ drillEffect: [
 }
 ]
 consumes: {
+  power: 4
   liquids: [
     iterin/0.1
   ]
