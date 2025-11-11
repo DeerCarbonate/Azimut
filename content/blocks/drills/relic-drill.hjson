@@ -16,20 +16,21 @@ drillEffect: [
     type: RadialEffect
     lengthOffset: 0
     amount: 1
-    rotationSpacing: 25
+    rotationSpacing: 0
     rotationOffset: 0
     effect: [
   {
             particles: 1
-            spin: 0.8
+            spin: 0.2
             length: 0
-            lifetime: 30
+            lifetime: 33
             region: azimut-despawn
-            sizeFrom: 35
+            sizeFrom: 32
             sizeChangeStart: 15
             sizeTo: 10
             colorTo: c3feff00
             sizeinterp: width
+            interp: pow3out
   }
   {
     type: SoundEffect
