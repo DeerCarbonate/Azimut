@@ -3,10 +3,10 @@ name: Relic drill
 canOverdrive: false
 size: 3
 squareSprite: false
-drillTime: 660
+drillTime: 610
 invertedTime: 340
 itemCapacity: 30
-dumpTime: 4
+dumpTime: 7
 tier: 3
 shake: 4
 arrows: 0
@@ -35,8 +35,8 @@ drillEffect: [
         lifetime: 42
         interp: pow3Out
         sizeFrom: 0
-        sizeTo: 20
-        strokeFrom: 7
+        sizeTo: 24
+        strokeFrom: 7.6
         strokeTo: 0
         colorTo: c3feff68
       }
@@ -63,7 +63,7 @@ drillEffect: [
 ]
 consumes: {
   liquids: [
-    iterin/0.2
+    iterin/0.1
   ]
 }
 drillSoundVolume: 1.2
