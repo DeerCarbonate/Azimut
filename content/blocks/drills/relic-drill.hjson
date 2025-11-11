@@ -8,83 +8,28 @@ invertedTime: 340
 itemCapacity: 30
 dumpTime: 4
 tier: 3
-shake: 2
+shake: 4
 arrows: 0
 drillSound: none
 drillEffect: [
   {
     type: RadialEffect
-    lengthOffset: 48
-    amount: 2
-    rotationSpacing: 180
+    lengthOffset: 0
+    amount: 1
+    rotationSpacing: 25
     rotationOffset: 0
     effect: [
-      {
-        type: WaveEffect
-        lifetime: 60
-        interp: pow3Out
-        sizeFrom: 0
-        sizeTo: 16
-        strokeFrom: 4
-        strokeTo: 0
-        colorTo: e65555
-      }
-      {
-        particles: 6
-        lifetime: 50
-        length: 50
-        cone: 15
-        sizeFrom: 6
-        sizeTo: 0
-        colorFrom: 787878
-        colorTo: 787878
-        interp: pow3Out
-        sizeInterp: linear
-        layer: 105
-      }
-    ]
-  }
   {
-    type: RadialEffect
-    lengthOffset: 24
-    amount: 2
-    rotationSpacing: 180
-    rotationOffset: 90
-    effectRotationOffset: -90
-    effect: [
-      {
-        type: RadialEffect
-        lengthOffset: 48
-        amount: 2
-        rotationSpacing: 180
-        rotationOffset: 0
-        effect: [
-          {
-            type: WaveEffect
-            lifetime: 30
-            interp: pow3Out
-            sizeFrom: 0
-            sizeTo: 16
-            strokeFrom: 3
-            strokeTo: 0
-            colorTo: e65555
-          }
-          {
-            particles: 6
-            lifetime: 45
-            length: 50
-            cone: 15
-            sizeFrom: 6
-            sizeTo: 0
-            colorFrom: 787878
-            colorTo: 787878
-            interp: pow3Out
-            sizeInterp: linear
-            layer: 105
-          }
-        ]
-      }
-    ]
+            particles: 1
+            startDelay:15
+            spin:1
+            length: 0
+            lifetime: 50
+            region: azimut-despawn
+            sizeFrom: 45
+            sizeChangeStart: 32
+            sizeTo: 25
+            colorTo: c3feff00
   }
   {
     type: SoundEffect
