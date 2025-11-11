@@ -4,7 +4,7 @@ canOverdrive: false
 size: 3
 squareSprite: false
 drillTime: 540
-invertedTime: 260
+invertedTime: 460
 itemCapacity: 30
 dumpTime: 7
 tier: 3
@@ -62,9 +62,9 @@ drillEffect: [
 }
 ]
 consumes: {
-  power: 4
+  power: 0.8
   liquids: [
-    iterin/0.1
+    iterin/0.05
   ]
 }
 drillSoundVolume: 1.2
