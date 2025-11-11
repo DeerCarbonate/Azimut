@@ -21,15 +21,15 @@ drillEffect: [
     effect: [
   {
             particles: 1
-            startDelay:15
-            spin:1
+            spin: 0.8
             length: 0
-            lifetime: 50
+            lifetime: 35
             region: azimut-despawn
-            sizeFrom: 45
-            sizeChangeStart: 32
-            sizeTo: 25
+            sizeFrom: 35
+            sizeChangeStart: 25
+            sizeTo: 0
             colorTo: c3feff00
+            sizeinterp: length
   }
   {
     type: SoundEffect
