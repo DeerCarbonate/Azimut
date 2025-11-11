@@ -3,11 +3,11 @@ name: Relic drill
 canOverdrive: false
 size: 3
 squareSprite: false
-drillTime: 540
+drillTime: 270
 invertedTime: 460
 itemCapacity: 30
 dumpTime: 7
-tier: 3
+tier: 2
 shake: 4
 arrows: 0
 drillSound: none
