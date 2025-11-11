@@ -23,14 +23,12 @@ drillEffect: [
             particles: 1
             spin: 0.2
             length: 0
-            lifetime: 33
+            lifetime: 18
             region: azimut-despawn
             sizeFrom: 32
-            sizeChangeStart: 15
+            sizeChangeStart: 0
             sizeTo: 10
             colorTo: c3feff00
-            sizeinterp: width
-            interp: pow3out
   }
   {
     type: SoundEffect
