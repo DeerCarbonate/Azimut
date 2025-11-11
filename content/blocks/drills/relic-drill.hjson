@@ -50,6 +50,8 @@ drillEffect: [
     effect: none
   }
 ]
+}
+]
 consumes: {
   liquids: [
     iterin/0.2
