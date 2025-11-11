@@ -1,15 +1,14 @@
 type: BurstDrill
+name: Relic drill 
 canOverdrive: false
-customShadow: true
-size: 12
+size: 3
 squareSprite: false
-drillTime: 340
-invertedTime: 310
-itemCapacity: 500
-dumpTime: 2
-tier: 9
-shake: 18
-blockedItem: sand
+drillTime: 450
+invertedTime: 230
+itemCapacity: 60
+dumpTime: 4
+tier: 3
+shake: 2
 arrows: 0
 drillSound: none
 drillEffect: [
@@ -25,23 +24,14 @@ drillEffect: [
         lifetime: 60
         interp: pow3Out
         sizeFrom: 0
-        sizeTo: 32
+        sizeTo: 16
         strokeFrom: 4
         strokeTo: 0
         colorTo: e65555
       }
       {
-        length: 0
-        particles: 1
-        lifetime: 30
-        region: allure-shootspike
-        sizeFrom: 60
-        sizeTo: 0
-        colorTo: e65555
-      }
-      {
-        particles: 18
-        lifetime: 90
+        particles: 6
+        lifetime: 50
         length: 50
         cone: 15
         sizeFrom: 6
@@ -71,26 +61,17 @@ drillEffect: [
         effect: [
           {
             type: WaveEffect
-            lifetime: 60
+            lifetime: 30
             interp: pow3Out
             sizeFrom: 0
-            sizeTo: 32
-            strokeFrom: 4
+            sizeTo: 16
+            strokeFrom: 3
             strokeTo: 0
             colorTo: e65555
           }
           {
-            length: 0
-            particles: 1
-            lifetime: 30
-            region: allure-shootspike
-            sizeFrom: 60
-            sizeTo: 0
-            colorTo: e65555
-          }
-          {
-            particles: 18
-            lifetime: 90
+            particles: 6
+            lifetime: 45
             length: 50
             cone: 15
             sizeFrom: 6
@@ -106,11 +87,11 @@ drillEffect: [
     ]
   }
   {
-    particles: 80
-    lifetime: 240
-    length: 50
+    particles: 20
+    lifetime: 130
+    length: 35
     baseLength: 50
-    sizeFrom: 32
+    sizeFrom: 16
     sizeTo: 0
     colorFrom: 78787888
     colorTo: 78787888
@@ -119,24 +100,24 @@ drillEffect: [
     layer: 65
   }
   {
-    particles: 30
-    lifetime: 40
+    particles: 15
+    lifetime: 30
     length: 15
     baseLength: 15
     sizeFrom: 0
-    sizeTo: 12
+    sizeTo: 6
     colorFrom: ffffff
     colorTo: ffffff
     interp: pow3Out
     sizeInterp: slope
   }
   {
-    particles: 30
-    lifetime: 60
-    length: 15
-    baseLength: 15
+    particles: 15
+    lifetime: 30
+    length: 10
+    baseLength: 10
     sizeFrom: 0
-    sizeTo: 24
+    sizeTo: 12
     colorFrom: e65555
     colorTo: e65555
     interp: pow3Out
@@ -144,12 +125,12 @@ drillEffect: [
     layer: 100
   }
   {
-    particles: 30
-    lifetime: 60
-    length: 115
-    baseLength: 15
+    particles: 15
+    lifetime: 30
+    length: 100
+    baseLength: 10
     sizeFrom: 0
-    sizeTo: 5
+    sizeTo: 3
     colorFrom: e65555
     colorTo: e65555
     interp: pow2Out
@@ -158,11 +139,11 @@ drillEffect: [
   }
   {
     type: WaveEffect
-    lifetime: 120
+    lifetime: 60
     interp: pow3Out
     sizeFrom: 0
-    sizeTo: 128
-    strokeFrom: 16
+    sizeTo: 64
+    strokeFrom: 6
     strokeTo: 0
     colorTo: e65555
   }
@@ -187,12 +168,14 @@ drillEffect: [
 ]
 consumes: {
   liquids: [
-    energia/0.2
+    iterin/0.2
   ]
 }
 drillSoundVolume: 1.2
 category: production
 requirements: [
-  anden/1200
-  graphite/400
+  cobalt/80
+  venerium/60
+  compound/40
+  geliarin/10
 ]
