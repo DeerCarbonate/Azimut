@@ -26,7 +26,7 @@ drillEffect: [
             lifetime: 42
             region: azimut-despawn
             sizeFrom: 42
-            sizeChangeStart: 30
+            sizeChangeStart: 14
             sizeTo: 10
             colorTo: c3feff80
             sizeinterp: length
