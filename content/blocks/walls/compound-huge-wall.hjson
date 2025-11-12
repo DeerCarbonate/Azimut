@@ -1,0 +1,21 @@
+name: Compound huge wall
+health: 4030
+absorbLasers: false
+size: 3
+requirements: [
+  compound/40
+ ]
+category: defense
+research: {
+  parent: "compound-large-wall"
+  planet: gelion
+    "requirements": [
+	  "compound/180"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "threes"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+name: Compound wall
+health: 730
+size: 1
+requirements: [
+  compound/6
+ ]
+category: defense
+researchCostMultiplier: 0.20
+research: {
+  parent: "yongsin"
+  planet: gelion
+    "requirements": [
+	  "compound/40"
+]
+}

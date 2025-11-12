@@ -1,0 +1,15 @@
+name: Compound large wall
+health: 2900
+absorbLasers: false
+size: 2
+requirements: [
+  compound/22
+ ]
+category: defense
+research: {
+  parent: "compound-wall"
+  planet: gelion
+    "requirements": [
+	  "compound/80"
+]
+}
