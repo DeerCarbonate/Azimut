@@ -1,19 +1,14 @@
-type: BeamNode
+type: PowerNode
 name: Energy bridge
 description: Transfers energy.
-squareSprite: false
-hasPower: true
-consumes: {
-  powerBuffered: 400
-}
-underBullets: true
 size: 1
-health: 35
-range: 7
+health: 20
+laserRange: 8
 laserColor1: d1e3ff
-laserColor2: 8c98e8            
+laserColor2: 7565c9
+maxNodes: 4
+  requirements: [
+    cobalt/8
+	platinum/2
+	]
 category: power
-requirements: [
-  cobalt/6,
-  platinum/8
-]
