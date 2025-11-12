@@ -75,3 +75,19 @@ requirements: [
   compound/40
   geliarin/10
 ]
+        research: {
+    parent: "mechanical-quarry"
+    planet: gelion
+                "requirements": [
+                "venerium/6500"
+                "platinum/3000"
+                "geliarin/530"
+                "compound/130"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: seven 
+    }
+  ]
+}
