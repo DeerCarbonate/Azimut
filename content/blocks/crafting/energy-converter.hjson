@@ -37,3 +37,20 @@ drawer: {
     }
   ]
 }
+        research: {
+    parent: "isobutane-burner"
+    planet: gelion
+                "requirements": [
+                "venerium/3500"
+                "cobalt/6500"
+                "platinum/4000"
+                "geliarin/1350"
+                "compound/350"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: seven
+    }
+  ]
+}
