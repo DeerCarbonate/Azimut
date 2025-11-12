@@ -3,7 +3,7 @@ name: Energy bridge
 description: Transfers energy.
 size: 1
 health: 20
-laserRange: 8
+laserRange: 8.5
 laserColor1: d1e3ff
 laserColor2: 7565c9
 maxNodes: 4
@@ -12,3 +12,17 @@ maxNodes: 4
 	platinum/2
 	]
 category: power
+        research: {
+    parent: "energy-converter"
+    planet: gelion
+                "requirements": [
+                "cobalt/150"
+                "platinum/50"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: seven 
+    }
+  ]
+}
