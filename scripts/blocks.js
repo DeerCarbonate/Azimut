@@ -24,6 +24,12 @@ const veneriumlargewall = extend(Wall, "venerium-large-wall", {});
 
 const veneriumhugewall = extend(Wall, "venerium-huge-wall", {});
 
+const compoundwall = extend(Wall, "compound-wall", {});
+
+const compoundlargewall = extend(Wall, "compound-large-wall", {});
+
+const compoundhugewall = extend(Wall, "compound-huge-wall", {});
+
 // Турели
 const yongsin = extend(ItemTurret, "yongsin", {});
 
