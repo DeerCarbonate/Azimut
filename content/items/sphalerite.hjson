@@ -2,7 +2,7 @@
 	"name": "Sphalerite",
 	"description": "A zinc-rich sulfide ore commonly processed for metal extraction.",
 	"color": "dacaaa",
-	"hardness": 3,
+	"hardness": 2,
 	"charge": 0.02,
 	"explosiveness": 0.02,
 	"flammability": 0.0,
