@@ -1,0 +1,15 @@
+{
+	"name": "Zinc",
+	"description": "A bluish-purple metal used in corrosion-resistant alloys and battery production.",
+	"color": "d3d3f1",
+	"hardness": 1,
+	"charge": 0.06,
+	"explosiveness": 0.01,
+	"flammability": 0.0,
+	"radioactivity": 0.001,
+	"cost": 2.4,
+	"hiddenOnPlanets": [
+		serpulo
+		erekir
+	]
+}
