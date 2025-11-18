@@ -52,8 +52,8 @@ drawer: {
     }
 	{
 	  type: DrawArcSmelt
-	  circleStroke: 0.7
-	  particleLen: 0.7
+	  circleStroke: 1.2
+	  particleLen: 0.9
 	}
     {
       type: DrawCircles
@@ -84,7 +84,7 @@ drawer: {
     }
 	{
    type: DrawParticles
-   color: d2e7e7
+   color: d2e7e720
    alpha: 0.25
    particleRad: 8
    rotateScl: 65
