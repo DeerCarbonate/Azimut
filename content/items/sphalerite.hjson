@@ -2,6 +2,7 @@
 	"name": "Sphalerite",
 	"description": "A zinc-rich sulfide ore commonly processed for metal extraction.",
 	"color": "b3a8de",
+	"research": "geliarin",
 	"hardness": 2,
 	"charge": 0.02,
 	"explosiveness": 0.02,
