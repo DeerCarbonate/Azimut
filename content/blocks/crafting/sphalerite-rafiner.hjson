@@ -33,8 +33,8 @@ consumes: {
 craftTime: 160
 outputItem: zinc/2
 heatRequirement: 6
-overheatScale: 0.75
-maxEfficiency: 2
+overheatScale: 1
+maxEfficiency: 3
 craftEffect: none
 Sound: smelter
 drawer: {
@@ -70,13 +70,6 @@ drawer: {
       amount: 1.2
     }
     {
-   type: DrawParticles
-   color: d2e7e7
-   alpha: 0.25
-   particleRad: 8
-   rotateScl: 65
-    }
-    {
       type: DrawRegion
       suffix: -fan
       rotateSpeed: 0.8
@@ -88,6 +81,13 @@ drawer: {
       rotateSpeed: 0.8
       spinSprite: true
 	  rotation: 45
+    }
+	{
+   type: DrawParticles
+   color: d2e7e7
+   alpha: 0.25
+   particleRad: 8
+   rotateScl: 65
     }
     {
       type: DrawDefault
