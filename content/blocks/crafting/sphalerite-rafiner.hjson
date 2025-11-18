@@ -50,37 +50,44 @@ drawer: {
       alpha: 0.6
       padding: 2
     }
-    {
-      type: DrawCircles
-      color: 9b765110
-      strokeMax: 3
-      radius: 6
-      amount: 2.2
-    }
-	{
-      type: DrawCircles
-      color: 9b765105
-      strokeMax: 1
-      radius: 5
-      amount: 1.2
-    }
-    {
-   type: DrawParticles
-   color: ce9e6c
-   alpha: 0.25
-   particleRad: 8
-   rotateScl: 65
-    }
 	{
 	  type: DrawArcSmelt
 	  circleStroke: 0.7
 	  particleLen: 0.7
 	}
     {
+      type: DrawCircles
+      color: afc9bc10
+      strokeMax: 3
+      radius: 6
+      amount: 2.2
+    }
+	{
+      type: DrawCircles
+      color: afc9bc05
+      strokeMax: 1
+      radius: 5
+      amount: 1.2
+    }
+    {
+   type: DrawParticles
+   color: d2e7e7
+   alpha: 0.25
+   particleRad: 8
+   rotateScl: 65
+    }
+    {
       type: DrawRegion
       suffix: -fan
-      rotateSpeed: 2.2
+      rotateSpeed: 0.8
       spinSprite: true
+    }
+	 {
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 0.8
+      spinSprite: true
+	  rotation: 45
     }
     {
       type: DrawDefault
