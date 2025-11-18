@@ -92,5 +92,9 @@ drawer: {
     {
       type: DrawDefault
     }
+	{
+     type: DrawHeatRegion
+	 color: e29045
+    }
   ]
 }
