@@ -1,0 +1,89 @@
+type: HeatCrafter
+name: Sphalerite rafiner
+size: 3
+itemCapacity: 40
+category: crafting
+squareSprite: false
+description: "Performs thermal treatment of sphalerite and its refining, converting it into zinc."
+ignoreLiquidFullness: true
+research: {
+  parent: "mixing-chamber-part"
+  planet: gelion
+    "requirements": [
+	  "cobalt/4300"
+	  "compound/1300"
+	  "geliarin/700"
+	  "platinum/700"
+]
+}
+requirements: [
+ cobalt/30
+ platinum/45
+ compound/20
+ geliarin/10
+]
+consumes: {
+  items: [
+  sphalerite/2
+  ]
+  liquids: [
+  ammonia/0.09
+	]
+}
+craftTime: 160
+outputItem: zinc/2
+heatRequirement: 6
+overheatScale: 0.75
+maxEfficiency: 2
+craftEffect: none
+Sound: smelter
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: ammonia
+      alpha: 0.6
+      padding: 2
+    }
+    {
+      type: DrawCircles
+      color: 9b765110
+      strokeMax: 3
+      radius: 6
+      amount: 2.2
+    }
+	{
+      type: DrawCircles
+      color: 9b765105
+      strokeMax: 1
+      radius: 5
+      amount: 1.2
+    }
+    {
+   type: DrawParticles
+   color: ce9e6c
+   alpha: 0.25
+   particleRad: 8
+   rotateScl: 65
+    }
+	{
+	  type: DrawArcSmelt
+	  circleStroke: 0.7
+	  particleLen: 0.7
+	}
+    {
+      type: DrawRegion
+      suffix: -fan
+      rotateSpeed: 2.2
+      spinSprite: true
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
