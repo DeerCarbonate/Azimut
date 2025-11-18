@@ -109,7 +109,7 @@ buildingDamageMultiplier: 0.1
 	}
 	]
 	}
-	    manganese: {
+	    zinc: {
 type: BasicBulletType
 drag: 0.03
 homingRange: 120
