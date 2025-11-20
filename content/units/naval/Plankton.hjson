@@ -39,22 +39,22 @@ objectives: [
 		    "name": Plankton-weapon,
 			"recoil": 1.3,
             "shootY": 1.1,
-			"mirror": false,
-			"alternate": false,
+			"mirror": true,
+			"alternate": true,
 			"rotate": true,
-			"rotateSpeed": 9,
+			"rotateSpeed": 3.6,
 			"reload": 90,
-			"inaccuracy": 6,
+			"inaccuracy": 3,
 			"shootSound": mineDeploy,
 			"controllable": true,
 			"aiControllable": true,
-			"y": -5
-			"x": 0
+			"y": -3.3
+			"x": 4
 		    velocityRnd:0.2
 shoot: {
     type: ShootSpread
-    firstShotDelay: 10
-    shotDelay: 5
+    firstShotDelay: 15
+    shotDelay: 25
     spread: 2
     shots: 2
     }
@@ -65,11 +65,11 @@ shoot: {
     height: 8
     width: 6
     lifetime: 53
-    damage: 31
+    damage: 28
     speed: 4.8
     trailColor: 8edfc1
-    trailLength: 7
-    trailWidth: 1.5
+    trailLength: 4
+    trailWidth: 1.3
     hitEffect: none
     collidesTiles: true
     keepVelocity: false
@@ -91,13 +91,13 @@ chargeEffect: {
     type: WaveEffect
     rotWithParent: true
     followParent: true
-    lifetime: 17
+    lifetime: 15
     offsetX: 2.1
     sizeFrom: 5
     sizeTo: 0
 
-    colorFrom: b3eed8
-    colorTo: e5f9f170
+    colorFrom: b3eed870
+    colorTo: e5f9f130
 }
 			}
 		}
