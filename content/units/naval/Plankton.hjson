@@ -8,7 +8,7 @@
 	range: 100
 	armor: 1.45
 	health: 900
-	speed: 1.55
+	speed: 1.35
 	hitSize: 11.2
 	healColor: a4f0d788
 	accel: 0.75
