@@ -11,6 +11,7 @@
 	speed: 1.55
 	hitSize: 11.2
 	healColor: a4f0d788
+	accel: 0.75
 	immunities: [ wet ]
 	trailLength: 12
 	trailScl: 1.4

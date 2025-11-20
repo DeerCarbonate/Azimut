@@ -8,6 +8,7 @@
 	armor: 3
 	health: 2000
 	speed: 1.15
+	accel: 0.75
 	hitSize: 14.2
 	immunities: [ wet ]
 	trailLength: 19

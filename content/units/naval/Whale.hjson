@@ -8,6 +8,7 @@ outlineColor: 1b1c25
 outlineRadius: 3
 armor: 8
 health: 5050
+accel: 0.75
 speed: 0.9
 hitSize: 18
 healColor: a4f0d788

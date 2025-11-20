@@ -6,6 +6,7 @@ rotateSpeed: 1.6
 outlineColor: 1b1c25
 outlineRadius: 3
 range: 165
+accel: 0.75
 armor: 28
 health: 21200
 speed: 0.69

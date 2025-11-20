@@ -5,6 +5,7 @@
 	alwaysUnlocked: false
 	outlineColor: 1b1c25
 	outlineRadius: 3
+	accel: 0.75
 	armor: 9.5
 	health: 10000
 	speed: 0.7
