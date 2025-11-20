@@ -7,6 +7,7 @@ solid: false
 underBullets: true
 health: 45
 liquidCapacity: 20
+liquidPadding: 2
 category: liquid
 research: {
   parent: "directed-liquid-junction"
