@@ -49,7 +49,7 @@ objectives: [
 			"controllable": true,
 			"aiControllable": true,
 			"y": -3.3
-			"x": 4
+			"x": 4.7
 		    velocityRnd:0.2
 shoot: {
     type: ShootSpread
@@ -70,6 +70,7 @@ shoot: {
     trailColor: 8edfc1
     trailLength: 4
     trailWidth: 1.3
+	smokeEffect: colorSpark
     hitEffect: none
     collidesTiles: true
     keepVelocity: false
@@ -96,8 +97,8 @@ chargeEffect: {
     sizeFrom: 5
     sizeTo: 0
 
-    colorFrom: b3eed870
-    colorTo: e5f9f130
+    colorFrom: b3eed880
+    colorTo: e5f9f150
 }
 			}
 		}
