@@ -17,7 +17,7 @@
 	trailScl: 1.4
 	waveTrailX: 4
 	waveTrailY: -3
-	description: "Fires a salvo of four bullets.",
+	description: "Fires a salvo of two bullets.",
 		research: {
   parent: "naval-editor"
   planet: gelion
@@ -65,7 +65,7 @@ shoot: {
     height: 8
     width: 6
     lifetime: 53
-    damage: 28
+    damage: 22
     speed: 4.8
     trailColor: 8edfc1
     trailLength: 4
