@@ -43,13 +43,13 @@ abilities: [
     maxTargets: 7
     damage: 18
     reload: 11
-    range: 80
+    range: 83
 	color: 8edfc1
     x: 0
     y: 0
 	sameTypeHealMult: 0.03
     statusDuration: 0
-    healPercent: 0.03
+    healPercent: 0.05
 }
 ]
 
