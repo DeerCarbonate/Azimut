@@ -9,7 +9,7 @@ squareSprite: false
 cooldown: 1200
 restitution: 0.04
 recoil: 1.7
-reload: 70
+reload: 95
 range: 350
 targetAir: false
 targetGround: true
@@ -18,22 +18,57 @@ recoilAmount: 1.8
 rotateSpeed: 1.4
 shootSound: cannon_shoot_1
 shootType: {
-    type: ContinuousFlameBulletType
-    drawSize: 230
-    hitShake: 5
-    length: 230
-    width: 4
-	hitColor:ec7458
-	colors:[ec745840,ec74585570,ec74585590,fccabd,ffffff]
-	flareColor: fccabd
-    ammoMultiplier: 1
-	buildingDamageMultiplier: 0.3
-	pierceArmor: false
-	
-    lifetime: 12
-    damage: 230
-	
-	laserAbsorb:true
+ type: BasicBulletType
+ collidesGround: true
+ frontColor: c3feff
+ backColor: 6898c3
+ hitColor: 6898c3
+ splashDamage: 26
+ splashDamageRadius: 8
+ damage: 60
+ despawnSound: explosionbig
+ hitSound: explosionbig
+ lifetime: 120
+ speed: 4.2
+ width: 7,
+ scaleLife: true
+ height: 7
+ buildingDamageMultiplier: 0.1
+ trailChance:1
+ trailInterval:0.65
+ trailRotation:true
+ trailEffect:[
+						{
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            offsetX:-10
+                            length:30
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: 6898c300
+							colorFrom: c3feff95
+                            cone: 25
+                            baseRotation: 180
+                        }
+						{
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            offsetX:-5
+                            length: 40
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: 6898c300
+							colorFrom: c3feff95
+                            cone: 10
+                            baseRotation: 180
+                        }
+                    ]
 }
     shoot: {
       type: ShootBarrel
@@ -41,8 +76,8 @@ shootType: {
       shotDelay: 5.8
       shots: 6
       barrels: [
-        4, 0, 4
-        -4, 0, -4
+        3.5, 0, 3.5
+        -3.5, 0, -3.5
       ]
     }
 hasPower: true
