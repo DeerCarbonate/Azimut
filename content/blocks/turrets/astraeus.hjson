@@ -93,3 +93,9 @@ requirements: [
   compound/20
 ]
 category: turret
+drawer: {
+  type: DrawTurret
+  basePrefix: azimut-
+  heatProgress: charge
+  cooldown: 0.1
+}
