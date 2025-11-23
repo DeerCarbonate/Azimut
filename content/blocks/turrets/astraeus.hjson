@@ -8,10 +8,10 @@ alwaysUnlocked: false
 squareSprite: false
 cooldown: 1200
 restitution: 0.04
-inaccuracy: 0.2
+inaccuracy: 0.5
 recoil: 1.7
-reload: 95
-range: 350
+reload: 120
+range: 370
 targetAir: false
 targetGround: true
 moveWhileCharging: true
@@ -29,7 +29,7 @@ shootType: {
  damage: 60
  despawnSound: none
  hitSound: none
- lifetime: 260
+ lifetime: 170
  speed: 4.6
  width: 7,
  scaleLife: false
@@ -60,7 +60,7 @@ shootType: {
       type: ShootBarrel
       firstShotDelay: 35
       shotDelay: 9.2
-      shots: 6
+      shots: 12
       barrels: [
         3.5, 0, 3.5
         -3.5, 0, -3.5
