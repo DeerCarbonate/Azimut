@@ -8,17 +8,15 @@ alwaysUnlocked: false
 squareSprite: false
 cooldown: 1200
 restitution: 0.04
-shootCone: 5
-recoil: 1.5
+recoil: 1.3
 reload: 200
 range: 350
-targetAir: true
+targetAir: false
 targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
-rotateSpeed: 0.8
+rotateSpeed: 1.4
 shootSound: Alt
-heatRequirement: 18
 shootType: {
     type: ContinuousFlameBulletType
     drawSize: 230
@@ -37,71 +35,26 @@ shootType: {
 	
 	laserAbsorb:true
 }
-shoot: {
-  firstShotDelay: 30
-}
+    shoot: {
+      type: ShootBarrel
+      firstShotDelay: 35
+      shotDelay: 2.6
+      shots: 6
+      barrels: [
+        2, 0, 2
+        -2, 0, -2
+      ]
+    }
 hasPower: true
 consumes: {
-    power: 3
+    power: 6
 }
 hasLiquids: false
 requirements: [
   cobalt/200,
   venerium/120
   platinum/85
-  geliarin/10
+  geliarin/15
+  compound/20
 ]
 category: turret
-drawer: {
-  type: DrawTurret
-  basePrefix: azimut-
-  heatProgress: charge
-  cooldown: 0.1
-  parts: [
-	{
-      type: RegionPart,
-      suffix: -nade,
-      under: true,
-      mirror: true,
-      heatProgress: heat,
-      progress: warmup,
-	  x: 0,
-	  y: 0,
-	  moveRot: -12,
-	  moveX: -0.3,
-	  moveY: -0.5,
-      heatColor: ff4500,
-      heatLayer: 1,
-    }
-	{
-      type: RegionPart,
-      suffix: -lade,
-      under: true,
-      mirror: true,
-      heatProgress: heat,
-      progress: warmup,
-	  x: 0,
-	  y: 0,
-	  moveRot: -7,
-	  moveX: 1.2,
-	  moveY: -1.5,
-      heatColor: ff4500,
-      heatLayer: 1,
-    }
-	{
-      type: RegionPart,
-      suffix: -blade,
-      under: true,
-      mirror: true,
-      heatProgress: heat,
-      progress: warmup,
-	  x: 0,
-	  y: 0,
-	  moveRot: -7,
-	  moveX: 0,
-	  moveY: -1.5,
-      heatColor: ff4500,
-      heatLayer: 1,
-    }
-  ]
-}
