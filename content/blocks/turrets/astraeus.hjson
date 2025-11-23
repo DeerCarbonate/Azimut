@@ -8,7 +8,7 @@ alwaysUnlocked: false
 squareSprite: false
 cooldown: 1200
 restitution: 0.04
-inaccuracy: 0.5
+inaccuracy: 1.2
 recoil: 1.7
 reload: 160
 range: 370
@@ -26,11 +26,11 @@ shootType: {
  hitColor: fccabd
  splashDamage: 26
  splashDamageRadius: 8
- damage: 60
+ damage: 70
  despawnSound: none
  hitSound: none
- lifetime: 120
- speed: 4.6
+ lifetime: 80
+ speed: 5.2
  width: 12
  scaleLife: false
  height: 12
@@ -42,7 +42,7 @@ shootType: {
 						{
                             type: ParticleEffect
                             lifetime: 18
-                            particles: 2
+                            particles: 1
                             offsetX:-5
                             length: 40
                             line: true
@@ -59,7 +59,7 @@ shootType: {
     shoot: {
       type: ShootBarrel
       firstShotDelay: 35
-      shotDelay: 9.2
+      shotDelay: 9
       shots: 12
       barrels: [
         3.5, 0, 3.5
