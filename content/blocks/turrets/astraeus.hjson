@@ -8,6 +8,7 @@ alwaysUnlocked: false
 squareSprite: false
 cooldown: 1200
 restitution: 0.04
+inaccuracy: 0.2
 recoil: 1.7
 reload: 95
 range: 350
@@ -15,14 +16,14 @@ targetAir: false
 targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
-rotateSpeed: 1.4
+rotateSpeed: 2.1
 shootSound: cannon_shoot_1
 shootType: {
  type: BasicBulletType
  collidesGround: true
- frontColor: c3feff
- backColor: 6898c3
- hitColor: 6898c3
+ frontColor: fccabd
+ backColor: c36868
+ hitColor: fccabd
  splashDamage: 26
  splashDamageRadius: 8
  damage: 60
@@ -34,25 +35,10 @@ shootType: {
  scaleLife: false
  height: 7
  buildingDamageMultiplier: 0.1
- trailChance:0.4
- trailInterval:0.65
+ trailChance:1
+ trailInterval:1
  trailRotation:true
  trailEffect:[
-						{
-                            type: ParticleEffect
-                            lifetime: 18
-                            particles: 2
-                            offsetX:-10
-                            length:30
-                            line: true
-                            strokeTo: 1.5
-                            lenFrom: 2
-                            lenTo: 5
-                            colorTo: 6898c300
-							colorFrom: c3feff95
-                            cone: 25
-                            baseRotation: 180
-                        }
 						{
                             type: ParticleEffect
                             lifetime: 18
@@ -63,8 +49,8 @@ shootType: {
                             strokeTo: 1.5
                             lenFrom: 2
                             lenTo: 5
-                            colorTo: 6898c300
-							colorFrom: c3feff95
+                            colorTo: c3686800
+							colorFrom: fccabd95
                             cone: 10
                             baseRotation: 180
                         }
@@ -73,7 +59,7 @@ shootType: {
     shoot: {
       type: ShootBarrel
       firstShotDelay: 35
-      shotDelay: 5.8
+      shotDelay: 9.2
       shots: 6
       barrels: [
         3.5, 0, 3.5
@@ -98,4 +84,21 @@ drawer: {
   basePrefix: azimut-
   heatProgress: charge
   cooldown: 0.1
+    parts: [
+	{
+      type: RegionPart,
+      suffix: -nade,
+      under: true,
+      mirror: true,
+      heatProgress: heat,
+      progress: recoil,
+	  x: 0,
+	  y: 0,
+	  moveRot: -6.2,
+	  moveX: 0.3,
+	  moveY: -0.9,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	]
 }
