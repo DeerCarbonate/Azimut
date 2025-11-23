@@ -26,15 +26,15 @@ shootType: {
  splashDamage: 26
  splashDamageRadius: 8
  damage: 60
- despawnSound: explosionbig
- hitSound: explosionbig
- lifetime: 120
- speed: 4.2
+ despawnSound: none
+ hitSound: none
+ lifetime: 260
+ speed: 4.6
  width: 7,
- scaleLife: true
+ scaleLife: false
  height: 7
  buildingDamageMultiplier: 0.1
- trailChance:1
+ trailChance:0.4
  trailInterval:0.65
  trailRotation:true
  trailEffect:[
