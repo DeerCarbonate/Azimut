@@ -44,17 +44,17 @@ shootType: {
         type: ExplosionEffect
         lifetime: 13
         waveColor: fccabd95
-        waveStroke: 1.3
-        waveRad: 2.7
+        waveStroke: 1.8
+        waveRad: 4
         smokeColor: fccabd95
         smokeSizeBase: 0
-        smokeSize: 5.5
+        smokeSize: 0
         smokes: 0
         sparkColor: fccabd95
         sparkStroke: 1.6
         sparkRad: 17.5
         sparkLen: 2
-        sparks: 3
+        sparks: 4
       }
 shootEffect: [
 {
