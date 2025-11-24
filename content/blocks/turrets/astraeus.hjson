@@ -90,7 +90,7 @@ baseRotation: 90
     shoot: {
       type: ShootBarrel
       firstShotDelay: 35
-      shotDelay: 9
+      shotDelay: 17
       shots: 12
 	  shootCone: 6
       barrels: [
@@ -122,7 +122,7 @@ drawer: {
         suffix: -barrel-left
         mirror: false
         under: true
-		moveY: -0.4
+		moveY: -1.9
         progress: recoil
         recoilIndex: 0
       }    
@@ -131,7 +131,7 @@ drawer: {
         suffix: -barrel-right
         mirror: false
         under: true
-		moveY: -0.4
+		moveY: -1.9
         progress: recoil
         recoilIndex: 1
       }  
