@@ -17,8 +17,9 @@ healColor: f0aba488
 hitSize: 28
 legCount:4
 legMoveSpace:1
-legLength:21
-legExtension:-10
+legLength:19
+legPairOffset:2.2
+legExtension:1
 legBaseOffset:14
 legSpeed:0.2
 legLengthScl:0.96
