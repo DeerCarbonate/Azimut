@@ -42,7 +42,7 @@ weapons: [
   {
     name: Archon-weapon
     recoil: 1.8
-    x: 13
+    x: 124
     y: -1
     rotationLimit: 170
     shootY: 10
