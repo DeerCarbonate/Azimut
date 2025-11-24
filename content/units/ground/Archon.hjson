@@ -16,13 +16,14 @@ legCount: 4
 legExtension: 4
 legMaxLength: 3.6
 legMinLength: 1
+legExtension: -10
 legMoveSpace: 1.7
 legLength: 14
 legLengthScl: 0.85
 legForwardScl: 0.9
 rippleScale: 2
 legspeed: 0.2
-legTrns: 3
+legTrns: 6
 rotateSpeed: 1
 legContinuousMove:true
 legGroupSize: 10
