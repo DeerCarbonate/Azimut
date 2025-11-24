@@ -7,12 +7,12 @@ outlineColor: 22251b
 outlineRadius: 3
 alwaysUnlocked: true
 lockLegBase: true
-legSplashDamage: 45
-legSplashRange: 26
+legSplashDamage: 12
+legSplashRange: 4
 fogRadius: 128
 hovering: true
-legStraightLength: 2
-legStraightness: 2
+legStraightLength: 3
+legStraightness: 3
 targetAir: false
 legCount: 4
 legExtension: 4
