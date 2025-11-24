@@ -359,7 +359,6 @@ weapons: [
     rotateSpeed: 0
     reload: 190
     shootSound: shoot-small-flame
-    layerOffset: 110
     ignoreRotation: false
     shootY: -1.7
     shoot: {
