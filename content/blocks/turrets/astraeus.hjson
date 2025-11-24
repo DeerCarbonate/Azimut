@@ -12,7 +12,6 @@ inaccuracy: 1.2
 recoil: 1.7
 reload: 200
 range: 370
-shootCone: 7.6
 targetAir: false
 targetGround: true
 moveWhileCharging: true
@@ -93,6 +92,7 @@ baseRotation: 90
       firstShotDelay: 35
       shotDelay: 9
       shots: 12
+	  shootCone: 6
       barrels: [
         3.5, 0, 3.5
         -3.5, 0, -3.5
@@ -117,20 +117,23 @@ drawer: {
   heatProgress: charge
   cooldown: 0.1
     parts: [
-	{
-      type: RegionPart,
-      suffix: -nade,
-      under: true,
-      mirror: true,
-      heatProgress: heat,
-      progress: recoil,
-	  x: 0,
-	  y: 0,
-	  moveRot: -6.2,
-	  moveX: 0.3,
-	  moveY: -0.9,
-      heatColor: ff4500,
-      heatLayer: 1,
-    }
+      {
+        type: RegionPart
+        suffix: -barrel-left
+        mirror: false
+        under: true
+		moveY: -0.4
+        progress: recoil
+        recoilIndex: 0
+      }    
+      {
+        type: RegionPart
+        suffix: -barrel-right
+        mirror: false
+        under: true
+		moveY: -0.4
+        progress: recoil
+        recoilIndex: 1
+      }  
 	]
 }
