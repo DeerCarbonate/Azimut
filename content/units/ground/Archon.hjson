@@ -358,11 +358,9 @@ weapons: [
     rotate: false
     rotateSpeed: 0
     reload: 190
-    shootCone: 60
     shootSound: shoot-small-flame
-    layerOffset: -0.001
-    baseRotation: -90
-    ignoreRotation: true
+    layerOffset: 110
+    ignoreRotation: false
     shootY: -1.7
     shoot: {
       type: ShootSpread
