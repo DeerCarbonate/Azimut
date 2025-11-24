@@ -23,10 +23,10 @@ legTrns: 0.9
 legGroupSize: 1
 legContinuousMove: true
 accel: 0.5
-armor: 9
+armor: 8
 stepshake: 0.1
 health: 5000
-speed: 0.43
+speed: 0.42
 healColor: f0aba488
 hitSize: 18
 faceTarget: true
@@ -37,9 +37,9 @@ drownTimeMultiplier: 3
     {
     type: ShieldRegenFieldAbility
     reload: 800
-    amount: 300
+    amount: 100
     range: 16
-    max: 600
+    max: 300
     }
 	]
 weapons: [
