@@ -19,13 +19,13 @@ legMinLength: 1
 legMoveSpace: 1.7
 legLength: 14
 legLengthScl: 0.85
-legForwardScl: 0.90
+legForwardScl: 0.9
 rippleScale: 2
-legspeed: 0.375
+legspeed: 0.2
 legTrns: 3
 rotateSpeed: 1
-range: 45
-legGroupSize: 4
+legContinuousMove:true
+legGroupSize: 10
 legContinuousMove: true
 accel: 0.5
 armor: 10
