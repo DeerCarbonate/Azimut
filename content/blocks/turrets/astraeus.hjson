@@ -10,13 +10,14 @@ cooldown: 1200
 restitution: 0.04
 inaccuracy: 1.2
 recoil: 1.7
-reload: 160
+reload: 200
 range: 370
+shootCone: 9
 targetAir: false
 targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
-rotateSpeed: 2.1
+rotateSpeed: 2.7
 shootSound: cannon_shoot_1
 shootType: {
  type: BasicBulletType
@@ -26,7 +27,7 @@ shootType: {
  hitColor: fccabd
  splashDamage: 26
  splashDamageRadius: 8
- damage: 70
+ damage: 78
  despawnSound: none
  hitSound: none
  lifetime: 80
@@ -46,7 +47,7 @@ lifetime: 12
 particles: 1
 cone: 0
 region: azimut-despawn
-sizeFrom: 17
+sizeFrom: 24
 sizeTo: 0
 colorTo: fccabd95
 baseRotation: 90
