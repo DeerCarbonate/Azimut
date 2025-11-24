@@ -10,7 +10,7 @@ cooldown: 1200
 restitution: 0.04
 inaccuracy: 1.2
 recoil: 1.1
-reload: 3.6
+reload: 5.8
 range: 370
 targetAir: false
 targetGround: true
@@ -89,7 +89,6 @@ baseRotation: 90
 }
     shoot: {
       type: ShootBarrel
-      firstShotDelay: 35
       shotDelay: 9
       shots: 2
 	  shootCone: 6
