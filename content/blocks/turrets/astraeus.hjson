@@ -12,7 +12,7 @@ inaccuracy: 1.2
 recoil: 1.7
 reload: 200
 range: 370
-shootCone: 9
+shootCone: 7.6
 targetAir: false
 targetGround: true
 moveWhileCharging: true
