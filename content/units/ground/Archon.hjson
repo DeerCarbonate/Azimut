@@ -63,7 +63,7 @@ weapons: [
     }
     parts: [
       {
-        suffix: -s
+        suffix: -sg
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
@@ -74,7 +74,7 @@ weapons: [
         y: 0
       }
       {
-        suffix: -r
+        suffix: -rg
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
@@ -347,4 +347,88 @@ weapons: [
       }
     }
   }
+    {
+    name: Archon-weapon1
+    recoil: 1.8
+    x: 13
+    y: -1
+    rotationLimit: 170
+    shootY: 10
+    mirror: true
+    alternate: true
+    rotate: true
+    rotateSpeed: 1.2
+    reload: 190
+    shootCone: 60
+    shootSound: shoot-small-flame
+    layerOffset: -0.001
+    baseRotation: -90
+    ignoreRotation: true
+    shootY: -1.7
+    shoot: {
+      type: ShootSpread
+      firstShotDelay: 40
+    }
+	    parts: [
+      {
+        suffix: -s
+        mirror: true
+        outlineColor: 22251b
+        outlineRadius: 0
+        progress: charge
+        moveY: -1
+        moveX: 1.2
+        x: 0
+        y: 0
+      }
+      {
+        suffix: -r
+        mirror: true
+        outlineColor: 22251b
+        outlineRadius: 0
+        progress: charge
+        moveRot: 8
+        moveY: -0.9
+        moveX: 0.8
+        x: 0
+        y: 0
+      }
+	  {
+        suffix: -f
+        mirror: true
+        outlineColor: 22251b
+        outlineRadius: 0
+        progress: charge
+        moveRot: 8
+        moveY: -0.9
+        moveX: 0.8
+        x: 0
+        y: 0
+      }
+	  {
+        suffix: -g
+        mirror: true
+        outlineColor: 22251b
+        outlineRadius: 0
+        progress: charge
+        moveRot: 8
+        moveY: -0.9
+        moveX: 0.8
+        x: 0
+        y: 0
+      }
+	  {
+        suffix: -middle
+        mirror: false
+        outlineColor: 22251b
+        outlineRadius: 0
+        progress: charge
+        moveRot: 0
+        moveY: -0.9
+        moveX: 0
+        x: 0
+        y: 0
+      }
+    ]
+	}
 ]
