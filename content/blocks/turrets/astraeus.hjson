@@ -33,6 +33,7 @@ shootType: {
  lifetime: 80
  speed: 5.2
  width: 12
+ despawnEffect: none
  scaleLife: false
  height: 12
  buildingDamageMultiplier: 0.1
