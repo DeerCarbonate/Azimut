@@ -349,15 +349,14 @@ weapons: [
   }
     {
     name: Archon-weapon1
-    recoil: 1.8
-    x: 13
-    y: -1
-    rotationLimit: 170
-    shootY: 10
-    mirror: true
-    alternate: true
-    rotate: true
-    rotateSpeed: 1.2
+    recoil: 0
+    x: 0
+    y: 0
+    shootY: 4
+    mirror: false
+    alternate: false
+    rotate: false
+    rotateSpeed: 0
     reload: 190
     shootCone: 60
     shootSound: shoot-small-flame
