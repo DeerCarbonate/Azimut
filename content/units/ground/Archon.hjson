@@ -11,8 +11,8 @@ legSplashDamage: 12
 legSplashRange: 4
 fogRadius: 128
 hovering: true
-legStraightLength: 3
-legStraightness: 3
+legStraightLength: 0.2
+legStraightness: 0.2
 targetAir: false
 legCount: 4
 legExtension: 4
@@ -20,9 +20,9 @@ legMaxLength: 3.6
 legMinLength: 1
 legMoveSpace: 1.7
 legLength: 16
-legLengthScl: 0.85
-legForwardScl: 0.90
-rippleScale: 0.5
+legLengthScl: 2
+legForwardScl: 2
+rippleScale: 0.7
 legspeed: 0.375
 legTrns: 3
 rotateSpeed: 1
