@@ -90,7 +90,7 @@ baseRotation: 90
     shoot: {
       type: ShootBarrel
       firstShotDelay: 35
-      shotDelay: 17
+      shotDelay: 9
       shots: 12
 	  shootCone: 6
       barrels: [
@@ -116,7 +116,6 @@ drawer: {
   type: DrawTurret
   basePrefix: azimut-
   heatProgress: charge
-  cooldown: 0.1
     parts: [
       {
         type: RegionPart
