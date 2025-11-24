@@ -122,7 +122,7 @@ drawer: {
         suffix: -barrel-left
         mirror: false
         under: true
-		moveY: -1.9
+		moveY: -1.3
         progress: recoil
         recoilIndex: 0
       }    
@@ -131,7 +131,7 @@ drawer: {
         suffix: -barrel-right
         mirror: false
         under: true
-		moveY: -1.9
+		moveY: -1.3
         progress: recoil
         recoilIndex: 1
       }  
