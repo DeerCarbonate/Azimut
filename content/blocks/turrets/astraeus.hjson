@@ -111,6 +111,7 @@ requirements: [
   compound/20
 ]
 category: turret
+recoils: 2
 drawer: {
   type: DrawTurret
   basePrefix: azimut-
