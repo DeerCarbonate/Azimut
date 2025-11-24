@@ -10,7 +10,7 @@ cooldown: 1200
 restitution: 0.04
 inaccuracy: 1.2
 recoil: 1.1
-reload: 5.8
+reload: 20
 range: 370
 targetAir: false
 targetGround: true
