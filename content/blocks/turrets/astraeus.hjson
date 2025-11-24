@@ -38,6 +38,20 @@ shootType: {
  trailChance:2
  trailInterval:3
  trailRotation:true
+shootEffect: [
+{
+followParent: false
+length: 0
+lifetime: 12
+particles: 1
+cone: 0
+region: azimut-despawn
+sizeFrom: 17
+sizeTo: 0
+colorTo: fccabd95
+baseRotation: 90
+}
+]
  trailEffect:[
 						{
                             type: ParticleEffect
