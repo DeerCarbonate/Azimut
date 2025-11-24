@@ -9,8 +9,8 @@ squareSprite: false
 cooldown: 1200
 restitution: 0.04
 inaccuracy: 1.2
-recoil: 1.7
-reload: 10
+recoil: 1.1
+reload: 6.5
 range: 370
 targetAir: false
 targetGround: true
