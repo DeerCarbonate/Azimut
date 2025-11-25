@@ -17,9 +17,9 @@ healColor: f0aba488
 hitSize: 28
 legCount:4
 legMoveSpace:1.7
-legLength:19
+legLength:21
 legPairOffset:2.2
-legExtension:4
+legExtension:3.1
 legBaseOffset:12
 legSpeed:0.19
 legLengthScl:0.85
@@ -366,7 +366,7 @@ weapons: [
         outlineColor: 22251b
         outlineRadius: 0
         progress: charge
-        moveY: -1
+        moveY: -1.2
         moveX: 1.2
         x: 0
         y: 0
@@ -378,7 +378,7 @@ weapons: [
         outlineRadius: 0
         progress: charge
         moveRot: 8
-        moveY: -0.9
+        moveY: -1
         moveX: 0.8
         x: 0
         y: 0
@@ -390,7 +390,7 @@ weapons: [
         outlineRadius: 0
         progress: charge
         moveRot: 8
-        moveY: -0.9
+        moveY: -0.3
         moveX: 0.8
         x: 0
         y: 0
@@ -402,7 +402,7 @@ weapons: [
         outlineRadius: 0
         progress: charge
         moveRot: 8
-        moveY: -0.9
+        moveY: -0.5
         moveX: 0.8
         x: 0
         y: 0
@@ -414,7 +414,7 @@ weapons: [
         outlineRadius: 0
         progress: charge
         moveRot: 0
-        moveY: -0.9
+        moveY: -3
         moveX: 0
         x: 0
         y: 0
