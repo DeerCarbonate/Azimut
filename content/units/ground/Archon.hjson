@@ -366,7 +366,7 @@ weapons: [
         outlineRadius: 0
         progress: charge
         moveY: -1.2
-        moveX: 1.2
+        moveX: -1.2
         x: 0
         y: 0
       }
@@ -378,7 +378,7 @@ weapons: [
         progress: charge
         moveRot: 3
         moveY: -1
-        moveX: 3
+        moveX: -3
         x: 0
         y: 0
       }
@@ -390,7 +390,7 @@ weapons: [
         progress: charge
         moveRot: 2
         moveY: -0.3
-        moveX: 4
+        moveX: -4
         x: 0
         y: 0
       }
@@ -402,7 +402,7 @@ weapons: [
         progress: charge
         moveRot: 2
         moveY: -0.5
-        moveX: 3
+        moveX: -3
         x: 0
         y: 0
       }
