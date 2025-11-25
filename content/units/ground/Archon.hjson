@@ -16,14 +16,14 @@ speed: 0.43
 healColor: f0aba488
 hitSize: 28
 legCount:4
-legMoveSpace:0.99
-legLength:31
+legMoveSpace:0.70
+legLength:23
 legPairOffset:2.2
-legExtension: 4
-legMaxLength: 2.7
+legExtension: 2.3
+legMaxLength: 1.2
 legBaseOffset:10
 legSpeed:0.28
-legLengthScl:0.65
+legLengthScl:0.25
 rippleScale:2
 lockLegBase:true
 legContinuousMove:true
