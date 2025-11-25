@@ -12,23 +12,25 @@ rotateSpeed: 1
 accel: 0.5
 armor: 10
 health: 12050
-speed: 0.43
+speed: 0.38
 healColor: f0aba488
 hitSize: 28
 legCount:4
-legMoveSpace:0.70
-legLength:23
+legMoveSpace:1.5
+legLength:14
 legPairOffset:2.2
 legExtension: 2.3
 legMaxLength: 1.2
-legBaseOffset:10
+legBaseOffset:11.5
 legSpeed:0.28
 legLengthScl:0.25
+legForwardScl: 0.58
 rippleScale:2
 lockLegBase:true
 legContinuousMove:true
 legSplashDamage:30
 legSplashRange:30
+shadowElevation:0.2
 allowLegStep:true
 faceTarget: true
 canBoost: false
