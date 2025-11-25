@@ -377,8 +377,8 @@ weapons: [
         outlineRadius: 0
         progress: charge
         moveRot: 3
-        moveY: -1
-        moveX: -3
+        moveY: -0.3
+        moveX: -5
         x: 0
         y: 0
       }
@@ -403,18 +403,6 @@ weapons: [
         moveRot: 2
         moveY: -0.5
         moveX: -3
-        x: 0
-        y: 0
-      }
-	  {
-        suffix: -middle
-        mirror: false
-        outlineColor: 22251b
-        outlineRadius: 0
-        progress: charge
-        moveRot: 0
-        moveY: -6
-        moveX: 0
         x: 0
         y: 0
       }
