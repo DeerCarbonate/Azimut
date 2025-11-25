@@ -18,12 +18,8 @@ hitSize: 28
 legCount:4
 legMoveSpace:1.5
 legLength:14
-legPairOffset:0.3
-legExtension: 2.3
-legMaxLength: 1.2
 legBaseOffset:11.5
 legSpeed:0.28
-legLengthScl:0.25
 legForwardScl: 0.58
 rippleScale:0.2
 lockLegBase:true
@@ -39,7 +35,7 @@ weapons: [
   {
     name: Archon-weapon
     recoil: 1.8
-    x: 124
+    x: 141241
     y: -1
     rotationLimit: 170
     shootY: 10
@@ -360,7 +356,7 @@ weapons: [
     shootY: -1.7
     shoot: {
       type: ShootSpread
-      firstShotDelay: 40
+      firstShotDelay: 170
     }
 	    parts: [
       {
@@ -380,9 +376,9 @@ weapons: [
         outlineColor: 22251b
         outlineRadius: 0
         progress: charge
-        moveRot: 8
+        moveRot: 3
         moveY: -1
-        moveX: 0.8
+        moveX: 3
         x: 0
         y: 0
       }
@@ -392,9 +388,9 @@ weapons: [
         outlineColor: 22251b
         outlineRadius: 0
         progress: charge
-        moveRot: 8
+        moveRot: 2
         moveY: -0.3
-        moveX: 0.8
+        moveX: 4
         x: 0
         y: 0
       }
@@ -404,9 +400,9 @@ weapons: [
         outlineColor: 22251b
         outlineRadius: 0
         progress: charge
-        moveRot: 8
+        moveRot: 2
         moveY: -0.5
-        moveX: 0.8
+        moveX: 3
         x: 0
         y: 0
       }
@@ -417,7 +413,7 @@ weapons: [
         outlineRadius: 0
         progress: charge
         moveRot: 0
-        moveY: -3
+        moveY: -6
         moveX: 0
         x: 0
         y: 0
