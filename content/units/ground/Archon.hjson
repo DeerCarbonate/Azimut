@@ -18,7 +18,7 @@ hitSize: 28
 legCount:4
 legMoveSpace:1.5
 legLength:14
-legPairOffset:2.2
+legPairOffset:0.3
 legExtension: 2.3
 legMaxLength: 1.2
 legBaseOffset:11.5
