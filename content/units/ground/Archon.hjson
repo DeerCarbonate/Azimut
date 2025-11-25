@@ -19,7 +19,8 @@ legCount:4
 legMoveSpace:0.9
 legLength:31
 legPairOffset:2.2
-legExtension:-3
+legExtension: 4
+legMaxLength: 2.7
 legBaseOffset:10
 legSpeed:0.23
 legLengthScl:0.78
