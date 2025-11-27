@@ -25,7 +25,7 @@ shootType: {
  backColor: c36868
  hitColor: fccabd
  splashDamage: 36
- splashDamageRadius: 10
+ splashDamageRadius: 20
  damage: 78
  despawnSound: none
  hitSound: none
@@ -44,7 +44,7 @@ shootType: {
         lifetime: 13
         waveColor: fccabd95
         waveStroke: 1.8
-        waveRad: 4
+        waveRad: 7
         smokeColor: fccabd95
         smokeSizeBase: 0
         smokeSize: 0
