@@ -24,8 +24,8 @@ shootType: {
  frontColor: fccabd
  backColor: c36868
  hitColor: fccabd
- splashDamage: 26
- splashDamageRadius: 8
+ splashDamage: 36
+ splashDamageRadius: 10
  damage: 78
  despawnSound: none
  hitSound: none
