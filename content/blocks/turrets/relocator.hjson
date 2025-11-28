@@ -5,7 +5,7 @@ size: 3
 outlineColor: 0c0c12
 outlineColor: 0c0c12
 squareSprite: false
-health: 1300
+health: 900
 cooldown: 1200
 shootCone: 9
 recoil: 3.2
@@ -64,7 +64,7 @@ lifetime: 35
 damage: 38
 pierce: true
 pierceBuilding: true
-pierceCap: 3
+pierceCap: 2
 pierceDamageFactor: 0.002
 backColor: bff6b1
 frontColor: bff6b1
