@@ -24,9 +24,9 @@ shootType: {
  frontColor: fccabd
  backColor: c36868
  hitColor: fccabd
- splashDamage: 50
- splashDamageRadius: 24
- damage: 78
+ splashDamage: 34
+ splashDamageRadius: 20
+ damage: 74
  despawnSound: none
  hitSound: none
  lifetime: 80
@@ -35,6 +35,10 @@ shootType: {
  despawnEffect: none
  scaleLife: false
  height: 12
+pierce: true
+pierceBuilding: true
+pierceCap: 1
+pierceDamageFactor: 0.002
  buildingDamageMultiplier: 0.1
  trailChance:2
  trailInterval:3
