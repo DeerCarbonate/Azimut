@@ -61,10 +61,10 @@ speed: 6.5
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 38
+damage: 31
 pierce: true
 pierceBuilding: true
-pierceCap: 2
+pierceCap: 3
 pierceDamageFactor: 0.002
 backColor: bff6b1
 frontColor: bff6b1
