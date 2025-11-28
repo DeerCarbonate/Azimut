@@ -136,7 +136,7 @@ speed: 2.8
 collidesTiles: true
 collidesGround: true
 lifetime: 65
-damage: 70
+damage: 110
 backColor: 957655
 frontColor: dacaaa
 fragBullets: 6
@@ -219,7 +219,7 @@ speed: 3.2
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 5
+damage: 13
 backColor: 957655
 frontColor: dacaaa
 despawnEffect: none
@@ -256,7 +256,7 @@ fragBullet: {
       width: 2.7
       sideAngle: 4
       sideWidth: 3.2
-      damage: 25
+      damage: 45
       pierceBuilding: false
       pierce: true
       pierceCap: 2
