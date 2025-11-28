@@ -95,7 +95,7 @@ weapons: [
     shootSound: laserShoot
     bullet: {
       maxRange: 75
-      bulletDamage: 8
+      bulletDamage: 12
       shootEffect: sparkShoot
       hitEffect: pointHit
     }
@@ -113,7 +113,7 @@ weapons: [
     shootSound: laserShoot
     bullet: {
       maxRange: 75
-      bulletDamage: 8
+      bulletDamage: 12
       shootEffect: sparkShoot
       hitEffect: pointHit
     }
@@ -161,7 +161,7 @@ weapons: [
       recoil: 1.2
       splashDamage: 190
       splashDamageRadius: 32
-      damage: 340
+      damage: 410
       height: 32
       speed: 0.12
       width: 12
