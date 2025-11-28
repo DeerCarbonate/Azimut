@@ -24,8 +24,8 @@ shootType: {
  frontColor: fccabd
  backColor: c36868
  hitColor: fccabd
- splashDamage: 56
- splashDamageRadius: 30
+ splashDamage: 50
+ splashDamageRadius: 24
  damage: 78
  despawnSound: none
  hitSound: none
@@ -41,10 +41,10 @@ shootType: {
  trailRotation:true
       hitEffect: {
         type: ExplosionEffect
-        lifetime: 13
+        lifetime: 16
         waveColor: fccabd95
-        waveStroke: 1.8
-        waveRad: 7
+        waveStroke: 1.6
+        waveRad: 7.3
         smokeColor: fccabd95
         smokeSizeBase: 0
         smokeSize: 0
@@ -65,7 +65,7 @@ cone: 0
 region: azimut-despawn
 sizeFrom: 24
 sizeTo: 0
-colorTo: fccabd95
+colorTo: fccabd75
 baseRotation: 90
 }
 ]
