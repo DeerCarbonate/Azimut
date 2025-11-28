@@ -37,7 +37,7 @@ shootType: {
  height: 12
 pierce: true
 pierceBuilding: true
-pierceCap: 1
+pierceCap: 2
 pierceDamageFactor: 0.002
  buildingDamageMultiplier: 0.1
  trailChance:2
