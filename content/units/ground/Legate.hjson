@@ -86,7 +86,7 @@ objectives: [
 		}
 		type: BasicBulletType
 		damage: 12
-		lifetime: 18
+		lifetime: 27
 		collidesTiles: true
 		keepVelocity: false
 		sprite: missile-large
@@ -106,6 +106,7 @@ objectives: [
 		intervalBullets: 1
 		intervalAngle: 180
 		intervalSpread: 0
+		intervalRandomSpread: 0
 					intervalBullet: {
     type: LightningBulletType
     collidesAir: false
