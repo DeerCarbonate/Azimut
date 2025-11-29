@@ -46,8 +46,8 @@ objectives: [
 		alternate: false
 		rotate: true
 		rotateSpeed: 0.7
-		reload: 25
-		inaccuracy: 3
+		reload: 35
+		inaccuracy: 2
 		shootSound: cannon_shoot_1
 		controllable: true
 		aiControllable: true
