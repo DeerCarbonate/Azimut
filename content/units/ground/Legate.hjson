@@ -76,11 +76,12 @@ objectives: [
 			colorTo: ffbfad
 			particles: 3
 			cone: 12
-			length: 24
-			baseLength: 8
+			length: 14
+			baseLength: 6
 			sizeFrom: 1.5
 			sizeTo: 0 
 			offset: 1
+			lifetime: 8
 		}
 		type: BasicBulletType
 		damage: 12
