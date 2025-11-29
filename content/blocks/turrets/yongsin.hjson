@@ -256,7 +256,7 @@ fragBullet: {
       width: 2.7
       sideAngle: 4
       sideWidth: 3.2
-      damage: 45
+      damage: 21
       pierceBuilding: false
       pierce: true
       pierceCap: 2
