@@ -45,8 +45,9 @@ objectives: [
 		mirror: false
 		alternate: false
 		rotate: true
-		rotateSpeed: 0.7
-		reload: 35
+		rotateSpeed: 1.6
+		reload: 65
+		shootY: 7.3
 		inaccuracy: 2
 		shootSound: cannon_shoot_1
 		controllable: true
@@ -73,14 +74,11 @@ objectives: [
 		type: ParticleEffect 
 			colorFrom: cc918b
 			colorTo: ffbfad
-			particles: 4
+			particles: 3
 			cone: 12
-			length: 12
-			baseLength: 5
-			lightScl: 3
-			lightOpacity: 2
-			spin: 1
-			sizeFrom: 1
+			length: 24
+			baseLength: 8
+			sizeFrom: 1.5
 			sizeTo: 0 
 			offset: 1
 		}
@@ -107,6 +105,8 @@ objectives: [
 		intervalAngle: 180
 		intervalSpread: 0
 		intervalRandomSpread: 0
+		fragVelocityMin: 8
+		fragVelocityMax: 8
 					intervalBullet: {
     type: LightningBulletType
     collidesAir: false
