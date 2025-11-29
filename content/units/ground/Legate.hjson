@@ -98,7 +98,7 @@ objectives: [
 		trailWidth: 2
 		trailLength: 7.4
 		splashDamageRadius: 8
-		splashDamage: 12
+		splashDamage: 18
 		despawnEffect: none
 		bulletInterval: 1
 		intervalBullets: 1
@@ -111,18 +111,20 @@ objectives: [
     type: LightningBulletType
     collidesAir: false
     lightningLength: 2
-	lightningLengthRand: 3
+	lightningLengthRand: 2
 	lightningColor: cc918b
 	buildingDamageMultiplier: 0.1
-	lifetime:5
-    damage: 10
+	lifetime: 5
+	collidesAir: false
+	hittable: false
+	hitEffect: none
       }
 		hitEffect: {
     type: ExplosionEffect
     lifetime: 12
     waveColor: cc918b
     waveStroke: 1.7
-    waveRad: 9
+    waveRad: 12
     smokeColor: cc918b60
     smokeSizeBase: 1
     smokeSize: 3.5
