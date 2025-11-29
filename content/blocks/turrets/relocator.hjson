@@ -5,7 +5,7 @@ size: 3
 outlineColor: 0c0c12
 outlineColor: 0c0c12
 squareSprite: false
-health: 1300
+health: 900
 cooldown: 1200
 shootCone: 9
 recoil: 3.2
@@ -61,7 +61,7 @@ speed: 6.5
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 38
+damage: 31
 pierce: true
 pierceBuilding: true
 pierceCap: 3
