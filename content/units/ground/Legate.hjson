@@ -45,24 +45,28 @@ objectives: [
 		mirror: false
 		alternate: false
 		rotate: true
-		rotateSpeed: 0.9
-		reload: 15
+		rotateSpeed: 0.7
+		reload: 25
 		inaccuracy: 3
 		shootSound: cannon_shoot_1
 		controllable: true
 		aiControllable: true
 		layer: 110
-		shake: 1.5
+		shake: 0
 		parts: [
-		{
-        type: RegionPart
-        suffix: -heat
-        progress: warmup
-        blending: additive
-        color: 30fdf3
-        layerOffset: -0.1
-        outline: false
-		}
+		    {
+      type: RegionPart,
+      suffix: -barrel,
+      under: true,
+      mirror: false,
+      heatProgress: recoil
+      progress: recoil
+	  x: 0,
+	  y: 0,
+	  moveY: -1.2
+      heatColor: f0aba4,
+      heatLayer: 1,
+    }
 		]
 		bullet: {
 		shootEffect: {
@@ -85,34 +89,43 @@ objectives: [
 		lifetime: 18
 		collidesTiles: true
 		keepVelocity: false
+		sprite: missile-large
 		collidesAir: false
-		width: 7.4
-		height: 7.8
-		speed: 8
-		drag:0.02
-		backColor: ffbfad
+		width: 11
+		height: 7.5
+		speed: 7.3
+		backColor: af7765
 		frontColor: cc918b
-		trailColor: cc918b
-		trailWidth: 1.9
-		trailLength: 5
-		homingPower: 0.2
-		homingDelay: 4
-		homingRange: 30
-		weaveMag: 3
-		weaveScale: 4
-		splashDamageRadius: 4
-		splashDamage: 7
+		trailColor: af7765
+		trailWidth: 2
+		trailLength: 7.4
+		splashDamageRadius: 8
+		splashDamage: 12
 		despawnEffect: none
+		bulletInterval: 1
+		intervalBullets: 1
+		intervalAngle: 180
+		intervalSpread: 0
+					intervalBullet: {
+    type: LightningBulletType
+    collidesAir: false
+    lightningLength: 2
+	lightningLengthRand: 3
+	lightningColor: cc918b
+	buildingDamageMultiplier: 0.1
+	lifetime:5
+    damage: 10
+      }
 		hitEffect: {
     type: ExplosionEffect
     lifetime: 12
     waveColor: cc918b
-    waveStroke: 1.5
-    waveRad: 6
+    waveStroke: 1.7
+    waveRad: 9
     smokeColor: cc918b60
     smokeSizeBase: 1
     smokeSize: 3.5
-    smokes: 3
+    smokes: 4
     sparkColor: cc918b
     sparkStroke: 1.4
     sparkRad: 6.5
