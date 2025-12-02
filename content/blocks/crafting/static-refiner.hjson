@@ -45,12 +45,12 @@ drawer: {
       padLeft: 3
       padTop: 1.5
       padBottom: 1.5
-      padRight: 27
+      padRight: 20
     }
 	{
       type: DrawLiquidTile
       drawLiquid: ammonia
-      padLeft: 27
+      padLeft: 20
       padTop: 1.5
       padBottom: 1.5
       padRight: 3
@@ -58,21 +58,21 @@ drawer: {
 	{
       type: DrawLiquidTile
       drawLiquid: cesium
-      padLeft: 8.3
-      padTop: 8.3
-      padBottom: 8.3
-      padRight: 8.3
+      padLeft: 8.7
+      padTop: 8.7
+      padBottom: 8.7
+      padRight: 8.7
     }
     {
       type: DrawCircles
-      color: 9b765110
+      color: 9b765120
       strokeMax: 3
       radius: 6
       amount: 2.2
     }
 	{
       type: DrawCircles
-      color: 9b765105
+      color: 9b765115
       strokeMax: 1
       radius: 5
       amount: 1.2
@@ -80,9 +80,9 @@ drawer: {
     {
    type: DrawParticles
    color: ce9e6c
-   alpha: 0.25
-   particleRad: 8
-   rotateScl: 65
+   alpha: 0.65
+   particleRad: 6.5
+   rotateScl: 120
     }
     {
       type: DrawDefault
