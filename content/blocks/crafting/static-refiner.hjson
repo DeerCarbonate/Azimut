@@ -27,7 +27,7 @@ craftTime: 240
 outputItem: caterium/6
 liquidOutputDirections: [1,3]
 outputLiquids: [
-	cesium/0.05
+	cesium/0.15
 	hydrogen/0.15
 ]
 craftEffect: none
@@ -42,26 +42,26 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: ammonia
-      padLeft: 12
+      padLeft: 3
       padTop: 1.5
       padBottom: 1.5
-      padRight: 12
+      padRight: 18
     }
 	{
       type: DrawLiquidTile
       drawLiquid: ammonia
-      padLeft: 12
+      padLeft: 18
       padTop: 1.5
       padBottom: 1.5
-      padRight: 12
+      padRight: 3
     }
 	{
       type: DrawLiquidTile
       drawLiquid: cesium
-      padLeft: 7.7
-      padTop: 7.7
-      padBottom: 7.7
-      padRight: 7.7
+      padLeft: 8.3
+      padTop: 8.3
+      padBottom: 8.3
+      padRight: 8.3
     }
     {
       type: DrawCircles
