@@ -30,29 +30,7 @@ outputLiquids: [
 	cesium/0.05
 	hydrogen/0.15
 ]
-craftEffect: [{
-        type: RadialEffect
-      rotationSpacing : 90
-      rotationOffset: 0
-      lengthOffset: 2
-      amount: 3
-      effect: {
-          type: ParticleEffect
-          particles: 2
-          length: 90
-          lifetime: 550
-          sizeFrom: 1.7
-          sizeTo: 4.2
-          cone: 2
-          baseRotation: 73
-          useRotation:false
-          interp: pow5Out
-          colorFrom: 8d655754
-          colorTo: 271b1700
-          layer: 100.3
-          }
-    }
-]
+craftEffect: none
 ambientSound: smelter
 drawer: {
   type: DrawMulti
@@ -107,8 +85,8 @@ drawer: {
    rotateScl: 65
     }
 	{
-   type: DrawLiquidOutputs
-	}
+      type: DrawSideRegion
+    }
     {
       type: DrawDefault
     }
