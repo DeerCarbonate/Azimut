@@ -2,6 +2,9 @@ type: GenericCrafter
 name: Static rafiner
 size: 4
 itemCapacity: 50
+rotate: true
+quickRotate: true
+rotateDraw: false
 category: crafting
 squareSprite: false
 description: Melts caterium, producing caterium ingots and by-products in the form of cesium and hydrogen.
@@ -22,7 +25,7 @@ consumes: {
 }
 craftTime: 240
 outputItem: caterium/6
-liquidOutputDirections: [2,3]
+liquidOutputDirections: [1,3]
 outputLiquids: [
 	cesium/0.05
 	hydrogen/0.15
