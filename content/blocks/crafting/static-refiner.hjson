@@ -45,12 +45,12 @@ drawer: {
       padLeft: 3
       padTop: 1.5
       padBottom: 1.5
-      padRight: 18
+      padRight: 27
     }
 	{
       type: DrawLiquidTile
       drawLiquid: ammonia
-      padLeft: 18
+      padLeft: 27
       padTop: 1.5
       padBottom: 1.5
       padRight: 3
