@@ -1,0 +1,92 @@
+type: GenericCrafter
+name: Static rafiner
+size: 4
+itemCapacity: 50
+category: crafting
+squareSprite: false
+description: Melts caterium, producing caterium ingots and by-products in the form of cesium and hydrogen.
+ignoreLiquidFullness: true
+requirements: [
+	  compound/40
+	  cobalt/120
+	  geliarin/50
+	  zinc/25
+]
+consumes: {
+  items: [
+  raw-caterium/3
+  ]
+  liquids: [
+  ammonia/0.12
+	]
+}
+craftTime: 240
+outputItem: caterium/6
+liquidOutputDirections: [2,3]
+outputLiquids: [
+	cesium/0.05
+	hydrogen/0.15
+]
+craftEffect: [{
+        type: RadialEffect
+      rotationSpacing : 90
+      rotationOffset: 0
+      lengthOffset: 2
+      amount: 3
+      effect: {
+          type: ParticleEffect
+          particles: 2
+          length: 90
+          lifetime: 550
+          sizeFrom: 1.7
+          sizeTo: 4.2
+          cone: 2
+          baseRotation: 73
+          useRotation:false
+          interp: pow5Out
+          colorFrom: 8d655754
+          colorTo: 271b1700
+          layer: 100.3
+          }
+    }
+]
+ambientSound: smelter
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: isobutane
+      alpha: 0.6
+      padding: 2
+    }
+    {
+      type: DrawCircles
+      color: 9b765110
+      strokeMax: 3
+      radius: 6
+      amount: 2.2
+    }
+	{
+      type: DrawCircles
+      color: 9b765105
+      strokeMax: 1
+      radius: 5
+      amount: 1.2
+    }
+    {
+   type: DrawParticles
+   color: ce9e6c
+   alpha: 0.25
+   particleRad: 8
+   rotateScl: 65
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
