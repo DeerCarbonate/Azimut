@@ -17,14 +17,15 @@ requirements: [
 ]
 consumes: {
   items: [
-  raw-caterium/3
+  raw-caterium/6
   ]
   liquids: [
   ammonia/0.12
 	]
+	power: 2
 }
-craftTime: 240
-outputItem: caterium/6
+craftTime: 210
+outputItem: caterium/8
 liquidOutputDirections: [1,3]
 outputLiquids: [
 	cesium/0.15
