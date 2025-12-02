@@ -58,10 +58,10 @@ drawer: {
 	{
       type: DrawLiquidTile
       drawLiquid: cesium
-      padLeft: 6.5
-      padTop: 6.5
-      padBottom: 6.5
-      padRight: 6.5
+      padLeft: 7.7
+      padTop: 7.7
+      padBottom: 7.7
+      padRight: 7.7
     }
     {
       type: DrawCircles
