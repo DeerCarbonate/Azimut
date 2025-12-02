@@ -45,12 +45,12 @@ drawer: {
       padLeft: 3
       padTop: 1.5
       padBottom: 1.5
-      padRight: 23.5
+      padRight: 23
     }
 	{
       type: DrawLiquidTile
       drawLiquid: ammonia
-      padLeft: 23.5
+      padLeft: 23
       padTop: 1.5
       padBottom: 1.5
       padRight: 3
@@ -69,13 +69,6 @@ drawer: {
       strokeMax: 3
       radius: 7
       amount: 2.2
-    }
-	{
-      type: DrawCircles
-      color: 9b765115
-      strokeMax: 1
-      radius: 5.5
-      amount: 1.2
     }
     {
       type: DrawDefault
