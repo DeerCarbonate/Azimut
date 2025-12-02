@@ -42,26 +42,26 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: ammonia
-      padLeft: 15
+      padLeft: 12
       padTop: 1.5
       padBottom: 1.5
-      padRight: 0.5
+      padRight: 12
     }
 	{
       type: DrawLiquidTile
       drawLiquid: ammonia
-      padLeft: 0.5
+      padLeft: 12
       padTop: 1.5
       padBottom: 1.5
-      padRight: 15
+      padRight: 12
     }
 	{
       type: DrawLiquidTile
       drawLiquid: cesium
-      padLeft: 15
-      padTop: 15
-      padBottom: 15
-      padRight: 15
+      padLeft: 6.5
+      padTop: 6.5
+      padBottom: 6.5
+      padRight: 6.5
     }
     {
       type: DrawCircles
@@ -85,10 +85,10 @@ drawer: {
    rotateScl: 65
     }
     {
-        type: drawLiquidOutputs
-    }
-    {
       type: DrawDefault
+    }
+	{
+        type: drawLiquidOutputs
     }
   ]
 }
