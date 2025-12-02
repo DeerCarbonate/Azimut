@@ -107,7 +107,7 @@ drawer: {
    rotateScl: 65
     }
 	{
-	DrawLiquidOutputs
+   type: DrawLiquidOutputs
 	}
     {
       type: DrawDefault
