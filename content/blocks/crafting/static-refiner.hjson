@@ -63,9 +63,27 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: isobutane
-      alpha: 0.6
-      padding: 2
+      drawLiquid: ammonia
+      padLeft: 15
+      padTop: 1.5
+      padBottom: 1.5
+      padRight: 1.5
+    }
+	{
+      type: DrawLiquidTile
+      drawLiquid: ammonia
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 1.5
+      padRight: 15
+    }
+	{
+      type: DrawLiquidTile
+      drawLiquid: cesium
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 1.5
+      padRight: 1.5
     }
     {
       type: DrawCircles
@@ -88,6 +106,9 @@ drawer: {
    particleRad: 8
    rotateScl: 65
     }
+	{
+	DrawLiquidOutputs
+	}
     {
       type: DrawDefault
     }
