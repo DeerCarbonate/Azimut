@@ -1,13 +1,13 @@
 type: Liquid
 name: Nitrogen
 description: "DEADLY"
-color: 99B2BFFF
+color: efe3ff
 
 flammability: 0
 viscosity: 0
 temperature: 0
 boilPoint: -4
-gasColor: 99B2BFFF
+gasColor: efe3ff
 gas: true
 blockReactive: false
 
