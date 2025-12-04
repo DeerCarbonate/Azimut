@@ -14,11 +14,11 @@ requirements: [
 consumes: {
   liquids: [
   isobutane/0.36
-  iterin/0.35
+  iterin/0.175
 	]
 }
 outputItem: solid-fuel/1
-craftTime: 40
+craftTime: 39.3
 hasLiquids: true
 liquidCapacity: 100
 		research: {
