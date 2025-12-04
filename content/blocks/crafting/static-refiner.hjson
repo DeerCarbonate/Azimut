@@ -41,6 +41,10 @@ drawer: {
       suffix: -bottom
     }
     {
+     type: DrawGlowRegion
+	 color: e26548
+    }
+    {
       type: DrawLiquidTile
       drawLiquid: ammonia
       padLeft: 3
@@ -70,10 +74,6 @@ drawer: {
       strokeMax: 2
       radius: 7
       amount: 1.8
-    }
-	{
-     type: DrawGlowRegion
-	 color: e26548
     }
     {
       type: DrawDefault
