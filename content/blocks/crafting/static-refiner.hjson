@@ -7,7 +7,7 @@ quickRotate: true
 rotateDraw: false
 category: crafting
 squareSprite: false
-description: Melts caterium, producing caterium ingots and by-products in the form of cesium and hydrogen.
+description: Melts caterium, producing caterium ingots and by-products in the form of cesium and nitrogen.
 ignoreLiquidFullness: true
 requirements: [
 	  compound/40
@@ -29,7 +29,7 @@ outputItem: caterium/8
 liquidOutputDirections: [1,3]
 outputLiquids: [
 	cesium/0.15
-	hydrogen/0.15
+	nitrogen/0.15
 ]
 craftEffect: none
 ambientSound: smelter

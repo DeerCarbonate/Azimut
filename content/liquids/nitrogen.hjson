@@ -1,11 +1,9 @@
 type: Liquid
-name: Hydrogen
+name: Nitrogen
 description: "DEADLY"
 color: 99B2BFFF
 
-explosiveness: 0.4
 flammability: 0
-heatCapacity: 0.8
 viscosity: 0
 temperature: 0
 boilPoint: -4
