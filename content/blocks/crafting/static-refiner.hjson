@@ -71,6 +71,10 @@ drawer: {
       radius: 7
       amount: 1.8
     }
+	{
+     type: DrawGlowRegion
+	 color: e26548
+    }
     {
       type: DrawDefault
     }
