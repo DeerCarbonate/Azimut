@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Static rafiner
+name: Static refiner
 size: 4
 itemCapacity: 50
 rotate: true
