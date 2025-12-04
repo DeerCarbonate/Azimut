@@ -41,10 +41,6 @@ drawer: {
       suffix: -bottom
     }
     {
-     type: DrawGlowRegion
-	 color: e26548
-    }
-    {
       type: DrawLiquidTile
       drawLiquid: ammonia
       padLeft: 3
