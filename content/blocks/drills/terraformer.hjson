@@ -2,20 +2,19 @@ type: beamDrill
 name: Terraformer
 description: Extracts resources from their deposits.
 health: 600
-range: 9
+range: 7
 tier: 1
 size: 4
 optionalBoostIntensity: 1.5
-drillTime: 60
+drillTime: 90
 ambientSound: drill
 ambientSoundVolume: 0.08
 hasLiquids: true
 consumes: {
-  liquid: power/0.05
   power: 1
   liquids: {
     liquids: [
-      iterin/0.1
+      nitrogen/0.05
     ]
     optional: true
     booster: true
