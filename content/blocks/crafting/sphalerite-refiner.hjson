@@ -32,7 +32,7 @@ consumes: {
 }
 craftTime: 160
 outputItem: zinc/2
-heatRequirement: 6
+heatRequirement: 3
 overheatScale: 1
 maxEfficiency: 3
 craftEffect: [{
