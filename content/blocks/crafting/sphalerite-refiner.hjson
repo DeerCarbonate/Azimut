@@ -91,19 +91,6 @@ drawer: {
       radius: 5
       amount: 1.2
     }
-    {
-      type: DrawRegion
-      suffix: -fan
-      rotateSpeed: 0.8
-      spinSprite: true
-    }
-	 {
-      type: DrawRegion
-      suffix: -fan
-      rotateSpeed: 0.8
-      spinSprite: true
-	  rotation: 45
-    }
 	{
    type: DrawParticles
    color: 9a6a5820
