@@ -27,7 +27,7 @@ consumes: {
   sphalerite/2
   ]
   liquids: [
-  ammonia/0.09
+  isobutane/0.092
 	]
 }
 craftTime: 160
@@ -35,7 +35,29 @@ outputItem: zinc/2
 heatRequirement: 6
 overheatScale: 1
 maxEfficiency: 3
-craftEffect: none
+craftEffect: [{
+      type: RadialEffect
+      rotationSpacing : 90
+      rotationOffset: 0
+      lengthOffset: 2
+      amount: 4
+      effect: {
+          type: ParticleEffect
+          particles: 1
+          length: 90
+          lifetime: 600
+          sizeFrom: 2.7
+          sizeTo: 6.2
+          cone: 2
+          baseRotation: 73
+          useRotation:false
+          interp: pow5Out
+          colorFrom: 8d655754
+          colorTo: 271b1700
+          layer: 100.3
+          }
+}
+]
 Sound: smelter
 drawer: {
   type: DrawMulti
@@ -46,7 +68,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: ammonia
+      drawLiquid: isobutane
       alpha: 0.6
       padding: 2
     }
@@ -57,14 +79,14 @@ drawer: {
 	}
     {
       type: DrawCircles
-      color: afc9bc10
+      color: 9a6a5810
       strokeMax: 3
       radius: 6
       amount: 2.2
     }
 	{
       type: DrawCircles
-      color: afc9bc05
+      color: 9a6a5805
       strokeMax: 1
       radius: 5
       amount: 1.2
@@ -84,7 +106,7 @@ drawer: {
     }
 	{
    type: DrawParticles
-   color: d2e7e720
+   color: 9a6a5820
    alpha: 0.25
    particleRad: 8
    rotateScl: 65
