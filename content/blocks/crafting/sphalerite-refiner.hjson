@@ -1,7 +1,7 @@
 type: HeatCrafter
 name: Sphalerite refiner
 size: 3
-itemCapacity: 40
+itemCapacity: 15
 category: crafting
 squareSprite: false
 description: "Performs thermal treatment of sphalerite and its refining, converting it into zinc."
@@ -19,7 +19,7 @@ research: {
 requirements: [
  cobalt/30
  platinum/45
- compound/20
+ compound/65
  geliarin/10
 ]
 consumes: {

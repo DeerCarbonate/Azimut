@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: Platinum smelter
 size: 3
-itemCapacity: 30
+itemCapacity: 15
 category: crafting
 squareSprite: false
 description: Melts platinum, uses raw platinum and isobutane for work.
