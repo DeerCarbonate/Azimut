@@ -66,8 +66,8 @@ drawer: {
 }
 	{
 	  type: DrawArcSmelt
-	  circleStroke: 5.4
-	  particleLen: 2.7
+	  circleStroke: 2.5
+	  particleLen: 1.6
 	}
     {
       type: DrawDefault
