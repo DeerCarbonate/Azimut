@@ -43,14 +43,14 @@ craftEffect: [{
           type: ParticleEffect
           particles: 4
           length: 67
-          lifetime: 150
-          sizeFrom: 2.7
-          sizeTo: 6.2
+          lifetime: 270
+          sizeFrom: 1.7
+          sizeTo: 7.2
           cone: 2
           baseRotation: 73
           useRotation:false
           interp: pow5Out
-          colorFrom: ffa50084
+          colorFrom: fed8b184
           colorTo: 271b1700
           layer: 100.3
           }
