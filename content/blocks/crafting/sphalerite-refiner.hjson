@@ -64,14 +64,14 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-	{
-	  type: DrawArcSmelt
-	  circleStroke: 1.2
-	  particleLen: 1.6
-	}
-    {
+  {
       type: DrawCrucibleFlame
     } 
+	{
+	  type: DrawArcSmelt
+	  circleStroke: 3
+	  particleLen: 1.6
+	}
     {
       type: DrawDefault
     }
