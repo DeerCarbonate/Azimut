@@ -63,12 +63,10 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
-}
-	{
-	  type: DrawArcSmelt
-	  circleStroke: 2.5
-	  particleLen: 1.6
-	}
+    }
+    {
+      type: DrawCrucibleFlame
+    } 
     {
       type: DrawDefault
     }
