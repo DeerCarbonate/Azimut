@@ -66,10 +66,8 @@ drawer: {
 }
 	{
 	  type: DrawArcSmelt
-	  circleStroke: 10
+	  circleStroke: 11.4
 	  particleLen: 1.2
-   color1: fed8b195
-   color2: 271b1700
 	}
     {
       type: DrawDefault
