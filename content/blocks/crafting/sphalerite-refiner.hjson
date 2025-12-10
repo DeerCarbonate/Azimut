@@ -42,8 +42,8 @@ craftEffect: [{
       effect: {
           type: ParticleEffect
           particles: 4
-          length: 67
-          lifetime: 270
+          length: 120
+          lifetime: 290
           sizeFrom: 1.7
           sizeTo: 7.2
           cone: 2
@@ -66,8 +66,8 @@ drawer: {
 }
 	{
 	  type: DrawArcSmelt
-	  circleStroke: 11.4
-	  particleLen: 1.2
+	  circleStroke: 5.4
+	  particleLen: 2.7
 	}
     {
       type: DrawDefault
