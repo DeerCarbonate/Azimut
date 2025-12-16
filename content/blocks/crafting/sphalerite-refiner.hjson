@@ -38,19 +38,19 @@ craftEffect: [{
       rotationSpacing : 90
       rotationOffset: 0
       lengthOffset: 2
-      amount: 4
+      amount: 2
       effect: {
           type: ParticleEffect
-          particles: 1
-          length: 90
-          lifetime: 600
-          sizeFrom: 2.7
-          sizeTo: 6.2
+          particles: 4
+          length: 120
+          lifetime: 290
+          sizeFrom: 1.7
+          sizeTo: 7.2
           cone: 2
           baseRotation: 73
           useRotation:false
           interp: pow5Out
-          colorFrom: 8d655754
+          colorFrom: fed8b184
           colorTo: 271b1700
           layer: 100.3
           }
@@ -64,11 +64,9 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-	{
-	  type: DrawArcSmelt
-	  circleStroke: 1.2
-	  particleLen: 1.6
-	}
+    {
+      type: DrawCrucibleFlame
+    } 
     {
       type: DrawDefault
     }
