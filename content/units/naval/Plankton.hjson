@@ -45,7 +45,7 @@ objectives: [
 			"rotateSpeed": 3.6,
 			"reload": 90,
 			"inaccuracy": 3,
-			"shootSound": mineDeploy,
+			"shootSound": shootCyclone,
 			"controllable": true,
 			"aiControllable": true,
 			"y": -3.3

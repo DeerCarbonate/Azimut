@@ -119,7 +119,7 @@ weapons: [
       ]
     }
     ejectEffect: none
-    shootSound: spark
+    shootSound: shootArc
     bullet: {
       recoil: 0.1
       keepVelocity: false
@@ -200,7 +200,7 @@ weapons: [
 	]
 	}
     ejectEffect: none
-    shootSound: none 
+    shootSound: shootAtrax
     bullet: {
       keepVelocity: false
       lifetime: 90

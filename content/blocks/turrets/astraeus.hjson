@@ -17,7 +17,7 @@ targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
 rotateSpeed: 2.7
-shootSound: cannon_shoot_1
+shootSound: shootDiffuse
 shootType: {
  type: BasicBulletType
  collidesGround: true
