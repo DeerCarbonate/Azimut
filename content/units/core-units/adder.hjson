@@ -38,7 +38,7 @@
             shots: 5
             }
         ejectEffect: none
-        shootSound: none
+        shootSound: shootAlpha
         bullet: {
             type: BasicBulletType
             collidesAir: true
