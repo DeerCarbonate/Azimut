@@ -92,7 +92,7 @@ weapons: [
     shootCone: 180
     inaccuracy: 0
     velocityRnd: 0.4
-    shootSound: blaster
+    shootSound: sparkShoot
     ignoreRotation: true
     x: 0
     y: 1.95
