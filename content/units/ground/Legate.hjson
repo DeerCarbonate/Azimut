@@ -1,6 +1,7 @@
 	name: Legate
 	type: mech
 	flying: false
+	targetAir: false
 	rotateSpeed: 2.1
 	omniMove: true
 	outlineColor: 22251b
