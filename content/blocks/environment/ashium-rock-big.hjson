@@ -1,0 +1,13 @@
+{
+  "type": "TallWall",
+  "name": "Ashium rock (Big)",
+  "emitLight": false,
+  "attributes": {
+    "heat": 0.2,
+	"light": 0
+  },
+  "variants": 1
+  "clipSize": 160,
+  "shadowAlpha": 0.8,
+  "shadowOffset": -2.1
+}
