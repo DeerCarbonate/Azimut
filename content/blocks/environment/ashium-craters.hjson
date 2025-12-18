@@ -1,3 +1,4 @@
 name: "Ashium craters"
 type: prop
 variants: 3
+hasShadow: false
