@@ -367,7 +367,18 @@ parts: [
     progress: {
       type: charge
       ops: [
-        { op: curve, interp: pow2Out }
+		  {
+		     op: delay
+			 amount: 0.25
+		  }
+		  {
+		     op: curve
+			 interp: slope
+	      }
+		  {
+		     op: curve
+			 interp: sineOut
+		  }
       ]
     }
     moveY: -2.4
