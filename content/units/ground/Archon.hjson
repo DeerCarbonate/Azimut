@@ -369,11 +369,11 @@ parts: [
       ops: [
 		  {
 		     op: delay
-			 amount: 0.25
+			 amount: 0.12
 		  }
 		  {
 		     op: curve
-			 interp: slope
+			 interp: sineIn
 	      }
 		  {
 		     op: curve
