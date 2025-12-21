@@ -393,8 +393,8 @@ parts: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
-        moveRot: 3
-        moveY: -0.3
+        moveRot: 2.2
+        moveY: -0.4
         moveX: -2
         x: 0
         y: 0
@@ -406,7 +406,7 @@ parts: [
         outlineRadius: 0
         moveRot: 2
         moveY: -0.3
-        moveX: -3
+        moveX: -2.7
         x: 0
         y: 0
       }
@@ -417,7 +417,7 @@ parts: [
         outlineRadius: 0
         moveRot: 2
         moveY: -0.5
-        moveX: -4
+        moveX: -3.4
         x: 0
         y: 0
       }
