@@ -9,6 +9,7 @@ alwaysUnlocked: true
 lockLegBase: true
 hovering: true
 targetAir: true
+stepSound: walkerStep
 legCount: 4
 legExtension: 4
 legMaxLength: 2.7
