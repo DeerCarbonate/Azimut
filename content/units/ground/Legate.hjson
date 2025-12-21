@@ -2,23 +2,24 @@
 	type: mech
 	flying: false
 	targetAir: false
-	rotateSpeed: 2.1
+	rotateSpeed: 2
 	omniMove: true
 	outlineColor: 22251b
 	outlineRadius: 3
 	alwaysUnlocked: false
 	armor: 1.6
-	stepshake: 1
 	health: 935
 	speed: 0.49
 	hitSize: 12.5
-    healColor: f0aba488
+ healColor: f0aba488
+ stepSound: mechStepSmall
+ stepSoundPitch: 0.9
+ stepSoundVolume: 0.65
 	mechLegColor: 0f1405
 	mechFrontSway: 0.8
 	mechStepParticles: true
 	faceTarget: true
-	squareShape: true
-	description: Fires homing projectiles with a wide spread.
+	description: Fires charged projectiles.
 	research: {
 	parent: mech-editor
 	planet: gelion
@@ -47,7 +48,7 @@ objectives: [
 		alternate: false
 		rotate: true
 		rotateSpeed: 1.6
-		reload: 65
+		reload: 63
 		shootY: 7.3
 		inaccuracy: 2
 		shootSound: cannon_shoot_1
@@ -86,14 +87,14 @@ objectives: [
 		}
 		type: BasicBulletType
 		damage: 12
-		lifetime: 27
+		lifetime: 26
 		collidesTiles: true
 		keepVelocity: false
 		sprite: missile-large
 		collidesAir: false
 		width: 11
 		height: 7.5
-		speed: 7.3
+		speed: 7.1
 		backColor: af7765
 		frontColor: cc918b
 		trailColor: af7765
@@ -102,7 +103,7 @@ objectives: [
 		splashDamageRadius: 8
 		splashDamage: 18
 		despawnEffect: none
-		bulletInterval: 1
+		bulletInterval: 1.2
 		intervalBullets: 1
 		intervalAngle: 180
 		intervalSpread: 0
@@ -112,11 +113,11 @@ objectives: [
 					intervalBullet: {
     type: LightningBulletType
     collidesAir: false
-    lightningLength: 2
+    lightningLength: 4
 	lightningLengthRand: 2
 	lightningColor: cc918b
 	buildingDamageMultiplier: 0.1
-	lifetime: 5
+	lifetime: 6
 	collidesAir: false
 	hittable: false
 	hitEffect: none
