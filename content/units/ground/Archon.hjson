@@ -373,7 +373,7 @@ parts: [
 		  }
 		  {
 		     op: curve
-			 interp: sineIn
+			 interp: slope
 	      }
 		  {
 		     op: curve
@@ -395,7 +395,7 @@ parts: [
         outlineRadius: 0
         moveRot: 3
         moveY: -0.3
-        moveX: -5
+        moveX: -2
         x: 0
         y: 0
       }
@@ -406,7 +406,7 @@ parts: [
         outlineRadius: 0
         moveRot: 2
         moveY: -0.3
-        moveX: -4
+        moveX: -3
         x: 0
         y: 0
       }
@@ -417,7 +417,7 @@ parts: [
         outlineRadius: 0
         moveRot: 2
         moveY: -0.5
-        moveX: -3
+        moveX: -4
         x: 0
         y: 0
       }
