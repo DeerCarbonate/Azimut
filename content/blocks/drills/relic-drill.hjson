@@ -46,16 +46,16 @@ drillEffect: [
     minPitch: 0.5
     maxPitch: 0.5
     minVolume: 1
-    maxVolume: 1
+    maxVolume: 1.2
     effect: none
   }
   {
     type: SoundEffect
     sound: explosionArtillery
-    minPitch: 1
-    maxPitch: 1
+    minPitch: 0.9
+    maxPitch: 0.9
     minVolume: 1
-    maxVolume: 1
+    maxVolume: 1.2
     effect: none
   }
 ]
@@ -63,9 +63,6 @@ drillEffect: [
 ]
 consumes: {
   power: 0.8
-  liquids: [
-    iterin/0.05
-  ]
 }
 drillSoundVolume: 1.2
 category: production
