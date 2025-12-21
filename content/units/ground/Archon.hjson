@@ -365,11 +365,11 @@ weapons: [
         outlineColor: 22251b
         outlineRadius: 0
         progress: {
-    type: charge
-    ops: [
-        { op: curve, interp: pow2Out }
-    ]
-}
+		type: charge
+		ops: [
+			{ op: curve, interp: pow2Out }
+		]
+	   }
         moveY: -2.4
         moveX: -1.2
 		moveRot: 7
