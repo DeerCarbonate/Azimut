@@ -358,24 +358,25 @@ weapons: [
       type: ShootSpread
       firstShotDelay: 170
     }
-	    parts: [
-      {
-        suffix: -s
-        mirror: true
-        outlineColor: 22251b
-        outlineRadius: 0
-        progress: {
-		type: charge
-		ops: [
-			{ op: curve, interp: pow2Out }
-		]
-	   }
-        moveY: -2.4
-        moveX: -1.2
-		moveRot: 7
-        x: 0
-        y: 0
-		  children: [
+parts: [
+  {
+    suffix: -s
+    mirror: true
+    outlineColor: 22251b
+    outlineRadius: 0
+    progress: {
+      type: charge
+      ops: [
+        { op: curve, interp: pow2Out }
+      ]
+    }
+    moveY: -2.4
+    moveX: -1.2
+    moveRot: 7
+    x: 0
+    y: 0,
+
+    children: [
       {
         suffix: -r
         mirror: true
@@ -387,7 +388,7 @@ weapons: [
         x: 0
         y: 0
       }
-	  {
+      {
         suffix: -f
         mirror: true
         outlineColor: 22251b
@@ -398,7 +399,7 @@ weapons: [
         x: 0
         y: 0
       }
-	  {
+      {
         suffix: -g
         mirror: true
         outlineColor: 22251b
