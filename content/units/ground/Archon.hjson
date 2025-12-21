@@ -364,7 +364,12 @@ weapons: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
-        progress: charge
+        progress: {
+    type: charge
+    ops: [
+        { op: curve, interp: pow2Out }
+    ]
+}
         moveY: -2.4
         moveX: -1.2
 		moveRot: 7
@@ -376,7 +381,6 @@ weapons: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
-        progress: charge
         moveRot: 3
         moveY: -0.3
         moveX: -5
@@ -388,7 +392,6 @@ weapons: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
-        progress: charge
         moveRot: 2
         moveY: -0.3
         moveX: -4
@@ -400,7 +403,6 @@ weapons: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
-        progress: charge
         moveRot: 2
         moveY: -0.5
         moveX: -3
