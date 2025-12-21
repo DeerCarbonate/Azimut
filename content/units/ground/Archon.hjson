@@ -10,7 +10,7 @@ hovering: true
 targetAir: false
 rotateSpeed: 1
 accel: 0.5
-armor: 10
+armor: 11
 health: 12050
 speed: 0.38
 healColor: f0aba488
@@ -350,7 +350,7 @@ weapons: [
     alternate: false
     rotate: false
     rotateSpeed: 0
-    reload: 190
+    reload: 270
     shootSound: shoot-small-flame
     ignoreRotation: false
     shootY: -1.7
@@ -365,11 +365,12 @@ weapons: [
         outlineColor: 22251b
         outlineRadius: 0
         progress: charge
-        moveY: -1.2
+        moveY: -2.4
         moveX: -1.2
+		moveRot: 7
         x: 0
         y: 0
-      }
+		  children: [
       {
         suffix: -r
         mirror: true
@@ -407,6 +408,8 @@ weapons: [
         y: 0
       }
     ]
+  }
+]
 	    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
