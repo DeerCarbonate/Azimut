@@ -23,16 +23,16 @@ drillEffect: [
             particles: 1
             spin: 0
             length: 0
-            lifetime: 42
+            lifetime: 39
             region: azimut-despawn
             sizeFrom: 42
             sizeTo: 10
-            colorTo: c3feff68
+            colorTo: c3feff78
             sizeinterp: length
   }
       {
         type: WaveEffect
-        lifetime: 42
+        lifetime: 39
         interp: pow3Out
         sizeFrom: 0
         sizeTo: 24
@@ -42,7 +42,7 @@ drillEffect: [
       }
   {
     type: SoundEffect
-    sound: largeCannon
+    sound: blockExplodeExplosive
     minPitch: 0.5
     maxPitch: 0.5
     minVolume: 1
@@ -51,7 +51,7 @@ drillEffect: [
   }
   {
     type: SoundEffect
-    sound: plasmaboom
+    sound: explosionArtillery
     minPitch: 1
     maxPitch: 1
     minVolume: 1
