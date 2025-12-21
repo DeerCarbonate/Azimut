@@ -9,20 +9,21 @@
 	health: 2100
 	speed: 0.46
 	hitSize: 14
+ stepSound: walkerStepSmall
 	mechLegColor: 0f1405
 	mechFrontSway: 0.4
 	mechStepParticles: true
 	faceTarget: true
-    canBoost: false
+ canBoost: false
 	healColor: f0aba488
-	description: Fires homing projectiles with a wide spread.
+	description: Fires projectiles with a wide spread.
 	abilities: [
     {
     type: ShieldRegenFieldAbility
     reload: 1100
     amount: 30
     range: 12
-    max: 120
+    max: 90
     }
 	]
 	parts: [
