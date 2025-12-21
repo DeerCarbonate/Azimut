@@ -63,7 +63,7 @@ preset: sixth
 	rotateSpeed: 5
 	reload: 70
  velocityRnd:0.2
-	shootSound: cannon_shoot_1
+	shootSound: shootCleroi
 	shootY: 4
 	shoot: {
 		type: ShootSpread
