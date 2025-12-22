@@ -148,7 +148,7 @@ weapons: [
 		progress: {
         type: charge
         op: curve
-        interp: pow3Out
+        interp: pow2Out
         }
       }
     ]
