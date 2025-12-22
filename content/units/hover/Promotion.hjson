@@ -145,9 +145,10 @@ weapons: [
         rotMove: 85
         y: 1.85
         followRotation: false
-        progress: {
-          type: charge
-          interp: pow5In
+		progress: {
+        type: charge
+        op: curve
+        interp: pow3Out
         }
       }
     ]
