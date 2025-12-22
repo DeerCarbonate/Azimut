@@ -1,0 +1,17 @@
+type: DirectionalUnloader
+size: 1
+name: Galvanized unloader
+health: 130
+category: distribution
+research: 11k-04-clip
+requirements: [
+  cobalt/10
+  zinc/60
+  geliarin/10
+  compound/5
+]
+speed: 3
+solid: false
+underBullets: true
+regionRotated1: 1
+allowCoreUnload: true
