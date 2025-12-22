@@ -1,7 +1,7 @@
 {
 	"name": "Platinum",
 	"description": "A metal used in electrochemical interactions.",
-	"color": "9da5b1",
+	"color": "f4f9fc",
 	"research": "raw-platinum",
 	"hardness": 1,
 	"charge": 0.0,

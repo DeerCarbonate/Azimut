@@ -1,7 +1,7 @@
 {
 	"name": "Raw platinum",
 	"description": "Needs heat treatment",
-	"color": "6e707f",
+	"color": "dae0ee",
 	"research": "cobalt",
 	"hardness": 1,
 	"charge": 0.0,
