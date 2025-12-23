@@ -381,7 +381,7 @@ parts: [
 		  }
       ]
     }
-    moveY: -2
+    moveY: -1
     moveX: -3.7
     moveRot: 0
     x: 0
@@ -394,7 +394,7 @@ parts: [
         outlineColor: 22251b
         outlineRadius: 0
         moveRot: 0
-        moveY: -0.3
+        moveY: 2.5
         moveX: -0.5
         x: 0
         y: 0
@@ -405,7 +405,7 @@ parts: [
         outlineColor: 22251b
         outlineRadius: 0
         moveRot: 0
-        moveY: -0.3
+        moveY: 2.5
         moveX: -0.5
         x: 0
         y: 0
@@ -415,8 +415,8 @@ parts: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
-        moveRot: 0
-        moveY: -0.3
+        moveRot: 8
+        moveY: 2.5
         moveX: -0.5
         x: 0
         y: 0
