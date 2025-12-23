@@ -33,16 +33,29 @@ canBoost: false
 description: Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit.
 abilities: [
   {
-    type: SuppressionFieldAbility
-    range: 2
-    orbRadius: 4.2
-	reload: 600 
-    orbSinScl: 6
-    color: cc918b
-    particleColor: ffbfad90
-    effectColor: ffbfad90
-	y: -4.8
-	layer: 100
+    effect: {
+      type: ParticleEffect
+      colorFrom: 22251b
+      y: -0.9
+      colorTo: ffbfad30
+      lifetime: 30
+      particles: 1
+      cone: 360
+      length: 0
+      baseLength: 0
+      lightScl: 2.5
+      lightOpacity: 2
+      spin: 0
+      sizeFrom: 2.3
+      sizeTo: 0
+      offset: 0
+    }
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 0.00000001
+    y: -7.2
+    x: 0
+	layer: 109
   }
 ]
 weapons: [
