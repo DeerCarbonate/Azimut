@@ -55,7 +55,6 @@ abilities: [
     interval: 0.00000001
     y: -8.2
     x: 0
-	layer: 100
   }
 ]
 weapons: [
