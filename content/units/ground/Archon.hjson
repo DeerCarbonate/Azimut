@@ -381,9 +381,9 @@ parts: [
 		  }
       ]
     }
-    moveY: -3.2
-    moveX: -1.2
-    moveRot: 7.6
+    moveY: -2
+    moveX: -3.7
+    moveRot: 0
     x: 0
     y: 0,
 
@@ -393,9 +393,9 @@ parts: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
-        moveRot: 2.2
-        moveY: -0.4
-        moveX: -2
+        moveRot: 0
+        moveY: -0.3
+        moveX: -0.5
         x: 0
         y: 0
       }
@@ -404,9 +404,9 @@ parts: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
-        moveRot: 2
+        moveRot: 0
         moveY: -0.3
-        moveX: -2.7
+        moveX: -0.5
         x: 0
         y: 0
       }
@@ -415,9 +415,9 @@ parts: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
-        moveRot: 2
-        moveY: -0.5
-        moveX: -3.4
+        moveRot: 0
+        moveY: -0.3
+        moveX: -0.5
         x: 0
         y: 0
       }
