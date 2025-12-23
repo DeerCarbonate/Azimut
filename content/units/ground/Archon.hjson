@@ -73,6 +73,9 @@ weapons: [
     ignoreRotation: false
 	shootStatus: slow
     shootY: 1.2
+	heatProgress: charge
+    heatColor: ff4500
+    heatLayer: 1
     shoot: {
       type: ShootSpread
       firstShotDelay: 540
