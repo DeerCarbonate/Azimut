@@ -365,7 +365,7 @@ parts: [
     outlineColor: 22251b
     outlineRadius: 0
     progress: {
-      type: charge
+      type: warmup
       ops: [
 		  {
 		     op: delay
@@ -393,6 +393,7 @@ parts: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
+        progress: charge
         moveRot: 0
         moveY: 2.5
         moveX: -0.5
@@ -404,8 +405,9 @@ parts: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
+        progress: charge
         moveRot: 0
-        moveY: 2.5
+        moveY: 4.5
         moveX: -0.5
         x: 0
         y: 0
@@ -415,8 +417,9 @@ parts: [
         mirror: true
         outlineColor: 22251b
         outlineRadius: 0
+        progress: charge
         moveRot: 8
-        moveY: 2.5
+        moveY: 6.5
         moveX: -0.5
         x: 0
         y: 0
