@@ -83,7 +83,9 @@ parts: [
     mirror: true
     outlineColor: 22251b
     outlineRadius: 0
-	heatProgress: heat
+	heatProgress: charge
+    heatColor: ff4500
+    heatLayer: 1
     progress: {
       type: warmup
       ops: [
@@ -112,7 +114,7 @@ parts: [
         suffix: -r
         mirror: true
         outlineColor: 22251b
-		heatProgress: heat
+		heatProgress: charge
         outlineRadius: 0
         moveRot: 1.5
         moveY: 2.5
@@ -126,7 +128,7 @@ parts: [
         suffix: -f
         mirror: true
         outlineColor: 22251b
-		heatProgress: heat
+		heatProgress: charge
         outlineRadius: 0
         moveRot: 2.5
         moveY: 4.5
@@ -140,7 +142,7 @@ parts: [
         suffix: -g
         mirror: true
         outlineColor: 22251b
-		heatProgress: heat
+		heatProgress: charge
         outlineRadius: 0
         moveRot: 3.5
         moveY: 6.5
