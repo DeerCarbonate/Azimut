@@ -35,9 +35,9 @@ abilities: [
   {
     effect: {
       type: ParticleEffect
-      colorFrom: 22251b
+      colorFrom: cc918b
       y: -0.9
-      colorTo: ffbfad30
+      colorTo: 22251b30
       lifetime: 30
       particles: 1
       cone: 360
@@ -53,9 +53,9 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 0.00000001
-    y: -7.2
+    y: -8.2
     x: 0
-	layer: 109
+	layer: 100
   }
 ]
 weapons: [
