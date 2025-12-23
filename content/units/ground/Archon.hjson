@@ -381,9 +381,9 @@ parts: [
 		  }
       ]
     }
-    moveY: -2.4
+    moveY: -3.2
     moveX: -1.2
-    moveRot: 7
+    moveRot: 7.6
     x: 0
     y: 0,
 
