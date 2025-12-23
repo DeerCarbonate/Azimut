@@ -37,7 +37,7 @@ abilities: [
       type: ParticleEffect
       colorFrom: cc918b
       y: -0.9
-      colorTo: 22251b30
+      colorTo: 22251b80
       lifetime: 30
       particles: 1
       cone: 360
