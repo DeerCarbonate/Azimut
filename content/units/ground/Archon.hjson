@@ -350,13 +350,13 @@ weapons: [
     alternate: false
     rotate: false
     rotateSpeed: 0
-    reload: 460
+    reload: 700
     shootSound: shoot-small-flame
     ignoreRotation: false
     shootY: 1.2
     shoot: {
       type: ShootSpread
-      firstShotDelay: 320
+      firstShotDelay: 540
     }
 parts: [
   {
