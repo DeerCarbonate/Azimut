@@ -77,8 +77,8 @@ preset: sixth
                 radius: 0
                 radiusTo: 8
                 stroke: 2.8
-				x: 0.6
-				y: -0.4
+				x: 0.9
+				y: -0.5
                 color1: af7765
                 color2: f0aba4
                 rotation: 40
@@ -90,14 +90,26 @@ preset: sixth
                 }
             }
 		]
-		smokeEffect: none
 		bullet: {
+	      smokeEffect: [{
+        type: ParticleEffect
+        colorFrom: 828587
+        colorTo: 32333900
+        particles: 1
+        cone: 20
+        lifetime: 18
+        length: 4
+        int: pow2in
+        sizeFrom: 0.6
+        sizeTo: 3.5
+      }
+	  ]
 shootEffect: {
 type: ParticleEffect
 lifetime: 18
-particles: 2
+particles: 3
 offsetX: 0
-length: 10
+length: 20
 line: true
 strokeFrom: 1.7
 strokeTo: 0.9
