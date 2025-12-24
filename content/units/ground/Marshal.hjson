@@ -97,9 +97,9 @@ preset: sixth
         colorTo: 32333900
         particles: 1
         cone: 20
-        lifetime: 18
-        length: 4
-        int: pow2in
+        lifetime: 45
+        length: 8
+        int: pow3Out
         sizeFrom: 0.6
         sizeTo: 3.5
       }
@@ -107,7 +107,7 @@ preset: sixth
 shootEffect: {
 type: ParticleEffect
 lifetime: 18
-particles: 3
+particles: 2
 offsetX: 0
 length: 20
 line: true
