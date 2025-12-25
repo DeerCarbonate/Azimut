@@ -6,8 +6,8 @@ particleRegion: particle
 useWindVector: true
 sizeMax: 8
 sizeMin: 5
-baseSpeed: 1.8
-density: 3200
+baseSpeed: 0.8
+density: 5200
 opacityMultiplier: 0.35
 noiseColor: fde3d8
 drawNoise: true
