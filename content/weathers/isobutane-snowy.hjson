@@ -1,13 +1,13 @@
 type: ParticleWeather
 sound: windhowl
-soundVol: 0.3
+soundVol: 0.2
 color: fde3d8
 particleRegion: particle
 useWindVector: true
 sizeMax: 8
 sizeMin: 5
 baseSpeed: 1.8
-density: 1370
+density: 3200
 opacityMultiplier: 0.35
 noiseColor: fde3d8
 drawNoise: true
