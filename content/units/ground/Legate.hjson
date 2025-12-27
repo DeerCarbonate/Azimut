@@ -49,7 +49,6 @@ objectives: [
 		rotate: true
 		rotateSpeed: 1.6
 		reload: 63
-		shootY: 7.3
 		inaccuracy: 2
 		shootSound: cannon_shoot_1
 		controllable: true
@@ -92,7 +91,7 @@ objectives: [
         particles: 3
         cone: 20
         lifetime: 35
-        length: 7
+        length: 2
         int: pow3Out
         sizeFrom: 0.3
         sizeTo: 2.1
@@ -116,7 +115,7 @@ objectives: [
 		splashDamageRadius: 8
 		splashDamage: 18
 		despawnEffect: none
-		bulletInterval: 1.2
+		bulletInterval: 1
 		intervalBullets: 1
 		intervalAngle: 180
 		intervalSpread: 0
