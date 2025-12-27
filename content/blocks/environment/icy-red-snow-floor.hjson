@@ -1,0 +1,7 @@
+type: Floor
+name: "Icy red snow floor"
+attributes: {
+	water: -0.65
+}
+variants: 3
+blendGroup: red-snow-floor

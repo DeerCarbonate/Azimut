@@ -1,0 +1,7 @@
+type: Floor
+name: "Snowy-ashium floor"
+attributes: {
+	water: -0.65
+}
+variants: 3
+blendGroup: ashium-floor
