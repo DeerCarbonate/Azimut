@@ -49,7 +49,7 @@ weapons: [
         particles: 2
         cone: 20
         lifetime: 55
-        length: 7
+        length: 13
         int: pow3Out
         sizeFrom: 0.6
         sizeTo: 3.8
@@ -74,7 +74,7 @@ weapons: [
         particles: 2
         cone: 20
         lifetime: 55
-        length: 7
+        length: 13
         int: pow3Out
         sizeFrom: 0.6
         sizeTo: 3.8

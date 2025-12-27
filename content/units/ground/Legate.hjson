@@ -91,7 +91,7 @@ objectives: [
         particles: 3
         cone: 20
         lifetime: 35
-        length: 2
+        length: 10
         int: pow3Out
         sizeFrom: 0.3
         sizeTo: 2.1
