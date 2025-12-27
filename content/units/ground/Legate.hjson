@@ -85,16 +85,29 @@ objectives: [
 			offset: 1
 			lifetime: 8
 		}
+			      smokeEffect: [{
+        type: ParticleEffect
+        colorFrom: 828587
+        colorTo: 32333900
+        particles: 3
+        cone: 20
+        lifetime: 35
+        length: 7
+        int: pow3Out
+        sizeFrom: 0.3
+        sizeTo: 2.1
+        }
+	    ]
 		type: BasicBulletType
 		damage: 12
-		lifetime: 26
+		lifetime: 29
 		collidesTiles: true
 		keepVelocity: false
 		sprite: missile-large
 		collidesAir: false
 		width: 11
 		height: 7.5
-		speed: 7.1
+		speed: 6.1
 		backColor: af7765
 		frontColor: cc918b
 		trailColor: af7765
