@@ -444,7 +444,6 @@ fragBullet: {
 		pierce: true
 		pierceBuilding: true
 	   }
-	 }
    hitEffect: {
     type: MultiEffect,
     effects: [
