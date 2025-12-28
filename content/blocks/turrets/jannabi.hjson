@@ -432,9 +432,9 @@ shoot: {
  trailLength: 12
  sprite: missile-large
  	fragOnHit: true
-	fragBullets: 13
-    fragLifeMin: 4.7
-	fragLifeMax: 9.2
+	fragBullets: 10
+    fragLifeMin: 3.7
+	fragLifeMax: 6.2
 fragBullet: { 
     type: ArtilleryBulletType
     collidesTiles: false
@@ -540,7 +540,7 @@ smokeEffect: none
         particles: 1
         length: -0.001
         cone: 0
-        lifetime: 37
+        lifetime: 30
         colorTo: fff4a3
         lenFrom: 60
         lenTo: 60
@@ -568,7 +568,7 @@ smokeEffect: none
           particles: 1
           length: -0.001
           cone: 0
-          lifetime: 37
+          lifetime: 30
           colorTo: fff4a3
           lenFrom: 60
           lenTo: 60
