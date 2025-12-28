@@ -25,7 +25,7 @@ rotateSpeed: 0.002
 fogRadius: 0
 maxRange: 0
 health: 20000
-speed: 1.8
+speed: 1.6
 armor: 1
 deathExplosionEffect: none
 loopSoundVolume: 0
@@ -44,7 +44,7 @@ abilities: [
     type: EnergyFieldAbility
     maxTargets: 5
     damage: 85
-    reload: 16
+    reload: 15
     range: 180
 	color: fff4a3
 	status: slow
