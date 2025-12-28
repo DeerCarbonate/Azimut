@@ -408,6 +408,27 @@ shoot: {
 			}
 	  ]
 	  }
+	      caterium: {
+ type: BasicBulletType
+ collidesGround: true
+ frontColor: dacaaa
+ backColor: 957655
+ hitColor: dacaaa
+ damage: 240
+ despawnSound: explosionbig
+ hitSound: explosionbig
+ lifetime: 68
+ speed: 10.2
+ drag: 0.01
+ width: 17,
+ scaleLife: true
+ height: 17
+ ammoMultiplier: 4
+ buildingDamageMultiplier: 0.1
+ trailColor: 957655
+ trailWidth: 2
+ trailLength: 7.4
+	  }
 }
 requirements: [
   cobalt/450,
