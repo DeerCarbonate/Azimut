@@ -463,7 +463,7 @@ shoot: {
 		{
         type: WaveEffect,
         startDelay: 0,
-        lifetime: 55,
+        lifetime: 45,
         sizeFrom: 0,
         sizeTo: 52.5,
         strokeFrom: 0,
@@ -478,7 +478,7 @@ shoot: {
         type: WaveEffect,
         startDelay: 45,
         lifetime: 220,
-        sizeFrom: 52.5,
+        sizeFrom: 51,
         sizeTo: 48,
         strokeFrom: 94,
         strokeTo: 80,
