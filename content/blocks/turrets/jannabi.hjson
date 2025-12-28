@@ -439,10 +439,10 @@ shoot: {
         lifetime: 220
         sizeFrom: 95
         sizeTo: 80
-        strokeFrom: 4
-        strokeTo: 4
+        strokeFrom: 2.5
+        strokeTo: 0
         colorFrom: dacaaa
-        colorTo: dacaaa00
+        colorTo: dacaaa
         followParent: true
         rotWithParent: true
 	    interp: pow3Out
@@ -453,8 +453,8 @@ shoot: {
         lifetime: 45
         sizeFrom: 0
         sizeTo: 95
-        strokeFrom: 4
-        strokeTo: 4
+        strokeFrom: 2.5
+        strokeTo: 2.5
         colorFrom: dacaaa
         colorTo: dacaaa
         followParent: true
@@ -480,7 +480,7 @@ shoot: {
         startDelay: 45,
         lifetime: 220,
         sizeFrom: 50,
-        sizeTo: 48,
+        sizeTo: 47,
         strokeFrom: 93,
         strokeTo: 90,
         colorFrom: dacaaa30,
