@@ -450,12 +450,12 @@ fragBullet: {
 
     buildingDamageMultiplier: 1.5
 
-    splashDamageRadius: 75
+    splashDamageRadius: 0
     lightOpacity: 0.5
     splashDamage: 50
     lightRadius: 30
-    lifetime: 80
-    damage: 20
+    lifetime: 1
+    damage: 0
     speed: 0
 	pierceCap: 300
 	pierceArmor: false
