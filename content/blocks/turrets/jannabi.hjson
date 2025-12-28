@@ -472,43 +472,66 @@ fragBullet: {
 	fragBullets: 1
     fragLifeMin: 0.245
 	fragLifeMax: 0.345
-fragBullet: {
-  type: BulletType
-  speed: 0
-  lifetime: 2
-  damage: 48
+			fragBullet: {
+type: ArtilleryBulletType
+absorbable: false
+hittable: false
+speed: 8
+collidesGround: true 
+damage: 1
+backColor: ffffff
+frontColor: fff4a3
+trailEffect: none
+backColor: ffffff00
+frontColor: ffffff00
+smokeEffect: none
+	despawnEffect: {
+	    type: MultiEffect,
+    effects: [
+	{
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 42
+    sizeFrom: 0
+    sizeTo: 24
+	strokeFrom: 4
+	strokeTo: 0
+    colorFrom: fff4a395
+    colorTo: fff4a300
+    }
+	{
+    type: ExplosionEffect
 
-  hittable: false
-  absorbable: false
-  pierce: true
-  pierceBuilding: true
+    lifetime: 48
 
-  hitEffect: none
-  despawnEffect: {
-    line: true
-    particles: 1
-    length: -0.001
-    cone: 0
-    lifetime: 30
+    waveColor: fff4a380
+    waveStroke: 1.4
+    waveRad: 12
 
-    colorTo: fff4a3 
+    smokeColor: fff4a380
+    smokeSizeBase: 0
+    smokeSize: 4
+    smokes: 3
 
-    lenFrom: 60
-    lenTo: 60
-    strokeFrom: 3
-    strokeTo: 0
-  }
-
-  fragBullets: 2
-  fragRandomSpread: 45
-  fragAngle: 22.5
-  fragOffsetMin: 60
-  fragOffsetMax: 60
-      fragBullet: {
+    sparkColor: fff4a380
+    sparkStroke: 1.2
+    sparkRad: 12
+    sparkLen: 3
+    sparks: 4
+		}
+	]
+}
+    fragBullets: 2
+    fragRandomSpread: 45
+    fragAngle: -22.5
+    fragOffsetMin: 60
+    fragOffsetMax: 60
+    fragBullet: {
       type: BulletType
       createChance: 0.75
       speed: 0
-      damage: 402
+      damage: 40
       lifetime: 2
       hittable: false
       absorbable: false
@@ -521,16 +544,71 @@ fragBullet: {
         length: -0.001
         cone: 0
         lifetime: 30
-		
-        colorTo: fff4a3 
-		
+        colorTo: fff4a3
         lenFrom: 60
         lenTo: 60
         strokeFrom: 3.5
         strokeTo: 0
       }
-}
-
+      fragBullets: 2
+      fragRandomSpread: 45
+      fragAngle: 22.5
+      fragOffsetMin: 60
+      fragOffsetMax: 60
+      fragBullet: {
+        type: BulletType
+        createChance: 0.75
+        speed: 0
+        damage: 36
+        lifetime: 2
+        hittable: false
+        absorbable: false
+        pierce: true
+        pierceBuilding: true
+        hitEffect: none
+        despawnEffect: {
+          line: true
+          particles: 1
+          length: -0.001
+          cone: 0
+          lifetime: 30
+          colorTo: fff4a3
+          lenFrom: 60
+          lenTo: 60
+          strokeFrom: 3
+          strokeTo: 0
+        }
+        fragBullets: 2
+        fragRandomSpread: 45
+        fragAngle: -22.5
+        fragOffsetMin: 60
+        fragOffsetMax: 60
+        fragBullet: {
+          type: BulletType
+          createChance: 0.5
+          speed: 0
+          damage: 32
+          lifetime: 2
+          hittable: false
+          absorbable: false
+          pierce: true
+          pierceBuilding: true
+          hitEffect: none
+          despawnEffect: {
+            line: true
+            particles: 1
+            length: -0.001
+            cone: 0
+            lifetime: 30
+            colorTo: fff4a3
+            lenFrom: 60
+            lenTo: 60
+            strokeFrom: 2.5
+            strokeTo: 0
+          }
+		 }
+		}
+	   }
 }
 }
    hitEffect: {
