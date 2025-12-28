@@ -616,7 +616,7 @@ smokeEffect: none
 		{
         type: WaveEffect
         startDelay: 45
-        lifetime: 180
+        lifetime: 130
         sizeFrom: 95
         sizeTo: 80
         strokeFrom: 2.5
@@ -658,7 +658,7 @@ smokeEffect: none
 		{
         type: WaveEffect,
         startDelay: 45,
-        lifetime: 200,
+        lifetime: 130,
         sizeFrom: 50,
         sizeTo: 43,
         strokeFrom: 93,
