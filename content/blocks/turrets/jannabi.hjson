@@ -454,8 +454,7 @@ fragBullet: {
     lightOpacity: 0.5
     splashDamage: 50
     lightRadius: 30
-    lifetime: 8
-	lifeMin:
+    lifetime: 3
     damage: 0
     speed: 0
 	pierceCap: 300
@@ -470,8 +469,8 @@ fragBullet: {
 	hitEffect: none
 	fragOnHit: true
 	fragBullets: 1
-    fragLifeMin: 0.245
-	fragLifeMax: 0.345
+    fragLifeMin: 0.200
+	fragLifeMax: 0.215
 			fragBullet: {
 type: ArtilleryBulletType
 absorbable: false
@@ -523,8 +522,8 @@ smokeEffect: none
 	]
 }
     fragBullets: 2
-    fragRandomSpread: 165
-    fragAngle: -25
+    fragRandomSpread: 65
+    fragAngle: -90
     fragOffsetMin: 60
     fragOffsetMax: 60
     fragBullet: {
@@ -543,7 +542,7 @@ smokeEffect: none
         particles: 1
         length: -0.001
         cone: 0
-        lifetime: 30
+        lifetime: 15
         colorTo: fff4a3
         lenFrom: 60
         lenTo: 60
@@ -571,7 +570,7 @@ smokeEffect: none
           particles: 1
           length: -0.001
           cone: 0
-          lifetime: 30
+          lifetime: 15
           colorTo: fff4a3
           lenFrom: 60
           lenTo: 60
@@ -599,7 +598,7 @@ smokeEffect: none
             particles: 1
             length: -0.001
             cone: 0
-            lifetime: 30
+            lifetime: 15
             colorTo: fff4a3
             lenFrom: 60
             lenTo: 60
