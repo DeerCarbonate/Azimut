@@ -509,7 +509,7 @@ fragBullet: {
       type: BulletType
       createChance: 0.75
       speed: 0
-      damage: 40
+      damage: 402
       lifetime: 2
       hittable: false
       absorbable: false
@@ -522,12 +522,16 @@ fragBullet: {
         length: -0.001
         cone: 0
         lifetime: 30
+		
         colorTo: fff4a3 
+		
         lenFrom: 60
         lenTo: 60
         strokeFrom: 3.5
         strokeTo: 0
       }
+}
+
 }
 }
    hitEffect: {
