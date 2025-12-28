@@ -429,6 +429,25 @@ shoot: {
  trailWidth: 2.7
  trailLength: 12
  sprite: missile-large
+   hitEffect: {
+    type: MultiEffect,
+    effects: [
+		{
+        type: WaveEffect
+        startDelay: 0
+        lifetime: 160
+        sizeFrom: 95
+        sizeTo: 80
+        strokeFrom: 3
+        strokeTo: 3
+        colorFrom: dacaaa
+        colorTo: dacaaa90
+        followParent: true
+        rotWithParent: true
+	    interp: pow3Out
+		}
+	]
+}
 	  }
 }
 requirements: [
