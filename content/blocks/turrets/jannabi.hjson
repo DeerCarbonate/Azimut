@@ -412,9 +412,9 @@ shoot: {
  type: BasicBulletType
  collidesTiles: true
  collidesGround: true
- frontColor: dacaaa
+ frontColor: fff4a3
  backColor: 957655
- hitColor: dacaaa
+ hitColor: fff4a3
  damage: 240
  despawnSound: explosionbig
  hitSound: explosionbig
@@ -441,8 +441,8 @@ shoot: {
         sizeTo: 80
         strokeFrom: 2.5
         strokeTo: 0
-        colorFrom: dacaaa
-        colorTo: dacaaa
+        colorFrom: fff4a3
+        colorTo: fff4a3
         followParent: true
         rotWithParent: true
 	    interp: pow3Out
@@ -455,8 +455,8 @@ shoot: {
         sizeTo: 95
         strokeFrom: 2.5
         strokeTo: 2.5
-        colorFrom: dacaaa
-        colorTo: dacaaa
+        colorFrom: fff4a3
+        colorTo: fff4a3
         followParent: true
         rotWithParent: true
 	    interp: pow3Out
@@ -469,8 +469,8 @@ shoot: {
         sizeTo: 50,
         strokeFrom: 0,
         strokeTo: 93,
-        colorFrom: dacaaa00,
-        colorTo: dacaaa30,
+        colorFrom: fff4a300,
+        colorTo: fff4a330,
         followParent: true,
         rotWithParent: true,
 		interp: pow3Out
@@ -483,8 +483,8 @@ shoot: {
         sizeTo: 47,
         strokeFrom: 93,
         strokeTo: 90,
-        colorFrom: dacaaa30,
-        colorTo: dacaaa00,
+        colorFrom: fff4a330,
+        colorTo: fff4a300,
         followParent: true,
         rotWithParent: true,
 		interp: pow3Out
