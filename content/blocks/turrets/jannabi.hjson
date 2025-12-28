@@ -410,6 +410,7 @@ shoot: {
 	  }
 	      caterium: {
  type: BasicBulletType
+ collidesTiles: true
  collidesGround: true
  frontColor: dacaaa
  backColor: 957655
@@ -467,7 +468,7 @@ shoot: {
         sizeFrom: 0,
         sizeTo: 52.5,
         strokeFrom: 0,
-        strokeTo: 94,
+        strokeTo: 93,
         colorFrom: dacaaa00,
         colorTo: dacaaa30,
         followParent: true,
@@ -478,10 +479,10 @@ shoot: {
         type: WaveEffect,
         startDelay: 45,
         lifetime: 220,
-        sizeFrom: 51,
+        sizeFrom: 52.5,
         sizeTo: 48,
-        strokeFrom: 94,
-        strokeTo: 80,
+        strokeFrom: 93,
+        strokeTo: 77,
         colorFrom: dacaaa30,
         colorTo: dacaaa00,
         followParent: true,
