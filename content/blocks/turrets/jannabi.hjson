@@ -452,8 +452,8 @@ fragBullet: {
 
     splashDamageRadius: 0
     lightOpacity: 0.5
-    splashDamage: 50
-    lightRadius: 30
+    splashDamage: 0
+    lightRadius: 00
     lifetime: 12
     damage: 0
     speed: 0
@@ -471,6 +471,22 @@ fragBullet: {
 	fragBullets: 1
     fragLifeMin: 0.070
 	fragLifeMax: 0.300
+				fragBullet: {
+type: ArtilleryBulletType
+absorbable: false
+hittable: false
+speed: 8
+collidesGround: true 
+damage: 1
+backColor: ffffff
+frontColor: f6afdd
+trailEffect: none
+backColor: ffffff00
+frontColor: ffffff00
+smokeEffect: none
+	fragBullets: 1
+    fragLifeMin: 0.070
+	fragLifeMax: 0.300
 			fragBullet: {
         type: BulletType
         spawnUnit: EMP-missile
@@ -478,6 +494,7 @@ fragBullet: {
         collidesAir: false
         speed: 0
 	   }
+	 }
 } 
    hitEffect: {
     type: MultiEffect,

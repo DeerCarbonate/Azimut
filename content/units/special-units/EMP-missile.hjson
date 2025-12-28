@@ -26,10 +26,10 @@ rotateSpeed: 0
 fogRadius: 0
 maxRange: 0
 health: 20000
-speed: 1.5
+speed: 0.04
 armor: 1
 deathExplosionEffect: none
-loopSoundVolume: 0.5
+loopSoundVolume: 0
 
 trailColor: fff4a3
 trailLength: 0
