@@ -432,7 +432,7 @@ shoot: {
  trailLength: 12
  sprite: missile-large
  	fragOnHit: true
-	fragBullets: 10
+	fragBullets: 7
     fragLifeMin: 3.7
 	fragLifeMax: 6.2
 fragBullet: { 
@@ -472,113 +472,11 @@ fragBullet: {
     fragLifeMin: 0.070
 	fragLifeMax: 0.300
 			fragBullet: {
-type: ArtilleryBulletType
-absorbable: false
-hittable: false
-speed: 8
-collidesGround: true 
-damage: 1
-backColor: ffffff
-frontColor: fff4a3
-trailEffect: none
-backColor: ffffff00
-frontColor: ffffff00
-smokeEffect: none
-	despawnEffect: {
-	    type: MultiEffect,
-    effects: [
-    {
-      type: Effect
-      lifetime: 24
-      color: fff4a3
-      lines: {
-        amount: 20
-        length: 26
-        stroke: 3
-      }
-	  }
-	{
-    type: ExplosionEffect
-
-    lifetime: 48
-
-    waveColor: fff4a380
-    waveStroke: 1.4
-    waveRad: 12
-
-    smokeColor: fff4a380
-    smokeSizeBase: 0
-    smokeSize: 4
-    smokes: 3
-
-    sparkColor: fff4a380
-    sparkStroke: 1.2
-    sparkRad: 12
-    sparkLen: 3
-    sparks: 4
-		}
-	]
-}
-    fragBullets: 2
-    fragRandomSpread: 65
-    fragAngle: -90
-    fragOffsetMin: 60
-    fragOffsetMax: 60
-    fragBullet: {
-      type: BulletType
-      createChance: 0.75
-      speed: 0
-      damage: 40
-      lifetime: 2
-      hittable: false
-      absorbable: false
-      pierce: true
-      pierceBuilding: true
-      hitEffect: none
-      despawnEffect: {
-        line: true
-        particles: 1
-        length: -0.001
-        cone: 0
-        lifetime: 30
-        colorTo: fff4a3
-        lenFrom: 60
-        lenTo: 60
-        strokeFrom: 3.5
-        strokeTo: 0
-		rotOffset: 20
-      }
-      fragBullets: 2
-      fragRandomSpread: 45
-      fragAngle: 22.5
-      fragOffsetMin: 60
-      fragOffsetMax: 60
-      fragBullet: {
         type: BulletType
-        createChance: 0.75
+        spawnUnit: EMP-missile
+        keepVelocity: false
+        collidesAir: false
         speed: 0
-        damage: 36
-        lifetime: 2
-        hittable: false
-        absorbable: false
-        pierce: true
-        pierceBuilding: true
-        hitEffect: none
-        despawnEffect: {
-          line: true
-          particles: 1
-          length: -0.001
-          cone: 0
-          lifetime: 30
-          colorTo: fff4a3
-          lenFrom: 60
-          lenTo: 60
-          strokeFrom: 3
-          strokeTo: 0
-		  rotOffset: 20
-        }
-		 }
-		}
 	   }
 } 
    hitEffect: {

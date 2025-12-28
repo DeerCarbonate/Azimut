@@ -1,0 +1,75 @@
+type: missile
+template: MissileUnitType
+controller: MissileAI
+spawnStatus: melting
+spawnStatusDuration: 999999
+
+playerControllable: false
+allowedInPayloads: false
+outlineColor: 1b1c25
+outlineRadius: 3
+createScorch: true
+createWreck: false
+lowAltitude: true
+useUnitCap: false
+drawCell: false
+physics: false
+hitSize: 1.2
+flying: true
+
+envDisabled: 0
+envEnabled: -1
+
+missileAccelTime: 10
+lifetime: 90
+rotateSpeed: 0
+fogRadius: 0
+maxRange: 0
+health: 20000
+speed: 0
+armor: 1
+homingDelay: 30
+deathExplosionEffect: none
+loopSoundVolume: 0.5
+
+trailColor: fff4a3
+trailLength: 0
+trailWidth: 0
+engineColor: fff4a3
+engineSize: 0
+engineOffset: 3
+engineLayer: 100
+abilities: [
+    {
+    type: EnergyFieldAbility
+    maxTargets: 2
+    damage: 120
+    reload: 7
+    range: 83
+	color: fff4a3
+	status: slow
+	statusDuration: 90
+    x: 0
+    y: 0
+	sameTypeHealMult: 0.03
+    statusDuration: 0
+    healPercent: 0.01
+	healEffect: 0
+}
+]
+
+immunities: [ slow, spore-slowed, tarred]
+
+parts: [
+      {
+     type: ShapePart
+     hollow: true
+     circle: true
+     layer: 110
+     color: fff4a3
+     stroke: 1.4
+     strokeTo: 2
+     radius: 4
+	 radiusTo: 4
+      }
+    ]
