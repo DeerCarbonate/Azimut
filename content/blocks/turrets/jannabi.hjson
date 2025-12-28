@@ -487,18 +487,16 @@ smokeEffect: none
 	despawnEffect: {
 	    type: MultiEffect,
     effects: [
-	{
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    lifetime: 42
-    sizeFrom: 0
-    sizeTo: 24
-	strokeFrom: 4
-	strokeTo: 0
-    colorFrom: fff4a395
-    colorTo: fff4a300
-    }
+    {
+      type: Effect
+      lifetime: 24
+      color: fff4a3
+      lines: {
+        amount: 20
+        length: 26
+        stroke: 3
+      }
+	  }
 	{
     type: ExplosionEffect
 
@@ -577,34 +575,6 @@ smokeEffect: none
           strokeFrom: 3
           strokeTo: 0
         }
-        fragBullets: 2
-        fragRandomSpread: 45
-        fragAngle: -22.5
-        fragOffsetMin: 60
-        fragOffsetMax: 60
-        fragBullet: {
-          type: BulletType
-          createChance: 0.5
-          speed: 0
-          damage: 32
-          lifetime: 2
-          hittable: false
-          absorbable: false
-          pierce: true
-          pierceBuilding: true
-          hitEffect: none
-          despawnEffect: {
-            line: true
-            particles: 1
-            length: -0.001
-            cone: 0
-            lifetime: 37
-            colorTo: fff4a3
-            lenFrom: 60
-            lenTo: 60
-            strokeFrom: 2.5
-            strokeTo: 0
-          }
 		 }
 		}
 	   }
