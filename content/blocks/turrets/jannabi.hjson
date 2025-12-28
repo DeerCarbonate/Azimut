@@ -467,8 +467,8 @@ shoot: {
         lifetime: 45
         region: azimut-shockwave
         sizeFrom: 0
-        sizeTo: 90
-        colorTo: dacaaa
+        sizeTo: 110
+        colorTo: dacaaa95
 	    baseRotation: 90
           }
 		  {
@@ -477,8 +477,8 @@ shoot: {
         length: 0
         lifetime: 220
         region: azimut-shockwave
-        sizeFrom: 80
-        sizeTo: 90
+        sizeFrom: 110
+        sizeTo: 80
         colorTo: dacaaa00
 	    baseRotation: 90
           }
