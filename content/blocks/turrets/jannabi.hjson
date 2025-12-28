@@ -641,7 +641,6 @@ smokeEffect: none
 		}
 	]
 }
-	  }
 }
 requirements: [
   cobalt/450,
