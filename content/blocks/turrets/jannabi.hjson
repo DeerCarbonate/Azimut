@@ -525,8 +525,8 @@ smokeEffect: none
     fragBullets: 2
     fragRandomSpread: 45
     fragAngle: -22.5
-    fragOffsetMin: 60
-    fragOffsetMax: 60
+    fragOffsetMin: 10
+    fragOffsetMax: 90
     fragBullet: {
       type: BulletType
       createChance: 0.75
@@ -553,8 +553,8 @@ smokeEffect: none
       fragBullets: 2
       fragRandomSpread: 45
       fragAngle: 22.5
-      fragOffsetMin: 60
-      fragOffsetMax: 60
+      fragOffsetMin: 10
+      fragOffsetMax: 90
       fragBullet: {
         type: BulletType
         createChance: 0.75
@@ -581,8 +581,8 @@ smokeEffect: none
         fragBullets: 2
         fragRandomSpread: 45
         fragAngle: -22.5
-        fragOffsetMin: 60
-        fragOffsetMax: 60
+        fragOffsetMin: 10
+        fragOffsetMax: 90
         fragBullet: {
           type: BulletType
           createChance: 0.5
@@ -609,7 +609,7 @@ smokeEffect: none
 		 }
 		}
 	   }
-}
+} 
 }
    hitEffect: {
     type: MultiEffect,
