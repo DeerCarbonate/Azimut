@@ -432,7 +432,7 @@ shoot: {
  trailLength: 12
  sprite: missile-large
  	fragOnHit: true
-	fragBullets: 7
+	fragBullets: 4
     fragLifeMin: 3.7
 	fragLifeMax: 6.2
 fragBullet: { 
@@ -469,8 +469,8 @@ fragBullet: {
 	hitEffect: none
 	fragOnHit: true
 	fragBullets: 1
-    fragLifeMin: 0.070
-	fragLifeMax: 0.300
+    fragLifeMin: 0.335
+	fragLifeMax: 0.345
 				fragBullet: {
 type: ArtilleryBulletType
 absorbable: false
