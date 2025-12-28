@@ -61,6 +61,7 @@ abilities: [
 	hitBuildings:true
 	hitUnits:true
 	sectorRad: 0
+	hitEffect: none
 }
 {
 type:RegenAbility
@@ -82,65 +83,4 @@ parts: [
      radius: 5
 	 radiusTo: 5
       }
-    ]
-	
-	bullet: {
-    type: ExplosionBulletType
-    collidesAir: false
-    despawnShake: 0
-    maxRange: 0
-
-    buildingDamageMultiplier: 1.15
-
-    splashDamageRadius: 0
-    splashDamage: 0
-
-    hitSound: energy-blade-hit
-shootEffect: [
-{
-followParent: false
-length: 0
-lifetime: 35
-particles: 1
-cone: 0
-region: azimut-shockwave
-sizeFrom: 20
-sizeTo: 23
-colorTo: fff4a300
-baseRotation: 180
-interp: pow3Out
-}
-]
-		            despawnEffect: [
-				{
-				type: WaveEffect
-				rotWithParent: true
-				followParent: true
-				lifetime: 35
-				sizeFrom: 26
-				sizeTo: 28
-				strokeFrom: 6
-				strokeTo: 2
-                colorFrom: fff4a380
-                colorTo: fff4a300
-				interp:pow3Out
-				}
-			]
-		            hitEffect: [
-				{
-				type: WaveEffect
-				rotWithParent: true
-				followParent: true
-				lifetime: 35
-				sizeFrom: 26
-				sizeTo: 28
-				strokeFrom: 6
-				strokeTo: 2
-                colorFrom: fff4a380
-                colorTo: fff4a300
-				interp:pow3Out
-				}
-			]
-    }
-}
     ]
