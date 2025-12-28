@@ -426,8 +426,9 @@ shoot: {
  ammoMultiplier: 4
  buildingDamageMultiplier: 0.1
  trailColor: 957655
- trailWidth: 2
- trailLength: 7.4
+ trailWidth: 2.7
+ trailLength: 12
+ sprite: missile-large
 	  }
 }
 requirements: [
