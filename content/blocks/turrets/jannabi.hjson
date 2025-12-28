@@ -464,10 +464,10 @@ shoot: {
 		startDelay: 0
         particles: 1
         length: 0
-        lifetime: 74
+        lifetime: 45
         region: azimut-shockwave
         sizeFrom: 0
-        sizeTo: 95
+        sizeTo: 90
         colorTo: dacaaa
 	    baseRotation: 90
           }
@@ -477,8 +477,8 @@ shoot: {
         length: 0
         lifetime: 220
         region: azimut-shockwave
-        sizeFrom: 0
-        sizeTo: 95
+        sizeFrom: 80
+        sizeTo: 90
         colorTo: dacaaa00
 	    baseRotation: 90
           }
