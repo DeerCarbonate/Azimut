@@ -21,7 +21,7 @@ envDisabled: 0
 envEnabled: -1
 
 missileAccelTime: 10
-lifetime: 90
+lifetime: 60
 rotateSpeed: 0
 fogRadius: 0
 maxRange: 0
