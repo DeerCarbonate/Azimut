@@ -579,7 +579,6 @@ smokeEffect: none
 		}
 	   }
 } 
-}
    hitEffect: {
     type: MultiEffect,
     effects: [
