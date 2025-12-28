@@ -43,8 +43,8 @@ abilities: [
     {
     type: EnergyFieldAbility
     maxTargets: 5
-    damage: 60
-    reload: 6
+    damage: 45
+    reload: 9
     range: 180
 	color: fff4a3
 	status: slow
