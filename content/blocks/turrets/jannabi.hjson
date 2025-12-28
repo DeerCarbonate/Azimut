@@ -410,6 +410,7 @@ shoot: {
 	  }
 	      caterium: {
  type: BasicBulletType
+ reloadMultiplier:0.3
  collidesTiles: true
  collidesGround: true
  frontColor: fff4a3
@@ -430,13 +431,105 @@ shoot: {
  trailWidth: 2.7
  trailLength: 12
  sprite: missile-large
+ 	fragOnHit: true
+	fragBullets: 8
+    fragLifeMin: 4.7
+	fragLifeMax: 5.7
+fragBullet: { 
+    type: ArtilleryBulletType
+    collidesTiles: false
+    collidesAir: true
+    despawnShake: 0
+    absorbable: false
+    hittable: false
+    height: 0
+    width: 0
+	trailEffect: none
+	backColor: ffffff00
+	frontColor: ffffff00
+
+    buildingDamageMultiplier: 1.5
+
+    splashDamageRadius: 75
+    lightOpacity: 0.5
+    splashDamage: 50
+    lightRadius: 30
+    lifetime: 80
+    damage: 20
+    speed: 0
+	pierceCap: 300
+	pierceArmor: false
+	
+	suppressionEffectChance: 0
+	
+    smokeEffect: none
+	despawnEffect: none
+	despawnSound: none
+	hitSound: none
+	hitEffect: none
+	fragOnHit: true
+	fragBullets: 1
+    fragLifeMin: 0.01
+	fragLifeMax: 0.26
+			fragBullet: {
+type: ArtilleryBulletType
+absorbable: false
+hittable: false
+speed: 8
+collidesGround: true 
+damage: 1
+backColor: ffffff
+frontColor: fff4a3
+trailEffect: none
+backColor: ffffff00
+frontColor: ffffff00
+smokeEffect: none
+	despawnEffect: {
+	    type: MultiEffect,
+    effects: [
+	{
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 42
+    sizeFrom: 0
+    sizeTo: 24
+	strokeFrom: 4
+	strokeTo: 0
+    colorFrom: fff4a395
+    colorTo: fff4a300
+    }
+	{
+    type: ExplosionEffect
+
+    lifetime: 48
+
+    waveColor: fff4a380
+    waveStroke: 1.4
+    waveRad: 12
+
+    smokeColor: fff4a380
+    smokeSizeBase: 0
+    smokeSize: 4
+    smokes: 3
+
+    sparkColor: fff4a380
+    sparkStroke: 1.2
+    sparkRad: 12
+    sparkLen: 3
+    sparks: 4
+		}
+	]
+}
+}
+}
    hitEffect: {
     type: MultiEffect,
     effects: [
 		{
         type: WaveEffect
         startDelay: 45
-        lifetime: 220
+        lifetime: 180
         sizeFrom: 95
         sizeTo: 80
         strokeFrom: 2.5
@@ -478,7 +571,7 @@ shoot: {
 		{
         type: WaveEffect,
         startDelay: 45,
-        lifetime: 240,
+        lifetime: 200,
         sizeFrom: 50,
         sizeTo: 43,
         strokeFrom: 93,
