@@ -441,7 +441,7 @@ shoot: {
         strokeFrom: 4
         strokeTo: 4
         colorFrom: dacaaa
-        colorTo: dacaaa90
+        colorTo: dacaaa00
         followParent: true
         rotWithParent: true
 	    interp: pow3Out
@@ -455,7 +455,7 @@ shoot: {
         strokeFrom: 4
         strokeTo: 4
         colorFrom: dacaaa
-        colorTo: dacaaa90
+        colorTo: dacaaa
         followParent: true
         rotWithParent: true
 	    interp: pow3Out
