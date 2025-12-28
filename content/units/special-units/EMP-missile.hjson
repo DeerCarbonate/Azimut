@@ -43,7 +43,7 @@ abilities: [
     type: EnergyFieldAbility
     maxTargets: 2
     damage: 120
-    reload: 7
+    reload: 15
     range: 83
 	color: fff4a3
 	status: slow
@@ -54,6 +54,9 @@ abilities: [
     statusDuration: 0
     healPercent: 0.01
 	healEffect: 0
+	effect: none
+	continuous: false
+	rotate: false
 }
 ]
 
