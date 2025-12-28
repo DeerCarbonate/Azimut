@@ -469,8 +469,8 @@ fragBullet: {
 	hitEffect: none
 	fragOnHit: true
 	fragBullets: 1
-    fragLifeMin: 0.200
-	fragLifeMax: 0.215
+    fragLifeMin: 0.185
+	fragLifeMax: 0.200
 			fragBullet: {
 type: ArtilleryBulletType
 absorbable: false
@@ -542,7 +542,7 @@ smokeEffect: none
         particles: 1
         length: -0.001
         cone: 0
-        lifetime: 15
+        lifetime: 37
         colorTo: fff4a3
         lenFrom: 60
         lenTo: 60
@@ -570,7 +570,7 @@ smokeEffect: none
           particles: 1
           length: -0.001
           cone: 0
-          lifetime: 15
+          lifetime: 37
           colorTo: fff4a3
           lenFrom: 60
           lenTo: 60
@@ -598,7 +598,7 @@ smokeEffect: none
             particles: 1
             length: -0.001
             cone: 0
-            lifetime: 15
+            lifetime: 37
             colorTo: fff4a3
             lenFrom: 60
             lenTo: 60
