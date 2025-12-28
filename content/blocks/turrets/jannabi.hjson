@@ -472,7 +472,6 @@ fragBullet: {
 	fragBullets: 1
     fragLifeMin: 0.245
 	fragLifeMax: 0.345
-			fragBullet: {
 fragBullet: {
   type: BulletType
   speed: 0
