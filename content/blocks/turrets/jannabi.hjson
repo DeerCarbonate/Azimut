@@ -461,27 +461,33 @@ shoot: {
 	    interp: pow3Out
 		}
 		{
-		startDelay: 0
-        particles: 1
-        length: 0
-        lifetime: 45
-        region: azimut-shockwave
-        sizeFrom: 0
-        sizeTo: 110
-        colorTo: dacaaa95
-	    baseRotation: 90
-          }
-		  {
-		startDelay: 45
-        particles: 1
-        length: 0
-        lifetime: 220
-        region: azimut-shockwave
-        sizeFrom: 110
-        sizeTo: 80
-        colorTo: dacaaa00
-	    baseRotation: 90
-          }
+        type: WaveEffect,
+        startDelay: 0,
+        lifetime: 55,
+        sizeFrom: 0,
+        sizeTo: 95,
+        strokeFrom: 0,
+        strokeTo: 75,
+        colorFrom: dacaaa00,
+        colorTo: dacaaa10,
+        followParent: true,
+        rotWithParent: true,
+		interp: pow3Out
+		}
+		{
+        type: WaveEffect,
+        startDelay: 45,
+        lifetime: 220,
+        sizeFrom: 95,
+        sizeTo: 80,
+        strokeFrom: 0,
+        strokeTo: 75,
+        colorFrom: dacaaa10,
+        colorTo: dacaaa00,
+        followParent: true,
+        rotWithParent: true,
+		interp: pow3Out
+		}
 	]
 }
 	  }
