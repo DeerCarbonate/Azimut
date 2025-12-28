@@ -460,6 +460,28 @@ shoot: {
         rotWithParent: true
 	    interp: pow3Out
 		}
+		{
+		startDelay: 0
+        particles: 1
+        length: 0
+        lifetime: 74
+        region: azimut-shockwave
+        sizeFrom: 0
+        sizeTo: 95
+        colorTo: dacaaa
+	    baseRotation: 90
+          }
+		  {
+		startDelay: 45
+        particles: 1
+        length: 0
+        lifetime: 220
+        region: azimut-shockwave
+        sizeFrom: 0
+        sizeTo: 95
+        colorTo: dacaaa00
+	    baseRotation: 90
+          }
 	]
 }
 	  }
