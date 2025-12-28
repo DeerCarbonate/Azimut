@@ -432,7 +432,7 @@ shoot: {
  trailLength: 12
  sprite: missile-large
  	fragOnHit: true
-	fragBullets: 8
+	fragBullets: 9
 	fragRandomSpread: 360
 fragBullet: { 
         type: BulletType
@@ -450,7 +450,7 @@ fragBullet: {
 		{
         type: WaveEffect
         startDelay: 45
-        lifetime: 130
+        lifetime: 160
         sizeFrom: 95
         sizeTo: 80
         strokeFrom: 2.5
@@ -492,7 +492,7 @@ fragBullet: {
 		{
         type: WaveEffect,
         startDelay: 45,
-        lifetime: 130,
+        lifetime: 160,
         sizeFrom: 50,
         sizeTo: 43,
         strokeFrom: 93,

@@ -20,12 +20,12 @@ envEnabled: -1
 hidden: true
 
 missileAccelTime: 10
-lifetime: 60
+lifetime: 80
 rotateSpeed: 0.002
 fogRadius: 0
 maxRange: 0
 health: 20000
-speed: 1.4
+speed: 0.9
 armor: 1
 deathExplosionEffect: none
 loopSoundVolume: 0
@@ -43,8 +43,8 @@ abilities: [
     {
     type: EnergyFieldAbility
     maxTargets: 5
-    damage: 120
-    reload: 15
+    damage: 80
+    reload: 5
     range: 83
 	color: fff4a3
 	status: slow
@@ -77,9 +77,9 @@ parts: [
      circle: true
      layer: 110
      color: fff4a3
-     stroke: 1.4
-     strokeTo: 2
-     radius: 4
-	 radiusTo: 4
+     stroke: 5
+     strokeTo: 5
+     radius: 5
+	 radiusTo: 5
       }
     ]
