@@ -1,14 +1,11 @@
 type: missile
 template: MissileUnitType
 controller: MissileAI
-spawnStatus: melting
-spawnStatusDuration: 999999
-
+isEnemy:false
 playerControllable: false
 allowedInPayloads: false
 outlineColor: 1b1c25
 outlineRadius: 3
-createScorch: true
 createWreck: false
 lowAltitude: true
 useUnitCap: false
@@ -16,20 +13,24 @@ drawCell: false
 physics: false
 hitSize: 1.2
 flying: true
+createScorch: false
 
 envDisabled: 0
 envEnabled: -1
+hidden: true
 
 missileAccelTime: 10
 lifetime: 60
-rotateSpeed: 0
+rotateSpeed: 0.002
 fogRadius: 0
 maxRange: 0
 health: 20000
-speed: 0.04
+speed: 1.4
 armor: 1
 deathExplosionEffect: none
 loopSoundVolume: 0
+bounded: false
+drawCell: false
 
 trailColor: fff4a3
 trailLength: 0
@@ -41,22 +42,29 @@ engineLayer: 100
 abilities: [
     {
     type: EnergyFieldAbility
-    maxTargets: 2
+    maxTargets: 5
     damage: 120
     reload: 15
     range: 83
 	color: fff4a3
 	status: slow
-	statusDuration: 90
+	statusDuration: 260
     x: 0
     y: 0
 	sameTypeHealMult: 0.03
     statusDuration: 0
-    healPercent: 0.01
+    healPercent: 0.001
 	healEffect: 0
 	effect: none
 	continuous: false
 	rotate: false
+	hitBuildings:true
+	hitUnits:true
+	sectorRad: 0
+}
+{
+type:RegenAbility
+percentAmount:-0.01
 }
 ]
 
