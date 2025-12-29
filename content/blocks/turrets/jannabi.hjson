@@ -456,7 +456,7 @@ fragBullet: {
         strokeFrom: 2.5
         strokeTo: 0
         colorFrom: fff4a3
-        colorTo: fff4a3
+        colorTo: FFD24D
         followParent: true
         rotWithParent: true
 	    interp: pow3Out
@@ -470,7 +470,7 @@ fragBullet: {
         strokeFrom: 2.5
         strokeTo: 2.5
         colorFrom: fff4a3
-        colorTo: fff4a3
+        colorTo: FFD24D
         followParent: true
         rotWithParent: true
 		}
@@ -483,7 +483,7 @@ fragBullet: {
         strokeFrom: 0,
         strokeTo: 93,
         colorFrom: fff4a300,
-        colorTo: fff4a330,
+        colorTo: FFD24D30
         followParent: true,
         rotWithParent: true,
 		}
@@ -496,7 +496,7 @@ fragBullet: {
         strokeFrom: 93,
         strokeTo: 99,
         colorFrom: fff4a330,
-        colorTo: fff4a300,
+        colorTo: FFD24D00
         followParent: true,
         rotWithParent: true,
 		interp: pow3Out
