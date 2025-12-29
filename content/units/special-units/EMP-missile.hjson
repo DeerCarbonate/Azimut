@@ -65,8 +65,8 @@ abilities: [
 		type: ParticleEffect
 		region: azimut-triangle
 		particles: 2
-		length: 40
-		lifetime: 48
+		length: 48
+		lifetime: 79
 		interp: circleOut
 		sizeInterp: pow5Out
 		cone: 360
