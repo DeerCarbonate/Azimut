@@ -20,12 +20,12 @@ envEnabled: -1
 hidden: true
 
 missileAccelTime: 10
-lifetime: 80
+lifetime: 83
 rotateSpeed: 0.002
 fogRadius: 0
 maxRange: 0
 health: 20000
-speed: 1.2
+speed: 1.12
 armor: 1
 deathExplosionEffect: none
 loopSoundVolume: 0
