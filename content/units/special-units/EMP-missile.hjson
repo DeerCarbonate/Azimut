@@ -48,7 +48,7 @@ abilities: [
     range: 180
 	color: fff4a3
 	status: slow
-	statusDuration: 260
+	statusDuration: 470
     x: 0
     y: 0
 	sameTypeHealMult: 0.03
@@ -58,8 +58,8 @@ abilities: [
 	effect: none
 	continuous: false
 	rotate: false
-	hitBuildings:true
-	hitUnits:true
+	hitBuildings: false
+	hitUnits: true
 	sectorRad: 0
 	hitEffect: none
 }
