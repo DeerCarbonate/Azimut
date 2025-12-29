@@ -449,10 +449,10 @@ fragBullet: {
     effects: [
 		{
         type: WaveEffect
-        startDelay: 100
+        startDelay: 91
         lifetime: 160
         sizeFrom: 95
-        sizeTo: 80
+        sizeTo: 110
         strokeFrom: 2.5
         strokeTo: 0
         colorFrom: fff4a3
@@ -464,7 +464,7 @@ fragBullet: {
 		{
         type: WaveEffect
         startDelay: 0
-        lifetime: 100
+        lifetime: 91
         sizeFrom: 0
         sizeTo: 95
         strokeFrom: 2.5
@@ -477,7 +477,7 @@ fragBullet: {
 		{
         type: WaveEffect,
         startDelay: 0,
-        lifetime: 100,
+        lifetime: 91,
         sizeFrom: 0,
         sizeTo: 50,
         strokeFrom: 0,
@@ -489,10 +489,10 @@ fragBullet: {
 		}
 		{
         type: WaveEffect,
-        startDelay: 100,
+        startDelay: 91,
         lifetime: 160,
         sizeFrom: 50,
-        sizeTo: 43,
+        sizeTo: 57,
         strokeFrom: 93,
         strokeTo: 80,
         colorFrom: fff4a330,
