@@ -422,21 +422,39 @@ shoot: {
  lifetime: 68
  speed: 10.2
  drag: 0.01
- width: 9,
+ width: 10,
  scaleLife: false
  height: 17
  ammoMultiplier: 4
  buildingDamageMultiplier: 0.1
  trailColor: 957655
- trailWidth: 2.6
- trailLength: 10
+ trailWidth: 2.1
+ trailLength: 18
  sprite: bullet
- bulletInterval: 1
+ trailChance:1
+ trailInterval:0.65
+ trailRotation:true
+ trailEffect:[
+ {
+		type: ParticleEffect
+		region: azimut-triangle
+		particles: 2
+		length: 48
+		lifetime: 79
+		interp: circleOut
+		sizeInterp: pow5Out
+		cone: 360
+		colorFrom: FFE066
+		colorTo: FFD24D
+		sizeFrom: 6.8
+		sizeTo:0
+}
+		]
+ bulletInterval: 1.6
  intervalBullets: 1
  intervalAngle: 180
  intervalSpread: 0
  intervalRandomSpread: 0
-
 					intervalBullet: {
     type: LightningBulletType
     collidesAir: false
