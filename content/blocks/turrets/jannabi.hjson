@@ -432,7 +432,7 @@ shoot: {
  trailLength: 18
  sprite: bullet
  trailChance: 1.8
- trailInterval:0.85
+ trailInterval:2.2
  trailRotation:true
  trailEffect:[
  {
