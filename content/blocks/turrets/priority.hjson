@@ -1,6 +1,6 @@
 name: Priority
 outlineColor: 0c0c12
-description: Shoots a long lasting laser.
+description: Fires a stream of fire; actual damage is 210 (don’t believe everything written in the stats!).
 researchCostMultiplier: 0.5
 size: 3
 health: 1025
@@ -19,7 +19,7 @@ restitution: 0.04
 rotateSpeed: 2.205
 shootSound: mechsshoot
 shootSoundVolume: 0.5
-heatRequirement: 12
+heatRequirement: 6
 research: {
   parent: "yongsin"
   planet: "gelion"
@@ -56,7 +56,7 @@ objectives: [
 shootType: {
     type: ContinuousFlameBulletType
     drawSize: 230
-    hitShake: 5
+    hitShake: 0
     length: 230
     width: 4
 	hitColor:ec7458
@@ -67,7 +67,7 @@ shootType: {
 	pierceArmor: false
 	
     lifetime: 12
-    damage: 230
+    damage: 210
 	
 	laserAbsorb:true
 }

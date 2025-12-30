@@ -9,7 +9,7 @@ health: 900
 cooldown: 1200
 shootCone: 9
 recoil: 3.2
-reload: 70
+reload: 90
 range: 200
 velocityRnd:0.1
 targetAir: true
@@ -61,7 +61,7 @@ speed: 6.5
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 35
+damage: 33
 pierce: true
 pierceBuilding: true
 pierceCap: 3

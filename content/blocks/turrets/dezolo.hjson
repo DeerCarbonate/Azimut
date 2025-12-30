@@ -50,7 +50,7 @@ ammoTypes: {
   frontColor: ffffff
   backColor: fcf0bd
   hitColor: fcf0bd
-  damage: 160
+  damage: 145
   despawnSound: energy-blade-hit
   lifetime: 8.25
   speed: 32
