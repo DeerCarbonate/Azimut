@@ -422,15 +422,47 @@ shoot: {
  lifetime: 68
  speed: 10.2
  drag: 0.01
- width: 17,
- scaleLife: true
+ width: 9,
+ scaleLife: false
  height: 17
  ammoMultiplier: 4
  buildingDamageMultiplier: 0.1
  trailColor: 957655
- trailWidth: 2.7
- trailLength: 12
- sprite: missile-large
+ trailWidth: 2.6
+ trailLength: 10
+ sprite: bullet
+ bulletInterval: 1
+ intervalBullets: 1
+ intervalAngle: 180
+ intervalSpread: 0
+ intervalRandomSpread: 0
+
+					intervalBullet: {
+    type: LightningBulletType
+    collidesAir: false
+    lightningLength: 4
+	lightningLengthRand: 2
+	lightningColor: fff4a3
+	buildingDamageMultiplier: 0.1
+	lifetime: 5
+	collidesAir: false
+	hittable: false
+	hitEffect: none
+      }
+ shootEffect: [
+        {
+          followParent: false
+          length: 0
+          lifetime: 16
+          particles: 1
+          cone: 0
+          region: azimut-despawn
+          sizeFrom: 60
+          sizeTo: 0
+          colorTo: 6898c3
+		  baseRotation: 90
+        }
+]
  	fragOnHit: true
 	fragBullets: 9
 	fragRandomSpread: 360
