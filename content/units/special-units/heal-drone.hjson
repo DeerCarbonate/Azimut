@@ -27,7 +27,7 @@ circle: true
 hollow: true
 layer: 110
 color: bf92f9
-radius: 160
+radius: 150
   }
 ]
 	    weapons: [
@@ -43,8 +43,8 @@ autoTarget: true
 targetUnits: true
 targetBuildings: true
 shootY: 0
-repairSpeed: 32
-fractionRepairSpeed: .007
+repairSpeed: 29
+fractionRepairSpeed: .008
 continuous: true
 rotate: false
 type: RepairBeamWeapon
@@ -55,7 +55,7 @@ reload: 0.002
 healColor: bf92f9
 laserColor: bf92f9
 bullet: {
-maxRange: 160
+maxRange: 150
 }
 }
 ]
