@@ -9,7 +9,7 @@ health: 900
 cooldown: 1200
 shootCone: 9
 recoil: 3.2
-reload: 90
+reload: 97
 range: 200
 velocityRnd:0.1
 targetAir: true
@@ -40,7 +40,7 @@ objectives: [
 coolant: {
   type: ConsumeLiquid
   liquid: power
-  amount: 0.08
+  amount: 0.06
 }
 shoot: {
 	type: shootSpread
