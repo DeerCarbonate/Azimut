@@ -10,9 +10,9 @@
     "requirements": 
     [
 		"cobalt/150"
-		"geliarin/100"
+		"geliarin/30"
 		"venerium/120"
-		"platinum/90"
+		"platinum/95"
 	],
     "category": "effect",
     "hasItems": true,
@@ -20,8 +20,8 @@
     "hasLiquids": true,
 	consumes: {
   liquids: [
-  power/0.25
-  iterin/0.2
+  power/0.14
+  iterin/0.1
 	]
 }
 polyStroke: 1.8
@@ -33,9 +33,9 @@ research: {
   parent: "yongsin"
   planet: gelion
     "requirements": [
-	  "venerium/200"
-	  "cobalt/550"
-	  "platinum/350"
+	  "venerium/800"
+	  "cobalt/900"
+	  "platinum/650"
 	  "geliarin/100"
 ]
 objectives: [
