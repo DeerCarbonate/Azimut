@@ -1,0 +1,20 @@
+type: Battery
+size: 2
+health: 370
+squareSprite: false
+consumes: {
+  powerBuffered: 1300
+}
+requirements: [
+ zinc/10
+ cobalt/20
+ platinum/15
+]
+category: power
+research: energy-converter
+researchCost: [
+  cobalt/1400
+  platinum/2400
+  zinc/200
+]
+fogRadius: 1
