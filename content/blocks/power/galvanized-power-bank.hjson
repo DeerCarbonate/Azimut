@@ -1,4 +1,5 @@
 type: Battery
+name: Galvanized power bank
 size: 2
 health: 370
 squareSprite: false
