@@ -62,7 +62,7 @@ drillEffect: [
 }
 ]
 consumes: {
-  power: 0.8
+  power: 0.6
 }
 drillSoundVolume: 1.2
 category: production
