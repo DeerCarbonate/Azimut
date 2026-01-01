@@ -11,6 +11,7 @@ requirements: [
  cobalt/20
  platinum/15
 ]
+fullLightColor: 8c98e8
 category: power
 research: energy-converter
 researchCost: [
