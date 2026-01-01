@@ -1,4 +1,0 @@
-type: AttributeCrafter
-buildVisibility: debugOnly
-attribute: silic
-inEditor: false

@@ -9,3 +9,17 @@ requirements: [
   zinc/70
 ]
 squareSprite: false
+        research: {
+    parent: "core-forum"
+    planet: gelion
+                "requirements": [
+                "cobalt/5000"
+                "zinc/800"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: seven
+    }
+  ]
+}
