@@ -10,7 +10,7 @@ requirements: [
 ]
 squareSprite: false
         research: {
-    parent: "core-forum"
+    parent: "cobalt-duct-bridge"
     planet: gelion
                 "requirements": [
                 "cobalt/5000"

@@ -556,10 +556,11 @@ fragBullet: {
 }
 }
 requirements: [
-  cobalt/450,
-  venerium/250
-  geliarin/100
-  platinum/210
+  venerium/300
+  geliarin/70
+  platinum/200
+  compound/90
+  zinc/120
 ]
 category: turret
 drawer: {
@@ -645,4 +646,21 @@ drawer: {
         }
 	}
 	]
+}
+research: {
+  parent: "yongsin"
+  planet: "gelion"
+    "requirements": [
+	  "venerium/15000"
+	  "platinum/10000"
+	  "geliarin/5000"
+	  "zinc/2500"
+	  "compound/2500"
+]
+objectives: [
+    {
+      type: SectorComplete
+      preset: "seven"
+    }
+  ]
 }
