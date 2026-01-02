@@ -1,0 +1,4 @@
+type: AttribiuteCrafter
+buildVisibility: debugOnly
+attribute: silic
+inEditor: false
