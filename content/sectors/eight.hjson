@@ -4,7 +4,7 @@ captureWave: 20
 difficulty: 2
 planet: gelion
 name: eight
-sector: 32
+sector: 7
 research: {
 parent: seven
 requiresUnlock: false
