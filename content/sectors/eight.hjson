@@ -14,7 +14,7 @@ energy-converter,
 energy-bridge
 {
 type: SectorComplete
-preset: fifth
+preset: seven
   }
  ]
 }
