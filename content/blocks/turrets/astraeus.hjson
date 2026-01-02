@@ -1,5 +1,5 @@
 name: Astraeus
-description: Shoots an energy ball that shoots lasers.
+description: Fires projectiles with spread over a long distance.
 researchCostMultiplier: 0.5
 size: 4
 outlineColor: 0c0c12
@@ -12,13 +12,14 @@ inaccuracy: 2
 recoil: 1.1
 reload: 11
 range: 370
-targetAir: false
+targetAir: true
 targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
 rotateSpeed: 2.7
 shootSound: shootDiffuse
-shootType: {
+  ammoTypes: {
+cobalt: {
  type: BasicBulletType
  collidesGround: true
  frontColor: fccabd
@@ -90,6 +91,7 @@ baseRotation: 90
                             baseRotation: 180
                         }
                     ]
+      }
 }
     shoot: {
       type: ShootBarrel
@@ -103,15 +105,19 @@ baseRotation: 90
     }
 hasPower: true
 consumes: {
-    power: 4
+    power: 3
 }
-hasLiquids: false
+hasLiquids: true
+coolant: {
+  type: ConsumeLiquid
+  liquid: nitrogen
+  amount: 0.08
+}
 requirements: [
   cobalt/200,
-  venerium/120
-  platinum/85
-  geliarin/15
-  compound/20
+  platinum/120
+  compound/100
+  zinc/90
 ]
 category: turret
 recoils: 2
@@ -139,4 +145,20 @@ drawer: {
         recoilIndex: 1
       }  
 	]
+}
+research: {
+  parent: "priority"
+  planet: "gelion"
+    "requirements": [
+	  "platinum/9000"
+	  "zinc/2000"
+	  "compound/1500"
+	  "cobalt/23000"
+]
+objectives: [
+    {
+      type: SectorComplete
+      preset: "seven"
+    }
+  ]
 }
