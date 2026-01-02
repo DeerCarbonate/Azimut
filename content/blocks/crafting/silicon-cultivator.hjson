@@ -34,7 +34,7 @@ consumes: {
 	]
 }
 craftTime: 240
-outputItem: compound/2
+outputItem: compound/4
 craftEffect: none
 drawer: {
   type: DrawMulti
