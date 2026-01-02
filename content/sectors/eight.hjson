@@ -1,0 +1,20 @@
+localizedName: Northern Pass
+description: "Set out for the coldest, snow-covered regions of the planet to extract a new type of resource. The harsh climate and confined terrain will create resource scarity - use what you have wisely."
+captureWave: 20
+difficulty: 2
+planet: gelion
+name: eight
+sector: 23
+research: {
+parent: seven
+requiresUnlock: false
+objectives: [
+relic-drill,
+energy-converter,
+energy-bridge
+{
+type: SectorComplete
+preset: fifth
+  }
+ ]
+}
