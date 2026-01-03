@@ -5,21 +5,18 @@ size: 3
 category: crafting
 rotate: false
 squareSprite: false
-liquidCapacity: 100
+liquidCapacity: 50
 requirements: [
-  cobalt/120
-  venerium/85
+  cobalt/90
   platinum/65
   geliarin/10
+  zinc/20
 ]
-consumes: {
-  liquids: [
-  power/0.014
-	]
-}
 hasLiquids: true
 craftTime: 10
-liquidCapacity: 200
+consumes: {
+	power: 3
+}
 liquidOutputDirections: [3, 2]
 outputLiquids: [
   gas-isobutane/0.1
