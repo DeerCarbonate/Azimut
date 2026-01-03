@@ -1,0 +1,15 @@
+name: Zinc huge wall
+health: 3750
+absorbLasers: false
+size: 3
+requirements: [
+  zinc/40
+ ]
+category: defense
+research: {
+  parent: "zinc-large-wall"
+  planet: gelion
+    "requirements": [
+	  "zinc/90"
+]
+}

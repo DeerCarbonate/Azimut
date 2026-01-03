@@ -1,0 +1,19 @@
+name: Zinc wall
+health: 640
+size: 1
+requirements: [
+  zinc/6
+ ]
+category: defense
+researchCostMultiplier: 0.20
+research: {
+  parent: "yongsin"
+  planet: gelion
+    "requirements": [
+	  "zinc/40"
+]
+}
+lightningChance: 0.1
+lightningDamage: 25
+lightningColor: bba5c9
+armor: 4

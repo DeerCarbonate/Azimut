@@ -30,6 +30,12 @@ const compoundlargewall = extend(Wall, "compound-large-wall", {});
 
 const compoundhugewall = extend(Wall, "compound-huge-wall", {});
 
+const zincwall = extend(Wall, "zinc-wall", {});
+
+const zinclargewall = extend(Wall, "zinc-large-wall", {});
+
+const zinchugewall = extend(Wall, "zinc-huge-wall", {});
+
 // Турели
 const yongsin = extend(ItemTurret, "yongsin", {});
 
