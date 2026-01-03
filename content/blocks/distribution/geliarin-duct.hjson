@@ -27,3 +27,17 @@ unloadEffect: {
   lifetime: 12
 }
 researchCostMultiplier: 0.5
+		research: {
+    "planet": "gelion",
+	"parent": "cobalt-duct",
+	"requirements": [
+	  "geliarin/9000
+	  "cobalt/2000"
+	]
+	objectives: [
+    {
+      type: SectorComplete
+      preset: "seven"
+    }
+  ]
+}
