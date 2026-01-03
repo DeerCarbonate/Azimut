@@ -4,20 +4,25 @@ description: Creates unit components
 size: 3
 category: units
 requirements: [
-  venerium/140
-  cobalt/110
-  platinum/30
+  venerium/90
+  cobalt/120
+  platinum/90
+  zinc/40
 ] 
 hasPower: false
 consumes: {
 	liquids: [
-      power/0.10
 	  ammonia/0.15
 	]
 }
 buildSpeed: 1.35
 filter: [
+ azimut-venerium-wall
  azimut-venerium-large-wall
+ azimut-compound-wall
+ azimut-compound-large-wall
+ azimut-zinc-wall
+ azimut-zinc-large-wall
 ]
 squareSprite: true
 maxBlockSize: 2

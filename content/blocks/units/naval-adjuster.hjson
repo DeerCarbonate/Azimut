@@ -11,16 +11,16 @@ droneConstructTime: 550
 category: units
 consumes: {
 	liquids: [
-      power/0.28
 	  swartzite/0.07
 	]
+		power: 3
 }
 plans: [
 	{
 	unit: "Whale" //Tier 1 assembler
 	requirements: [
 	    azimut-Plankton/1
-		azimut-venerium-large-wall/2
+		azimut-compound-large-wall/2
 	]
 	time: 2900
 	}
