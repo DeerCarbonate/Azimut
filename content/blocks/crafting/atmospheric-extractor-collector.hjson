@@ -7,10 +7,10 @@ rotate: false
 squareSprite: false
 liquidCapacity: 300
 requirements: [
-  cobalt/120
   venerium/90
-  platinum/90
+  platinum/85
   geliarin/15
+  zinc/15
 ]
 consumes: {
   liquids: [
@@ -20,7 +20,7 @@ consumes: {
 hasLiquids: true
 craftTime: 200
 craftEffect: none
-outputLiquid: ammonia/0.15
+outputLiquid: ammonia/0.07
 drawer: {
   type: DrawMulti
   drawers: [

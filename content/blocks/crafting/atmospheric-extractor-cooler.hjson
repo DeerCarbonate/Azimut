@@ -6,27 +6,26 @@ category: crafting
 rotate: false
 squareSprite: false
 liquidCapacity: 100
-heatRequirement: 12
+heatRequirement: 6
 maxEfficiency: 1
 requirements: [
-  cobalt/150
-  venerium/75
+  cobalt/70
   platinum/80
   geliarin/60
+  zinc/35
 ]
 consumes: {
   liquids: [
   gas-isobutane/0.099999999
 	]
   items: [
-  venerium/2
-  raw-platinum/1
+  venerium/1
   ]
 }
 hasLiquids: true
 craftTime: 190
 craftEffect: none
-outputLiquid: swartzite/0.07
+outputLiquid: swartzite/0.14
 drawer: {
   type: DrawMulti
   drawers: [
