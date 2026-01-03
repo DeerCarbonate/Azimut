@@ -9,13 +9,13 @@ requirements: [
   platinum/90
   zinc/40
 ] 
-hasPower: false
+hasPower: true
 consumes: {
 	liquids: [
 	  ammonia/0.15
 	]
 }
-buildSpeed: 1.35
+buildSpeed: 1.5
 filter: [
  azimut-venerium-wall
  azimut-venerium-large-wall

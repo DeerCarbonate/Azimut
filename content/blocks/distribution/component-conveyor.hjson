@@ -1,0 +1,27 @@
+type: PayloadConveyor
+name: Component Conveyor
+description: Transports components forward.
+category: units
+size: 4
+requirements: [
+  cobalt/15
+  venerium/10
+  compound/5
+]
+canOverdrive: false
+payloadLimit: 4
+		research: {
+    planet: gelion
+	parent: cobalt-duct
+	requirements: [
+	  venerium/10000
+	  cobalt/10000
+	  compound/1200
+	]
+	objectives: [
+    {
+      type: SectorComplete
+      preset: "eight"
+    }
+  ]
+}
