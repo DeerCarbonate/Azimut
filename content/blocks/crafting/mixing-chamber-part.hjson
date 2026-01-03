@@ -8,7 +8,7 @@ squareSprite: false
 liquidCapacity: 100
 liquidOutputDirections: [1]
 requirements: [
-  cobalt/195
+  cobalt/65
   venerium/55
   platinum/25
 ]
@@ -69,6 +69,10 @@ drawer: {
     {
       type: DrawDefault
     }
+	  {
+		type: DrawHeatInput
+		suffix: -heat
+	} 
   ]
 }
 researchCostMultiplier: 0.5
