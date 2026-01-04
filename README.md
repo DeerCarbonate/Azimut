@@ -5,7 +5,7 @@
 
 <h2 align="center"><img width="640" height="160" alt="logo" src="https://github.com/user-attachments/assets/6b151419-e1b8-4b0d-bdad-05711a60705f" /></h2>
 
-[![Discord Community](https://img.shields.io/badge/Discord_Community-JOIN-5865F2?logo=discord)](https://discord.gg/dfKQ52rw)
+[![Discord Community](https://img.shields.io/badge/Discord_Community-JOIN-5865F2?logo=discord)](https://discord.gg/gyCfsa3kbf)
 
 <h2 align="center">Azimut adds the planet Gelion with its own technology tree, sectors, environments, and gameplay features.</h2>
 
