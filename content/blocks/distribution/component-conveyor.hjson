@@ -10,6 +10,8 @@ requirements: [
 ]
 canOverdrive: false
 payloadLimit: 4
+moveTime: 100
+interp: linear
 		research: {
     planet: gelion
 	parent: cobalt-duct
