@@ -10,7 +10,7 @@ requirements: [
 ]
 canOverdrive: false
 payloadLimit: 4
-moveTime: 100
+moveTime: 70
 interp: linear
 		research: {
     planet: gelion
