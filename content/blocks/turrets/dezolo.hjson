@@ -284,21 +284,21 @@ shootEffect: [
                         }
                     ]
       keepVelocity: false
-      fragBullets: 3
+      fragBullets: 6
       fragRandomSpread: 13.5
       fragVelocityMin: 0.3
       fragVelocityMax: 3.4
 	  fragLifeMin: 0.2
 	  fragLifeMax: 2
       fragBullet: {
-        speed: 6
-        lifetime: 29
+        speed: 8
+        lifetime: 31
         pierce: true
         pierceBuilding: true
         pierceCap: 4
         pierceDamageFactor: 0.01
         drag: 0.04
-        damage: 17
+        damage: 32
         sprite: mine-bullet
         width: 10
         height: 23
@@ -307,9 +307,15 @@ shootEffect: [
         frontColor: a3a6ae
         backColor: 00000000
         hitColor: a3a6ae
+        trailColor: 66667e
+        trailWidth: 0.4
+        trailLength: 17
         despawnEffect: none
         hitEffect: hitBulletColor
 		buildingDamageMultiplier: 0.1
+		homingPower: 0.06
+        homingRange: 35
+        homingDelay: 0.1
 		}
       despawnEffect: {
 					type: ParticleEffect 
