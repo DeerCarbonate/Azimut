@@ -219,7 +219,7 @@ shootEffect: [
   frontColor: ffffff
   backColor: a3a6ae
   hitColor: a3a6ae
-  damage: 280
+  damage: 320
   despawnSound: energy-blade-hit
   lifetime: 9.6
   speed: 28
@@ -230,7 +230,7 @@ shootEffect: [
   collidesTiles: true
   collidesGround: true
   buildingDamageMultiplier: 0.1
-  homingPower: 0.03
+  homingPower: 0.04
   homingRange: 25
   homingDelay: 0.2
   trailChance:1
