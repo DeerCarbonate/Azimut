@@ -215,10 +215,11 @@ shootEffect: [
 }
   compound: {
   type: BasicBulletType
+  reloadMultiplier:0.8
   frontColor: ffffff
   backColor: a3a6ae
   hitColor: a3a6ae
-  damage: 215
+  damage: 280
   despawnSound: energy-blade-hit
   lifetime: 9.6
   speed: 28
@@ -229,6 +230,9 @@ shootEffect: [
   collidesTiles: true
   collidesGround: true
   buildingDamageMultiplier: 0.1
+  homingPower: 0.03
+  homingRange: 25
+  homingDelay: 0.2
   trailChance:1
   trailInterval:0.5
   trailRotation:true
