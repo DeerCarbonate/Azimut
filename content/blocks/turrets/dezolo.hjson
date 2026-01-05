@@ -219,7 +219,7 @@ shootEffect: [
   frontColor: ffffff
   backColor: a3a6ae
   hitColor: a3a6ae
-  damage: 270
+  damage: 210
   despawnSound: energy-blade-hit
   lifetime: 9.6
   speed: 28
@@ -298,7 +298,7 @@ shootEffect: [
         pierceCap: 4
         pierceDamageFactor: 0.01
         drag: 0.02
-        damage: 62
+        damage: 39
         sprite: mine-bullet
         width: 10
         height: 23
