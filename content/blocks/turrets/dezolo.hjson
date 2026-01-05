@@ -314,7 +314,7 @@ shootEffect: [
         hitEffect: hitBulletColor
 		buildingDamageMultiplier: 0.1
 		homingPower: 0.16
-        homingRange: 45
+        homingRange: 100
         homingDelay: 0
 		}
       despawnEffect: {
