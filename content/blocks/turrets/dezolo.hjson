@@ -291,13 +291,13 @@ shootEffect: [
 	  fragLifeMin: 0.2
 	  fragLifeMax: 2
       fragBullet: {
-        speed: 8
-        lifetime: 31
+        speed: 5
+        lifetime: 52
         pierce: true
         pierceBuilding: true
         pierceCap: 4
         pierceDamageFactor: 0.01
-        drag: 0.04
+        drag: 0.02
         damage: 32
         sprite: mine-bullet
         width: 10
@@ -313,9 +313,9 @@ shootEffect: [
         despawnEffect: none
         hitEffect: hitBulletColor
 		buildingDamageMultiplier: 0.1
-		homingPower: 0.06
-        homingRange: 35
-        homingDelay: 0.1
+		homingPower: 0.16
+        homingRange: 45
+        homingDelay: 0
 		}
       despawnEffect: {
 					type: ParticleEffect 
