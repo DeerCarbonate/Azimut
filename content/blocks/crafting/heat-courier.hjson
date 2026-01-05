@@ -1,0 +1,26 @@
+type: HeatConductor
+health: 300
+size: 2
+category: crafting
+research: power-heater
+requirements: [
+  venerium/15
+  platinum/10
+]
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+group: heat
