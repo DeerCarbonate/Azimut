@@ -286,9 +286,9 @@ shootEffect: [
       keepVelocity: false
       fragBullets: 6
       fragRandomSpread: 13.5
-      fragVelocityMin: 0.3
-      fragVelocityMax: 1.2
-	  fragLifeMin: 0.4
+      fragVelocityMin: 0.6
+      fragVelocityMax: 1.8
+	  fragLifeMin: 0.5
 	  fragLifeMax: 1.8
       fragBullet: {
         speed: 5
