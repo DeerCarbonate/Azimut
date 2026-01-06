@@ -16,15 +16,15 @@ const ricochetBullet = extend(BasicBulletType, {
         if(!(entity instanceof Unit)) return;
         if(entity.dead) return;
 
-        // защита от мгновенного повторного попадания
-        if(b.data?.ignore === entity.id) return;
+        if(b.data != null && b.data.ignore === entity.id) return;
 
         this.super$hitEntity(b, entity, health);
 
         if(b.data == null){
             b.data = {
                 ricochets: 0,
-                last: entity.id
+                last: entity.id,
+                ignore: -1
             };
         }
 
@@ -65,10 +65,9 @@ const ricochetBullet = extend(BasicBulletType, {
             nb.data = {
                 ricochets: b.data.ricochets + 1,
                 last: entity.id,
-                ignore: entity.id // ⛔ игнорируем первого юнита
+                ignore: entity.id
             };
 
-            // через 2 тика снимаем игнор
             Time.run(2, () => {
                 if(nb && !nb.removed && nb.data){
                     nb.data.ignore = -1;
