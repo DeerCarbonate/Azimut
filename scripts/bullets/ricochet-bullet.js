@@ -14,7 +14,6 @@ const ricochetBullet = extend(BasicBulletType, {
 
         this.super$hitEntity(b, entity, health);
 
-        // инициализация data
         if(b.data == null){
             b.data = {
                 ricochets: 0,
@@ -48,20 +47,27 @@ const ricochetBullet = extend(BasicBulletType, {
         if(target != null){
             let angle = entity.angleTo(target);
 
-            // создаём новую пулю ЧУТЬ дальше от цели
             let nb = this.create(
                 b.owner,
                 b.team,
-                entity.x + Angles.trnsx(angle, 6),
-                entity.y + Angles.trnsy(angle, 6),
+                entity.x,
+                entity.y,
                 angle
             );
 
-            // ПЕРЕНОСИМ DATA
             nb.data = {
                 ricochets: b.data.ricochets + 1,
                 last: entity.id
             };
+
+            // 🔒 ключевой фикс
+            nb.collides = false;
+
+            Time.run(2, () => {
+                if(nb && !nb.removed){
+                    nb.collides = true;
+                }
+            });
         }
     }
 });
