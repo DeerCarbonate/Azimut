@@ -1,0 +1,11 @@
+type: flying
+name: ricochet-unit
+health: 520
+speed: 2.8
+hitSize: 8
+rotateSpeed: 4
+engineOffset: 6
+engineSize: 2.5
+flying: true
+targetAir: true
+targetGround: true

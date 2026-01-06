@@ -7,3 +7,4 @@ mod.meta.description = "[#c5faf6]Develop complex logistics[],[#c5fae3] repel wav
 mod.meta.author = "[#c3961f]Deer[#876409]Carbonate";
   
 require("blocks");
+require("units/ricochet-unit");
