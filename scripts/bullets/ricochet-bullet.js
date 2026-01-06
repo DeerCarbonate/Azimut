@@ -16,6 +16,9 @@ const ricochetBullet = extend(BasicBulletType, {
         if(!(entity instanceof Unit)) return;
         if(entity.dead) return;
 
+        // защита от мгновенного повторного попадания
+        if(b.data?.ignore === entity.id) return;
+
         this.super$hitEntity(b, entity, health);
 
         if(b.data == null){
@@ -38,7 +41,7 @@ const ricochetBullet = extend(BasicBulletType, {
             this.searchRange * 2,
             u => {
                 if(u.dead) return;
-                if(u.id === b.data.last) return;
+                if(u.id === entity.id) return;
 
                 let dst = u.dst(entity);
                 if(dst < bestDst){
@@ -61,16 +64,14 @@ const ricochetBullet = extend(BasicBulletType, {
 
             nb.data = {
                 ricochets: b.data.ricochets + 1,
-                last: entity.id
+                last: entity.id,
+                ignore: entity.id // ⛔ игнорируем первого юнита
             };
 
-            // 🔒 ВАЖНО: отключаем столкновение с юнитами
-            nb.collidesAir = false;
-
-            // 🔓 включаем обратно через 2 тика
+            // через 2 тика снимаем игнор
             Time.run(2, () => {
-                if(nb && !nb.removed){
-                    nb.collidesAir = true;
+                if(nb && !nb.removed && nb.data){
+                    nb.data.ignore = -1;
                 }
             });
         }
