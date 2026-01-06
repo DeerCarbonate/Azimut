@@ -1,23 +1,23 @@
 const ricochetBullet = extend(BasicBulletType, {
-    speed: 4,
-    damage: 35,
+    damage: 18,
+    speed: 5,
     lifetime: 80,
-    width: 6,
-    height: 8,
-    pierce: false,
-    hitSize: 4,
+    width: 7,
+    height: 9,
 
+    // рикошеты
     maxRicochets: 3,
     searchRange: 120,
 
     hitEntity(b, entity, health){
+        // защита: работаем ТОЛЬКО с юнитами
+        if(!(entity instanceof Unit)) return;
+
         this.super$hitEntity(b, entity, health);
 
-        if(b.data == null){
-            b.data = { ricochets: this.maxRicochets };
-        }
-
-        if(b.data.ricochets <= 0) return;
+        // если рикошеты закончились
+        if(b.data == null) b.data = {ricochets: 0};
+        if(b.data.ricochets >= this.maxRicochets) return;
 
         let target = null;
         let bestDst = this.searchRange;
@@ -29,7 +29,8 @@ const ricochetBullet = extend(BasicBulletType, {
             this.searchRange * 2,
             this.searchRange * 2,
             u => {
-                if(u === entity || u.dead()) return;
+                if(u.dead) return;
+                if(u === entity) return;
 
                 let dst = u.dst(entity);
                 if(dst < bestDst){
@@ -40,10 +41,10 @@ const ricochetBullet = extend(BasicBulletType, {
         );
 
         if(target != null){
-            let angle = Angles.angle(entity.x, entity.y, target.x, target.y);
+            // создаём новый снаряд
+            let angle = entity.angleTo(target);
 
-            let nb = Bullet.create(
-                this,
+            this.create(
                 b.owner,
                 b.team,
                 entity.x,
@@ -51,9 +52,7 @@ const ricochetBullet = extend(BasicBulletType, {
                 angle
             );
 
-            nb.data = {
-                ricochets: b.data.ricochets - 1
-            };
+            b.data.ricochets++;
         }
     }
 });
