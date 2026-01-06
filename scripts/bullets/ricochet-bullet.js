@@ -5,6 +5,10 @@ const ricochetBullet = extend(BasicBulletType, {
     width: 7,
     height: 9,
 
+    collidesAir: true,
+    collidesGround: false,
+    collidesTiles: false,
+
     maxRicochets: 3,
     searchRange: 120,
 
@@ -60,12 +64,13 @@ const ricochetBullet = extend(BasicBulletType, {
                 last: entity.id
             };
 
-            // 🔒 ключевой фикс
-            nb.collides = false;
+            // 🔒 ВАЖНО: отключаем столкновение с юнитами
+            nb.collidesAir = false;
 
+            // 🔓 включаем обратно через 2 тика
             Time.run(2, () => {
                 if(nb && !nb.removed){
-                    nb.collides = true;
+                    nb.collidesAir = true;
                 }
             });
         }
