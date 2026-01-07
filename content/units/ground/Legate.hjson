@@ -88,10 +88,10 @@ objectives: [
         type: ParticleEffect
         colorFrom: 828587
         colorTo: 32333900
-        particles: 3
-        cone: 20
-        lifetime: 35
-        length: 10
+        particles: 6
+        cone: 25
+        lifetime: 40
+        length: 25
         int: pow3Out
         sizeFrom: 0.3
         sizeTo: 2.1
