@@ -67,17 +67,18 @@ weapons: [
         keepVelocity: false
         collidesAir: false
         speed: 0
-		        smokeEffect: [{
+			      smokeEffect: [{
         type: ParticleEffect
-        colorFrom: 828587
-        colorTo: 32333900
-        particles: 2
-        cone: 20
-        lifetime: 55
-        length: 13
-        int: pow3Out
-        sizeFrom: 0.6
-        sizeTo: 3.8
+        colorFrom: 86d8bf
+        colorTo: 99999900
+        particles: 8
+        cone: 27
+        lifetime: 42
+        length: 47
+        interp: pow4Out
+		sizeInterp: pow2In
+        sizeFrom: 3.4
+        sizeTo: 0.3
         }
 	    ]
 

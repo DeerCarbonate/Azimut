@@ -95,7 +95,7 @@ preset: sixth
         type: ParticleEffect
         colorFrom: d8868690
         colorTo: 99999900
-        particles: 5
+        particles: 2
         cone: 24
         lifetime: 31
         length: 34
