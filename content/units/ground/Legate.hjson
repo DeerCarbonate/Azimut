@@ -99,7 +99,7 @@ objectives: [
         }
 	    ]
 		type: BasicBulletType
-		damage: 19
+		damage: 28
 		lifetime: 29
 		collidesTiles: true
 		keepVelocity: false
@@ -110,7 +110,7 @@ objectives: [
 		backColor: af7765
 		frontColor: cc918b
 		trailColor: af7765
-		trailWidth: 1.8
+		trailWidth: 1.6
 		trailLength: 7
 		splashDamageRadius: 8
 		splashDamage: 18
