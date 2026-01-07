@@ -78,13 +78,13 @@ baseRotation: 90
         type: ParticleEffect
         colorFrom: d88686
         colorTo: 99999900
-        particles: 9
-        cone: 20
-        lifetime: 35
-        length: 36
+        particles: 7
+        cone: 27
+        lifetime: 33
+        length: 42
         interp: pow3Out
 		sizeInterp: pow2In
-        sizeFrom: 3.6
+        sizeFrom: 3.2
         sizeTo: 0.3
         }
 	    ]
