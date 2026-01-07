@@ -76,14 +76,15 @@ baseRotation: 90
 ]
 			      smokeEffect: [{
         type: ParticleEffect
-        colorFrom: 828587
-        colorTo: 32333900
-        particles: 5
+        colorFrom: d88686
+        colorTo: 99999900
+        particles: 9
         cone: 20
         lifetime: 35
         length: 36
-        int: pow3Out
-        sizeFrom: 4.2
+        interp: pow3Out
+		sizeInterp: pow2In
+        sizeFrom: 3.6
         sizeTo: 0.3
         }
 	    ]
