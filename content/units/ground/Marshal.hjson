@@ -91,19 +91,20 @@ preset: sixth
             }
 		]
 		bullet: {
-	      smokeEffect: [{
+			  smokeEffect: [{
         type: ParticleEffect
-        colorFrom: 828587
-        colorTo: 32333900
-        particles: 1
-        cone: 20
-        lifetime: 45
-        length: 8
-        int: pow3Out
-        sizeFrom: 0.6
-        sizeTo: 3.5
-      }
-	  ]
+        colorFrom: d8868690
+        colorTo: 99999900
+        particles: 5
+        cone: 24
+        lifetime: 31
+        length: 34
+        interp: pow3Out
+		sizeInterp: pow2In
+        sizeFrom: 2.8
+        sizeTo: 0.3
+        }
+	    ]
 shootEffect: {
 type: ParticleEffect
 lifetime: 18

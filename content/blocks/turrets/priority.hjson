@@ -55,9 +55,9 @@ objectives: [
   }
   			      smokeEffect: [{
         type: ParticleEffect
-        colorFrom: d88686
+        colorFrom: d8868680
         colorTo: 99999900
-        particles: 6
+        particles: 9
         cone: 28
         lifetime: 75
         length: 65
