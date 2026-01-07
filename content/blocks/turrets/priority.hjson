@@ -53,6 +53,20 @@ objectives: [
 					offset: 1
 					lifetime: 21
   }
+  			      smokeEffect: [{
+        type: ParticleEffect
+        colorFrom: d88686
+        colorTo: 99999900
+        particles: 6
+        cone: 28
+        lifetime: 75
+        length: 65
+        interp: pow4Out
+		sizeInterp: pow2In
+        sizeFrom: 3.2
+        sizeTo: 0.3
+        }
+	    ]
 shootType: {
     type: ContinuousFlameBulletType
     drawSize: 230
