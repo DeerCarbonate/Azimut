@@ -69,7 +69,7 @@ lifetime: 12
 particles: 1
 cone: 0
 region: azimut-long-triangle
-sizeFrom: 22
+sizeFrom: 28
 sizeTo: 0
 colorTo: fccabd75
 baseRotation: 0
@@ -80,12 +80,12 @@ baseRotation: 0
         colorFrom: d88686
         colorTo: 99999900
         particles: 7
-        cone: 27
+        cone: 14
         lifetime: 33
-        length: 42
+        length: 46
         interp: pow3Out
 		sizeInterp: pow2In
-        sizeFrom: 3.2
+        sizeFrom: 3.6
         sizeTo: 0.3
         }
 	    ]
