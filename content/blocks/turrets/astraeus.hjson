@@ -72,7 +72,7 @@ region: azimut-long-triangle
 sizeFrom: 22
 sizeTo: 0
 colorTo: fccabd75
-baseRotation: 90
+baseRotation: 0
 }
 ]
 			      smokeEffect: [{
