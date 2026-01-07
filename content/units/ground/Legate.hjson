@@ -50,7 +50,7 @@ objectives: [
 		rotateSpeed: 1.6
 		reload: 63
 		inaccuracy: 2
-		shootSound: cannon_shoot_1
+		shootSound: shootDuo
 		controllable: true
 		aiControllable: true
 		layer: 110
@@ -111,30 +111,14 @@ objectives: [
 		backColor: af7765
 		frontColor: cc918b
 		trailColor: af7765
-		trailWidth: 2
-		trailLength: 7.4
+		trailWidth: 1.8
+		trailLength: 7
 		splashDamageRadius: 8
 		splashDamage: 18
 		despawnEffect: none
-		bulletInterval: 1
-		intervalBullets: 1
-		intervalAngle: 180
-		intervalSpread: 0
-		intervalRandomSpread: 0
+		scaleLife: false
 		fragVelocityMin: 8
 		fragVelocityMax: 8
-					intervalBullet: {
-    type: LightningBulletType
-    collidesAir: false
-    lightningLength: 4
-	lightningLengthRand: 2
-	lightningColor: cc918b
-	buildingDamageMultiplier: 0.1
-	lifetime: 6
-	collidesAir: false
-	hittable: false
-	hitEffect: none
-      }
 		hitEffect: {
     type: ExplosionEffect
     lifetime: 12

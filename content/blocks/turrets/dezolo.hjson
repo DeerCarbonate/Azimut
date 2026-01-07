@@ -313,7 +313,7 @@ shootEffect: [
         despawnEffect: none
         hitEffect: hitBulletColor
 		buildingDamageMultiplier: 0.1
-		homingPower: 0.16
+		homingPower: 0.12
         homingRange: 100
         homingDelay: 0
 		}
