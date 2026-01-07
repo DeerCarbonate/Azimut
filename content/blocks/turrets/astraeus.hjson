@@ -74,6 +74,19 @@ colorTo: fccabd75
 baseRotation: 90
 }
 ]
+			      smokeEffect: [{
+        type: ParticleEffect
+        colorFrom: 828587
+        colorTo: 32333900
+        particles: 7
+        cone: 20
+        lifetime: 35
+        length: 36
+        int: pow3Out
+        sizeFrom: 2.3
+        sizeTo: 0.3
+        }
+	    ]
  trailEffect:[
 						{
                             type: ParticleEffect
