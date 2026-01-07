@@ -103,9 +103,8 @@ objectives: [
 		lifetime: 29
 		collidesTiles: true
 		keepVelocity: false
-		sprite: missile-large
 		collidesAir: false
-		width: 11
+		width: 7.5
 		height: 7.5
 		speed: 6.1
 		backColor: af7765
