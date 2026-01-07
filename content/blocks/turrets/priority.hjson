@@ -1,6 +1,6 @@
 name: Priority
 outlineColor: 0c0c12
-description: Fires a stream of fire; actual damage is 210 (don’t believe everything written in the stats!).
+description: Fires a stream of fire; actual damage is 130 (don’t believe everything written in the stats!).
 researchCostMultiplier: 0.5
 size: 3
 health: 1025
@@ -81,7 +81,7 @@ shootType: {
 	pierceArmor: false
 	
     lifetime: 12
-    damage: 210
+    damage: 130
 	
 	laserAbsorb:true
 }
