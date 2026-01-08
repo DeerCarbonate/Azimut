@@ -11,7 +11,7 @@ restitution: 0.04
 inaccuracy: 2
 recoil: 1.1
 reload: 11
-range: 370
+range: 350
 targetAir: true
 targetGround: true
 moveWhileCharging: true
@@ -30,7 +30,7 @@ cobalt: {
  damage: 74
  despawnSound: none
  hitSound: none
- lifetime: 80
+ lifetime: 72
  speed: 5.2
  width: 12
  despawnEffect: none
