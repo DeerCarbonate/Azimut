@@ -30,7 +30,7 @@ cobalt: {
  damage: 74
  despawnSound: none
  hitSound: none
- lifetime: 72
+ lifetime: 68
  speed: 5.2
  width: 12
  despawnEffect: none
