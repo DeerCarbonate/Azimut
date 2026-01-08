@@ -8,10 +8,10 @@ alwaysUnlocked: false
 recoilTime: 150
 cooldownTime: 180
 squareSprite: false
-inaccuracy: 1
+inaccuracy: 6
 shootWarmupSpeed: 0.001
 recoil: 0.5
-reload: 110
+reload: 210
 range: 420
 targetAir: true
 targetGround: true
@@ -20,8 +20,8 @@ rotateSpeed: 0.9
 shootSound: shootDiffuse
 maxAmmo: 30
 ammoPerShot: 8
-shootY: 32
-shake: 3
+shootY: 33
+shake: 6
   ammoTypes: {
 cobalt: {
  type: BasicBulletType
@@ -29,9 +29,9 @@ cobalt: {
  frontColor: fccabd
  backColor: c36868
  hitColor: fccabd
- splashDamage: 34
- splashDamageRadius: 20
- damage: 130
+ splashDamage: 240
+ splashDamageRadius: 35
+ damage: 900
  despawnSound: none
  hitSound: none
  lifetime: 95
@@ -39,7 +39,7 @@ cobalt: {
  width: 18
  despawnEffect: none
  scaleLife: false
- height: 18
+ height: 34
 pierce: false
  buildingDamageMultiplier: 0.3
  trailChance:2
@@ -52,9 +52,9 @@ pierce: false
         waveStroke: 1.7
         waveRad: 16.3
         smokeColor: fccabd95
-        smokeSizeBase: 0
-        smokeSize: 0
-        smokes: 0
+        smokeSizeBase: 3
+        smokeSize: 8
+        smokes: 7
         sparkColor: fccabd95
         sparkStroke: 1.9
         sparkRad: 24.5
@@ -66,11 +66,11 @@ shootEffect: [
 followParent: false
 length: 0
 layer: 105
-lifetime: 27
+lifetime: 30
 particles: 1
 cone: 0
 region: azimut-long-triangle
-sizeFrom: 43
+sizeFrom: 46
 sizeTo: 0
 colorTo: fccabd75
 baseRotation: 0
@@ -86,8 +86,8 @@ baseRotation: 0
         length: 56
         interp: pow3Out
 		sizeInterp: pow2In
-        sizeFrom: 4
-        sizeTo: 0.3
+        sizeFrom: 5.3
+        sizeTo: 0
         }
 	    ]
  trailEffect:[
@@ -111,7 +111,7 @@ baseRotation: 0
 }
 shoot: {
   shots: 3
-  shotDelay: 53
+  shotDelay: 34
 }
 hasPower: true
 consumes: {
@@ -121,7 +121,7 @@ hasLiquids: true
 coolant: {
   type: ConsumeLiquid
   liquid: nitrogen
-  amount: 0.03
+  amount: 0.04
 }
 requirements: [
   cobalt/400
@@ -145,7 +145,7 @@ drawer: {
 		  turretHeatLayer: 66
           y: 11.2
           moveY: -5
-          growY: -0.08
+          growY: -0.1
           heatColor: e65555
           progress: {
             type: recoil
