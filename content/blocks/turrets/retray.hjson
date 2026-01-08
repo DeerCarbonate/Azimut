@@ -128,6 +128,7 @@ interp: exp5Out
 sizeInterp: exp5In
 lifetime: 120
 }
+]
 }
 }
 }
