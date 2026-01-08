@@ -59,8 +59,8 @@ drag: 0.06
 sprite: large-bomb
 spin: 2
 fragBullets: 3
-fragVelocityMin: 0.7
-fragVelocityMax: 1.7
+fragVelocityMin: 0.02
+fragVelocityMax: 1.85
 fragRandomSpread: 15
 fragSpread: 7
 buildingDamageMultiplier: 0.1
@@ -85,9 +85,6 @@ lifetime: 120
 }
 					fragBullet: {
 type: BasicBulletType
-homingRange: 90
-homingPower: 0.09
-homingDelay: 2.2
 width: 10
 height: 10
 drag: 0.006
@@ -100,18 +97,13 @@ backColor: fcf0bd
 despawnEffect: none
 collidesTiles: true
 keepVelocity: false
-collidesAir: true   
-fragBullets: 3
-fragVelocityMin: 3
-fragVelocityMax: 12
-fragRandomSpread: 15
-fragSpread: 3 
+collidesAir: true
 weaveMag: 4
 weaveScale: 6
 pierceArmor: false
 pierce: true
 pierceBuilding: true
-pierceCap: 4
+pierceCap: 20
 pierceDamageFactor: 0.002
 buildingDamageMultiplier: 0.1
 trailInterval:1.6
@@ -135,106 +127,6 @@ offset: 1
 interp: exp5Out
 sizeInterp: exp5In
 lifetime: 120
-}
-{
-type: ParticleEffect 
-lifetime: 120
-colorFrom: ffffff95
-colorTo: fcf0bd00
-drag: 0.7
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 1.2
-sizeTo: 0 
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-lifetime: 120
-}
-]
-fragBullet: {
-type: BasicBulletType
-homingRange: 20
-homingPower: 0.02
-homingDelay: 3
-width: 7
-height: 7
-drag: 0.05
-speed: 0.9
-collidesGround: true
-lifetime: 80
-damage: 20
-frontColor: ffffff
-backColor: fcf0bd
-despawnEffect: none
-collidesTiles: true
-keepVelocity: false
-collidesAir: true   
-fragBullets: 5
-fragVelocityMin: 3
-fragVelocityMax: 12
-fragRandomSpread: 15
-fragSpread: 3 
-weaveMag: 7
-weaveScale: 8
-pierceArmor: false
-intervalBullets: 1
-bulletInterval: 1.2
-intervalSpread: 180
-pierce: true
-pierceBuilding: true
-pierceCap: 4
-pierceDamageFactor: 0.002
-buildingDamageMultiplier: 0.1
-trailInterval:1.6
-trailChance:1
-trailEffect:[
- {
-type: ParticleEffect 
-lifetime: 60
-colorFrom: e5f9f195
-colorTo: b9c4d800
-drag: 0.4
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 1
-sizeFrom: 0
-sizeTo: 2
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-lifetime: 120
-}
-{
-type: ParticleEffect 
-lifetime: 120
-colorFrom: ffffff95
-colorTo: fcf0bd00
-drag: 0.7
-particles: 2
-cone: 360
-length: 6
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 1.2
-sizeTo: 0 
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-lifetime: 120
-}
-]
 }
 }
 }
