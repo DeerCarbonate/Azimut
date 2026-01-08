@@ -40,7 +40,7 @@ pierce: true
 pierceBuilding: true
 pierceCap: 2
 pierceDamageFactor: 0.002
- buildingDamageMultiplier: 0.1
+ buildingDamageMultiplier: 0.3
  trailChance:2
  trailInterval:3
  trailRotation:true
