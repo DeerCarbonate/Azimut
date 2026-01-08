@@ -20,6 +20,8 @@ rotateSpeed: 0.9
 shootSound: shootDiffuse
 maxAmmo: 30
 ammoPerShot: 8
+shootY: 27
+shake: 3
   ammoTypes: {
 cobalt: {
  type: BasicBulletType
