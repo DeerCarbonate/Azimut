@@ -10,8 +10,8 @@ cooldown: 1200
 restitution: 0.04
 inaccuracy: 2
 recoil: 1.1
-reload: 11
-range: 370
+reload: 10
+range: 350
 targetAir: true
 targetGround: true
 moveWhileCharging: true
@@ -30,7 +30,7 @@ cobalt: {
  damage: 74
  despawnSound: none
  hitSound: none
- lifetime: 80
+ lifetime: 68
  speed: 5.2
  width: 12
  despawnEffect: none
@@ -40,7 +40,7 @@ pierce: true
 pierceBuilding: true
 pierceCap: 2
 pierceDamageFactor: 0.002
- buildingDamageMultiplier: 0.1
+ buildingDamageMultiplier: 0.3
  trailChance:2
  trailInterval:3
  trailRotation:true
@@ -114,8 +114,8 @@ baseRotation: 0
       shots: 1
 	  shootCone: 6
       barrels: [
-        3.5, -0.6, 3.5
-        -3.5, -0.6, -3.5
+        3.5, 0, 3.5
+        -3.5, 0, -3.5
       ]
     }
 hasPower: true
