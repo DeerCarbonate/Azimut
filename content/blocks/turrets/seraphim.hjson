@@ -8,7 +8,7 @@ alwaysUnlocked: false
 recoilTime: 150
 cooldownTime: 180
 squareSprite: false
-inaccuracy: 6
+inaccuracy: 4
 shootWarmupSpeed: 0.001
 recoil: 0.5
 reload: 210
@@ -35,11 +35,11 @@ cobalt: {
  despawnSound: none
  hitSound: none
  lifetime: 95
- speed: 5.7
- width: 19
+ speed: 6
+ width: 15
  despawnEffect: none
  scaleLife: false
- height: 72
+ height: 47
 pierce: false
  buildingDamageMultiplier: 0.3
  trailChance:2
