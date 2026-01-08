@@ -58,11 +58,11 @@ intervalSpread: 180
 drag: 0.06
 sprite: large-bomb
 spin: 2
-fragBullets: 5
-fragVelocityMin: 1
-fragVelocityMax: 3
-fragRandomSpread: 5
-fragSpread: 2
+fragBullets: 3
+fragVelocityMin: 0.7
+fragVelocityMax: 1.7
+fragRandomSpread: 15
+fragSpread: 7
 buildingDamageMultiplier: 0.1
 hitEffect:none
 despawnEffect:none
@@ -242,10 +242,11 @@ lifetime: 120
 hasPower: false
 hasLiquids: false
 requirements: [
-  cobalt/200,
-  venerium/120
-  platinum/85
+  cobalt/400
+  platinum/200
   geliarin/10
+  compound/40
+  zinc/120
 ]
 category: turret
 drawer: {
