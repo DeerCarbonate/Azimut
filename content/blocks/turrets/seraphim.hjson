@@ -1,0 +1,163 @@
+name: Seraphim
+description: Fires projectiles with spread over a long distance.
+researchCostMultiplier: 0.5
+size: 4
+outlineColor: 0c0c12
+health: 1600
+alwaysUnlocked: false
+recoilTime: 150
+cooldownTime: 180
+squareSprite: false
+inaccuracy: 1
+shootWarmupSpeed: 0.001
+recoil: 0.5
+reload: 120
+range: 420
+targetAir: true
+targetGround: true
+moveWhileCharging: true
+rotateSpeed: 0.9
+shootSound: shootDiffuse
+maxAmmo: 30
+ammoPerShot: 8
+  ammoTypes: {
+cobalt: {
+ type: BasicBulletType
+ collidesGround: true
+ frontColor: fccabd
+ backColor: c36868
+ hitColor: fccabd
+ splashDamage: 34
+ splashDamageRadius: 20
+ damage: 74
+ despawnSound: none
+ hitSound: none
+ lifetime: 68
+ speed: 5.2
+ width: 12
+ despawnEffect: none
+ scaleLife: false
+ height: 12
+pierce: true
+pierceBuilding: true
+pierceCap: 2
+pierceDamageFactor: 0.002
+ buildingDamageMultiplier: 0.3
+ trailChance:2
+ trailInterval:3
+ trailRotation:true
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 16
+        waveColor: fccabd95
+        waveStroke: 1.6
+        waveRad: 7.3
+        smokeColor: fccabd95
+        smokeSizeBase: 0
+        smokeSize: 0
+        smokes: 0
+        sparkColor: fccabd95
+        sparkStroke: 1.6
+        sparkRad: 17.5
+        sparkLen: 2
+        sparks: 4
+      }
+shootEffect: [
+{
+followParent: false
+length: 0
+layer: 105
+lifetime: 12
+particles: 1
+cone: 0
+region: azimut-long-triangle
+sizeFrom: 28
+sizeTo: 0
+colorTo: fccabd75
+baseRotation: 0
+}
+]
+			      smokeEffect: [{
+        type: ParticleEffect
+        colorFrom: d88686
+        colorTo: 99999900
+        particles: 7
+        cone: 14
+        lifetime: 33
+        length: 46
+        interp: pow3Out
+		sizeInterp: pow2In
+        sizeFrom: 3.6
+        sizeTo: 0.3
+        }
+	    ]
+ trailEffect:[
+						{
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 1
+                            offsetX:-5
+                            length: 40
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: c3686800
+							colorFrom: fccabd95
+                            cone: 10
+                            baseRotation: 180
+                        }
+                    ]
+      }
+}
+shoot: {
+  shots: 1
+}
+hasPower: true
+consumes: {
+    power: 6
+}
+hasLiquids: true
+coolant: {
+  type: ConsumeLiquid
+  liquid: nitrogen
+  amount: 0.03
+}
+requirements: [
+  cobalt/400
+  platinum/320
+  compound/170
+  geliarin/210
+  zinc/240
+]
+category: turret
+drawer: {
+  type: DrawMulti
+  basePrefix: azimut-
+  heatProgress: charge
+    iconOverride: [
+    -icon
+  ]
+    parts: [
+        {
+          suffix: -grow
+          layer: 65
+          outline: false
+		  turretHeatLayer: 66
+          y: 12
+          moveY: -7
+          growY: -0.1
+          heatColor: e65555
+          progress: {
+            type: recoil
+            op: curve
+            interp: pow5In
+          }
+          growProgress: {
+            type: recoil
+            op: curve
+            interp: pow5In
+          }
+	}
+	]
+}
