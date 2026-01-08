@@ -1,7 +1,7 @@
 name: Seraphim
 description: Fires projectiles with spread over a long distance.
 researchCostMultiplier: 0.5
-size: 4
+size: 5
 outlineColor: 0c0c12
 health: 1600
 alwaysUnlocked: false
@@ -69,11 +69,11 @@ shootEffect: [
 followParent: false
 length: 0
 layer: 105
-lifetime: 12
+lifetime: 20
 particles: 1
 cone: 0
 region: azimut-long-triangle
-sizeFrom: 28
+sizeFrom: 56
 sizeTo: 0
 colorTo: fccabd75
 baseRotation: 0
@@ -83,13 +83,13 @@ baseRotation: 0
         type: ParticleEffect
         colorFrom: d88686
         colorTo: 99999900
-        particles: 7
-        cone: 14
-        lifetime: 33
-        length: 46
+        particles: 10
+        cone: 21
+        lifetime: 64
+        length: 56
         interp: pow3Out
 		sizeInterp: pow2In
-        sizeFrom: 3.6
+        sizeFrom: 4
         sizeTo: 0.3
         }
 	    ]
@@ -117,7 +117,7 @@ shoot: {
 }
 hasPower: true
 consumes: {
-    power: 6
+    power: 7
 }
 hasLiquids: true
 coolant: {
@@ -135,7 +135,6 @@ requirements: [
 category: turret
 drawer: {
   type: DrawTurret
-  basePrefix: azimut-
   heatProgress: charge
     iconOverride: [
     -icon
