@@ -142,11 +142,10 @@ drawer: {
         {
           suffix: -grow
           layer: 65
-          outline: false
 		  turretHeatLayer: 66
-          y: 12
-          moveY: -7
-          growY: -0.1
+          y: 11.2
+          moveY: -5
+          growY: -0.08
           heatColor: e65555
           progress: {
             type: recoil
