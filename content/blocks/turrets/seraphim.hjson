@@ -132,7 +132,7 @@ requirements: [
 ]
 category: turret
 drawer: {
-  type: DrawMulti
+  type: DrawTurret
   basePrefix: azimut-
   heatProgress: charge
     iconOverride: [
