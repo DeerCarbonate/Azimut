@@ -111,6 +111,7 @@ baseRotation: 0
 }
 shoot: {
   shots: 3
+  shotDelay: 53
 }
 hasPower: true
 consumes: {
