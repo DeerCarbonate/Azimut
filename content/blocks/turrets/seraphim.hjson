@@ -37,7 +37,7 @@ cobalt: {
  lifetime: 95
  speed: 6
  width: 15
- drag: 0.08
+ drag: 0.002
  despawnEffect: none
  scaleLife: false
  height: 37
