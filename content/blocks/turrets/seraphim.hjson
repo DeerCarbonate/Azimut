@@ -161,11 +161,10 @@ drawer: {
 		    children: [
             {
               suffix: -barrel
-              layer: 65
+              layer: 64
               outline: true
 			  turretHeatLayer: 66
-              moveY: -7
-			  growY: -0.04
+              moveY: -6.5
 			  under: false
               heatColor: e65555
 			            progress: {
