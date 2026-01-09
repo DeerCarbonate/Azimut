@@ -48,14 +48,14 @@ cobalt: {
       hitEffect: {
         type: ExplosionEffect
         lifetime: 46
-        waveColor: fccabd95
+        waveColor: fcf0bd95
         waveStroke: 1.7
         waveRad: 6
-        smokeColor: fccabd95
+        smokeColor: fcf0bd95
         smokeSizeBase: 3
         smokeSize: 8
         smokes: 7
-        sparkColor: fccabd95
+        sparkColor: fcf0bd95
         sparkStroke: 1.9
         sparkRad: 24.5
         sparkLen: 3
@@ -135,7 +135,7 @@ category: turret
 drawer: {
   type: DrawTurret
   heatProgress: charge
-  basePrefix: azimut-block-5
+  basePrefix: azimut-
     iconOverride: [
     -icon
   ]
@@ -158,6 +158,18 @@ drawer: {
             op: curve
             interp: pow5In
           }
+		    children: [
+            {
+              suffix: -barrel
+              layer: 64
+              outline: false
+			  turretHeatLayer: 66
+              moveY: -5.3
+			  growY: -0.04
+			  under: true
+              heatColor: e65555
+            }
+			]
 	}
 	]
 }
