@@ -22,10 +22,10 @@ rotateSpeed: 0.7
 shootSound: shootAfflict
 maxAmmo: 30
 ammoPerShot: 8
-shootY: 33
+shootY: 29
 shake: 6
   ammoTypes: {
-cobalt: {
+venerium: {
  type: BasicBulletType
  collidesGround: true
  frontColor: ffffff
@@ -39,7 +39,7 @@ cobalt: {
  lifetime: 95
  speed: 6
  width: 15
- drag: 0.002
+ drag: 0.003
  despawnEffect: none
  scaleLife: false
  height: 37

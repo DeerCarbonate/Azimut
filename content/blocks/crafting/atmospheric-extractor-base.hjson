@@ -5,17 +5,17 @@ size: 3
 category: crafting
 rotate: false
 squareSprite: false
-liquidCapacity: 50
+liquidCapacity: 20
 requirements: [
   cobalt/90
-  platinum/65
+  platinum/45
   geliarin/10
   zinc/20
 ]
 hasLiquids: true
 craftTime: 10
 consumes: {
-	power: 3
+	power: 2
 }
 liquidOutputDirections: [3, 2]
 outputLiquids: [
