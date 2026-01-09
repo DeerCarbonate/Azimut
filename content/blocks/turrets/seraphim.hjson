@@ -11,8 +11,8 @@ squareSprite: false
 inaccuracy: 5
 shootWarmupSpeed: 0.001
 recoil: 0.5
-reload: 210
-range: 420
+reload: 260
+range: 540
 targetAir: true
 targetGround: true
 moveWhileCharging: true
@@ -26,9 +26,9 @@ shake: 6
 cobalt: {
  type: BasicBulletType
  collidesGround: true
- frontColor: fccabd
- backColor: c36868
- hitColor: fccabd
+ frontColor: ffffff
+ backColor: fcf0bd
+ hitColor: fcf0bd
  splashDamage: 240
  splashDamageRadius: 35
  damage: 900
@@ -39,8 +39,8 @@ cobalt: {
  width: 15
  despawnEffect: none
  scaleLife: false
- height: 47
-pierce: false
+ height: 37
+ pierce: false
  buildingDamageMultiplier: 0.3
  trailChance:2
  trailInterval:3
@@ -72,13 +72,13 @@ cone: 0
 region: azimut-long-triangle
 sizeFrom: 38
 sizeTo: 0
-colorTo: fccabd75
+colorTo: fcf0bd95
 baseRotation: 0
 }
 ]
 			      smokeEffect: [{
         type: ParticleEffect
-        colorFrom: d8868680
+        colorFrom: fcf0bd80
         colorTo: 99999955
         particles: 16
         cone: 29
@@ -101,8 +101,8 @@ baseRotation: 0
                             strokeTo: 1.5
                             lenFrom: 2
                             lenTo: 5
-                            colorTo: c3686800
-							colorFrom: fccabd95
+                            colorTo: 99999900
+							colorFrom: fcf0bd95
                             cone: 10
                             baseRotation: 180
                         }
@@ -135,6 +135,7 @@ category: turret
 drawer: {
   type: DrawTurret
   heatProgress: charge
+  basePrefix: azimut-
     iconOverride: [
     -icon
   ]
