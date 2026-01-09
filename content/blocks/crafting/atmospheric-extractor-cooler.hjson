@@ -10,8 +10,8 @@ heatRequirement: 6
 maxEfficiency: 1
 requirements: [
   cobalt/70
-  platinum/80
-  geliarin/60
+  platinum/35
+  geliarin/20
   zinc/35
 ]
 consumes: {
