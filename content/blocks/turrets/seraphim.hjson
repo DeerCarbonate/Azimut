@@ -170,7 +170,7 @@ drawer: {
 			  turretHeatLayer: 66
               moveY: -3.5
 			  under: false
-              heatColor: fcf0bd15
+              heatColor: fcf0bd85
 			            progress: {
             type: recoil
             op: curve
