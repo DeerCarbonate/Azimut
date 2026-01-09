@@ -164,9 +164,9 @@ drawer: {
               layer: 64
               outline: false
 			  turretHeatLayer: 66
-              moveY: -5.3
+              moveY: -7
 			  growY: -0.04
-			  under: true
+			  under: false
               heatColor: e65555
             }
 			]
