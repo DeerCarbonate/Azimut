@@ -32,8 +32,25 @@ healColor: f0aba488
 hitSize: 18
 faceTarget: true
 squareShape: true
-description: Fires a burst of lasers and homing projectiles. Able to cross most terrain.
+description: Fires a burst of lasers. Able to cross most terrain.
 drownTimeMultiplier: 3
+		research: {
+  parent: mech-adjuster
+  planet: gelion
+    requirements: [
+	  venerium/20000
+	  compound/9000
+	  platinum/15000
+	  caterium/100
+	  zinc/450
+]
+	objectives: [
+    {
+type: SectorComplete
+preset: eight
+    }
+  ]
+}
 	abilities: [
     {
     type: ShieldRegenFieldAbility

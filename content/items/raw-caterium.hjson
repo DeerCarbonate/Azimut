@@ -8,6 +8,7 @@
 	"flammability": 0,
 	"radioactivity": 0.05,
 	"cost": 2.4,
+	"research": "geliarin",
 	"hiddenOnPlanets": [
 		serpulo,
 		erekir,

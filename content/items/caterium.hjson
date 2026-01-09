@@ -8,6 +8,7 @@
 	"flammability": 0.02,
 	"radioactivity": 0.1,
 	"cost": 2.4,
+	"research": "raw-caterium",
 	"hiddenOnPlanets": [
 		serpulo
 		erekir

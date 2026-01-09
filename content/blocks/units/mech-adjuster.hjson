@@ -32,3 +32,21 @@ requirements: [
 	platinum/550
 	cobalt/450
 ]
+research: {
+  parent: "mech-editor"
+  planet: gelion
+    "requirements": [
+	  "venerium/40000"
+	  "cobalt/35000"
+	  "platinum/25000"
+	  "geliarin/9000"
+	  "caterium/300"
+	  "zinc/2000"
+]
+objectives: [
+    {
+      type: sectorComplete
+      preset: "eight"
+    }
+  ]
+}

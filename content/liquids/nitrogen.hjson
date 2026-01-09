@@ -10,6 +10,6 @@ boilPoint: -4
 gasColor: efe3ff
 gas: true
 blockReactive: false
-
+research: power
 
 hiddenOnPlanets: [serpulo, erekir]
