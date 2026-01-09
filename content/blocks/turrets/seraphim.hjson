@@ -144,7 +144,7 @@ drawer: {
           suffix: -grow
           layer: 65
 		  turretHeatLayer: 66
-          y: 11.2
+          y: 9.5
 		  outline: false
           moveY: -5
           growY: -0.1
