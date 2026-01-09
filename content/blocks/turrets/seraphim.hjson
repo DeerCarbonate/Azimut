@@ -8,7 +8,7 @@ alwaysUnlocked: false
 recoilTime: 150
 cooldownTime: 180
 squareSprite: false
-inaccuracy: 4
+inaccuracy: 5
 shootWarmupSpeed: 0.001
 recoil: 0.5
 reload: 210
@@ -16,7 +16,7 @@ range: 420
 targetAir: true
 targetGround: true
 moveWhileCharging: true
-rotateSpeed: 0.9
+rotateSpeed: 0.7
 shootSound: shootAfflict
 maxAmmo: 30
 ammoPerShot: 8
