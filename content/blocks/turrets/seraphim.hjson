@@ -135,7 +135,7 @@ category: turret
 drawer: {
   type: DrawTurret
   heatProgress: charge
-  basePrefix: azimut-
+  basePrefix: azimut-block-5
     iconOverride: [
     -icon
   ]
