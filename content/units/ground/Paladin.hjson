@@ -5,7 +5,7 @@ rotateSpeed: 1.8
 omniMove: true
 outlineColor: 22251b
 outlineRadius: 3
-alwaysUnlocked: true
+alwaysUnlocked: false
 lockLegBase: true
 hovering: true
 targetAir: true
