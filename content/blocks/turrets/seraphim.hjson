@@ -145,6 +145,7 @@ drawer: {
           layer: 65
 		  turretHeatLayer: 66
           y: 11.2
+		  outline: false
           moveY: -5
           growY: -0.1
           heatColor: e65555
@@ -164,7 +165,7 @@ drawer: {
               layer: 64
               outline: true
 			  turretHeatLayer: 66
-              moveY: -6.5
+              moveY: -3.5
 			  under: false
               heatColor: e65555
 			            progress: {
