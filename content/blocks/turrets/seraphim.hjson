@@ -4,8 +4,10 @@ researchCostMultiplier: 0.5
 size: 5
 outlineColor: 0c0c12
 health: 1600
+outlineIcon: false
 alwaysUnlocked: false
 recoilTime: 150
+heatColor: 00000000
 cooldownTime: 180
 squareSprite: false
 inaccuracy: 5
@@ -149,7 +151,7 @@ drawer: {
 		  outline: false
           moveY: -5
           growY: -0.1
-          heatColor: e65555
+          heatColor: fcf0bd
           progress: {
             type: recoil
             op: curve
@@ -168,7 +170,7 @@ drawer: {
 			  turretHeatLayer: 66
               moveY: -3.5
 			  under: false
-              heatColor: e65555
+              heatColor: fcf0bd
 			            progress: {
             type: recoil
             op: curve
