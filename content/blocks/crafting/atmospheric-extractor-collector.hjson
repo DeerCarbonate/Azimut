@@ -42,3 +42,20 @@ drawer: {
   ]
 }
 researchCostMultiplier: 0.5
+research: {
+  parent: "atmospheric-extractor-base"
+  planet: gelion
+    "requirements": [
+	  "compound/1000"
+	  "cobalt/2000"
+	  "platinum/500"
+	  "zinc/150"
+	  "platinum/700"
+]
+objectives: [
+    {
+      type: SectorComplete
+      preset: "eight"
+    }
+  ]
+}

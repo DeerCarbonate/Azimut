@@ -88,3 +88,20 @@ drawer: {
   ]
 }
 researchCostMultiplier: 0.5
+research: {
+  parent: "atmospheric-extractor-base"
+  planet: gelion
+    "requirements": [
+	  "venerium/5000"
+	  "cobalt/6000"
+	  "zinc/1000"
+	  "caterium/3000"
+	  "compound/2000"
+]
+objectives: [
+    {
+      type: SectorComplete
+      preset: "eight"
+    }
+  ]
+}
