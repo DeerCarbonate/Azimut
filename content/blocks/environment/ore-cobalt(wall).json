@@ -2,7 +2,7 @@
 "wallOre":true,
 "type":"OreBlock",
 "playerUnmineable":true,
-"itemDrop":"venerium",
+"itemDrop":"cobalt",
 "mapColor":"a89963",
 "useColor":true,
 "oreDefault":true,
