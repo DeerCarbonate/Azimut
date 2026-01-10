@@ -4,12 +4,13 @@
 	description: "Guard of the core network."
 	coreUnitDock: true
 	flying: true
-	health: 400
+	health: 450
 	buildSpeed: 2.1
 	drag: 0.075
 	mineTier: 1
     mineSpeed: 9
     buildRange: 225
+ itemCapacity: 60
 	speed: 3.9
 	range: 90
 	accel: 0.36
@@ -25,13 +26,13 @@
    {
     x: 2.1
     y: -8.5
-    radius: 2
+    radius: 2.1
     rotation: -90
    }
    {
     x: -2.1
     y: -8.5
-    radius: 2
+    radius: 2.1
     rotation: -90
    }
  ]
@@ -51,7 +52,7 @@
     reload: 25
     shootY: 0
     shootCone: 15
-    beamWidth: 0.5
+    beamWidth: 0.65
     repairSpeed: 2.3
     fractionRepairSpeed: 0.04
     bullet: {
