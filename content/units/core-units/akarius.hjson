@@ -18,20 +18,20 @@
 	rotateSpeed: 6.8
 	engineColor: bf92f9
 	trailColor: bf92f9
- engineSize: 1
+ engineSize: 2
 	trailLength: 0
 	healColor: bf92f988
 	engines: [
    {
     x: 2.1
     y: -8.5
-    radius: 1
+    radius: 2
     rotation: -90
    }
    {
     x: -2.1
     y: -8.5
-    radius: 1
+    radius: 2
     rotation: -90
    }
  ]
@@ -39,7 +39,7 @@
   {
     widthSinMag: 0.1
     x: 6
-    y: -0.1
+    y: -0.7
     laserColor: bf92f9
     mirror: true
     type: RepairBeamWeapon
