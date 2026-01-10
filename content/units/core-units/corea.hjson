@@ -1,0 +1,19 @@
+type: mech
+name: corea
+
+health: 450
+speed: 0.85
+hitSize: 4
+itemCapacity: 100
+
+canBoost: true
+boostMultiplier: 1.7
+boostDuration: 99999
+boostRecharge: 0
+
+isCounted: false
+flying: false
+lowAltitude: true
+
+controller: player
+

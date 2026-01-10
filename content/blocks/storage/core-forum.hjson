@@ -1,25 +1,38 @@
 type: CoreBlock
-name: "Core: Forum"
-description: The main base, when destroyed a sector is lost.
-size: 4
+name: "Core: Network"
+description: The main base.
+size: 5
 squareSprite: false
-health: 3700
-itemCapacity: 4200
-unitCapModifier: 10
+health: 10000
+itemCapacity: 9000
+unitCapModifier: 15
 unitType: adder
 requirements: [
-cobalt/950
-venerium/750
-platinum/650
+cobalt/3000
+venerium/3000
+platinum/3000
+compound/3000
+geliarin/3000
 ]
 category: effect
 hasItems: true
 hasColor: true
-isFirstTier: true
-alwaysUnlocked: true
-research: {
-  planet: gelion
-  name: Gelion
-  root: true
-  requiresUnlock: false
+isFirstTier: false
+alwaysUnlocked: false
+        research: {
+    parent: "core-forum"
+    planet: gelion
+                "requirements": [
+                "cobalt/50000"
+                "venerium/50000"
+				"compound/10000"
+				"geliarin/10000"
+				"platinum/40000"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: eight
+    }
+  ]
 }
