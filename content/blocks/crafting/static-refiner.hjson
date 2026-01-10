@@ -79,3 +79,21 @@ drawer: {
     }
   ]
 }
+        research: {
+    parent: "mixing-chamber-part"
+    planet: gelion
+                "requirements": [
+                "venerium/30000"
+				"cobalt/30000"
+                "platinum/20000"
+                "geliarin/10000"
+                "compound/8000"
+				"zinc/4000"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: eight
+    }
+  ]
+}
