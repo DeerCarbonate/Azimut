@@ -10,8 +10,8 @@ squareSprite: false
 description: Melts caterium, producing caterium ingots and by-products in the form of cesium and nitrogen.
 ignoreLiquidFullness: true
 requirements: [
-	  compound/40
-	  cobalt/120
+	  compound/35
+	  cobalt/110
 	  geliarin/50
 	  zinc/25
 ]
