@@ -6,7 +6,7 @@ squareSprite: false
 health: 10000
 itemCapacity: 9000
 unitCapModifier: 15
-unitType: adder
+unitType: akarius
 requirements: [
 cobalt/3000
 venerium/3000
