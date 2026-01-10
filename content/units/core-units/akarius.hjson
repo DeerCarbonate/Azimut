@@ -18,6 +18,7 @@
 	rotateSpeed: 6.8
 	engineColor: bf92f900
 	trailColor: bf92f9
+ engineSize: 0
 	trailLength: 0
 	healColor: bf92f988
 	engines: [
