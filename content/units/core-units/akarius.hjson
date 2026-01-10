@@ -1,0 +1,61 @@
+	type: flying
+	outlineColor: 21202a
+	name: Akarius
+	description: "Guard of the core network."
+	coreUnitDock: true
+	flying: true
+	health: 250
+	buildSpeed: 2.1
+	drag: 0.065
+	mineTier: 1
+    mineSpeed: 9
+    buildRange: 225
+	speed: 4
+	range: 90
+	accel: 0.68
+	targetGround: true
+	targetAir: true
+	rotateSpeed: 6.8
+	engineColor: bf92f9
+	trailColor: bf92f9
+	trailLength: 8
+	healColor: bf92f988
+	engines: [
+   {
+    x: 5
+    y: -7
+    radius: 3.5
+    rotation: -90
+   }
+   {
+    x: -5
+    y: -7
+    radius: 3.5
+    rotation: -90
+   }
+ ]
+ weapons: [
+  {
+    widthSinMag: 0.1
+    x: 7
+    y: 7
+    laserColor: bf92f9
+    mirror: true
+    type: RepairBeamWeapon
+    rotate: false
+    targetBuildings: true
+    targetUnits: false
+    autoTarget: false
+    controllable: true
+    reload: 20
+    shootY: 0
+    shootCone: 15
+    beamWidth: 0.8
+    repairSpeed: 4.5
+    fractionRepairSpeed: 0.06
+    bullet: {
+      type: BulletType
+      maxRange: 70
+    }
+  }
+]
