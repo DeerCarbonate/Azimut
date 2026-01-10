@@ -12,13 +12,13 @@
     buildRange: 225
 	speed: 3.9
 	range: 90
-	accel: 0.68
+	accel: 0.36
 	targetGround: true
 	targetAir: true
 	rotateSpeed: 6.8
-	engineColor: bf92f900
+	engineColor: bf92f9
 	trailColor: bf92f9
- engineSize: 0
+ engineSize: 1
 	trailLength: 0
 	healColor: bf92f988
 	engines: [
