@@ -23,8 +23,26 @@ consumes: {
 category: production
 researchCostMultiplier: 0.5
 requirements: [
-  cobalt/120
+  cobalt/100
   venerium/80
-  platinum/120
+  platinum/90
   geliarin/15
+  zinc/35
 ]
+        research: {
+    parent: "relic-drill"
+    planet: gelion
+                "requirements": [
+                "venerium/10000"
+                "platinum/8000"
+                "geliarin/800"
+                "compound/1200"
+				"zinc/600"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: eight
+    }
+  ]
+}
