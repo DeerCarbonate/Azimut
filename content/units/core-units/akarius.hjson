@@ -26,14 +26,14 @@
    {
     x: 2.1
     y: -8.5
-    radius: 2.5
-    rotation: -90
+    radius: 2.6
+    rotation: -85
    }
    {
     x: -2.5
     y: -8.5
-    radius: 2.1
-    rotation: -90
+    radius: 2.6
+    rotation: -85
    }
  ]
  weapons: [
@@ -53,8 +53,8 @@
     shootY: 0
     shootCone: 15
     beamWidth: 0.65
-    repairSpeed: 2.3
-    fractionRepairSpeed: 0.04
+    repairSpeed: 3.7
+    fractionRepairSpeed: 0.08
     bullet: {
       type: BulletType
       maxRange: 65
