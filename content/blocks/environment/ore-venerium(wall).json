@@ -1,0 +1,11 @@
+{
+"wallOre":true,
+"type":"OreBlock",
+"playerUnmineable":true,
+"itemDrop":"venerium",
+"mapColor":"a89963",
+"useColor":true,
+"oreDefault":true,
+"oreThreshold":2,
+"oreScale":20
+}
