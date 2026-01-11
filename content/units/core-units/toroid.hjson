@@ -22,7 +22,7 @@
     {
     type: EnergyFieldAbility
     maxTargets: 1
-    damage: 15
+    damage: 25
     reload: 150
     range: 170
 	color: bf92f9
