@@ -26,12 +26,11 @@
     reload: 150
     range: 120
 	color: bf92f9
-	status: slow
-	statusDuration: 860
+	statusDuration: 0
     x: 0
     y: 0
-	sameTypeHealMult: 0.03
-    healPercent: 0.4
+	sameTypeHealMult: 0.04
+    healPercent: 0.7
 	healEffect: 0
 	effect: none
 	continuous: false
