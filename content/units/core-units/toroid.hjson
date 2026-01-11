@@ -24,14 +24,14 @@
     maxTargets: 1
     damage: 90
     reload: 150
-    range: 180
-	color: fff4a3
+    range: 120
+	color: bf92f9
 	status: slow
 	statusDuration: 860
     x: 0
     y: 0
 	sameTypeHealMult: 0.03
-    healPercent: 0.2
+    healPercent: 0.4
 	healEffect: 0
 	effect: none
 	continuous: false
