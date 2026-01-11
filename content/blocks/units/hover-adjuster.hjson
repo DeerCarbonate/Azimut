@@ -27,7 +27,7 @@ plans: [
 ]
 requirements: [
 	caterium/250
-	geliarin/290
+	geliarin/120
 	venerium/260
 	platinum/450
 	cobalt/650
