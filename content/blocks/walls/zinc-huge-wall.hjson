@@ -12,4 +12,7 @@ research: {
     "requirements": [
 	  "zinc/90"
 ]
-}
+
+lightningChance: 0.1
+lightningDamage: 25
+lightningColor: bba5c9

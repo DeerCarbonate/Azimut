@@ -52,7 +52,6 @@ abilities: [
     x: 0
     y: 0
 	sameTypeHealMult: 0.03
-    statusDuration: 0
     healPercent: 0.001
 	healEffect: 0
 	effect: none
