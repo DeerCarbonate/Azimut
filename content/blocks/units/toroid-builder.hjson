@@ -74,3 +74,18 @@ requirements: [
 createRubble: false
 destroySound: none
 destroyEffect: none
+research: {
+  parent: "core-forum"
+  planet: gelion
+    "requirements": [
+	  "cobalt/10000"
+	  "compound/7000"
+	  "zinc/2500"
+]
+objectives: [
+    {
+      type: SectorComplete
+      preset: "eight"
+    }
+  ]
+}

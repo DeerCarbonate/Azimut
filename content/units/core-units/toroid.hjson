@@ -54,3 +54,14 @@
 	}
 }
 ]
+		research: {
+	parent: toroid-builder
+	planet: gelion
+	requiresUnlock: false
+		objectives: [
+	{
+	 type: research
+	 content: toroid-builder
+	 }
+	 ]
+}
