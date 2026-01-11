@@ -61,3 +61,8 @@
     }
   }
 ]
+		research: {
+	parent: adder
+	planet: gelion
+	requiresUnlock: true
+}

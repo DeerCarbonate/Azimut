@@ -26,7 +26,7 @@
         shootCone: 360
         rotate: true
         mirror: false
-        shake: 0.5
+        shake: 0
         x: 0
         y: 0
         targetBuildings:true
@@ -38,6 +38,7 @@
             shots: 5
             }
         ejectEffect: none
+		smokeEffect: none
         shootSound: shootAlpha
         bullet: {
             type: BasicBulletType
@@ -98,3 +99,8 @@
             }
         }
     ]
+		research: {
+	parent: core-forum
+	planet: gelion
+	requiresUnlock: false
+}
