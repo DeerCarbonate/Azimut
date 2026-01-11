@@ -9,11 +9,12 @@
 	speed: 3
 	range: 80
 	accel: 0.056
-	hitSize: 4
+	hitSize: 16
 	targetGround: true
 	targetAir: true
 	rotateSpeed: 7.2
 	engineColor: bf92f9
+	engineY: -5
 	trailColor: bf92f9
 	trailLength: 8
 	healColor: bf92f988
