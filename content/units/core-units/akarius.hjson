@@ -64,5 +64,11 @@
 		research: {
 	parent: adder
 	planet: gelion
-	requiresUnlock: true
+	requiresUnlock: false
+		objectives: [
+	{
+	 type: research
+	 content: core-network
+	 }
+	 ]
 }
