@@ -1,4 +1,4 @@
-# AZIMUT 0.3: COMING SOON.
+# AZIMUT 0.3: IS HERE!
 
 
 
