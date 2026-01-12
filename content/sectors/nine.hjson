@@ -1,0 +1,19 @@
+localizedName: Cold Spot
+description: "In the cold haze, an enemy base exists. Study the new gold-like material and create the Paladin, a heavy ground unit, to capture the enemy base."
+difficulty: 6
+planet: gelion
+name: nine
+sector: 11
+research: {
+parent: seven
+requiresUnlock: false
+objectives: [
+mech-adjuster,
+terraformer
+atmospheric-extractor-base
+{
+type: SectorComplete
+preset: eight
+  }
+ ]
+}
