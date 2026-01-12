@@ -3,7 +3,7 @@ description: "In the cold haze, an enemy base exists. Study the new gold-like ma
 difficulty: 6
 planet: gelion
 name: nine
-sector: 5
+sector: 15
 research: {
 parent: seven
 requiresUnlock: false
