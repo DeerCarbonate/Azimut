@@ -7,4 +7,17 @@ mod.meta.description = "[#c5faf6]Develop complex logistics[],[#c5fae3] repel wav
 mod.meta.author = "[#c3961f]Deer[#876409]Carbonate";
   
 require("blocks");
+const chainLightning = require("effects/chainLightning");
+
+Events.on(ContentInitEvent, () => {
+
+    const unit = Vars.content.getByName(ContentType.unit, "promotion");
+    if(unit == null) return;
+
+    const weapon = unit.weapons.find(w => w.name === "promotion-chain-defence");
+    if(weapon == null) return;
+
+    weapon.beamEffect = chainLightning;
+});
+
 

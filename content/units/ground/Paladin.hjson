@@ -91,7 +91,7 @@ weapons: [
     bullet: {
       type: RailBulletType
       length: 160
-      damage: 18
+      damage: 22
 	  lifetime: 1
 	  hitColor: cc918b
       pointEffectSpace: 3.875

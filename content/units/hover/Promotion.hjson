@@ -84,6 +84,7 @@ abilities: [
 weapons: [
   {
     type: PointDefenseWeapon
+	name: promotion-chain-defence
     x: 0
     y: -1
     shake: 2
