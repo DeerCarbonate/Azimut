@@ -43,12 +43,12 @@ abilities: [
     {
     type: EnergyFieldAbility
     maxTargets: 5
-    damage: 74
+    damage: 70
     reload: 13
     range: 180
 	color: fff4a3
 	status: emp
-	statusDuration: 250
+	statusDuration: 190
     x: 0
     y: 0
 	sameTypeHealMult: 0.03
