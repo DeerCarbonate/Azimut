@@ -1,7 +1,7 @@
 disarm: true
 speedMultiplier: 0.25
 buildSpeedMultiplier: 0
-effectChance: 0.03"
+effectChance: 0.03
 effect:
 {
 		type: ParticleEffect
@@ -14,6 +14,6 @@ effect:
 		cone: 360
 		colorFrom: FFE066
 		colorTo: FFD24D
-		sizeFrom: 6.2
+		sizeFrom: 6.8
 		sizeTo:0
 }
