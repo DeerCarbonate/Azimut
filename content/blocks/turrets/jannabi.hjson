@@ -410,13 +410,13 @@ shoot: {
 	  }
 	      caterium: {
  type: BasicBulletType
- reloadMultiplier:0.4
+ reloadMultiplier:0.37
  collidesTiles: true
  collidesGround: true
  frontColor: fff4a3
  backColor: 957655
  hitColor: fff4a3
- damage: 320
+ damage: 230
  despawnSound: explosionbig
  hitSound: explosionbig
  lifetime: 68
