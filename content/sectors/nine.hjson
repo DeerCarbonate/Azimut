@@ -8,7 +8,6 @@ research: {
 parent: seven
 requiresUnlock: false
 objectives: [
-mech-adjuster,
 terraformer
 atmospheric-extractor-base
 {
