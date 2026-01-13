@@ -1,5 +1,5 @@
 disarm: true
-speedMultiplier: 0
+speedMultiplier: 0.25
 buildSpeedMultiplier: 0
 effectChance: 0.03"
 effect:
