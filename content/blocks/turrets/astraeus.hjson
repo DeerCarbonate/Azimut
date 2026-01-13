@@ -25,9 +25,9 @@ cobalt: {
  frontColor: fccabd
  backColor: c36868
  hitColor: fccabd
- splashDamage: 34
+ splashDamage: 30
  splashDamageRadius: 20
- damage: 74
+ damage: 68
  despawnSound: none
  hitSound: none
  lifetime: 68
