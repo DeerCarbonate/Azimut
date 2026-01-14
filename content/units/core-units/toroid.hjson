@@ -22,15 +22,15 @@
     {
     type: EnergyFieldAbility
     maxTargets: 1
-    damage: 25
+    damage: 40
     reload: 150
     range: 170
 	color: bf92f9
 	statusDuration: 0
     x: 0
     y: 0
-	sameTypeHealMult: 0.04
-    healPercent: 0.6
+	sameTypeHealMult: 0.08
+    healPercent: 0.8
 	healEffect: 0
 	effect: none
 	continuous: false
