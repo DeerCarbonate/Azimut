@@ -568,6 +568,9 @@ drawer: {
   basePrefix: azimut-
   heatProgress: recoil
   cooldown: 0.1
+  iconOverride: [
+    -icon
+  ]
   parts: [
   {
       type: RegionPart,

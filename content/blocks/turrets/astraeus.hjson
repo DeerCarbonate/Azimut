@@ -140,6 +140,9 @@ drawer: {
   type: DrawTurret
   basePrefix: azimut-
   heatProgress: charge
+  iconOverride: [
+    -icon
+  ]
     parts: [
       {
         type: RegionPart

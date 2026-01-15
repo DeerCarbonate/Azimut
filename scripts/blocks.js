@@ -47,10 +47,8 @@ const relocator = extend(ItemTurret, "relocator", {});
 
 const jannabi = extend(ItemTurret, "jannabi", {});
 
-const retray = extend(ItemTurret, "retray", {});
-
 const astraeus = extend(ItemTurret, "astraeus", {});
 
-const relay = extend(ItemTurret, "relay", {});
+const retray = extend(ItemTurret, "retray", {});
 
 const seraphim = extend(ItemTurret, "seraphim", {});
