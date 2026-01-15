@@ -1,6 +1,6 @@
-healthMultiplier: 1.1
+healthMultiplier: 1.3
 speedMultiplier: 0.45
-reloadMultiplier: 1.6
+reloadMultiplier: 1.35
 effectChance: 0.01
 effect: {
         type: ParticleEffect
