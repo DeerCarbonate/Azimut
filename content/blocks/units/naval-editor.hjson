@@ -8,9 +8,9 @@ research: {
   planet: gelion
     "requirements": [
 	  "venerium/140"
-	  "cobalt/450"
-	  "platinum/500"
-	  "geliarin/175"
+	  "cobalt/250"
+	  "platinum/100"
+	  "geliarin/80"
 ]
 objectives: [
     {
@@ -24,8 +24,7 @@ plans: [
 	unit: Plankton
 	requirements: [
 		geliarin/25
-		platinum/55
-		cobalt/45
+		platinum/50
     	]
     	time: 1150
   	}
@@ -34,7 +33,6 @@ plans: [
 	requirements: [
 		geliarin/45
 		platinum/110
-		cobalt/90
 		compound/25
     	]
     	time: 2070
@@ -42,7 +40,7 @@ plans: [
 ]
 
 consumes: {
-	liquid: power/0.18
+	liquid: power/0.17
 }
 configurable: true
 requirements: [

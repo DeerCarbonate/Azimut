@@ -7,9 +7,9 @@ research: {
   parent: "core-forum"
   planet: gelion
     "requirements": [
-	  "venerium/120"
+	  "venerium/100"
 	  "cobalt/20"
-	  "platinum/230"
+	  "platinum/90"
 	  "geliarin/25"
 ]
 objectives: [
@@ -23,25 +23,24 @@ plans: [
 	{
 	unit: Legate
 	requirements: [
-		venerium/80
-		platinum/40
+		venerium/50
+		platinum/35
     	]
     	time: 1200
   	}
 	{
 	unit: Marshal
 	requirements: [
-		venerium/125
-		platinum/110
-		cobalt/45
-		compound/30
+		venerium/95
+		platinum/90
+		compound/15
     	]
     	time: 2120
   	}
 ]
 
 consumes: {
-	liquid: power/0.14
+	liquid: power/0.15
 }
 configurable: true
 requirements: [
