@@ -11,7 +11,7 @@ alwaysUnlocked: true
 range: 100
 armor: 4
 accel: 0.1
-health: 2440
+health: 2600
 hovering: true
 canDrown: false
 speed: 1.08
@@ -162,7 +162,7 @@ weapons: [
       recoil: 1.2
       splashDamage: 190
       splashDamageRadius: 32
-      damage: 410
+      damage: 400
       height: 32
       speed: 0.12
       width: 12
