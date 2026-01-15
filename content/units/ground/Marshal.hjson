@@ -67,7 +67,7 @@ preset: sixth
 	shootSound: shootCleroi
 	shootY: 4
 	shootStatus: ram
-    shootStatusDuration: 15
+    shootStatusDuration: 60
 	shoot: {
 		type: ShootSpread
 		firstShotDelay: 50
