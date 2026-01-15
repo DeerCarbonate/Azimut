@@ -1,0 +1,15 @@
+healthMultiplier: 1.1
+speedMultiplier: 0.65
+reloadMultiplier: 1.6
+effectChance: 0.01
+effect: {
+        type: ParticleEffect
+        colorFrom: f0aba4
+        colorTo: af776510
+        particles: 2
+        lifetime: 35
+        length: 30
+        int: pow2out
+        sizeFrom: 3.2
+        sizeTo: 0
+}

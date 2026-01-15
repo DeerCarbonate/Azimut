@@ -66,6 +66,8 @@ preset: sixth
  velocityRnd:0.2
 	shootSound: shootCleroi
 	shootY: 4
+	shootStatus: ram
+    shootStatusDuration: 15
 	shoot: {
 		type: ShootSpread
 		firstShotDelay: 50
@@ -121,7 +123,7 @@ colorFrom: cc918b
 cone: 15
         }
 		type: BasicBulletType
-		damage: 22
+		damage: 26
 		lifetime: 44
 		width: 9
 		height: 9
