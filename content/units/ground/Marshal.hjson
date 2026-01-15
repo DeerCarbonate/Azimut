@@ -6,7 +6,7 @@
 	outlineRadius: 3
 	alwaysUnlocked: false
 	armor: 4
-	health: 2100
+	health: 2050
 	speed: 0.46
 	hitSize: 14
  stepSound: walkerStepSmall
@@ -23,7 +23,7 @@
     reload: 1100
     amount: 30
     range: 12
-    max: 90
+    max: 60
     }
 	]
 	parts: [
