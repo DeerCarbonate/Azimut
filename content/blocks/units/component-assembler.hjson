@@ -27,3 +27,18 @@ filter: [
 ]
 squareSprite: true
 maxBlockSize: 2
+research: {
+  parent: "mech-editor"
+  planet: gelion
+    "requirements": [
+          "venerium/10000"
+          "caterium/300"
+          "zinc/1000"
+]
+objectives: [
+    {
+      type: sectorComplete
+      preset: "eight"
+    }
+  ]
+}
