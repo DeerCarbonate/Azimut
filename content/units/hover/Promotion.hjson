@@ -128,7 +128,7 @@ weapons: [
     x: 0
     shootSound: hasno
     ignoreRotation: false
-    shootStatus: unmoving
+    shootStatus: charge
     shootStatusDuration: 115
     shoot: {
       firstShotDelay: 100
