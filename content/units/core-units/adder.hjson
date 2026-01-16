@@ -1,5 +1,5 @@
 	type: flying
-	outlineColor: 21202a
+	outlineColor: 2d2f39
 	name: Adder
 	description: "Guard of the core forum."
 	flying: true
