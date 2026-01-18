@@ -1,7 +1,8 @@
-disarm: true
+disarm: false
+reloadMultiplier: 0.45
 speedMultiplier: 0.65
 buildSpeedMultiplier: 0
-effectChance: 0.04
+effectChance: 0.034
 effect:
 {
 		type: ParticleEffect
