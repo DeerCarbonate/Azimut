@@ -81,7 +81,7 @@ shootType: {
 	pierceArmor: false
 	
     lifetime: 12
-    damage: 130
+    damage: 105
 	
 	laserAbsorb:true
 }
