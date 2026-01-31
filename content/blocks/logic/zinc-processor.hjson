@@ -1,0 +1,25 @@
+type: LogicBlock
+name: Zinc processor
+category: logic
+		research: {
+    parent: "core-forum"
+    planet: gelion
+		"requirements": [
+		"cobalt/5000"
+		"platinum/5000"
+		"compound/2500"
+		]
+	objectives: [
+    {
+type: SectorComplete
+preset: eight
+    }
+  ]
+}
+requirements: [
+ platinum/30
+ zinc/25
+ compound/10
+]
+instructionsPerTick: 8
+researchCostMultiplier: 0.5

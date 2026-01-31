@@ -1,0 +1,26 @@
+type: MemoryBlock
+name: Alloy memory cell
+memoryCapacity: 72
+category: logic
+		research: {
+    parent: "zinc-processor"
+    planet: gelion
+		"requirements": [
+		"cobalt/2500"
+		"platinum/7000"
+		"zinc/600"
+		]
+	objectives: [
+    {
+type: SectorComplete
+preset: eight
+    }
+  ]
+}
+requirements: [
+  cobalt/10
+  platinum/50
+  zinc/20
+]
+size: 1
+researchCostMultiplier: 0.5
