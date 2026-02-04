@@ -84,8 +84,8 @@ preset: fifth
                 collidesGround: true
                 lifetime: 96
                 damage: 11
-                backColor: 5fac9e
-                frontColor: a4f0d7
+                backColor: a4f0d7
+                frontColor: ffffff
                 homingPower: 0.1
                 homingRange:100
                 homingDelay: 30
