@@ -84,8 +84,8 @@ preset: fifth
                 collidesGround: true
                 lifetime: 96
                 damage: 11
-                backColor: e5f9f1
-                frontColor: b3eed8
+                backColor: 5fac9e
+                frontColor: a4f0d7
                 homingPower: 0.1
                 homingRange:100
                 homingDelay: 30
@@ -98,8 +98,8 @@ preset: fifth
 				sprite: missile
                 shootEffect: {
                     type: ParticleEffect
-                    colorFrom: e5f9f1
-                    colorTo: b3eed880
+                    colorFrom: 5fac9e
+                    colorTo: 5fac9e80
                     particles: 6
                     cone: 4
                     lifetime:15
