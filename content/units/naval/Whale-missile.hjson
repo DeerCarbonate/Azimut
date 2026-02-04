@@ -30,10 +30,10 @@ homingDelay: 30
 deathExplosionEffect: none
 loopSoundVolume: 0.5
 
-trailColor: 8edfc1
+trailColor: 5fac9e
 trailLength: 18
 trailWidth: 1
-engineColor: 8edfc1
+engineColor: 5fac9e
 engineSize: 1.2
 engineOffset: 3
 engineLayer: 100
@@ -44,7 +44,7 @@ abilities: [
     damage: 18
     reload: 10
     range: 83
-	color: 8edfc1
+	color: a4f0d7
     x: 0
     y: 0
 	sameTypeHealMult: 0.03
@@ -61,7 +61,7 @@ parts: [
      hollow: true
      circle: true
      layer: 110
-     color: 8edfc1
+     color: a4f0d7
      stroke: 1.4
      strokeTo: 2
      radius: 4
@@ -102,7 +102,7 @@ cone: 0
 region: azimut-shockwave
 sizeFrom: 20
 sizeTo: 23
-colorTo: b3eed800
+colorTo: a4f0d700
 baseRotation: 180
 interp: pow3Out
 }
@@ -117,8 +117,8 @@ interp: pow3Out
 				sizeTo: 28
 				strokeFrom: 6
 				strokeTo: 2
-                colorFrom: e5f9f180
-                colorTo: b3eed800
+                colorFrom: a4f0d780
+                colorTo: 5fac9e00
 				interp:pow3Out
 				}
 			]
@@ -132,8 +132,8 @@ interp: pow3Out
 				sizeTo: 28
 				strokeFrom: 6
 				strokeTo: 2
-                colorFrom: e5f9f180
-                colorTo: b3eed800
+                colorFrom: a4f0d780
+                colorTo: 5fac9e00
 				interp:pow3Out
 				}
 			]

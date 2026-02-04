@@ -112,8 +112,8 @@ preset: fifth
                 }
                 hitEffect: {
                     type: ParticleEffect
-                    colorFrom: e5f9f1
-                    colorTo: b3eed880
+                    colorFrom: 5fac9e
+                    colorTo: 5fac9e80
                     particles: 7
                     cone: 15
                     length: 25
@@ -123,8 +123,8 @@ preset: fifth
                 }
                 despawnEffect: {
                     type: ParticleEffect
-                    colorFrom: e5f9f1
-                    colorTo: b3eed880
+                    colorFrom: 5fac9e
+                    colorTo: 5fac9e80
                     particles: 7
                     cone: 16
                     length: 60
@@ -135,7 +135,7 @@ preset: fifth
                 trailEffect:[
                 {
                     type: ParticleEffect
-                    colorFrom: e5f9f180
+                    colorFrom: 5fac9e80
                     colorTo: b3eed800
                     particles: 1
                     cone: 360
@@ -148,8 +148,8 @@ preset: fifth
                 {
                     type: ParticleEffect
                     region:large-bomb
-                    colorFrom: ffffff
-                    colorTo: b3eed800
+                    colorFrom: 5fac9e
+                    colorTo: 5fac9e00
                     particles: 1
                     lifetime:20
                     cone: 360
