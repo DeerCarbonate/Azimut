@@ -1,0 +1,22 @@
+type: SwitchBlock
+size: 1
+health: 90
+category: logic
+requirements: [
+  cobalt/5
+  zinc/5
+]
+research: {
+    parent: "zinc-processor"
+    planet: gelion
+		"requirements": [
+		"cobalt/3000"
+		"zinc/200"
+		]
+	objectives: [
+    {
+type: SectorComplete
+preset: eight
+    }
+  ]
+}
