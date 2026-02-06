@@ -1,5 +1,6 @@
 type: SwitchBlock
 size: 1
+name: Zinc switcher
 health: 90
 category: logic
 requirements: [
