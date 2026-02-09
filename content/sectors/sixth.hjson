@@ -1,5 +1,7 @@
 localizedName: Melting channels
-description: "An enemy outpost has been spotted in the sector. Discover and create the new Improvement unit - a ground hover unit that can fly through liquids and other terrain."
+description: "Where ancient glaciers once stood, a vast network of flooded channels now stretches across the region.
+
+Due to the rugged terrain, you will need to rely on hovers — agile combat units capable of traversing most obstacles."
 captureWave: 0
 difficulty: 7
 planet: gelion
