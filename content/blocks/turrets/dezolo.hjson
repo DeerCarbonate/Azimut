@@ -334,7 +334,7 @@ shootEffect: [
 					lifetime: 20
   }
   hitEffect: {
-    type: MultiEffect,
+    type: MultiEffect
     effects: [
       {
 					type: ParticleEffect 
