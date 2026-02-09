@@ -262,8 +262,8 @@ shootEffect: [
                             strokeTo: 1.5
                             lenFrom: 2
                             lenTo: 5
-                            colorTo: 66667e00
-							colorFrom: a3a6ae95
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
                             cone: 10
                             baseRotation: 180
                         }
@@ -277,8 +277,8 @@ shootEffect: [
                             strokeTo: 0.5
                             lenFrom: 2
                             lenTo: 5
-                            colorTo: 66667e00
-							colorFrom: a3a6ae95
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
                             cone: 25
                             baseRotation: 180
                         }
