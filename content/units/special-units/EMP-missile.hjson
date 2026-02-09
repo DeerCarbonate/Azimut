@@ -53,7 +53,7 @@ abilities: [
     y: 0
 	sameTypeHealMult: 0.03
     healPercent: 0.001
-	healEffect: 0
+	healEffect: none
 	effect: none
 	continuous: false
 	rotate: false
