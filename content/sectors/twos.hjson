@@ -1,6 +1,7 @@
 localizedName: Silicon Ravine
 difficulty: 4
-description: "There is a small enemy base in the sector to control territories. Unlock the Legate unit and produce Geliarin, an important resource for new technologies."
+description: "Along the mountainous terrain stretches a ravine filled with an unknown life form. An enemy base blocks further advancement.
+Use ammonia—condensed on the surface of the ice. Creating a new resource will help you destroy the enemy base."
 captureWave: 0
 planet: gelion
 name: twos
