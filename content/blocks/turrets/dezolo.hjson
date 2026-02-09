@@ -319,8 +319,8 @@ shootEffect: [
 		}
       despawnEffect: {
 					type: ParticleEffect 
-                            colorTo: 66667e00
-							colorFrom: a3a6ae95
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
 					particles: 4
 					length: 32
 					baseLength: 2
@@ -338,8 +338,8 @@ shootEffect: [
     effects: [
       {
 					type: ParticleEffect 
-                            colorTo: 66667e00
-							colorFrom: a3a6ae95
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
 					particles: 8
 					cone: 7
 					length: 42
@@ -362,20 +362,20 @@ shootEffect: [
 			length: 120
 			cone: -30
 			strokeTo: 0
-			lightColor: a3a6ae
+			lightColor: "a3a6ae"
 			lenFrom: 9
 			lenTo: 0
 			strokeFrom: 6
-                            colorTo: 66667e00
-							colorFrom: a3a6ae95
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
 	}
 ]
 }
 shootEffect: [
 		{
 					type: ParticleEffect 
-                     colorTo: fcf0bd00
-				     colorFrom: a3a6ae95
+                     colorTo: "fcf0bd00"
+				     colorFrom: "a3a6ae95"
 					particles: 16
 					cone: 5
 					length: 120
