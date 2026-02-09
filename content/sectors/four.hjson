@@ -1,5 +1,7 @@
 localizedName: Wilderness
-description: "This sector’s ruins contain technologies that will support your future expansion. Expect heavy enemy resistance as they attempt to safeguard this information. Defeat their forces to unlock new technological progress."
+description: "This sector’s ruins contain technologies that will support your future expansion.
+
+Expect heavy enemy resistance as they attempt to safeguard this information."
 captureWave: 30
 difficulty: 6
 planet: gelion
