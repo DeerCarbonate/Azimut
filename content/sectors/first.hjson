@@ -1,5 +1,6 @@
 localizedName: Arrival
-description: Your first sector on a new planet.
+description: "Low enemy activity makes this sector ideal for researching early technologies.
+Automate production and push forward."
 captureWave: 6
 alwaysUnlocked: true
 addStartingItems: false
