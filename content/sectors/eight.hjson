@@ -1,5 +1,6 @@
 localizedName: Northern Pass
-description: "Set out for the coldest, snow-covered regions of the planet to extract a new type of resource. The harsh climate and confined terrain will create resource scarity - use what you have wisely."
+description: "Set out for the coldest, snow-covered regions of the planet to extract a new type of resource.
+The harsh climate and confined terrain will create resource scarity - use what you have wisely."
 captureWave: 20
 difficulty: 2
 planet: gelion
