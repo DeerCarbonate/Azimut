@@ -136,7 +136,7 @@ speed: 2.8
 collidesTiles: true
 collidesGround: true
 lifetime: 65
-damage: 110
+damage: 100
 backColor: 957655
 frontColor: dacaaa
 fragBullets: 6
