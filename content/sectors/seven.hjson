@@ -1,5 +1,7 @@
 localizedName: Frozen Frontier
-description: "Your first truly serious attack sector. Use two types of units for maximum efficiency, and prepare for enemy resistance."
+description: "A chain of archipelagos spreads along the flooded channels.
+
+The enemy stronghold maintains control of the airspace, cutting off the route to the north. A successful assault will require deploying two different types of combat units. Stay alert — the enemy will put up heavy resistance."
 captureWave: 0
 difficulty: 9
 planet: gelion
