@@ -1,5 +1,4 @@
-	name: Cthulhu
-	type: naval
+ type: naval
 	rotateSpeed: 1
 	flying: false
 	alwaysUnlocked: false
