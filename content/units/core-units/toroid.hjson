@@ -1,6 +1,5 @@
 	type: flying
 	outlineColor: 21202a
-	name: Toroid
 	flying: true
 	health: 310
 	buildSpeed: 0.7
