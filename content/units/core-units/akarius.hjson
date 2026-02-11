@@ -1,6 +1,5 @@
 	type: flying
 	outlineColor: 21202a
-	name: Akarius
 	description: "Guard of the core network."
 	coreUnitDock: true
 	flying: true
