@@ -7,6 +7,7 @@ mod.meta.displayName =
 
 mod.meta.description =
 "A [#c5faf6]hybrid mod[] primarily built around [#bbc4f4]Erekir[] and its linear progression system.\n" +
+
 "The mod introduces new gameplay mechanics that are tightly integrated into the campaign and accompany you throughout the entire playthrough.\n\n" +
 
 "The mod also has a [#768bff]Discord server[] — you can find the link in the README file on the GitHub page.\n\n" +
