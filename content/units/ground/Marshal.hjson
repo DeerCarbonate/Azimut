@@ -1,4 +1,3 @@
- name: Marshal
 	type: mech
 	rotateSpeed: 2
 	omniMove": true
