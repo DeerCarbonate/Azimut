@@ -1,6 +1,5 @@
 type: flying
 health: 18000
-name: Perfection
 hitSize: 31.5
 flying: true
 speed: 1.35

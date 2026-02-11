@@ -1,6 +1,5 @@
 type: flying
 health: 6950
-name: Development
 hitSize: 23
 flying: true
 speed: 1.95
