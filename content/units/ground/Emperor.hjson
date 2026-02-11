@@ -1,5 +1,4 @@
 {
-	"name": "Emperor",
 	"type": legs,
 	"flying": false,
 	"rotateSpeed": 0.8,
