@@ -124,32 +124,37 @@ weapons: [
         weaponIndex: 0
       }
       {
-        suffix: -s
-        mirror: true
-        outlineColor: 22251b
-        outlineRadius: 0
-
-        heatProgress: charge
-        heatColor: ff4500
-        heatLayer: 1
-
-        under: true
-        layerOffset: -2
-
-        progress: {
-          type: warmup
-          ops: [
-            { op: delay, amount: 0.23 }
-            { op: curve, interp: pow3In }
-            { op: curve, interp: pow3Out }
-          ]
-        }
-
-        moveY: -1
-        moveX: -3.7
-        moveRot: 0
-        x: 0
-        y: 0
+    suffix: -s
+    mirror: true
+    outlineColor: 22251b
+    outlineRadius: 0
+	heatProgress: charge
+    heatColor: ff4500
+    heatLayer: 1
+	under: true
+    layerOffset: -2
+    progress: {
+      type: warmup
+      ops: [
+		  {
+		     op: delay
+			 amount: 0.23
+		  }
+		  {
+		     op: curve
+			 interp: pow3In
+	      }
+		  {
+		     op: curve
+			 interp: pow3Out
+		  }
+      ]
+    }
+    moveY: -1
+    moveX: -3.7
+    moveRot: 0
+    x: 0
+    y: 0,
 
         children: [
           {
