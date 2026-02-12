@@ -76,7 +76,7 @@ weapons: [
     blending: additive
     outline: false
 	   under: true
-    layer: 65
+    layer: 60
     color: cc918b
     growProgress: recoil
     xScl: 0.19
