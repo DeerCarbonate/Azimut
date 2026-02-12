@@ -103,7 +103,7 @@ weapons: [
     blending: additive
     outline: false
 	under: true
-    layer: 1
+    layer: 10
     color: cc918b
     growProgress: recoil
     xScl: 0.2
@@ -119,7 +119,7 @@ weapons: [
     blending: additive
     outline: false
 	under: true
-    layer: 1
+    layer: 10
     color: ffffff
     growProgress: recoil
     xScl: 0.1
