@@ -97,6 +97,32 @@ weapons: [
     }
 
     parts: [
+	      {
+        type: FlarePart
+        sides: 2
+        color1: "cc918bbb"
+        radius: 95
+        radiusTo: 0
+        stroke: 8
+        innerRadScl: 0.85
+        y: 0
+        progress: recoil
+        layer: 101
+        weaponIndex: 0
+      }
+
+      {
+        type: FlarePart
+        sides: 2
+        color1: "00000000"
+        radius: 48
+        radiusTo: 0
+        stroke: 48
+        y: 66
+        progress: recoil
+        layer: 101
+        weaponIndex: 0
+      }
       {
         suffix: -s
         mirror: true
@@ -175,33 +201,6 @@ weapons: [
             y: 0
           }
         ]
-      }
-
-      {
-        type: FlarePart
-        sides: 2
-        color1: cc918b
-        radius: 95
-        radiusTo: 0
-        stroke: 8
-        innerRadScl: 0.85
-        y: 0
-        progress: recoil
-        layer: 101
-        weaponIndex: 0
-      }
-
-      {
-        type: FlarePart
-        sides: 2
-        color1: 00000000
-        radius: 48
-        radiusTo: 0
-        stroke: 48
-        y: 66
-        progress: recoil
-        layer: 101
-        weaponIndex: 0
       }
     ]
 
