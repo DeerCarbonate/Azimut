@@ -238,6 +238,7 @@ weapons: [
       damage: 80
       shootSound: explosionNavanax
 	  hitSound: explosionObivate
+	  recoil: 1.6
 
       pierce: true
       pierceBuilding: true
@@ -383,13 +384,29 @@ weapons: [
         {
           particles: 1
           length: 0
-          lifetime: 120
+          lifetime: 45
           region: azimut-shockwave
           sizeFrom: 0
-          sizeTo: 120
+          sizeTo: 160
           colorTo: f0aba400
           startDelay: 79
+		  interp:pow3Out
         }
+		despawnEffect: [
+				{
+				type: WaveEffect
+				rotWithParent: true
+				followParent: true
+				lifetime: 45
+				sizeFrom: 5
+				sizeTo: 160
+				strokeFrom: 6
+				strokeTo: 2
+                colorTo: f0aba400
+				interp:pow3Out
+				startDelay: 79
+				}
+			]
         {
           particles: 1
           length: 0
