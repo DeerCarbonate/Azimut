@@ -107,7 +107,7 @@ weapons: [
         innerRadScl: 0.82
         y: 5
         progress: recoil
-        layer: 101
+        layer: -20
         weaponIndex: 0
       }
 
@@ -120,7 +120,7 @@ weapons: [
         stroke: 38
         y: 5
         progress: recoil
-        layer: 101
+        layer: -20
         weaponIndex: 0
       }
       {
@@ -131,8 +131,7 @@ weapons: [
 	heatProgress: charge
     heatColor: ff4500
     heatLayer: 1
-	under: false
-    layerOffset: 90
+    layerOffset: -1
     progress: {
       type: warmup
       ops: [
