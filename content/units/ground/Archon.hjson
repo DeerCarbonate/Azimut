@@ -110,11 +110,11 @@ weapons: [
     layer: 60
     color: cc918b
     growProgress: recoil
-    xScl: 0.2
-    yScl: 0.2
+    xScl: 0.19
+    yScl: 0.19
     growX: -0.08
     growY: -0.08
-    y: 0
+    y: -0.1
     weaponIndex: 0
   }
   {
@@ -126,11 +126,11 @@ weapons: [
     layer: 60
     color: ffffff
     growProgress: recoil
-    xScl: 0.1
-    yScl: 0.1
+    xScl: 0.09
+    yScl: 0.09
     growX: -0.08
     growY: -0.08
-    y: 0
+    y: -0.1
     weaponIndex: 0
   }
       {
