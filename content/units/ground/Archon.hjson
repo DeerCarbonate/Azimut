@@ -97,6 +97,36 @@ weapons: [
     }
 
     parts: [
+	  {
+    type: RegionPart
+    name: circle
+    blending: additive
+    outline: false
+    layer: 90
+    color: cc918b
+    growProgress: recoil
+    xScl: 0.2
+    yScl: 0.2
+    growX: -0.05
+    growY: -0.05
+    y: -2
+    weaponIndex: 0
+  }
+  {
+    type: RegionPart
+    name: circle
+    blending: additive
+    outline: false
+    layer: 90
+    color: ffffff
+    growProgress: recoil
+    xScl: 0.1
+    yScl: 0.1
+    growX: -0.001
+    growY: -0.001
+    y: -2
+    weaponIndex: 0
+  }
       {
     suffix: -s
     mirror: true
