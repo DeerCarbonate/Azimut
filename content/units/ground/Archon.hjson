@@ -74,9 +74,9 @@ weapons: [
     type: FlarePart
     sides: 2
     color1: cc918bbb
-    radius: 60
-    radiusTo: 0
-    stroke: 6
+    radius: 0
+    radiusTo: 60
+    stroke: 7
     innerRadScl: 0.70
     y: -0.1
     progress: charge
