@@ -204,7 +204,7 @@ weapons: [
       }
 
       damage: 80
-      hitSound: plasmaboom
+      shootSound: Sounds.plasmaboom
 
       pierce: true
       pierceBuilding: true
