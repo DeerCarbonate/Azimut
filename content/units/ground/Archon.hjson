@@ -102,13 +102,14 @@ weapons: [
     name: circle
     blending: additive
     outline: false
+	under: true
     layer: 90
     color: cc918b
     growProgress: recoil
     xScl: 0.2
     yScl: 0.2
-    growX: -0.05
-    growY: -0.05
+    growX: -0.08
+    growY: -0.08
     y: -2
     weaponIndex: 0
   }
@@ -117,13 +118,14 @@ weapons: [
     name: circle
     blending: additive
     outline: false
+	under: true
     layer: 90
     color: ffffff
     growProgress: recoil
     xScl: 0.1
     yScl: 0.1
-    growX: -0.001
-    growY: -0.001
+    growX: -0.004
+    growY: -0.004
     y: -2
     weaponIndex: 0
   }
