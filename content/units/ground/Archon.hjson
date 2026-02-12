@@ -153,11 +153,6 @@ weapons: [
 		     op: curve
 			 interp: pow3Out
 		  }
-		  {
-              op: blend
-              amount: 0.7
-              other: recoil
-          }
       ]
     }
     moveY: -1
