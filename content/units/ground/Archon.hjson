@@ -392,8 +392,7 @@ weapons: [
           startDelay: 79
 		  interp:pow3Out
         }
-		despawnEffect: [
-				{
+		{
 				type: WaveEffect
 				rotWithParent: true
 				followParent: true
@@ -405,8 +404,7 @@ weapons: [
                 colorTo: f0aba400
 				interp:pow3Out
 				startDelay: 79
-				}
-			]
+		}
         {
           particles: 1
           length: 0
