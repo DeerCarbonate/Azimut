@@ -35,33 +35,6 @@ canBoost: false
 
 description: "Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit."
 
-abilities: [
-  {
-    type: MoveEffectAbility
-    minVelocity: 0
-    interval: 0.02
-    x: 0
-    y: -8.2
-    effect: {
-      type: ParticleEffect
-      colorFrom: cc918b
-      colorTo: 22251b80
-      y: -0.9
-      lifetime: 30
-      particles: 1
-      cone: 360
-      length: 0
-      baseLength: 0
-      lightScl: 2.5
-      lightOpacity: 2
-      spin: 0
-      sizeFrom: 2.3
-      sizeTo: 0
-      offset: 0
-    }
-  }
-]
-
 weapons: [
   {
     name: Archon-weapon1
@@ -102,14 +75,14 @@ weapons: [
     name: circle
     blending: additive
     outline: false
-	under: true
-    layer: 60
+	   under: true
+    layer: 65
     color: cc918b
     growProgress: recoil
     xScl: 0.19
     yScl: 0.19
-    growX: -0.08
-    growY: -0.08
+    growX: -0.12
+    growY: -0.12
     y: -0.1
     weaponIndex: 0
   }
@@ -124,8 +97,8 @@ weapons: [
     growProgress: recoil
     xScl: 0.09
     yScl: 0.09
-    growX: -0.08
-    growY: -0.08
+    growX: -0.07
+    growY: -0.07
     y: -0.1
     weaponIndex: 0
   }
