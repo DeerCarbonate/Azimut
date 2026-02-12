@@ -67,9 +67,12 @@ weapons: [
     alternate: false
     rotate: false
     rotateSpeed: 0
-    reload: 700
-    shootSound: laser
+    reload: 650
+    shootSound: Sounds.laser
+	chargeSound: chargeEmp
+    shake: 4
     ignoreRotation: false
+	smokeEffect: none
 	shootStatus: slow
 	shootStatusDuration: 210
     shootY: 1.2
@@ -89,6 +92,7 @@ parts: [
 	heatProgress: charge
     heatColor: ff4500
     heatLayer: 1
+	under: true
     progress: {
       type: warmup
       ops: [

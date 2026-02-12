@@ -3,6 +3,8 @@ health: 18000
 hitSize: 31.5
 flying: true
 speed: 1.35
+loopSound: loopHover
+loopSoundVolume: 0.8
 accel: 0.025
 drag: 0.009
 armor: 19

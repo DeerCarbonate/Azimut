@@ -4,6 +4,8 @@ shadowElevation: 0.3
 engineOffset: -1.75
 engineSize: 0
 flying: false
+loopSound: loopHover
+loopSoundVolume: 0.8
 outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: false
