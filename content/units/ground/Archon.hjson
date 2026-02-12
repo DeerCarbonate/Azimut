@@ -9,9 +9,9 @@ hovering: true
 targetAir: false
 rotateSpeed: 1
 accel: 0.5
-armor: 11
-health: 12050
-speed: 0.38
+armor: 14
+health: 10000
+speed: 0.36
 healColor: f0aba488
 hitSize: 28
 legCount:4
@@ -68,16 +68,17 @@ weapons: [
     rotate: false
     rotateSpeed: 0
     reload: 700
-    shootSound: shoot-small-flame
+    shootSound: laser
     ignoreRotation: false
 	shootStatus: slow
+	shootStatusDuration: 210
     shootY: 1.2
 	heatProgress: charge
     heatColor: ff4500
     heatLayer: 1
     shoot: {
       type: ShootSpread
-      firstShotDelay: 540
+      firstShotDelay: 210
     }
 parts: [
   {
@@ -177,6 +178,7 @@ parts: [
         offset: 1
       }
       damage: 80
+	  hitSound: plasmaboom
       pierce: true
       pierceBuilding: true
       pierceCap: 150
@@ -217,7 +219,7 @@ parts: [
               particles: 1
               cone: 3
               length: -54
-              sizeFrom: 3
+              sizeFrom: 2.6
               sizeTo: 1
               interp: pow3Out
             }
@@ -238,7 +240,7 @@ parts: [
               particles: 1
               cone: 3
               length: -54
-              sizeFrom: 3
+              sizeFrom: 2.6
               sizeTo: 1
               interp: pow3Out
             }
