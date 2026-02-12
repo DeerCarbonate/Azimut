@@ -74,7 +74,7 @@ weapons: [
     type: FlarePart
     sides: 2
     color1: cc918bbb
-    radius: 0
+    radius: 3
     radiusTo: 60
     stroke: 7
     innerRadScl: 0.70
@@ -108,8 +108,8 @@ weapons: [
     layer: 60
     color: ffffff
     growProgress: recoil
-    xScl: 0.09
-    yScl: 0.09
+    xScl: 0.1
+    yScl: 0.1
     growX: -0.07
     growY: -0.07
     y: -0.1
@@ -205,20 +205,16 @@ weapons: [
       sprite: circle-bullet
 
       shootEffect: {
-        type: ParticleEffect
-        colorFrom: cc918b
-        colorTo: ffbfad40
-        particles: 17
-        cone: 27
-        length: 42
-        baseLength: 5
-        lightScl: 3
-        interp: circleOut
-        lightOpacity: 2
-        spin: 5
-        sizeFrom: 4.6
-        sizeTo: 0
-        offset: 1
+				type: WaveEffect
+				rotWithParent: true
+				followParent: true
+				lifetime: 45
+				sizeFrom: 7
+				sizeTo: 110
+				strokeFrom: 8
+				strokeTo: 5
+   colorTo: f0aba400
+				interp:pow3Out
       }
 
       damage: 80
