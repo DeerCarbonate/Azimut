@@ -101,11 +101,11 @@ weapons: [
         type: FlarePart
         sides: 2
         color1: "cc918bbb"
-        radius: 95
+        radius: 75
         radiusTo: 0
-        stroke: 8
-        innerRadScl: 0.85
-        y: 0
+        stroke: 7.4
+        innerRadScl: 0.82
+        y: 5
         progress: recoil
         layer: 101
         weaponIndex: 0
@@ -115,10 +115,10 @@ weapons: [
         type: FlarePart
         sides: 2
         color1: "00000000"
-        radius: 48
+        radius: 30
         radiusTo: 0
-        stroke: 48
-        y: 66
+        stroke: 38
+        y: 5
         progress: recoil
         layer: 101
         weaponIndex: 0
@@ -131,8 +131,8 @@ weapons: [
 	heatProgress: charge
     heatColor: ff4500
     heatLayer: 1
-	under: true
-    layerOffset: -2
+	under: false
+    layerOffset: 90
     progress: {
       type: warmup
       ops: [
