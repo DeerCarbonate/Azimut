@@ -237,7 +237,7 @@ weapons: [
 
       damage: 80
       shootSound: explosionNavanax
-	  hitSound: explosionObivate
+	  hitSound: explosionArtillery
 	  recoil: 0.8
 
       pierce: true
@@ -427,10 +427,10 @@ weapons: [
         }
 		{
   type: ParticleEffect
-  particles: 10
-  lifetime: 65
+  particles: 16
+  lifetime: 70
 
-  length: 45
+  length: 75
   baseLength: 0
 
   cone: 360
@@ -507,7 +507,7 @@ weapons: [
         type: BasicBulletType
         sprite: circle-bullet
 
-        damage: 0.5
+        damage: 4
         lifetime: 120
         speed: 1.63
 
