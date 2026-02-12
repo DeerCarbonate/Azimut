@@ -238,7 +238,7 @@ weapons: [
       damage: 80
       shootSound: explosionNavanax
 	  hitSound: explosionObivate
-	  recoil: 1.6
+	  recoil: 0.8
 
       pierce: true
       pierceBuilding: true
