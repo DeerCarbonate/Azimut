@@ -71,7 +71,7 @@ weapons: [
 	
 	shootWarmupSpeed: 0.06
     minWarmup: 0.12
-	cooldownTime: 200
+	cooldownTime: 45
 
     mirror: false
     alternate: false
