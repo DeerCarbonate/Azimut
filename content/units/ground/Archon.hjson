@@ -216,7 +216,6 @@ weapons: [
    colorTo: f0aba400
 				interp:pow3Out
       }
-
       damage: 80
       shootSound: explosionNavanax
 	  hitSound: explosionArtillery
@@ -362,7 +361,6 @@ weapons: [
           sizeTo: 0
           colorFrom: f0aba400
           startDelay: 5
-          interp:pow3Out
         }
         {
           particles: 1
