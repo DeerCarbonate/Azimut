@@ -68,6 +68,10 @@ weapons: [
     x: 0
     y: 0
     shootY: 1.2
+	
+	shootWarmupSpeed: 0.06
+    minWarmup: 0.12
+	cooldownTime: 200
 
     mirror: false
     alternate: false
@@ -153,6 +157,11 @@ weapons: [
 		     op: curve
 			 interp: pow3Out
 		  }
+		  {
+              op: blend
+              amount: 0.3
+              other: recoil
+          }
       ]
     }
     moveY: -1
