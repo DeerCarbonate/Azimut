@@ -362,7 +362,7 @@ weapons: [
           sizeTo: 0
           colorFrom: f0aba400
           startDelay: 5
-          interp:pow3out
+          interp:pow3Out
         }
         {
           particles: 1
