@@ -80,7 +80,7 @@ weapons: [
     reload: 650
     shake: 4
 
-    shootSound: Sounds.laser
+    shootSound: explosionNavanax
     chargeSound: chargeEmp
 
     smokeEffect: none
@@ -204,7 +204,8 @@ weapons: [
       }
 
       damage: 80
-      shootSound: Sounds.plasmaboom
+      shootSound: explosionNavanax
+	  hitSound: explosionObivate
 
       pierce: true
       pierceBuilding: true
