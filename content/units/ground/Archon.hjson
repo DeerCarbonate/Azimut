@@ -39,7 +39,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 0.00000001
+    interval: 0.02
     x: 0
     y: -8.2
     effect: {
@@ -69,10 +69,6 @@ weapons: [
     y: 0
     shootY: 1.2
 	
-	shootWarmupSpeed: 0.06
-    minWarmup: 0.12
-	cooldownTime: 45
-
     mirror: false
     alternate: false
 
