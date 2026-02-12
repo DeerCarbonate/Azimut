@@ -103,14 +103,14 @@ weapons: [
     blending: additive
     outline: false
 	under: true
-    layer: 90
+    layer: 1
     color: cc918b
     growProgress: recoil
     xScl: 0.2
     yScl: 0.2
     growX: -0.08
     growY: -0.08
-    y: -2
+    y: 0
     weaponIndex: 0
   }
   {
@@ -119,14 +119,14 @@ weapons: [
     blending: additive
     outline: false
 	under: true
-    layer: 90
+    layer: 1
     color: ffffff
     growProgress: recoil
     xScl: 0.1
     yScl: 0.1
-    growX: -0.004
-    growY: -0.004
-    y: -2
+    growX: -0.08
+    growY: -0.08
+    y: 0
     weaponIndex: 0
   }
       {
