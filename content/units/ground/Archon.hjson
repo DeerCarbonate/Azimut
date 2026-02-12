@@ -74,7 +74,7 @@ weapons: [
     type: FlarePart
     sides: 2
     color1: cc918bbb
-    radius: 3
+    radius: 7
     radiusTo: 60
     stroke: 7
     innerRadScl: 0.70
@@ -210,7 +210,7 @@ weapons: [
 				followParent: true
 				lifetime: 45
 				sizeFrom: 7
-				sizeTo: 110
+				sizeTo: 80
 				strokeFrom: 8
 				strokeTo: 5
    colorTo: f0aba400
