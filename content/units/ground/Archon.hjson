@@ -384,7 +384,7 @@ weapons: [
         {
           particles: 1
           length: 0
-          lifetime: 45
+          lifetime: 65
           region: azimut-shockwave
           sizeFrom: 0
           sizeTo: 160
@@ -396,11 +396,11 @@ weapons: [
 				type: WaveEffect
 				rotWithParent: true
 				followParent: true
-				lifetime: 45
-				sizeFrom: 5
+				lifetime: 65
+				sizeFrom: 7
 				sizeTo: 160
-				strokeFrom: 6
-				strokeTo: 2
+				strokeFrom: 10
+				strokeTo: 10
                 colorTo: f0aba400
 				interp:pow3Out
 				startDelay: 79
@@ -408,7 +408,7 @@ weapons: [
         {
           particles: 1
           length: 0
-          lifetime: 60
+          lifetime: 65
           sizeFrom: 16.1
           sizeTo: 0
           colorFrom: f0aba4
@@ -418,13 +418,38 @@ weapons: [
         {
           particles: 1
           length: 0
-          lifetime: 60
+          lifetime: 65
           sizeFrom: 16.1
           sizeTo: 0
           colorFrom: f0aba4
           colorTo: f0aba488
           startDelay: 79
         }
+		{
+  type: ParticleEffect
+  particles: 10
+  lifetime: 65
+
+  length: 45
+  baseLength: 0
+
+  cone: 360
+
+  sizeFrom: 0
+  sizeTo: 0
+
+  strokeFrom: 4
+  strokeTo: 4
+
+  colorFrom: f0aba4
+  colorTo: f0aba400
+
+  line: true
+  interp: pow3Out
+
+  startDelay: 79
+      }
+
       ]
 
       trailChance: 1
@@ -482,7 +507,7 @@ weapons: [
         type: BasicBulletType
         sprite: circle-bullet
 
-        damage: 90
+        damage: 0.5
         lifetime: 120
         speed: 1.63
 
