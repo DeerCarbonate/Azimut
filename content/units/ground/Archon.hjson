@@ -70,6 +70,19 @@ weapons: [
     }
 
     parts: [
+  {
+    type: FlarePart
+    sides: 2
+    color1: cc918bbb
+    radius: 60
+    radiusTo: 0
+    stroke: 6
+    innerRadScl: 0.70
+    y: -0.1
+    progress: charge
+    layer: 101
+    weaponIndex: 0
+  }
 	  {
     type: RegionPart
     name: circle
