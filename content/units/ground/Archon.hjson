@@ -74,7 +74,7 @@ weapons: [
     type: FlarePart
     sides: 2
     color1: cc918bbb
-    radius: 7
+    radius: 4
     radiusTo: 60
     stroke: 7
     innerRadScl: 0.70
