@@ -97,34 +97,6 @@ weapons: [
     }
 
     parts: [
-	      {
-        type: FlarePart
-        sides: 2
-        color1: "cc918bbb"
-		color2: "cc918bbb"
-        radius: 32
-        radiusTo: 0
-        stroke: 6.9
-        innerRadScl: 0.82
-        y: 5
-        progress: recoil
-        layer: 101
-        weaponIndex: 0
-      }
-
-      {
-        type: FlarePart
-        sides: 2
-        color1: "00000000"
-		color2: "cc918bbb"
-        radius: 16
-        radiusTo: 0
-        stroke: 16
-        y: 5
-        progress: recoil
-        layer: 101
-        weaponIndex: 0
-      }
       {
     suffix: -s
     mirror: true
