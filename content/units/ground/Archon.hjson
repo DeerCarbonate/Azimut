@@ -1,42 +1,52 @@
 type: legs
 flying: false
-rotateSpeed: 1.1
+hovering: true
 omniMove: true
+rotateSpeed: 1.1
+
 outlineColor: 22251b
 outlineRadius: 3
 alwaysUnlocked: false
-hovering: true
+
 targetAir: false
-rotateSpeed: 1
 accel: 0.5
 armor: 14
 health: 10000
 speed: 0.36
 healColor: f0aba488
 hitSize: 28
-legCount:4
-legMoveSpace:1.5
-legLength:14
-legBaseOffset:11.5
-legSpeed:0.28
+
+legCount: 4
+legMoveSpace: 1.5
+legLength: 14
+legBaseOffset: 11.5
+legSpeed: 0.28
 legForwardScl: 0.58
-rippleScale:0.2
-lockLegBase:true
-legContinuousMove:true
-legSplashDamage:30
-legSplashRange:30
-shadowElevation:0.2
-allowLegStep:true
+rippleScale: 0.2
+lockLegBase: true
+legContinuousMove: true
+legSplashDamage: 30
+legSplashRange: 30
+
+shadowElevation: 0.2
+allowLegStep: true
 faceTarget: true
 canBoost: false
-description: Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit.
+
+description: "Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit."
+
 abilities: [
   {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 0.00000001
+    x: 0
+    y: -8.2
     effect: {
       type: ParticleEffect
       colorFrom: cc918b
-      y: -0.9
       colorTo: 22251b80
+      y: -0.9
       lifetime: 30
       particles: 1
       cone: 360
@@ -49,148 +59,156 @@ abilities: [
       sizeTo: 0
       offset: 0
     }
-    type: MoveEffectAbility
-    minVelocity: 0
-    interval: 0.00000001
-    y: -8.2
-    x: 0
   }
 ]
+
 weapons: [
-    {
+  {
     name: Archon-weapon1
-    recoil: 0
     x: 0
     y: 0
-    shootY: 4
+    shootY: 1.2
+
     mirror: false
     alternate: false
+
     rotate: false
     rotateSpeed: 0
-    reload: 650
-    shootSound: Sounds.laser
-	chargeSound: chargeEmp
-    shake: 4
     ignoreRotation: false
-	smokeEffect: none
-	shootStatus: slow
-	shootStatusDuration: 210
-    shootY: 1.2
-	heatProgress: charge
+
+    recoil: 0
+    reload: 650
+    shake: 4
+
+    shootSound: Sounds.laser
+    chargeSound: chargeEmp
+
+    smokeEffect: none
+    shootStatus: slow
+    shootStatusDuration: 210
+
+    heatProgress: charge
     heatColor: ff4500
     heatLayer: 1
+
     shoot: {
       type: ShootSpread
       firstShotDelay: 219
     }
-parts: [
-  {
-    suffix: -s
-    mirror: true
-    outlineColor: 22251b
-    outlineRadius: 0
-	heatProgress: charge
-    heatColor: ff4500
-    heatLayer: 1
-	under: true
-    layerOffset: -2
-    progress: {
-      type: warmup
-      ops: [
-		  {
-		     op: delay
-			 amount: 0.23
-		  }
-		  {
-		     op: curve
-			 interp: pow3In
-	      }
-		  {
-		     op: curve
-			 interp: pow3Out
-		  }
-      ]
-    }
-    moveY: -1
-    moveX: -3.7
-    moveRot: 0
-    x: 0
-    y: 0,
 
-    children: [
+    parts: [
       {
-        suffix: -r
+        suffix: -s
         mirror: true
         outlineColor: 22251b
-		heatProgress: charge
         outlineRadius: 0
-        moveRot: 1.5
-        moveY: 2.5
-        moveX: -1.3
+
+        heatProgress: charge
+        heatColor: ff4500
+        heatLayer: 1
+
+        under: true
+        layerOffset: -2
+
+        progress: {
+          type: warmup
+          ops: [
+            { op: delay, amount: 0.23 }
+            { op: curve, interp: pow3In }
+            { op: curve, interp: pow3Out }
+          ]
+        }
+
+        moveY: -1
+        moveX: -3.7
+        moveRot: 0
         x: 0
         y: 0
-	    heatColor: ff4500
-        heatLayer: 1
+
+        children: [
+          {
+            suffix: -r
+            mirror: true
+            outlineColor: 22251b
+            outlineRadius: 0
+
+            heatProgress: charge
+            heatColor: ff4500
+            heatLayer: 1
+
+            moveRot: 1.5
+            moveY: 2.5
+            moveX: -1.3
+            x: 0
+            y: 0
+          }
+          {
+            suffix: -f
+            mirror: true
+            outlineColor: 22251b
+            outlineRadius: 0
+
+            heatProgress: charge
+            heatColor: ff4500
+            heatLayer: 1
+
+            moveRot: 2.5
+            moveY: 4.5
+            moveX: -0.9
+            x: 0
+            y: 0
+          }
+          {
+            suffix: -g
+            mirror: true
+            outlineColor: 22251b
+            outlineRadius: 0
+
+            heatProgress: charge
+            heatColor: ff4500
+            heatLayer: 1
+
+            moveRot: 3.5
+            moveY: 6.5
+            moveX: -0.7
+            x: 0
+            y: 0
+          }
+        ]
       }
+
       {
-        suffix: -f
-        mirror: true
-        outlineColor: 22251b
-		heatProgress: charge
-        outlineRadius: 0
-        moveRot: 2.5
-        moveY: 4.5
-        moveX: -0.9
-        x: 0
+        type: FlarePart
+        sides: 2
+        color1: cc918b
+        radius: 95
+        radiusTo: 0
+        stroke: 8
+        innerRadScl: 0.85
         y: 0
-		heatColor: ff4500
-        heatLayer: 1
+        progress: recoil
+        layer: 101
+        weaponIndex: 0
       }
+
       {
-        suffix: -g
-        mirror: true
-        outlineColor: 22251b
-		heatProgress: charge
-        outlineRadius: 0
-        moveRot: 3.5
-        moveY: 6.5
-        moveX: -0.7
-        x: 0
-        y: 0
-	    heatColor: ff4500
-        heatLayer: 1
+        type: FlarePart
+        sides: 2
+        color1: 00000000
+        radius: 48
+        radiusTo: 0
+        stroke: 48
+        y: 66
+        progress: recoil
+        layer: 101
+        weaponIndex: 0
       }
     ]
-  {
-    type: FlarePart
-    sides: 2
-    color1: cc918b
-    radius: 95
-    radiusTo: 0
-    stroke: 8
-    innerRadScl: 0.85
-    y: 0
-    progress: recoil
-    layer: 101
-    weaponIndex: 0
-  }
-  {
-    type: FlarePart
-    sides: 2
-    color1: 00000000
-    radius: 48
-    radiusTo: 0
-    stroke: 48
-    y: 66
-    progress: recoil
-    layer: 101
-    weaponIndex: 0
-  }
-  }
-]
-	    bullet: {
+
+    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
+
       shootEffect: {
         type: ParticleEffect
         colorFrom: cc918b
@@ -207,29 +225,37 @@ parts: [
         sizeTo: 0
         offset: 1
       }
+
       damage: 80
-	  hitSound: plasmaboom
+      hitSound: plasmaboom
+
       pierce: true
       pierceBuilding: true
       pierceCap: 150
       absorbable: false
       hittable: false
+
       speed: 3.46
       drag: 0.02
       lifetime: 190
+
       width: 11
       height: 11
+
       backColor: ffbfad
       frontColor: ffbfad
       trailColor: ffbfad
       trailWidth: 4
       trailLength: 12
+
       shrinkInterp: sineIn
       shrinkY: -2.2
       shrinkX: -2.2
+
       intervalBullets: 1
       intervalDelay: 140
       bulletInterval: 20
+
       intervalBullet: {
         width: 0
         speed: 0
@@ -304,9 +330,9 @@ parts: [
             rotationOffset: 45
             effect: {
               type: ParticleEffect
-              randLength: false
               startDelay: 15
               lifetime: 30
+              randLength: false
               colorFrom: f6afdd00
               colorTo: f6afdd
               particles: 1
@@ -319,8 +345,10 @@ parts: [
           }
         ]
       }
+
       collidesTiles: true
       collidesGround: true
+
       despawnEffect: [
         {
           particles: 1
@@ -373,10 +401,13 @@ parts: [
           startDelay: 79
         }
       ]
+
       trailChance: 1
       trailRotation: true
       trailInterval: 4.2
+
       buildingDamageMultiplier: 0.1
+
       trailEffect: [
         {
           type: ParticleEffect
@@ -417,37 +448,49 @@ parts: [
           sizeInterp: exp5In
         }
       ]
+
       fragBullets: 19
       fragLifeMin: 1
       fragLifeMax: 2
+
       fragBullet: {
         type: BasicBulletType
+        sprite: circle-bullet
+
         damage: 90
         lifetime: 120
         speed: 1.63
+
         trailWidth: 1.8
         trailLength: 34
+
         splashDamage: 10
         splashDamageRadius: 15
+
         weaveMag: 3
         weaveScale: 7
-        sprite: circle-bullet
+
         backColor: ffbfad
         frontColor: ffbfad
         trailColor: ffbfad
+
         width: 8
         height: 8
+
         shrinkInterp: linear
         shrinkX: 0.35
         shrinkY: 0.35
+
         hitEffect: none
         despawnEffect: none
+
         collidesTiles: true
         collidesGround: true
+
         homingPower: 0.08
         homingDelay: 0.08
         homingRange: 70
       }
     }
-	}
+  }
 ]
