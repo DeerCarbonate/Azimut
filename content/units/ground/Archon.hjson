@@ -528,12 +528,17 @@ weapons: [
         hitEffect: none
         despawnEffect: none
 
-        collidesTiles: false
-        collidesGround: false
+        collidesTiles: true
+        collidesGround: true
 
         homingPower: 0
         homingDelay: 0
         homingRange: 0
+		
+	  pierce: true
+      pierceBuilding: true
+      pierceCap: 25
+	  
       fragBullets: 19
       fragLifeMin: 1
       fragLifeMax: 2
