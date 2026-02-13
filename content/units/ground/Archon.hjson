@@ -493,8 +493,6 @@ weapons: [
       ]
 
       fragBullets: 1
-      fragLifeMin: 1
-      fragLifeMax: 2
 	  fragOnHit: false
       fragOnDespawn: true
       fragOnAbsorb: false
