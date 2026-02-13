@@ -492,7 +492,7 @@ weapons: [
         }
       ]
 
-      fragBullets: 19
+      fragBullets: 1
       fragLifeMin: 1
       fragLifeMax: 2
 	  fragOnHit: false
@@ -504,8 +504,8 @@ weapons: [
         type: BasicBulletType
         sprite: circle-bullet
 
-        splashDamage: 400
-        splashDamageRadius: 120
+        splashDamage: 2500
+        splashDamageRadius: 240
         lifetime: 80
         speed: 0
 
@@ -535,7 +535,7 @@ weapons: [
         homingPower: 0
         homingDelay: 0
         homingRange: 0
-      fragBullets: 2
+      fragBullets: 19
       fragLifeMin: 1
       fragLifeMax: 2
 	  fragBullet: {
