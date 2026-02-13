@@ -504,8 +504,8 @@ weapons: [
         type: BasicBulletType
         sprite: circle-bullet
 
-        splashDamage: 450
-        splashDamageRadius: 90
+        splashDamage: 400
+        splashDamageRadius: 120
         lifetime: 80
         speed: 0
 
@@ -535,7 +535,7 @@ weapons: [
         homingPower: 0
         homingDelay: 0
         homingRange: 0
-      fragBullets: 19
+      fragBullets: 2
       fragLifeMin: 1
       fragLifeMax: 2
 	  fragBullet: {
@@ -548,10 +548,7 @@ weapons: [
 
         trailWidth: 1.8
         trailLength: 34
-
-        splashDamage: 10
-        splashDamageRadius: 15
-
+		
         weaveMag: 3
         weaveScale: 7
 
