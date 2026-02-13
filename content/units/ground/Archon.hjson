@@ -503,6 +503,7 @@ weapons: [
       fragBullet: {
         type: BasicBulletType
         sprite: circle-bullet
+		despawnHit: true
 
         splashDamage: 2500
         splashDamageRadius: 240
