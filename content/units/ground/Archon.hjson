@@ -542,6 +542,7 @@ weapons: [
       fragBullets: 19
       fragLifeMin: 1
       fragLifeMax: 2
+	  fragOnDespawn: true
 	  fragBullet: {
         type: BasicBulletType
         sprite: circle-bullet
