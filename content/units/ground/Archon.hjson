@@ -11,7 +11,7 @@ alwaysUnlocked: false
 targetAir: false
 accel: 0.5
 armor: 14
-health: 10500
+health: 8200
 speed: 0.36
 healColor: f0aba488
 hitSize: 28
@@ -25,15 +25,15 @@ legForwardScl: 0.58
 rippleScale: 0.2
 lockLegBase: true
 legContinuousMove: true
-legSplashDamage: 30
-legSplashRange: 30
+legSplashDamage: 7
+legSplashRange: 7
 
 shadowElevation: 0.2
 allowLegStep: true
 faceTarget: true
 canBoost: false
 
-description: "Shoots a shot of homing shells and a salvo of 12 shells, creating a Monk unit."
+description: "Fires a massive energy sphere that expands over time. If the sphere does not pass through 4 enemy blocks or units, it accumulates energy and triggers a massive explosion. Can step over most terrain."
 
 weapons: [
   {
@@ -235,7 +235,7 @@ weapons: [
 
       pierce: true
       pierceBuilding: true
-      pierceCap: 3
+      pierceCap: 4
       absorbable: true
       hittable: true
 
@@ -502,9 +502,10 @@ weapons: [
         type: BasicBulletType
         sprite: circle-bullet
 		despawnHit: true
+	    hitSound: explosionReactor2
 
-        splashDamage: 200
-        splashDamageRadius: 70
+        splashDamage: 190
+        splashDamageRadius: 71
         lifetime: 80
         speed: 0
 
