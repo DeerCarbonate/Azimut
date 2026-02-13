@@ -70,6 +70,18 @@ weapons: [
     }
 
     parts: [
+	  {
+    type: FlarePart
+    sides: 2
+    color1: 00000000
+    radius: 0
+    radiusTo: 30
+    stroke: 24
+    y: -0.1
+    progress: charge
+    layer: 101
+    weaponIndex: 0
+  }
   {
     type: FlarePart
     sides: 2
