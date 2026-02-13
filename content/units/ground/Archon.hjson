@@ -235,9 +235,9 @@ weapons: [
 
       pierce: true
       pierceBuilding: true
-      pierceCap: 150
-      absorbable: false
-      hittable: false
+      pierceCap: 3
+      absorbable: true
+      hittable: true
 
       speed: 3.46
       drag: 0.02
