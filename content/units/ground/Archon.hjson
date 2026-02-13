@@ -228,7 +228,7 @@ weapons: [
    colorTo: f0aba400
 				interp:pow3Out
       }
-      damage: 80
+      damage: 70
       shootSound: explosionNavanax
 	  hitSound: explosionArtillery
 	  recoil: 0.8
@@ -503,8 +503,8 @@ weapons: [
         sprite: circle-bullet
 		despawnHit: true
 
-        splashDamage: 600
-        splashDamageRadius: 80
+        splashDamage: 200
+        splashDamageRadius: 70
         lifetime: 80
         speed: 0
 
@@ -547,7 +547,7 @@ weapons: [
         type: BasicBulletType
         sprite: circle-bullet
 
-        damage: 12
+        damage: 10
         lifetime: 120
         speed: 1.63
 
