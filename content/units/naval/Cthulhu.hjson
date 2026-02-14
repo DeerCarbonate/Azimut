@@ -28,7 +28,7 @@
     rotate: true
     rotateSpeed: 1.7
     reload: 320
-    shootSound: missileLarge
+    shootSound: shootMissileLarge
     baseRotation: 0
     shootCone:30
     layerOffset: 0.001
@@ -253,7 +253,7 @@
     rotateSpeed: 2.6
     reload: 70
     inacurracy: 7
-    shootSound: missile
+    shootSound: shootAlpha
     baseRotation: -90
 	shootCone: 30
     layerOffset: 0.001

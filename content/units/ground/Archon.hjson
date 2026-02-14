@@ -449,8 +449,6 @@ weapons: [
       trailRotation: true
       trailInterval: 4.2
 
-      buildingDamageMultiplier: 0.1
-
       trailEffect: [
         {
           type: ParticleEffect
