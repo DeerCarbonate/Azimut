@@ -10,8 +10,8 @@ alwaysUnlocked: false
 
 targetAir: false
 accel: 0.5
-armor: 14
-health: 8200
+armor: 7
+health: 9400
 speed: 0.36
 healColor: f0aba488
 hitSize: 28
