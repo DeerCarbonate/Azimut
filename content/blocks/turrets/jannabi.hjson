@@ -32,9 +32,9 @@ shoot: {
  frontColor: c3feff
  backColor: 6898c3
  hitColor: 6898c3
- splashDamage: 440
- splashDamageRadius: 70
- damage: 470
+ splashDamage: 280
+ splashDamageRadius: 74
+ damage: 270
  despawnSound: explosionbig
  hitSound: explosionbig
  lifetime: 68
