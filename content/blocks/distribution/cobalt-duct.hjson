@@ -17,3 +17,4 @@ requirements: [
 	]
 }
 bridgeReplacement: cobalt-duct-bridge
+junctionReplacement: cobalt-junction
