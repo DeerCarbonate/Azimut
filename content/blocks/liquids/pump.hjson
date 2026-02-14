@@ -10,7 +10,7 @@ requirements: [
   venerium/20
 ]
 pumpAmount: 0.12
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.3
 drawer: {
   type: DrawMulti
   drawers: [
