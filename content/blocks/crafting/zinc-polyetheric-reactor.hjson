@@ -1,0 +1,33 @@
+type: VariableReactor
+size: 3
+health: 1200
+category: power
+squareSprite: false
+requirements: [
+  cobalt/80
+  platinum/60
+  zinc/90
+  geliarin/20
+]
+consumes: {
+  liquids: [
+    nitrogen/0.1
+  ]
+}
+maxHeat: 24
+explodeSound: explosionReactor
+explosionRadius: 12
+explosionDamage: 260
+powerProduction: 20
+ambientSound: loopFlux
+ambientSoundVolume: 0.18
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+  ]
+}
+researchCostMultiplier: 1.2
+research: energy-converter
