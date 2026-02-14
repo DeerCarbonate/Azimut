@@ -88,8 +88,8 @@ bullet: {
 
     buildingDamageMultiplier: 1.15
 
-    splashDamageRadius: 50
-    splashDamage: 100
+    splashDamageRadius: 32
+    splashDamage: 80
 
     hitSound: strawberrydeath
 shootEffect: [
