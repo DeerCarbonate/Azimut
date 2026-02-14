@@ -503,8 +503,9 @@ weapons: [
         sprite: circle-bullet
 		despawnHit: true
 	    hitSound: explosionReactor2
+		buildingDamageMultiplier: 0.6
 
-        splashDamage: 190
+        splashDamage: 280
         splashDamageRadius: 71
         lifetime: 80
         speed: 0
@@ -547,8 +548,9 @@ weapons: [
 	  fragBullet: {
         type: BasicBulletType
         sprite: circle-bullet
+		buildingDamageMultiplier: 0.6
 
-        damage: 10
+        damage: 80
         lifetime: 120
         speed: 1.63
 
