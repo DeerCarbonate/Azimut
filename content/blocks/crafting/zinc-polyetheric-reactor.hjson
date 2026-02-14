@@ -11,14 +11,13 @@ requirements: [
 ]
 consumes: {
   liquids: [
-    nitrogen/0.1
+    nitrogen/0.15
   ]
 }
-maxHeat: 24
 explodeSound: explosionReactor
-explosionRadius: 12
-explosionDamage: 260
-powerProduction: 20
+explosionRadius: 16
+explosionDamage: 280
+powerProduction: 18
 ambientSound: loopFlux
 ambientSoundVolume: 0.18
 drawer: {
@@ -29,5 +28,19 @@ drawer: {
     }
   ]
 }
-researchCostMultiplier: 1.2
-research: energy-converter
+        research: {
+    parent: "energy-converter"
+    planet: gelion
+                "requirements": [
+                "cobalt/20000"
+                "platinum/10000"
+                "geliarin/6000"
+                "zinc/2000"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: nine 
+    }
+  ]
+}
