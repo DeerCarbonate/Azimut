@@ -1,10 +1,11 @@
-    name: Regenerator drone
-    description: "Regenerates nearby buildings."
-    flying: true
+ name: Regenerator drone
+ description: "Regenerates nearby    buildings."
+ flying: true
 	outlineColor: 21202a
 	type: tether
 	hitSize: 11
-	health: 350
+	health: 300
+ armor: 1
 	range: 0
 	itemCapacity: 0
 	speed: 1
