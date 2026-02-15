@@ -1,6 +1,6 @@
-type: NuclearReactor
+type: HeaterGenerator
 size: 3
-health: 1200
+health: 450
 category: power
 hasItems: true
 hasLiquids: true 
@@ -19,14 +19,14 @@ items: [
     nitrogen/0.05
   ]
 }
+ambientSound: loopFlux
+ambientSoundVolume: 0.2
 explodeSound: explosionReactor
 explosionRadius: 16
 explosionDamage: 280
-powerProduction: 18
-itemDuration: 360
-heatCapacity: 1.85
-coolantPower: 2
-heating: 0.24
+powerProduction: 12
+itemDuration: 420
+heatOutput: 12
 drawer: {
   type: DrawMulti
   drawers: [
