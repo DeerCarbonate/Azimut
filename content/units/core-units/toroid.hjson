@@ -1,10 +1,11 @@
 	type: flying
 	outlineColor: 21202a
 	flying: true
-	health: 310
+	health: 400
+ armor: 1
 	buildSpeed: 0.7
 	drag: 0.085
-    buildRange: 135
+ buildRange: 135
 	speed: 3.5
 	range: 80
 	accel: 0.056
@@ -37,6 +38,20 @@
 	hitBuildings: true
 	hitUnits: false
 	sectorRad: 0
+healEffect: {
+		type: ParticleEffect
+		region: azimut-triangle
+		particles: 2
+		length: 48
+		lifetime: 45
+		interp: circleOut
+		sizeInterp: pow5Out
+		cone: 360
+		colorFrom: bf92f9
+		colorTo: 665c9f
+		sizeFrom: 4.2
+		sizeTo:0
+	}
 	hitEffect: {
 		type: ParticleEffect
 		region: azimut-triangle
