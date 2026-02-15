@@ -13,7 +13,7 @@ requirements: [
 ]
 consumes: {
 items: [
-  solid-fuel
+  solid-fuel/1
 ]
   liquids: [
     nitrogen/0.05
