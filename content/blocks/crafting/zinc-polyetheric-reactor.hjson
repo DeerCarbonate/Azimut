@@ -1,7 +1,9 @@
-type: VariableReactor
+type: NuclearReactor
 size: 3
 health: 1200
 category: power
+hasItems: true
+hasLiquids: true 
 squareSprite: false
 requirements: [
   cobalt/80
@@ -10,16 +12,21 @@ requirements: [
   geliarin/20
 ]
 consumes: {
+items: [
+  solid-fuel
+]
   liquids: [
-    nitrogen/0.15
+    nitrogen/0.05
   ]
 }
 explodeSound: explosionReactor
 explosionRadius: 16
 explosionDamage: 280
 powerProduction: 18
-ambientSound: loopFlux
-ambientSoundVolume: 0.18
+itemDuration: 360
+heatCapacity: 1.85
+coolantPower: 2
+heating: 0.24
 drawer: {
   type: DrawMulti
   drawers: [
