@@ -16,16 +16,13 @@ items: [
   solid-fuel/1
 ]
   liquids: [
-    nitrogen/0.05
+    nitrogen/0.07
   ]
 }
 ambientSound: loopFlux
 ambientSoundVolume: 0.2
-explodeSound: explosionReactor
-explosionRadius: 16
-explosionDamage: 280
 powerProduction: 12
-itemDuration: 420
+itemDuration: 340
 heatOutput: 12
 drawer: {
   type: DrawMulti
@@ -33,10 +30,15 @@ drawer: {
     {
       type: DrawDefault
     }
+	{
+      type: drawHeatOutput
+      suffix: -heat
+      color: ffb380
+  }
   ]
 }
         research: {
-    parent: "energy-converter"
+    parent: "power-heater"
     planet: gelion
                 "requirements": [
                 "cobalt/20000"
