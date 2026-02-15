@@ -1,0 +1,46 @@
+type: VariableReactor
+size: 3
+health: 1200
+category: power
+squareSprite: false
+requirements: [
+  cobalt/80
+  platinum/60
+  zinc/90
+  geliarin/20
+]
+consumes: {
+  liquids: [
+    nitrogen/0.15
+  ]
+}
+explodeSound: explosionReactor
+explosionRadius: 16
+explosionDamage: 280
+powerProduction: 18
+ambientSound: loopFlux
+ambientSoundVolume: 0.18
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+  ]
+}
+        research: {
+    parent: "energy-converter"
+    planet: gelion
+                "requirements": [
+                "cobalt/20000"
+                "platinum/10000"
+                "geliarin/6000"
+                "zinc/2000"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: nine 
+    }
+  ]
+}
