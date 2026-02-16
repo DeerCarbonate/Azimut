@@ -1,6 +1,4 @@
 {
-	"name": "Solid fuel",
-	"description": "Used for power production.",
 	"color": "d7b9a9",
 	"hardness": 2,
     "research": "geliarin",
