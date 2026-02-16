@@ -5,8 +5,8 @@
   "gasColor": "9a6a5892",
   "research": "venerium",
   "temperature": 0.3,
-  "flammability": 0.8,
-  "explosiveness": 0.3,
+  "flammability": 0.6,
+  "explosiveness": 0.0,
   "liquid": true,
   "explosive": false,
   "liquid": {
