@@ -410,7 +410,7 @@ shoot: {
 	  }
 	      caterium: {
  type: BasicBulletType
- reloadMultiplier:0.37
+ reloadMultiplier:0.47
  collidesTiles: true
  collidesGround: true
  frontColor: fff4a3
