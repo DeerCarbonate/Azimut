@@ -5,16 +5,18 @@
 research: {
   parent: "venerium"
 }
-  "temperature": 0.3,
+  "temperature": 0.2,
   "flammability": 0.0,
   "explosiveness": 0.0,
   "liquid": true,
   "explosive": false,
+   coolant: true
   "liquid": {
     "cap": 3,
     "explosive": true,
-    "flammable": true,
-    "viscosity": 0.07,
+    "flammable": false,
+    "viscosity": 0.6,
+    "heatCapacity": 0.7,
   }
   "hiddenOnPlanets": [
 		"serpulo",
