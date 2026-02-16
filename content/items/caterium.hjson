@@ -1,6 +1,4 @@
 {
-	"name": "Caterium",
-	"description": "A gold-like material used in advanced electrical applications.",
 	"color": "dacaaa",
 	"hardness": 1,
 	"charge": 0.5,
