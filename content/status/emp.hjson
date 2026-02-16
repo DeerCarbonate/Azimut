@@ -1,6 +1,6 @@
 disarm: false
-reloadMultiplier: 0.45
-speedMultiplier: 0.65
+reloadMultiplier: 0.42
+speedMultiplier: 0.60
 buildSpeedMultiplier: 0
 effectChance: 0.034
 effect:
