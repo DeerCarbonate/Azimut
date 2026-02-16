@@ -1,12 +1,10 @@
 {
-	"name": "Raw caterium",
-	"description": "Needs heat treatment",
 	"color": "dacaaa",
 	"hardness": 1,
 	"charge": 0.1,
 	"explosiveness": 0,
-	"flammability": 0,
-	"radioactivity": 0.05,
+	"flammability": 0.1,
+	"radioactivity": 0.0,
 	"cost": 2.4,
 	"research": "geliarin",
 	"hiddenOnPlanets": [
