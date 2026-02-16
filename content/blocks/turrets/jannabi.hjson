@@ -556,11 +556,10 @@ fragBullet: {
 }
 }
 requirements: [
-  venerium/300
-  geliarin/70
-  platinum/200
-  compound/90
-  zinc/120
+  venerium/350
+  geliarin/150
+  cobalt/350
+  zinc/70
 ]
 category: turret
 drawer: {
