@@ -1,10 +1,8 @@
 {
-	"name": "Zinc",
-	"description": "A bluish-purple metal used in corrosion-resistant alloys and battery production.",
 	"color": "d3d3f1",
 	"research": "sphalerite",
 	"hardness": 1,
-	"charge": 0.6,
+	"charge": 0.55,
 	"explosiveness": 0.1,
 	"flammability": 0.0,
 	"radioactivity": 0.0,
