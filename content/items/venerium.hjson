@@ -1,6 +1,4 @@
 {
-	"name": "Venerium",
-	"description": "An exclusive material for the planet, it has unusually high strength and gives off a pink tint.",
 	"color": "c5b787",
 	"research": "cobalt",
 	"hardness": 1,
