@@ -1,15 +1,13 @@
 {
-  "name": "Ammonia",
-  "description": "It is in a liquid state and is used as a solvent.",
   "color": "ceddd4",
   "barColor": "ceddd4",
   "gasColor": "b6cebf92",
 research: {
   parent: "venerium"
 }
-  "temperature": 0.1,
-  "flammability": 0.01,
-  "explosiveness": 0.03,
+  "temperature": 0.3,
+  "flammability": 0.0,
+  "explosiveness": 0.0,
   "liquid": true,
   "explosive": false,
   "liquid": {
