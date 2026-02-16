@@ -4,10 +4,10 @@
 	"color": "d3d3f1",
 	"research": "sphalerite",
 	"hardness": 1,
-	"charge": 0.06,
-	"explosiveness": 0.01,
+	"charge": 0.6,
+	"explosiveness": 0.1,
 	"flammability": 0.0,
-	"radioactivity": 0.001,
+	"radioactivity": 0.0,
 	"cost": 2.4,
 	"hiddenOnPlanets": [
 		serpulo
