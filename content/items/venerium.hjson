@@ -5,7 +5,7 @@
 	"charge": 0.0,
 	"explosiveness": 0,
 	"flammability": 0,
-	"radioactivity": 0.2,
+	"radioactivity": 0.1,
 	"cost": 1.9,
 	"hiddenOnPlanets": [
 		serpulo,
