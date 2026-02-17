@@ -18,7 +18,6 @@ hitSize: 11
 healColor: f0a4d988
 canDrown: false
 drag: 0.03
-description: Destabilizing its core, it fires a shot of homing bullets.
 abilities: [
   {
     effect: {
