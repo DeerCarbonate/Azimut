@@ -31,7 +31,6 @@ healColor: f0aba488
 hitSize: 18
 faceTarget: true
 squareShape: true
-description: Fires a burst of lasers. Able to cross most terrain.
 drownTimeMultiplier: 3
 		research: {
   parent: mech-adjuster
