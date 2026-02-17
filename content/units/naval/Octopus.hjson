@@ -15,7 +15,6 @@
 	waveTrailX: 5
 	waveTrailY: -7
     healColor: a4f0d788
-	description: Fires homing missiles.
 	research: {
     parent: "Plankton"
     planet: gelion
