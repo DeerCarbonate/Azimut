@@ -4,8 +4,8 @@
 	outlineColor: 1b1c25
 	outlineRadius: 3
 	alwaysUnlocked: false
-	armor: 3
-	health: 2000
+	armor: 5
+	health: 1950
 	speed: 1.15
 	accel: 0.75
 	hitSize: 14.2
