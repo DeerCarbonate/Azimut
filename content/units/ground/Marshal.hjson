@@ -4,8 +4,8 @@
 	outlineColor: 22251b
 	outlineRadius: 3
 	alwaysUnlocked: false
-	armor: 4
-	health: 2100
+	armor: 8
+	health: 2050
 	speed: 0.46
 	hitSize: 14
  stepSound: walkerStepSmall
