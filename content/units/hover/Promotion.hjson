@@ -10,9 +10,9 @@ outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: true
 range: 100
-armor: 4
+armor: 6
 accel: 0.1
-health: 2600
+health: 2500
 hovering: true
 canDrown: false
 speed: 1.08
