@@ -5,13 +5,13 @@
     "description": "Accepts cargo drone items based on the selected resource filter.",
     "size": 2,
     "health": 250,
-    "itemCapacity": 80,
+    "itemCapacity": 40,
     "liquidCapacity": 0,
     "separateItemCapacity": true,
     "requirements": 
     [
-		"cobalt/100",
-		"geliarin/50"
+		"cobalt/50",
+		"geliarin/10"
 	],
     "category": "distribution",
     "hasItems": true,
