@@ -15,7 +15,6 @@
 	faceTarget: true
  canBoost: false
 	healColor: f0aba488
-	description: Fires projectiles with a wide spread.
 	abilities: [
     {
     type: ShieldRegenFieldAbility
