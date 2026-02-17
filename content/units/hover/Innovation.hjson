@@ -9,9 +9,9 @@ loopSoundVolume: 0.8
 outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: false
-armor: 1
+armor: 3
 accel: 0.07
-health: 1230
+health: 1300
 hovering: true
 speed: 1.25
 canDrown: false
