@@ -18,7 +18,6 @@
 	mechFrontSway: 0.8
 	mechStepParticles: true
 	faceTarget: true
-	description: Fires charged projectiles.
 	research: {
 	parent: mech-editor
 	planet: gelion
