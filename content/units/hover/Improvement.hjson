@@ -9,9 +9,9 @@ flying: false
 outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: false
-armor: 0.3
+armor: 1
 accel: 0.05
-health: 680
+health: 650
 hovering: true
 speed: 1.45
 hitSize: 11
