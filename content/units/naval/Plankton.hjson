@@ -5,8 +5,8 @@
 	rotateSpeed: 3.6
 	alwaysUnlocked: false
 	range: 100
-	armor: 1.45
-	health: 900
+	armor: 4
+	health: 850
 	speed: 1.35
 	hitSize: 11.2
 	healColor: a4f0d788
