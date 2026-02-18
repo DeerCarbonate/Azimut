@@ -23,7 +23,7 @@ preset: first
 }
 requirements: [
   cobalt/95
-  venerium/150
+  venerium/80
   platinum/55
 ]
 consumes: {
