@@ -1,4 +1,3 @@
-{
   "color": "e1d2e7",
   "barColor": "e1d2e7",
   "gasColor": "e1d2e792",
@@ -6,20 +5,8 @@
 research: {
   parent: "power"
 }
-  "temperature": 0.55,
-  "flammability": 0.04,
-  "explosiveness": 0.04,
-  "liquid": true,
-  "explosive": false,
-  "liquid": {
-    "cap": 2.5,
-    "explosive": true,
-    "flammable": true,
-    "viscosity": 0.007,
-	"heatCapacity": 0.06,
-  }
-  "hiddenOnPlanets": [
-		"serpulo",
-		"erekir",
-	]
-}
+temperature: 0.4
+flammability: 0.0
+explosiveness: 0.0
+heatCapacity: 0.6
+viscosity: 0.4
