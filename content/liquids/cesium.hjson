@@ -1,10 +1,9 @@
-  name: Cesium
-  description: "Extremely dangerous and explosive material. Used in precision industry and laser applications."
   color: beaa95
   barColor: beaa95
   gasColor: beaa9570
-  temperature: 0.025
-  flammability: 2
-  explosiveness: 0.8
-  heatCapacity: 0.7
+  temperature: 0.6
+  flammability: 1.2
+  explosiveness: 1.2
+  heatCapacity: 0.3
+  viscosity: 0.8
   research: ammonia
