@@ -3,7 +3,7 @@ description: Fires high-speed projectile at enemies.
 researchCostMultiplier: 0.5
 size: 3
 outlineColor: 0c0c12
-health: 1050
+health: 1600
 ammoPerShot: 6
 alwaysUnlocked: false
 squareSprite: false
@@ -50,7 +50,7 @@ ammoTypes: {
   frontColor: ffffff
   backColor: fcf0bd
   hitColor: fcf0bd
-  damage: 145
+  damage: 125
   despawnSound: energy-blade-hit
   lifetime: 8.25
   speed: 32
@@ -126,7 +126,7 @@ ammoTypes: {
         pierceCap: 4
         pierceDamageFactor: 0.01
         drag: 0.04
-        damage: 17
+        damage: 12
         sprite: mine-bullet
         width: 10
         height: 23
@@ -219,7 +219,7 @@ shootEffect: [
   frontColor: ffffff
   backColor: a3a6ae
   hitColor: a3a6ae
-  damage: 210
+  damage: 200
   despawnSound: energy-blade-hit
   lifetime: 9.6
   speed: 28
@@ -298,7 +298,7 @@ shootEffect: [
         pierceCap: 4
         pierceDamageFactor: 0.01
         drag: 0.02
-        damage: 39
+        damage: 31
         sprite: mine-bullet
         width: 10
         height: 23
