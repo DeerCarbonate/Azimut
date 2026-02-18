@@ -3,7 +3,7 @@ outlineColor: 0c0c12
 description: Fires a stream of fire; actual damage is 130 (don’t believe everything written in the stats!).
 researchCostMultiplier: 0.5
 size: 3
-health: 1025
+health: 1850
 alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
@@ -25,9 +25,9 @@ research: {
   planet: "gelion"
     "requirements": [
 	  "venerium/50"
-	  "cobalt/170"
+	  "cobalt/150"
 	  "platinum/160"
-	  "geliarin/10"
+	  "geliarin/20"
 ]
 objectives: [
     {
@@ -79,9 +79,11 @@ shootType: {
     ammoMultiplier: 1
 	buildingDamageMultiplier: 0.3
 	pierceArmor: false
+ pierce: True
+ pierceCap: 3
 	
     lifetime: 12
-    damage: 105
+    damage: 120
 	
 	laserAbsorb:true
 }
