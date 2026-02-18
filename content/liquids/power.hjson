@@ -1,5 +1,3 @@
-name: Power
-description: It is used to speed up the operation of machines and to make them work.
 heatCapacity: 1.2
 explosiveness: 0
 temperature: 0.017
