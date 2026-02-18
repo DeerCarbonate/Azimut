@@ -45,6 +45,7 @@
             buildingDamageMultiplier: 0.01
             backColor: 665c9f
             frontColor: bf92f9
+            healColor: bf92f988
             pierceArmor:true
             width:9
             length:9
