@@ -11,12 +11,12 @@ outlineRadius: 3
 alwaysUnlocked: false
 armor: 3
 accel: 0.07
-health: 1300
+health: 1200
 hovering: true
 speed: 1.25
 canDrown: false
 hitSize: 14
-drag: 0.04
+drag: 0.03
 healColor: f0a4d988
 description: Fires a burst of homing bullets.
 research: {
@@ -145,7 +145,7 @@ weapons: [
       shootEffect: {
         type: WaveEffect
         startDelay: 0
-        lifetime: 12
+        lifetime: 26
         sizeFrom: 0
         sizeTo: 6
         strokeFrom: 0
@@ -160,7 +160,7 @@ weapons: [
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 12
+        lifetime: 34
         sizeFrom: 0
         sizeTo: 12
         colorFrom: f6afdd90
@@ -171,7 +171,7 @@ weapons: [
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 12
+        lifetime: 34
         sizeFrom: 0
         sizeTo: 12
         colorFrom: f6afdd90
