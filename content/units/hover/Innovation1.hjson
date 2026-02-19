@@ -98,6 +98,7 @@ weapons: [
     y: 7.1
     reload: 85
     velocityRnd: 0.3
+    ignoreRotation: true
     shoot: {
       type: ShootBarrel
       firstShotDelay: 40
@@ -176,6 +177,7 @@ weapons: [
     reload: 90
     inaccuracy: 360
     velocityRnd: 0.3
+    ignoreRotation: true 
     shoot: {
       type: ShootMulti
 	  source: {
