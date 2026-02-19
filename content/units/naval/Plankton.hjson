@@ -63,7 +63,7 @@ shoot: {
     height: 8
     width: 6
     lifetime: 53
-    damage: 22
+    damage: 28
     speed: 4.8
     trailColor: 5fac9e
     trailLength: 4
