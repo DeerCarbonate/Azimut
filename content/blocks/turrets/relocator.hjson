@@ -160,7 +160,7 @@ despawnEffect:none
 speed: 2.6
 collidesGround: true
 lifetime: 65
-damage: 40
+damage: 50
 backColor: bf92f9
 frontColor: bf92f9
 trailColor: bf92f9
@@ -187,7 +187,7 @@ fragBullet: {
 	serrationWidth: 3
     lifetime: 27
 	pierceArmor: false 
-    damage: 40
+    damage: 55
     toColor: bf92f9
 	despawnEffect: none
 	collidesTiles: true
