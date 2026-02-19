@@ -175,14 +175,14 @@ fragVelocityMin: 1
 fragVelocityMax: 3
 fragRandomSpread: 15
 fragSpread: 3 
-pierceArmor:true
+pierceArmor: false 
 buildingDamageMultiplier: 0.3
 fragBullet: {
     type: ShrapnelBulletType
     pierce: false
     length: 10
 	width: 4
-    pierceCap: 10
+    pierceCap: 2
 	serrations: 1
 	serrationWidth: 3
     lifetime: 27
