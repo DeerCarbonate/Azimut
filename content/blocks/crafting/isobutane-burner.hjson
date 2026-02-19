@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Isobutane burner
-description: Burns butane liquid, releasing energy.
 size: 3
 category: crafting
 squareSprite: false
