@@ -9,6 +9,7 @@ loopSoundVolume: 0.2
 outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: false
+rotateSpeed: 0
 armor: 1
 accel: 0.07
 health: 400
