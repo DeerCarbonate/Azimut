@@ -1,0 +1,242 @@
+type: hover
+useEngineElevation: false
+shadowElevation: 0.1
+engineOffset: -1.75
+engineSize: 0
+flying: false
+loopSound: loopHover
+loopSoundVolume: 0.2
+outlineColor: 251b21
+outlineRadius: 3
+alwaysUnlocked: false
+armor: 1
+accel: 0.07
+health: 400
+hovering: false
+speed: 0
+canDrown: true
+hitSize: 14
+drag: 0.02
+healColor: f0a4d988
+description: Fires a burst of homing bullets.
+abilities: [
+  {
+    effect: {
+      type: ParticleEffect
+      colorFrom: f6afdd
+      colorTo: 6a3fa490
+      lifetime: 40
+      particles: 1
+      cone: 360
+      length: 0
+      baseLength: 0
+      lightScl: 2.5
+      lightOpacity: 2
+      spin: 0
+      sizeFrom: 2.07
+      sizeTo: 0
+      offset: 0
+    }
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 0.00000001
+    y: 0
+    x: 0
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    x: 3.8
+    y: 4.8
+    sides: 4
+    mirror: true
+    radius: 8
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: fbace310
+  }
+  {
+    type: HoverPart
+    x: 5.25
+    y: -3.2
+    sides: 4
+    mirror: true
+    radius: 8
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: fbace310
+  }
+  {
+    type: HoverPart
+    sides: 4
+    mirror: false
+    radius: 16.75
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: fbace305
+  }
+]
+weapons: [
+  {
+    name: Innovation-weapon
+    recoil: 1.5
+    alternate: true
+    layerOffset: -0.001
+    shootY: 2.5
+    shake: 1.2
+    x: 1.95
+    y: 7.1
+    reload: 45
+    velocityRnd: 0.3
+    shootStatus: slow
+    shootStatusDuration: 25
+    shoot: {
+      type: ShootBarrel
+      firstShotDelay: 30
+      shotDelay: 3.2
+      shots: 3
+      barrels: [
+        1, 1, 0
+        -1, 1, 0
+      ]
+    }
+    ejectEffect: none
+    shootSound: shootArc
+    bullet: {
+      recoil: 0.1
+      keepVelocity: false
+      lifetime: 60
+      drag: -0.012
+      damage: 11
+      height: 7
+      speed: 1.7
+      width: 6
+      type: BasicBulletType
+      homingPower: 0.02
+      homingRange: 50
+      homingDelay: 17
+      frontColor: ffffff
+      backColor: f6afdd
+      trailColor: f6afdd
+      trailWidth: 1.5
+      trailLength: 20
+      shootEffect: {
+        type: WaveEffect
+        startDelay: 0
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 5
+        strokeFrom: 0
+        strokeTo: 3
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+        followParent: true
+        rotWithParent: true
+      }
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 22
+        sizeFrom: 0
+        sizeTo: 12
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
+      hitEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 22
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
+    }
+}
+  {
+    name: Innovation-weaponn
+    alternate: false
+    mirror: false 
+    rotateSpeed: 60
+    layerOffset: -0.001
+    shootY: 0
+    x: 0
+    y: 0.3
+    reload: 1300
+    inaccuracy: 360
+    velocityRnd: 0.3
+    shoot: {
+      type: ShootMulti
+	  source: {
+      firstShotDelay: 20
+      shots: 4
+	      }
+	  dest: [
+	  {
+	  type: ShootPattern
+		shots: 3
+		shotDelay: 15
+	}
+	]
+	}
+    ejectEffect: none
+    shootSound: shootAtrax
+    bullet: {
+      keepVelocity: false
+      lifetime: 90
+      drag: -0.01
+      damage: 32
+      height: 5
+      speed: 0.9
+      width: 4
+      type: BasicBulletType
+      homingPower: 0.07
+      homingRange: 50
+      homingDelay: 6
+      frontColor: ffffff
+      backColor: f6afdd
+      trailColor: f6afdd
+      trailWidth: 1.05
+      trailLength: 8
+      shootEffect: {
+        type: WaveEffect
+        startDelay: 0
+        lifetime: 65
+        sizeFrom: 0
+        sizeTo: 12
+        strokeFrom: 0
+        strokeTo: 4
+        colorFrom: f6afdd20
+        colorTo: f6afdd00
+        followParent: true
+        rotWithParent: true
+      }
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 16
+        sizeFrom: 0
+        sizeTo: 7
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
+      hitEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 16
+        sizeFrom: 0
+        sizeTo: 7
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
+    }
+	}
+]
