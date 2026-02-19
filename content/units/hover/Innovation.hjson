@@ -103,7 +103,7 @@ parts: [
 weapons: [
   {
     name: Innovation-weapon
-    recoil: 1.5
+    recoil: 0.01
     alternate: true
     layerOffset: -0.001
     shootY: 2.5
@@ -112,8 +112,6 @@ weapons: [
     y: 7.1
     reload: 45
     velocityRnd: 0.3
-    shootStatus: slow
-    shootStatusDuration: 25
     shoot: {
       type: ShootBarrel
       firstShotDelay: 30
@@ -131,7 +129,7 @@ weapons: [
       keepVelocity: false
       lifetime: 60
       drag: -0.012
-      damage: 11
+      damage: 18
       height: 7
       speed: 1.7
       width: 6
@@ -142,40 +140,43 @@ weapons: [
       frontColor: ffffff
       backColor: f6afdd
       trailColor: f6afdd
-      trailWidth: 1.5
-      trailLength: 20
+      trailWidth: 1.1
+      trailLength: 6
       shootEffect: {
         type: WaveEffect
         startDelay: 0
-        lifetime: 25
+        lifetime: 12
         sizeFrom: 0
-        sizeTo: 5
+        sizeTo: 6
         strokeFrom: 0
         strokeTo: 3
-        colorFrom: f6afdd
+        colorFrom: f6afdd90
         colorTo: f6afdd00
         followParent: true
         rotWithParent: true
+        interp: pow3Out
       }
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 22
+        lifetime: 12
         sizeFrom: 0
         sizeTo: 12
-        colorFrom: f6afdd
+        colorFrom: f6afdd90
         colorTo: f6afdd00
+        interp: pow3Out
       }
       hitEffect: {
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 22
+        lifetime: 12
         sizeFrom: 0
-        sizeTo: 8
-        colorFrom: f6afdd
+        sizeTo: 12
+        colorFrom: f6afdd90
         colorTo: f6afdd00
+        interp: pow3Out
       }
     }
 }
@@ -188,13 +189,13 @@ weapons: [
     shootY: 0
     x: 0
     y: 0.3
-    reload: 1300
+    reload: 1200
     inaccuracy: 360
     velocityRnd: 0.3
     shoot: {
       type: ShootMulti
 	  source: {
-      firstShotDelay: 20
+      firstShotDelay: 0
       shots: 4
 	      }
 	  dest: [
