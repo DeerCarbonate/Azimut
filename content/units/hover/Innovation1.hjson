@@ -23,8 +23,8 @@ abilities: [
   {
     effect: {
       type: ParticleEffect
-      colorFrom: f6afdd
-      colorTo: 6a3fa490
+      colorFrom: f6afdd10
+      colorTo: 6a3fa402
       lifetime: 40
       particles: 1
       cone: 360
@@ -39,7 +39,7 @@ abilities: [
     }
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 0.00000001
+    interval: 0.0004
     y: 0
     x: 0
   }
@@ -87,17 +87,15 @@ weapons: [
     alternate: true
     layerOffset: -0.001
     shootY: 2.5
-    shake: 1.2
+    shake: 0
     x: 1.95
     y: 7.1
-    reload: 45
+    reload: 85
     velocityRnd: 0.3
-    shootStatus: slow
-    shootStatusDuration: 25
     shoot: {
       type: ShootBarrel
-      firstShotDelay: 30
-      shotDelay: 3.2
+      firstShotDelay: 40
+      shotDelay: 5.3
       shots: 3
       barrels: [
         1, 1, 0
@@ -107,23 +105,24 @@ weapons: [
     ejectEffect: none
     shootSound: shootArc
     bullet: {
-      recoil: 0.1
+      ignoreRotation: true
+      recoil: 0
       keepVelocity: false
       lifetime: 60
       drag: -0.012
-      damage: 11
+      damage: 45
       height: 7
-      speed: 1.7
+      speed: 1.5
       width: 6
       type: BasicBulletType
-      homingPower: 0.02
-      homingRange: 50
-      homingDelay: 17
+      homingPower: 0.04
+      homingRange: 90
+      homingDelay: 3
       frontColor: ffffff
       backColor: f6afdd
       trailColor: f6afdd
-      trailWidth: 1.5
-      trailLength: 20
+      trailWidth: 1.4
+      trailLength: 6
       shootEffect: {
         type: WaveEffect
         startDelay: 0
@@ -168,14 +167,14 @@ weapons: [
     shootY: 0
     x: 0
     y: 0.3
-    reload: 1300
+    reload: 90
     inaccuracy: 360
     velocityRnd: 0.3
     shoot: {
       type: ShootMulti
 	  source: {
-      firstShotDelay: 20
-      shots: 4
+      firstShotDelay: 10
+      shots: 8
 	      }
 	  dest: [
 	  {
