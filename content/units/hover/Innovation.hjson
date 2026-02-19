@@ -58,6 +58,11 @@ abilities: [
     y: 0
     x: 0
   }
+    {
+        type: SpawnDeathAbility
+        amount: 1
+        unit: Innovation1
+    }
 ]
 parts: [
   {
