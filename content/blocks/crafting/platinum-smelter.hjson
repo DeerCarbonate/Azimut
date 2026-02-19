@@ -20,14 +20,14 @@ requirements: [
 ]
 consumes: {
   items: [
-  raw-platinum/2
+  raw-platinum/4
   ]
   liquids: [
   isobutane/0.09
 	]
 }
 craftTime: 120
-outputItem: platinum/2
+outputItem: platinum/4
 craftEffect: [{
         type: RadialEffect
       rotationSpacing : 90
