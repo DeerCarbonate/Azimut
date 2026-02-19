@@ -5,7 +5,7 @@ size: 3
 outlineColor: 0c0c12
 outlineColor: 0c0c12
 squareSprite: false
-health: 900
+health: 1850
 cooldown: 1200
 shootCone: 9
 recoil: 3.2
@@ -61,7 +61,7 @@ speed: 6.5
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 35
+damage: 32
 pierce: true
 pierceBuilding: true
 pierceCap: 3
@@ -125,7 +125,7 @@ speed: 3.8
 collidesTiles: true
 collidesGround: true
 lifetime: 65
-damage: 70
+damage: 35
 pierce: true
 pierceBuilding: true
 pierceCap: 2
@@ -160,7 +160,7 @@ despawnEffect:none
 speed: 2.6
 collidesGround: true
 lifetime: 65
-damage: 55
+damage: 25
 backColor: bf92f9
 frontColor: bf92f9
 trailColor: bf92f9
@@ -176,7 +176,7 @@ fragVelocityMax: 3
 fragRandomSpread: 15
 fragSpread: 3 
 pierceArmor:true
-buildingDamageMultiplier: 0.1
+buildingDamageMultiplier: 0.3
 fragBullet: {
     type: ShrapnelBulletType
     pierce: false
@@ -186,8 +186,8 @@ fragBullet: {
 	serrations: 1
 	serrationWidth: 3
     lifetime: 27
-	pierceArmor:true
-    damage: 60
+	pierceArmor: false 
+    damage: 20
     toColor: bf92f9
 	despawnEffect: none
 	collidesTiles: true
