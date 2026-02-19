@@ -1,10 +1,8 @@
 type: GenericCrafter
-name: Platinum smelter
 size: 3
 itemCapacity: 15
 category: crafting
 squareSprite: false
-description: Melts platinum, uses raw platinum and isobutane for work.
 ignoreLiquidFullness: true
 research: {
   parent: "core-forum"
@@ -20,14 +18,14 @@ requirements: [
 ]
 consumes: {
   items: [
-  raw-platinum/4
+  raw-platinum/3
   ]
   liquids: [
   isobutane/0.09
 	]
 }
 craftTime: 120
-outputItem: platinum/4
+outputItem: platinum/3
 craftEffect: [{
         type: RadialEffect
       rotationSpacing : 90
