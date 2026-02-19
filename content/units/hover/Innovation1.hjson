@@ -6,6 +6,7 @@ engineSize: 0
 flying: false
 loopSound: loopHover
 loopSoundVolume: 0.2
+hidden: true
 outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: false
@@ -44,6 +45,10 @@ abilities: [
     y: 0
     x: 0
   }
+{
+type:RegenAbility
+percentAmount:-0.06
+}
 ]
 parts: [
   {
