@@ -10,7 +10,7 @@ hidden: true
 outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: false
-rotateSpeed: 0
+rotateSpeed: 0.3
 armor: 1
 accel: 0.07
 health: 400
@@ -25,8 +25,8 @@ abilities: [
   {
     effect: {
       type: ParticleEffect
-      colorFrom: f6afdd10
-      colorTo: 6a3fa402
+      colorFrom: f6afdd20
+      colorTo: 6a3fa408
       lifetime: 40
       particles: 1
       cone: 360
@@ -47,7 +47,7 @@ abilities: [
   }
 {
 type:RegenAbility
-percentAmount:-0.06
+percentAmount:-0.055
 }
 ]
 parts: [
@@ -61,7 +61,7 @@ parts: [
     phase: 90
     stroke: 2
     layerOffset: -0.001
-    color: fbace310
+    color: fbace320
   }
   {
     type: HoverPart
@@ -73,7 +73,7 @@ parts: [
     phase: 90
     stroke: 2
     layerOffset: -0.001
-    color: fbace310
+    color: fbace320
   }
   {
     type: HoverPart
@@ -83,7 +83,7 @@ parts: [
     phase: 90
     stroke: 2
     layerOffset: -0.001
-    color: fbace305
+    color: fbace310
   }
 ]
 weapons: [
