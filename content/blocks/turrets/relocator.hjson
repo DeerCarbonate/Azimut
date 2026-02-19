@@ -113,10 +113,7 @@ buildingDamageMultiplier: 0.1
 	    zinc: {
 type: BasicBulletType
 drag: 0.03
-homingRange: 120
-homingPower: 0.10
-homingDelay: 16
-reloadMultiplier: 0.3
+reloadMultiplier: 0.5
 sprite: large-orb
 width: 10
 rangeChange: 60
@@ -160,7 +157,7 @@ despawnEffect:none
 speed: 2.6
 collidesGround: true
 lifetime: 65
-damage: 25
+damage: 40
 backColor: bf92f9
 frontColor: bf92f9
 trailColor: bf92f9
@@ -187,7 +184,7 @@ fragBullet: {
 	serrationWidth: 3
     lifetime: 27
 	pierceArmor: false 
-    damage: 20
+    damage: 30
     toColor: bf92f9
 	despawnEffect: none
 	collidesTiles: true
