@@ -124,7 +124,7 @@ weapons: [
       ]
     }
     ejectEffect: none
-    shootSound: shootArc
+    shootSound: shootMerui
     bullet: {
       recoil: 0.02
       keepVelocity: false
@@ -208,7 +208,7 @@ weapons: [
 	]
 	}
     ejectEffect: none
-    shootSound: shootAtrax
+    shootSound: shootSegment
     bullet: {
       keepVelocity: false
       lifetime: 90
