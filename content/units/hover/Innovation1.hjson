@@ -62,7 +62,7 @@ parts: [
     radius: 8
     phase: 90
     stroke: 2
-    layerOffset: -0.001
+    layerOffset: -0.05
     color: fbace320
   }
   {
@@ -74,7 +74,7 @@ parts: [
     radius: 8
     phase: 90
     stroke: 2
-    layerOffset: -0.001
+    layerOffset: -0.05
     color: fbace320
   }
   {
@@ -84,7 +84,7 @@ parts: [
     radius: 16.75
     phase: 90
     stroke: 2
-    layerOffset: -0.001
+    layerOffset: -0.05
     color: fbace310
   }
 ]
@@ -94,7 +94,7 @@ weapons: [
     mirror: false 
     recoil: 0
     alternate: false
-    layerOffset: -0.01
+    layerOffset: -0.02
     shootY: 2.5
     shake: 0
     x: 1.95
