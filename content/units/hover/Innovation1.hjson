@@ -175,7 +175,7 @@ weapons: [
     shootY: 0
     x: 0
     y: 0.3
-    reload: 120
+    reload: 180
     inaccuracy: 360
     velocityRnd: 0.3
     ignoreRotation: true 
@@ -216,11 +216,11 @@ weapons: [
         type: WaveEffect
         startDelay: 0
         lifetime: 65
-        sizeFrom: 7
-        sizeTo: 2
+        sizeFrom: 0
+        sizeTo: 7
         strokeFrom: 5
         strokeTo: 2
-        colorFrom: f6afdd50
+        colorFrom: f6afdd30
         colorTo: f6afdd00
         followParent: true
         rotWithParent: true
