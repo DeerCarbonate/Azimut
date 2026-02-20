@@ -20,7 +20,9 @@ hitSize: 14
 drag: 0.03
 healColor: f0a4d988
 description: Fires a burst of homing bullets.
-deathEffect: [
+deathExplosionEffect: {
+type: MultiEffect
+effects: [
 {
       type: RadialEffect
       rotationSpacing : 90
@@ -56,7 +58,21 @@ colorTo: f6afdd00
 baseRotation: 180
 interp: pow3Out
 }
+        {
+            type: ParticleEffect
+            lifetime: 55
+            baseLength: 2
+            length: 25
+            particles: 5
+            sizeFrom: 5
+            sizeTo: 0
+            interp: pow5Out
+            sizeInterp: pow5In
+            colorFrom: 5a5a5a84
+            colorTo: b0b0b000
+        }
 ]
+}
 research: {
   parent: Improvement
   planet: gelion
