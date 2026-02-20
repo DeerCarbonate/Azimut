@@ -105,7 +105,7 @@ weapons: [
     name: Innovation-weapon
     recoil: 0.002
     alternate: true
-    layerOffset: 0.001
+    under: true
     shootY: 2.5
     shake: 0
     x: 1.95
@@ -148,8 +148,8 @@ weapons: [
         lifetime: 26
         sizeFrom: 0
         sizeTo: 6
-        strokeFrom: 0
-        strokeTo: 3
+        strokeFrom: 4
+        strokeTo: 0
         colorFrom: f6afdd
         colorTo: f6afdd30
         followParent: true
@@ -231,10 +231,10 @@ weapons: [
         lifetime: 65
         sizeFrom: 0
         sizeTo: 12
-        strokeFrom: 0
-        strokeTo: 4
+        strokeFrom: 5
+        strokeTo: 0
         colorFrom: f6afdd
-        colorTo: f6afdd30
+        colorTo: f6afdd00
         followParent: true
         rotWithParent: true
       }
