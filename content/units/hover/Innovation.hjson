@@ -124,7 +124,7 @@ weapons: [
       ]
     }
     ejectEffect: none
-    shootSound: shootMerui
+    shootSound: shootSalvo
     bullet: {
       recoil: 0.02
       keepVelocity: false

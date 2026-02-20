@@ -1,4 +1,7 @@
 type: hover
+playerControllable: false
+logicControllable: false
+payloadCapacity: 0
 useEngineElevation: false
 shadowElevation: 0.1
 engineOffset: -1.75
@@ -110,7 +113,7 @@ weapons: [
       ]
     }
     ejectEffect: none
-    shootSound: shootMerui
+    shootSound: shootSalvo
     bullet: {
       ignoreRotation: true
       recoil: 0
