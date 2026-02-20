@@ -10,7 +10,7 @@ hidden: true
 outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: false
-rotateSpeed: 0.75
+rotateSpeed: 1
 armor: 1
 accel: 0.09
 health: 450
@@ -25,9 +25,9 @@ abilities: [
   {
     effect: {
       type: ParticleEffect
-      colorFrom: f6afdd10
-      colorTo: 6a3fa403
-      lifetime: 40
+      colorFrom: f6afdd05
+      colorTo: 6a3fa401
+      lifetime: 20
       particles: 1
       cone: 360
       length: 0
@@ -89,8 +89,9 @@ parts: [
 weapons: [
   {
     name: Innovation-weapon
-    recoil: 1.5
-    alternate: true
+    mirror: false 
+    recoil: 0
+    alternate: false
     layerOffset: -0.001
     shootY: 2.5
     shake: 0
@@ -139,7 +140,7 @@ weapons: [
         strokeFrom: 0
         strokeTo: 3
         colorFrom: f6afdd
-        colorTo: f6afdd00
+        colorTo: f6afdd30
         followParent: true
         rotWithParent: true
       }
@@ -169,12 +170,12 @@ weapons: [
     name: Innovation-weaponn
     alternate: false
     mirror: false 
-    rotateSpeed: 60
+    rotateSpeed: 100
     layerOffset: -0.001
     shootY: 0
     x: 0
     y: 0.3
-    reload: 90
+    reload: 120
     inaccuracy: 360
     velocityRnd: 0.3
     ignoreRotation: true 
@@ -219,8 +220,8 @@ weapons: [
         sizeTo: 12
         strokeFrom: 0
         strokeTo: 4
-        colorFrom: f6afdd20
-        colorTo: f6afdd00
+        colorFrom: f6afdd
+        colorTo: f6afdd30
         followParent: true
         rotWithParent: true
       }
