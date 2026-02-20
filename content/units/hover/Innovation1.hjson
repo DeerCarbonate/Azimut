@@ -12,7 +12,7 @@ outlineRadius: 3
 alwaysUnlocked: false
 rotateSpeed: 0.75
 armor: 1
-accel: 0.07
+accel: 0.09
 health: 450
 hovering: false
 speed: 0
