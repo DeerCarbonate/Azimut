@@ -20,14 +20,13 @@ canDrown: true
 hitSize: 14
 drag: 0.02
 healColor: f0a4d988
-description: Fires a burst of homing bullets.
 abilities: [
   {
     effect: {
       type: ParticleEffect
-      colorFrom: f6afdd05
-      colorTo: 6a3fa401
-      lifetime: 20
+      colorFrom: f6afdd13
+      colorTo: 6a3fa403
+      lifetime: 40
       particles: 1
       cone: 360
       length: 0
@@ -41,7 +40,7 @@ abilities: [
     }
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 0.0004
+    interval: 0.00002
     y: 0
     x: 0
   }
