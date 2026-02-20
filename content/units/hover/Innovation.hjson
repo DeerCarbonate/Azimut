@@ -106,7 +106,7 @@ weapons: [
     recoil: 0.002
     alternate: true
     under: true
-    layerOffset: -0.002
+    layerOffset: -0.01
     shootY: 2.5
     shake: 0
     x: 1.95
