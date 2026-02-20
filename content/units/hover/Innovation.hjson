@@ -9,6 +9,7 @@ loopSoundVolume: 0.8
 outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: false
+deathSound: explosion
 armor: 3
 accel: 0.09
 health: 1200
@@ -19,6 +20,42 @@ hitSize: 14
 drag: 0.03
 healColor: f0a4d988
 description: Fires a burst of homing bullets.
+deathEffect: [
+{
+      type: RadialEffect
+      rotationSpacing : 90
+      rotationOffset: 0
+      lengthOffset: 2
+      amount: 2
+      effect: {
+          type: ParticleEffect
+          particles: 5
+          length: 120
+          lifetime: 290
+          sizeFrom: 1.7
+          sizeTo: 7.2
+          cone: 2
+          baseRotation: 73
+          useRotation:false
+          interp: pow5Out
+          colorFrom: 5a5a5a84
+          colorTo: b0b0b000
+          layer: 100.3
+	}
+}
+{
+followParent: false
+length: 0
+lifetime: 35
+particles: 1
+cone: 0
+region: azimut-shockwave
+sizeFrom: 17
+sizeTo: 24
+colorTo: f6afdd00
+baseRotation: 180
+interp: pow3Out
+}
 research: {
   parent: Improvement
   planet: gelion
