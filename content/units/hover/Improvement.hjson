@@ -10,10 +10,10 @@ outlineColor: 251b21
 outlineRadius: 3
 alwaysUnlocked: false
 armor: 1
-accel: 0.05
+accel: 0.027
 health: 650
 hovering: true
-speed: 1.45
+speed: 1.5
 hitSize: 11
 healColor: f0a4d988
 canDrown: false
@@ -105,7 +105,7 @@ weapons: [
       keepVelocity: false
       lifetime: 110
       drag: -0.015
-      damage: 19
+      damage: 17
       height: 4
       speed: 1.1
       width: 4
