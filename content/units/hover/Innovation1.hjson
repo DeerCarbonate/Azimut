@@ -218,9 +218,9 @@ weapons: [
         lifetime: 65
         sizeFrom: 0
         sizeTo: 7
-        strokeFrom: 5
-        strokeTo: 2
-        colorFrom: f6afdd30
+        strokeFrom: 0
+        strokeTo: 6
+        colorFrom: f6afdd10
         colorTo: f6afdd00
         followParent: true
         rotWithParent: true
