@@ -105,7 +105,7 @@ weapons: [
     name: Innovation-weapon
     recoil: 0.002
     alternate: true
-    layerOffset: -0.001
+    layerOffset: 0.001
     shootY: 2.5
     shake: 0
     x: 1.95
