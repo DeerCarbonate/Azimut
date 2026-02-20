@@ -103,11 +103,11 @@ parts: [
 weapons: [
   {
     name: Innovation-weapon
-    recoil: 0.01
+    recoil: 0.002
     alternate: true
     layerOffset: -0.001
     shootY: 2.5
-    shake: 1.2
+    shake: 0
     x: 1.95
     y: 7.1
     reload: 45
@@ -125,11 +125,11 @@ weapons: [
     ejectEffect: none
     shootSound: shootArc
     bullet: {
-      recoil: 0.1
+      recoil: 0.02
       keepVelocity: false
       lifetime: 60
       drag: -0.012
-      damage: 18
+      damage: 16
       height: 7
       speed: 1.7
       width: 6
@@ -140,8 +140,8 @@ weapons: [
       frontColor: ffffff
       backColor: f6afdd
       trailColor: f6afdd
-      trailWidth: 1.1
-      trailLength: 6
+      trailWidth: 1.2
+      trailLength: 8
       shootEffect: {
         type: WaveEffect
         startDelay: 0
@@ -150,8 +150,8 @@ weapons: [
         sizeTo: 6
         strokeFrom: 0
         strokeTo: 3
-        colorFrom: f6afdd90
-        colorTo: f6afdd00
+        colorFrom: f6afdd
+        colorTo: f6afdd30
         followParent: true
         rotWithParent: true
         interp: pow3Out
@@ -233,8 +233,8 @@ weapons: [
         sizeTo: 12
         strokeFrom: 0
         strokeTo: 4
-        colorFrom: f6afdd20
-        colorTo: f6afdd00
+        colorFrom: f6afdd
+        colorTo: f6afdd30
         followParent: true
         rotWithParent: true
       }
