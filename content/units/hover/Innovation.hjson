@@ -19,7 +19,6 @@ canDrown: false
 hitSize: 14
 drag: 0.03
 healColor: f0a4d988
-description: Fires a burst of homing bullets.
 deathExplosionEffect: {
 type: MultiEffect
 effects: [
