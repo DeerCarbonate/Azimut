@@ -22,7 +22,6 @@
     reload: 90
     duration: 90
     status: tow
-    applyEffect: none
     effectChance: 1
   }
 ]
