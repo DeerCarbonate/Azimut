@@ -81,7 +81,7 @@ preset: fifth
                 speed: 1.7
                 drag:-0.002
                 collidesGround: true
-                lifetime: 150
+                lifetime: 145
                 splashDamage: 60
                 splashDamageRadius: 27
                 backColor: a4f0d7
