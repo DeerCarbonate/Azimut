@@ -57,8 +57,8 @@ preset: fifth
           suffix: -grow
           layer: 65
 		  outline: false
-          moveY: -5
-          growY: -0.1
+          moveY: -0.3
+          growY: -0.2
           heatColor: fcf0bd
           progress: {
             type: charge
@@ -110,18 +110,18 @@ preset: fifth
                     particles: 7
                     cone: 15
                     length: 25
-                    lifetime:15
-                    sizeFrom: 2
+                    lifetime:22
+                    sizeFrom: 4
                     sizeTo: 0
                 }
                 despawnEffect: {
                     type: ParticleEffect
                     colorFrom: 5fac9e
                     colorTo: 5fac9e80
-                    particles: 7
+                    particles: 8
                     cone: 16
                     length: 60
-                    sizeFrom: 3
+                    sizeFrom: 5
                     sizeTo: 0
                     lifetime:15
                 }
