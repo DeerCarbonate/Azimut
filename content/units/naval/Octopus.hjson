@@ -6,7 +6,7 @@
 	alwaysUnlocked: false
 	armor: 5
 	health: 1750
-	speed: 1.15
+	speed: 1.07
 	accel: 0.75
 	hitSize: 14.2
 	immunities: [ wet ]
