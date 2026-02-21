@@ -15,6 +15,17 @@
 	waveTrailX: 5
 	waveTrailY: -7
     healColor: a4f0d788
+	abilities: [
+  {
+    type: StatusFieldAbility
+    range: 60
+    reload: 90
+    duration: 90
+    status: tow
+    applyEffect: none
+    effectChance: 1
+  }
+]
 	research: {
     parent: "Plankton"
     planet: gelion
