@@ -56,7 +56,7 @@ preset: fifth
           layer: 65
 		  outline: false
           moveY: -0.1
-          growY: -0.37
+          growY: -0.28
           heatColor: fcf0bd
           progress: {
             type: charge
@@ -72,8 +72,8 @@ preset: fifth
 ]
             bullet: {
 			    type: ArtilleryBulletType
-                width: 14
-				height: 19
+                width: 13
+				height: 18
 				keepVelocity: false
 				scaleLife: true
 				shrinkY: 0.7
@@ -82,8 +82,8 @@ preset: fifth
                 drag:-0.002
                 collidesGround: true
                 lifetime: 150
-                splashDamage: 110
-                splashDamageRadius: 28
+                splashDamage: 70
+                splashDamageRadius: 27
                 backColor: a4f0d7
                 frontColor: ffffff
 				sprite: shell
@@ -103,7 +103,8 @@ preset: fifth
                     sizeFrom: 3
                     sizeTo: 0
                 }
-                hitEffect: {
+                hitEffect: [
+				{
                     type: ParticleEffect
                     colorFrom: 5fac9e
                     colorTo: 5fac9e80
@@ -114,7 +115,22 @@ preset: fifth
                     sizeFrom: 4
                     sizeTo: 0
                 }
-                despawnEffect: {
+				{
+followParent: false
+length: 0
+lifetime: 45
+particles: 1
+cone: 0
+region: azimut-shockwave
+sizeFrom: 0
+sizeTo: 20
+colorTo: 5fac9e00
+baseRotation: 180
+interp: pow3Out
+}
+]
+                despawnEffect: [
+				{
                     type: ParticleEffect
                     colorFrom: 5fac9e
                     colorTo: 5fac9e80
@@ -125,6 +141,20 @@ preset: fifth
                     sizeTo: 0
                     lifetime:15
                 }
+								{
+followParent: false
+length: 0
+lifetime: 45
+particles: 1
+cone: 0
+region: azimut-shockwave
+sizeFrom: 0
+sizeTo: 20
+colorTo: 5fac9e00
+baseRotation: 180
+interp: pow3Out
+}
+]
                 trailEffect:[
                 {
                     type: ParticleEffect
