@@ -82,7 +82,7 @@ preset: fifth
                 drag:-0.002
                 collidesGround: true
                 lifetime: 150
-                splashDamage: 70
+                splashDamage: 60
                 splashDamageRadius: 27
                 backColor: a4f0d7
                 frontColor: ffffff
