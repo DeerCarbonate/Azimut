@@ -41,59 +41,50 @@ preset: fifth
 			mirror: false
 			alternate: false
 			rotate: true
-			rotateSpeed: 9
-			reload: 100
+			rotateSpeed: 3.2
+			reload: 160
 			inaccuracy:12
-			shootSound: shoot-small-flame
+			shootSound: shootConquer
 			controllable: true
 			aiControllable: true
-            shoot: {
-            type: ShootMulti
-            source: {
-               type: ShootSpread
-               spread: 14
-               shots: 2
-               }
-            dest: [
-            {
-                    type: ShootMulti
-                    source: {
-                      type: ShootPattern
-                       shots: 2
-                      shotDelay: 2
-                      }
-                   dest: [
-                   {
-                   type: ShootPattern
-                       firstShotDelay: 25
-                       shots: 2
-                       shotDelay: 20
-                   }
-                   ]
-            }
-            ]
-            }
+    shoot: {
+      type: ShootAlternate
+      spread: 0.1
+    }
+	    parts: [
+        {
+          suffix: -grow
+          layer: 65
+		  outline: false
+          moveY: -5
+          growY: -0.1
+          heatColor: fcf0bd
+          progress: {
+            type: charge
+            op: curve
+            interp: pow4In
+          }
+          growProgress: {
+            type: recoil
+            op: curve
+            interp: pow5In
+          }
+	}
             bullet: {
-                type: BasicBulletType
                 width: 7
+				scaleLife: true
+				shrinkY: 0.5
+                shrinkX: 0.5
                 height: 15
-                speed: 2.4
+                speed: 1.7
                 drag:-0.002
                 collidesGround: true
-                lifetime: 96
-                damage: 11
+                lifetime: 120
+                damage: 240
                 backColor: a4f0d7
                 frontColor: ffffff
-                homingPower: 0.1
-                homingRange:100
-                homingDelay: 30
-                weaveMag: 1
-                weaveScale: 6
-                pierce: true
-				pierceBuilding: true
-				pierceCap: 2
-				pierceDamageFactor: 0.01
-				sprite: missile
+				sprite: shell
+				reflectable: false
                 shootEffect: {
                     type: ParticleEffect
                     colorFrom: 5fac9e
