@@ -35,8 +35,8 @@ shoot: {
  splashDamage: 280
  splashDamageRadius: 74
  damage: 270
- despawnSound: explosionbig
- hitSound: explosionbig
+ despawnSound: explosionArtilleryShockBig
+ hitSound: explosionArtilleryShockBig
  lifetime: 68
  speed: 10.2
  drag: 0.01
@@ -417,8 +417,8 @@ shoot: {
  backColor: 957655
  hitColor: fff4a3
  damage: 230
- despawnSound: explosionbig
- hitSound: explosionbig
+ despawnSound: explosionAfflict
+ hitSound: explosionAfflict
  lifetime: 68
  speed: 10.2
  drag: 0.01
