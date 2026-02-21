@@ -161,9 +161,8 @@ weapons: [
       shrinkY: 0
       skrinkX: 0
       recoil: 1.2
-      splashDamage: 190
+      splashDamage: 320
       splashDamageRadius: 32
-      damage: 400
       height: 32
       speed: 0.12
       width: 12
