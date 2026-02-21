@@ -22,7 +22,8 @@
     reload: 90
     duration: 90
     status: tow
-    effectChance: 1
+	effect: Fx.none
+	applyEffect: Fx.none
   }
 ]
 	research: {
