@@ -42,7 +42,7 @@ preset: fifth
 			rotate: true
 			rotateSpeed: 3.2
 			reload: 160
-			shootSound: shootConquer
+			shootSound: shootArtillerySap
 			controllable: true
 			aiControllable: true
     shoot: {
@@ -88,7 +88,7 @@ preset: fifth
                 frontColor: ffffff
 				sprite: shell
 				reflectable: false
-				despawnSound: reactorExplosion1
+				despawnSound: explosionCleroi 
                 shootEffect: {
                     type: ParticleEffect
                     colorFrom: 5fac9e
