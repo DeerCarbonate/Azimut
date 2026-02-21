@@ -50,6 +50,7 @@ preset: fifth
     shoot: {
       type: ShootAlternate
       spread: 0.1
+	  firstShotDelay: 40
     }
 	    parts: [
         {
@@ -72,20 +73,22 @@ preset: fifth
 	}
 ]
             bullet: {
-                width: 7
+                width: 14
+				height: 19
 				scaleLife: true
-				shrinkY: 0.5
-                shrinkX: 0.5
-                height: 15
+				shrinkY: 0.7
+                shrinkX: 0.7
                 speed: 1.7
                 drag:-0.002
                 collidesGround: true
                 lifetime: 120
-                damage: 240
+                splashDamage: 240
+                splashDamageRadius: 18
                 backColor: a4f0d7
                 frontColor: ffffff
 				sprite: shell
 				reflectable: false
+				despawnSound: reactorExplosion1
                 shootEffect: {
                     type: ParticleEffect
                     colorFrom: 5fac9e
@@ -130,9 +133,9 @@ preset: fifth
                     particles: 1
                     cone: 360
                     lifetime:30
-                    length: 2
-                    sizeFrom: 1
-                    sizeTo: 1
+                    length: 3
+                    sizeFrom: 2
+                    sizeTo: 2
                     layer:100.2
                 }
                 {
@@ -144,8 +147,8 @@ preset: fifth
                     lifetime:20
                     cone: 360
                     length: 15
-                    spin: 2
-                    sizeFrom: 3
+                    spin: 1.2
+                    sizeFrom: 4
                     sizeTo: 0
                     layer:100.2
                 }
