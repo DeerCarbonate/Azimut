@@ -81,9 +81,9 @@ preset: fifth
                 speed: 1.7
                 drag:-0.002
                 collidesGround: true
-                lifetime: 160
-                splashDamage: 210
-                splashDamageRadius: 29
+                lifetime: 150
+                splashDamage: 110
+                splashDamageRadius: 28
                 backColor: a4f0d7
                 frontColor: ffffff
 				sprite: shell
@@ -129,10 +129,10 @@ preset: fifth
                 {
                     type: ParticleEffect
                     colorFrom: 5fac9e80
-                    colorTo: b3eed800
+                    colorTo: b0b0b000
                     particles: 1
                     cone: 360
-                    lifetime:30
+                    lifetime:50
                     length: 3
                     sizeFrom: 2
                     sizeTo: 2
@@ -144,7 +144,7 @@ preset: fifth
                     colorFrom: 5fac9e
                     colorTo: 5fac9e00
                     particles: 1
-                    lifetime:20
+                    lifetime:26
                     cone: 360
                     length: 15
                     spin: 1.2
