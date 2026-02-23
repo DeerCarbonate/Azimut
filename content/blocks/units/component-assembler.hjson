@@ -31,9 +31,9 @@ research: {
   parent: "mech-editor"
   planet: gelion
     "requirements": [
-          "venerium/10000"
-          "caterium/300"
-          "zinc/1000"
+          "venerium/2000"
+          "caterium/200"
+          "zinc/150"
 ]
 objectives: [
     {
