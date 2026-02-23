@@ -64,6 +64,9 @@ weapons: [
     heatColor: ff4500
     heatLayer: 1
 
+    shootStatus: charge
+    shootStatusDuration: 219
+
     shoot: {
       type: ShootSpread
       firstShotDelay: 219
