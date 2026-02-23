@@ -8,11 +8,11 @@ itemCapacity: 9000
 unitCapModifier: 15
 unitType: akarius
 requirements: [
-cobalt/3000
-venerium/3000
-platinum/3000
-compound/3000
-geliarin/3000
+cobalt/2250
+venerium/2250
+platinum/1150
+compound/500
+geliarin/500
 ]
 category: effect
 hasItems: true
@@ -23,11 +23,11 @@ alwaysUnlocked: false
     parent: "core-forum"
     planet: gelion
                 "requirements": [
-                "cobalt/50000"
-                "venerium/50000"
-				"compound/10000"
-				"geliarin/10000"
-				"platinum/40000"
+                "cobalt/10000"
+                "venerium/10000"
+				"compound/3000"
+				"geliarin/3000"
+				"platinum/5000"
                 ]
         objectives: [
     {
