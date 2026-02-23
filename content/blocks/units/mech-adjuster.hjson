@@ -36,12 +36,12 @@ research: {
   parent: "mech-editor"
   planet: gelion
     "requirements": [
-	  "venerium/40000"
-	  "cobalt/35000"
-	  "platinum/25000"
-	  "geliarin/9000"
-	  "caterium/300"
-	  "zinc/2000"
+	  "venerium/8500"
+	  "cobalt/8500"
+	  "platinum/2500"
+	  "geliarin/1000"
+	  "caterium/200"
+	  "zinc/600"
 ]
 objectives: [
     {
