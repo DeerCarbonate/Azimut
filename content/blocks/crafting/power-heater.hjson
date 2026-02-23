@@ -1,6 +1,5 @@
 type: HeatProducer
 size: 2
-name: Power heater
 heatOutput: 6
 research: {
   parent: "isobutane-burner"
