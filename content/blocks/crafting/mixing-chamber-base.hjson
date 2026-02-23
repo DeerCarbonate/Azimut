@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Mixing chamber base
-description: Synthesizes geliarin.
 size: 3
 category: crafting
 rotate: false

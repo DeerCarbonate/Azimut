@@ -1,6 +1,4 @@
 type: HeatCrafter
-name: Mixing chamber part
-description: Synthesizes gaseous geliarin.
 size: 3
 category: crafting
 rotate: false
