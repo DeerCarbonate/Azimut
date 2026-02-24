@@ -32,10 +32,10 @@ plans: [
 	unit: Octopus
 	requirements: [
 		geliarin/45
-		platinum/110
+		platinum/100
 		compound/25
     	]
-    	time: 2070
+    	time: 2060
   	}
 ]
 
