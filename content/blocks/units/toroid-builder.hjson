@@ -6,13 +6,13 @@ liquidCapacity: 48
 rotateSpeed: 0
 recoil: 0
 size: 3
-health: 700
-buildTime: 1800
+health: 400
+buildTime: 1400
 alwaysShooting: true
 shootSound: none
 category: units
 shoot: {
-  firstShotDelay: 25
+  firstShotDelay: 45
 }
 targetGround: false
 targetAir: false
@@ -34,7 +34,7 @@ drawer: [{
   }
 ]
 ammoTypes: {
-  power: {
+  iterin: {
     type: EmptyBulletType
     lifetime: 0
     despawnUnit: toroid
@@ -42,7 +42,7 @@ ammoTypes: {
     chargeEffect: [
       {
         type: WaveEffect
-        lifetime: 35
+        lifetime: 40
         sizeFrom: 0
         sizeTo: 25
         strokeFrom: 4
