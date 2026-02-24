@@ -1,0 +1,45 @@
+type: GenericCrafter
+size: 4
+itemCapacity: 50
+category: crafting
+squareSprite: false
+ignoreLiquidFullness: false
+research: {
+  parent: "information-cell"
+  planet: gelion
+    "requirements": [
+	  "venerium/20000"
+	  "cobalt/20000"
+	  "platinum/5000"
+	  "geliarin/4000"
+	  "compound/4000"
+]
+}
+requirements: [
+ cobalt/320
+ venerium/250
+ geliarin/90
+ platinum/190
+ compound/100
+]
+consumes: {
+  items: [
+  cobalt/10
+  information-cell/1
+  ]
+}
+craftTime: 400
+outputItem: byte/1
+ambientSound: smelter
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
