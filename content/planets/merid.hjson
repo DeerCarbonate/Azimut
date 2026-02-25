@@ -33,6 +33,7 @@ allowWaveSimulation: true
 prebuildBase: true
 parent: alveon
 hasAtmosphere: true
+hasSectors: false
 solarSystem: alveon
 orbitRadius: 65
 orbitTime: 6200
@@ -41,7 +42,7 @@ accessible: true
 visible: true
 radius: 0.9
 minZoom: 0.40
-sectorSize: 1.42
+sectorSize: 7
 atmosphereRadIn: 0.007
 atmosphereRadOut: 0.15
 atmosphereColor: 7e7e86
@@ -67,17 +68,3 @@ mesh: [
  }
 ]
 alwaysUnlocked: true
-cloudMesh: [
-  {
-    type: HexSkyMesh
-    bloom: false
-    speed: 0.1
-    divisions: 6
-    radius: 0.24
-    color: 60616915
-    octaves: 3
-    persistence: 0.3
-    scl: 3
-    thresh: 0.45
-  }
-]
