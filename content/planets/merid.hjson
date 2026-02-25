@@ -35,14 +35,14 @@ parent: alveon
 hasAtmosphere: true
 hasSectors: false
 solarSystem: alveon
-orbitRadius: 65
+orbitRadius: 63
 orbitTime: 6200
 alwaysUnlocked: true
 accessible: true
 visible: true
 radius: 0.9
 minZoom: 0.40
-sectorSize: 7
+sectorSize: 1.23
 atmosphereRadIn: 0.007
 atmosphereRadOut: 0.15
 atmosphereColor: 7e7e86
