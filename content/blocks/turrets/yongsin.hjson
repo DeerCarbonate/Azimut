@@ -31,9 +31,9 @@ research: {
   parent: "core-forum"
   planet: "gelion"
     "requirements": [
-	  "venerium/150"
-	  "cobalt/100"
-	  "platinum/100"
+	  "venerium/130"
+	  "cobalt/130"
+	  "platinum/85"
 	]
 }
 shoot: {
@@ -128,7 +128,7 @@ baseRotation: 90
 }
 ]
 }
-    caterium: {
+    raw-caterium: {
 type: ArtilleryBulletType
 width: 11
 height: 17
@@ -283,7 +283,7 @@ baseRotation: 90
 }
 requirements: [
   cobalt/90
-  venerium/120
+  venerium/100
   platinum/45
 ]
 category: turret
