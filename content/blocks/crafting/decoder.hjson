@@ -23,6 +23,7 @@ requirements: [
  compound/100
 ]
 consumes: {
+	power: 3
   items: [
   cobalt/10
   information-cell/1
