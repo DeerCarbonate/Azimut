@@ -1,5 +1,4 @@
 type: AttributeCrafter
-name: Silicon cultivator
 size: 3
 baseEfficiency: 0
 minEfficiency: 1
@@ -11,7 +10,6 @@ category: crafting
 ambientSound: drill
 ambientSoundVolume: 0.08
 squareSprite: false
-description: Uses the productive abilities of silicon cells to create a special compound material.
 ignoreLiquidFullness: true
 research: {
   parent: "platinum-smelter"
