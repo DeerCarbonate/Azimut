@@ -1,0 +1,24 @@
+type: LightBlock
+requirements: [
+  cobalt/6
+  platinum/4
+]
+size: 1
+health: 60
+category: effect
+alwaysUnlocked: false
+radius: 80
+brightness: 0.9
+hasPower: true
+category: effect
+consumes: {
+  power: 0.05
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {    
+      type: DrawDefault
+    }
+  ]
+}
