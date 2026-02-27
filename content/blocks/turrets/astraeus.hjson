@@ -3,7 +3,7 @@ description: Fires projectiles with spread over a long distance.
 researchCostMultiplier: 0.5
 size: 4
 outlineColor: 0c0c12
-health: 1200
+health: 4000
 alwaysUnlocked: false
 squareSprite: false
 cooldown: 1200
