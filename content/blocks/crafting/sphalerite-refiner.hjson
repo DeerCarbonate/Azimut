@@ -1,6 +1,6 @@
 type: HeatCrafter
 size: 3
-itemCapacity: 15
+itemCapacity: 30
 category: crafting
 squareSprite: false
 ignoreLiquidFullness: true
@@ -15,19 +15,19 @@ research: {
 ]
 }
 requirements: [
- cobalt/30
+ cobalt/50
  platinum/45
- compound/65
+ compound/55
  geliarin/10
 ]
 consumes: {
   items: [
-  sphalerite/2
+  sphalerite/3
   ]
   power: 1.5
 }
 craftTime: 160
-outputItem: zinc/2
+outputItem: zinc/3
 heatRequirement: 6
 overheatScale: 1
 maxEfficiency: 3
