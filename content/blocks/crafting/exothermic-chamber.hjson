@@ -1,13 +1,11 @@
 type: GenericCrafter
-name: Exothermic chamber
-description: "Burns solid fuel to release energy."
 size: 2
 category: crafting
 squareSprite: true
 requirements: [
-  cobalt/100
+  cobalt/90
   platinum/35
-  geliarin/45
+  geliarin/40
 ]
 consumes: {
   items: [
