@@ -5,7 +5,7 @@ size: 4
 outlineColor: 0c0c12
 squareSprite: false
 outlineColor: 0c0c12
-health: 1200
+health: 3600
 alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
