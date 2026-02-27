@@ -1,20 +1,17 @@
 type: GenericCrafter
-name: Solid fuel mixer
-description: Mixes and presses butane and etherine.
 size: 4
 category: crafting
 squareSprite: false
 requirements: [
-  cobalt/130
-  venerium/70
-  platinum/145
-  geliarin/30
-  compound/30
+  cobalt/160
+  venerium/120
+  platinum/70
+  geliarin/20
 ]
 consumes: {
   liquids: [
   isobutane/0.36
-  iterin/0.175
+  iterin/0.17
 	]
 }
 outputItem: solid-fuel/1
