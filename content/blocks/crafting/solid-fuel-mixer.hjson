@@ -22,11 +22,10 @@ liquidCapacity: 100
     parent: "isobutane-burner"
     planet: gelion
 		"requirements": [
-		"venerium/1000"
+		"venerium/1800"
 		"cobalt/1800"
 		"platinum/950"
-		"geliarin/650"
-		"compound/250"
+		"geliarin/450"
 		]
 	objectives: [
     {
