@@ -1,6 +1,5 @@
 type: HeatConductor
-name: Heat courier
-health: 300
+health: 320
 size: 2
 category: crafting
 research: power-heater
