@@ -1,10 +1,8 @@
 type: HeatCrafter
-name: Sphalerite refiner
 size: 3
 itemCapacity: 15
 category: crafting
 squareSprite: false
-description: "Performs thermal treatment of sphalerite and its refining, converting it into zinc."
 ignoreLiquidFullness: true
 research: {
   parent: "mixing-chamber-part"
