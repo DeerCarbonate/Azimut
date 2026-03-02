@@ -1,8 +1,6 @@
-name: Mechanical quarry
-description: Extracts resources from their deposits.
 squareSprite: false
 type: Drill
-health: 500
+health: 650
 category: production
 size: 3
 drillTime: 500
