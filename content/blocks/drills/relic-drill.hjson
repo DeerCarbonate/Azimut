@@ -1,5 +1,4 @@
 type: BurstDrill
-name: Relic drill 
 canOverdrive: false
 size: 3
 squareSprite: false
