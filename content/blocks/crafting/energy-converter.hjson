@@ -1,12 +1,10 @@
 type: ConsumeGenerator
 size: 2
 category: power
-name: Energy converter
-description: Convert energy.
 itemDuration: 120
 squareSprite: false
 liquidCapacity: 30
-health: 350
+health: 240
 requirements: [
     cobalt/65
 	platinum/40
