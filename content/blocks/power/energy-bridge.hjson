@@ -1,8 +1,6 @@
 type: PowerNode
-name: Energy bridge
-description: Transfers energy.
 size: 1
-health: 20
+health: 30
 laserRange: 8.5
 laserColor1: d1e3ff
 laserColor2: 7565c9
