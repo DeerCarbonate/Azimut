@@ -1,8 +1,6 @@
-name: Geliarin duct
-description: Packages stacks of items before sending them off. Outputs items in three directions at the end.
 speed: 0.095
 itemCapacity: 5
-health: 20
+health: 90
 category: distribution
 requirements: [
   geliarin/1
