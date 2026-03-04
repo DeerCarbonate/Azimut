@@ -1,5 +1,3 @@
-name: Cobalt junction
-description: Allows for crossing two ducts. 
 health: 65
 size: 1
 speed: 8
