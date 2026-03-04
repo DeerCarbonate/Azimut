@@ -1,6 +1,4 @@
-name: Cobalt sorter
-description: Skips selected items.
-health: 30
+health: 80
 category: distribution
 requirements: [
   cobalt/4
