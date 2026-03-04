@@ -1,5 +1,3 @@
-name: Inverted cobalt overflow gate
-description: Inverted version of item gate.
 size: 1
 squareSprite: false
 invert: true
@@ -12,7 +10,7 @@ research: {
   parent: "cobalt-duct-bridge"
     "requirements": [
 	  "cobalt/50"
-	  "platinum/10"
+	  "venerium/50"
 ]
 objectives: [
     {
