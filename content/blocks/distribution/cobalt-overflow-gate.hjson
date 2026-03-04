@@ -1,5 +1,3 @@
-name: Cobalt gateway
-description: Let item through. If blocked, output to the side.
 size: 1
 squareSprite: false
 requirements: [
