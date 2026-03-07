@@ -4,6 +4,7 @@
 	health: 250
 	buildSpeed: 1.6
 	drag: 0.065
+ itemCapacity: 40
 	mineTier: 1
     mineSpeed: 6.5
     buildRange: 190
