@@ -48,7 +48,7 @@
             pierceArmor:true
             width:9
             length:9
-            trailWidth:2
+            trailWidth:1.7
             trailLength:6
             trailColor:bf92f9
             lifetime: 32
