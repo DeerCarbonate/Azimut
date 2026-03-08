@@ -1,5 +1,4 @@
 type: GenericCrafter
-name: Static refiner
 size: 4
 itemCapacity: 50
 rotate: true
@@ -7,7 +6,6 @@ quickRotate: true
 rotateDraw: false
 category: crafting
 squareSprite: false
-description: Melts caterium, producing caterium ingots and by-products in the form of cesium and nitrogen.
 ignoreLiquidFullness: true
 requirements: [
 	  compound/35
