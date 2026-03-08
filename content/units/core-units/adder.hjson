@@ -1,13 +1,13 @@
 	type: flying
 	outlineColor: 21202a
-	description: "Guard of the core forum."
 	flying: true
 	health: 250
 	buildSpeed: 1.6
 	drag: 0.065
+ itemCapacity: 40
 	mineTier: 1
-    mineSpeed: 7
-    buildRange: 175
+    mineSpeed: 6.5
+    buildRange: 190
 	speed: 3.2
 	range: 90
 	accel: 0.6
@@ -37,26 +37,26 @@
             shots: 5
             }
         ejectEffect: none
-		smokeEffect: none
         shootSound: shootAlpha
         bullet: {
             type: BasicBulletType
             collidesAir: true
             buildingDamageMultiplier: 0.01
             backColor: 665c9f
+            smokeEffect: none
             frontColor: bf92f9
             healColor: bf92f988
             pierceArmor:true
             width:9
             length:9
-            trailWidth:2.2
+            trailWidth:1.7
             trailLength:6
             trailColor:bf92f9
             lifetime: 32
             damage: 6
             speed: 4
             drag:0.02
-            healAmount:30
+            healAmount:26
             lifesteal:0.2
             homingRange:50
             homingPower:0.1

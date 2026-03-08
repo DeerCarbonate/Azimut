@@ -1,10 +1,8 @@
 type: CoreBlock
-name: "Core: Forum"
-description: The main base, when destroyed a sector is lost.
 size: 4
 squareSprite: false
-health: 3700
-itemCapacity: 4200
+health: 3500
+itemCapacity: 4500
 unitCapModifier: 10
 unitType: adder
 requirements: [
