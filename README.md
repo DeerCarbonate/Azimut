@@ -3,7 +3,7 @@
 
 
 
-<h2 align="center"><img width="640" height="160" alt="logo" src="sprites-override/ui/logo.png" /></h2>
+<h2 align="center"><img width="640" height="320" alt="logo" src="sprites-override/ui/logo.png" /></h2>
 
 [![Discord Community](https://img.shields.io/badge/Discord_Community-JOIN-5865F2?logo=discord)](https://discord.gg/gyCfsa3kbf)
 
