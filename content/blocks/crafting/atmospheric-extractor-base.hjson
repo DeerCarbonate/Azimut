@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Atmospheric extractor base
-description: Collects gases from the planet's atmosphere.
 size: 3
 category: crafting
 rotate: false
