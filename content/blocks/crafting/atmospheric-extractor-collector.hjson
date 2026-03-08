@@ -1,16 +1,14 @@
 type: GenericCrafter
-name: Atmospheric extractor collector
-description: Synthesizes ammonia.
 size: 3
 category: crafting
 rotate: false
 squareSprite: false
-liquidCapacity: 15
+liquidCapacity: 20
 requirements: [
   venerium/90
   platinum/35
   compound/20
-  zinc/15
+  zinc/35
 ]
 consumes: {
   liquids: [
