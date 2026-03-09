@@ -1,5 +1,4 @@
-name: Compound large wall
-health: 2900
+health: 2850
 absorbLasers: false
 size: 2
 requirements: [
