@@ -1,7 +1,8 @@
 health: 640
 size: 1
 requirements: [
-  zinc/6
+  zinc/4
+  cobalt/2
  ]
 category: defense
 researchCostMultiplier: 0.20
@@ -10,9 +11,10 @@ research: {
   planet: gelion
     "requirements": [
 	  "zinc/40"
+   "cobalt/10"
 ]
 }
-lightningChance: 0.4
+lightningChance: 0.2
 lightningDamage: 20
 lightningColor: bba5c9
-armor: 4
+armor: 6
