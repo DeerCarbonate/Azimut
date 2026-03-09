@@ -2,16 +2,19 @@ health: 3750
 absorbLasers: false
 size: 3
 requirements: [
-  zinc/40
+  zinc/30
+  cobalt/10
  ]
 category: defense
 research: {
   parent: "zinc-large-wall"
   planet: gelion
     "requirements": [
-	  "zinc/90"
+	  "zinc/60"
+   "cobalt/30"
 ]
 }
-lightningChance: 0.1
-lightningDamage: 25
+lightningChance: 0.2
+lightningDamage: 20
 lightningColor: bba5c9
+armor: 6
