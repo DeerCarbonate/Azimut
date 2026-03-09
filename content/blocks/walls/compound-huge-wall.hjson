@@ -1,4 +1,3 @@
-
 health: 4030
 absorbLasers: false
 size: 3
@@ -19,3 +18,4 @@ objectives: [
     }
   ]
 }
+armor: 12
