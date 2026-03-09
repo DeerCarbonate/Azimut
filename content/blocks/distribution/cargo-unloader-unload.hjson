@@ -1,17 +1,14 @@
-
     "type": "UnitCargoUnloadPoint",
-    "name": "Unloading depot",
 	"squareSprite": false,
-    "description": "Accepts cargo drone items based on the selected resource filter.",
     "size": 2,
-    "health": 250,
+    "health": 340,
     "itemCapacity": 40,
     "liquidCapacity": 0,
     "separateItemCapacity": true,
     "requirements": 
     [
 		"cobalt/50",
-		"geliarin/10"
+		"geliarin/20"
 	],
     "category": "distribution",
     "hasItems": true,
