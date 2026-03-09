@@ -1,17 +1,15 @@
     "type": "UnitCargoLoader",
-    "name": "Loading depot",
 	"squareSprite": false,
-    "description": "Creates a reinforced cargo drone. The drone distributes resources to unloading depots.",
     "size": 4,
-    "health": 950,
+    "health": 2200,
     "unitType": "enchanced-cargo-drone",
-    "itemCapacity": 70,
+    "itemCapacity": 120,
     "separateItemCapacity": true,
     "requirements": 
     [
-		"cobalt/100"
+		"cobalt/80"
 		"geliarin/15"
-		"venerium/80"
+		"venerium/180"
 		"platinum/80"
 	],
     "category": "distribution",
