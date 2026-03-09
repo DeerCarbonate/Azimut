@@ -25,7 +25,7 @@ legContinuousMove: true
 accel: 0.5
 armor: 11
 stepshake: 0.1
-health: 4800
+health: 4700
 speed: 0.46
 healColor: f0aba488
 hitSize: 18
@@ -36,11 +36,11 @@ drownTimeMultiplier: 3
   parent: mech-adjuster
   planet: gelion
     requirements: [
-	  venerium/20000
+	  venerium/15000
 	  compound/9000
-	  platinum/15000
+	  platinum/10000
 	  caterium/100
-	  zinc/450
+	  zinc/430
 ]
 	objectives: [
     {
@@ -53,9 +53,9 @@ preset: eight
     {
     type: ShieldRegenFieldAbility
     reload: 800
-    amount: 100
+    amount: 80
     range: 16
-    max: 300
+    max: 280
     }
 	]
 weapons: [
@@ -89,7 +89,7 @@ weapons: [
     bullet: {
       type: RailBulletType
       length: 160
-      damage: 22
+      damage: 20
 	  lifetime: 1
 	  hitColor: cc918b
       pointEffectSpace: 3.875
@@ -214,7 +214,7 @@ weapons: [
 	width: 4
     pierceCap: 2
     lifetime: 36
-    damage: 12
+    damage: 32
     toColor: cc918b
     lightColor: cc918b
     lightOpacity: 0.7
@@ -255,7 +255,7 @@ weapons: [
 	width: 4
     pierceCap: 2
     lifetime: 36
-    damage: 12
+    damage: 32
     toColor: cc918b
     lightColor: cc918b
     lightOpacity: 0.7

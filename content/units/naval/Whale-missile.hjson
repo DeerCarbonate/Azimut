@@ -41,7 +41,7 @@ abilities: [
     {
     type: EnergyFieldAbility
     maxTargets: 7
-    damage: 18
+    damage: 20
     reload: 10
     range: 83
 	color: a4f0d7
@@ -49,7 +49,7 @@ abilities: [
     y: 0
 	sameTypeHealMult: 0.03
     statusDuration: 0
-    healPercent: 0.05
+    healPercent: 0.1
 }
 ]
 
