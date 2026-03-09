@@ -20,7 +20,7 @@ plans: [
 	unit: "Whale" //Tier 1 assembler
 	requirements: [
 	    azimut-Plankton/1
-		azimut-compound-large-wall/2
+		azimut-compound-large-wall/3
 	]
 	time: 2900
 	}
