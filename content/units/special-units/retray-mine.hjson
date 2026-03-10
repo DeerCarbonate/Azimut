@@ -51,7 +51,6 @@ weapons: [
       type: ExplosionBulletType
       collidesAir: true
       collidesGround: true
-      despawnShake: 0.1
 
       splashDamageRadius: 13
       splashDamage: 90
