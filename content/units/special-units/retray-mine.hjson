@@ -61,7 +61,7 @@ shoot: {
     frontColor: ffffff
     height: 8
     width: 6
-    lifetime: 30
+    lifetime: 26
     damage: 28
     speed: 4.8
     trailColor: fcf0bd
