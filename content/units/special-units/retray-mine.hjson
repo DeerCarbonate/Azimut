@@ -186,8 +186,8 @@ parts: [
     color: fcf0bd
     stroke: 2.4
     strokeTo: 2.4
-    radius: 16
-    radiusTo: 14
+    radius: 38
+    radiusTo: 36
     progress: life
   }
 
@@ -198,9 +198,9 @@ parts: [
     circle: true
     layer: 109
     color: fcf0bd
-    stroke: 10
-    strokeTo: 10
-    radius: 4
-    radiusTo: 4
+    stroke: 9
+    strokeTo: 9
+    radius: 3
+    radiusTo: 3
   }
 ]
