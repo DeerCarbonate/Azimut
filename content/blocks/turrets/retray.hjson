@@ -38,6 +38,7 @@ recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 1.6
 shootSound: Alt
+shootSoundVolume: 0.1
 ammoTypes: {
   venerium: {
 type: BasicBulletType
@@ -59,7 +60,7 @@ drag: 0.06
 sprite: large-bomb
 spin: 2
 fragBullets: 3
-fragVelocityMin: 0.03
+fragVelocityMin: 0.1
 fragVelocityMax: 1.90
 fragRandomSpread: 15
 fragSpread: 7
@@ -104,7 +105,7 @@ pierceArmor: false
                 trailEffect:[
                 {
                     type: ParticleEffect
-                    colorFrom: 5fac9e80
+                    colorFrom: fcf0bd
                     colorTo: b0b0b000
                     particles: 1
                     cone: 360
@@ -117,7 +118,7 @@ pierceArmor: false
                 {
                     type: ParticleEffect
                     region:large-bomb
-                    colorFrom: 5fac9e
+                    colorFrom: fcf0bd
                     colorTo: 5fac9e00
                     particles: 1
                     lifetime:26
