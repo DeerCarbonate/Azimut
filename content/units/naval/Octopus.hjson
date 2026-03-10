@@ -6,6 +6,7 @@
 	alwaysUnlocked: false
 	armor: 5
 	health: 1750
+ targetAir: false
 	speed: 1.07
 	accel: 0.75
 	hitSize: 14.2
