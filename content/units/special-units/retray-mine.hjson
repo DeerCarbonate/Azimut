@@ -38,7 +38,7 @@ weapons: [
     autoTarget: true
     targetAir: true
     targetGround: true
-    range: 200
+    range: 250
     reload: 90
     warmupTime: 100
     shootCone: 360
@@ -53,7 +53,7 @@ weapons: [
       collidesGround: true
       despawnShake: 5
 
-      splashDamageRadius: 120
+      splashDamageRadius: 200
       splashDamage: 200
       buildingDamageMultiplier: 0.15
 
@@ -184,10 +184,10 @@ parts: [
     circle: true
     layer: 109
     color: fcf0bd
-    stroke: 1.8
-    strokeTo: 0.4
-    radius: 5
-    radiusTo: 7.5
+    stroke: 2.4
+    strokeTo: 2.4
+    radius: 16
+    radiusTo: 14
     progress: life
   }
 
@@ -196,11 +196,11 @@ parts: [
     type: ShapePart
     hollow: true
     circle: true
-    layer: 108
-    color: ffffff
-    stroke: 1
-    strokeTo: 1
-    radius: 3
-    radiusTo: 3
+    layer: 109
+    color: fcf0bd
+    stroke: 10
+    strokeTo: 10
+    radius: 4
+    radiusTo: 4
   }
 ]
