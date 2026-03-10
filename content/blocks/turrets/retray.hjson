@@ -59,7 +59,7 @@ intervalSpread: 180
 drag: 0.06
 sprite: large-bomb
 spin: 2
-fragBullets: 3
+fragBullets: 2
 fragVelocityMin: 0.1
 fragVelocityMax: 2.4
 fragRandomSpread: 15
@@ -149,9 +149,7 @@ hasPower: false
 hasLiquids: false
 requirements: [
   cobalt/400
-  platinum/200
-  geliarin/10
-  compound/40
+  platinum/270
   zinc/120
 ]
 category: turret
