@@ -200,8 +200,8 @@ parts: [
     color: fcf0bd10
     stroke: 2
     strokeTo: 2
-    radius: 100
-    radiusTo: 98
+    radius: 110
+    radiusTo: 110
     progress: life
   }
 
