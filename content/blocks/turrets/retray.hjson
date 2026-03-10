@@ -132,6 +132,16 @@ pierceArmor: false
                 ]
                 trailChance:1
                 trailInterval:6
+fragBullets: 1
+fragRandomSpread: 0
+fragSpread: 0
+fragBullet: {
+        type: BulletType
+        spawnUnit: retray-mine
+        keepVelocity: false
+        collidesAir: false
+        speed: 0
+}
 			}
 		}
 }
