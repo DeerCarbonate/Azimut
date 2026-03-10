@@ -10,7 +10,7 @@ lowAltitude: true
 useUnitCap: false
 drawCell: false
 physics: false
-hitSize: 70
+hitSize: 100
 flying: true
 createScorch: false
 hidden: true
@@ -22,9 +22,9 @@ envEnabled: -1
 speed: 0
 rotateSpeed: 0
 
-lifetime: 830
+lifetime: 800
 fogRadius: 0
-health: 200
+health: 210
 armor: 0
 deathExplosionEffect: none
 loopSoundVolume: 0
@@ -38,7 +38,7 @@ weapons: [
     autoTarget: true
     targetAir: true
     targetGround: true
-    range: 800
+    range: 1200
     reload: 90
     warmupTime: 100
     shootCone: 360
