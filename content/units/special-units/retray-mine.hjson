@@ -10,7 +10,7 @@ lowAltitude: true
 useUnitCap: false
 drawCell: false
 physics: false
-hitSize: 34
+hitSize: 70
 flying: true
 createScorch: false
 hidden: true
@@ -128,7 +128,7 @@ weapons: [
 
     bullet: {
       type: ExplosionBulletType
-      splashDamageRadius: 55
+      splashDamageRadius: 12
       splashDamage: 80
       buildingDamageMultiplier: 0.1
       hitSound: explosion
@@ -168,8 +168,8 @@ parts: [
     haloRadius: 18
     haloRadiusTo: 6     # при warmup=1 (заряжен): сжался к центру
 
-    radius: 0
-    radiusTo: 0
+    radius: 6
+    radiusTo: 10
 
     triLength: 10
     triLengthTo: 3      # треугольники тоже сжимаются
