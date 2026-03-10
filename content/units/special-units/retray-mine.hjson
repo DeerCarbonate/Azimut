@@ -10,9 +10,9 @@ lowAltitude: true
 useUnitCap: false
 drawCell: false
 physics: false
-hitSize: 100
+hitSize: 12
 flying: true
-createScorch: false
+createScorch: true
 hidden: true
 
 envDisabled: 0
