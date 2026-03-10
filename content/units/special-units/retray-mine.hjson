@@ -32,24 +32,6 @@ trailLength: 0
 bounded: false
 
 weapons: [
-  {
-    type: PointDefenseWeapon
-    x: 0
-    y: -1
-    shake: 0
-    rotate: true
-    rotateSpeed: 999
-    targetSwitchInterval: 1.5
-    targetInterval: 1.2 
-    reload: 5
-    shootSound: laserShoot
-    bullet: {
-      maxRange: 75
-      bulletDamage: 18
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-    }
-  }
 		{
 		    "name": retray-mine-weapon,
 			"recoil": 0,
