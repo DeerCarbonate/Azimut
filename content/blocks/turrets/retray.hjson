@@ -28,7 +28,7 @@ cooldown: 1200
 shootCone: 9
 recoil: 2.45
 shootY: 1.4
-reload: 210
+reload: 750
 range: 550
 targetAir: true
 moveWhileCharging: true
