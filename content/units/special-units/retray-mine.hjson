@@ -32,6 +32,24 @@ trailLength: 0
 bounded: false
 
 weapons: [
+  {
+    type: PointDefenseWeapon
+    x: 0
+    y: -1
+    shake: 0
+    rotate: true
+    rotateSpeed: 999
+    targetSwitchInterval: 1.5
+    targetInterval: 1.2 
+    reload: 5
+    shootSound: laserShoot
+    bullet: {
+      maxRange: 75
+      bulletDamage: 18
+      shootEffect: sparkShoot
+      hitEffect: pointHit
+    }
+  }
 		{
 		    "name": retray-mine-weapon,
 			"recoil": 0,
@@ -62,7 +80,7 @@ shoot: {
     frontColor: ffffff
     height: 8
     width: 6
-    lifetime: 26
+    lifetime: 30
     damage: 28
     speed: 4.8
     trailColor: fcf0bd
@@ -201,8 +219,8 @@ parts: [
     color: fcf0bd10
     stroke: 2
     strokeTo: 2
-    radius: 110
-    radiusTo: 110
+    radius: 117
+    radiusTo: 117
     progress: life
   }
 
