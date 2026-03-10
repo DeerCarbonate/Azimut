@@ -119,7 +119,7 @@ pierceArmor: false
                     type: ParticleEffect
                     region:large-bomb
                     colorFrom: fcf0bd
-                    colorTo: 5fac9e00
+                    colorTo: b0b0b000
                     particles: 1
                     lifetime:26
                     cone: 360
