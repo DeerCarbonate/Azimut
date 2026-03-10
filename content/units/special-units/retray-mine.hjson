@@ -40,7 +40,7 @@ weapons: [
 			"alternate": false,
 			"rotate": true,
 			"rotateSpeed": 3.6,
-			"reload": 160,
+			"reload": 40,
 			"inaccuracy": 3,
 			"shootSound": shootCyclone,
 			"controllable": true,
@@ -53,7 +53,7 @@ shoot: {
     firstShotDelay: 0
     shotDelay: 25
     spread: 2
-    shots: 10
+    shots: 2
     }
     bullet: {
     type: BasicBulletType
@@ -61,7 +61,7 @@ shoot: {
     frontColor: ffffff
     height: 8
     width: 6
-    lifetime: 53
+    lifetime: 30
     damage: 28
     speed: 4.8
     trailColor: fcf0bd
@@ -197,11 +197,11 @@ parts: [
     hollow: true
     circle: true
     layer: 109
-    color: fcf0bd
+    color: fcf0bd10
     stroke: 2
     strokeTo: 2
-    radius: 60
-    radiusTo: 58
+    radius: 90
+    radiusTo: 88
     progress: life
   }
 
