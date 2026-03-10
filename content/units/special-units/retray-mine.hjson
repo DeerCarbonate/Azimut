@@ -10,7 +10,7 @@ lowAltitude: true
 useUnitCap: false
 drawCell: false
 physics: false
-hitSize: 6
+hitSize: 26
 flying: true
 createScorch: false
 hidden: true
@@ -184,8 +184,8 @@ parts: [
     circle: true
     layer: 109
     color: fcf0bd
-    stroke: 2.4
-    strokeTo: 2.4
+    stroke: 2
+    strokeTo: 2
     radius: 38
     radiusTo: 36
     progress: life
@@ -198,9 +198,9 @@ parts: [
     circle: true
     layer: 109
     color: fcf0bd
-    stroke: 9
-    strokeTo: 9
-    radius: 3
-    radiusTo: 3
+    stroke: 8
+    strokeTo: 8
+    radius: 2.3
+    radiusTo: 2.3
   }
 ]
