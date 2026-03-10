@@ -51,10 +51,10 @@ weapons: [
       type: ExplosionBulletType
       collidesAir: true
       collidesGround: true
-      despawnShake: 5
+      despawnShake: 0.1
 
-      splashDamageRadius: 200
-      splashDamage: 200
+      splashDamageRadius: 13
+      splashDamage: 90
       buildingDamageMultiplier: 0.15
 
       hitSound: explosion
