@@ -10,7 +10,7 @@ lowAltitude: true
 useUnitCap: false
 drawCell: false
 physics: false
-hitSize: 26
+hitSize: 34
 flying: true
 createScorch: false
 hidden: true
@@ -38,7 +38,7 @@ weapons: [
     autoTarget: true
     targetAir: true
     targetGround: true
-    range: 250
+    range: 800
     reload: 90
     warmupTime: 100
     shootCone: 360
