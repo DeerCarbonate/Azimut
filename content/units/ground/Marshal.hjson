@@ -144,7 +144,7 @@ cone: 15
 		despawnEffect: none
 		collidesTiles: true
 		keepVelocity: false
-		collidesAir: false
+		collidesAir: true
 		splashDamageRadius: 7
 	hitEffect: {
     type: ExplosionEffect
