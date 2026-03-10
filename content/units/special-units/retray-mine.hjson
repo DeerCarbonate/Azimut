@@ -5,14 +5,14 @@ playerControllable: false
 allowedInPayloads: false
 outlineColor: 0c0c12
 outlineRadius: 2
-createWreck: true
+createWreck: false
 lowAltitude: true
 useUnitCap: false
 drawCell: false
 physics: false
 hitSize: 6
 flying: true
-createScorch: true
+createScorch: false
 hidden: true
 
 envDisabled: 0
@@ -22,8 +22,7 @@ envEnabled: -1
 speed: 0
 rotateSpeed: 0
 
-# Живёт 8 секунд если никто не подошёл
-lifetime: 670
+lifetime: 830
 fogRadius: 0
 health: 200
 armor: 0
@@ -39,9 +38,9 @@ weapons: [
     autoTarget: true
     targetAir: true
     targetGround: true
-    range: 90
+    range: 200
     reload: 90
-    warmupTime: 90
+    warmupTime: 100
     shootCone: 360
     mirror: false
     rotate: false
@@ -52,10 +51,10 @@ weapons: [
       type: ExplosionBulletType
       collidesAir: true
       collidesGround: true
-      despawnShake: 3
+      despawnShake: 5
 
-      splashDamageRadius: 85
-      splashDamage: 160
+      splashDamageRadius: 120
+      splashDamage: 200
       buildingDamageMultiplier: 0.15
 
       hitSound: explosion
