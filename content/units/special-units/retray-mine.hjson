@@ -168,6 +168,24 @@ shoot: {
   }
 
   # Взрыв при истечении lifetime (тихий, поменьше)
+    {
+    type: PointDefenseWeapon
+    x: 0
+    y: -1
+    shake: 0
+    rotate: true
+    rotateSpeed: 999
+    targetSwitchInterval: 1.5
+    targetInterval: 1.2 
+    reload: 10
+    shootSound: laserShoot
+    bullet: {
+      maxRange: 75
+      bulletDamage: 10
+      shootEffect: sparkShoot
+      hitEffect: pointHit
+    }
+  }
 ]
 
 parts: [
@@ -201,8 +219,8 @@ parts: [
     color: fcf0bd10
     stroke: 2
     strokeTo: 2
-    radius: 117
-    radiusTo: 117
+    radius: 122
+    radiusTo: 122
     progress: life
   }
 
