@@ -57,6 +57,7 @@ shoot: {
     }
     bullet: {
     type: BasicBulletType
+	buildingDamageMultiplier: 0.15
     backColor: fcf0bd
     frontColor: ffffff
     height: 8
@@ -102,8 +103,8 @@ shoot: {
       collidesAir: true
       collidesGround: true
 
-      splashDamageRadius: 20
-      splashDamage: 140
+      splashDamageRadius: 25
+      splashDamage: 180
       buildingDamageMultiplier: 0.15
 
       hitSound: explosion
