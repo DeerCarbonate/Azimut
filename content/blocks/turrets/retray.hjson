@@ -28,7 +28,7 @@ cooldown: 1200
 shootCone: 9
 recoil: 2.45
 shootY: 1.4
-reload: 110
+reload: 210
 range: 550
 targetAir: true
 moveWhileCharging: true
@@ -38,7 +38,7 @@ recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 1.6
 shootSound: Alt
-shootSoundVolume: 0.1
+shootSoundVolume: 0.3
 ammoTypes: {
   venerium: {
 type: BasicBulletType
@@ -61,7 +61,7 @@ sprite: large-bomb
 spin: 2
 fragBullets: 3
 fragVelocityMin: 0.1
-fragVelocityMax: 1.90
+fragVelocityMax: 2.10
 fragRandomSpread: 15
 fragSpread: 7
 buildingDamageMultiplier: 0.1
