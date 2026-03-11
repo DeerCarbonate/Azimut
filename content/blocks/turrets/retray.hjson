@@ -14,7 +14,7 @@ coolant: {
 consumes: {
 power: 4
 liquids: [
-iterin: 0.5
+iterin/0.5
 ]
 }
 hasPower: true
