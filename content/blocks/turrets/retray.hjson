@@ -10,6 +10,10 @@ coolant: {
   liquid: nitrogen
   amount: 0.08
 }
+consumes: {
+power: 4
+}
+hasPower: true
 shoot: {
   type: ShootBarrel
   barrels: 2
@@ -143,8 +147,7 @@ fragBullet: {
 			}
 		}
 }
-hasPower: false
-hasLiquids: false
+hasLiquids: true
 requirements: [
   cobalt/500
   platinum/270
