@@ -1,5 +1,3 @@
-name: Astraeus
-description: Fires projectiles with spread over a long distance.
 researchCostMultiplier: 0.5
 size: 4
 outlineColor: 0c0c12
