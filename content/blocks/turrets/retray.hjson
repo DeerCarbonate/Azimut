@@ -5,6 +5,7 @@ health: 3250
 ammoPerShot: 6
 alwaysUnlocked: false
 squareSprite: false
+liquidCapacity: 250
 coolant: {
   type: ConsumeLiquid
   liquid: nitrogen
@@ -12,6 +13,9 @@ coolant: {
 }
 consumes: {
 power: 4
+liquids: [
+iterin: 0.5
+]
 }
 hasPower: true
 shoot: {
