@@ -66,8 +66,8 @@ drag: 0.06
 sprite: large-bomb
 spin: 2
 fragBullets: 2
-fragVelocityMin: 0.1
-fragVelocityMax: 2.4
+fragVelocityMin: 0.35
+fragVelocityMax: 2.25
 fragRandomSpread: 25
 fragSpread: 9
 buildingDamageMultiplier: 0.1
