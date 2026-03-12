@@ -25,7 +25,6 @@ lifetime: 700
 fogRadius: 0
 health: 400
 armor: 8
-deathExplosionEffect: none
 loopSoundVolume: 0
 engineSize: 0
 trailLength: 0
@@ -40,7 +39,7 @@ weapons: [
 			"alternate": false,
 			"rotate": true,
 			"rotateSpeed": 3.6,
-			"reload": 40,
+			"reload": 36,
 			"inaccuracy": 3,
 			"shootSound": shootCyclone,
 			"controllable": true,
@@ -63,7 +62,7 @@ shoot: {
     height: 8
     width: 6
     lifetime: 30
-    damage: 42
+    damage: 72
     speed: 4.8
     trailColor: fcf0bd
     trailLength: 4
@@ -104,7 +103,7 @@ shoot: {
       collidesGround: true
 
       splashDamageRadius: 25
-      splashDamage: 270
+      splashDamage: 740
       buildingDamageMultiplier: 0.15
 
       hitSound: explosion
