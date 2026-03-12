@@ -132,7 +132,7 @@ shoot: {
     height: 8
     width: 6
     lifetime: 35
-    damage: 90
+    damage: 45
     speed: 4.8
     pierce: true
     pierceCap: 2
