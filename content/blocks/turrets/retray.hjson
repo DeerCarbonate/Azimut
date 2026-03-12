@@ -182,6 +182,7 @@ pierceCap: 10
 frontColor: ffffff00
 backColor: fcf0bd00
 despawnEffect: none
+hitEffect: none
 collidesTiles: true
 keepVelocity: false
 collidesAir: true
