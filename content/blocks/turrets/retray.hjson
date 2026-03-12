@@ -145,13 +145,13 @@ hitEffect: [
           type: WaveEffect
           followParent: false
           lifetime: 29.5
-          sizeFrom: 5
+          sizeFrom: 6
           sizeTo: 3
           strokeFrom: 6
           strokeTo: 6
           colorFrom: fcf0bd
           colorTo: fcf0bd
-          interp: pow3Out
+          interp: pow2Out
         }
 		{
           type: WaveEffect
