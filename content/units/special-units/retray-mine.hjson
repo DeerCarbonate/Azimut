@@ -62,8 +62,10 @@ shoot: {
     height: 8
     width: 6
     lifetime: 35
-    damage: 80
+    damage: 90
     speed: 4.8
+    pierce: true
+    pierceCap: 2
     trailColor: fcf0bd
     trailLength: 4
     trailWidth: 1.3
