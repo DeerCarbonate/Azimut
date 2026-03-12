@@ -146,7 +146,7 @@ hitEffect: [
         {
           type: WaveEffect
           followParent: false
-          lifetime: 30
+          lifetime: 29.5
           sizeFrom: 5
           sizeTo: 3
           strokeFrom: 6
@@ -158,7 +158,7 @@ hitEffect: [
 		{
           type: WaveEffect
           followParent: false
-          lifetime: 30
+          lifetime: 29.5
           sizeFrom: 5
           sizeTo: 130
           strokeFrom: 0
@@ -175,7 +175,7 @@ height: 0
 drag: 0
 speed: 0
 collidesGround: true
-lifetime: 30
+lifetime: 29
 damage: 0
 pierce: true
 pierceCap: 10
