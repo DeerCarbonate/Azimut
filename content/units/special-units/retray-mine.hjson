@@ -30,6 +30,60 @@ engineSize: 0
 trailLength: 0
 bounded: false
 
+deathExplosionEffect: {
+type: MultiEffect
+effects: [
+{
+      type: RadialEffect
+      rotationSpacing : 90
+      rotationOffset: 0
+      lengthOffset: 2
+      amount: 2
+      effect: {
+          type: ParticleEffect
+          particles: 5
+          length: 120
+          lifetime: 290
+          sizeFrom: 1.7
+          sizeTo: 7.2
+          cone: 2
+          baseRotation: 73
+          useRotation:false
+          interp: pow5Out
+          colorFrom: fcf0bd84
+          colorTo: b0b0b000
+          layer: 100.3
+	}
+}
+{
+followParent: false
+length: 0
+lifetime: 40
+particles: 1
+cone: 0
+region: azimut-shockwave
+sizeFrom: 9
+sizeTo: 24
+colorTo: fcf0bd00
+baseRotation: 180
+interp: pow3Out
+}
+        {
+            type: ParticleEffect
+            lifetime: 40
+            baseLength: 2
+            length: 25
+            particles: 5
+            sizeFrom: 5
+            sizeTo: 0
+            interp: pow5Out
+            sizeInterp: pow5In
+            colorFrom: fcf0bd84
+            colorTo: b0b0b000
+        }
+]
+}
+
 weapons: [
 		{
 		    "name": retray-mine-weapon,
