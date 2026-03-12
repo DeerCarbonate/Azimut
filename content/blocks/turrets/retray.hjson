@@ -161,8 +161,8 @@ hitEffect: [
           sizeTo: 130
           strokeFrom: 0
           strokeTo: 2
-          colorFrom: fcf0bd
-          colorTo: fcf0bd10
+          colorFrom: fcf0bd40
+          colorTo: fcf0bd00
           interp: pow3Out
         }
 		]

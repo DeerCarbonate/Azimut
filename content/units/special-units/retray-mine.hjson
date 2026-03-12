@@ -167,8 +167,6 @@ shoot: {
       despawnEffect: none
     }
   }
-
-  # Взрыв при истечении lifetime (тихий, поменьше)
     {
     type: PointDefenseWeapon
     x: 0
@@ -197,35 +195,14 @@ parts: [
     shapes: 3
     color: fcf0bd
     layer: 110
-
-    # При warmup=0 (нет врага): halo большой, далеко
     haloRadius: 18
-    haloRadiusTo: 6     # при warmup=1 (заряжен): сжался к центру
-
+    haloRadiusTo: 6  
     radius: 6
     radiusTo: 10
-
     triLength: 10
-    triLengthTo: 3      # треугольники тоже сжимаются
-
+    triLengthTo: 3
     haloRotateSpeed: 2.5
   }
-
-  # Пульсирующий круг — мигает быстрее при низком здоровье (progress: life)
-  {
-    type: ShapePart
-    hollow: true
-    circle: true
-    layer: 109
-    color: fcf0bd10
-    stroke: 2
-    strokeTo: 2
-    radius: 130
-    radiusTo: 130
-    progress: life
-  }
-
-  # Статичный внутренний круг
   {
     type: ShapePart
     hollow: true
