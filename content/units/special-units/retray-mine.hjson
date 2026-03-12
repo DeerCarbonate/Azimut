@@ -81,6 +81,22 @@ interp: pow3Out
             colorFrom: fcf0bd84
             colorTo: b0b0b000
         }
+			{
+			type: ParticleEffect
+			line: true
+			particles: 20
+			lifetime: 45
+			interp: circleOut
+			length: 90
+			strokeTo: 2.5
+			lightColor: fff5b0
+			lenFrom: 8
+			lenTo: 3
+			strokeFrom: 4.5
+            colorTo: b0b0b000
+			colorFrom: fcf0bd95
+            offset: 135
+			}
 ]
 }
 
