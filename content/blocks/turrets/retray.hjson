@@ -30,7 +30,6 @@ shoot: {
     -6, 7.7, 0,
   ]
 }
-cooldown: 1200
 shootCone: 9
 recoil: 2.45
 shootY: 1.4
@@ -39,9 +38,8 @@ range: 550
 targetAir: true
 moveWhileCharging: true
 targetGround: true
-moveWhileCharging: true
 recoilAmount: 1.8
-restitution: 0.04
+restitution: 0.9
 rotateSpeed: 1
 shootSound: Alt
 shootSoundVolume: 0.3
