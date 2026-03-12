@@ -61,8 +61,8 @@ shoot: {
     frontColor: ffffff
     height: 8
     width: 6
-    lifetime: 30
-    damage: 72
+    lifetime: 35
+    damage: 80
     speed: 4.8
     trailColor: fcf0bd
     trailLength: 4
@@ -103,7 +103,7 @@ shoot: {
       collidesGround: true
 
       splashDamageRadius: 25
-      splashDamage: 740
+      splashDamage: 470
       buildingDamageMultiplier: 0.15
 
       hitSound: explosion
@@ -218,8 +218,8 @@ parts: [
     color: fcf0bd10
     stroke: 2
     strokeTo: 2
-    radius: 122
-    radiusTo: 122
+    radius: 130
+    radiusTo: 130
     progress: life
   }
 
