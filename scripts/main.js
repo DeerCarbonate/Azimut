@@ -26,7 +26,7 @@ mod.meta.description =
 "If you enjoy the mod, consider giving it a star! >~<\n" +
 "Thanks for playing!\n\n" +
 
-"Special thanks to: ace1020spawn, Kivet/БОБ, Alpotat, KO[#A4A4A4]STO[#6D6D6D]LOM [white], Fate of Adrastus";
+"Special thanks to: ace1020spawn, Kivet/БОБ, Alpotat, KO[#A4A4A4]STO[#6D6D6D]LOM [white], Fate of Adrastus, garretski";
 
 mod.meta.author = "[#c3961f]Deer[#876409]Carbonate";
 
