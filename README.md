@@ -15,9 +15,9 @@
 
 <h3 align="center">What can Azimuth offer?</h2>
 <ul>
-  <li>A tech tree with more than 40 available technologies to research (currently around 20)</li>
+  <li>A tech tree with more than 40 available technologies to research (currently around 30)</li>
   <li>Linear sector-based gameplay (similar to Erekir)</li>
-  <li>Engaging gameplay mechanics (multiblocks)</li>
+  <li>Engaging gameplay mechanics (multiblocks, etc.)</li>
   <li>Good visuals</li>
 </ul>
 
