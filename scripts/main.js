@@ -26,7 +26,7 @@ mod.meta.description =
 "If you enjoy the mod, consider giving it a star! >~<\n" +
 "Thanks for playing!\n\n" +
 
-"Special thanks to: [#c1abd4]ace1020spawn[white], [#ce7e5c]Kivet[#9b5e45]/БОБ[white], [#84f490]Alpotat[white], KO[#A4A4A4]STO[#6D6D6D]LOM [white], [#c1abd4]Fate of Adrastus[white], [#f7ba4c]garretski[white]";
+"Special thanks to: [#bf92f9]ace1020spawn[white], [#ce7e5c]Kivet[#9b5e45]/БОБ[white], [#84f490]Alpotat[white], KO[#A4A4A4]STO[#6D6D6D]LOM [white], [#c1abd4]Fate of Adrastus[white], [#f7ba4c]garretski[white]";
 
 mod.meta.author = "[#c3961f]Deer[#876409]Carbonate";
 
