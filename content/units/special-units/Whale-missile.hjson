@@ -53,16 +53,17 @@ abilities: [
 		hitEffect: {
 		type: ParticleEffect
 		region: azimut-triangle
-		particles: 2
-		length: 48
-		lifetime: 79
+		particles: 1
+		length: 45
+		lifetime: 67
 		interp: circleOut
 		sizeInterp: pow5Out
 		cone: 360
 		colorFrom: a4f0d7
-		colorTo: 5fac9e
-		sizeFrom: 6.8
+		colorTo: 5fac9e90
+		sizeFrom: 4.7
 		sizeTo:0
+		spin: 0.8
 	}
 }
 ]
