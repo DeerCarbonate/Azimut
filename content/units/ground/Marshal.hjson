@@ -25,8 +25,8 @@
 	        applyEffect: {
             type: ParticleEffect
             lifetime: 60
-            region: hollow-circle
-            sizeFrom: 2.5
+            region: azimut-hollow-circle
+            sizeFrom: 2.8
             sizeTo: 0
             colorFrom: ffd37f10
             colorTo: ffd37f
