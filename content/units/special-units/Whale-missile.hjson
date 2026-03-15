@@ -50,6 +50,20 @@ abilities: [
 	sameTypeHealMult: 0.03
     statusDuration: 0
     healPercent: 0.1
+		hitEffect: {
+		type: ParticleEffect
+		region: azimut-triangle
+		particles: 2
+		length: 48
+		lifetime: 79
+		interp: circleOut
+		sizeInterp: pow5Out
+		cone: 360
+		colorFrom: a4f0d7
+		colorTo: 5fac9e
+		sizeFrom: 6.8
+		sizeTo:0
+	}
 }
 ]
 
