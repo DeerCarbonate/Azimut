@@ -23,6 +23,21 @@
     duration: 400
     reload: 450
     range: 120
+	        applyEffect: {
+            type: ParticleEffect
+            lifetime: 50
+            region: circle
+            sizeFrom: 2.5
+            sizeTo: 0
+            colorFrom: a4f0d700
+            colorTo: a4f0d7
+            length: -35
+            baseLength: 35
+            particles: 5
+            interp: pow10In
+            sizeInterp: pow10In
+        }
+
     }
 ]
 	research: {

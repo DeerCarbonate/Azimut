@@ -22,6 +22,20 @@
     amount: 30
     range: 12
     max: 60
+	        applyEffect: {
+            type: ParticleEffect
+            lifetime: 60
+            region: hollow-circle
+            sizeFrom: 2.5
+            sizeTo: 0
+            colorFrom: ffd37f10
+            colorTo: ffd37f
+            length: -35
+            baseLength: 35
+            particles: 5
+            interp: pow7In
+            sizeInterp: pow7In
+        }
     }
 	]
 	parts: [
