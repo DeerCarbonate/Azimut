@@ -8,7 +8,7 @@ loopSoundVolume: 0.8
 engineSize: 0
 outlineColor: 251b21
 outlineRadius: 3
-alwaysUnlocked: true
+alwaysUnlocked: false
 range: 100
 armor: 6
 accel: 0.1
@@ -19,7 +19,23 @@ speed: 1.08
 hitSize: 20
 drag: 0.05
 healColor: f0a4d988
-description: Destabilizing its core, it fires a powerful piercing projectile.
+		research: {
+  parent: hover-adjuster
+  planet: gelion
+    requirements: [
+	  cobalt/2500
+	  compound/4000
+	  platinum/8000
+	  caterium/300
+	  zinc/600
+]
+	objectives: [
+    {
+type: SectorComplete
+preset: nine
+    }
+  ]
+}
 parts: [
   {
     type: HoverPart

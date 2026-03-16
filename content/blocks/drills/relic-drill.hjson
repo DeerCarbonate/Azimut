@@ -2,7 +2,7 @@ type: BurstDrill
 canOverdrive: false
 size: 3
 squareSprite: false
-drillTime: 360
+drillTime: 390
 invertedTime: 460
 itemCapacity: 30
 dumpTime: 7

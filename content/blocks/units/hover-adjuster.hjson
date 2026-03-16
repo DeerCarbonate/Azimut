@@ -31,3 +31,21 @@ requirements: [
 	platinum/450
 	cobalt/650
 ]
+research: {
+  parent: "hover-editor"
+  planet: gelion
+    "requirements": [
+	  "venerium/6500"
+	  "cobalt/4500"
+	  "platinum/4400"
+	  "geliarin/800"
+	  "caterium/600"
+	  "zinc/900"
+]
+objectives: [
+    {
+      type: sectorComplete
+      preset: "nine"
+    }
+  ]
+}

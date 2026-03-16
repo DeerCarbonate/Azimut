@@ -36,11 +36,11 @@ drownTimeMultiplier: 3
   parent: mech-adjuster
   planet: gelion
     requirements: [
-	  venerium/15000
-	  compound/9000
-	  platinum/10000
-	  caterium/100
-	  zinc/430
+	  venerium/4000
+	  compound/3500
+	  platinum/3000
+	  caterium/50
+	  zinc/400
 ]
 	objectives: [
     {

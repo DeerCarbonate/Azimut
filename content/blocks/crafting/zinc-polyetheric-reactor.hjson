@@ -6,10 +6,10 @@ hasItems: true
 hasLiquids: true 
 squareSprite: false
 requirements: [
-  cobalt/80
-  platinum/60
-  zinc/90
-  geliarin/20
+  cobalt/120
+  platinum/40
+  zinc/120
+  geliarin/40
 ]
 consumes: {
 items: [
