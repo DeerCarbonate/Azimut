@@ -132,7 +132,7 @@ shoot: {
     height: 8
     width: 6
     lifetime: 35
-    damage: 45
+    damage: 42
     speed: 4.8
     pierce: true
     pierceCap: 2
@@ -175,7 +175,7 @@ shoot: {
       collidesGround: true
 
       splashDamageRadius: 25
-      splashDamage: 470
+      splashDamage: 370
       buildingDamageMultiplier: 0.15
 
       hitSound: explosion
