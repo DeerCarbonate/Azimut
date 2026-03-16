@@ -1,7 +1,7 @@
 type: GenericCrafter
 size: 3
 category: crafting
-rotate: true
+rotate: false
 squareSprite: false
 liquidCapacity: 100
 research: {
