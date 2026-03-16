@@ -1,7 +1,6 @@
 type: UnitFactory
 health: 1240
 size: 4
-name: Hover Editor
 squareSprite: false
 research: {
   parent: "naval-editor"
