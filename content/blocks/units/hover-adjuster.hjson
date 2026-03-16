@@ -1,6 +1,5 @@
-name: Hover adjuster
-description: "Builds Tier 3-4 hover ships."
 type: UnitAssembler
+health: 2500
 size: 4
 itemCapacity: 120
 liquidCapacity: 170
