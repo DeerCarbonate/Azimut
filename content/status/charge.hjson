@@ -1,6 +1,6 @@
-healthMultiplier: 2.5
+healthMultiplier: 2.2
 speedMultiplier: 0
-effectChance: 0.04
+effectChance: 0.03
 effect: {
         type: ParticleEffect
         colorFrom: f0a4d9
