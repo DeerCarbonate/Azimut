@@ -1,6 +1,5 @@
-name: Mech adjuster
-description: "Builds Tier 3-4 Mechs."
 type: UnitAssembler
+health: 2400
 size: 4
 itemCapacity: 120
 liquidCapacity: 170
