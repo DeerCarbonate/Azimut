@@ -1,6 +1,5 @@
-name: Naval adjuster
-description: "Builds Tier 3-4 naval ships."
 type: UnitAssembler
+health: 2600
 size: 4
 itemCapacity: 120
 liquidCapacity: 170
