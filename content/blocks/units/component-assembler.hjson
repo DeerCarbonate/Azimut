@@ -1,13 +1,12 @@
 type: Constructor
-name: Component Assembler
-description: Creates unit components
+health: 750
 size: 3
 category: units
 requirements: [
-  venerium/90
-  cobalt/120
+  venerium/170
+  cobalt/40
   platinum/90
-  zinc/40
+  caterium/40
 ] 
 hasPower: true
 consumes: {
