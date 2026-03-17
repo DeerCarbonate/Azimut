@@ -1,0 +1,15 @@
+difficulty: 0
+planet: gelion
+name: ten
+sector: 23
+research: {
+parent: eight
+requiresUnlock: false
+objectives: [
+hover-adjuster
+{
+type: SectorComplete
+preset: nine
+  }
+ ]
+}
