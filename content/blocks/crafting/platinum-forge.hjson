@@ -1,6 +1,6 @@
 type: GenericCrafter
-size: 3
-itemCapacity: 45
+size: 4
+itemCapacity: 65
 category: crafting
 squareSprite: false
 ignoreLiquidFullness: true
@@ -8,10 +8,10 @@ ignoreLiquidFullness: true
     parent: "platinum-smelter"
     planet: gelion
                 "requirements": [
-                "cobalt/20000"
-                "platinum/10000"
+                "compound/4000"
+                "caterium/1000"
                 "geliarin/6000"
-                "zinc/2000"
+                "venerium/9000"
                 ]
         objectives: [
     {
@@ -23,7 +23,8 @@ preset: nine
 requirements: [
  compound/45
  venerium/110
- caterium/65
+ caterium/90
+ gelarin/75
 ]
 consumes: {
   items: [
@@ -34,8 +35,8 @@ consumes: {
   cesium/0.05
 	]
 }
-craftTime: 120
-outputItem: platinum/10
+craftTime: 110
+outputItem: platinum/8
 craftEffect: [{
         type: RadialEffect
       rotationSpacing : 90
