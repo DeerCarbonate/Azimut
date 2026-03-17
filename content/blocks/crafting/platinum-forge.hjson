@@ -24,7 +24,7 @@ requirements: [
  compound/45
  venerium/110
  caterium/90
- gelarin/75
+ geliarin/75
 ]
 consumes: {
   items: [
