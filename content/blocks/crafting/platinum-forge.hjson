@@ -82,44 +82,40 @@ craftEffect: [{
           layer: 100.3
           }
     }
+craftEffect: [
   {
     type: RadialEffect
-    rotationSpacing: 0
-    amount: 2
-    lengthOffset: 0
+    rotationOffset: 45
+    rotationSpacing: 90
+    amount: 4
+    lengthOffset: 18
     effect: {
       type: RadialEffect
-      rotationSpacing: 0
-      rotationOffset: 0
-      amount: 1
-      lengthOffset: 0
+      rotationSpacing: 60
+      amount: 6
+      lengthOffset: 5.5
       effect: {
-        type: RadialEffect
-        rotationSpacing: 30
-        amount: 3
-        lengthOffset: 5.5
-        effect: {
-          particles: 1
-          line: true
-          length: -24
-          baseLength: 24
-          lifetime: 65
-          cone: 20
-          useRotation: false
-          baseRotation: 90
-          lenFrom: 0
-          lenTo: 4
-          strokeFrom: 2
-          strokeTo: 4
-          colorFrom: 8d655710
-          colorTo: b0b0b003
-          interp: pow2
-          sizeInterp: pow3In
-          layer: 80
-        }
+        particles: 1
+        line: true
+        length: 18
+        baseLength: -18
+        lifetime: 35
+        cone: 20
+        useRotation: false
+        baseRotation: 90
+        lenFrom: 0
+        lenTo: 4
+        strokeFrom: 4.6
+        strokeTo: 2.1
+        colorFrom: ffffff10
+        colorTo: ffffff03
+        interp: pow2
+        sizeInterp: pow3In
+        layer: 80
       }
     }
   }
+]
 ]
 ambientSound: smelter
 drawer: {
