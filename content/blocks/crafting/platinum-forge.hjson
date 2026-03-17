@@ -88,6 +88,7 @@ craftEffect: [{
     rotationSpacing: 90
     amount: 4
     lengthOffset: 18
+    randomOffset: false
     effect: {
       type: RadialEffect
       rotationSpacing: 60
@@ -98,18 +99,18 @@ craftEffect: [{
         line: true
         length: 18
         baseLength: -18
-        lifetime: 35
-        cone: 20
+        lifetime: 65
+        cone: 0.1
         useRotation: false
         baseRotation: 90
         lenFrom: 0
-        lenTo: 4
-        strokeFrom: 4.6
-        strokeTo: 2.1
+        lenTo: 8
+        strokeFrom: 2.3
+        strokeTo: 1
         colorFrom: ffffff10
         colorTo: ffffff03
-        interp: pow2
-        sizeInterp: pow3In
+        interp: pow1
+        sizeInterp: pow2In
         layer: 80
       }
     }
