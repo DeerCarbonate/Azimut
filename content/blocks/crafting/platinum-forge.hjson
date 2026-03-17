@@ -109,7 +109,7 @@ craftEffect: [{
         strokeTo: 1
         colorFrom: ffffff10
         colorTo: ffffff03
-        interp: pow1
+        interp: pow2
         sizeInterp: pow2In
         layer: 80
       }
