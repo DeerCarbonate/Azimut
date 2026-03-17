@@ -98,6 +98,9 @@ drawer: {
       padding: 1.2
     }
     {
+      type: DrawCrucibleFlame
+    } 
+    {
       type: DrawCircles
       color: 9b765110
       strokeMax: 3
