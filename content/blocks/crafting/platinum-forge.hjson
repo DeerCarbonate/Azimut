@@ -103,23 +103,23 @@ drawer: {
     {
       type: DrawCircles
       color: 9b765110
-      strokeMax: 3
-      radius: 8
+      strokeMax: 3.8
+      radius: 5
       amount: 2.4
     }
 	{
       type: DrawCircles
       color: 9b765105
-      strokeMax: 1
-      radius: 7
+      strokeMax: 1.5
+      radius: 4
       amount: 1.3
     }
     {
    type: DrawParticles
    color: ce9e6c
-   alpha: 0.25
-   particleRad: 9
-   rotateScl: 65
+   alpha: 0.35
+   particleRad: 12
+   rotateScl: 85
     }
     {
       type: DrawDefault
