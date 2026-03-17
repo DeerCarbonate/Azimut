@@ -1,0 +1,101 @@
+type: GenericCrafter
+size: 3
+itemCapacity: 45
+category: crafting
+squareSprite: false
+ignoreLiquidFullness: true
+        research: {
+    parent: "platinum-smelter"
+    planet: gelion
+                "requirements": [
+                "cobalt/20000"
+                "platinum/10000"
+                "geliarin/6000"
+                "zinc/2000"
+                ]
+        objectives: [
+    {
+type: SectorComplete
+preset: nine 
+    }
+  ]
+}
+requirements: [
+ compound/45
+ venerium/110
+ caterium/65
+]
+consumes: {
+  items: [
+  raw-platinum/8
+  ]
+  liquids: [
+  isobutane/0.18
+  cesium/0.05
+	]
+}
+craftTime: 120
+outputItem: platinum/10
+craftEffect: [{
+        type: RadialEffect
+      rotationSpacing : 90
+      rotationOffset: 0
+      lengthOffset: 2
+      amount: 3
+      effect: {
+          type: ParticleEffect
+          particles: 2
+          length: 90
+          lifetime: 550
+          sizeFrom: 1.7
+          sizeTo: 4.2
+          cone: 2
+          baseRotation: 73
+          useRotation:false
+          interp: pow5Out
+          colorFrom: 8d655754
+          colorTo: 271b1700
+          layer: 100.3
+          }
+    }
+]
+ambientSound: smelter
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: isobutane
+      alpha: 0.6
+      padding: 1.2
+    }
+    {
+      type: DrawCircles
+      color: 9b765110
+      strokeMax: 3
+      radius: 6
+      amount: 2.2
+    }
+	{
+      type: DrawCircles
+      color: 9b765105
+      strokeMax: 1
+      radius: 5
+      amount: 1.2
+    }
+    {
+   type: DrawParticles
+   color: ce9e6c
+   alpha: 0.25
+   particleRad: 8
+   rotateScl: 65
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
