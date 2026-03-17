@@ -82,7 +82,6 @@ craftEffect: [{
           layer: 100.3
           }
     }
-craftEffect: [
   {
     type: RadialEffect
     rotationOffset: 45
@@ -115,7 +114,6 @@ craftEffect: [
       }
     }
   }
-]
 ]
 ambientSound: smelter
 drawer: {
