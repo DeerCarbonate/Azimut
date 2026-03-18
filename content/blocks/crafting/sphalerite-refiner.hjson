@@ -39,16 +39,16 @@ craftEffect: [{
       amount: 2
       effect: {
           type: ParticleEffect
-          particles: 4
+          particles: 3
           length: 120
           lifetime: 390
-          sizeFrom: 1.4
+          sizeFrom: 1.3
           sizeTo: 7
           cone: 2
           baseRotation: 73
           useRotation:false
           interp: pow5Out
-          colorFrom: fed8b184
+          colorFrom: fed8b179
           colorTo: 271b1700
           layer: 100.3
           }
@@ -58,7 +58,7 @@ craftEffect: [{
   effects: [
     {
       type: ParticleEffect
-      lifetime: 100
+      lifetime: 160
       offsetX: 1.7
       offsetY: 0
       particles: 1
@@ -71,7 +71,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: fffffc94
+      colorFrom: fffbaf
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
@@ -79,7 +79,7 @@ craftEffect: [{
     }
     {
       type: ParticleEffect
-      lifetime: 100
+      lifetime: 160
       offsetX: -1.7
       offsetY: 0
       particles: 1
@@ -92,7 +92,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: fffffc94
+      colorFrom: fffbaf
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
@@ -100,7 +100,7 @@ craftEffect: [{
     }
     {
       type: ParticleEffect
-      lifetime: 100
+      lifetime: 160
       offsetX: 0
       offsetY: 1.7
       particles: 1
@@ -113,7 +113,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: fffffc94
+      colorFrom: fffbaf
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
@@ -121,7 +121,7 @@ craftEffect: [{
     }
     {
       type: ParticleEffect
-      lifetime: 100
+      lifetime: 160
       offsetX: 0
       offsetY: -1.7
       particles: 1
@@ -134,7 +134,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 1.8
       strokeTo: 0.5
-      colorFrom: fffffc94
+      colorFrom: fffbaf
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
