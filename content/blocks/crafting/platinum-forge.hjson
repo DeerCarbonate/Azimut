@@ -127,116 +127,77 @@ craftEffect: [
       layer: 80
     }
     {
-      type: MultiEffect
+      type: ParticleEffect
       offsetX: 5.3
       offsetY: 0
-      effects: [{
-        type: RadialEffect
-        rotationSpacing: 90
-        rotationOffset: -8
-        lengthOffset: 2
-        amount: 1
-        effect: {
-          type: ParticleEffect
-          particles: 2
-          length: 100
-          lifetime: 750
-          sizeFrom: 1.4
-          sizeTo: 6
-          cone: 2
-          baseRotation: 73
-          useRotation: false
-          interp: pow5Out
-          colorFrom: 8d655758
-          colorTo: 271b1700
-          layer: 100.3
-        }
-      }]
+      particles: 2
+      length: 100
+      lifetime: 750
+      sizeFrom: 1.4
+      sizeTo: 6
+      cone: 2
+      baseRotation: 73
+      useRotation: false
+      interp: pow5Out
+      colorFrom: 8d655758
+      colorTo: 271b1700
+      layer: 100.3
     }
     {
-      type: MultiEffect
+      type: ParticleEffect
       offsetX: -5.3
       offsetY: 0
-      effects: [{
-        type: RadialEffect
-        rotationSpacing: 90
-        rotationOffset: -8
-        lengthOffset: 2
-        amount: 1
-        effect: {
-          type: ParticleEffect
-          particles: 2
-          length: 100
-          lifetime: 750
-          sizeFrom: 1.4
-          sizeTo: 6
-          cone: 2
-          baseRotation: 73
-          useRotation: false
-          interp: pow5Out
-          colorFrom: 8d655758
-          colorTo: 271b1700
-          layer: 100.3
-        }
-      }]
+      particles: 2
+      length: 100
+      lifetime: 750
+      sizeFrom: 1.4
+      sizeTo: 6
+      cone: 2
+      baseRotation: 73
+      useRotation: false
+      interp: pow5Out
+      colorFrom: 8d655758
+      colorTo: 271b1700
+      layer: 100.3
     }
     {
-      type: MultiEffect
+      type: ParticleEffect
       offsetX: 0
       offsetY: 5.3
-      effects: [{
-        type: RadialEffect
-        rotationSpacing: 90
-        rotationOffset: -8
-        lengthOffset: 2
-        amount: 1
-        effect: {
-          type: ParticleEffect
-          particles: 2
-          length: 100
-          lifetime: 750
-          sizeFrom: 1.4
-          sizeTo: 6
-          cone: 2
-          baseRotation: 73
-          useRotation: false
-          interp: pow5Out
-          colorFrom: 8d655758
-          colorTo: 271b1700
-          layer: 100.3
-        }
-      }]
+      particles: 2
+      length: 100
+      lifetime: 750
+      sizeFrom: 1.4
+      sizeTo: 6
+      cone: 2
+      baseRotation: 73
+      useRotation: false
+      interp: pow5Out
+      colorFrom: 8d655758
+      colorTo: 271b1700
+      layer: 100.3
     }
     {
-      type: MultiEffect
+      type: ParticleEffect
       offsetX: 0
       offsetY: -5.3
-      effects: [{
-        type: RadialEffect
-        rotationSpacing: 90
-        rotationOffset: -8
-        lengthOffset: 2
-        amount: 1
-        effect: {
-          type: ParticleEffect
-          particles: 2
-          length: 100
-          lifetime: 750
-          sizeFrom: 1.4
-          sizeTo: 6
-          cone: 2
-          baseRotation: 73
-          useRotation: false
-          interp: pow5Out
-          colorFrom: 8d655758
-          colorTo: 271b1700
-          layer: 100.3
-        }
-      }]
+      particles: 2
+      length: 100
+      lifetime: 750
+      sizeFrom: 1.4
+      sizeTo: 6
+      cone: 2
+      baseRotation: 73
+      useRotation: false
+      interp: pow5Out
+      colorFrom: 8d655758
+      colorTo: 271b1700
+      layer: 100.3
     }
   ]
 }
 ]
+
 ambientSound: smelter
 drawer: {
   type: DrawMulti
