@@ -71,7 +71,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: fffbaf
+      colorFrom: ffe4af
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
@@ -92,7 +92,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: fffbaf
+      colorFrom: ffe4af
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
@@ -113,7 +113,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: fffbaf
+      colorFrom: ffe4af
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
@@ -134,7 +134,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 1.8
       strokeTo: 0.5
-      colorFrom: fffbaf
+      colorFrom: ffe4af
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
