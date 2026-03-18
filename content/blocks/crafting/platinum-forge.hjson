@@ -83,107 +83,91 @@ craftEffect: [{
           }
     }
 {
-  type: MultiEffect,
+  type: MultiEffect
   effects: [
     {
-      type: Effect,
-      lifetime: 65,
-      layer: 118,
-      offsetX: 6,
-      offsetY: 0,
-      effect: {
-        particles: 1,
-        line: true,
-        length: 32,
-        lifetime: 65,
-        cone: 0,
-        useRotation: false,
-        baseRotation: 90,
-        lenFrom: 0,
-        lenTo: 9,
-        strokeFrom: 2,
-        strokeTo: 0.8,
-        colorFrom: ffffff88,
-        colorTo: ffffff00,
-        interp: pow2,
-        sizeInterp: pow3In,
-        layer: 80
-      }
-    },
+      type: ParticleEffect
+      lifetime: 65
+      offsetX: 5.3
+      offsetY: 0
+      particles: 1
+      line: true
+      length: 32
+      cone: 0
+      useRotation: false
+      baseRotation: 0
+      lenFrom: 0
+      lenTo: 9
+      strokeFrom: 2
+      strokeTo: 0.8
+      colorFrom: ffffff88
+      colorTo: ffffff00
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 80
+    }
     {
-      type: Effect,
-      lifetime: 65,
-      layer: 118,
-      offsetX: -6,
-      offsetY: 0,
-      effect: {
-        particles: 1,
-        line: true,
-        length: 32,
-        lifetime: 65,
-        cone: 0,
-        useRotation: false,
-        baseRotation: 90,
-        lenFrom: 0,
-        lenTo: 9,
-        strokeFrom: 2,
-        strokeTo: 0.8,
-        colorFrom: ffffff88,
-        colorTo: ffffff00,
-        interp: pow2,
-        sizeInterp: pow3In,
-        layer: 80
-      }
-    },
+      type: ParticleEffect
+      lifetime: 65
+      offsetX: -5.3
+      offsetY: 0
+      particles: 1
+      line: true
+      length: 32
+      cone: 0
+      useRotation: false
+      baseRotation: 180
+      lenFrom: 0
+      lenTo: 9
+      strokeFrom: 2
+      strokeTo: 0.8
+      colorFrom: ffffff88
+      colorTo: ffffff00
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 80
+    }
     {
-      type: Effect,
-      lifetime: 65,
-      layer: 118,
-      offsetX: 0,
-      offsetY: 6,
-      effect: {
-        particles: 1,
-        line: true,
-        length: 32,
-        lifetime: 65,
-        cone: 0,
-        useRotation: false,
-        baseRotation: 90,
-        lenFrom: 0,
-        lenTo: 9,
-        strokeFrom: 2,
-        strokeTo: 0.8,
-        colorFrom: ffffff88,
-        colorTo: ffffff00,
-        interp: pow2,
-        sizeInterp: pow3In,
-        layer: 80
-      }
-    },
+      type: ParticleEffect
+      lifetime: 65
+      offsetX: 0
+      offsetY: 5.3
+      particles: 1
+      line: true
+      length: 32
+      cone: 0
+      useRotation: false
+      baseRotation: 90
+      lenFrom: 0
+      lenTo: 9
+      strokeFrom: 2
+      strokeTo: 0.8
+      colorFrom: ffffff88
+      colorTo: ffffff00
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 80
+    }
     {
-      type: Effect,
-      lifetime: 65,
-      layer: 118,
-      offsetX: 0,
-      offsetY: -6,
-      effect: {
-        particles: 1,
-        line: true,
-        length: 32,
-        lifetime: 65,
-        cone: 0,
-        useRotation: false,
-        baseRotation: 90,
-        lenFrom: 0,
-        lenTo: 9,
-        strokeFrom: 2,
-        strokeTo: 0.8,
-        colorFrom: ffffff88,
-        colorTo: ffffff00,
-        interp: pow2,
-        sizeInterp: pow3In,
-        layer: 80
-      }
+      type: ParticleEffect
+      lifetime: 65
+      offsetX: 0
+      offsetY: -5.3
+      particles: 1
+      line: true
+      length: 32
+      cone: 0
+      useRotation: false
+      baseRotation: 270
+      lenFrom: 0
+      lenTo: 9
+      strokeFrom: 2
+      strokeTo: 0.8
+      colorFrom: ffffff88
+      colorTo: ffffff00
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 80
     }
   ]
 }
