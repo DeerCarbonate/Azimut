@@ -139,9 +139,9 @@ craftEffect: [{
       interp: pow2
       sizeInterp: pow3In
       layer: 80
-    }
-}
-]
+      }
+	]
+  }
 ]
 Sound: smelter
 drawer: {
