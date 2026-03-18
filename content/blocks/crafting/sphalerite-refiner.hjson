@@ -59,11 +59,11 @@ craftEffect: [{
     {
       type: ParticleEffect
       lifetime: 100
-      offsetX: 2.1
+      offsetX: 1.7
       offsetY: 0
       particles: 1
       line: true
-      length: 32
+      length: 42
       cone: 0
       useRotation: false
       baseRotation: 90
@@ -71,7 +71,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: fed8b194
+      colorFrom: fffffc94
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
@@ -80,11 +80,11 @@ craftEffect: [{
     {
       type: ParticleEffect
       lifetime: 100
-      offsetX: -2.1
+      offsetX: -1.7
       offsetY: 0
       particles: 1
       line: true
-      length: 32
+      length: 42
       cone: 0
       useRotation: false
       baseRotation: 90
@@ -92,7 +92,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: fed8b194
+      colorFrom: fffffc94
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
@@ -102,10 +102,10 @@ craftEffect: [{
       type: ParticleEffect
       lifetime: 100
       offsetX: 0
-      offsetY: 2.1
+      offsetY: 1.7
       particles: 1
       line: true
-      length: 32
+      length: 42
       cone: 0
       useRotation: false
       baseRotation: 90
@@ -113,7 +113,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: fed8b194
+      colorFrom: fffffc94
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
@@ -123,10 +123,10 @@ craftEffect: [{
       type: ParticleEffect
       lifetime: 100
       offsetX: 0
-      offsetY: -2.1
+      offsetY: -1.7
       particles: 1
       line: true
-      length: 32
+      length: 42
       cone: 0
       useRotation: false
       baseRotation: 90
@@ -134,7 +134,7 @@ craftEffect: [{
       lenTo: 8.2
       strokeFrom: 1.8
       strokeTo: 0.5
-      colorFrom: fed8b194
+      colorFrom: fffffc94
       colorTo: 271b1700
       interp: pow2
       sizeInterp: pow3In
