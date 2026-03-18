@@ -95,7 +95,7 @@ craftEffect: [{
       length: 32
       cone: 0
       useRotation: false
-      baseRotation: 0
+      baseRotation: 90
       lenFrom: 0
       lenTo: 9
       strokeFrom: 2
@@ -116,7 +116,7 @@ craftEffect: [{
       length: 32
       cone: 0
       useRotation: false
-      baseRotation: 180
+      baseRotation: 90
       lenFrom: 0
       lenTo: 9
       strokeFrom: 2
@@ -158,7 +158,7 @@ craftEffect: [{
       length: 32
       cone: 0
       useRotation: false
-      baseRotation: 270
+      baseRotation: 90
       lenFrom: 0
       lenTo: 9
       strokeFrom: 2
