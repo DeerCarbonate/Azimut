@@ -29,15 +29,15 @@ requirements: [
 consumes: {
   power: 3
   items: [
-  raw-platinum/10
+  raw-platinum/5
   ]
   liquids: [
   isobutane/0.18
   cesium/0.05
 	]
 }
-craftTime: 110
-outputItem: platinum/10
+craftTime: 60
+outputItem: platinum/5
 craftEffect: [
 {
   type: MultiEffect
@@ -57,8 +57,8 @@ craftEffect: [
       lenTo: 9
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: ffffff88
-      colorTo: ffffff00
+      colorFrom: 8d655788
+      colorTo: 8d655700
       interp: pow2
       sizeInterp: pow3In
       layer: 80
@@ -78,8 +78,8 @@ craftEffect: [
       lenTo: 9
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: ffffff88
-      colorTo: ffffff00
+      colorFrom: 8d655788
+      colorTo: 8d655700
       interp: pow2
       sizeInterp: pow3In
       layer: 80
@@ -99,8 +99,8 @@ craftEffect: [
       lenTo: 9
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: ffffff88
-      colorTo: ffffff00
+      colorFrom: 8d655788
+      colorTo: 8d655700
       interp: pow2
       sizeInterp: pow3In
       layer: 80
@@ -120,8 +120,8 @@ craftEffect: [
       lenTo: 9
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: ffffff88
-      colorTo: ffffff00
+      colorFrom: 8d655788
+      colorTo: 8d655700
       interp: pow2
       sizeInterp: pow3In
       layer: 80
