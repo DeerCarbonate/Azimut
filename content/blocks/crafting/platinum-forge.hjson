@@ -85,23 +85,23 @@ craftEffect: [{
   {
     type: RadialEffect
     layer: 118
-    rotationSpacing: 1.2
-    amount: 4
-    lengthOffset: 12
+    rotationSpacing: 20
+    amount: 8
+    lengthOffset: 18
     effect: {
       particles: 1
       line: true
-      length: 40
-      lifetime: 35
-      cone: 20
+      length: 32
+      lifetime: 65
+      cone: 10
       useRotation: false
       baseRotation: 90
       lenFrom: 0
-      lenTo: 8
-      strokeFrom: 1
-      strokeTo: 0
-      colorFrom: ffffff00
-      colorTo: ffffff88
+      lenTo: 9
+      strokeFrom: 2
+      strokeTo: 0.8
+      colorFrom: ffffff88
+      colorTo: ffffff00
       interp: pow2
       sizeInterp: pow3In
       layer: 80
