@@ -85,13 +85,13 @@ craftEffect: [{
   {
     type: RadialEffect
     rotationOffset: 45
-    rotationSpacing: 90
+    rotationSpacing: 0
     amount: 4
     lengthOffset: 18
     randomOffset: false
     effect: {
       type: RadialEffect
-      rotationSpacing: 60
+      rotationSpacing: 0
       amount: 6
       lengthOffset: 5.5
       effect: {
