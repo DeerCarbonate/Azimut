@@ -41,9 +41,9 @@ craftEffect: [{
           type: ParticleEffect
           particles: 4
           length: 120
-          lifetime: 290
-          sizeFrom: 1.7
-          sizeTo: 7.2
+          lifetime: 390
+          sizeFrom: 1.4
+          sizeTo: 7
           cone: 2
           baseRotation: 73
           useRotation:false
@@ -53,6 +53,95 @@ craftEffect: [{
           layer: 100.3
           }
 }
+{
+  type: MultiEffect
+  effects: [
+    {
+      type: ParticleEffect
+      lifetime: 100
+      offsetX: 2.1
+      offsetY: 0
+      particles: 1
+      line: true
+      length: 32
+      cone: 0
+      useRotation: false
+      baseRotation: 90
+      lenFrom: 0
+      lenTo: 8.2
+      strokeFrom: 2
+      strokeTo: 0.8
+      colorFrom: fed8b194
+      colorTo: 271b1700
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 80
+    }
+    {
+      type: ParticleEffect
+      lifetime: 100
+      offsetX: -2.1
+      offsetY: 0
+      particles: 1
+      line: true
+      length: 32
+      cone: 0
+      useRotation: false
+      baseRotation: 90
+      lenFrom: 0
+      lenTo: 8.2
+      strokeFrom: 2
+      strokeTo: 0.8
+      colorFrom: fed8b194
+      colorTo: 271b1700
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 80
+    }
+    {
+      type: ParticleEffect
+      lifetime: 100
+      offsetX: 0
+      offsetY: 2.1
+      particles: 1
+      line: true
+      length: 32
+      cone: 0
+      useRotation: false
+      baseRotation: 90
+      lenFrom: 0
+      lenTo: 8.2
+      strokeFrom: 2
+      strokeTo: 0.8
+      colorFrom: fed8b194
+      colorTo: 271b1700
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 80
+    }
+    {
+      type: ParticleEffect
+      lifetime: 100
+      offsetX: 0
+      offsetY: -2.1
+      particles: 1
+      line: true
+      length: 32
+      cone: 0
+      useRotation: false
+      baseRotation: 90
+      lenFrom: 0
+      lenTo: 8.2
+      strokeFrom: 1.8
+      strokeTo: 0.5
+      colorFrom: fed8b194
+      colorTo: 271b1700
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 80
+    }
+}
+]
 ]
 Sound: smelter
 drawer: {
