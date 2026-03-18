@@ -1,5 +1,4 @@
 type: TreeBlock
-variants: 1
 emitLight: true
 lightColor: d3e0ff52
 lightRadius: 15
