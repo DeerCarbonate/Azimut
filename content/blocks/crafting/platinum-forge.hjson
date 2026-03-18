@@ -38,50 +38,8 @@ consumes: {
 }
 craftTime: 110
 outputItem: platinum/10
-craftEffect: [{
-        type: RadialEffect
-      rotationSpacing : 90
-      rotationOffset: -8
-      lengthOffset: 2
-      amount: 4
-      effect: {
-          type: ParticleEffect
-          particles: 2
-          length: 90
-          lifetime: 580
-          sizeFrom: 1.8
-          sizeTo: 5
-          cone: 2
-          baseRotation: 73
-          useRotation:false
-          interp: pow5Out
-          colorFrom: 8d655758
-          colorTo: 271b1700
-          layer: 100.3
-          }
-    }
-    {
-        type: RadialEffect
-      rotationSpacing : 90
-      rotationOffset: 8
-      lengthOffset: 2
-      amount: 4
-      effect: {
-          type: ParticleEffect
-          particles: 2
-          length: 90
-          lifetime: 580
-          sizeFrom: 1.8
-          sizeTo: 5
-          cone: 2
-          baseRotation: 73
-          useRotation:false
-          interp: pow5Out
-          colorFrom: 8d655758
-          colorTo: 271b1700
-          layer: 100.3
-          }
-    }
+craftEffect: [
+
 {
   type: MultiEffect
   effects: [
@@ -168,6 +126,102 @@ craftEffect: [{
       interp: pow2
       sizeInterp: pow3In
       layer: 80
+    }
+	{
+      type: RadialEffect
+      offsetX: 5.3
+      offsetY: 0
+      rotationSpacing: 90
+      rotationOffset: -8
+      lengthOffset: 2
+      amount: 1
+      effect: {
+        type: ParticleEffect
+        particles: 2
+        length: 100
+        lifetime: 750
+        sizeFrom: 1.4
+        sizeTo: 6
+        cone: 2
+        baseRotation: 73
+        useRotation: false
+        interp: pow5Out
+        colorFrom: 8d655758
+        colorTo: 271b1700
+        layer: 100.3
+      }
+    }
+		{
+      type: RadialEffect
+      offsetX: -5.3
+      offsetY: 0
+      rotationSpacing: 90
+      rotationOffset: -8
+      lengthOffset: 2
+      amount: 1
+      effect: {
+        type: ParticleEffect
+        particles: 2
+        length: 100
+        lifetime: 750
+        sizeFrom: 1.4
+        sizeTo: 6
+        cone: 2
+        baseRotation: 73
+        useRotation: false
+        interp: pow5Out
+        colorFrom: 8d655758
+        colorTo: 271b1700
+        layer: 100.3
+      }
+    }
+		{
+      type: RadialEffect
+      offsetX: 0
+      offsetY: 5.3
+      rotationSpacing: 90
+      rotationOffset: -8
+      lengthOffset: 2
+      amount: 1
+      effect: {
+        type: ParticleEffect
+        particles: 2
+        length: 100
+        lifetime: 750
+        sizeFrom: 1.4
+        sizeTo: 6
+        cone: 2
+        baseRotation: 73
+        useRotation: false
+        interp: pow5Out
+        colorFrom: 8d655758
+        colorTo: 271b1700
+        layer: 100.3
+      }
+    }
+		{
+      type: RadialEffect
+      offsetX: 0
+      offsetY: -5.3
+      rotationSpacing: 90
+      rotationOffset: -8
+      lengthOffset: 2
+      amount: 1
+      effect: {
+        type: ParticleEffect
+        particles: 2
+        length: 100
+        lifetime: 750
+        sizeFrom: 1.4
+        sizeTo: 6
+        cone: 2
+        baseRotation: 73
+        useRotation: false
+        interp: pow5Out
+        colorFrom: 8d655758
+        colorTo: 271b1700
+        layer: 100.3
+      }
     }
   ]
 }
