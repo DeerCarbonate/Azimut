@@ -57,7 +57,7 @@ craftEffect: [
       lenTo: 9
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: 8d655788
+      colorFrom: ffba8994
       colorTo: 8d655700
       interp: pow2
       sizeInterp: pow3In
@@ -78,7 +78,7 @@ craftEffect: [
       lenTo: 9
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: 8d655788
+      colorFrom: ffba8994
       colorTo: 8d655700
       interp: pow2
       sizeInterp: pow3In
@@ -99,7 +99,7 @@ craftEffect: [
       lenTo: 9
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: 8d655788
+      colorFrom: ffba8994
       colorTo: 8d655700
       interp: pow2
       sizeInterp: pow3In
@@ -120,7 +120,7 @@ craftEffect: [
       lenTo: 9
       strokeFrom: 2
       strokeTo: 0.8
-      colorFrom: 8d655788
+      colorFrom: ffba8994
       colorTo: 8d655700
       interp: pow2
       sizeInterp: pow3In
