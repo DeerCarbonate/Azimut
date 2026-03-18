@@ -59,6 +59,7 @@ craftEffect: [{
           colorTo: 271b1700
           layer: 100.3
           }
+    }
     {
         type: RadialEffect
       rotationSpacing : 90
@@ -105,7 +106,6 @@ craftEffect: [{
       sizeInterp: pow3In
       layer: 80
     }
-  }
   }
 ]
 ambientSound: smelter
