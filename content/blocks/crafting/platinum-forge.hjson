@@ -44,7 +44,7 @@ craftEffect: [
   effects: [
     {
       type: ParticleEffect
-      lifetime: 65
+      lifetime: 100
       offsetX: 5.3
       offsetY: 0
       particles: 1
@@ -58,14 +58,14 @@ craftEffect: [
       strokeFrom: 2
       strokeTo: 0.8
       colorFrom: fdd68094
-      colorTo: c8976800
+      colorTo: c8976840
       interp: pow2
       sizeInterp: pow3In
       layer: 80
     }
     {
       type: ParticleEffect
-      lifetime: 65
+      lifetime: 100
       offsetX: -5.3
       offsetY: 0
       particles: 1
@@ -79,14 +79,14 @@ craftEffect: [
       strokeFrom: 2
       strokeTo: 0.8
       colorFrom: fdd68094
-      colorTo: c8976800
+      colorTo: c8976840
       interp: pow2
       sizeInterp: pow3In
       layer: 80
     }
     {
       type: ParticleEffect
-      lifetime: 65
+      lifetime: 100
       offsetX: 0
       offsetY: 5.3
       particles: 1
@@ -100,14 +100,14 @@ craftEffect: [
       strokeFrom: 2
       strokeTo: 0.8
       colorFrom: fdd68094
-      colorTo: c8976800
+      colorTo: c8976840
       interp: pow2
       sizeInterp: pow3In
       layer: 80
     }
     {
       type: ParticleEffect
-      lifetime: 65
+      lifetime: 100
       offsetX: 0
       offsetY: -5.3
       particles: 1
@@ -121,7 +121,7 @@ craftEffect: [
       strokeFrom: 2
       strokeTo: 0.8
       colorFrom: fdd68094
-      colorTo: c8976800
+      colorTo: c8976840
       interp: pow2
       sizeInterp: pow3In
       layer: 80
