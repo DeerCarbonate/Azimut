@@ -1,5 +1,6 @@
   type: ItemBridge
   category: distribution
+  health: 100
   requirements: [
     caterium/5
     geliarin/3
