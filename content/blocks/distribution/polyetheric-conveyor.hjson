@@ -6,7 +6,7 @@
     platinum/10
     zinc/5
   ]
-  range: 12
+  range: 15
   transportTime: 2
   arrowPeriod: 0.9
   arrowTimeScl: 2.75
