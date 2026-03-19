@@ -1,0 +1,28 @@
+  type: ItemBridge
+  category: distribution
+  requirements: [
+    caterium/5
+    geliarin/3
+    platinum/10
+    zinc/5
+  ]
+  range: 12
+  transportTime: 2
+  arrowPeriod: 0.9
+  arrowTimeScl: 2.75
+  hasPower: true
+  pulse: true
+  consumePower: 0.1
+  research: {
+  parent: "byte"
+  planet: gelion
+    "requirements": [
+	  "byte/1"
+]
+objectives: [
+    {
+      type: sectorComplete
+      preset: "nine"
+    }
+  ]
+}
