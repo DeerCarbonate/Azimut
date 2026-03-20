@@ -226,7 +226,7 @@ interp: pow3Out
   sizeTo: 0
   strokeFrom: 2
   strokeTo: 2
-  colorFrom: dacaaa
+  colorFrom: dacaaa80
   colorTo: dacaaa00
   line: true
   interp: pow3Out
