@@ -10,7 +10,7 @@ shootCone: 9
 recoil: 3
 reload: 180
 range: 200
-inaccuracy: 8.4
+inaccuracy: 8.2
 velocityRnd: 0.25
 targetAir: false
 moveWhileCharging: true
@@ -127,7 +127,7 @@ baseRotation: 90
 ]
 }
     raw-caterium: {
-type: ArtilleryBulletType
+type: BasicBulletType
 width: 11
 height: 17
 speed: 2.8
@@ -207,7 +207,7 @@ lifetime: 120
       fragBullet: {
 type: BasicBulletType
 trailLength: 16
-trailWidth: 2
+trailWidth: 1.8
 trailColor: dacaaa
 weaveMag: 4
 weaveScale: 55
