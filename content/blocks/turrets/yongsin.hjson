@@ -170,7 +170,7 @@ sizeFrom: 0
 sizeTo: 3
 interp: exp5Out
 sizeInterp: exp5In
-lifetime: 45
+lifetime: 35
 }
 {
 type: ParticleEffect 
@@ -185,7 +185,7 @@ sizeFrom: 2
 sizeTo:3
 interp: exp5Out
 sizeInterp: exp5In
-lifetime: 85
+lifetime: 65
 }
 ]
 smokeEffect: [{
@@ -224,13 +224,12 @@ interp: pow3Out
   cone: 360
   sizeFrom: 0
   sizeTo: 0
-  strokeFrom: 3
-  strokeTo: 3
+  strokeFrom: 2
+  strokeTo: 2
   colorFrom: dacaaa
   colorTo: dacaaa00
   line: true
   interp: pow3Out
-  startDelay: 79
 }
 ]
 fragBullet: {
