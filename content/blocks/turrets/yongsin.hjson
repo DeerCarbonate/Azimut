@@ -137,18 +137,6 @@ sizeTo: 0
 colorTo: b9c4d8
 baseRotation: 90
 }
-{
-followParent: false
-length: 0
-lifetime: 12
-particles: 1
-cone: 0
-region: azimut-long-triangle
-sizeFrom: 27
-sizeTo: 0
-colorTo: b9c4d8
-baseRotation: 90
-}
 ]
 }
     raw-caterium: {
@@ -296,18 +284,6 @@ lifetime: 12
 particles: 1
 cone: 0
 region: azimut-despawn
-sizeFrom: 27
-sizeTo: 0
-colorTo: dacaaa
-baseRotation: 90
-}
-{
-followParent: false
-length: 0
-lifetime: 12
-particles: 1
-cone: 0
-region: azimut-long-triangle
 sizeFrom: 27
 sizeTo: 0
 colorTo: dacaaa
