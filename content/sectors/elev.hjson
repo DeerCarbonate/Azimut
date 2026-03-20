@@ -1,0 +1,14 @@
+difficulty: 4
+planet: gelion
+name: elev
+sector: 20
+research: {
+parent: eight
+requiresUnlock: false
+objectives: [
+{
+type: SectorComplete
+preset: nine
+  }
+ ]
+}
