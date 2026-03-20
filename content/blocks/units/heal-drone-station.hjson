@@ -1,47 +1,44 @@
-    "type": "UnitCargoLoader",
-    "name": "Drone healing station",
-	"squareSprite": false,
-    "description": "Creates a regenerator drone. The drone restores health to nearby buildings and units using a regenerating beam.",
-    "size": 3,
-    "health": 650,
-    "unitType": "heal-drone",
-    "itemCapacity": 0,
-    "separateItemCapacity": true,
-    "requirements": 
-    [
-		"cobalt/150"
-		"geliarin/30"
-		"venerium/120"
-		"platinum/95"
-	],
-    "category": "effect",
-    "hasItems": true,
-    "hasPower": false,
-    "hasLiquids": true,
-	consumes: {
-  liquids: [
-  power/0.14
-  iterin/0.1
-	]
-}
-polyStroke: 1.8
-polyRadius: 8
-polySides: 7
-polyRotateSpeed: 2
-polyColor: bf92f9
-research: {
-  parent: "yongsin"
-  planet: gelion
-    "requirements": [
-	  "venerium/800"
-	  "cobalt/900"
-	  "platinum/650"
-	  "geliarin/100"
+type: UnitCargoLoader
+squareSprite: false
+size: 3
+health: 675
+unitType: heal-drone
+itemCapacity: 0
+separateItemCapacity: true
+hasItems: true
+hasPower: false
+hasLiquids: true
+category: effect
+requirements: [
+  cobalt/130
+  geliarin/35
+  venerium/150
+  platinum/85
 ]
-objectives: [
-{
-type: SectorComplete
-preset: twos
-  }
- ]
+consumes: {
+  liquids: [
+    power/0.14
+    iterin/0.1
+  ]
+}
+polyStroke: 1.5
+polyRadius: 8.6
+polySides: 6
+polyRotateSpeed: 0.8
+polyColor: bf92f920
+research: {
+  parent: yongsin
+  planet: gelion
+  requirements: [
+    venerium/800
+    cobalt/900
+    platinum/650
+    geliarin/100
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: twos
+    }
+  ]
 }

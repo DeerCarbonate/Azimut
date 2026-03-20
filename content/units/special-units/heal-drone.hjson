@@ -1,62 +1,138 @@
- name: Regenerator drone
- description: "Regenerates nearby    buildings."
- flying: true
-	outlineColor: 21202a
-	type: tether
-	hitSize: 11
-	health: 300
- armor: 1
-	range: 0
-	itemCapacity: 0
-	speed: 1
-	rotateShooting: false
-	accel: 0.04
-	drag: 0.02
-	defaultController: CargoAI
-    isEnemy: false
-    allowedInPayloads: false
-    logicControllable: false
-    playerControllable: false
-	engineY: -1
-	engineColor: bf92f9
-	trailColor: bf92f9
-	trailLength: 2
-	parts: [
-	 {
-type: ShapePart
-circle: true
-hollow: true
-layer: 110
-color: bf92f9
-radius: 150
+flying: true
+outlineColor: 21202a
+type: tether
+hitSize: 11
+health: 300
+armor: 1
+range: 0
+itemCapacity: 0
+speed: 1
+rotateShooting: false
+accel: 0.04
+drag: 0.02
+defaultController: CargoAI
+isEnemy: false
+allowedInPayloads: false
+logicControllable: false
+playerControllable: false
+engines: []
+drawCell: false
+deathExplosionEffect: {
+type: MultiEffect
+effects: [
+{
+      type: RadialEffect
+      rotationSpacing : 90
+      rotationOffset: 0
+      lengthOffset: 2
+      amount: 2
+      effect: {
+          type: ParticleEffect
+          particles: 5
+          length: 120
+          lifetime: 360
+          sizeFrom: 1.7
+          sizeTo: 7.2
+          cone: 2
+          baseRotation: 73
+          useRotation:false
+          interp: pow5Out
+          colorFrom: bf92f984
+          colorTo: b0b0b000
+          layer: 100.3
+	}
+}
+{
+followParent: false
+length: 0
+lifetime: 35
+particles: 1
+cone: 0
+region: azimut-shockwave
+sizeFrom: 17
+sizeTo: 24
+colorTo: bf92f900
+baseRotation: 180
+interp: pow3Out
+}
+        {
+            type: ParticleEffect
+            lifetime: 55
+            baseLength: 2
+            length: 25
+            particles: 5
+            sizeFrom: 5
+            sizeTo: 0
+            interp: pow5Out
+            sizeInterp: pow5In
+            colorFrom: bf92f984
+            colorTo: b0b0b000
+        }
+]
+}
+
+parts: [
+  {
+    type: ShapePart
+    circle: true
+    hollow: true
+    layer: 110
+    color: bf92f9
+    radius: 150
+  }
+    {
+    type: HaloPart
+    progress: warmup
+    tri: true
+    shapes: 3
+    color: bf92f9
+    layer: 110
+    haloRadius: 16.2
+    haloRadiusTo: 6.2
+    radius: 5
+    radiusTo: 10
+    triLength: 10
+    triLengthTo: 3
+    haloRotateSpeed: 2.0
+  }
+  {
+    type: ShapePart
+    hollow: true
+    circle: true
+    layer: 109
+    color: bf92f9
+    stroke: 6.3
+    strokeTo: 6.3
+    radius: 2
+    radiusTo: 2
   }
 ]
-	    weapons: [
-{
-mirror: false
-x: 0
-y: 0
-noAttack: true
-shootSound: none
-shootCone: 45
-beamWidth: 0.75
-autoTarget: true
-targetUnits: true
-targetBuildings: true
-shootY: 0
-repairSpeed: 29
-fractionRepairSpeed: .008
-continuous: true
-rotate: false
-type: RepairBeamWeapon
-name: cull-b
-noAttack: true
-widthSinMag: .10
-reload: 0.002
-healColor: bf92f9
-laserColor: bf92f9
-bullet: {
-maxRange: 150
-}
-}
+
+weapons: [
+  {
+    type: RepairBeamWeapon
+    name: cull-b
+    mirror: false
+    x: 0
+    y: 0
+    shootY: 0
+    shootCone: 45
+    shootSound: none
+    noAttack: true
+    autoTarget: true
+    targetUnits: true
+    targetBuildings: true
+    continuous: true
+    rotate: false
+    reload: 0.002
+    beamWidth: 0.75
+    widthSinMag: 0.10
+    repairSpeed: 29
+    fractionRepairSpeed: 0.008
+    healColor: bf92f9
+    laserColor: bf92f9
+    bullet: {
+      maxRange: 150
+    }
+  }
 ]
