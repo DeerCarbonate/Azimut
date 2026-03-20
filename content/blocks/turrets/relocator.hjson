@@ -123,7 +123,7 @@ speed: 3.8
 collidesTiles: true
 collidesGround: true
 lifetime: 65
-damage: 35
+damage: 30
 pierce: true
 pierceBuilding: true
 pierceCap: 2
@@ -158,7 +158,7 @@ despawnEffect:none
 speed: 2.6
 collidesGround: true
 lifetime: 65
-damage: 50
+damage: 42
 backColor: bf92f9
 frontColor: bf92f9
 trailColor: bf92f9
@@ -185,7 +185,7 @@ fragBullet: {
 	serrationWidth: 3
     lifetime: 27
 	pierceArmor: false 
-    damage: 55
+    damage: 50
     toColor: bf92f9
 	despawnEffect: none
 	collidesTiles: true

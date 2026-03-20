@@ -48,7 +48,7 @@ speed: 2.8
 collidesTiles: true
 collidesGround: true
 lifetime: 75
-damage: 90
+damage: 87
 reloadMultiplier:1.3
 backColor: b9c4d8
 frontColor: ecf4fb
