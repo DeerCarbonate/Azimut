@@ -65,6 +65,19 @@ lifetime: 80
 interp: exp5Out
 sizeInterp: exp5In
 }
+smokeEffect: [{
+        type: ParticleEffect
+        colorFrom: ecf4fb85
+        colorTo: b0b0b000
+        particles: 8
+        cone: 28
+        lifetime: 65
+        length: 45
+        interp: pow4Out
+		sizeInterp: pow2In
+        sizeFrom: 3.2
+        sizeTo: 0.3
+}]
 despawnEffect:{
 type: ParticleEffect  
 colorFrom: e5f9f160
@@ -141,6 +154,19 @@ fragBullets: 6
 fragLifeMin: 1.2
 fragLifeMax: 2
 buildingDamageMultiplier: 0.1
+smokeEffect: [{
+        type: ParticleEffect
+        colorFrom: dacaaa85
+        colorTo: b0b0b000
+        particles: 8
+        cone: 28
+        lifetime: 65
+        length: 45
+        interp: pow4Out
+		sizeInterp: pow2In
+        sizeFrom: 3.2
+        sizeTo: 0.3
+}]
 hitEffect: [
 {
 type: ParticleEffect 
@@ -232,21 +258,7 @@ pierceBuilding: false
 pierce: true
 pierceCap: 7
 buildingDamageMultiplier: 0.1
-  hitEffect: {
-        type: WaveEffect,
-        startDelay: 0,
-        lifetime: 20,
-        sizeFrom: 0,
-        sizeTo: 2.3,
-        strokeFrom: 0,
-        strokeTo: 7,
-	    colorFrom: dacaaa50
-        colorTo: dacaaa00
-        followParent: true,
-        rotWithParent: true
-		interp: exp5Out
-		sizeInterp: exp5In
-      }
+hitEffect: none
 fragBullet: {
       type: LaserBulletType
       colors: [dacaaa, d9cdaf, a59c85, 957655, 6a5843]
