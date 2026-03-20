@@ -15,7 +15,7 @@ isEnemy: false
 allowedInPayloads: false
 logicControllable: false
 playerControllable: false
-engines: []
+engineSize: 0
 drawCell: false
 deathExplosionEffect: {
 type: MultiEffect

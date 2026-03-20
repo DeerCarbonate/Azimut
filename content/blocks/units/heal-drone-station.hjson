@@ -22,10 +22,10 @@ consumes: {
   ]
 }
 polyStroke: 1.5
-polyRadius: 8.6
+polyRadius: 11
 polySides: 6
 polyRotateSpeed: 0.8
-polyColor: bf92f920
+polyColor: bf92f930
 research: {
   parent: yongsin
   planet: gelion
