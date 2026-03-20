@@ -33,4 +33,3 @@ mod.meta.author = "[#c3961f]Deer[#876409]Carbonate";
 require("blocks");
 require("sectors");
 require("multiblock");
-require("heal-drone-system");
