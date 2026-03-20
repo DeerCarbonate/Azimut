@@ -203,68 +203,37 @@ smokeEffect: [{
 }]
 hitEffect: [
 {
-type: ParticleEffect 
-lifetime: 160
-colorFrom: dacaaa95
-colorTo: 95765330
-drag: 0.5
-particles: 8
-cone: 360
-length: 30
-baseLength: 1
-lightScl: 3
-lightOpacity: 2
-spin: 0
-sizeFrom: 6
-sizeTo: 0 
-offset: 1
-interp: exp5Out
-sizeInterp: exp5In
-lifetime: 120
+followParent: false
+length: 0
+lifetime: 45
+particles: 1
+cone: 0
+region: azimut-shockwave
+sizeFrom: 0
+sizeTo: 20
+colorTo: dacaaa00
+baseRotation: 180
+interp: pow3Out
 }
 {
-            type: WaveEffect
-            rotWithParent: false
-            followParent: false
-            sizeFrom: 0
-            sizeTo: 32
-            strokeFrom: 0
-            strokeTo: 6
-            lifetime: 40
-			colorFrom: dacaaa80
-            colorTo: dacaaa60
-			sides: 7
-}
-{
-            type: WaveEffect
-            rotWithParent: false
-            followParent: false
-            sizeFrom: 32
-			startDelay: 40
-            sizeTo: 28
-            strokeFrom: 6
-            strokeTo: 2
-            lifetime: 70
-			colorFrom: dacaaa50
-            colorTo: dacaaa00
-			sides: 7
-}
-{
-            type: WaveEffect
-            rotWithParent: false
-            followParent: false
-            sizeFrom: 28
-            startDelay: 50
-            sizeTo: 18
-            strokeFrom: 6
-            strokeTo: 2
-            lifetime: 70
-			colorFrom: dacaaa50
-            colorTo: dacaaa00
-			sides: 7
+  type: ParticleEffect
+  particles: 11
+  lifetime: 45
+  length: 30
+  baseLength: 0
+  cone: 360
+  sizeFrom: 0
+  sizeTo: 0
+  strokeFrom: 3
+  strokeTo: 3
+  colorFrom: dacaaa
+  colorTo: dacaaa00
+  line: true
+  interp: pow3Out
+  startDelay: 79
 }
 ]
-      fragBullet: {
+fragBullet: {
 type: BasicBulletType
 trailLength: 16
 trailWidth: 1.8
