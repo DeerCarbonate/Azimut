@@ -1,7 +1,7 @@
 difficulty: 4
 planet: gelion
 name: elev
-sector: 20
+sector: 23
 research: {
 parent: eight
 requiresUnlock: false
