@@ -137,12 +137,12 @@ weapons: [
     type: ParticleEffect
     lifetime: 17
     particles: 2
-    length: 12
+    length: 21
     line: true
 	strokefrom: 1
     strokeTo: 1.4
     lenFrom: 3.5
-    lenTo: 0.7
+    lenTo: 0
     colorFrom: f6afdd95
     colorTo: f6afdd20
     cone: 25
