@@ -133,7 +133,20 @@ weapons: [
       trailColor: f6afdd
       trailWidth: 1.1
       trailLength: 8
-      smokeEffect: colorSpark
+       smokeEffect: {
+    type: ParticleEffect
+    lifetime: 11
+    particles: 2
+    length: 14
+    line: true
+    strokeTo: 1.5
+    lenFrom: 2
+    lenTo: 5
+    colorFrom: f6afdd95
+    colorTo: f6afdd00
+    cone: 25
+    baseRotation: 180
+    }
 	  shootEffect: none
       despawnEffect: {
         type: WaveEffect
@@ -200,7 +213,7 @@ weapons: [
       frontColor: ffffff
       backColor: f6afdd
       trailColor: f6afdd
-      trailWidth: 1.05
+      trailWidth: 0.9
       trailLength: 8
       shootEffect: {
         type: WaveEffect
