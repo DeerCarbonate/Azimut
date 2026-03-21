@@ -4,7 +4,9 @@ emitLight: false
 variants: 1
 clipSize: 800
 shadowAlpha: 1.7
-shadowOffset: -3.2
+shadowOffset: 3.2
+shadowX: -4.0 
+shadowY: -5.0   
 solid: false
 solidifies: false
 hittable: false
