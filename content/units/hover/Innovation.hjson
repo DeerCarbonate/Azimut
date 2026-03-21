@@ -198,7 +198,7 @@ weapons: [
       trailLength: 8
       smokeEffect: {
     type: ParticleEffect
-    lifetime: 17
+    lifetime: 26
     particles: 2
     length: 21
     line: true
@@ -248,7 +248,7 @@ weapons: [
     y: 0.3
     reload: 1200
     inaccuracy: 360
-    velocityRnd: 0.3
+    velocityRnd: 0.2
     shoot: {
       type: ShootMulti
 	  source: {
@@ -267,7 +267,7 @@ weapons: [
     shootSound: shootSegment
     bullet: {
       keepVelocity: false
-      lifetime: 90
+      lifetime: 80
       drag: -0.01
       damage: 32
       height: 5
@@ -282,6 +282,7 @@ weapons: [
       trailColor: f6afdd
       trailWidth: 0.9
       trailLength: 8
+	  smokeEffect: none
       shootEffect: {
         type: WaveEffect
         startDelay: 0
@@ -295,6 +296,48 @@ weapons: [
         followParent: true
         rotWithParent: true
       }
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 16
+        sizeFrom: 0
+        sizeTo: 7
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
+      hitEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 16
+        sizeFrom: 0
+        sizeTo: 7
+        colorFrom: f6afdd
+        colorTo: f6afdd00
+      }
+	  fragBullets: 1
+      fragRandomSpread: 0
+      fragSpread: 0
+	  fragBullet: {
+      keepVelocity: false
+      lifetime: 1400
+      drag: 0
+      damage: 32
+      height: 5
+      speed: 1.6
+      width: 4
+      type: BasicBulletType
+      frontColor: ffffff
+      backColor: f6afdd
+      trailColor: f6afdd
+      trailWidth: 0.9
+      trailLength: 10
+	  smokeEffect: none
+	  circleShooter: true
+      circleShooterRadius: 15 
+      circleShooterRadiusSmooth: 10
+      circleShooterRotateSpeed: 5
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
