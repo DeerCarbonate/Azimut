@@ -241,7 +241,7 @@ weapons: [
     name: Innovation-weaponn
     alternate: false
     mirror: false 
-    rotateSpeed: 60
+    rotateSpeed: 520
     layerOffset: -0.001
     shootY: 0
     x: 0
@@ -249,6 +249,7 @@ weapons: [
     reload: 1200
     inaccuracy: 360
     velocityRnd: 0.2
+	alwaysShooting:true
     shoot: {
       type: ShootMulti
 	  source: {
@@ -321,7 +322,7 @@ weapons: [
       fragSpread: 0
 	  fragBullet: {
       keepVelocity: false
-      lifetime: 390
+      lifetime: 1400
       drag: 0
       damage: 32
       height: 5
