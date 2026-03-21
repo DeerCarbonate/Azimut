@@ -198,16 +198,16 @@ weapons: [
       trailLength: 8
       smokeEffect: {
     type: ParticleEffect
-    lifetime: 11
+    lifetime: 17
     particles: 2
     length: 12
     line: true
 	strokefrom: 1
     strokeTo: 1.4
-    lenFrom: 2
-    lenTo: 5
+    lenFrom: 3.5
+    lenTo: 0.7
     colorFrom: f6afdd95
-    colorTo: f6afdd00
+    colorTo: f6afdd20
     cone: 25
     }
 	  shootEffect: none
