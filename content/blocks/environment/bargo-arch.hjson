@@ -13,3 +13,4 @@ hittable: false
 targetable: false
 drawTeam: false
 above: true
+rotate: false
