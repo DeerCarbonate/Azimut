@@ -146,6 +146,8 @@ weapons: [
     colorFrom: f6afdd95
     colorTo: f6afdd20
     cone: 25
+	interp: pow2
+    sizeInterp: pow3In
     }
 	  shootEffect: none
       despawnEffect: {
