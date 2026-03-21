@@ -3,8 +3,10 @@ name: bargo-ledge
 emitLight: false
 variants: 1
 clipSize: 800
-shadowAlpha: 1.7
+shadowAlpha: 0.9
 shadowOffset: 3.2
+shadowX: -4
+shadowY: -8 
 solid: false
 solidifies: false
 hittable: false
