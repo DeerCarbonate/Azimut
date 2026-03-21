@@ -241,26 +241,25 @@ weapons: [
     name: Innovation-weaponn
     alternate: false
     mirror: false 
-    rotateSpeed: 520
+    rotateSpeed: 60
     layerOffset: -0.001
     shootY: 0
     x: 0
     y: 0.3
     reload: 1200
     inaccuracy: 360
-    velocityRnd: 0.2
-	alwaysShooting:true
+    velocityRnd: 0.3
     shoot: {
       type: ShootMulti
 	  source: {
       firstShotDelay: 0
-      shots: 1
+      shots: 4
 	      }
 	  dest: [
 	  {
 	  type: ShootPattern
 		shots: 3
-		shotDelay: 30
+		shotDelay: 15
 	}
 	]
 	}
@@ -268,7 +267,7 @@ weapons: [
     shootSound: shootSegment
     bullet: {
       keepVelocity: false
-      lifetime: 10
+      lifetime: 90
       drag: -0.01
       damage: 32
       height: 5
@@ -283,7 +282,6 @@ weapons: [
       trailColor: f6afdd
       trailWidth: 0.9
       trailLength: 8
-	  smokeEffect: none
       shootEffect: {
         type: WaveEffect
         startDelay: 0
@@ -317,53 +315,6 @@ weapons: [
         colorFrom: f6afdd
         colorTo: f6afdd00
       }
-	  fragBullets: 1
-      fragRandomSpread: 0
-      fragSpread: 0
-	  fragBullet: {
-      keepVelocity: false
-      lifetime: 1200
-      drag: 0
-      damage: 40
-      height: 5
-      speed: 2
-      width: 4
-      type: BasicBulletType
-      frontColor: ffffff
-      backColor: f6afdd
-      trailColor: f6afdd
-      trailWidth: 0.9
-      trailLength: 10
-	  smokeEffect: none
-	  pierce: true
-      pierceBuilding: true
-      pierceCap: 3
-      pierceDamageFactor: 0.01
-	  circleShooter: true
-      circleShooterRadius: 18
-      circleShooterRadiusSmooth: 200
-      circleShooterRotateSpeed: 4
-      despawnEffect: {
-        type: WaveEffect
-        rotWithParent: true
-        followParent: true
-        lifetime: 16
-        sizeFrom: 0
-        sizeTo: 7
-        colorFrom: f6afdd
-        colorTo: f6afdd00
-      }
-      hitEffect: {
-        type: WaveEffect
-        rotWithParent: true
-        followParent: true
-        lifetime: 16
-        sizeFrom: 0
-        sizeTo: 7
-        colorFrom: f6afdd
-        colorTo: f6afdd00
-      }
     }
-	}
 	}
 ]
