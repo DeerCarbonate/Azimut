@@ -259,7 +259,7 @@ weapons: [
       keepVelocity: false
 	  drag: -0.003 
       lifetime: 1200
-      damage: 32
+      damage: 50
       height: 5
       speed: 2
       width: 4
@@ -270,9 +270,13 @@ weapons: [
       trailWidth: 0.9
       trailLength: 10
 	  smokeEffect: none
+	  pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      pierceDamageFactor: 0.01
 	  circleShooter: true
-      circleShooterRadius: 18
-      circleShooterRadiusSmooth: 140
+      circleShooterRadius: 30
+      circleShooterRadiusSmooth: 200
       circleShooterRotateSpeed: 4
       despawnEffect: {
         type: WaveEffect
