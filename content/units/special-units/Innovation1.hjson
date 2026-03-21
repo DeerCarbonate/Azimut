@@ -189,13 +189,13 @@ weapons: [
       type: ShootMulti
 	  source: {
       firstShotDelay: 0
-      shots: 4
+      shots: 1
 	      }
 	  dest: [
 	  {
 	  type: ShootPattern
 		shots: 3
-		shotDelay: 20
+		shotDelay: 30
 	}
 	]
 	}
@@ -258,7 +258,7 @@ weapons: [
 	  fragBullet: {
       keepVelocity: false
 	  drag: -0.003 
-      lifetime: 1400
+      lifetime: 1200
       damage: 32
       height: 5
       speed: 2
@@ -271,8 +271,8 @@ weapons: [
       trailLength: 10
 	  smokeEffect: none
 	  circleShooter: true
-      circleShooterRadius: 60
-      circleShooterRadiusSmooth: 120
+      circleShooterRadius: 18
+      circleShooterRadiusSmooth: 140
       circleShooterRotateSpeed: 4
       despawnEffect: {
         type: WaveEffect
