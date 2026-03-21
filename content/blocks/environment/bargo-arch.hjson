@@ -1,9 +1,13 @@
-{
-  "type": "TallWall",
-  "name": "Bargo ledge",
-  "emitLight": false,
-  "variants": 1
-  "clipSize": 96,
-  "shadowAlpha": 1.7,
-  "shadowOffset": -3.2
-}
+type: TallBlock
+name: bargo-ledge
+emitLight: false
+variants: 1
+clipSize: 800
+shadowAlpha: 1.7
+shadowOffset: -3.2
+solid: false
+solidifies: false
+hittable: false
+targetable: false
+drawTeam: false
+above: true
