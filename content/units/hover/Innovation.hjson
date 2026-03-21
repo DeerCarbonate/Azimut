@@ -196,20 +196,8 @@ weapons: [
       trailColor: f6afdd
       trailWidth: 1.2
       trailLength: 8
-      shootEffect: {
-        type: WaveEffect
-        startDelay: 0
-        lifetime: 26
-        sizeFrom: 0
-        sizeTo: 6
-        strokeFrom: 4
-        strokeTo: 2
-        colorFrom: f6afdd
-        colorTo: f6afdd00
-        followParent: true
-        rotWithParent: true
-        interp: pow3Out
-      }
+      smokeEffect: colorSpark
+	  shootEffect: none
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
@@ -287,7 +275,7 @@ weapons: [
         sizeTo: 12
         strokeFrom: 5
         strokeTo: 2
-        colorFrom: f6afdd40 
+        colorFrom: f6afdd30
         colorTo: f6afdd00
         followParent: true
         rotWithParent: true
