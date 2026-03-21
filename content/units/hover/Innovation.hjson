@@ -200,15 +200,15 @@ weapons: [
     type: ParticleEffect
     lifetime: 11
     particles: 2
-    length: 14
+    length: 12
     line: true
-    strokeTo: 1.5
+	strokefrom: 1
+    strokeTo: 1.4
     lenFrom: 2
     lenTo: 5
     colorFrom: f6afdd95
     colorTo: f6afdd00
     cone: 25
-    baseRotation: 180
     }
 	  shootEffect: none
       despawnEffect: {
