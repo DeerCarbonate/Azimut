@@ -267,7 +267,7 @@ weapons: [
     shootSound: shootSegment
     bullet: {
       keepVelocity: false
-      lifetime: 80
+      lifetime: 30
       drag: -0.01
       damage: 32
       height: 5
@@ -321,7 +321,8 @@ weapons: [
       fragSpread: 0
 	  fragBullet: {
       keepVelocity: false
-      lifetime: 1400
+	  drag: -0.003 
+      lifetime: 390
       drag: 0
       damage: 32
       height: 5
