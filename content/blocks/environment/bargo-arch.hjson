@@ -1,0 +1,9 @@
+{
+  "type": "TallWall",
+  "name": "Bargo ledge",
+  "emitLight": false,
+  "variants": 1
+  "clipSize": 96,
+  "shadowAlpha": 1.7,
+  "shadowOffset": -3.2
+}
