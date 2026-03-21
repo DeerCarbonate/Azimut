@@ -260,7 +260,7 @@ weapons: [
       lifetime: 390
       damage: 32
       height: 5
-      speed: 1.6
+      speed: 2
       width: 4
       type: BasicBulletType
       frontColor: ffffff
@@ -271,7 +271,7 @@ weapons: [
 	  smokeEffect: none
 	  circleShooter: true
       circleShooterRadius: 15 
-      circleShooterRadiusSmooth: 10
+      circleShooterRadiusSmooth: 25
       circleShooterRotateSpeed: 5
       despawnEffect: {
         type: WaveEffect
