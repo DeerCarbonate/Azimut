@@ -1,0 +1,14 @@
+difficulty: 6
+planet: gelion
+name: twelw
+sector: 25
+research: {
+parent: elev
+requiresUnlock: false
+objectives: [
+{
+type: SectorComplete
+preset: elev
+  }
+ ]
+}

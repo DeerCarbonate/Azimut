@@ -25,9 +25,26 @@ plans: [
 	}
 ]
 requirements: [
-	caterium/300
+	caterium/290
 	geliarin/200
-	venerium/450
-	platinum/560
-	cobalt/470
+	venerium/420
+	platinum/520
+	cobalt/750
 ]
+research: {
+  parent: "naval-editor"
+  planet: gelion
+    "requirements": [
+	  "venerium/6500"
+	  "cobalt/4500"
+	  "platinum/4400"
+	  "geliarin/800"
+	  "caterium/600"
+]
+objectives: [
+    {
+      type: sectorComplete
+      preset: "nine"
+    }
+  ]
+}

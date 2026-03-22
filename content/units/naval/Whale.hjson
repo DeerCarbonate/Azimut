@@ -17,7 +17,23 @@ trailLength: 25
 trailScl: 2.5
 waveTrailX: 5.5
 waveTrailY: -9
-description: "Shoots barrage of slow rockets."
+		research: {
+  parent: naval-adjuster
+  planet: gelion
+    requirements: [
+	  cobalt/4000
+	  compound/5000
+	  platinum/7000
+	  caterium/400
+	  zinc/700
+]
+	objectives: [
+    {
+type: SectorComplete
+preset: nine
+    }
+  ]
+}
 weapons: [
 {
     name: WhaleTwo-weapon

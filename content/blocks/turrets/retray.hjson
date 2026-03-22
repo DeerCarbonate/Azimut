@@ -249,3 +249,18 @@ drawer: {
     }
   ]
 }
+research: {
+  parent: "dezolo"
+  planet: "gelion"
+    "requirements": [
+	  "platinum/60000"
+	  "cobalt/6000"
+	  "caterium/500"
+]
+objectives: [
+    {
+      type: SectorComplete
+      preset: "nine"
+    }
+  ]
+}
