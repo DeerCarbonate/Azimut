@@ -2,7 +2,7 @@ type: naval
 flying: false
 rotateSpeed: 2
 drag: 0.19
-alwaysUnlocked: true
+alwaysUnlocked: false
 outlineColor: 1b1c25
 outlineRadius: 3
 armor: 9
