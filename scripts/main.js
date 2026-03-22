@@ -13,7 +13,7 @@ mod.meta.description =
 "The mod also has a [#768bff]Discord server[] — you can find the link in the README file on the GitHub page.\n\n" +
 
 "[red]THIS MOD IS STILL IN DEVELOPMENT![]\n" +
-"At the moment, development is approximately [accent]47%[] complete and features [accent]9 fully polished sectors[].\n\n" +
+"At the moment, development is approximately [accent]52%[] complete and features [accent]12 fully polished sectors[].\n\n" +
 
 "////////////////////////////////\n\n" +
 
