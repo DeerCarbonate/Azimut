@@ -253,7 +253,7 @@ research: {
   parent: "dezolo"
   planet: "gelion"
     "requirements": [
-	  "platinum/60000"
+	  "platinum/6000"
 	  "cobalt/6000"
 	  "caterium/500"
 ]
