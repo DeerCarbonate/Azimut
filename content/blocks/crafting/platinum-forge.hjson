@@ -37,7 +37,7 @@ consumes: {
 	]
 }
 craftTime: 60
-outputItem: platinum/5
+outputItem: platinum/7
 craftEffect: [
 {
   type: MultiEffect
