@@ -1,0 +1,27 @@
+type: StackRouter
+category: distribution
+requirements: [
+  geliarin/2
+  compound/4
+]   
+health: 200
+speed: 6
+hasPower: false
+consumesPower: false
+conductivePower: false
+baseEfficiency: 6
+underBullets: true
+solid: false
+  research: {
+  parent: "byte"
+  planet: gelion
+    "requirements": [
+	  "byte/1"
+]
+objectives: [
+    {
+      type: sectorComplete
+      preset: "nine"
+    }
+  ]
+}
