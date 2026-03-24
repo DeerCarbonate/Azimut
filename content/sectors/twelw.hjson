@@ -3,12 +3,12 @@ planet: gelion
 name: twelw
 sector: 25
 research: {
-parent: elev
+parent: nine
 requiresUnlock: false
 objectives: [
 {
 type: SectorComplete
-preset: elev
+preset: nine
   }
  ]
 }
