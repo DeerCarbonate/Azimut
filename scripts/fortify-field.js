@@ -8,7 +8,7 @@ try {
     const fortified = Vars.content.getByName(ContentType.status, "azimut-fortified");
     Log.info("fortified: " + fortified);
 
-    const target = UnitTypes.find("azimut-fortification-drone");
+    const target = Vars.content.getByName(ContentType.unit, "azimut-fortification-drone");
     Log.info("target: " + target);
 
     if (fortified && target) {
