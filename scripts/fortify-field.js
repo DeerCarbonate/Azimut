@@ -1,11 +1,8 @@
 try {
     Log.info("fortify-field 1");
     importClass(Packages.mindustry.ctype.ContentType);
-    Log.info("fortify-field 2");
     importClass(Packages.arc.util.Time);
-    Log.info("fortify-field 3");
-    importClass(Packages.mindustry.entities.abilities.UnitAbility);
-    Log.info("fortify-field 4");
+    Log.info("fortify-field 2");
 
     const fortified = Vars.content.getByName(ContentType.status, "azimut-fortified");
     Log.info("fortified: " + fortified);
@@ -14,7 +11,8 @@ try {
     Log.info("target: " + target);
 
     if (fortified && target) {
-        const FortifyFieldAbility = JavaAdapter(UnitAbility, {
+        const FortifyFieldAbility = JavaAdapter(
+            Packages.mindustry.entities.abilities.UnitAbility, {
             range: 83,
             reload: 10,
             _timer: 0,
