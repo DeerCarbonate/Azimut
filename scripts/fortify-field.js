@@ -1,11 +1,15 @@
+// fortify-field.js
 const ContentType = Java.type("mindustry.ctype.ContentType");
 const Time = Java.type("arc.util.Time");
 const UnitAbility = Java.type("mindustry.entities.abilities.UnitAbility");
 
-Events.on(ClientLoadEvent, () => {
-    const fortified = Vars.content.getByName(ContentType.status, "azimut-fortified");
-    if (!fortified) { Log.warn("azimut-fortified status not found!"); return; }
+const fortified = Vars.content.getByName(ContentType.status, "azimut-fortified");
+Log.info("fortified status: " + fortified);
 
+const target = UnitTypes.find("azimut-fortification-drone");
+Log.info("target unit: " + target);
+
+if (fortified && target) {
     const FortifyFieldAbility = JavaAdapter(UnitAbility, {
         range: 83,
         reload: 10,
@@ -23,13 +27,9 @@ Events.on(ClientLoadEvent, () => {
             });
         },
 
-        copy() {
-            return this;
-        }
+        copy() { return this; }
     });
 
-    const target = UnitTypes.find("azimut-fortification-drone");
-    if (!target) { Log.warn("azimut-fortification-drone not found!"); return; }
     target.abilities.add(new FortifyFieldAbility());
-    Log.info("FortifyField ability added!");
-});
+    Log.info("FortifyField added!");
+}
