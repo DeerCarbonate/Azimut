@@ -89,9 +89,9 @@ parts: [
     layer: 110
     haloRadius: 20.1
     haloRadiusTo: 6.0
-    radius: 3.6
+    radius: 3.8
     radiusTo: 6.2
-    triLength: 6
+    triLength: 6.8
     triLengthTo: 1
     haloRotateSpeed: 0.8
   }
@@ -109,9 +109,9 @@ parts: [
   {
     type: ShapePart
     radius: 20
-	radiusTo: 2
+	radiusTo: 6
     stroke: 1.5
-    strokeTo: 0
+    strokeTo: 1.5
     layer: 110
     circle: true
     hollow: true
