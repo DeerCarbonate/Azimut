@@ -1,11 +1,9 @@
 try {
     Log.info("fortify-field script started");
 
-    const ContentType = Java.type("mindustry.ctype.ContentType");
-    const Time = Java.type("arc.util.Time");
-    const UnitAbility = Java.type("mindustry.entities.abilities.UnitAbility");
-
-    Log.info("classes loaded");
+    const ContentType = Packages.mindustry.ctype.ContentType;
+    const Time = Packages.arc.util.Time;
+    const UnitAbility = Packages.mindustry.entities.abilities.UnitAbility;
 
     const fortified = Vars.content.getByName(ContentType.status, "azimut-fortified");
     Log.info("fortified: " + fortified);
