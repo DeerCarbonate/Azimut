@@ -1,9 +1,11 @@
 try {
-    Log.info("fortify-field script started");
-
-    const ContentType = Packages.mindustry.ctype.ContentType;
-    const Time = Packages.arc.util.Time;
-    const UnitAbility = Packages.mindustry.entities.abilities.UnitAbility;
+    Log.info("fortify-field 1");
+    importClass(Packages.mindustry.ctype.ContentType);
+    Log.info("fortify-field 2");
+    importClass(Packages.arc.util.Time);
+    Log.info("fortify-field 3");
+    importClass(Packages.mindustry.entities.abilities.UnitAbility);
+    Log.info("fortify-field 4");
 
     const fortified = Vars.content.getByName(ContentType.status, "azimut-fortified");
     Log.info("fortified: " + fortified);
