@@ -1,0 +1,28 @@
+type: UnitCargoLoader
+squareSprite: false
+size: 3
+health: 675
+unitType: fortification-drone
+itemCapacity: 0
+separateItemCapacity: true
+hasItems: true
+hasPower: false
+hasLiquids: true
+category: effect
+requirements: [
+  cobalt/130
+  geliarin/35
+  venerium/150
+  platinum/85
+]
+consumes: {
+  liquids: [
+    power/0.14
+    iterin/0.1
+  ]
+}
+polyStroke: 1.5
+polyRadius: 11
+polySides: 6
+polyRotateSpeed: 0.8
+polyColor: 6793f130
