@@ -87,13 +87,13 @@ parts: [
     shapes: 3
     color: bf92f9
     layer: 110
-    haloRadius: 16.2
-    haloRadiusTo: 6.2
-    radius: 5
-    radiusTo: 10
-    triLength: 10
-    triLengthTo: 3
-    haloRotateSpeed: 2.0
+    haloRadius: 20.1
+    haloRadiusTo: 6.0
+    radius: 3.6
+    radiusTo: 6.2
+    triLength: 6
+    triLengthTo: 1
+    haloRotateSpeed: 0.8
   }
   {
     type: ShapePart
@@ -106,6 +106,17 @@ parts: [
     radius: 2
     radiusTo: 2
   }
+  {
+    type: ShapePart
+    radius: 20
+	radiusTo: 2
+    stroke: 1.5
+    strokeTo: 0
+    layer: 110
+    circle: true
+    hollow: true
+    color: bf92f9
+   }
 ]
 
 weapons: [
