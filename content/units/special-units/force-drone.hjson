@@ -123,6 +123,7 @@ abilities: [
     y: 0
     width: 4
     display: true
+    chanceDeflect: 1
   }
     {
     type: ShieldArcAbility
@@ -136,6 +137,7 @@ abilities: [
     y: 0
     width: 4
     display: true
+	chanceDeflect: 1
   }
     {
     type: ShieldArcAbility
@@ -149,6 +151,7 @@ abilities: [
     y: 0
     width: 4
     display: true
+    chanceDeflect: 1
   }
     {
     type: ShieldArcAbility
@@ -162,6 +165,7 @@ abilities: [
     y: 0
     width: 4
     display: true
+    chanceDeflect: 1
   }
     {
     type: ShieldArcAbility
@@ -175,6 +179,7 @@ abilities: [
     y: 0
     width: 4
     display: true
+    chanceDeflect: 1
   }
     {
     type: ShieldArcAbility
@@ -188,6 +193,7 @@ abilities: [
     y: 0
     width: 4
     display: true
+    chanceDeflect: 1
   }
     {
     type: ShieldArcAbility
@@ -201,6 +207,7 @@ abilities: [
     y: 0
     width: 4
     display: true
+    chanceDeflect: 1
   }
       {
     type: ShieldArcAbility
@@ -214,10 +221,11 @@ abilities: [
     y: 0
     width: 4
     display: true
+	chanceDeflect: 1
   }
   {
     type: ForceFieldAbility
-    radius: 90
+    radius: 121
     sides: 40
     cooldown: 300
     regen: 2
