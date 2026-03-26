@@ -72,6 +72,16 @@ interp: pow3Out
 }
 
 parts: [
+  {
+    type: RegionPart
+    name: azimut-shield-low
+    outline: false
+    blending: additive
+    color: efe67188
+    layer: 88
+    xScl: 1.75
+    yScl: 2.45
+  }
     {
     type: HaloPart
     progress: warmup
@@ -122,7 +132,7 @@ abilities: [
     angleOffset: 0
     y: 0
     width: 4
-    display: true
+    display: false
     chanceDeflect: 1
   }
     {
@@ -136,7 +146,7 @@ abilities: [
     angleOffset: 45
     y: 0
     width: 4
-    display: true
+    display: false
 	chanceDeflect: 1
   }
     {
@@ -150,7 +160,7 @@ abilities: [
     angleOffset: 90
     y: 0
     width: 4
-    display: true
+    display: false
     chanceDeflect: 1
   }
     {
@@ -164,7 +174,7 @@ abilities: [
     angleOffset: 135
     y: 0
     width: 4
-    display: true
+    display: false
     chanceDeflect: 1
   }
     {
@@ -178,7 +188,7 @@ abilities: [
     angleOffset: 180
     y: 0
     width: 4
-    display: true
+    display: false
     chanceDeflect: 1
   }
     {
@@ -192,7 +202,7 @@ abilities: [
     angleOffset: 225
     y: 0
     width: 4
-    display: true
+    display: false
     chanceDeflect: 1
   }
     {
@@ -206,7 +216,7 @@ abilities: [
     angleOffset: 270
     y: 0
     width: 4
-    display: true
+    display: false
     chanceDeflect: 1
   }
       {
@@ -220,7 +230,7 @@ abilities: [
     angleOffset: 315
     y: 0
     width: 4
-    display: true
+    display: false
 	chanceDeflect: 1
   }
   {
@@ -230,6 +240,6 @@ abilities: [
     cooldown: 300
     regen: 2
     max: 300
-	display: true
+	display: false
   }
 ]
