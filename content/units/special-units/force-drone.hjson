@@ -79,8 +79,6 @@ parts: [
     blending: additive
     color: efe67188
     layer: 88
-    xScl: 1.75
-    yScl: 2.45
   }
     {
     type: HaloPart
