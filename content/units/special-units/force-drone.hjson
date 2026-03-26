@@ -72,14 +72,6 @@ interp: pow3Out
 }
 
 parts: [
-  {
-    type: ShapePart
-    circle: true
-    hollow: true
-    layer: 110
-    color: efe671
-    radius: 150
-  }
     {
     type: HaloPart
     progress: warmup
@@ -124,7 +116,7 @@ abilities: [
     regen: 1
     max: 1600
     angle: 55
-    radius: 95
+    radius: 130
     cooldown: 300
     whenShooting: false
     angleOffset: 0
@@ -137,7 +129,20 @@ abilities: [
     regen: 1
     max: 1600
     angle: 55
-    radius: 95
+    radius: 130
+    cooldown: 300
+    whenShooting: false
+    angleOffset: 45
+    y: 0
+    width: 4
+    display: true
+  }
+    {
+    type: ShieldArcAbility
+    regen: 1
+    max: 1600
+    angle: 55
+    radius: 130
     cooldown: 300
     whenShooting: false
     angleOffset: 90
@@ -150,7 +155,20 @@ abilities: [
     regen: 1
     max: 1600
     angle: 55
-    radius: 95
+    radius: 130
+    cooldown: 300
+    whenShooting: false
+    angleOffset: 135
+    y: 0
+    width: 4
+    display: true
+  }
+    {
+    type: ShieldArcAbility
+    regen: 1
+    max: 1600
+    angle: 55
+    radius: 130
     cooldown: 300
     whenShooting: false
     angleOffset: 180
@@ -163,10 +181,36 @@ abilities: [
     regen: 1
     max: 1600
     angle: 55
-    radius: 95
+    radius: 130
+    cooldown: 300
+    whenShooting: false
+    angleOffset: 225
+    y: 0
+    width: 4
+    display: true
+  }
+    {
+    type: ShieldArcAbility
+    regen: 1
+    max: 1600
+    angle: 55
+    radius: 130
     cooldown: 300
     whenShooting: false
     angleOffset: 270
+    y: 0
+    width: 4
+    display: true
+  }
+      {
+    type: ShieldArcAbility
+    regen: 1
+    max: 1600
+    angle: 55
+    radius: 130
+    cooldown: 300
+    whenShooting: false
+    angleOffset: 315
     y: 0
     width: 4
     display: true
