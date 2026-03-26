@@ -114,7 +114,7 @@ weapons: [
         cone: 20
         lifetime: 65
         length: 30
-        interp: pow2in
+        interp: pow2In
         sizeFrom: 3.2
         sizeTo: 0
       }
