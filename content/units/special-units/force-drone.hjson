@@ -225,7 +225,7 @@ abilities: [
   }
   {
     type: ForceFieldAbility
-    radius: 121
+    radius: 126
     sides: 40
     cooldown: 300
     regen: 2
