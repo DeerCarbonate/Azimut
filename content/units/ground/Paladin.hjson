@@ -1,14 +1,13 @@
 type: legs
 flying: false
 rotateSpeed: 1.8
-omniMove: true
+hovering: true
+targetAir: true
+stepSound: walkerStep
 outlineColor: 22251b
 outlineRadius: 3
 alwaysUnlocked: false
 lockLegBase: true
-hovering: true
-targetAir: true
-stepSound: walkerStep
 legCount: 4
 legExtension: 4
 legMaxLength: 2.7
@@ -18,13 +17,12 @@ legLength: 16.5
 legLengthScl: 0.9
 legForwardScl: 0.66
 rippleScale: 0.7
-legspeed: 0.35
-legTrns: 0.9
+legSpeed: 0.35
 legGroupSize: 1
 legContinuousMove: true
 accel: 0.5
 armor: 11
-stepshake: 0.1
+stepShake: 0.1
 health: 4700
 speed: 0.46
 healColor: f0aba488
@@ -66,7 +64,6 @@ weapons: [
     shootY: 10.85
     shootX: 1.26
     recoil: 1.5
-    cooldowntime: 120
     rotationLimit: 120
     mirror: false
     alternate: false
@@ -117,7 +114,7 @@ weapons: [
         cone: 20
         lifetime: 65
         length: 30
-        int: pow2in
+        interp: pow2in
         sizeFrom: 3.2
         sizeTo: 0
       }
@@ -193,22 +190,18 @@ weapons: [
     rotate: true
     rotateSpeed: 3.5
     rotationLimit: 120
-    layerOffSet: -0.001
     name: Paladin-weapontwo
     reload: 80
     rotate: true
     mirror: false
     alternate: false
     shootSound: shotguns
-	soundVolume: 4
-	loopsoundVolume: 4
     shoot: {
       type: ShootSpread
 	  shots: 1
     }
     bullet: {
     type: ShrapnelBulletType
-	sparks: 0
     pierce: false
     length: 85
 	width: 4
@@ -234,22 +227,18 @@ weapons: [
     rotate: true
     rotateSpeed: 3.6
     rotationLimit: 120
-    layerOffSet: -0.001
     name: Paladin-weapontwo
     reload: 80
     rotate: true
     mirror: false
     alternate: false
     shootSound: shotguns
-	soundVolume: 4
-	loopsoundVolume: 4
     shoot: {
       type: ShootSpread
 	  shots: 1
     }
     bullet: {
     type: ShrapnelBulletType
-	sparks: 0
     pierce: false
     length: 85
 	width: 4
