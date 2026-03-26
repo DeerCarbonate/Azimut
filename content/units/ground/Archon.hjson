@@ -181,7 +181,6 @@ weapons: [
             outlineColor: 22251b
             outlineRadius: 0
 
-            heatProgress: charge
             moveRot: 3.5
             moveY: 6.5
             moveX: -0.7
