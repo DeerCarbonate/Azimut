@@ -113,7 +113,7 @@ parts: [
 abilities: [
   {
     type: ShieldArcAbility
-    regen: 1
+    regen: 3
     max: 1600
     angle: 55
     radius: 130
@@ -126,7 +126,7 @@ abilities: [
   }
     {
     type: ShieldArcAbility
-    regen: 1
+    regen: 3
     max: 1600
     angle: 55
     radius: 130
@@ -139,7 +139,7 @@ abilities: [
   }
     {
     type: ShieldArcAbility
-    regen: 1
+    regen: 3
     max: 1600
     angle: 55
     radius: 130
@@ -152,7 +152,7 @@ abilities: [
   }
     {
     type: ShieldArcAbility
-    regen: 1
+    regen: 3
     max: 1600
     angle: 55
     radius: 130
@@ -165,7 +165,7 @@ abilities: [
   }
     {
     type: ShieldArcAbility
-    regen: 1
+    regen: 3
     max: 1600
     angle: 55
     radius: 130
@@ -178,7 +178,7 @@ abilities: [
   }
     {
     type: ShieldArcAbility
-    regen: 1
+    regen: 3
     max: 1600
     angle: 55
     radius: 130
@@ -191,7 +191,7 @@ abilities: [
   }
     {
     type: ShieldArcAbility
-    regen: 1
+    regen: 3
     max: 1600
     angle: 55
     radius: 130
@@ -204,7 +204,7 @@ abilities: [
   }
       {
     type: ShieldArcAbility
-    regen: 1
+    regen: 3
     max: 1600
     angle: 55
     radius: 130
@@ -215,5 +215,13 @@ abilities: [
     width: 4
     display: true
   }
-
+  {
+    type: ForceFieldAbility
+    radius: 90
+    sides: 40
+    cooldown: 300
+    regen: 2
+    max: 300
+	display: true
+  }
 ]
