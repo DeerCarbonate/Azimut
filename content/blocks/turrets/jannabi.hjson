@@ -17,8 +17,8 @@ targetGround: true
 recoilAmount: 1.8
 rotateSpeed: 1
 shootSound: laser4
-ammoPerShot: 4
-heatRequirement: 14
+ammoPerShot: 2
+heatRequirement: 12
 shoot: {
   shots: 1
   firstShotDelay: 60
@@ -30,9 +30,9 @@ shoot: {
  frontColor: c3feff
  backColor: 6898c3
  hitColor: 6898c3
- splashDamage: 280
- splashDamageRadius: 74
- damage: 270
+ splashDamage: 310
+ splashDamageRadius: 75
+ damage: 290
  despawnSound: explosionArtilleryShockBig
  hitSound: explosionArtilleryShockBig
  lifetime: 68
