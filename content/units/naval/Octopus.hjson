@@ -20,17 +20,17 @@
 {
     type: StatusFieldAbility
     effect: tow
-    duration: 400
-    reload: 450
+    duration: 800
+    reload: 850
     range: 120
 	        applyEffect: {
             type: ParticleEffect
             lifetime: 50
-            region: circle
+            region: azimut-hollow-circle
             sizeFrom: 2.5
             sizeTo: 0
-            colorFrom: a4f0d770
-            colorTo: a4f0d700
+            colorFrom: a4f0d700
+            colorTo: a4f0d710
             length: -35
             baseLength: 35
             particles: 5

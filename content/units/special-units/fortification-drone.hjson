@@ -118,3 +118,58 @@ parts: [
     color: 6793f1
    }
 ]
+abilities: [
+{
+    type: StatusFieldAbility
+    effect: fortify
+    duration: 9000
+    reload: 850
+    range: 120
+	        applyEffect: {
+            type: ParticleEffect
+            lifetime: 50
+            region: azimut-hollow-circle
+            sizeFrom: 2.5
+            sizeTo: 0
+            colorFrom: 6793f100
+            colorTo: 6793f110
+            length: -35
+            baseLength: 35
+            particles: 5
+            interp: pow10In
+            sizeInterp: pow10In
+        }
+
+    }
+    {
+    type: EnergyFieldAbility
+    maxTargets: 200
+    damage: 0
+    reload: 850
+    range: 120
+	color: 6793f1
+    x: 0
+    y: 0
+	sameTypeHealMult: 0
+    statusDuration: 0
+    healPercent: 0
+	rotate: false
+	hitUnits: true
+	sectorRad: 0
+	hitBuildings: false
+		hitEffect: {
+		type: ParticleEffect
+		region: azimut-hollow-circle
+		particles: 1
+		length: 45
+		lifetime: 67
+		interp: circleOut
+		sizeInterp: pow5Out
+		cone: 360
+		colorFrom: 6793f1
+		colorTo: 6793f190
+		sizeFrom: 4.3
+		sizeTo: 0
+	}
+}
+]
