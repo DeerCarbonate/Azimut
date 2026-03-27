@@ -2,7 +2,7 @@ researchCostMultiplier: 0.5
 size: 3
 outlineColor: 0c0c12
 health: 1600
-ammoPerShot: 6
+ammoPerShot: 3
 alwaysUnlocked: false
 squareSprite: false
 coolant: {
