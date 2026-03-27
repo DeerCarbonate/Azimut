@@ -121,7 +121,7 @@ parts: [
 abilities: [
 {
     type: StatusFieldAbility
-    effect: fortify
+    effect: fortified
     duration: 9000
     reload: 850
     range: 120
