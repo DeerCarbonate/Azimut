@@ -121,8 +121,8 @@ parts: [
 abilities: [
   {
     type: ShieldArcAbility
-    regen: 3
-    max: 1600
+    regen: 8
+    max: 950
     angle: 55
     radius: 130
     cooldown: 300
@@ -131,12 +131,12 @@ abilities: [
     y: 0
     width: 4
     display: false
-    chanceDeflect: 1
+    chanceDeflect: 0.2
   }
     {
     type: ShieldArcAbility
-    regen: 3
-    max: 1600
+    regen: 8
+    max: 950
     angle: 55
     radius: 130
     cooldown: 300
@@ -145,12 +145,12 @@ abilities: [
     y: 0
     width: 4
     display: false
-	chanceDeflect: 1
+	chanceDeflect: 0.2
   }
     {
     type: ShieldArcAbility
-    regen: 3
-    max: 1600
+    regen: 8
+    max: 950
     angle: 55
     radius: 130
     cooldown: 300
@@ -159,12 +159,12 @@ abilities: [
     y: 0
     width: 4
     display: false
-    chanceDeflect: 1
+    chanceDeflect: 0.2
   }
     {
     type: ShieldArcAbility
-    regen: 3
-    max: 1600
+    regen: 8
+    max: 950
     angle: 55
     radius: 130
     cooldown: 300
@@ -173,12 +173,12 @@ abilities: [
     y: 0
     width: 4
     display: false
-    chanceDeflect: 1
+    chanceDeflect: 0.2
   }
     {
     type: ShieldArcAbility
-    regen: 3
-    max: 1600
+    regen: 8
+    max: 950
     angle: 55
     radius: 130
     cooldown: 300
@@ -187,12 +187,12 @@ abilities: [
     y: 0
     width: 4
     display: false
-    chanceDeflect: 1
+    chanceDeflect: 0.2
   }
     {
     type: ShieldArcAbility
-    regen: 3
-    max: 1600
+    regen: 8
+    max: 950
     angle: 55
     radius: 130
     cooldown: 300
@@ -201,12 +201,12 @@ abilities: [
     y: 0
     width: 4
     display: false
-    chanceDeflect: 1
+    chanceDeflect: 0.2
   }
     {
     type: ShieldArcAbility
-    regen: 3
-    max: 1600
+    regen: 8
+    max: 950
     angle: 55
     radius: 130
     cooldown: 300
@@ -215,12 +215,12 @@ abilities: [
     y: 0
     width: 4
     display: false
-    chanceDeflect: 1
+    chanceDeflect: 0.2
   }
       {
     type: ShieldArcAbility
-    regen: 3
-    max: 1600
+    regen: 8
+    max: 950
     angle: 55
     radius: 130
     cooldown: 300
@@ -229,7 +229,7 @@ abilities: [
     y: 0
     width: 4
     display: false
-	chanceDeflect: 1
+	chanceDeflect: 0.2
   }
   {
     type: ForceFieldAbility
@@ -237,7 +237,7 @@ abilities: [
     sides: 40
     cooldown: 300
     regen: 2
-    max: 300
+    max: 500
 	display: false
   }
 ]

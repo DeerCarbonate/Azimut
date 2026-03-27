@@ -10,14 +10,15 @@ hasPower: false
 hasLiquids: true
 category: effect
 requirements: [
-  cobalt/130
-  geliarin/35
+  compound/100
+  geliarin/55
   venerium/150
   platinum/85
 ]
 consumes: {
+	power: 5
   liquids: [
-    power/0.14
+    swartzite/0.3
     iterin/0.1
   ]
 }
