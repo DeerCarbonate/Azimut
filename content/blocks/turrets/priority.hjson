@@ -81,7 +81,7 @@ shootType: {
  pierceCap: 3
 	
     lifetime: 12
-    damage: 120
+    damage: 112
 	
 	laserAbsorb:true
 }
