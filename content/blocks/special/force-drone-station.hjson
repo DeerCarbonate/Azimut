@@ -11,9 +11,9 @@ hasLiquids: true
 category: effect
 requirements: [
   compound/100
-  geliarin/55
-  venerium/150
-  platinum/85
+  geliarin/35
+  caterium/90
+  venerium/85
 ]
 consumes: {
 	power: 5
@@ -27,3 +27,19 @@ polyRadius: 11
 polySides: 6
 polyRotateSpeed: 0.8
 polyColor: efe67130
+research: {
+  parent: heal-drone-station
+  planet: gelion
+  requirements: [
+    venerium/2000
+    compound/1000
+    caterium/650
+    geliarin/800
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: nine
+    }
+  ]
+}
