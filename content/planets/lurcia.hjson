@@ -36,6 +36,7 @@ platinum
 clearSectorOnLose: true
 allowLaunchSchematics: false
 allowLaunchLoadout: false
+hasAtmosphere: false
 
 allowWaveSimulation: true
 prebuildBase: true
