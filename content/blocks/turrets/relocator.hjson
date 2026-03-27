@@ -16,7 +16,7 @@ targetGround: true
 rotateSpeed: 2
 shootSound: machine-gun-shot
 shootSoundVolume: 0.55
-ammoPerShot: 3
+ammoPerShot: 1
 shootY: -4.6
 inaccuracy: 6
 research: {
