@@ -19,15 +19,14 @@
 	consumes: {
   liquids: [
   ammonia/0.7
-  power/0.3
   iterin/0.2
 	]
 }
 polyStroke: 1.8
 polyRadius: 10
-polySides: 9
-polyRotateSpeed: 3
-polyColor: bf92f9
+polySides: 6
+polyRotateSpeed: 1.2
+polyColor: bf92f980
 research: {
   parent: "cobalt-duct-bridge"
   planet: gelion
