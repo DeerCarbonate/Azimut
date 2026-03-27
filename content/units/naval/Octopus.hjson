@@ -30,7 +30,7 @@
             sizeFrom: 2.5
             sizeTo: 0
             colorFrom: a4f0d700
-            colorTo: a4f0d710
+            colorTo: a4f0d760
             length: -35
             baseLength: 35
             particles: 5

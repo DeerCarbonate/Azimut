@@ -10,15 +10,15 @@ hasPower: false
 hasLiquids: true
 category: effect
 requirements: [
-  cobalt/130
-  geliarin/35
-  venerium/150
+  compound/80
+  zinc/80
+  cobalt/170
   platinum/85
 ]
 consumes: {
+  power: 4
   liquids: [
-    power/0.14
-    iterin/0.1
+    cesium/0.6
   ]
 }
 polyStroke: 1.5
@@ -26,3 +26,16 @@ polyRadius: 11
 polySides: 6
 polyRotateSpeed: 0.8
 polyColor: 6793f130
+research: {
+  parent: "byte"
+  planet: gelion
+    "requirements": [
+	  "byte/1"
+]
+objectives: [
+    {
+      type: sectorComplete
+      preset: "nine"
+    }
+  ]
+}
