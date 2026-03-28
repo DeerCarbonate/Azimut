@@ -1,6 +1,4 @@
 type: Conduit
-name: Directed conduit
-description: Transports liquids forward.
 category: liquid
 research: {
   parent: "pump"

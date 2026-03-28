@@ -1,6 +1,4 @@
 type: LiquidJunction
-name: Directed junction
-description: Used for crossing two conduits.
 solid: false
 category: liquid
 squareSprite: false
