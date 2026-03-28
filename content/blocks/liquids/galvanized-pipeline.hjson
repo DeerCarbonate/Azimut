@@ -1,0 +1,34 @@
+  type: LiquidBridge
+  requirements: [
+    compound/4
+    zinc/2
+	venerium/4
+  ]
+  category: liquid
+  floating: true
+  range: 9
+  arrowPeriod: 0.9
+  arrowTimeScl: 2.75
+  hasPower: true
+  canOverdrive: false
+  pulse: true
+  explosivenessScale: 0.2
+  flammabilityScale: 0.2
+  liquidCapacity: 100
+  consumePower: 0
+  hasPower: false
+  research: {
+  parent: "directed-conduit"
+  planet: gelion
+    "requirements": [
+	  "compound/4000"
+	  "zinc/200"
+	  "venerium/2000"
+]
+objectives: [
+    {
+      type: SectorComplete
+      preset: "eight"
+    }
+  ]
+}
