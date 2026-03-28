@@ -2,25 +2,39 @@ type: Pump
 size: 2
 category: liquid
 squareSprite: false
-research: mechanical-quarry
-requirements: [
-  cobalt/25
-  venerium/20
+warmupSpeed: 0.009
+consumes: {
+	power: 1.2
+}
+research: {
+  parent: "pump"
+  planet: gelion
+    "requirements": [
+	  "venerium/8000"
+	  "compound/4000"
+	  "geliarin/1500"
+	  "zinc/500"
 ]
-pumpAmount: 0.12
-researchCostMultiplier: 0.3
+objectives: [
+{
+type: SectorComplete
+preset: seven
+  }
+ ]
+}
+requirements: [
+  compound/40
+  zinc/20
+  geliarin/35
+  venerium/80
+]
+pumpAmount: 0.24
 drawer: {
   type: DrawMulti
   drawers: [
   	    {
       type: DrawRegion
       suffix: -bottom
-    }
-	{
-      type: DrawRegion
-      suffix: -fan
-      rotateSpeed: 8.5
-      spinSprite: true
     }
     {
       type: DrawLiquidTile
