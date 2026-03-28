@@ -23,11 +23,11 @@
   power/0.3
 	]
 }
-polyStroke: 1.8
-polyRadius: 10
-polySides: 6
-polyRotateSpeed: 1.2
-polyColor: bf92f980
+polyStroke: 1.45
+polyRadius: 17
+polySides: 7
+polyRotateSpeed: 0.8
+polyColor: bf92f940
 research: {
   parent: "cobalt-duct-bridge"
   planet: gelion
