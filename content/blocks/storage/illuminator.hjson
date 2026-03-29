@@ -22,3 +22,17 @@ drawer: {
     }
   ]
 }
+research: {
+  parent: "core-forum"
+  planet: gelion
+    "requirements": [
+	  "platinum/200"
+	  "cobalt/500"
+]
+objectives: [
+    {
+      type: SectorComplete
+      preset: "twos"
+    }
+  ]
+}
