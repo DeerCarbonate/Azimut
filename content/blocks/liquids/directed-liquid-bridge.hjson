@@ -1,6 +1,4 @@
 type: DirectionLiquidBridge
-name: Directed liquid bridge
-description: Transports liquids over terrain or buildings.
 size: 1
 category: liquid
 squareSprite: false
