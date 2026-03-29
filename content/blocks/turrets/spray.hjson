@@ -1,0 +1,53 @@
+type: LiquidTurret
+health: 900
+size: 2
+reload: 2
+inaccuracy: 14
+hasLiquids: true
+liquidCapacity: 30
+outlineColor: 2C2A36
+recoil: 2.5
+category: turret
+range: 175
+requirements: [
+  cobalt/90
+  venerium/20
+  geliarin/40
+]
+ammoTypes: {
+  ammonia: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: ammonia
+    speed: 2.5
+    lifetime: 70
+    knockback: 0.5
+    status: slow
+    statusDuration: 30
+    damage: 4
+    layer: 98
+    fragBullets: 1
+    fragBullet: {
+      type: LiquidBulletType
+      liquid: ammonia
+      status: slow
+      statusDuration: 60
+      damage: 1
+      puddleSize: 18
+      despawnHit: true
+      despawnSound: splash
+      speed: 0
+      lifetime: 0
+      splashDamage: 2
+      splashDamageRadius: 3
+      hitEffect: none
+      collidesAir: false
+    }
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spray-
+}
+squareSprite: false
