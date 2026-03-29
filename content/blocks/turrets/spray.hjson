@@ -5,7 +5,7 @@ reload: 2
 inaccuracy: 14
 hasLiquids: true
 liquidCapacity: 30
-outlineColor: 2C2A36
+outlineColor: 0c0c12
 recoil: 2.5
 category: turret
 range: 175
