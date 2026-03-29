@@ -1,7 +1,5 @@
 type: LiquidRouter
-name : Large liquid tank
 squareSprite: false
-description: Stores big amount of liquid.
 health: 850
 size: 3
 hasLiquids: true
