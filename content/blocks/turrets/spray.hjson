@@ -16,14 +16,14 @@ requirements: [
 ]
                                 smokeEffect: [{
         type: ParticleEffect
-        colorFrom: d8868680
+        colorFrom: b0b0b080
         colorTo: 99999900
-        particles: 7
+        particles: 6
         cone: 17
         lifetime: 90
-        length: 90
+        length: 130
         interp: pow4Out
-                sizeInterp: pow2In
+        sizeInterp: pow2In
         sizeFrom: 3
         sizeTo: 5.6
         }
