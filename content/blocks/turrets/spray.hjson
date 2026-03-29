@@ -89,6 +89,66 @@ ammoTypes: {
       collidesAir: false
     }
   }
+  cesium: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: cesium
+    speed: 2.5
+    lifetime: 70
+    knockback: 0.5
+    status: slow
+    statusDuration: 80
+    damage: 4
+    layer: 98
+    fragBullets: 1
+    fragBullet: {
+      type: LiquidBulletType
+      liquid: cesium
+      status: slow
+      statusDuration: 80
+      damage: 1
+      puddleSize: 18
+      despawnHit: true
+      despawnSound: splash
+      speed: 0
+      lifetime: 0
+      splashDamage: 2
+      splashDamageRadius: 3
+      hitEffect: none
+      collidesAir: false
+    }
+  }
+  swartzite: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: swartzite
+    speed: 2.5
+    lifetime: 70
+    knockback: 0.5
+    status: slow
+    statusDuration: 80
+    damage: 4
+    layer: 98
+    fragBullets: 1
+    fragBullet: {
+      type: LiquidBulletType
+      liquid: swartzite
+      status: slow
+      statusDuration: 80
+      damage: 1
+      puddleSize: 18
+      despawnHit: true
+      despawnSound: splash
+      speed: 0
+      lifetime: 0
+      splashDamage: 2
+      splashDamageRadius: 3
+      hitEffect: none
+      collidesAir: false
+    }
+  }
 }
 drawer: {
   type: DrawTurret
