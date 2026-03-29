@@ -182,6 +182,6 @@ ammoTypes: {
 }
 drawer: {
   type: DrawTurret
-  basePrefix: spray-
+  basePrefix: azimut-
 }
 squareSprite: false
