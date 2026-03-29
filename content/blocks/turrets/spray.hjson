@@ -183,5 +183,22 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: azimut-
+    parts: [
+  {
+      type: RegionPart,
+      suffix: -blade,
+      under: false,
+      mirror: true,
+      heatProgress: heat
+      progress: warmup
+	  x: 30000,
+	  y: 0,
+	  moveRot: 4,
+	  moveY: -0.06,
+	  moveX: 1.9,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	]
 }
 squareSprite: false
