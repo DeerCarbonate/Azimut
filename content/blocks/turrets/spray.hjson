@@ -14,6 +14,20 @@ requirements: [
   venerium/20
   geliarin/40
 ]
+                                smokeEffect: [{
+        type: ParticleEffect
+        colorFrom: d8868680
+        colorTo: 99999900
+        particles: 7
+        cone: 17
+        lifetime: 90
+        length: 90
+        interp: pow4Out
+                sizeInterp: pow2In
+        sizeFrom: 3
+        sizeTo: 5.6
+        }
+            ]
 ammoTypes: {
   ammonia: {
     despawnEffect: none
