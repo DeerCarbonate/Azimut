@@ -607,6 +607,7 @@ drawer: {
 	  moveY: 12
       heatColor: ff4500,
       heatLayer: 1,
+	  y: -2
     }
 	{
 	type: FlarePart
