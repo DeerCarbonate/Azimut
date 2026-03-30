@@ -118,16 +118,20 @@ ammoTypes: {
       collidesAir: false
 	    fragBullets: 1
         fragBullet: {
-          type: ExplosionBulletType
-          killShooter: false
+          type: BasicBulletType
+		  lifetime: 1
           splashDamage: 0
           splashDamageRadius: 0
           splashDamagePierce: false
-          hitSound: dullExplosion
-          despawnSound: dullExplosion
-          incendChance: 0.75
-          incendAmount: 14
-          incendSpread: 12
+          hitSound: none
+          despawnSound: none
+          incendSpread: 10
+          incendAmount: 1
+          incendChance: 1
+		  frontColor: ffffff00
+          backColor: fcf0bd00
+		  hitEffect: none
+		  despawnEffect: none
         }
     }
   }
