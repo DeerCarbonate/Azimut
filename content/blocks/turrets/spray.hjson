@@ -35,7 +35,7 @@ ammoTypes: {
     liquid: ammonia
     speed: 2.5
     lifetime: 70
-    knockback: 0.5
+    knockback: 0.4
     status: slow
     statusDuration: 80
     damage: 4
@@ -65,10 +65,10 @@ ammoTypes: {
     liquid: iterin
     speed: 2.5
     lifetime: 70
-    knockback: 0.5
+    knockback: 0.6
     status: slow
     statusDuration: 80
-    damage: 5
+    damage: 2
     layer: 98
     fragBullets: 1
     fragBullet: {
@@ -95,10 +95,10 @@ ammoTypes: {
     liquid: cesium
     speed: 2.5
     lifetime: 70
-    knockback: 0.5
+    knockback: 0.7
     status: slow
     statusDuration: 80
-    damage: 4
+    damage: 7
     layer: 98
     fragBullets: 1
     fragBullet: {
@@ -116,6 +116,19 @@ ammoTypes: {
       splashDamageRadius: 3
       hitEffect: none
       collidesAir: false
+	    fragBullets: 1
+        fragBullet: {
+          type: ExplosionBulletType
+          killShooter: false
+          splashDamage: 0
+          splashDamageRadius: 0
+          splashDamagePierce: false
+          hitSound: dullExplosion
+          despawnSound: dullExplosion
+          incendChance: 0.75
+          incendAmount: 14
+          incendSpread: 12
+        }
     }
   }
   swartzite: {
