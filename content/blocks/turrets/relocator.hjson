@@ -59,7 +59,7 @@ speed: 6.5
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 32
+damage: 35
 pierce: true
 pierceBuilding: true
 pierceCap: 3
