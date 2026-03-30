@@ -48,7 +48,7 @@ speed: 2.8
 collidesTiles: true
 collidesGround: true
 lifetime: 75
-damage: 87
+damage: 90
 reloadMultiplier:1.3
 backColor: b9c4d8
 frontColor: ecf4fb
@@ -149,7 +149,7 @@ speed: 2.8
 collidesTiles: true
 collidesGround: true
 lifetime: 65
-damage: 100
+damage: 105
 backColor: 957655
 frontColor: dacaaa
 fragBullets: 6
@@ -247,7 +247,7 @@ speed: 3.2
 collidesTiles: true
 collidesGround: true
 lifetime: 35
-damage: 11
+damage: 16
 backColor: 957655
 frontColor: dacaaa
 despawnEffect: none
@@ -270,7 +270,7 @@ fragBullet: {
       width: 2.7
       sideAngle: 4
       sideWidth: 3.2
-      damage: 17
+      damage: 19
       pierceBuilding: false
       pierce: true
       pierceCap: 2
