@@ -182,6 +182,9 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: azimut-
+    iconOverride: [
+    -icon
+  ]
     parts: [
   {
       type: RegionPart,
