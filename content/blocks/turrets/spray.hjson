@@ -13,7 +13,22 @@ requirements: [
   venerium/20
   geliarin/40
 ]
-                                smokeEffect: [{
+research: {
+  parent: "yongsin"
+  planet: "gelion"
+    "requirements": [
+          "venerium/800"
+          "cobalt/900"
+          "geliarin/100"
+]
+objectives: [
+    {
+      type: OnSector
+      preset: "threes"
+    }
+  ]
+}
+smokeEffect: [{
         type: ParticleEffect
         colorFrom: b0b0b080
         colorTo: 99999900
