@@ -45,6 +45,8 @@ const dezolo = extend(ItemTurret, "dezolo", {});
 
 const relocator = extend(ItemTurret, "relocator", {});
 
+const spray = extend(LiquidTurret, "spray", {});
+
 const jannabi = extend(ItemTurret, "jannabi", {});
 
 const astraeus = extend(ItemTurret, "astraeus", {});
