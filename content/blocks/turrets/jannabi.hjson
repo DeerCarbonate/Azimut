@@ -581,13 +581,13 @@ drawer: {
     {
       progress: warmup
       moveRot: 4
-      moveY: -0.06
+      moveY: 3.8
       moveX: 1.9
     }
     {
       progress: recoil
       moveY: -1.5
-      moveX: 0
+      moveRot: -6.5
     }
   ]
 }
@@ -602,12 +602,13 @@ drawer: {
     {
       progress: warmup
       moveX: 1.2
-      moveRot: -2
-      moveY: -0.06
+      moveRot: -5.5
+      moveY: 0.3
     }
     {
       progress: recoil
       moveY: -1.2
+	  moveRot: -6.5
     }
   ]
 }
