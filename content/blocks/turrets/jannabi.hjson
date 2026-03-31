@@ -749,6 +749,7 @@ parts: [
     ]
   }
 ]
+}
 research: {
   parent: "yongsin"
   planet: "gelion"
