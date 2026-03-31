@@ -679,7 +679,7 @@ parts: [
     heatColor: ff4500
     heatLayer: 1
     progress: warmup
-    moveY: 12
+    moveY: 16
     y: -2
   }
   {
