@@ -670,7 +670,7 @@ parts: [
       }
     ]
   }
-  {
+{
   type: RegionPart
   suffix: -caro
   under: true
@@ -679,13 +679,48 @@ parts: [
   heatColor: ff4500
   heatLayer: 1
   y: -2
-  progress: {
-    type: charge
-    op: curve
-    interp: pow3Out
-  }
-  moveY: 17
-  }
+  moves: [
+    {
+      progress: {
+        type: charge
+        ops: [
+          {
+            op: add
+            other: {
+              type: recoil
+            }
+          }
+          {
+            op: compress
+            start: 0
+            end: 0.5
+          }
+          {
+            op: curve
+            interp: pow3Out
+          }
+        ]
+      }
+      y: 16
+    }
+    {
+      progress: {
+        type: recoil
+        ops: [
+          {
+            op: curve
+            interp: pow3In
+          }
+          {
+            op: curve
+            interp: pow3Out
+          }
+        ]
+      }
+      y: -2
+    }
+  ]
+}
   {
     type: FlarePart
     sides: 2
