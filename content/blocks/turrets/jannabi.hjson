@@ -104,7 +104,7 @@ shoot: {
                             sizeTo: 0
                             spin:1
 							interp:pow10Out
-                            colorTo: 6898c360
+                            colorTo: 6898c300
 							colorFrom: c3feffFF
                             cone: 60
                             baseRotation: 180
@@ -121,7 +121,7 @@ shoot: {
                             sizeTo: 0
                             spin:2
 							interp:pow10Out
-                            colorTo: ffffff60
+                            colorTo: ffffff00
 							colorFrom: ffffffff 
                             cone: 30
                             baseRotation: 180
@@ -699,8 +699,8 @@ drawer: {
                         length: 35
                         sizeFrom: 0
                         sizeTo: 2.6
-                        colorFrom: c3feff10
-                        colorTo: 6898c300
+                        colorFrom: 6898c308
+                        colorTo: b0b0b000
                         interp: pow3Out
                         sizeInterp: pow2In
                         followParent: false
@@ -714,8 +714,8 @@ drawer: {
                         length: 45
                         sizeFrom: 1.7
                         sizeTo: 0
-                        colorFrom: c3feff10
-                        colorTo: 6898c300
+                        colorFrom: 6898c308
+                        colorTo: b0b0b000
                         interp: pow3Out
                         sizeInterp: pow2Out
                         followParent: false
