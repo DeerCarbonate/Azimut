@@ -568,48 +568,75 @@ drawer: {
   iconOverride: [
     -icon
   ]
-  parts: [
+parts: [
   {
-      type: RegionPart,
-      suffix: -blade,
-      under: false,
-      mirror: true,
-      heatProgress: heat
-      progress: warmup
-	  x: 0,
-	  y: 0,
-	  moveRot: 4,
-	  moveY: -0.06,
-	  moveX: 1.9,
-      heatColor: ff4500,
-      heatLayer: 1,
-    }
-	{
-      type: RegionPart,
-      suffix: -middle,
-      under: false,
-      mirror: true,
-      heatProgress: heat
-      progress: warmup,
-	  moveX: 1.2
-      heatColor: ff4500,
-      heatLayer: 1,
-	  moveRot: -2,
-	  moveY: -0.06,
-    }
-	{
-      type: RegionPart,
-      suffix: -caro,
-      under: true,
-      mirror: false,
-      heatProgress: heat
-      progress: warmup,
-	  moveY: 12
-      heatColor: ff4500,
-      heatLayer: 1,
-	  y: -2
-    }
-		  {
+    type: RegionPart
+    suffix: -blade
+    mirror: true
+    moves: [
+      {
+        progress: {
+          type: charge
+          op: curve
+          interp: pow3Out
+        }
+        x: 1.9
+        y: 3.8
+        rot: 4
+      }
+      {
+        progress: {
+          type: recoil
+          op: curve
+          interp: slope
+        }
+        y: -1.2
+        rot: -3
+      }
+    ]
+  }
+  {
+    type: RegionPart
+    suffix: -middle
+    mirror: true
+    heatProgress: heat
+    heatColor: ff4500
+    heatLayer: 1
+    moves: [
+      {
+        progress: {
+          type: charge
+          op: curve
+          interp: pow3Out
+        }
+        x: 1.2
+        rot: -5.5
+        y: 0.3
+      }
+      {
+        progress: {
+          type: recoil
+          op: curve
+          interp: slope
+        }
+        y: -1.0
+        rot: -2.5
+      }
+    ]
+  }
+  {
+    type: RegionPart
+    suffix: -caro
+    under: true
+    mirror: false
+    heatProgress: heat
+    heatColor: ff4500
+    heatLayer: 1
+    progress: warmup
+    moveY: 12
+    y: -2
+  }
+  {
     type: FlarePart
     sides: 2
     color1: 00000000
@@ -634,96 +661,94 @@ drawer: {
     layer: 101
     weaponIndex: 0
   }
-
-	{
-	type: FlarePart
-	color1: 6585a540
-	color2: c3feff70
-	y: -1
-	followRotation: true
-	stroke: 6
-	radius: 0
-	radiusTo: 40
-	rotation: 0
-	rotMove: 150
-	moveY: 20
-	progress: {
+  {
+    type: FlarePart
+    color1: 6585a540
+    color2: c3feff70
+    y: -1
+    followRotation: true
+    stroke: 6
+    radius: 0
+    radiusTo: 40
+    rotation: 0
+    rotMove: 150
+    moveY: 20
+    progress: {
       type: charge
       op: curve
       interp: pow2Out
-        }
-	}
-	{
-	type: FlarePart
-	color1: 6585a540
-	color2: c3feff70
-	y: -1
-	followRotation: true
-	stroke: 6
-	radius: 0
-	radiusTo: 40
-	rotation: 45
-	rotMove: 75
-	moveY: 21
-	baseRotation: 45
-	progress: {
+    }
+  }
+  {
+    type: FlarePart
+    color1: 6585a540
+    color2: c3feff70
+    y: -1
+    followRotation: true
+    stroke: 6
+    radius: 0
+    radiusTo: 40
+    rotation: 45
+    rotMove: 75
+    moveY: 21
+    baseRotation: 45
+    progress: {
       type: charge
       op: curve
       interp: pow2Out
+    }
+  }
+  {
+    type: EffectSpawnerPart
+    x: 3.1
+    y: -3.75
+    effectRot: 235
+    debugDraw: true
+    mirror: true
+    effectChance: 3.6
+    progress: {
+      type: recoil
+      ops: [
+        {
+          op: curve
+          interp: pow2Out
         }
-	}
-	            {
-                type: EffectSpawnerPart
-                x: 3.1
-                y: -3.75
-                effectRot: 235
-                debugDraw: true
-                mirror: true
-                effectChance: 3.6
-                progress: {
-                    type: recoil
-                    ops: [
-                        {
-                            op: curve
-                            interp: pow2Out
-                        }
-                    ]
-                }
-				     effect: [
-                    {
-                        type: ParticleEffect
-                        cone: 5.2
-                        lifetime: 14
-                        baseLength: 0
-                        particles: 3
-                        length: 35
-                        sizeFrom: 0
-                        sizeTo: 2.6
-                        colorFrom: 6898c308
-                        colorTo: b0b0b000
-                        interp: pow3Out
-                        sizeInterp: pow2In
-                        followParent: false
-                }
-                {
-                        type: ParticleEffect
-                        cone: 5.2
-                        lifetime: 23
-                        baseLength: 0
-                        particles: 5
-                        length: 45
-                        sizeFrom: 1.7
-                        sizeTo: 0
-                        colorFrom: 6898c308
-                        colorTo: b0b0b000
-                        interp: pow3Out
-                        sizeInterp: pow2Out
-                        followParent: false
-                }
-                ]
-			}
-	]
-}
+      ]
+    }
+    effect: [
+      {
+        type: ParticleEffect
+        cone: 5.2
+        lifetime: 14
+        baseLength: 0
+        particles: 3
+        length: 35
+        sizeFrom: 0
+        sizeTo: 2.6
+        colorFrom: 6898c308
+        colorTo: b0b0b000
+        interp: pow3Out
+        sizeInterp: pow2In
+        followParent: false
+      }
+      {
+        type: ParticleEffect
+        cone: 5.2
+        lifetime: 23
+        baseLength: 0
+        particles: 5
+        length: 45
+        sizeFrom: 1.7
+        sizeTo: 0
+        colorFrom: 6898c308
+        colorTo: b0b0b000
+        interp: pow3Out
+        sizeInterp: pow2Out
+        followParent: false
+      }
+    ]
+  }
+]
 research: {
   parent: "yongsin"
   planet: "gelion"
