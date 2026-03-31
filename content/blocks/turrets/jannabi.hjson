@@ -587,8 +587,16 @@ parts: [
       {
         progress: {
           type: recoil
-          op: curve
-          interp: slope
+          ops: [
+            {
+              op: curve
+              interp: pow3In
+            }
+            {
+              op: curve
+              interp: pow3Out
+            }
+          ]
         }
         y: -1.2
         rot: -3
@@ -616,8 +624,16 @@ parts: [
       {
         progress: {
           type: recoil
-          op: curve
-          interp: slope
+          ops: [
+            {
+              op: curve
+              interp: pow3In
+            }
+            {
+              op: curve
+              interp: pow3Out
+            }
+          ]
         }
         y: -1.0
         rot: -2.5
