@@ -14,7 +14,7 @@ range: 450
 targetAir: false
 moveWhileCharging: true
 targetGround: true
-recoilAmount: 1.8
+recoilAmount: 2.3
 rotateSpeed: 1
 shootSound: laser4
 ammoPerShot: 2
@@ -577,8 +577,21 @@ parts: [
       {
         progress: {
           type: charge
-          op: curve
-          interp: pow3Out
+          ops: [
+            {
+              op: add
+              other: { type: recoil }
+            }
+            {
+              op: compress
+              start: 0
+              end: 0.5
+            }
+            {
+              op: curve
+              interp: pow3Out
+            }
+          ]
         }
         x: 1.9
         y: 3.8
@@ -614,8 +627,21 @@ parts: [
       {
         progress: {
           type: charge
-          op: curve
-          interp: pow3Out
+          ops: [
+            {
+              op: add
+              other: { type: recoil }
+            }
+            {
+              op: compress
+              start: 0
+              end: 0.5
+            }
+            {
+              op: curve
+              interp: pow3Out
+            }
+          ]
         }
         x: 1.2
         rot: -5.5
