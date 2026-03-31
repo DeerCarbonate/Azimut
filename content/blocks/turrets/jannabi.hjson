@@ -569,34 +569,48 @@ drawer: {
     -icon
   ]
   parts: [
-  {
-      type: RegionPart,
-      suffix: -blade,
-      under: false,
-      mirror: true,
-      heatProgress: heat
+{
+  type: RegionPart,
+  suffix: -blade,
+  mirror: true,
+  heatProgress: heat
+  x: 0, y: 0,
+  heatColor: ff4500,
+  heatLayer: 1,
+  moves: [
+    {
       progress: warmup
-	  x: 0,
-	  y: 0,
-	  moveRot: 4,
-	  moveY: -0.06,
-	  moveX: 1.9,
-      heatColor: ff4500,
-      heatLayer: 1,
+      moveRot: 4
+      moveY: -0.06
+      moveX: 1.9
     }
-	{
-      type: RegionPart,
-      suffix: -middle,
-      under: false,
-      mirror: true,
-      heatProgress: heat
-      progress: warmup,
-	  moveX: 1.2
-      heatColor: ff4500,
-      heatLayer: 1,
-	  moveRot: -2,
-	  moveY: -0.06,
+    {
+      progress: recoil
+      moveY: -1.5
+      moveX: 0
     }
+  ]
+}
+{
+  type: RegionPart,
+  suffix: -middle,
+  mirror: true,
+  heatProgress: heat
+  heatColor: ff4500,
+  heatLayer: 1,
+  moves: [
+    {
+      progress: warmup
+      moveX: 1.2
+      moveRot: -2
+      moveY: -0.06
+    }
+    {
+      progress: recoil
+      moveY: -1.2
+    }
+  ]
+}
 	{
       type: RegionPart,
       suffix: -caro,
