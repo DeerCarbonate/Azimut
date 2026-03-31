@@ -581,16 +581,16 @@ drawer: {
       progress: { 
 	  type: warmup 
 	  }
-      moveRot: 4
-      moveY: 3.8
-      moveX: 1.9
+      rot: 4 
+      y: 3.8   
+      x: 1.9   
     }
     {
-      progress: {
+      progress: { 
 	  type: recoil 
 	  }
-      moveY: -1.5
-      moveRot: -6.5
+      y: -1.5        
+      rot: -6.5    
     }
   ]
 }
@@ -603,19 +603,19 @@ drawer: {
   heatLayer: 1,
   moves: [
     {
-      progress: {
+      progress: { 
 	  type: warmup 
 	  }
-      moveX: 1.2
-      moveRot: -5.5
-      moveY: 0.3
+      x: 1.2
+      rot: -5.5
+      y: 0.3
     }
     {
       progress: { 
-	  type: recoil
+	  type: recoil 
 	  }
-      moveY: -1.2
-      moveRot: -6.5
+      y: -1.2
+      rot: -6.5
     }
   ]
 }
