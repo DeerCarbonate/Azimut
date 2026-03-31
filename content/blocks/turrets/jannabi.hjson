@@ -609,6 +609,32 @@ drawer: {
       heatLayer: 1,
 	  y: -2
     }
+		  {
+    type: FlarePart
+    sides: 2
+    color1: 00000000
+    radius: 0
+    radiusTo: 30
+    stroke: 23.4
+    y: -1
+    progress: charge
+    layer: 101
+    weaponIndex: 0
+  }
+  {
+    type: FlarePart
+    sides: 2
+    color1: 6585a5
+    radius: 0
+    radiusTo: 60
+    stroke: 6.4
+    innerRadScl: 0.70
+    y: -1
+    progress: charge
+    layer: 101
+    weaponIndex: 0
+  }
+
 	{
 	type: FlarePart
 	color1: 6585a540
@@ -646,6 +672,56 @@ drawer: {
       interp: pow2Out
         }
 	}
+	            {
+                type: EffectSpawnerPart
+                x: 3.1
+                y: -3.75
+                effectRot: 235
+                debugDraw: true
+                mirror: true
+                effectChance: 3.6
+                progress: {
+                    type: recoil
+                    ops: [
+                        {
+                            op: curve
+                            interp: pow2Out
+                        }
+                    ]
+                }
+				     effect: [
+                    {
+                        type: ParticleEffect
+                        cone: 5.2
+                        lifetime: 14
+                        baseLength: 0
+                        particles: 3
+                        length: 35
+                        sizeFrom: 0
+                        sizeTo: 3.9
+                        colorFrom: c3feff
+                        colorTo: 6898c300
+                        interp: pow3Out
+                        sizeInterp: pow2In
+                        followParent: false
+                }
+                {
+                        type: ParticleEffect
+                        cone: 5.2
+                        lifetime: 23
+                        baseLength: 0
+                        particles: 5
+                        length: 45
+                        sizeFrom: 3.1
+                        sizeTo: 0
+                        colorFrom: c3feff
+                        colorTo: 6898c300
+                        interp: pow3Out
+                        sizeInterp: pow2Out
+                        followParent: false
+                }
+                ]
+			}
 	]
 }
 research: {
