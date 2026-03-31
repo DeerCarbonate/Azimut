@@ -580,7 +580,9 @@ parts: [
           ops: [
             {
               op: add
-              other: { type: recoil }
+              other: {
+                type: recoil
+              }
             }
             {
               op: compress
@@ -627,23 +629,23 @@ parts: [
       {
         progress: {
           type: charge
- ops: [
-  {
-    op: add
-    other: {
-      type: recoil
-    }
-  }
-  {
-    op: compress
-    start: 0
-    end: 0.5
-  }
-  {
-    op: curve
-    interp: pow3Out
-  }
-]
+          ops: [
+            {
+              op: add
+              other: {
+                type: recoil
+              }
+            }
+            {
+              op: compress
+              start: 0
+              end: 0.5
+            }
+            {
+              op: curve
+              interp: pow3Out
+            }
+          ]
         }
         x: 1.2
         rot: -5.5
@@ -652,23 +654,16 @@ parts: [
       {
         progress: {
           type: recoil
-ops: [
-  {
-    op: add
-    other: {
-      type: recoil
-    }
-  }
-  {
-    op: compress
-    start: 0
-    end: 0.5
-  }
-  {
-    op: curve
-    interp: pow3Out
-  }
-]
+          ops: [
+            {
+              op: curve
+              interp: pow3In
+            }
+            {
+              op: curve
+              interp: pow3Out
+            }
+          ]
         }
         y: -1.0
         rot: -2.5
