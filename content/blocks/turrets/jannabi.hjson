@@ -671,16 +671,20 @@ parts: [
     ]
   }
   {
-    type: RegionPart
-    suffix: -caro
-    under: true
-    mirror: false
-    heatProgress: heat
-    heatColor: ff4500
-    heatLayer: 1
-    progress: warmup
-    moveY: 16
-    y: -2
+  type: RegionPart
+  suffix: -caro
+  under: true
+  mirror: false
+  heatProgress: heat
+  heatColor: ff4500
+  heatLayer: 1
+  y: -2
+  progress: {
+    type: charge
+    op: curve
+    interp: pow3Out
+  }
+  moveY: 17
   }
   {
     type: FlarePart
