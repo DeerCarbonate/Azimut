@@ -7,7 +7,7 @@ health: 3600
 alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
-recoil: 8
+recoil: 3.2
 shootY: -7
 reload: 290
 range: 450
@@ -699,7 +699,7 @@ drawer: {
                         length: 35
                         sizeFrom: 0
                         sizeTo: 3.9
-                        colorFrom: c3feff
+                        colorFrom: c3feff15
                         colorTo: 6898c300
                         interp: pow3Out
                         sizeInterp: pow2In
@@ -714,7 +714,7 @@ drawer: {
                         length: 45
                         sizeFrom: 3.1
                         sizeTo: 0
-                        colorFrom: c3feff
+                        colorFrom: c3feff15
                         colorTo: 6898c300
                         interp: pow3Out
                         sizeInterp: pow2Out
