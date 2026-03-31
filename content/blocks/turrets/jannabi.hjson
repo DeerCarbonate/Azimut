@@ -8,7 +8,7 @@ alwaysUnlocked: false
 cooldown: 1200
 shootCone: 9
 recoil: 3.2
-shootY: -6
+shootY: -5.4
 reload: 290
 range: 450
 targetAir: false
