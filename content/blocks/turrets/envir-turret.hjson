@@ -1,0 +1,65 @@
+size: 1
+outlineColor: 0c0c1200
+hasItems: false
+squareSprite: false
+health: 300000
+armor: 3000
+playerControllable: false
+alwaysUnlocked: false
+solid: false
+alwaysShooting: true
+reload: 300
+range: 0
+targetAir: false
+targetGround: false
+outlineIcon: false
+moveWhileCharging: true
+hasShadow: false
+targetable: false
+enviroment: true
+breakable: false
+recoilAmount: 0
+rotateSpeed: 0
+shootSound: none
+shoot: {
+  shots: 1
+}
+requirements: [
+ cobalt/1
+]
+category: turret
+drawer: {
+  type: DrawTurret
+  basePrefix: envir
+  parts: [
+    {
+      type: EffectSpawnerPart
+      x: 0
+      y: 3.5
+      effectRot: 225
+      mirror: false
+      effectChance: 0.025
+      progress: recoil
+      effect: [
+        {
+          followParent: false
+          rotWithParent: false
+          useRotation: true  
+          baseRotation: 0  
+          cone: 18 
+          particles: 1
+          length: 38
+          lifetime: 130
+          region: azimut-leaf
+          sizeFrom: 7
+          sizeTo: 0
+          colorFrom: d3e0ff
+          colorTo: d3e0ff30
+          spin: 2.1
+          interp: linear
+		  sizeChangeStart: 120
+}
+]
+}
+]
+}
