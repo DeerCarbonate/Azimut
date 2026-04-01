@@ -52,16 +52,144 @@ drawer: {
           baseRotation: 0  
           cone: 18 
           particles: 1
-          length: 38
-          lifetime: 700
+          length: 180
+          lifetime: 1200
           region: azimut-leaf
           sizeFrom: 2.5
           sizeTo: 0
           colorFrom: d3e0ff
-          colorTo: d3e0ff30
+          colorTo: d3e0ff
           spin: 0.75
           interp: linear
-		  sizeChangeStart: 680
+		  sizeChangeStart: 1180
+		  ightScl: 0
+          lightOpacity: 0
+		  layer: 34.5
+}
+]
+}
+    {
+      type: EffectSpawnerPart
+      x: 0
+      y: 3.5
+      effectRot: 225
+      mirror: false
+      effectChance: 0.003
+      progress: recoil
+      effect: [
+        {
+          followParent: false
+          rotWithParent: false
+          useRotation: true  
+          baseRotation: 0  
+          cone: 18 
+          particles: 1
+          length: 180
+          lifetime: 1200
+          region: azimut-leaf
+          sizeFrom: 2.7
+          sizeTo: 0
+          colorFrom: d3e0ff
+          colorTo: d3e0ff
+          spin: 0.75
+          interp: linear
+		  sizeChangeStart: 1180
+		  ightScl: 0
+          lightOpacity: 0
+		  layer: 34.5
+}
+]
+}
+    {
+      type: EffectSpawnerPart
+      x: 4
+      y: -7.2
+      effectRot: 225
+      mirror: false
+      effectChance: 0.003
+      progress: recoil
+      effect: [
+        {
+          followParent: false
+          rotWithParent: false
+          useRotation: true  
+          baseRotation: 0  
+          cone: 18 
+          particles: 1
+          length: 180
+          lifetime: 1200
+          region: azimut-leaf
+          sizeFrom: 2.7
+          sizeTo: 0
+          colorFrom: d3e0ff
+          colorTo: d3e0ff
+          spin: 0.75
+          interp: linear
+		  sizeChangeStart: 1180
+		  ightScl: 0
+          lightOpacity: 0
+		  layer: 34.5
+}
+]
+}
+    {
+      type: EffectSpawnerPart
+      x: 9
+      y: 1.2
+      effectRot: 225
+      mirror: false
+      effectChance: 0.003
+      progress: recoil
+      effect: [
+        {
+          followParent: false
+          rotWithParent: false
+          useRotation: true  
+          baseRotation: 0  
+          cone: 18 
+          particles: 1
+          length: 180
+          lifetime: 1200
+          region: azimut-leaf
+          sizeFrom: 2.7
+          sizeTo: 0
+          colorFrom: d3e0ff
+          colorTo: d3e0ff
+          spin: 0.75
+          interp: linear
+		  sizeChangeStart: 1180
+		  ightScl: 0
+          lightOpacity: 0
+		  layer: 34.5
+}
+]
+}
+    {
+      type: EffectSpawnerPart
+      x: -8
+      y: -2
+      effectRot: 225
+      mirror: false
+      effectChance: 0.003
+      progress: recoil
+      effect: [
+        {
+          followParent: false
+          rotWithParent: false
+          useRotation: true  
+          baseRotation: 0  
+          cone: 18 
+          particles: 1
+          length: 180
+          lifetime: 1200
+          region: azimut-leaf
+          sizeFrom: 2.7
+          sizeTo: 0
+          colorFrom: d3e0ff
+          colorTo: d3e0ff
+          spin: 0.75
+          interp: linear
+		  sizeChangeStart: 1180
 		  ightScl: 0
           lightOpacity: 0
 		  layer: 34.5
