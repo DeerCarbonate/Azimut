@@ -53,15 +53,15 @@ drawer: {
           cone: 18 
           particles: 1
           length: 180
-          lifetime: 1200
+          lifetime: 1050
           region: azimut-leaf
-          sizeFrom: 3.1
+          sizeFrom: 3.7
           sizeTo: 0
           colorFrom: d3e0ff
           colorTo: d3e0ff
-          spin: 0.75
+          spin: 0.78
           interp: linear
-		  sizeChangeStart: 1180
+		  sizeChangeStart: 1030
 		  ightScl: 0
           lightOpacity: 0
 		  layer: 34.5
@@ -85,15 +85,15 @@ drawer: {
           cone: 18 
           particles: 1
           length: 180
-          lifetime: 1200
+          lifetime: 1050
           region: azimut-leaf
-          sizeFrom: 3.1
+          sizeFrom: 3.7
           sizeTo: 0
           colorFrom: d3e0ff
           colorTo: d3e0ff
-          spin: 0.75
+          spin: 0.78
           interp: linear
-		  sizeChangeStart: 1180
+		  sizeChangeStart: 1030
 		  ightScl: 0
           lightOpacity: 0
 		  layer: 34.5
@@ -117,15 +117,15 @@ drawer: {
           cone: 18 
           particles: 1
           length: 180
-          lifetime: 1200
+          lifetime: 1050
           region: azimut-leaf
-          sizeFrom: 3.1
+          sizeFrom: 3.7
           sizeTo: 0
           colorFrom: d3e0ff
           colorTo: d3e0ff
-          spin: 0.75
+          spin: 0.78
           interp: linear
-		  sizeChangeStart: 1180
+		  sizeChangeStart: 1030
 		  ightScl: 0
           lightOpacity: 0
 		  layer: 34.5
@@ -149,15 +149,15 @@ drawer: {
           cone: 18 
           particles: 1
           length: 180
-          lifetime: 1200
+          lifetime: 1050
           region: azimut-leaf
-          sizeFrom: 3.1
+          sizeFrom: 3.7
           sizeTo: 0
           colorFrom: d3e0ff
           colorTo: d3e0ff
-          spin: 0.75
+          spin: 0.78
           interp: linear
-		  sizeChangeStart: 1180
+		  sizeChangeStart: 1030
 		  ightScl: 0
           lightOpacity: 0
 		  layer: 34.5
@@ -181,15 +181,15 @@ drawer: {
           cone: 18 
           particles: 1
           length: 180
-          lifetime: 1200
+          lifetime: 1050
           region: azimut-leaf
-          sizeFrom: 3.1
+          sizeFrom: 3.7
           sizeTo: 0
           colorFrom: d3e0ff
           colorTo: d3e0ff
-          spin: 0.75
+          spin: 0.78
           interp: linear
-		  sizeChangeStart: 1180
+		  sizeChangeStart: 1030
 		  ightScl: 0
           lightOpacity: 0
 		  layer: 34.5
