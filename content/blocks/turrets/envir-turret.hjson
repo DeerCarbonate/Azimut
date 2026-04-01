@@ -42,7 +42,7 @@ drawer: {
       y: 3.5
       effectRot: 225
       mirror: false
-      effectChance: 0.025
+      effectChance: 0.003
       progress: recoil
       effect: [
         {
@@ -53,15 +53,18 @@ drawer: {
           cone: 18 
           particles: 1
           length: 38
-          lifetime: 130
+          lifetime: 450
           region: azimut-leaf
-          sizeFrom: 7
+          sizeFrom: 1
           sizeTo: 0
           colorFrom: d3e0ff
           colorTo: d3e0ff30
-          spin: 2.1
+          spin: 0.75
           interp: linear
 		  sizeChangeStart: 120
+		  ightScl: 0
+          lightOpacity: 0
+		  layer: 34.5
 }
 ]
 }
