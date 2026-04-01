@@ -21,6 +21,9 @@ breakable: false
 recoilAmount: 0
 rotateSpeed: 0
 shootSound: none
+smokeEffect: none
+shootEffect: none
+type: PowerTurret
 shoot: {
   shots: 1
 }
