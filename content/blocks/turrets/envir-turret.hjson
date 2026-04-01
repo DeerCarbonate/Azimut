@@ -39,10 +39,10 @@ drawer: {
     {
       type: EffectSpawnerPart
       x: 0
-      y: 3.5
+      y: 16.2
       effectRot: 225
       mirror: false
-      effectChance: 0.003
+      effectChance: 0.0007
       progress: recoil
       effect: [
         {
@@ -70,11 +70,11 @@ drawer: {
 }
     {
       type: EffectSpawnerPart
-      x: 0
-      y: 3.5
+      x: 14.2
+      y: -1.7
       effectRot: 225
       mirror: false
-      effectChance: 0.003
+      effectChance: 0.0007
       progress: recoil
       effect: [
         {
@@ -102,11 +102,11 @@ drawer: {
 }
     {
       type: EffectSpawnerPart
-      x: 4
+      x: 2
       y: -7.2
       effectRot: 225
       mirror: false
-      effectChance: 0.003
+      effectChance: 0.0007
       progress: recoil
       effect: [
         {
@@ -134,11 +134,11 @@ drawer: {
 }
     {
       type: EffectSpawnerPart
-      x: 9
+      x: 16.2
       y: 1.2
       effectRot: 225
       mirror: false
-      effectChance: 0.003
+      effectChance: 0.0007
       progress: recoil
       effect: [
         {
@@ -166,11 +166,11 @@ drawer: {
 }
     {
       type: EffectSpawnerPart
-      x: -8
-      y: -2
+      x: -17
+      y: -14
       effectRot: 225
       mirror: false
-      effectChance: 0.003
+      effectChance: 0.0007
       progress: recoil
       effect: [
         {
