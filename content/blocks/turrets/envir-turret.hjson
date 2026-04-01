@@ -42,11 +42,11 @@ parts:
 [
   {
     type: EffectSpawnerPart
-    x: 24.7
-    y: 8.3
+    x: -14.3
+    y: 22.7
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -58,15 +58,15 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
@@ -75,11 +75,11 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 6.2
-    y: 31.4
+    x: 8.6
+    y: -19.4
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -91,15 +91,15 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
@@ -108,11 +108,11 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 33.8
-    y: 15.6
+    x: -27.1
+    y: 5.8
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -124,15 +124,15 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
@@ -141,11 +141,11 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 12.5
-    y: 27.9
+    x: 19.2
+    y: -8.5
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -157,15 +157,15 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
@@ -174,11 +174,11 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 28.1
-    y: 4.7
+    x: -3.7
+    y: 30.1
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -190,15 +190,15 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
@@ -207,11 +207,11 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 17.6
-    y: 36.2
+    x: -21.5
+    y: -14.8
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -223,15 +223,15 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
@@ -240,11 +240,11 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 5.3
-    y: 22.8
+    x: 31.4
+    y: -2.3
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -256,15 +256,15 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
@@ -273,11 +273,11 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 37.1
-    y: 11.4
+    x: -9.2
+    y: -26.7
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -289,15 +289,15 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
@@ -306,11 +306,11 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 20.4
-    y: 29.7
+    x: 5.1
+    y: 17.9
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -322,15 +322,15 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
@@ -339,11 +339,11 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 9.8
-    y: 34.5
+    x: -18.4
+    y: 12.3
     effectRot: 225
     mirror: false
-    effectChance: 0.001
+    effectChance: 0.0009
     progress: recoil
     effect:
     [
@@ -355,15 +355,114 @@ parts:
         cone: 18
         particles: 1
         length: 180
-        lifetime: 600
+        lifetime: 510
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
         colorFrom: d3e0ff
         colorTo: d3e0ff
-        spin: 0.5
+        spin: 0.53
         interp: linear
-        sizeChangeStart: 580
+        sizeChangeStart: 490
+        lightScl: 0
+        lightOpacity: 0
+        layer: 34.5
+      }
+    ]
+  }
+  {
+    type: EffectSpawnerPart
+    x: 24.6
+    y: -31.2
+    effectRot: 225
+    mirror: false
+    effectChance: 0.0009
+    progress: recoil
+    effect:
+    [
+      {
+        followParent: false
+        rotWithParent: false
+        useRotation: true
+        baseRotation: 0
+        cone: 18
+        particles: 1
+        length: 180
+        lifetime: 510
+        region: azimut-leaf
+        sizeFrom: 3.4
+        sizeTo: 0
+        colorFrom: d3e0ff
+        colorTo: d3e0ff
+        spin: 0.53
+        interp: linear
+        sizeChangeStart: 490
+        lightScl: 0
+        lightOpacity: 0
+        layer: 34.5
+      }
+    ]
+  }
+  {
+    type: EffectSpawnerPart
+    x: -30.8
+    y: -7.6
+    effectRot: 225
+    mirror: false
+    effectChance: 0.0009
+    progress: recoil
+    effect:
+    [
+      {
+        followParent: false
+        rotWithParent: false
+        useRotation: true
+        baseRotation: 0
+        cone: 18
+        particles: 1
+        length: 180
+        lifetime: 510
+        region: azimut-leaf
+        sizeFrom: 3.4
+        sizeTo: 0
+        colorFrom: d3e0ff
+        colorTo: d3e0ff
+        spin: 0.53
+        interp: linear
+        sizeChangeStart: 490
+        lightScl: 0
+        lightOpacity: 0
+        layer: 34.5
+      }
+    ]
+  }
+  {
+    type: EffectSpawnerPart
+    x: 12.9
+    y: -22.4
+    effectRot: 225
+    mirror: false
+    effectChance: 0.0009
+    progress: recoil
+    effect:
+    [
+      {
+        followParent: false
+        rotWithParent: false
+        useRotation: true
+        baseRotation: 0
+        cone: 18
+        particles: 1
+        length: 180
+        lifetime: 510
+        region: azimut-leaf
+        sizeFrom: 3.4
+        sizeTo: 0
+        colorFrom: d3e0ff
+        colorTo: d3e0ff
+        spin: 0.53
+        interp: linear
+        sizeChangeStart: 490
         lightScl: 0
         lightOpacity: 0
         layer: 34.5
