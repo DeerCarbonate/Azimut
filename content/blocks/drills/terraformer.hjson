@@ -12,7 +12,7 @@ sparks: 80
 sparkRecurrence: 14
 sparkLife: 25
 sparkSpread: 0.3
-sparkRange: -40
+sparkRange: -25
 consumes: {
   power: 1
   liquids: {
