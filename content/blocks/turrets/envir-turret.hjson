@@ -42,9 +42,9 @@ parts:
 [
   {
     type: EffectSpawnerPart
-    x: -14.3
-    y: 22.7
-    effectRot: 225
+    x: -12.4
+    y: 18.7
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -75,9 +75,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 8.6
-    y: -19.4
-    effectRot: 225
+    x: 24.1
+    y: -7.3
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -108,9 +108,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: -27.1
-    y: 5.8
-    effectRot: 225
+    x: -5.8
+    y: -22.6
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -141,9 +141,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 19.2
-    y: -8.5
-    effectRot: 225
+    x: 16.3
+    y: 27.4
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -174,9 +174,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: -3.7
-    y: 30.1
-    effectRot: 225
+    x: -28.2
+    y: 3.9
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -207,9 +207,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: -21.5
+    x: 7.5
     y: -14.8
-    effectRot: 225
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -240,9 +240,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 31.4
-    y: -2.3
-    effectRot: 225
+    x: -19.6
+    y: -28.1
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -273,9 +273,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: -9.2
-    y: -26.7
-    effectRot: 225
+    x: 28.7
+    y: 11.2
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -306,9 +306,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 5.1
-    y: 17.9
-    effectRot: 225
+    x: -1.3
+    y: 24.5
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -339,9 +339,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: -18.4
-    y: 12.3
-    effectRot: 225
+    x: 11.8
+    y: -4.6
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -372,9 +372,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 24.6
-    y: -31.2
-    effectRot: 225
+    x: -23.4
+    y: 15.7
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -405,9 +405,9 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: -30.8
-    y: -7.6
-    effectRot: 225
+    x: 3.2
+    y: -18.3
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
@@ -438,9 +438,174 @@ parts:
   }
   {
     type: EffectSpawnerPart
-    x: 12.9
-    y: -22.4
-    effectRot: 225
+    x: -8.7
+    y: -1.4
+    effectRot: 45
+    mirror: false
+    effectChance: 0.0009
+    progress: recoil
+    effect:
+    [
+      {
+        followParent: false
+        rotWithParent: false
+        useRotation: true
+        baseRotation: 0
+        cone: 18
+        particles: 1
+        length: 180
+        lifetime: 510
+        region: azimut-leaf
+        sizeFrom: 3.4
+        sizeTo: 0
+        colorFrom: d3e0ff
+        colorTo: d3e0ff
+        spin: 0.53
+        interp: linear
+        sizeChangeStart: 490
+        lightScl: 0
+        lightOpacity: 0
+        layer: 34.5
+      }
+    ]
+  }
+  {
+    type: EffectSpawnerPart
+    x: 20.9
+    y: -25.7
+    effectRot: 45
+    mirror: false
+    effectChance: 0.0009
+    progress: recoil
+    effect:
+    [
+      {
+        followParent: false
+        rotWithParent: false
+        useRotation: true
+        baseRotation: 0
+        cone: 18
+        particles: 1
+        length: 180
+        lifetime: 510
+        region: azimut-leaf
+        sizeFrom: 3.4
+        sizeTo: 0
+        colorFrom: d3e0ff
+        colorTo: d3e0ff
+        spin: 0.53
+        interp: linear
+        sizeChangeStart: 490
+        lightScl: 0
+        lightOpacity: 0
+        layer: 34.5
+      }
+    ]
+  }
+  {
+    type: EffectSpawnerPart
+    x: -16.1
+    y: -9.8
+    effectRot: 45
+    mirror: false
+    effectChance: 0.0009
+    progress: recoil
+    effect:
+    [
+      {
+        followParent: false
+        rotWithParent: false
+        useRotation: true
+        baseRotation: 0
+        cone: 18
+        particles: 1
+        length: 180
+        lifetime: 510
+        region: azimut-leaf
+        sizeFrom: 3.4
+        sizeTo: 0
+        colorFrom: d3e0ff
+        colorTo: d3e0ff
+        spin: 0.53
+        interp: linear
+        sizeChangeStart: 490
+        lightScl: 0
+        lightOpacity: 0
+        layer: 34.5
+      }
+    ]
+  }
+  {
+    type: EffectSpawnerPart
+    x: 26.3
+    y: 19.1
+    effectRot: 45
+    mirror: false
+    effectChance: 0.0009
+    progress: recoil
+    effect:
+    [
+      {
+        followParent: false
+        rotWithParent: false
+        useRotation: true
+        baseRotation: 0
+        cone: 18
+        particles: 1
+        length: 180
+        lifetime: 510
+        region: azimut-leaf
+        sizeFrom: 3.4
+        sizeTo: 0
+        colorFrom: d3e0ff
+        colorTo: d3e0ff
+        spin: 0.53
+        interp: linear
+        sizeChangeStart: 490
+        lightScl: 0
+        lightOpacity: 0
+        layer: 34.5
+      }
+    ]
+  }
+  {
+    type: EffectSpawnerPart
+    x: -4.5
+    y: 8.6
+    effectRot: 45
+    mirror: false
+    effectChance: 0.0009
+    progress: recoil
+    effect:
+    [
+      {
+        followParent: false
+        rotWithParent: false
+        useRotation: true
+        baseRotation: 0
+        cone: 18
+        particles: 1
+        length: 180
+        lifetime: 510
+        region: azimut-leaf
+        sizeFrom: 3.4
+        sizeTo: 0
+        colorFrom: d3e0ff
+        colorTo: d3e0ff
+        spin: 0.53
+        interp: linear
+        sizeChangeStart: 490
+        lightScl: 0
+        lightOpacity: 0
+        layer: 34.5
+      }
+    ]
+  }
+  {
+    type: EffectSpawnerPart
+    x: 14.7
+    y: -12.3
+    effectRot: 45
     mirror: false
     effectChance: 0.0009
     progress: recoil
