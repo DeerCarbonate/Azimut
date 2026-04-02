@@ -9,6 +9,7 @@ dumpTime: 7
 tier: 2
 shake: 4
 arrows: 0
+hasLiquids: true
 drillSound: none
 drillEffect: [
   {
@@ -44,8 +45,8 @@ drillEffect: [
     sound: blockExplodeExplosive
     minPitch: 0.5
     maxPitch: 0.5
-    minVolume: 1
-    maxVolume: 1.2
+    minVolume: 0.7
+    maxVolume: 0.9
     effect: none
   }
   {
@@ -53,8 +54,8 @@ drillEffect: [
     sound: explosionArtillery
     minPitch: 0.9
     maxPitch: 0.9
-    minVolume: 1
-    maxVolume: 1.2
+    minVolume: 0.8
+    maxVolume: 1
     effect: none
   }
 ]
