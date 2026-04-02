@@ -8,6 +8,11 @@ drillTime: 90
 ambientSound: drill
 ambientSoundVolume: 0.08
 hasLiquids: true
+sparks: 80
+sparkRecurrence: 14
+sparkLife: 25
+sparkSpread: 0.3
+sparkRange: -40
 consumes: {
   power: 1
   liquids: {
