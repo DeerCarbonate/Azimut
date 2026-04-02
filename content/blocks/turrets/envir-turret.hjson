@@ -24,6 +24,7 @@ rotateSpeed: 0
 shootSound: none
 smokeEffect: none
 shootEffect: none
+buildVisibility: editorOnly
 type: PowerTurret
 shoot:
 {
