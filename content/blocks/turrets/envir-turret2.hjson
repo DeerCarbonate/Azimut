@@ -62,8 +62,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -95,8 +95,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: 9692d6
-        colorTo: 9692d6
+        colorFrom: b26235
+        colorTo: b26235
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -128,8 +128,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -161,8 +161,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -194,8 +194,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: 9692d6
-        colorTo: 9692d6
+        colorFrom: b26235
+        colorTo: b26235
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -227,8 +227,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -260,8 +260,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -293,8 +293,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -326,8 +326,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: 9692d6
-        colorTo: 9692d6
+        colorFrom: b26235
+        colorTo: b26235
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -359,8 +359,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -392,8 +392,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -425,8 +425,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -458,8 +458,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: 9692d6
-        colorTo: 9692d6
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -491,8 +491,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: b26235
+        colorTo: b26235
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -524,8 +524,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -557,8 +557,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -590,8 +590,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: d3e0ff
-        colorTo: d3e0ff
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
@@ -623,8 +623,8 @@ parts:
         region: azimut-leaf
         sizeFrom: 3.4
         sizeTo: 0
-        colorFrom: 9692d6
-        colorTo: 9692d6
+        colorFrom: fcec91
+        colorTo: fcec91
         spin: 0.53
         interp: linear
         sizeChangeStart: 490
