@@ -2,8 +2,10 @@ type: PowerNode
 size: 1
 health: 30
 laserRange: 8.5
-laserColor1: d1e3ff
-laserColor2: 7565c9
+laserColor1: d1e3ff00
+laserColor2: 7565c900
+laser: cobalt-node-laser
+laserEnd: cobalt-node-laser-end
 maxNodes: 4
   requirements: [
     cobalt/8
