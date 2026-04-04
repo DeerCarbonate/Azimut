@@ -74,29 +74,6 @@ interp: pow3Out
 parts: [
   {
     type: ShapePart
-    circle: true
-    hollow: true
-    layer: 110
-    color: bf92f9
-    radius: 150
-  }
-    {
-    type: HaloPart
-    progress: warmup
-    tri: true
-    shapes: 3
-    color: bf92f9
-    layer: 110
-    haloRadius: 20.1
-    haloRadiusTo: 6.0
-    radius: 3.8
-    radiusTo: 6.2
-    triLength: 6.8
-    triLengthTo: 1
-    haloRotateSpeed: 0.8
-  }
-  {
-    type: ShapePart
     hollow: true
     circle: true
     layer: 109
@@ -106,17 +83,6 @@ parts: [
     radius: 2
     radiusTo: 2
   }
-  {
-    type: ShapePart
-    radius: 20
-	radiusTo: 6
-    stroke: 1.5
-    strokeTo: 1.5
-    layer: 110
-    circle: true
-    hollow: true
-    color: bf92f9
-   }
 ]
 
 weapons: [
@@ -146,7 +112,7 @@ weapons: [
 	]
 	}
     ejectEffect: none
-    shootSound: shootSegment
+    shootSound: shootAtrax
     bullet: {
       keepVelocity: false
       lifetime: 16.5
@@ -213,6 +179,7 @@ weapons: [
       frontColor: ffffff
       backColor: bf92f9
       trailColor: bf92f9
+	  healColor: bf92f988
       trailWidth: 0.9
       trailLength: 10
 	  smokeEffect: none
