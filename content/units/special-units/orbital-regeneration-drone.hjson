@@ -121,6 +121,7 @@ parts: [
 
 weapons: [
     {
+    alwaysShooting: true
     alternate: false
     mirror: false 
     rotateSpeed: 60
