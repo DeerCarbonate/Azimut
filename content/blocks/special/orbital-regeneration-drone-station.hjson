@@ -1,7 +1,7 @@
 type: UnitCargoLoader
 squareSprite: false
 size: 3
-health: 675
+health: 1100
 unitType: orbital-regeneration-drone
 itemCapacity: 0
 separateItemCapacity: true
@@ -10,15 +10,16 @@ hasPower: false
 hasLiquids: true
 category: effect
 requirements: [
-  cobalt/130
-  geliarin/35
-  venerium/150
-  platinum/85
+  geliarin/110
+  venerium/35
+  caterium/120
+  cobalt/85
 ]
 consumes: {
+  power: 5
   liquids: [
-    power/0.14
     iterin/0.1
+	cesium/0.6
   ]
 }
 polyStroke: 1.5
@@ -26,3 +27,19 @@ polyRadius: 11
 polySides: 6
 polyRotateSpeed: 0.8
 polyColor: bf92f930
+research: {
+  parent: "heal-drone-station"
+  planet: gelion
+    "requirements": [
+	  geliarin/7500
+	  venerium/12000
+	  caterium/1000
+	  cobalt/17000
+]
+objectives: [
+    {
+      type: sectorComplete
+      preset: "ten"
+    }
+  ]
+}
