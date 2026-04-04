@@ -97,6 +97,7 @@ weapons: [
     y: 0.3
     reload: 30
     inaccuracy: 360
+	smokeEffect: none
     shoot: {
       type: ShootMulti
 	  source: {
@@ -121,9 +122,9 @@ weapons: [
       speed: 8
       width: 4
       type: BasicBulletType
-      frontColor: ffffff
-      backColor: bf92f9
-      trailColor: bf92f9
+      frontColor: ffffff80
+      backColor: bf92f980
+      trailColor: bf92f930
       trailWidth: 0.9
       trailLength: 8
 	  fragBullets: 1
@@ -134,6 +135,10 @@ weapons: [
 	  pierceArmor:true
 	  lifesteal:0.2
 	  collidesTeam:true
+	  pierce: true
+      pierceBuilding: false
+      pierceCap: 100
+      pierceDamageFactor: 0.01
       shootEffect: {
         type: WaveEffect
         startDelay: 0
@@ -176,11 +181,11 @@ weapons: [
       speed: 2
       width: 4
       type: BasicBulletType
-      frontColor: ffffff
-      backColor: bf92f9
-      trailColor: bf92f9
+      frontColor: ffffff80
+      backColor: bf92f980
+      trailColor: bf92f930
 	  healColor: bf92f988
-      trailWidth: 0.9
+      trailWidth: 0.87
       trailLength: 10
 	  smokeEffect: none
 	  circleShooter: true
@@ -191,6 +196,40 @@ weapons: [
 	  pierceArmor:true
 	  lifesteal:0.2
 	  collidesTeam:true
+	  pierce: true
+      pierceBuilding: false
+      pierceCap: 100
+      pierceDamageFactor: 0.01
+	                  trailEffect:[
+                {
+                    type: ParticleEffect
+                    colorFrom: bf92f930
+                    colorTo: bf92f900
+                    particles: 1
+                    cone: 360
+                    lifetime:13
+                    length: 3
+                    sizeFrom: 1.2
+                    sizeTo: 1.2
+                    layer:100.2
+                }
+                {
+                    type: ParticleEffect
+                    region:large-bomb
+                    colorFrom: bf92f930
+                    colorTo: bf92f900
+                    particles: 1
+                    lifetime:26
+                    cone: 360
+                    length: 11
+                    spin: 1.2
+                    sizeFrom: 2.1
+                    sizeTo: 0
+                    layer:100.2
+                }
+                ]
+                trailChance:1
+                trailInterval:6
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
