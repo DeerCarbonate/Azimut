@@ -83,6 +83,18 @@ parts: [
     radius: 2
     radiusTo: 2
   }
+    {
+    type: ShapePart
+    hollow: true
+    circle: true
+    layer: 109
+    color: bf92f910
+    stroke: 18
+    strokeTo: 18
+    radius: 30
+    radiusTo: 30
+  }
+
 ]
 
 weapons: [
@@ -192,7 +204,7 @@ weapons: [
       circleShooterRadius: 24
       circleShooterRadiusSmooth: 200
       circleShooterRotateSpeed: 4
-	  healAmount: 20
+	  healAmount: 35
 	  pierceArmor:true
 	  lifesteal:0.2
 	  collidesTeam:true
@@ -200,6 +212,8 @@ weapons: [
       pierceBuilding: false
       pierceCap: 100
       pierceDamageFactor: 0.01
+	  hitEffect: none
+	  despawnEffect: none
 	                  trailEffect:[
                 {
                     type: ParticleEffect
@@ -230,16 +244,6 @@ weapons: [
                 ]
                 trailChance:1
                 trailInterval:6
-      despawnEffect: {
-        type: WaveEffect
-        rotWithParent: true
-        followParent: true
-        lifetime: 16
-        sizeFrom: 0
-        sizeTo: 7
-        colorFrom: bf92f9
-        colorTo: bf92f900
-      }
     }
 	}
 	}
