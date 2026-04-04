@@ -53,4 +53,6 @@ const astraeus = extend(ItemTurret, "astraeus", {});
 
 const retray = extend(ItemTurret, "retray", {});
 
+const gravastar = extend(ItemTurret, "gravastar", {});
+
 const seraphim = extend(ItemTurret, "seraphim", {});
