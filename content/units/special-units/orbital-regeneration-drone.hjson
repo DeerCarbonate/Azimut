@@ -131,7 +131,7 @@ weapons: [
       fragRandomSpread: 0
       fragSpread: 0
 	  healColor: bf92f988
-	  healAmount: 26
+	  healAmount: 32
 	  pierceArmor:true
 	  lifesteal:0.2
 	  collidesTeam:true
@@ -174,9 +174,9 @@ weapons: [
       }
 	  	  fragBullet: {
       keepVelocity: false
-      lifetime: 1600
+      lifetime: 300
       drag: 0
-      damage: 10
+      damage: 0
       height: 5
       speed: 2
       width: 4
@@ -192,7 +192,7 @@ weapons: [
       circleShooterRadius: 24
       circleShooterRadiusSmooth: 200
       circleShooterRotateSpeed: 4
-	  healAmount: 12
+	  healAmount: 20
 	  pierceArmor:true
 	  lifesteal:0.2
 	  collidesTeam:true
