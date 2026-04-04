@@ -101,7 +101,7 @@ weapons: [
       type: ShootMulti
 	  source: {
       firstShotDelay: 0
-      shots: 1
+      shots: 2
 	      }
 	  dest: [
 	  {
@@ -169,9 +169,9 @@ weapons: [
       }
 	  	  fragBullet: {
       keepVelocity: false
-      lifetime: 1200
+      lifetime: 1600
       drag: 0
-      damage: 40
+      damage: 10
       height: 5
       speed: 2
       width: 4
