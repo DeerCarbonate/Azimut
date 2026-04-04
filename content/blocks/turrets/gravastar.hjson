@@ -1,0 +1,440 @@
+researchCostMultiplier: 0.5
+size: 4
+outlineColor: 0c0c12
+health: 4000
+ammoPerShot: 3
+alwaysUnlocked: false
+squareSprite: false
+coolant: {
+  type: ConsumeLiquid
+  liquid: power
+  amount: 0.08
+}
+shoot: {
+  firstShotDelay: 15
+}
+cooldown: 1200
+shootCone: 9
+recoil: 2
+shootY: 1.4
+reload: 140
+range: 300
+targetAir: true
+targetGround: true
+moveWhileCharging: true
+recoilAmount: 1.8
+restitution: 0.04
+rotateSpeed: 2.205
+shootSound: energy-blade-launch
+ammoTypes: {
+  venerium: {
+  type: BasicBulletType
+  frontColor: ffffff
+  backColor: fcf0bd
+  hitColor: fcf0bd
+  damage: 125
+  despawnSound: energy-blade-hit
+  lifetime: 8.25
+  speed: 32
+  drag: -0.020
+  width: 12
+  height: 24
+  ammoMultiplier: 4
+  collidesTiles: true
+  collidesGround: true
+  buildingDamageMultiplier: 0.1
+  trailChance:1
+  trailInterval:0.5
+  trailRotation:true
+  trailEffect:[
+                        {
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            offsetX:-10
+                            length:30
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+                            cone: 25
+                            baseRotation: 180
+                        }
+{
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            offsetX:-5
+                            length: 40
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+                            cone: 10
+                            baseRotation: 180
+                        }
+                        {
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 4
+                            baseLength: 3
+                            length: 15
+                            line: true
+                            strokeTo: 0.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+                            cone: 25
+                            baseRotation: 180
+                        }
+                    ]
+      keepVelocity: false
+      fragBullets: 14
+      fragRandomSpread: 13.5
+      fragVelocityMin: 0.3
+      fragVelocityMax: 3.4
+	  fragLifeMin: 0.2
+	  fragLifeMax: 2
+      fragBullet: {
+        speed: 6
+        lifetime: 29
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 4
+        pierceDamageFactor: 0.01
+        drag: 0.04
+        damage: 12
+        sprite: mine-bullet
+        width: 10
+        height: 23
+        shrinkY: 0.25
+        shrinkX: 1
+        frontColor: fcf0bd
+        backColor: 00000000
+        hitColor: fcf0bd
+        despawnEffect: none
+        hitEffect: hitBulletColor
+		buildingDamageMultiplier: 0.1
+		}
+      despawnEffect: {
+					type: ParticleEffect 
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+					particles: 4
+					length: 32
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 1.7
+					sizeTo: 0
+					offset: 1
+					lifetime: 20
+  }
+  hitEffect: {
+    type: MultiEffect,
+    effects: [
+      {
+					type: ParticleEffect 
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+					particles: 8
+					cone: 7
+					length: 42
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 7.5
+					sizeTo: 0
+					offset: 1
+					lifetime: 20
+    }
+	{
+			type: ParticleEffect
+			line: true
+			particles: 16
+			lifetime: 54
+			interp: circleOut
+			length: 120
+			cone: -30
+			strokeTo: 0
+			lightColor: fff5b0
+			lenFrom: 9
+			lenTo: 0
+			strokeFrom: 6
+                            colorTo: fcf0bd00
+							colorFrom: ffffff95
+	}
+]
+}
+shootEffect: [
+		{
+					type: ParticleEffect 
+                     colorTo: fcf0bd00
+				     colorFrom: ffffff95
+					particles: 16
+					cone: 5
+					length: 120
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 4.5
+					sizeTo: 0
+					offset: 1
+					lifetime: 50
+		}
+	]
+}
+  compound: {
+  type: BasicBulletType
+  reloadMultiplier:0.8
+  frontColor: ffffff
+  backColor: a3a6ae
+  hitColor: a3a6ae
+  damage: 200
+  despawnSound: energy-blade-hit
+  lifetime: 9.6
+  speed: 28
+  drag: -0.020
+  width: 12
+  height: 24
+  ammoMultiplier: 4
+  collidesTiles: true
+  collidesGround: true
+  buildingDamageMultiplier: 0.1
+  homingPower: 0.04
+  homingRange: 25
+  homingDelay: 0.2
+  trailChance:1
+  trailInterval:0.5
+  trailRotation:true
+  trailEffect:[
+                        {
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            offsetX:-10
+                            length:30
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
+                            cone: 25
+                            baseRotation: 180
+                        }
+{
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 2
+                            offsetX:-5
+                            length: 40
+                            line: true
+                            strokeTo: 1.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
+                            cone: 10
+                            baseRotation: 180
+                        }
+                        {
+                            type: ParticleEffect
+                            lifetime: 18
+                            particles: 4
+                            baseLength: 3
+                            length: 15
+                            line: true
+                            strokeTo: 0.5
+                            lenFrom: 2
+                            lenTo: 5
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
+                            cone: 25
+                            baseRotation: 180
+                        }
+                    ]
+      keepVelocity: false
+      fragBullets: 6
+      fragRandomSpread: 13.5
+      fragVelocityMin: 0.6
+      fragVelocityMax: 1.8
+	  fragLifeMin: 0.5
+	  fragLifeMax: 1.8
+      fragBullet: {
+        speed: 5
+        lifetime: 52
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 4
+        pierceDamageFactor: 0.01
+        drag: 0.02
+        damage: 31
+        sprite: mine-bullet
+        width: 10
+        height: 23
+        shrinkY: 0.25
+        shrinkX: 1
+        frontColor: a3a6ae
+        backColor: 00000000
+        hitColor: a3a6ae
+        trailColor: 66667e
+        trailWidth: 0.4
+        trailLength: 17
+        despawnEffect: none
+        hitEffect: hitBulletColor
+		buildingDamageMultiplier: 0.1
+		homingPower: 0.12
+        homingRange: 100
+        homingDelay: 0
+		}
+      despawnEffect: {
+					type: ParticleEffect 
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
+					particles: 4
+					length: 32
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 1.7
+					sizeTo: 0
+					offset: 1
+					lifetime: 20
+  }
+  hitEffect: {
+    type: MultiEffect
+    effects: [
+      {
+					type: ParticleEffect 
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
+					particles: 8
+					cone: 7
+					length: 42
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 7.5
+					sizeTo: 0
+					offset: 1
+					lifetime: 20
+    }
+	{
+			type: ParticleEffect
+			line: true
+			particles: 16
+			lifetime: 54
+			interp: circleOut
+			length: 120
+			cone: -30
+			strokeTo: 0
+			lightColor: "a3a6ae"
+			lenFrom: 9
+			lenTo: 0
+			strokeFrom: 6
+                            colorTo: "66667e00"
+							colorFrom: "a3a6ae95"
+	}
+]
+}
+shootEffect: [
+		{
+					type: ParticleEffect 
+                     colorTo: "fcf0bd00"
+				     colorFrom: "a3a6ae95"
+					particles: 16
+					cone: 5
+					length: 120
+					baseLength: 2
+					lightScl: 3
+					interp: circleOut
+					lightOpacity: 2
+					spin: 2
+					sizeFrom: 4.5
+					sizeTo: 0
+					offset: 1
+					lifetime: 50
+		}
+	]
+}
+}
+hasPower: false
+hasLiquids: false
+requirements: [
+  cobalt/90,
+  venerium/120
+  platinum/85
+  geliarin/10
+]
+category: turret
+drawer: {
+  type: DrawTurret
+  basePrefix: azimut-
+  heatProgress: charge
+  cooldown: 0.1
+  iconOverride: [
+    -icon
+  ]
+  parts: [
+	{
+      type: RegionPart,
+      suffix: -lade,
+      under: true,
+      mirror: true,
+      heatProgress: heat,
+      progress: warmup,
+	  x: 0,
+	  y: 0,
+	  moveRot: -42,
+	  moveX: 4.5,
+	  moveY: -1,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+		{
+      type: RegionPart,
+      suffix: -blade,
+      under: true,
+      mirror: true,
+      heatProgress: heat,
+      progress: warmup,
+	  x: 0,
+	  y: 0,
+	  moveRot: -62,
+	  moveX: 8.5,
+	  moveY: -1,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+	{
+      type: RegionPart,
+      suffix: -nade,
+      under: false,
+      mirror: true,
+      heatProgress: heat,
+      progress: warmup,
+	  x: 0,
+	  y: 0,
+	  moveRot: -4,
+	  moveY: -1,
+      heatColor: ff4500,
+      heatLayer: 1,
+    }
+  ]
+}
