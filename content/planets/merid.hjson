@@ -38,7 +38,7 @@ solarSystem: alveon
 orbitRadius: 60
 orbitTime: 6000
 alwaysUnlocked: true
-accessible: true
+accessible: false 
 visible: true
 radius: 0.9
 minZoom: 0.40
