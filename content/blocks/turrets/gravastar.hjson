@@ -139,7 +139,7 @@ shootType: {
                 ]
             }
 			        fragBullets: 1
-        fragRandomSpread: 3.2
+        fragRandomSpread: 0.25
         fragOffsetMin: 5
         fragOffsetMax: 10
         fragVelocityMin: 0.7
@@ -152,9 +152,9 @@ shootType: {
           pierce: true
           pierceBuilding: true
           pierceCap: 3
-          homingRange: 30
-          homingDelay: 0.5
-          homingPower: 0.09
+          homingRange: 100
+          homingDelay: 0.1
+          homingPower: 0.12
           hittable: false
           absorbable: true
           reflectable: true
@@ -191,9 +191,9 @@ shootType: {
             pierce: true
             pierceBuilding: true
             pierceCap: 3
-            homingRange: 30
-            homingDelay: 0.5
-            omingPower: 0.09
+            homingRange: 100
+            homingDelay: 0.1
+            homingPower: 0.12
             hittable: false
             absorbable: true
             reflectable: true
