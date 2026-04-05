@@ -28,17 +28,16 @@ coolant: {
     }
 cooldown: 1200
 shootCone: 9
-recoil: 2
+recoil: 1.2
 shootY: 1.4
 reload: 10
-range: 300
 targetAir: true
 targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
 restitution: 0.04
-rotateSpeed: 1.2
-range: 220
+rotateSpeed: 0.95
+range: 265
 shootSound: shootLancer
 shootType: {
       type: RailBulletType
