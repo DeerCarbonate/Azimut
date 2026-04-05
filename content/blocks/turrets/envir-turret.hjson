@@ -1,7 +1,7 @@
 size: 1
 outlineColor: 0c0c1200
 hasItems: false
-hadPower: false
+hasPower: false
 squareSprite: false
 health: 300000
 armor: 3000

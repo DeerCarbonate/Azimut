@@ -106,7 +106,7 @@ shootType: {
                     }
                     {
                         type: ParticleEffect
-                        region: azimut-beam
+                        region: azimut-beam-rude
                         lifetime: 60
                         particles: 1
                         length: 0
