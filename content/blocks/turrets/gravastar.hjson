@@ -138,8 +138,8 @@ shootType: {
                     }
                 ]
             }
-			        fragBullets: 2
-        fragRandomSpread: 5.2
+			        fragBullets: 1
+        fragRandomSpread: 3.2
         fragOffsetMin: 5
         fragOffsetMax: 10
         fragVelocityMin: 0.7
@@ -181,7 +181,7 @@ shootType: {
           bulletInterval: 10
           intervalBullets: 1
           intervalRandomSpread: 10
-          intervalDelay: 45
+          intervalDelay: 0
           intervalBullet: {
             createChance: 0.25
             speed: 3
