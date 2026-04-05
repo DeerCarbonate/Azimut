@@ -64,15 +64,15 @@ shootType: {
 	  }
       shootEffect: [{
         type: ParticleEffect
-        colorFrom: bff6b190
+        colorFrom: bff6b1
         colorTo: bff6b100
         particles: 2
-        cone: 30
-        lifetime: 55
-        length: 30
+        cone: 10
+        lifetime: 65
+        length: 120
         interp: pow2In
-        sizeFrom: 2.1
-        sizeTo: 0
+        sizeFrom: 2
+        sizeTo: 1.8
       }
 	  {
        type: ParticleEffect
@@ -282,5 +282,55 @@ drawer: {
       heatColor: ff4500,
       heatLayer: 1,
     }
+	  {
+    type: EffectSpawnerPart
+    x: 4.5
+    y: -3.75
+    effectRot: 235
+    debugDraw: true
+    mirror: true
+    effectChance: 3.5
+    progress: {
+      type: recoil
+      ops: [
+        {
+          op: curve
+          interp: pow2Out
+        }
+      ]
+    }
+    effect: [
+      {
+        type: ParticleEffect
+        cone: 19.2
+        lifetime: 14
+        baseLength: 0
+        particles: 3
+        length: 35
+        sizeFrom: 0
+        sizeTo: 2.1
+        colorFrom: bff6b120
+        colorTo: b0b0b000
+        interp: pow3Out
+        sizeInterp: pow2In
+        followParent: false
+      }
+      {
+        type: ParticleEffect
+        cone: 17.2
+        lifetime: 23
+        baseLength: 0
+        particles: 5
+        length: 45
+        sizeFrom: 1.3
+        sizeTo: 0
+        colorFrom: bff6b120
+        colorTo: b0b0b000
+        interp: pow3Out
+        sizeInterp: pow2Out
+        followParent: false
+      }
+    ]
+  }
   ]
 }
