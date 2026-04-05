@@ -42,12 +42,12 @@ range: 220
 shootSound: shootLancer
 shootType: {
       type: RailBulletType
-      length: 160
+      length: 185
       damage: 20
 	  lifetime: 1
 	  hitColor: bff6b1
-      pointEffectSpace: 3.125
-	  knockback: 0.3
+      pointEffectSpace: 3.1
+	  knockback: 0.5
 	  despawnEffect: none
       smokeEffect: none
 	  
@@ -58,7 +58,7 @@ shootType: {
       particles: 1
       cone: 0
       region: azimut-despawn
-      sizeFrom: 40
+      sizeFrom: 32
       sizeTo: 0
       colorTo: bff6b100
       baseRotation: 90
