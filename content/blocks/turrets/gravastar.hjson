@@ -17,7 +17,7 @@ cooldown: 1200
 shootCone: 9
 recoil: 2
 shootY: 1.4
-reload: 140
+reload: 20
 range: 300
 targetAir: true
 targetGround: true
@@ -432,7 +432,7 @@ drawer: {
 	  x: 0,
 	  y: 0,
 	  moveRot: 25,
-	  moveY: -9.3,
+	  moveY: -8.8,
 	  moveX: 2.1
       heatColor: ff4500,
       heatLayer: 1,
