@@ -284,12 +284,12 @@ drawer: {
     }
 	  {
     type: EffectSpawnerPart
-    x: 4.9
+    x: 5.7
     y: -1.7
-    effectRot: 235
+    effectRot: 195
     debugDraw: true
     mirror: true
-    effectChance: 3.5
+    effectChance: 0.6
     progress: {
       type: recoil
       ops: [
@@ -305,10 +305,10 @@ drawer: {
         cone: 19.2
         lifetime: 54
         baseLength: 0
-        particles: 3
+        particles: 1
         length: 35
         sizeFrom: 0
-        sizeTo: 2.1
+        sizeTo: 2.6
         colorFrom: bff6b120
         colorTo: b0b0b000
         interp: pow3Out
@@ -320,9 +320,9 @@ drawer: {
         cone: 17.2
         lifetime: 60
         baseLength: 0
-        particles: 5
+        particles: 2
         length: 45
-        sizeFrom: 2.7
+        sizeFrom: 1.7
         sizeTo: 0
         colorFrom: bff6b120
         colorTo: b0b0b000
