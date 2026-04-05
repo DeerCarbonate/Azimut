@@ -5,7 +5,7 @@ health: 4200
 alwaysUnlocked: false
 squareSprite: false
 consumes: {
-power: 5
+power: 5.5
 liquids: [
 iterin/0.05
 ]
@@ -13,17 +13,17 @@ iterin/0.05
 coolant: {
   type: ConsumeLiquid
   liquid: swartzite
-  amount: 0.08
+  amount: 0.16
 }
     shoot: {
       type: ShootBarrel
-      firstShotDelay: 12
+      firstShotDelay: 250
       shotDelay: 4
-      shots: 3
+      shots: 25
 	        barrels: [
-                0, -9.2, 0,
-                0, -9.6, 0,
-                0, -10, 0,
+                0, -10.2, 0,
+                0, -10.6, 0,
+                0, -11, 0,
             ]
     }
 cooldown: 1200
@@ -138,7 +138,87 @@ shootType: {
                     }
                 ]
             }
+			        fragBullets: 2
+        fragRandomSpread: 5.2
+        fragOffsetMin: 60
+        fragOffsetMax: 70
+        fragVelocityMin: 0.7
+        fragVelocityMax: 0.9
+        fragBullet: {
+          speed: 4
+          lifetime: 110
+          drag: 0.01
+          damage: 20
+          pierce: true
+          pierceBuilding: true
+          pierceCap: 3
+          homingRange: 10
+          homingDelay: 5
+          homingPower: 0.03
+          hittable: false
+          absorbable: true
+          reflectable: true
+          sprite: circle-bullet
+          width: 4
+          height: 20
+          shrinkY: 1
+          frontColor: ffffff
+          backColor: bff6b1
+          trailColor: bff6b1
+          trailLength: 30
+          trailWidth: 8
+          despawnEffect: none
+          hitEffect: {
+            particles: 3
+            length: 6
+            lifetime: 25
+            sizeFrom: 3
+            sizeTo: 0
+            colorFrom: ffffff
+            colorTo: bff6b1
+            sizeInterp: pow2In
+          }
+          bulletInterval: 10
+          intervalBullets: 1
+          intervalRandomSpread: 10
+          intervalDelay: 45
+          intervalBullet: {
+            createChance: 0.25
+            speed: 3
+            lifetime: 70
+            drag: 0.007
+            damage: 10
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 3
+            homingRange: 12
+            homingPower: 0.05
+            hittable: false
+            absorbable: true
+            reflectable: true
+            sprite: circle-bullet
+            width: 9
+            height: 48
+            shrinkY: 1
+            frontColor: ffffff
+            backColor: bff6b1
+            trailColor: bff6b1
+            trailLength: 20
+            trailWidth: 4
+            despawnEffect: none
+            hitEffect: {
+              particles: 1
+              length: 6
+              lifetime: 25
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: ffffff
+              colorTo: bff6b1
+              sizeInterp: pow2In
 		}
+	}
+	}
+}
 hasPower: false
 hasLiquids: false
 requirements: [
