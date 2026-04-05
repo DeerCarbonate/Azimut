@@ -17,7 +17,7 @@ targetGround: true
 recoilAmount: 2.3
 rotateSpeed: 1
 shootSound: laser4
-chargeSound: lancerLaserChargeBegin
+chargeSound: chargeLancer
 ammoPerShot: 2
 heatRequirement: 12
 shoot: {
