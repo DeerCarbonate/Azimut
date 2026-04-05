@@ -21,9 +21,9 @@ coolant: {
       shotDelay: 4
       shots: 3
 	        barrels: [
-                0, -8.1, 0,
-                0, -8.5, 0,
-                0, -8.9, 0,
+                0, -9.2, 0,
+                0, -9.6, 0,
+                0, -10, 0,
             ]
     }
 cooldown: 1200
@@ -43,7 +43,7 @@ shootSound: shootLancer
 shootType: {
       type: RailBulletType
       length: 185
-      damage: 20
+      damage: 90
 	  lifetime: 1
 	  hitColor: bff6b1
       pointEffectSpace: 3.1
@@ -65,14 +65,14 @@ shootType: {
 	  }
       shootEffect: [{
         type: ParticleEffect
-        colorFrom: bff6b1
+        colorFrom: bff6b190
         colorTo: bff6b100
         particles: 2
-        cone: 20
-        lifetime: 65
+        cone: 30
+        lifetime: 55
         length: 30
         interp: pow2In
-        sizeFrom: 3.2
+        sizeFrom: 2.1
         sizeTo: 0
       }
 	  {
@@ -80,7 +80,7 @@ shootType: {
        lifetime: 15
        baseLength: 10
        length: 45
-       cone: 35
+       cone: 5
        line: true
        lenFrom: 4
        lenTo: 0
