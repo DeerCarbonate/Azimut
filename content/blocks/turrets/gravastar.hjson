@@ -286,10 +286,10 @@ drawer: {
     type: EffectSpawnerPart
     x: 5.7
     y: -1.7
-    effectRot: 195
+    effectRot: 260
     debugDraw: true
     mirror: true
-    effectChance: 0.6
+    effectChance: 0.7
     progress: {
       type: recoil
       ops: [
@@ -309,7 +309,7 @@ drawer: {
         length: 35
         sizeFrom: 0
         sizeTo: 2.6
-        colorFrom: bff6b120
+        colorFrom: bff6b140
         colorTo: b0b0b000
         interp: pow3Out
         sizeInterp: pow2In
@@ -324,7 +324,7 @@ drawer: {
         length: 45
         sizeFrom: 1.7
         sizeTo: 0
-        colorFrom: bff6b120
+        colorFrom: bff6b140
         colorTo: b0b0b000
         interp: pow3Out
         sizeInterp: pow2Out
