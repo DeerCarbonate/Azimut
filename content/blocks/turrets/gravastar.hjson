@@ -24,7 +24,7 @@ targetGround: true
 moveWhileCharging: true
 recoilAmount: 1.8
 restitution: 0.04
-rotateSpeed: 2.205
+rotateSpeed: 1.2
 shootSound: energy-blade-launch
 ammoTypes: {
   venerium: {
