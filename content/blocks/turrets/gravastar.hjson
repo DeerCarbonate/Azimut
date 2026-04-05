@@ -31,7 +31,7 @@ recoilAmount: 1.8
 restitution: 0.04
 rotateSpeed: 1.2
 range: 220
-shootSound: energy-blade-launch
+shootSound: shootLancer
 shootType: {
   type: BasicBulletType
   frontColor: ffffff
