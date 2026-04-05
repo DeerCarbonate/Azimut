@@ -140,13 +140,13 @@ shootType: {
             }
 			        fragBullets: 2
         fragRandomSpread: 5.2
-        fragOffsetMin: 10
-        fragOffsetMax: 15
+        fragOffsetMin: 5
+        fragOffsetMax: 10
         fragVelocityMin: 0.7
         fragVelocityMax: 0.9
         fragBullet: {
           speed: 4
-          lifetime: 110
+          lifetime: 70
           drag: 0.01
           damage: 20
           pierce: true
@@ -160,7 +160,7 @@ shootType: {
           reflectable: true
           sprite: circle-bullet
           width: 4
-          height: 20
+          height: 17
           shrinkY: 1
           frontColor: ffffff
           backColor: bff6b1
@@ -185,7 +185,7 @@ shootType: {
           intervalBullet: {
             createChance: 0.25
             speed: 3
-            lifetime: 70
+            lifetime: 30
             drag: 0.007
             damage: 10
             pierce: true
@@ -197,8 +197,8 @@ shootType: {
             absorbable: true
             reflectable: true
             sprite: circle-bullet
-            width: 9
-            height: 48
+            width: 4
+            height: 17
             shrinkY: 1
             frontColor: ffffff
             backColor: bff6b1
