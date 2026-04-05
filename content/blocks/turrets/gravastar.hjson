@@ -402,7 +402,7 @@ drawer: {
 	  x: 0,
 	  y: 0,
 	  moveRot: 0,
-	  moveX: 4.5,
+	  moveX: 2.1,
 	  moveY: -2,
       heatColor: ff4500,
       heatLayer: 1,
@@ -417,7 +417,7 @@ drawer: {
 	  x: 0,
 	  y: 0,
 	  moveRot: 0,
-	  moveX: 4.5,
+	  moveX: 2.1,
 	  moveY: 1,
       heatColor: ff4500,
       heatLayer: 1,
@@ -431,24 +431,9 @@ drawer: {
       progress: warmup,
 	  x: 0,
 	  y: 0,
-	  moveRot: -35,
+	  moveRot: 25,
 	  moveY: -1,
-	  moveX: 4.5
-      heatColor: ff4500,
-      heatLayer: 1,
-    }
-    {
-      type: RegionPart,
-      suffix: -caro,
-      under: true,
-      mirror: false,
-      heatProgress: heat,
-      progress: warmup,
-	  x: 0,
-	  y: 0,
-	  moveRot: 0
-	  moveY: 0,
-	  moveX: 0
+	  moveX: 2.9
       heatColor: ff4500,
       heatLayer: 1,
     }
