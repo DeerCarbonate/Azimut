@@ -151,7 +151,7 @@ shootType: {
           damage: 20
           pierce: true
           pierceBuilding: true
-          pierceCap: 3
+          pierceCap: 8
           homingRange: 100
           homingDelay: 0.1
           homingPower: 0.12
@@ -180,7 +180,7 @@ shootType: {
           }
           bulletInterval: 10
           intervalBullets: 1
-          intervalRandomSpread: 10
+          intervalRandomSpread: 0.1
           intervalDelay: 0
           intervalBullet: {
             createChance: 0.25
@@ -190,7 +190,7 @@ shootType: {
             damage: 10
             pierce: true
             pierceBuilding: true
-            pierceCap: 3
+            pierceCap: 6
             homingRange: 100
             homingDelay: 0.1
             homingPower: 0.12
