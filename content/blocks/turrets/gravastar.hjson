@@ -140,8 +140,8 @@ shootType: {
             }
 			        fragBullets: 2
         fragRandomSpread: 5.2
-        fragOffsetMin: 60
-        fragOffsetMax: 70
+        fragOffsetMin: 10
+        fragOffsetMax: 15
         fragVelocityMin: 0.7
         fragVelocityMax: 0.9
         fragBullet: {
@@ -165,8 +165,8 @@ shootType: {
           frontColor: ffffff
           backColor: bff6b1
           trailColor: bff6b1
-          trailLength: 30
-          trailWidth: 8
+          trailLength: 15
+          trailWidth: 0.8
           despawnEffect: none
           hitEffect: {
             particles: 3
@@ -203,8 +203,8 @@ shootType: {
             frontColor: ffffff
             backColor: bff6b1
             trailColor: bff6b1
-            trailLength: 20
-            trailWidth: 4
+            trailLength: 10
+            trailWidth: 0.8
             despawnEffect: none
             hitEffect: {
               particles: 1
